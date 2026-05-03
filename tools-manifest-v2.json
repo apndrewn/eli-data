@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-05-03T19:10:24.402Z",
+  "lastUpdated": "2026-05-03T19:38:13.370Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -56,6 +56,19 @@
       "changelog": ""
     },
     {
+      "id": "playbook_manager",
+      "version": 1,
+      "filename": "playbook_manager.json",
+      "size": 54185,
+      "label": "Playbook Manager",
+      "kind": "tool",
+      "category": "Tools - ELI Core",
+      "audience": [
+        "all"
+      ],
+      "changelog": ""
+    },
+    {
       "id": "__data_catalog",
       "version": 1,
       "filename": "catalog.json",
@@ -73,9 +86,9 @@
     },
     {
       "id": "__data_prompts",
-      "version": 1,
+      "version": 2,
       "filename": "prompts.json",
-      "size": 49563,
+      "size": 48934,
       "label": "AI Prompts",
       "kind": "data",
       "category": "Data",

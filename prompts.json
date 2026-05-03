@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "exportedAt": "2026-05-03T17:44:58.603Z",
   "sectionVersions": {
-    "prompts": 1
+    "prompts": 2
   },
   "sections": {
     "prompts": [
@@ -116,10 +116,6 @@
       {
         "id": "negotiateResponse",
         "text": "You are a Senior Negotiator for Colgate.\nTASK: Write a short, professional email snippet rejecting the clause below based on the identified issue.\nCLAUSE: \"{{clause}}\"\nISSUE: \"{{issue}}\"\nGUIDELINES:\n1. Be polite but firm.\n2. Focus on \"Market Standards\" or \"Company Policy\" as the reason.\n3. Keep it under 3 sentences.\n4. Return ONLY the email body text. Do NOT include \"Subject:\" or \"To:\"."
-      },
-      {
-        "id": "playbookGuidance",
-        "text": "You are a legal playbook expert. Improve the following article-level guidance for a contract review playbook. The article is: \"{{artKey}}\". {{clauseContextBlock}}Current guidance:\n\"{{currentText}}\"\n\nRewrite as concise bullet points using '- ' prefix. Each bullet should be one clear, direct statement about the company's expected position or the key risk if the clause deviates. Do NOT use numbered lists, checklists, headers, sub-bullets, or markdown bold/italic. Keep each bullet to one sentence. Output ONLY the improved guidance text, nothing else."
       },
       {
         "id": "qaAuthorRoster",
