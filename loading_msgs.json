@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "exportedAt": "2026-05-03T17:44:58.609Z",
+  "sectionVersions": {
+    "loadingMsgs": 1
+  },
+  "sections": {
+    "loadingMsgs": [
+      {
+        "id": "__meta",
+        "version": 1,
+        "lastSeenVersion": 1,
+        "lastUpdated": 1777827984675,
+        "source": "cdn"
+      },
+      {
+        "id": "default",
+        "messages": [
+          "📊 Initializing Comprehensive Scan...",
+          "🛡️ Fighting legal plaque...",
+          "🪥 Brushing up grammar & syntax...",
+          "🔍 Identifying typos and deletions...",
+          "🦷 Drilling into the fine print...",
+          "🛡️ Applying Mandatory Colgate/Hill's Rules...",
+          "✨ Whitening the redlines...",
+          "✅ Minty fresh finish..."
+        ]
+      },
+      {
+        "id": "template",
+        "messages": [
+          "📄 Reading template file...",
+          "🔍 Detecting placeholders...",
+          "🧩 Mapping fields to values...",
+          "✨ Preparing fillable form..."
+        ]
+      }
+    ]
+  }
+}

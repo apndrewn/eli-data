@@ -1,0 +1,186 @@
+{
+  "schemaVersion": 1,
+  "exportedAt": "2026-05-03T17:44:58.607Z",
+  "sectionVersions": {
+    "execBriefTerms": 1
+  },
+  "sections": {
+    "execBriefTerms": [
+      {
+        "id": "Amendment",
+        "terms": [
+          "Sections Modified",
+          "Effective Date",
+          "Other Terms Unchanged"
+        ]
+      },
+      {
+        "id": "Clinical Study Agreement",
+        "terms": [
+          "IP & Deliverables",
+          "Publication Control",
+          "Subject Injury & Indemnity",
+          "Fees & Schedule"
+        ]
+      },
+      {
+        "id": "Consulting Agreement",
+        "terms": [
+          "IP & Deliverables",
+          "Confidentiality",
+          "Non-Solicit / Conflicts",
+          "Fees & Schedule"
+        ]
+      },
+      {
+        "id": "Consumer Study Agreement",
+        "terms": [
+          "IP & Deliverables",
+          "Subject Recruitment",
+          "Publication Control",
+          "Fees & Schedule"
+        ]
+      },
+      {
+        "id": "Grant Agreement",
+        "terms": [
+          "Use of Funds",
+          "Reporting Obligations",
+          "IP & Deliverables",
+          "Termination Rights"
+        ]
+      },
+      {
+        "id": "Joint Development Agreement",
+        "terms": [
+          "IP Ownership",
+          "Commercialization Rights",
+          "Funding Commitment",
+          "Term & Termination"
+        ]
+      },
+      {
+        "id": "License Agreement",
+        "terms": [
+          "License Scope",
+          "Royalty / Fees",
+          "User Limits",
+          "Term & Termination"
+        ]
+      },
+      {
+        "id": "Master Services Agreement",
+        "terms": [
+          "IP & Deliverables",
+          "Liability Cap",
+          "Indemnity",
+          "Insurance",
+          "Term & Termination"
+        ]
+      },
+      {
+        "id": "Material Transfer Agreement",
+        "terms": [
+          "Purpose",
+          "Term",
+          "Major Deviations from Standard Agreement"
+        ]
+      },
+      {
+        "id": "Non-Disclosure Agreement",
+        "terms": [
+          "Purpose",
+          "Term",
+          "Major Deviations from Standard Agreement"
+        ]
+      },
+      {
+        "id": "Renewal",
+        "terms": [
+          "New Term",
+          "Pricing Changes",
+          "Other Terms Unchanged"
+        ]
+      },
+      {
+        "id": "Research Agreement",
+        "terms": [
+          "IP & Deliverables",
+          "Publication Control",
+          "Termination Rights",
+          "Fees & Schedule",
+          "Indemnity",
+          "Conflicts of Interest"
+        ]
+      },
+      {
+        "id": "Service Agreement",
+        "terms": [
+          "Services Description",
+          "Fees & Schedule",
+          "Termination Rights",
+          "Liability Cap"
+        ]
+      },
+      {
+        "id": "Speaker Agreement",
+        "terms": [
+          "Honorarium",
+          "Travel & Reimbursement",
+          "IP / Recording Rights",
+          "Confidentiality"
+        ]
+      },
+      {
+        "id": "Sponsorship Agreement",
+        "terms": [
+          "Sponsorship Fees",
+          "Branding Rights",
+          "Term & Termination"
+        ]
+      },
+      {
+        "id": "Statement of Work",
+        "terms": [
+          "IP & Deliverables",
+          "Project Timeline",
+          "Financial Obligations",
+          "Acceptance Criteria"
+        ]
+      },
+      {
+        "id": "Termination",
+        "terms": [
+          "Effective Date",
+          "Surviving Obligations",
+          "Refund / Settlement"
+        ]
+      },
+      {
+        "id": "Visitor Agreement",
+        "terms": [
+          "Confidentiality",
+          "Safety Obligations",
+          "IP from Visit"
+        ]
+      },
+      {
+        "id": "__generic",
+        "terms": [
+          "IP & Deliverables",
+          "Term & Termination",
+          "Liability & Indemnity",
+          "Financial Obligations",
+          "Confidentiality"
+        ]
+      },
+      {
+        "id": "__meta",
+        "version": 1,
+        "lastSeenVersion": 1,
+        "lastUpdated": 1777829515377,
+        "source": "import"
+      }
+    ]
+  }
+}

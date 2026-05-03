@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "exportedAt": "2026-05-03T17:44:58.608Z",
+  "sectionVersions": {
+    "cleanerRules": 1
+  },
+  "sections": {
+    "cleanerRules": [
+      {
+        "id": "Expenses",
+        "title": "💰 Expenses Clause",
+        "options": [
+          {
+            "label": "Colgate Standard Clause",
+            "text": "Colgate will reimburse Company as per Colgate's travel and expense policy after receipt of invoice.",
+            "desc": "Colgate will reimburse Company as per..."
+          },
+          {
+            "label": "No Reimbursement",
+            "text": "Supplier shall be responsible for all expenses incurred in the performance of this Agreement.",
+            "desc": "Supplier pays all their own expenses."
+          }
+        ]
+      },
+      {
+        "id": "__meta",
+        "version": 1,
+        "lastSeenVersion": 1,
+        "lastUpdated": 1777829515377,
+        "source": "import"
+      }
+    ]
+  }
+}

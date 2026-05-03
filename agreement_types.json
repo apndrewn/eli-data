@@ -1,0 +1,250 @@
+{
+  "schemaVersion": 1,
+  "exportedAt": "2026-05-03T17:44:58.606Z",
+  "sectionVersions": {
+    "agreementTypes": 1
+  },
+  "sections": {
+    "agreementTypes": [
+      {
+        "id": "AI / LLM Agreement",
+        "label": "AI / LLM Agreement",
+        "aliases": [
+          "llm",
+          "ai",
+          "artificial intelligence",
+          "machine learning",
+          "generative ai"
+        ]
+      },
+      {
+        "id": "All Agreements",
+        "label": "All Agreements",
+        "aliases": [
+          "all",
+          "any",
+          "universal"
+        ],
+        "pseudo": true
+      },
+      {
+        "id": "Amendment",
+        "label": "Amendment",
+        "aliases": [
+          "amendment",
+          "addendum"
+        ]
+      },
+      {
+        "id": "Clinical Study Agreement",
+        "label": "Clinical Study Agreement",
+        "aliases": [
+          "clinical study",
+          "clinical trial",
+          "clinical research",
+          "investigator agreement",
+          "cro agreement",
+          "protocol agreement"
+        ]
+      },
+      {
+        "id": "Consulting Agreement",
+        "label": "Consulting Agreement",
+        "aliases": [
+          "consulting",
+          "consulting agreement",
+          "consulting services agreement",
+          "professional services",
+          "consultant"
+        ]
+      },
+      {
+        "id": "Consumer Study Agreement",
+        "label": "Consumer Study Agreement",
+        "aliases": [
+          "consumer study",
+          "consumer research",
+          "market research",
+          "consumer testing",
+          "focus group"
+        ]
+      },
+      {
+        "id": "Data Privacy Agreement",
+        "label": "Data Privacy Agreement",
+        "aliases": [
+          "dpa",
+          "data processing",
+          "data privacy",
+          "data protection"
+        ]
+      },
+      {
+        "id": "Grant Agreement",
+        "label": "Grant Agreement",
+        "aliases": [
+          "grant",
+          "funding",
+          "sponsored project"
+        ]
+      },
+      {
+        "id": "Joint Development Agreement",
+        "label": "Joint Development Agreement",
+        "aliases": [
+          "joint development",
+          "jda",
+          "co-development",
+          "development agreement"
+        ]
+      },
+      {
+        "id": "Joint Venture",
+        "label": "Joint Venture",
+        "aliases": [
+          "joint venture",
+          "jv",
+          "partnership agreement"
+        ]
+      },
+      {
+        "id": "License Agreement",
+        "label": "License Agreement",
+        "aliases": [
+          "license",
+          "saas",
+          "software license",
+          "subscription agreement",
+          "eula"
+        ]
+      },
+      {
+        "id": "Master Services Agreement",
+        "label": "Master Services Agreement",
+        "aliases": [
+          "msa",
+          "master services",
+          "master service agreement",
+          "framework agreement"
+        ]
+      },
+      {
+        "id": "Material Transfer Agreement",
+        "label": "Material Transfer Agreement",
+        "aliases": [
+          "mta",
+          "material transfer"
+        ]
+      },
+      {
+        "id": "Non-Disclosure Agreement",
+        "label": "Non-Disclosure Agreement",
+        "aliases": [
+          "nda",
+          "non-disclosure",
+          "non disclosure",
+          "confidentiality",
+          "mutual nda",
+          "unilateral nda"
+        ]
+      },
+      {
+        "id": "Other",
+        "label": "Other",
+        "aliases": []
+      },
+      {
+        "id": "Renewal",
+        "label": "Renewal",
+        "aliases": [
+          "renewal",
+          "extension"
+        ]
+      },
+      {
+        "id": "Research Agreement",
+        "label": "Research Agreement",
+        "aliases": [
+          "research",
+          "sponsored research",
+          "research collaboration"
+        ]
+      },
+      {
+        "id": "Service Agreement",
+        "label": "Service Agreement",
+        "aliases": [
+          "service agreement",
+          "services agreement",
+          "services"
+        ]
+      },
+      {
+        "id": "Speaker Agreement",
+        "label": "Speaker Agreement",
+        "aliases": [
+          "speaker",
+          "speaker agreement",
+          "presenter",
+          "honorarium"
+        ]
+      },
+      {
+        "id": "Sponsorship Agreement",
+        "label": "Sponsorship Agreement",
+        "aliases": [
+          "sponsorship",
+          "sponsorship agreement",
+          "sponsor"
+        ]
+      },
+      {
+        "id": "Statement of Work",
+        "label": "Statement of Work",
+        "aliases": [
+          "sow",
+          "statement of work",
+          "work order",
+          "task order"
+        ]
+      },
+      {
+        "id": "Supply Agreement",
+        "label": "Supply Agreement",
+        "aliases": [
+          "supply",
+          "supply agreement",
+          "procurement",
+          "purchase agreement",
+          "vendor agreement",
+          "supplier"
+        ]
+      },
+      {
+        "id": "Termination",
+        "label": "Termination",
+        "aliases": [
+          "termination",
+          "termination notice"
+        ]
+      },
+      {
+        "id": "Visitor Agreement",
+        "label": "Visitor Agreement",
+        "aliases": [
+          "visitor",
+          "visitor agreement",
+          "site visitor",
+          "guest"
+        ]
+      },
+      {
+        "id": "__meta",
+        "version": 1,
+        "lastSeenVersion": 1,
+        "lastUpdated": 1777829515378,
+        "source": "import"
+      }
+    ]
+  }
+}
