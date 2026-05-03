@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-05-03T17:21:38.829Z",
+  "exportedAt": "2026-05-03T17:33:36.340Z",
   "sectionVersions": {
     "jsonTools": 1
   },
@@ -10,6 +10,10 @@
         "__version": 1,
         "id": "tool_author_studio",
         "label": "Tool Author Studio",
+        "audience": [],
+        "audienceEmails": [
+          "andrew_nemiroff@colpal.com"
+        ],
         "catalog": {
           "id": "app_tool_author_studio",
           "icon": "🔧",
