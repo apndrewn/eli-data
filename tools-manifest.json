@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-05-03T18:10:03.762Z",
+  "lastUpdated": "2026-05-03T18:12:30.955Z",
   "tools": [
     {
       "id": "tool_manager",
-      "version": 4,
+      "version": 1,
       "filename": "tool_manager.json",
       "size": 32372,
       "label": "Tool Manager",
@@ -57,9 +57,9 @@
     },
     {
       "id": "__data_catalog",
-      "version": 2,
+      "version": 1,
       "filename": "catalog.json",
-      "size": 12916,
+      "size": 13620,
       "label": "Master Catalog (Dashboard tiles)",
       "kind": "data",
       "category": "Data",
@@ -73,9 +73,9 @@
     },
     {
       "id": "__data_prompts",
-      "version": 12,
+      "version": 1,
       "filename": "prompts.json",
-      "size": 49564,
+      "size": 49563,
       "label": "AI Prompts",
       "kind": "data",
       "category": "Data",

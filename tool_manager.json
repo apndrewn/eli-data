@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-05-03T18:10:03.561Z",
+  "exportedAt": "2026-05-03T18:12:30.746Z",
   "sectionVersions": {
     "jsonTools": 1
   },
   "sections": {
     "jsonTools": [
       {
-        "__version": 4,
+        "__version": 1,
         "id": "tool_manager",
         "label": "Tool Manager",
         "defaultEnabled": true,

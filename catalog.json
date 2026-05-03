@@ -1,7 +1,9 @@
 {
   "schemaVersion": 1,
   "exportedAt": "2026-05-01T21:18:00Z",
-  "sectionVersions": { "catalog": 2 }, 
+  "sectionVersions": {
+    "catalog": 1
+  },
   "_note": "Master catalog extracted from inline ELI_MASTER_CATALOG (Step 18 offload, 2026-05-01). Each entry has the full CATALOG-EDITOR-SCHEMA field set agreed on 2026-05-01 (excluding `deprecated` per user direction — kept in tracker schema list as a planned future field but not in current JSON). As of Step 18, only `default` is wired into runtime behavior (auto-merge into dashboardApps after import). Other fields (core/order/badging/hoverTip/microLabel/microLabelStyle/gearAction/statKey/requiresApiKey/requiresFooterDoc/tags/experimental) are dormant — populated as data so when the catalog editor + per-field rendering land (Step 19+), no migration is needed. Action field is the JS body string compiled at click-time via new Function() in the existing executeDashboardApp dispatcher.",
   "sections": {
     "catalog": [
@@ -22,7 +24,13 @@
         "statKey": null,
         "requiresApiKey": true,
         "requiresFooterDoc": false,
-        "tags": ["review", "redline", "compare", "risk", "hub"],
+        "tags": [
+          "review",
+          "redline",
+          "compare",
+          "risk",
+          "hub"
+        ],
         "experimental": false,
         "action": "if (typeof window.showLegalReview === 'function') window.showLegalReview('review');"
       },
@@ -43,7 +51,13 @@
         "statKey": "appOpenedError",
         "requiresApiKey": true,
         "requiresFooterDoc": false,
-        "tags": ["grammar", "error", "spelling", "punctuation", "proofread"],
+        "tags": [
+          "grammar",
+          "error",
+          "spelling",
+          "punctuation",
+          "proofread"
+        ],
         "experimental": false,
         "action": "if (typeof runInteractiveErrorCheck === 'function') runInteractiveErrorCheck();"
       },
@@ -64,7 +78,13 @@
         "statKey": null,
         "requiresApiKey": true,
         "requiresFooterDoc": false,
-        "tags": ["summary", "executive", "brief", "approval", "execution"],
+        "tags": [
+          "summary",
+          "executive",
+          "brief",
+          "approval",
+          "execution"
+        ],
         "experimental": false,
         "action": "if (typeof showExecutiveBriefApp === 'function') showExecutiveBriefApp();"
       },
@@ -85,7 +105,12 @@
         "statKey": "appOpenedDraft",
         "requiresApiKey": true,
         "requiresFooterDoc": false,
-        "tags": ["draft", "build", "precedent", "template"],
+        "tags": [
+          "draft",
+          "build",
+          "precedent",
+          "template"
+        ],
         "experimental": false,
         "action": "if (typeof runDocumentScannerBuild === 'function') runDocumentScannerBuild();"
       },
@@ -106,7 +131,12 @@
         "statKey": null,
         "requiresApiKey": true,
         "requiresFooterDoc": false,
-        "tags": ["email", "auto", "draft", "outlook"],
+        "tags": [
+          "email",
+          "auto",
+          "draft",
+          "outlook"
+        ],
         "experimental": false,
         "action": "if (typeof runAiEmailScanner === 'function') runAiEmailScanner();"
       },
@@ -127,7 +157,13 @@
         "statKey": null,
         "requiresApiKey": false,
         "requiresFooterDoc": false,
-        "tags": ["format", "clean", "scrub", "metadata", "spacing"],
+        "tags": [
+          "format",
+          "clean",
+          "scrub",
+          "metadata",
+          "spacing"
+        ],
         "experimental": false,
         "action": "if (typeof showDocuScrubUI === 'function') showDocuScrubUI();"
       },
@@ -148,7 +184,13 @@
         "statKey": null,
         "requiresApiKey": true,
         "requiresFooterDoc": false,
-        "tags": ["chat", "ask", "assistant", "ai", "question"],
+        "tags": [
+          "chat",
+          "ask",
+          "assistant",
+          "ai",
+          "question"
+        ],
         "experimental": false,
         "action": "if (typeof showChatInterface === 'function') showChatInterface();"
       },
@@ -169,7 +211,12 @@
         "statKey": "appOpenedRisk",
         "requiresApiKey": true,
         "requiresFooterDoc": false,
-        "tags": ["risk", "scan", "legal", "representations"],
+        "tags": [
+          "risk",
+          "scan",
+          "legal",
+          "representations"
+        ],
         "experimental": false,
         "action": "if (typeof window.showLegalReview === 'function') window.showLegalReview('risks');"
       },
@@ -190,7 +237,11 @@
         "statKey": "appOpenedCompare",
         "requiresApiKey": true,
         "requiresFooterDoc": false,
-        "tags": ["compare", "template", "diff"],
+        "tags": [
+          "compare",
+          "template",
+          "diff"
+        ],
         "experimental": false,
         "action": "if (typeof window.showLegalReview === 'function') window.showLegalReview('template');"
       },
@@ -211,7 +262,12 @@
         "statKey": null,
         "requiresApiKey": true,
         "requiresFooterDoc": false,
-        "tags": ["redline", "track changes", "review", "ai"],
+        "tags": [
+          "redline",
+          "track changes",
+          "review",
+          "ai"
+        ],
         "experimental": false,
         "action": "if (typeof runRedlineSummary === 'function') runRedlineSummary();"
       },
@@ -232,7 +288,12 @@
         "statKey": "appOpenedEmail",
         "requiresApiKey": true,
         "requiresFooterDoc": false,
-        "tags": ["email", "compose", "helper", "draft"],
+        "tags": [
+          "email",
+          "compose",
+          "helper",
+          "draft"
+        ],
         "experimental": false,
         "action": "if (typeof showEmailComposerApp === 'function') showEmailComposerApp();"
       },
@@ -253,7 +314,13 @@
         "statKey": null,
         "requiresApiKey": true,
         "requiresFooterDoc": false,
-        "tags": ["playbook", "builder", "template", "fallback", "admin"],
+        "tags": [
+          "playbook",
+          "builder",
+          "template",
+          "fallback",
+          "admin"
+        ],
         "experimental": false,
         "action": "if (typeof showPlaybookBuilderApp === 'function') showPlaybookBuilderApp();"
       },
@@ -274,7 +341,12 @@
         "statKey": null,
         "requiresApiKey": true,
         "requiresFooterDoc": false,
-        "tags": ["usage", "radar", "sla", "operational"],
+        "tags": [
+          "usage",
+          "radar",
+          "sla",
+          "operational"
+        ],
         "experimental": false,
         "action": "if (typeof window.showUsageRadarApp === 'function') window.showUsageRadarApp();"
       }
