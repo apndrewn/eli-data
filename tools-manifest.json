@@ -46,5 +46,15 @@
       ],
       "changelog": ""
     }
+     {
+      "id": "example_team_tool",
+      "version": 1,
+      "filename": "example_team_tool.json",
+      "size": 12000,
+      "label": "Example Team Tool",
+      "audience": [],
+      "audienceEmails": ["andrew_nemiroff@colpal.com"],
+      "changelog": "Specific people only"
+    },
   ]
 }
