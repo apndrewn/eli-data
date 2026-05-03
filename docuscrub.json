@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-05-03T00:04:56.178Z",
+  "exportedAt": "2026-05-03T16:58:43.723Z",
   "sectionVersions": {
     "jsonTools": 1
   },
@@ -17,7 +17,7 @@
           "title": "DOCU-SCRUB",
           "desc": "Format Cleaner: Whitens fonts, flosses spacing, removes metadata.",
           "hoverTip": "Clean up document formatting",
-          "category": "Document",
+          "category": "Tools - ELI Core",
           "core": false,
           "default": false,
           "order": 6,

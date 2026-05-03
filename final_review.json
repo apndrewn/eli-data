@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-05-03T00:04:56.245Z",
+  "exportedAt": "2026-05-03T16:58:43.791Z",
   "sectionVersions": {
     "jsonTools": 1
   },
@@ -17,7 +17,7 @@
           "title": "FINAL REVIEW",
           "desc": "Summarizes the agreement's key terms for the requester to approve before execution.",
           "hoverTip": "Generate an executive summary for sign-off",
-          "category": "Document",
+          "category": "Tools - ELI Core",
           "core": true,
           "default": true,
           "order": 3,
