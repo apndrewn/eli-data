@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-05-04T02:19:52.943Z",
+  "lastUpdated": "2026-05-04T02:43:32.809Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -141,6 +141,19 @@
       "label": "Redline Emails",
       "kind": "tool",
       "category": "Tools - ELI Core",
+      "audience": [
+        "all"
+      ],
+      "changelog": ""
+    },
+    {
+      "id": "risk_rules_manager",
+      "version": 1,
+      "filename": "risk_rules_manager.json",
+      "size": 19916,
+      "label": "Risk Rules Manager",
+      "kind": "tool",
+      "category": "Admin",
       "audience": [
         "all"
       ],
