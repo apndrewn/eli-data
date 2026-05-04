@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-05-04T01:58:10.116Z",
+  "lastUpdated": "2026-05-04T02:10:55.807Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -115,6 +115,19 @@
       "label": "Trophy Gallery",
       "kind": "tool",
       "category": "Engagement",
+      "audience": [
+        "all"
+      ],
+      "changelog": ""
+    },
+    {
+      "id": "compare",
+      "version": 1,
+      "filename": "compare.json",
+      "size": 53093,
+      "label": "Compare to Template",
+      "kind": "tool",
+      "category": "Tools - ELI Core",
       "audience": [
         "all"
       ],
