@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "exportedAt": "2026-05-02T16:29:25.414Z",
+  "sectionVersions": {
+    "jsonTools": 1
+  },
+  "sections": {
+    "jsonTools": [
+      {
+        "__version": 1,
+        "id": "tool_focus_flow",
+        "label": "Focus Flow",
+        "catalog": {
+          "id": "focus-flow",
+          "icon": "👁️",
+          "title": "FOCUS FLOW",
+          "desc": "Bionic reading format to focus on core document mechanics.",
+          "hoverTip": "Apply bionic reading format",
+          "category": "Accessibility",
+          "core": false,
+          "default": false,
+          "order": 12,
+          "badging": null,
+          "microLabel": null,
+          "microLabelStyle": null,
+          "gearAction": null,
+          "statKey": null,
+          "requiresApiKey": false,
+          "requiresFooterDoc": false,
+          "tags": [
+            "focus",
+            "bionic",
+            "reading",
+            "accessibility"
+          ],
+          "experimental": false,
+          "action": "if (typeof showFocusFlowUI === 'function') showFocusFlowUI();"
+        },
+        "functions": {
+          "showFocusFlowUI": "function showFocusFlowUI() {\n  var out = document.getElementById(\"output\");\n  out.innerHTML = \"\";\n  out.classList.remove(\"hidden\");\n  var header = createConfigHeader(null, \"👁️\", \"FocusFlow: Simple Mode\");\n  out.appendChild(header);\n  var container = document.createElement(\"div\");\n  container.style.padding = \"0 15px\";\n  container.innerHTML = `\n        <div class=\"tool-box\" style=\"background:#f0f7ff; border-left:5px solid #1565c0; padding:15px; margin-bottom:15px;\">\n            <div class=\"eli-row-spread\">\n                <label class=\"tool-label\" style=\"font-weight:800; color:#1565c0;\">FIXATION INTENSITY</label>\n                <span id=\"fixationLabel\" style=\"font-size:14px; font-weight:800; color:#1565c0;\">40%</span>\n            </div>\n            <input type=\"range\" id=\"focusIntensity\" min=\"10\" max=\"80\" step=\"10\" value=\"40\" style=\"width:100%; cursor:pointer; margin-bottom:10px;\">\n        </div>\n        <button id=\"btnApplyBionic\" class=\"btn-platinum-config primary\" style=\"width:100%; padding:12px; font-weight:800; background:#1565c0; color:white; border-radius:0px; margin-bottom:10px;\">\n            🚀 APPLY FAST BOLDING\n        </button>\n        <button id=\"btnRevertBionic\" class=\"btn-action\" style=\"width:100%; padding:10px; font-weight:700; background:#fff; color:#c62828; border:1px solid #ef9a9a; border-radius:0px;\">\n            ↺ REVERT ALL BOLD\n        </button>\n    `;\n  out.appendChild(container);\n  const slider = document.getElementById(\"focusIntensity\");\n  const label = document.getElementById(\"fixationLabel\");\n  slider.oninput = function () {\n    label.innerText = this.value + \"%\";\n  };\n  document.getElementById(\"btnApplyBionic\").onclick = function () {\n    executeBionicBoldingFast(parseInt(slider.value, 10));\n  };\n  document.getElementById(\"btnRevertBionic\").onclick = function () {\n    revertBionicBolding();\n  };\n  var homeBtn = document.createElement(\"button\");\n  homeBtn.className = \"btn-action\";\n  homeBtn.style.cssText = \"width:calc(100% - 30px); margin:15px; padding:12px; font-weight:800;\";\n  homeBtn.innerText = \"🏠 RETURN TO ELI\";\n  homeBtn.onclick = showHome;\n  out.appendChild(homeBtn);\n}",
+          "revertBionicBolding": "async function revertBionicBolding() {\n  setLoading(!0, \"default\");\n  await Word.run(async (context) => {\n    const doc = context.document;\n    let wasTracking = !1;\n    if (doc.hasOwnProperty(\"changeTrackingMode\")) {\n      doc.load(\"changeTrackingMode\");\n      await context.sync();\n      wasTracking = doc.changeTrackingMode !== \"Off\";\n      if (wasTracking) doc.changeTrackingMode = \"Off\";\n    }\n    doc.body.font.bold = !1;\n    await context.sync();\n    if (wasTracking) {\n      doc.changeTrackingMode = \"TrackAll\";\n      await context.sync();\n    }\n    setLoading(!1);\n    showToast(\"✅ Document Restored to Normal\");\n  }).catch(handleError);\n}",
+          "executeBionicBoldingFast": "async function executeBionicBoldingFast(fixationPercent) {\n  setLoading(!0, \"default\");\n  await Word.run(async (context) => {\n    const doc = context.document;\n    let wasTracking = !1;\n    if (doc.hasOwnProperty(\"changeTrackingMode\")) {\n      doc.load(\"changeTrackingMode\");\n      await context.sync();\n      wasTracking = doc.changeTrackingMode !== \"Off\";\n      if (wasTracking) {\n        doc.changeTrackingMode = \"Off\";\n        await context.sync();\n      }\n    }\n    const paragraphs = doc.body.paragraphs;\n    paragraphs.load(\"items\");\n    await context.sync();\n    let totalWordsProcessed = 0;\n    for (let i = 0; i < paragraphs.items.length; i++) {\n      let para = paragraphs.items[i];\n      para.load(\"text\");\n      await context.sync();\n      const text = para.text;\n      if (!text || text.trim().length <= 1) continue;\n      const words = text.split(/(\\s+)/);\n      totalWordsProcessed += words.filter((w) => w.trim().length > 0).length;\n      const processedHtml = words\n        .map((word) => {\n          if (/^\\s+$/.test(word)) return word;\n          const match = word.match(/^([a-zA-Z0-9''-]+)([^a-zA-Z0-9]*)$/);\n          if (!match) return word;\n          const mainWord = match[1];\n          const punctuation = match[2] || \"\";\n          const boldLen = Math.max(1, Math.ceil(mainWord.length * (fixationPercent / 100)));\n          const boldPart = mainWord.substring(0, boldLen);\n          const regularPart = mainWord.substring(boldLen);\n          return `<span style=\"font-weight:bold;\">${boldPart}</span><span>${regularPart}</span>${punctuation}`;\n        })\n        .join(\"\");\n      para.insertHtml(processedHtml, \"Replace\");\n    }\n    if (wasTracking) {\n      doc.changeTrackingMode = \"TrackAll\";\n      await context.sync();\n    }\n    setLoading(!1);\n    if (typeof recordEliStat !== \"undefined\") {\n      recordEliStat(\"bionicWords\", totalWordsProcessed);\n      if (typeof checkQuirkyTrophy === \"function\") {\n        checkQuirkyTrophy(\"focus_flow\", { words: totalWordsProcessed });\n      }\n    }\n    showToast(\"✅ Applied (Fonts Preserved) - \" + totalWordsProcessed + \" words\");\n  }).catch(handleError);\n}"
+        },
+        "defaultEnabled": true,
+        "audience": [
+          "all"
+        ]
+      }
+    ]
+  }
+}
