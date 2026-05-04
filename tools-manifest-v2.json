@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-05-04T01:00:36.351Z",
+  "lastUpdated": "2026-05-04T01:11:03.295Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -102,6 +102,19 @@
       "label": "ELI5",
       "kind": "tool",
       "category": "Patents",
+      "audience": [
+        "all"
+      ],
+      "changelog": ""
+    },
+    {
+      "id": "trophy_gallery",
+      "version": 1,
+      "filename": "trophy_gallery.json",
+      "size": 29579,
+      "label": "Trophy Gallery",
+      "kind": "tool",
+      "category": "Engagement",
       "audience": [
         "all"
       ],
