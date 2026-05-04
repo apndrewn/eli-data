@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-05-04T01:11:03.295Z",
+  "lastUpdated": "2026-05-04T01:30:49.143Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -236,7 +236,7 @@
       "id": "__data_trophies",
       "version": 1,
       "filename": "trophies.json",
-      "size": 34407,
+      "size": 29120,
       "label": "Trophies Library",
       "kind": "data",
       "category": "Data",
