@@ -1,18 +1,18 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-05-04T01:52:19.905Z",
+  "exportedAt": "2026-05-04T01:58:09.765Z",
   "sectionVersions": {
     "jsonTools": 1
   },
   "sections": {
     "jsonTools": [
       {
-        "__version": 5,
+        "__version": 6,
         "id": "tool_author_studio",
         "label": "Tool Author Studio",
         "audience": [],
         "audienceEmails": [
-          "test@test.com"
+          "andrew_nemiroff@colpal.com"
         ],
         "catalog": {
           "id": "app_tool_author_studio",
