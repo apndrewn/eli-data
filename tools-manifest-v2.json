@@ -4,16 +4,16 @@
   "tools": [
     {
       "id": "tool_manager",
-      "version": 4,
+      "version": 5,
       "filename": "tool_manager.json",
-      "size": 44400,
+      "size": 45138,
       "label": "Tool Manager",
       "kind": "tool",
       "category": "Tools - ELI Core",
       "audience": [
         "all"
       ],
-      "changelog": "Added per-tool 'In menus / Hidden' visibility toggle"
+      "changelog": "Visibility toggle now reflects effective state (respects hardcoded-hidden list)"
     },
     {
       "id": "tool_author_studio",
