@@ -4,16 +4,16 @@
   "tools": [
     {
       "id": "tool_manager",
-      "version": 5,
+      "version": 6,
       "filename": "tool_manager.json",
-      "size": 45138,
+      "size": 45875,
       "label": "Tool Manager",
       "kind": "tool",
       "category": "Tools - ELI Core",
       "audience": [
         "all"
       ],
-      "changelog": "Visibility toggle now reflects effective state (respects hardcoded-hidden list)"
+      "changelog": "v6: Tool list now shows install date (mm/dd/yy) next to the version badge — e.g. (v3 · 05/06/26). installedAt is stamped on every tool import via _dataHubMergeAndSave so newly installed/updated tools carry the date going forward; older tools without the timestamp just show (v3) until next update."
     },
     {
       "id": "tool_author_studio",
