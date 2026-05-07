@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-05-07T04:30:00.000Z",
+  "lastUpdated": "2026-05-07T04:45:00.000Z",
   "tools": [
     {
       "id": "tool_manager",
-      "version": 6,
+      "version": 7,
       "filename": "tool_manager.json",
-      "size": 45875,
+      "size": 47245,
       "label": "Tool Manager",
       "kind": "tool",
       "category": "Tools - ELI Core",
       "audience": [
         "all"
       ],
-      "changelog": "v6: Tool list now shows install date (mm/dd/yy) next to the version badge — e.g. (v3 · 05/06/26). installedAt is stamped on every tool import via _dataHubMergeAndSave so newly installed/updated tools carry the date going forward; older tools without the timestamp just show (v3) until next update."
+      "changelog": "v7: Force Reinstall picker now flags confidential entries with a 🔒 marker and adds a '🔒 Proprietary' quick-select link (selects only the encrypted-distribution libraries — playbooks, requesters, risk rules, compare-draft templates, build-draft templates). Faster re-test cycle when iterating on encrypted blobs."
     },
     {
       "id": "tool_author_studio",
