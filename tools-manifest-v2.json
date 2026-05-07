@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-05-06T00:00:00.000Z",
+  "lastUpdated": "2026-05-07T04:00:00.000Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -122,16 +122,16 @@
     },
     {
       "id": "compare",
-      "version": 5,
+      "version": 6,
       "filename": "compare.json",
-      "size": 64782,
+      "size": 68964,
       "label": "Compare to Template",
       "kind": "tool",
       "category": "Tools - ELI Core",
       "audience": [
         "all"
       ],
-      "changelog": "v5: Added '🔍 Raw transitions debug' button under the Executive Summary card. Click it to open a modal showing the full compareSnapshotsRedlineAware output (per-transition type/text/author/paragraphIdx + summary counts) with a copy-JSON button. Use to diagnose mismatches between what you actually changed and what the report claims."
+      "changelog": "v6: Detects 'hidden redlines' — text edits the counterparty made WITHOUT enabling Track Changes. Per-paragraph dual-diff (accepted-view + rejected-view) flags any change appearing in BOTH views as unmarked content. Surfaces in a yellow ⚠️ warning card above the executive summary, with paragraph + edit text, and feeds into the AI prompt as HIGH-RISK evidence. Catches whole-paragraph additions and inline word-level edits."
     },
     {
       "id": "redline_email_pack",
@@ -286,6 +286,23 @@
         "trophies"
       ],
       "changelog": ""
+    },
+    {
+      "id": "__data_requesters_proprietary",
+      "version": 1,
+      "filename": "requesters.enc.json",
+      "size": 39398,
+      "label": "Requesters (Proprietary)",
+      "kind": "data",
+      "category": "Data",
+      "audience": [
+        "all"
+      ],
+      "sections": [
+        "requesters"
+      ],
+      "confidential": true,
+      "changelog": "v1: First proprietary distribution — 383 internal requester contacts. Encrypted with AES-GCM; requires library cipher in Settings → Global to decrypt. Distribute the cipher to teammates out-of-band (not via this repo)."
     }
   ]
 }
