@@ -122,16 +122,16 @@
     },
     {
       "id": "compare",
-      "version": 3,
+      "version": 4,
       "filename": "compare.json",
-      "size": 57974,
+      "size": 59094,
       "label": "Compare to Template",
       "kind": "tool",
       "category": "Tools - ELI Core",
       "audience": [
         "all"
       ],
-      "changelog": "v3: (1) Merge fragmented OOXML insertions/deletions so one user-edit doesn't show as N transitions when Word splits at run boundaries. (2) Deep Dive compare now also receives the redline transitions block as authoritative evidence (was pure cleaned-text only — missed accept/reject decisions when text was nearly identical)."
+      "changelog": "v4: Stop sending retained-pending transitions to the AI as evidence. Same redline pending in both versions = NOT a change between versions; previous behavior listed each as a finding and AI dutifully reported them. Now filtered out; if no real state changes exist, an explicit 'no changes between versions' sentinel is sent."
     },
     {
       "id": "redline_email_pack",
