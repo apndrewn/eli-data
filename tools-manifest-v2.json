@@ -122,16 +122,16 @@
     },
     {
       "id": "compare",
-      "version": 4,
+      "version": 5,
       "filename": "compare.json",
-      "size": 59094,
+      "size": 64782,
       "label": "Compare to Template",
       "kind": "tool",
       "category": "Tools - ELI Core",
       "audience": [
         "all"
       ],
-      "changelog": "v4: Stop sending retained-pending transitions to the AI as evidence. Same redline pending in both versions = NOT a change between versions; previous behavior listed each as a finding and AI dutifully reported them. Now filtered out; if no real state changes exist, an explicit 'no changes between versions' sentinel is sent."
+      "changelog": "v5: Added '🔍 Raw transitions debug' button under the Executive Summary card. Click it to open a modal showing the full compareSnapshotsRedlineAware output (per-transition type/text/author/paragraphIdx + summary counts) with a copy-JSON button. Use to diagnose mismatches between what you actually changed and what the report claims."
     },
     {
       "id": "redline_email_pack",
