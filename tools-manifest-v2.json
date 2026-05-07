@@ -122,16 +122,16 @@
     },
     {
       "id": "compare",
-      "version": 1,
+      "version": 2,
       "filename": "compare.json",
-      "size": 53093,
+      "size": 56707,
       "label": "Compare to Template",
       "kind": "tool",
       "category": "Tools - ELI Core",
       "audience": [
         "all"
       ],
-      "changelog": ""
+      "changelog": "Version-history Executive Summary compare now uses redline-aware OOXML diff (compareSnapshotsRedlineAware) to detect accepted/rejected/new redline state transitions; AI prompt receives explicit transitions list as primary evidence, falls back to text diff for snapshots taken before bodyOoxml capture."
     },
     {
       "id": "redline_email_pack",
