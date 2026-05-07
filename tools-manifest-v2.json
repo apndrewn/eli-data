@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-05-07T05:15:00.000Z",
+  "lastUpdated": "2026-05-07T04:17:27.708Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -13,7 +13,7 @@
       "audience": [
         "all"
       ],
-      "changelog": "v7: Force Reinstall picker now flags confidential entries with a 🔒 marker and adds a '🔒 Proprietary' quick-select link (selects only the encrypted-distribution libraries — playbooks, requesters, risk rules, compare-draft templates, build-draft templates). Faster re-test cycle when iterating on encrypted blobs."
+      "changelog": "v7: Force Reinstall picker now flags confidential entries with a ð marker and adds a 'ð Proprietary' quick-select link (selects only the encrypted-distribution libraries â playbooks, requesters, risk rules, compare-draft templates, build-draft templates). Faster re-test cycle when iterating on encrypted blobs."
     },
     {
       "id": "tool_author_studio",
@@ -41,7 +41,7 @@
       "audienceEmails": [
         "andrew_nemiroff@colpal.com"
       ],
-      "changelog": "v2: Fix ALP_SECTIONS undefined error on tile open. Bundler's splitFunctions only captures top-level function blocks — moved the section table inside _alpSections() so it survives the bundle. v1: Encrypt + push proprietary libraries to eli-data via GitHub Contents API."
+      "changelog": "v2: Fix ALP_SECTIONS undefined error on tile open. Bundler's splitFunctions only captures top-level function blocks â moved the section table inside _alpSections() so it survives the bundle. v1: Encrypt + push proprietary libraries to eli-data via GitHub Contents API."
     },
     {
       "id": "docuscrub",
@@ -145,7 +145,7 @@
       "audience": [
         "all"
       ],
-      "changelog": "v6: Detects 'hidden redlines' — text edits the counterparty made WITHOUT enabling Track Changes. Per-paragraph dual-diff (accepted-view + rejected-view) flags any change appearing in BOTH views as unmarked content. Surfaces in a yellow ⚠️ warning card above the executive summary, with paragraph + edit text, and feeds into the AI prompt as HIGH-RISK evidence. Catches whole-paragraph additions and inline word-level edits."
+      "changelog": "v6: Detects 'hidden redlines' â text edits the counterparty made WITHOUT enabling Track Changes. Per-paragraph dual-diff (accepted-view + rejected-view) flags any change appearing in BOTH views as unmarked content. Surfaces in a yellow â ï¸ warning card above the executive summary, with paragraph + edit text, and feeds into the AI prompt as HIGH-RISK evidence. Catches whole-paragraph additions and inline word-level edits."
     },
     {
       "id": "redline_email_pack",
@@ -203,7 +203,7 @@
       "sections": [
         "prompts"
       ],
-      "changelog": "sectionEvaluate: rewritten to handle multi-clause sections — AI now told the clauses array contains every paragraph in the section and to evaluate cumulative impact across all of them, not focus on one"
+      "changelog": "sectionEvaluate: rewritten to handle multi-clause sections â AI now told the clauses array contains every paragraph in the section and to evaluate cumulative impact across all of them, not focus on one"
     },
     {
       "id": "__data_agreement_types",
@@ -303,9 +303,9 @@
     },
     {
       "id": "__data_requesters_proprietary",
-      "version": 1,
+      "version": 2,
       "filename": "requesters.enc.json",
-      "size": 39398,
+      "size": 39610,
       "label": "Requesters (Proprietary)",
       "kind": "data",
       "category": "Data",
@@ -316,7 +316,7 @@
         "requesters"
       ],
       "confidential": true,
-      "changelog": "v1: First proprietary distribution — 383 internal requester contacts. Encrypted with AES-GCM; requires library cipher in Settings → Global to decrypt. Distribute the cipher to teammates out-of-band (not via this repo)."
+      "changelog": "v2 · 385 rows · pushed 2026-05-07T04:17:27Z"
     },
     {
       "id": "__data_playbooks_proprietary",
@@ -333,7 +333,7 @@
         "playbooks"
       ],
       "confidential": true,
-      "changelog": "v1: First proprietary distribution — 12 agreement-type playbooks with clause mappings. Encrypted with AES-GCM; requires library cipher in Settings → Global to decrypt."
+      "changelog": "v1: First proprietary distribution â 12 agreement-type playbooks with clause mappings. Encrypted with AES-GCM; requires library cipher in Settings â Global to decrypt."
     },
     {
       "id": "__data_risk_rules_proprietary",
@@ -350,7 +350,7 @@
         "riskRules"
       ],
       "confidential": true,
-      "changelog": "v1: First proprietary distribution. Encrypted with AES-GCM; requires library cipher in Settings → Global to decrypt."
+      "changelog": "v1: First proprietary distribution. Encrypted with AES-GCM; requires library cipher in Settings â Global to decrypt."
     },
     {
       "id": "__data_templates_proprietary",
@@ -367,7 +367,7 @@
         "templates"
       ],
       "confidential": true,
-      "changelog": "v1: First proprietary distribution — 10 compare-draft templates. Encrypted with AES-GCM; requires library cipher in Settings → Global to decrypt."
+      "changelog": "v1: First proprietary distribution â 10 compare-draft templates. Encrypted with AES-GCM; requires library cipher in Settings â Global to decrypt."
     },
     {
       "id": "__data_bd_templates_proprietary",
@@ -384,7 +384,7 @@
         "bd_templates"
       ],
       "confidential": true,
-      "changelog": "v1: First proprietary distribution — 6 build-draft templates with embedded Word docs. Encrypted with AES-GCM; requires library cipher in Settings → Global to decrypt. Note: ~20 MB download — first install takes ~30 seconds depending on connection."
+      "changelog": "v1: First proprietary distribution â 6 build-draft templates with embedded Word docs. Encrypted with AES-GCM; requires library cipher in Settings â Global to decrypt. Note: ~20 MB download â first install takes ~30 seconds depending on connection."
     }
   ]
 }
