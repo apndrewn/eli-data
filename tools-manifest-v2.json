@@ -177,9 +177,9 @@
     },
     {
       "id": "__data_prompts",
-      "version": 5,
+      "version": 6,
       "filename": "prompts.json",
-      "size": 45745,
+      "size": 46614,
       "label": "AI Prompts",
       "kind": "data",
       "category": "Data",
@@ -189,7 +189,7 @@
       "sections": [
         "prompts"
       ],
-      "changelog": "errorCheck: cross-reference check (Section X.Y validation against SECTION INDEX) moved into library prompt"
+      "changelog": "sectionEvaluate: rewritten to handle multi-clause sections — AI now told the clauses array contains every paragraph in the section and to evaluate cumulative impact across all of them, not focus on one"
     },
     {
       "id": "__data_agreement_types",
