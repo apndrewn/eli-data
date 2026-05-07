@@ -177,9 +177,9 @@
     },
     {
       "id": "__data_prompts",
-      "version": 6,
+      "version": 13,
       "filename": "prompts.json",
-      "size": 46614,
+      "size": 46612,
       "label": "AI Prompts",
       "kind": "data",
       "category": "Data",
