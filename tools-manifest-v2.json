@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-05-07T13:30:00.000Z",
+  "lastUpdated": "2026-05-07T22:14:12.159Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -13,7 +13,7 @@
       "audience": [
         "all"
       ],
-      "changelog": "v7: Force Reinstall picker now flags confidential entries with a 🔒 marker and adds a '🔒 Proprietary' quick-select link (selects only the encrypted-distribution libraries — playbooks, requesters, risk rules, compare-draft templates, build-draft templates)."
+      "changelog": "v7: Force Reinstall picker now flags confidential entries with a ð marker and adds a 'ð Proprietary' quick-select link (selects only the encrypted-distribution libraries â playbooks, requesters, risk rules, compare-draft templates, build-draft templates)."
     },
     {
       "id": "tool_author_studio",
@@ -41,7 +41,7 @@
       "audienceEmails": [
         "andrew_nemiroff@colpal.com"
       ],
-      "changelog": "v5: Reverted v4 selective per-row push — back to bulk push for every section. BD Templates and Playbooks pinned to top of proprietary group."
+      "changelog": "v5: Reverted v4 selective per-row push â back to bulk push for every section. BD Templates and Playbooks pinned to top of proprietary group."
     },
     {
       "id": "docuscrub",
@@ -145,7 +145,7 @@
       "audience": [
         "all"
       ],
-      "changelog": "v6: Detects 'hidden redlines' — text edits the counterparty made WITHOUT enabling Track Changes. Per-paragraph dual-diff (accepted-view + rejected-view) flags any change appearing in BOTH views as unmarked content. Surfaces in a yellow ⚠️ warning card above the executive summary, with paragraph + edit text, and feeds into the AI prompt as HIGH-RISK evidence."
+      "changelog": "v6: Detects 'hidden redlines' â text edits the counterparty made WITHOUT enabling Track Changes. Per-paragraph dual-diff (accepted-view + rejected-view) flags any change appearing in BOTH views as unmarked content. Surfaces in a yellow â ï¸ warning card above the executive summary, with paragraph + edit text, and feeds into the AI prompt as HIGH-RISK evidence."
     },
     {
       "id": "redline_email_pack",
@@ -203,7 +203,7 @@
       "sections": [
         "prompts"
       ],
-      "changelog": "sectionEvaluate: rewritten to handle multi-clause sections ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ AI now told the clauses array contains every paragraph in the section and to evaluate cumulative impact across all of them, not focus on one"
+      "changelog": "sectionEvaluate: rewritten to handle multi-clause sections ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ AI now told the clauses array contains every paragraph in the section and to evaluate cumulative impact across all of them, not focus on one"
     },
     {
       "id": "__data_agreement_types",
@@ -267,7 +267,7 @@
       "sections": [
         "cleanerRules"
       ],
-      "changelog": "v3 · 2 rows · pushed 2026-05-07T13:29:10Z"
+      "changelog": "v3 Â· 2 rows Â· pushed 2026-05-07T13:29:10Z"
     },
     {
       "id": "__data_loading_msgs",
@@ -283,7 +283,7 @@
       "sections": [
         "loadingMsgs"
       ],
-      "changelog": "v3 ÃÂ· 3 rows ÃÂ· pushed 2026-05-07T13:25:23Z"
+      "changelog": "v3 ÃÂÃÂ· 3 rows ÃÂÃÂ· pushed 2026-05-07T13:25:23Z"
     },
     {
       "id": "__data_trophies",
@@ -303,7 +303,7 @@
     },
     {
       "id": "__data_requesters_proprietary",
-      "version": 2,
+      "version": 3,
       "filename": "requesters.enc.json",
       "size": 39610,
       "label": "Requesters (Proprietary)",
@@ -316,7 +316,7 @@
         "requesters"
       ],
       "confidential": true,
-      "changelog": "v2 ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ· 385 rows ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ· pushed 2026-05-07T04:17:27Z"
+      "changelog": "v3 · 385 rows · pushed 2026-05-07T22:14:12Z"
     },
     {
       "id": "__data_playbooks_proprietary",
@@ -333,7 +333,7 @@
         "playbooks"
       ],
       "confidential": true,
-      "changelog": "v1: First proprietary distribution ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ 12 agreement-type playbooks with clause mappings. Encrypted with AES-GCM; requires library cipher in Settings ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ Global to decrypt."
+      "changelog": "v1: First proprietary distribution ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ 12 agreement-type playbooks with clause mappings. Encrypted with AES-GCM; requires library cipher in Settings ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ Global to decrypt."
     },
     {
       "id": "__data_risk_rules_proprietary",
@@ -350,7 +350,7 @@
         "riskRules"
       ],
       "confidential": true,
-      "changelog": "v1: First proprietary distribution. Encrypted with AES-GCM; requires library cipher in Settings ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ Global to decrypt."
+      "changelog": "v1: First proprietary distribution. Encrypted with AES-GCM; requires library cipher in Settings ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ Global to decrypt."
     },
     {
       "id": "__data_templates_proprietary",
@@ -367,7 +367,7 @@
         "templates"
       ],
       "confidential": true,
-      "changelog": "v1: First proprietary distribution ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ 10 compare-draft templates. Encrypted with AES-GCM; requires library cipher in Settings ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ Global to decrypt."
+      "changelog": "v1: First proprietary distribution ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ 10 compare-draft templates. Encrypted with AES-GCM; requires library cipher in Settings ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ Global to decrypt."
     },
     {
       "id": "__data_team_commentary",
@@ -401,7 +401,7 @@
         "bd_templates"
       ],
       "confidential": true,
-      "changelog": "v2 ÃÂÃÂÃÂÃÂ· 7 rows ÃÂÃÂÃÂÃÂ· pushed 2026-05-07T04:18:54Z"
+      "changelog": "v2 ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ· 7 rows ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ· pushed 2026-05-07T04:18:54Z"
     }
   ]
 }
