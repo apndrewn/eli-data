@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-05-08T13:24:21.627Z",
+  "lastUpdated": "2026-05-08T13:26:26.044Z",
   "tools": [
     {
       "id": "tool_manager",
-      "version": "1.1",
+      "version": "1.2",
       "filename": "tool_manager.json",
       "size": 53930,
       "label": "Tool Manager",
@@ -13,8 +13,8 @@
       "audience": [
         "all"
       ],
-      "changelog": "v1.1: Renders string-or-int display versions; force-reinstall clears releasedAt; FRI picker uses _eliRemoteIsNewer for update detection.",
-      "lastUpdated": "2026-05-08T13:13:13.502Z"
+      "changelog": "v1.2: detection test (no code change).",
+      "lastUpdated": "2026-05-08T13:26:26.044Z"
     },
     {
       "id": "tool_author_studio",
@@ -100,7 +100,7 @@
     },
     {
       "id": "tool_focus_flow",
-      "version": "1.1",
+      "version": "1.2",
       "filename": "focus_flow_tool.json",
       "size": 6553,
       "label": "Focus Flow",
@@ -109,8 +109,8 @@
       "audience": [
         "all"
       ],
-      "changelog": "v1.1: timestamp-driven detection test",
-      "lastUpdated": "2026-05-08T13:24:21.627Z"
+      "changelog": "v1.2: detection test (no code change).",
+      "lastUpdated": "2026-05-08T13:26:26.044Z"
     },
     {
       "id": "tool_eli5",
