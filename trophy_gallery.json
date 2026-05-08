@@ -1,13 +1,14 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-05-04T02:43:32.590Z",
+  "exportedAt": "2026-05-08T14:05:33.368Z",
   "sectionVersions": {
     "jsonTools": 1
   },
   "sections": {
     "jsonTools": [
       {
-        "__version": 1,
+        "__version": "1.1",
+        "releasedAt": "2026-05-08T14:05:33.368Z",
         "id": "trophy_gallery",
         "label": "Trophy Gallery",
         "defaultEnabled": true,
@@ -37,6 +38,7 @@
             "achievement"
           ],
           "experimental": false,
+          "hidden": true,
           "action": "if (typeof showTrophyGallery === 'function') showTrophyGallery();"
         },
         "functions": {
