@@ -191,9 +191,9 @@
     },
     {
       "id": "__data_prompts",
-      "version": 13,
+      "version": 14,
       "filename": "prompts.json",
-      "size": 46612,
+      "size": 47061,
       "label": "AI Prompts",
       "kind": "data",
       "category": "Data",
@@ -203,7 +203,7 @@
       "sections": [
         "prompts"
       ],
-      "changelog": "sectionEvaluate: rewritten to handle multi-clause sections — AI now told the clauses array contains every paragraph in the section and to evaluate cumulative impact across all of them, not focus on one"
+      "changelog": "v14: sectionEvaluate now scales Net Impact length to change count — 1-2 sentences (~30-50 words) for simple sections, expanding to 3-4 sentences (cap ~120 words) only when 4+ material changes warrant it. No padding, every sentence must add a fact."
     },
     {
       "id": "__data_agreement_types",
