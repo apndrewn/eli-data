@@ -1,18 +1,21 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-05-08T13:19:27.771Z",
+  "exportedAt": "2026-05-08T13:36:14.783Z",
   "sectionVersions": {
     "jsonTools": 1
   },
   "sections": {
     "jsonTools": [
       {
-        "__version": "1.1",
-        "releasedAt": "2026-05-08T13:19:27.771Z",
+        "__version": "1.2",
+        "releasedAt": "2026-05-08T13:36:14.783Z",
         "id": "admin_library_publisher",
         "label": "Admin Library Publisher",
         "defaultEnabled": true,
         "audience": [],
+        "audienceEmails": [
+          "andrew_nemiroff@colpal.com"
+        ],
         "catalog": {
           "id": "app_admin_library_publisher",
           "icon": "🛠️",
