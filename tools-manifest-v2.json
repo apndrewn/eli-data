@@ -191,9 +191,9 @@
     },
     {
       "id": "__data_prompts",
-      "version": 15,
+      "version": 16,
       "filename": "prompts.json",
-      "size": 47163,
+      "size": 47147,
       "label": "AI Prompts",
       "kind": "data",
       "category": "Data",
@@ -203,7 +203,7 @@
       "sections": [
         "prompts"
       ],
-      "changelog": "v15: Net Impact tightened — 1 sentence (~15-30 words) default, 2 sentences only when 4+ distinct changes warrant it, 60-word hard cap. FACTUAL ONLY: just what Colgate must/can't/loses — no interpretation, no severity words, no lead-ins."
+      "changelog": "v16: Net Impact length tweaked — 2 sentences (~30-50 words) default (v15's 1-sentence default felt too short), 3 sentences only when 4+ distinct changes warrant it, 80-word hard cap. FACTUAL ONLY rule still in force."
     },
     {
       "id": "__data_agreement_types",
