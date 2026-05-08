@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-05-08T15:27:21.925Z",
+  "lastUpdated": "2026-05-08T15:31:58.090Z",
   "tools": [
     {
       "id": "tool_manager",
-      "version": "1.5",
+      "version": "1.6",
       "filename": "tool_manager.json",
-      "size": 65861,
+      "size": 68627,
       "label": "Tool Manager",
       "kind": "tool",
       "category": "Tools - ELI Core",
       "audience": [
         "all"
       ],
-      "changelog": "v1.5: Bundles support — renders manifest bundle entries (kind:\"bundle\") as expandable groups with aggregate status (X of Y installed, Z updates) + Update-all / Install-all buttons. Members can still be installed/updated standalone.",
-      "lastUpdated": "2026-05-08T15:21:06.834Z"
+      "changelog": "v1.6: Bundle rows auto-expand when there are pending downloads (members to install or update). Colored left-border per bundle: orange=updates pending, green=installs pending, purple=all installed. Force Reinstall picker re-organized by bundle (mirrors main TM layout).",
+      "lastUpdated": "2026-05-08T15:31:58.090Z"
     },
     {
       "id": "tool_author_studio",
