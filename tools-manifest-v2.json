@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-05-08T14:52:58.550Z",
+  "lastUpdated": "2026-05-08T14:53:00.192Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -251,9 +251,9 @@
     },
     {
       "id": "__data_email_templates",
-      "version": 1,
+      "version": "1.1",
       "filename": "email_templates.json",
-      "size": 970,
+      "size": 862,
       "label": "Email Templates",
       "kind": "data",
       "category": "Data",
@@ -263,7 +263,8 @@
       "sections": [
         "emailTemplates"
       ],
-      "changelog": "v1 · ? rows"
+      "changelog": "v1.1 · 2 rows · pushed 2026-05-08T14:53:00Z",
+      "lastUpdated": "2026-05-08T14:53:00.192Z"
     },
     {
       "id": "__data_cleaner_rules",
