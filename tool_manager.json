@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-05-08T13:13:13.502Z",
+  "exportedAt": "2026-05-08T13:26:26.044Z",
   "sectionVersions": {
     "jsonTools": 1
   },
   "sections": {
     "jsonTools": [
       {
-        "__version": "1.1",
-        "releasedAt": "2026-05-08T13:13:13.502Z",
+        "__version": "1.2",
+        "releasedAt": "2026-05-08T13:26:26.044Z",
         "id": "tool_manager",
         "label": "Tool Manager",
         "defaultEnabled": true,
