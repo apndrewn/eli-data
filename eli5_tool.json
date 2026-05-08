@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-05-08T13:50:46.161Z",
+  "exportedAt": "2026-05-08T14:44:10.075Z",
   "sectionVersions": {
     "jsonTools": 1
   },
   "sections": {
     "jsonTools": [
       {
-        "__version": "1.3",
+        "__version": "1.4",
         "id": "tool_eli5",
         "label": "ELI5",
         "catalog": {
           "id": "app_eli5",
           "icon": "🧸",
-          "title": "ELI5 EXPLAINER",
+          "title": "ELI5 EXPLAINER2",
           "desc": "Simplifies complex documents for different age groups.",
           "hoverTip": "Explain it like I'm 5",
           "category": "Patents",
@@ -21,10 +21,6 @@
           "default": false,
           "order": 15,
           "badging": null,
-          "microLabel": null,
-          "microLabelStyle": null,
-          "gearAction": null,
-          "statKey": null,
           "requiresApiKey": true,
           "requiresFooterDoc": false,
           "tags": [
@@ -43,7 +39,7 @@
         "audience": [
           "all"
         ],
-        "releasedAt": "2026-05-08T13:50:46.161Z"
+        "releasedAt": "2026-05-08T14:44:10.075Z"
       }
     ]
   }
