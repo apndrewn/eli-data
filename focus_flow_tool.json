@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-05-02T16:29:25.414Z",
+  "exportedAt": "2026-05-08T13:24:21.627Z",
   "sectionVersions": {
     "jsonTools": 1
   },
   "sections": {
     "jsonTools": [
       {
-        "__version": 1,
+        "__version": "1.1",
         "id": "tool_focus_flow",
         "label": "Focus Flow",
         "catalog": {
@@ -44,7 +44,8 @@
         "defaultEnabled": true,
         "audience": [
           "all"
-        ]
+        ],
+        "releasedAt": "2026-05-08T13:24:21.627Z"
       }
     ]
   }
