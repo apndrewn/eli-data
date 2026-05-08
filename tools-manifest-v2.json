@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-05-08T14:59:27.486Z",
+  "lastUpdated": "2026-05-08T15:02:42.462Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -369,7 +369,7 @@
     },
     {
       "id": "__data_templates_proprietary",
-      "version": "4.1",
+      "version": "4.2",
       "filename": "templates.enc.json",
       "size": 626846,
       "label": "Compare Draft Templates (Proprietary)",
@@ -382,8 +382,8 @@
         "templates"
       ],
       "confidential": true,
-      "changelog": "v4.1 · 10 rows · pushed 2026-05-08T14:58:05Z",
-      "lastUpdated": "2026-05-08T14:58:05.849Z"
+      "changelog": "v4.2 · 10 rows · pushed 2026-05-08T15:02:42Z",
+      "lastUpdated": "2026-05-08T15:02:42.462Z"
     },
     {
       "id": "__data_team_commentary",
