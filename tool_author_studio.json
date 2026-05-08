@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-05-08T14:15:18.688Z",
+  "exportedAt": "2026-05-08T14:18:43.830Z",
   "sectionVersions": {
     "jsonTools": 1
   },
   "sections": {
     "jsonTools": [
       {
-        "__version": "1.6",
-        "releasedAt": "2026-05-08T14:15:18.688Z",
+        "__version": "1.7",
+        "releasedAt": "2026-05-08T14:18:43.830Z",
         "id": "tool_author_studio",
         "label": "Tool Author Studio",
         "audience": [],
