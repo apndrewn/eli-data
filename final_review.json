@@ -1,16 +1,20 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-05-04T02:43:32.375Z",
+  "exportedAt": "2026-05-08T13:36:14.783Z",
   "sectionVersions": {
     "jsonTools": 1
   },
   "sections": {
     "jsonTools": [
       {
-        "__version": 1,
+        "__version": "1.1",
+        "releasedAt": "2026-05-08T13:36:14.783Z",
         "id": "final_review",
         "label": "Final Review",
         "defaultEnabled": true,
+        "audience": [
+          "all"
+        ],
         "catalog": {
           "id": "executive-brief",
           "icon": "💼",
