@@ -1,35 +1,35 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-05-08T16:22:06.060Z",
+  "lastUpdated": "2026-05-08T16:38:17.179Z",
   "tools": [
     {
       "id": "tool_manager",
-      "version": "1.8",
+      "version": "1.9",
       "filename": "tool_manager.json",
-      "size": 70937,
+      "size": 77082,
       "label": "Tool Manager",
       "kind": "tool",
       "category": "Tools - ELI Core",
       "audience": [
         "all"
       ],
-      "changelog": "v1.8: Bundle expand always shows category sub-headers (was conditional on multi-category).",
-      "lastUpdated": "2026-05-08T16:15:59.235Z"
+      "changelog": "v1.9: Bundles can now include data libraries. TM renders data members under their own purple-tinted sub-section in expanded bundle view; install/update walks both tools AND data.",
+      "lastUpdated": "2026-05-08T16:38:17.179Z"
     },
     {
       "id": "tool_author_studio",
-      "version": "2.4",
+      "version": "2.5",
       "filename": "tool_author_studio.json",
-      "size": 123781,
+      "size": 148770,
       "label": "Tool Author Studio",
       "kind": "tool",
       "category": "Admin",
       "audience": [],
-      "changelog": "v2.4: TAS Tools tab matches Tool Manager — bundle expand always shows category sub-headers.",
+      "changelog": "v2.5: Tool edit form replaces audience textarea with group checkboxes (External Innovation, Commercial, Litigation, Patents, All) + custom-tags input. Bundle editor adds 📚 Data Library Members picker. NEW 📚 Data tab — manages data-library audience metadata in the manifest (content + version still pushed via ALP).",
       "audienceEmails": [
         "andrew_nemiroff@colpal.com"
       ],
-      "lastUpdated": "2026-05-08T16:15:59.235Z"
+      "lastUpdated": "2026-05-08T16:38:17.179Z"
     },
     {
       "id": "admin_library_publisher",
