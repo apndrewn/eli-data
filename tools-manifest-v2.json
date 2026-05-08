@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-05-08T01:05:22.582Z",
+  "lastUpdated": "2026-05-08T01:05:24.351Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -303,7 +303,7 @@
     },
     {
       "id": "__data_requesters_proprietary",
-      "version": 4,
+      "version": 5,
       "filename": "requesters.enc.json",
       "size": 39486,
       "label": "Requesters (Proprietary)",
@@ -316,7 +316,7 @@
         "requesters"
       ],
       "confidential": true,
-      "changelog": "v4 · 384 rows · pushed 2026-05-08T00:57:11Z"
+      "changelog": "v5 · 384 rows · pushed 2026-05-08T01:05:24Z"
     },
     {
       "id": "__data_playbooks_proprietary",
