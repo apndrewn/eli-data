@@ -191,9 +191,9 @@
     },
     {
       "id": "__data_prompts",
-      "version": 14,
+      "version": 15,
       "filename": "prompts.json",
-      "size": 47061,
+      "size": 47163,
       "label": "AI Prompts",
       "kind": "data",
       "category": "Data",
@@ -203,7 +203,7 @@
       "sections": [
         "prompts"
       ],
-      "changelog": "v14: sectionEvaluate now scales Net Impact length to change count — 1-2 sentences (~30-50 words) for simple sections, expanding to 3-4 sentences (cap ~120 words) only when 4+ material changes warrant it. No padding, every sentence must add a fact."
+      "changelog": "v15: Net Impact tightened — 1 sentence (~15-30 words) default, 2 sentences only when 4+ distinct changes warrant it, 60-word hard cap. FACTUAL ONLY: just what Colgate must/can't/loses — no interpretation, no severity words, no lead-ins."
     },
     {
       "id": "__data_agreement_types",
