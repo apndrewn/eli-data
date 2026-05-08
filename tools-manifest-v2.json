@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-05-08T14:53:00.192Z",
+  "lastUpdated": "2026-05-08T14:56:45.128Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -33,9 +33,9 @@
     },
     {
       "id": "admin_library_publisher",
-      "version": "1.4",
+      "version": "1.5",
       "filename": "admin_library_publisher.json",
-      "size": 32384,
+      "size": 33725,
       "label": "Admin Library Publisher2",
       "kind": "tool",
       "category": "Admin",
@@ -43,8 +43,8 @@
       "audienceEmails": [
         "andrew_nemiroff@colpal.com"
       ],
-      "changelog": "v1.4 · pushed via Tool Author Studio",
-      "lastUpdated": "2026-05-08T14:45:19.473Z"
+      "changelog": "v1.5: Push mirrors version+lastUpdated into author's localStorage (so Data Hub updates immediately). Version display is read-only auto-bump (no manual entry field).",
+      "lastUpdated": "2026-05-08T14:56:45.128Z"
     },
     {
       "id": "docuscrub",
