@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-05-08T15:24:47.001Z",
+  "lastUpdated": "2026-05-08T15:27:21.925Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -418,6 +418,23 @@
       ],
       "confidential": true,
       "changelog": "v6 · 6 rows · pushed 2026-05-08T01:05:19Z"
+    },
+    {
+      "id": "bundle_external_innovation_core",
+      "kind": "bundle",
+      "label": "External Innovation — Core Tools",
+      "icon": "🤝",
+      "desc": "Essential tools for external innovation review: comparing drafts to templates and producing executive sign-off briefs.",
+      "category": "Tools - ELI Core",
+      "audience": [
+        "all"
+      ],
+      "tools": [
+        "compare",
+        "final_review"
+      ],
+      "lastUpdated": "2026-05-08T15:27:21.925Z",
+      "changelog": "Initial bundle — compare + final_review"
     }
   ]
 }
