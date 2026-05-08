@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-05-08T13:26:26.044Z",
+  "exportedAt": "2026-05-08T14:08:38.177Z",
   "sectionVersions": {
     "jsonTools": 1
   },
   "sections": {
     "jsonTools": [
       {
-        "__version": "1.2",
+        "__version": "1.3",
         "id": "tool_focus_flow",
         "label": "Focus Flow",
         "catalog": {
@@ -41,11 +41,11 @@
           "revertBionicBolding": "async function revertBionicBolding() {\n  setLoading(!0, \"default\");\n  await Word.run(async (context) => {\n    const doc = context.document;\n    let wasTracking = !1;\n    if (doc.hasOwnProperty(\"changeTrackingMode\")) {\n      doc.load(\"changeTrackingMode\");\n      await context.sync();\n      wasTracking = doc.changeTrackingMode !== \"Off\";\n      if (wasTracking) doc.changeTrackingMode = \"Off\";\n    }\n    doc.body.font.bold = !1;\n    await context.sync();\n    if (wasTracking) {\n      doc.changeTrackingMode = \"TrackAll\";\n      await context.sync();\n    }\n    setLoading(!1);\n    showToast(\"✅ Document Restored to Normal\");\n  }).catch(handleError);\n}",
           "executeBionicBoldingFast": "async function executeBionicBoldingFast(fixationPercent) {\n  setLoading(!0, \"default\");\n  await Word.run(async (context) => {\n    const doc = context.document;\n    let wasTracking = !1;\n    if (doc.hasOwnProperty(\"changeTrackingMode\")) {\n      doc.load(\"changeTrackingMode\");\n      await context.sync();\n      wasTracking = doc.changeTrackingMode !== \"Off\";\n      if (wasTracking) {\n        doc.changeTrackingMode = \"Off\";\n        await context.sync();\n      }\n    }\n    const paragraphs = doc.body.paragraphs;\n    paragraphs.load(\"items\");\n    await context.sync();\n    let totalWordsProcessed = 0;\n    for (let i = 0; i < paragraphs.items.length; i++) {\n      let para = paragraphs.items[i];\n      para.load(\"text\");\n      await context.sync();\n      const text = para.text;\n      if (!text || text.trim().length <= 1) continue;\n      const words = text.split(/(\\s+)/);\n      totalWordsProcessed += words.filter((w) => w.trim().length > 0).length;\n      const processedHtml = words\n        .map((word) => {\n          if (/^\\s+$/.test(word)) return word;\n          const match = word.match(/^([a-zA-Z0-9''-]+)([^a-zA-Z0-9]*)$/);\n          if (!match) return word;\n          const mainWord = match[1];\n          const punctuation = match[2] || \"\";\n          const boldLen = Math.max(1, Math.ceil(mainWord.length * (fixationPercent / 100)));\n          const boldPart = mainWord.substring(0, boldLen);\n          const regularPart = mainWord.substring(boldLen);\n          return `<span style=\"font-weight:bold;\">${boldPart}</span><span>${regularPart}</span>${punctuation}`;\n        })\n        .join(\"\");\n      para.insertHtml(processedHtml, \"Replace\");\n    }\n    if (wasTracking) {\n      doc.changeTrackingMode = \"TrackAll\";\n      await context.sync();\n    }\n    setLoading(!1);\n    if (typeof recordEliStat !== \"undefined\") {\n      recordEliStat(\"bionicWords\", totalWordsProcessed);\n      if (typeof checkQuirkyTrophy === \"function\") {\n        checkQuirkyTrophy(\"focus_flow\", { words: totalWordsProcessed });\n      }\n    }\n    showToast(\"✅ Applied (Fonts Preserved) - \" + totalWordsProcessed + \" words\");\n  }).catch(handleError);\n}"
         },
-        "defaultEnabled": true,
+        "defaultEnabled": false,
         "audience": [
           "all"
         ],
-        "releasedAt": "2026-05-08T13:26:26.044Z"
+        "releasedAt": "2026-05-08T14:08:38.177Z"
       }
     ]
   }
