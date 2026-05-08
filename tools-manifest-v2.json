@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-05-08T16:18:25.310Z",
+  "lastUpdated": "2026-05-08T16:20:57.124Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -449,10 +449,11 @@
       "tools": [
         "docuscrub",
         "email_helper",
-        "redline_email_pack"
+        "redline_email_pack",
+        "tool_focus_flow"
       ],
-      "lastUpdated": "2026-05-08T16:18:25.310Z",
-      "changelog": "Initial bundle"
+      "lastUpdated": "2026-05-08T16:20:57.124Z",
+      "changelog": "Added tool_focus_flow as a member (also remains in Patent Tools — multi-bundle membership)"
     },
     {
       "id": "bundle_tool_management",
