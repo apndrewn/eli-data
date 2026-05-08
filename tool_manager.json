@@ -1,17 +1,20 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-05-08T13:26:26.044Z",
+  "exportedAt": "2026-05-08T13:36:14.783Z",
   "sectionVersions": {
     "jsonTools": 1
   },
   "sections": {
     "jsonTools": [
       {
-        "__version": "1.2",
-        "releasedAt": "2026-05-08T13:26:26.044Z",
+        "__version": "1.3",
+        "releasedAt": "2026-05-08T13:36:14.783Z",
         "id": "tool_manager",
         "label": "Tool Manager",
         "defaultEnabled": true,
+        "audience": [
+          "all"
+        ],
         "catalog": {
           "id": "app_tool_manager",
           "icon": "🧩",
