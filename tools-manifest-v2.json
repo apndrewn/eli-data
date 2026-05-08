@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-05-08T14:05:33.368Z",
+  "lastUpdated": "2026-05-08T14:08:39.480Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -103,17 +103,17 @@
     },
     {
       "id": "tool_focus_flow",
-      "version": "1.2",
+      "version": "1.3",
       "filename": "focus_flow_tool.json",
-      "size": 6553,
+      "size": 6536,
       "label": "Focus Flow",
       "kind": "tool",
       "category": "Accessibility",
       "audience": [
         "all"
       ],
-      "changelog": "v1.2: detection test (no code change).",
-      "lastUpdated": "2026-05-08T13:26:26.044Z"
+      "changelog": "test 34",
+      "lastUpdated": "2026-05-08T14:08:38.177Z"
     },
     {
       "id": "tool_eli5",
