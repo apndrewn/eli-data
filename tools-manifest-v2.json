@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-05-08T16:57:16.829Z",
+  "lastUpdated": "2026-05-08T18:10:09.602Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -173,17 +173,17 @@
     },
     {
       "id": "risk_rules_manager",
-      "version": "1.2",
+      "version": "1.3",
       "filename": "risk_rules_manager.json",
-      "size": 19996,
-      "label": "Risk Rules Manager",
+      "size": 61797,
+      "label": "Legal Risks",
       "kind": "tool",
-      "category": "Admin",
+      "category": "Tools - ELI Core",
       "audience": [
         "all"
       ],
-      "changelog": "v1.2: catalog.hidden:true now in tool JSON (was previously enforced by hardcoded fallback list).",
-      "lastUpdated": "2026-05-08T14:05:33.368Z"
+      "changelog": "v1.3: Full offload of Legal Risks feature from core taskpane — engine (runDeal360Analysis), render (renderBalancedResults), launcher dialogs, section scan modal, selection-panel card, activity-feed restore, prompt builder, section filter. Renamed Risk Rules Manager → Legal Risks. ~1100 lines extracted from core, 12 of 14 bundle functions are new.",
+      "lastUpdated": "2026-05-08T18:10:09.602Z"
     },
     {
       "id": "__data_catalog",
