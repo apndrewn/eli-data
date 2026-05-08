@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-05-08T16:57:01.050Z",
+  "lastUpdated": "2026-05-08T16:57:16.829Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -519,11 +519,10 @@
         "all"
       ],
       "tools": [
-        "tool_focus_flow",
         "tool_eli5"
       ],
-      "lastUpdated": "2026-05-08T16:18:25.310Z",
-      "changelog": "Initial bundle"
+      "lastUpdated": "2026-05-08T16:57:16.829Z",
+      "changelog": "Updated bundle via TAS · 1 member"
     }
   ]
 }
