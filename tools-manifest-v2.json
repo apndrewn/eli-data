@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-05-08T13:43:27.679Z",
+  "lastUpdated": "2026-05-08T13:46:19.561Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -117,16 +117,17 @@
     },
     {
       "id": "tool_eli5",
-      "version": 1,
+      "version": "1.1",
       "filename": "eli5_tool.json",
-      "size": 14470,
+      "size": 14489,
       "label": "ELI5",
       "kind": "tool",
       "category": "Patents",
       "audience": [
         "all"
       ],
-      "changelog": "v1 · ? rows"
+      "changelog": "v1.1 · pushed via Tool Author Studio",
+      "lastUpdated": "2026-05-08T13:46:18.603Z"
     },
     {
       "id": "trophy_gallery",
