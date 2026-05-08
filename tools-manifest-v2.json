@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-05-08T14:01:27.952Z",
+  "lastUpdated": "2026-05-08T14:02:38.836Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -157,9 +157,9 @@
     },
     {
       "id": "redline_email_pack",
-      "version": "1.1",
+      "version": "1.2",
       "filename": "redline_email_pack.json",
-      "size": 29655,
+      "size": 29681,
       "label": "Redline Emails",
       "kind": "tool",
       "category": "Tools - ELI Core",
@@ -167,7 +167,7 @@
         "all"
       ],
       "changelog": "TEST1",
-      "lastUpdated": "2026-05-08T14:01:26.670Z"
+      "lastUpdated": "2026-05-08T14:02:37.509Z"
     },
     {
       "id": "risk_rules_manager",
