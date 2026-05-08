@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-05-08T01:00:00.000Z",
+  "lastUpdated": "2026-05-08T01:05:19.980Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -388,7 +388,7 @@
     },
     {
       "id": "__data_bd_templates_proprietary",
-      "version": 5,
+      "version": 6,
       "filename": "bd_templates.enc.json",
       "size": 20821066,
       "label": "Build Draft Templates (Proprietary)",
@@ -401,7 +401,7 @@
         "bd_templates"
       ],
       "confidential": true,
-      "changelog": "v5 · 6 rows · pushed 2026-05-08T00:57:32Z"
+      "changelog": "v6 · 6 rows · pushed 2026-05-08T01:05:19Z"
     }
   ]
 }
