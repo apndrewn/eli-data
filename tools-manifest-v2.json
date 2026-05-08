@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-05-08T13:13:13.502Z",
+  "lastUpdated": "2026-05-08T13:19:27.771Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -33,9 +33,9 @@
     },
     {
       "id": "admin_library_publisher",
-      "version": 9,
+      "version": "1.1",
       "filename": "admin_library_publisher.json",
-      "size": 31673,
+      "size": 32847,
       "label": "Admin Library Publisher",
       "kind": "tool",
       "category": "Admin",
@@ -43,7 +43,8 @@
       "audienceEmails": [
         "andrew_nemiroff@colpal.com"
       ],
-      "changelog": "v9: Manifest read now uses TextDecoder so push cycles don't progressively mojibake UTF-8 chars (em-dash / · / emoji). Plus widened metadata-row filter to catch any id starting with '_'. v8: drop preflight-breaking headers. v7: retry-on-409 + cache-busting GETs."
+      "changelog": "v1.1: Timestamp-driven update detection + auto-bumped display versions (1.0→1.1→…→1.9→2.0). Stamps __releasedAt in encrypted envelopes and entry.lastUpdated in manifest.",
+      "lastUpdated": "2026-05-08T13:19:27.771Z"
     },
     {
       "id": "docuscrub",
