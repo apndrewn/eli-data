@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-05-08T14:02:38.836Z",
+  "lastUpdated": "2026-05-08T14:05:33.368Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -131,57 +131,59 @@
     },
     {
       "id": "trophy_gallery",
-      "version": 1,
+      "version": "1.1",
       "filename": "trophy_gallery.json",
-      "size": 29579,
+      "size": 29659,
       "label": "Trophy Gallery",
       "kind": "tool",
       "category": "Engagement",
       "audience": [
         "all"
       ],
-      "changelog": "v1 · ? rows"
+      "changelog": "v1.1: catalog.hidden:true now in tool JSON (was previously enforced by hardcoded fallback list).",
+      "lastUpdated": "2026-05-08T14:05:33.368Z"
     },
     {
       "id": "compare",
-      "version": 6,
+      "version": "6.1",
       "filename": "compare.json",
-      "size": 68964,
+      "size": 68968,
       "label": "Compare to Template",
       "kind": "tool",
       "category": "Tools - ELI Core",
       "audience": [
         "all"
       ],
-      "changelog": "v6: Detects 'hidden redlines' — text edits made WITHOUT enabling Track Changes. Per-paragraph dual-diff flags any change appearing in BOTH accepted/rejected views as unmarked content; surfaces in a yellow ⚠️ warning card above the executive summary."
+      "changelog": "v6.1: catalog.hidden:true now in tool JSON (was previously enforced by hardcoded fallback list).",
+      "lastUpdated": "2026-05-08T14:05:33.368Z"
     },
     {
       "id": "redline_email_pack",
-      "version": "1.2",
+      "version": "1.3",
       "filename": "redline_email_pack.json",
-      "size": 29681,
+      "size": 29719,
       "label": "Redline Emails",
       "kind": "tool",
       "category": "Tools - ELI Core",
       "audience": [
         "all"
       ],
-      "changelog": "TEST1",
-      "lastUpdated": "2026-05-08T14:02:37.509Z"
+      "changelog": "v1.3: catalog.hidden:true now in tool JSON (was previously enforced by hardcoded fallback list).",
+      "lastUpdated": "2026-05-08T14:05:33.368Z"
     },
     {
       "id": "risk_rules_manager",
-      "version": "1.1",
+      "version": "1.2",
       "filename": "risk_rules_manager.json",
-      "size": 19884,
+      "size": 19996,
       "label": "Risk Rules Manager",
       "kind": "tool",
       "category": "Admin",
       "audience": [
         "all"
       ],
-      "changelog": "v1.1 · pushed via Tool Author Studio",
-      "lastUpdated": "2026-05-08T13:51:12.767Z"
+      "changelog": "v1.2: catalog.hidden:true now in tool JSON (was previously enforced by hardcoded fallback list).",
+      "lastUpdated": "2026-05-08T14:05:33.368Z"
     },
     {
       "id": "__data_catalog",
