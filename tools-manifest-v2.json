@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-05-08T16:38:17.179Z",
+  "lastUpdated": "2026-05-08T16:41:38.649Z",
   "tools": [
     {
       "id": "tool_manager",
-      "version": "1.9",
+      "version": "2.0",
       "filename": "tool_manager.json",
-      "size": 77082,
+      "size": 84934,
       "label": "Tool Manager",
       "kind": "tool",
       "category": "Tools - ELI Core",
       "audience": [
         "all"
       ],
-      "changelog": "v1.9: Bundles can now include data libraries. TM renders data members under their own purple-tinted sub-section in expanded bundle view; install/update walks both tools AND data.",
-      "lastUpdated": "2026-05-08T16:38:17.179Z"
+      "changelog": "v2.0: Bundle rows get a \"🗑️ Uninstall N\" action for switching users between bundles. Download dialog reorg: bundle → tools/data sub-section → categories within tools.",
+      "lastUpdated": "2026-05-08T16:41:38.649Z"
     },
     {
       "id": "tool_author_studio",
@@ -431,10 +431,27 @@
       ],
       "tools": [
         "compare",
-        "final_review"
+        "final_review",
+        "trophy_gallery"
       ],
-      "lastUpdated": "2026-05-08T16:15:59.235Z",
-      "changelog": "Renamed: 'External Innovation — Core Tools' → 'External Innovation'"
+      "lastUpdated": "2026-05-08T16:41:38.649Z",
+      "changelog": "Added trophy_gallery (moved from ELI bundle) + 14 data libraries",
+      "data": [
+        "__data_catalog",
+        "__data_prompts",
+        "__data_agreement_types",
+        "__data_exec_brief_terms",
+        "__data_email_templates",
+        "__data_cleaner_rules",
+        "__data_loading_msgs",
+        "__data_trophies",
+        "__data_requesters_proprietary",
+        "__data_playbooks_proprietary",
+        "__data_risk_rules_proprietary",
+        "__data_templates_proprietary",
+        "__data_team_commentary",
+        "__data_bd_templates_proprietary"
+      ]
     },
     {
       "id": "bundle_office_tools",
@@ -506,22 +523,6 @@
         "tool_eli5"
       ],
       "lastUpdated": "2026-05-08T16:18:25.310Z",
-      "changelog": "Initial bundle"
-    },
-    {
-      "id": "bundle_eli",
-      "kind": "bundle",
-      "label": "ELI",
-      "icon": "🛡️",
-      "desc": "Engagement and gamification — trophies, achievements, etc.",
-      "category": "Engagement",
-      "audience": [
-        "all"
-      ],
-      "tools": [
-        "trophy_gallery"
-      ],
-      "lastUpdated": "2026-05-08T16:22:06.060Z",
       "changelog": "Initial bundle"
     }
   ]
