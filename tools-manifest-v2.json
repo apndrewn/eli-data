@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-05-08T14:08:39.997Z",
+  "lastUpdated": "2026-05-08T14:12:12.070Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -33,18 +33,18 @@
     },
     {
       "id": "admin_library_publisher",
-      "version": "1.2",
+      "version": "1.3",
       "filename": "admin_library_publisher.json",
-      "size": 32925,
-      "label": "Admin Library Publisher",
+      "size": 32503,
+      "label": "Admin Library Publisher2",
       "kind": "tool",
       "category": "Admin",
       "audience": [],
       "audienceEmails": [
         "andrew_nemiroff@colpal.com"
       ],
-      "changelog": "v1.2: audienceEmails restored to tool JSON to match manifest gating (was missing, would have been stripped on next push).",
-      "lastUpdated": "2026-05-08T13:36:14.783Z"
+      "changelog": "v1.3 · pushed via Tool Author Studio",
+      "lastUpdated": "2026-05-08T14:12:10.533Z"
     },
     {
       "id": "docuscrub",
