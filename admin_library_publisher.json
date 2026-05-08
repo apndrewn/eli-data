@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-05-08T14:12:10.533Z",
+  "exportedAt": "2026-05-08T14:45:19.473Z",
   "sectionVersions": {
     "jsonTools": 1
   },
   "sections": {
     "jsonTools": [
       {
-        "__version": "1.3",
-        "releasedAt": "2026-05-08T14:12:10.533Z",
+        "__version": "1.4",
+        "releasedAt": "2026-05-08T14:45:19.473Z",
         "id": "admin_library_publisher",
         "label": "Admin Library Publisher2",
         "defaultEnabled": true,
@@ -18,7 +18,7 @@
         "catalog": {
           "id": "app_admin_library_publisher",
           "icon": "🛠️",
-          "title": "ADMIN PUBLISHER",
+          "title": "ADMIN PUBLISHER222",
           "desc": "Encrypt + push proprietary libraries to the eli-data GitHub repo. Admin-only.",
           "hoverTip": "Push libraries to GitHub (admin)",
           "category": "Admin",
@@ -26,10 +26,6 @@
           "default": false,
           "order": 99,
           "badging": null,
-          "microLabel": null,
-          "microLabelStyle": null,
-          "gearAction": null,
-          "statKey": null,
           "requiresApiKey": false,
           "requiresFooterDoc": false,
           "tags": [
