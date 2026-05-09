@@ -2,6 +2,19 @@
   "schemaVersion": 1,
   "kernelMajor": 3,
   "lastUpdated": "2026-05-09T00:00:00.000Z",
-  "_comment": "v3 kernel manifest — separate from tools-manifest-v2.json so v2 installs don't pull v3 bundles (incompatible engine/view/init/requires/advertises shape). Tools land here only after their v3 migration completes (engine + view + test + lint pass). Empty during pattern-prover phase.",
-  "tools": []
+  "_comment": "v3 kernel manifest. Tools migrate here as Phase 9b lands them. Filename suffix '-v3.json' avoids collision with the v2-format file in the same eli-data repo.",
+  "tools": [
+    {
+      "id": "docuscrub",
+      "version": "2.0.1",
+      "filename": "docuscrub-v3.json",
+      "size": 34893,
+      "label": "DocuScrub",
+      "kind": "tool",
+      "category": "Tools - ELI Core",
+      "audience": ["all"],
+      "changelog": "v2.0.1: Settings render inline (replacing tile area) to match v2's standalone tool layout. Was a modal in 2.0.0.",
+      "lastUpdated": "2026-05-09T00:00:00.000Z"
+    }
+  ]
 }
