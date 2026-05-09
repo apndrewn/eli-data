@@ -1,9 +1,5 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-05-03T17:44:58.607Z",
-  "sectionVersions": {
-    "emailTemplates": 1
-  },
   "sections": {
     "emailTemplates": [
       {
@@ -24,5 +20,6 @@
         "body": "Hello [TP Contact],\n\nAt the request of [Requester], attached please find a [Type] between [Entity] and [TP Entity].\n\nPlease review and let us know if it is acceptable.\n\nThanks,\n[My Name]"
       }
     ]
-  }
+  },
+  "releasedAt": "2026-05-09T20:39:15.555Z"
 }

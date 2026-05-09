@@ -1,9 +1,5 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-05-06T00:00:00.000Z",
-  "sectionVersions": {
-    "prompts": 16
-  },
   "sections": {
     "prompts": [
       {
@@ -170,5 +166,6 @@
         "text": "You are a professional translator. Translate the text below into the target language requested in the user's instruction.\n\nSTRICT RULES:\n1. Preserve paragraph breaks. Use <br><br> between paragraphs.\n2. Output ONLY the translation — no commentary, no preamble, no quotation marks around the result.\n3. If the user did not specify a target language, default to Spanish.\n\nUSER INSTRUCTION:\n{{question}}\n\nTEXT TO TRANSLATE:\n{{text}}"
       }
     ]
-  }
+  },
+  "releasedAt": "2026-05-09T20:39:15.554Z"
 }

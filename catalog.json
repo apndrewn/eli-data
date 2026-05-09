@@ -1,9 +1,5 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-05-01T21:18:00Z",
-  "sectionVersions": {
-    "catalog": 1
-  },
   "_note": "Master catalog extracted from inline ELI_MASTER_CATALOG (Step 18 offload, 2026-05-01). Each entry has the full CATALOG-EDITOR-SCHEMA field set agreed on 2026-05-01 (excluding `deprecated` per user direction — kept in tracker schema list as a planned future field but not in current JSON). As of Step 18, only `default` is wired into runtime behavior (auto-merge into dashboardApps after import). Other fields (core/order/badging/hoverTip/microLabel/microLabelStyle/gearAction/statKey/requiresApiKey/requiresFooterDoc/tags/experimental) are dormant — populated as data so when the catalog editor + per-field rendering land (Step 19+), no migration is needed. Action field is the JS body string compiled at click-time via new Function() in the existing executeDashboardApp dispatcher.",
   "sections": {
     "catalog": [
@@ -351,5 +347,6 @@
         "action": "if (typeof window.showUsageRadarApp === 'function') window.showUsageRadarApp();"
       }
     ]
-  }
+  },
+  "releasedAt": "2026-05-09T20:39:15.553Z"
 }

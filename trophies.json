@@ -1,9 +1,5 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-05-01T20:30:00Z",
-  "sectionVersions": {
-    "trophies": 2
-  },
   "sections": {
     "trophies": [
       {
@@ -881,5 +877,6 @@
       }
     ]
   },
-  "_note": "Trophies extracted from inline ELI_TROPHIES const in taskpane_v2.js (Step 17 offload, 2026-05-01). Each trophy's `check` is the JS function body as a string; the loader compiles it via new Function('s','e', body) on import. Import via Settings -> Data Hub -> Import Master JSON OR per-section Import on the Trophies row. After import, evaluateTrophies and the trophy gallery read from IDB instead of the (now deleted) inline const."
+  "_note": "Trophies extracted from inline ELI_TROPHIES const in taskpane_v2.js (Step 17 offload, 2026-05-01). Each trophy's `check` is the JS function body as a string; the loader compiles it via new Function('s','e', body) on import. Import via Settings -> Data Hub -> Import Master JSON OR per-section Import on the Trophies row. After import, evaluateTrophies and the trophy gallery read from IDB instead of the (now deleted) inline const.",
+  "releasedAt": "2026-05-09T20:39:15.556Z"
 }

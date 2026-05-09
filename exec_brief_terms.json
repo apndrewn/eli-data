@@ -1,9 +1,5 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-05-03T17:44:58.607Z",
-  "sectionVersions": {
-    "execBriefTerms": 1
-  },
   "sections": {
     "execBriefTerms": [
       {
@@ -182,5 +178,6 @@
         "source": "import"
       }
     ]
-  }
+  },
+  "releasedAt": "2026-05-09T20:39:15.555Z"
 }

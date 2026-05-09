@@ -1,9 +1,5 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-05-03T17:44:58.608Z",
-  "sectionVersions": {
-    "cleanerRules": 1
-  },
   "sections": {
     "cleanerRules": [
       {
@@ -30,5 +26,6 @@
         "source": "import"
       }
     ]
-  }
+  },
+  "releasedAt": "2026-05-09T20:39:15.555Z"
 }
