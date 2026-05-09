@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-09T07:57:54.097Z",
+  "lastUpdated": "2026-05-09T13:41:36.448Z",
   "tools": [
     {
       "id": "docuscrub",
@@ -34,9 +34,9 @@
     {
       "id": "error_review",
       "version": "1.0.0",
-      "lastUpdated": "2026-05-09T07:57:40.771Z",
+      "lastUpdated": "2026-05-09T13:41:36.271Z",
       "filename": "error_review-v3.json",
-      "size": 38535,
+      "size": 38779,
       "label": "Error Review",
       "kind": "tool",
       "category": "Tools - ELI Core",
