@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-09T14:36:28.970Z",
+  "lastUpdated": "2026-05-09T16:01:33.273Z",
   "tools": [
     {
       "id": "docuscrub",
@@ -33,10 +33,10 @@
     },
     {
       "id": "error_review",
-      "version": "1.0.0",
-      "lastUpdated": "2026-05-09T14:36:28.859Z",
+      "version": "1.1.0",
+      "lastUpdated": "2026-05-09T16:01:33.196Z",
       "filename": "error_review-v3.json",
-      "size": 57197,
+      "size": 68350,
       "label": "Error Review",
       "kind": "tool",
       "category": "Tools - ELI Core",
@@ -67,7 +67,7 @@
       "version": 16,
       "lastUpdated": "2026-05-06T00:00:00.000Z",
       "filename": "prompts.json",
-      "size": 47147,
+      "size": 44919,
       "label": "AI Prompts",
       "kind": "data",
       "category": "Data",
