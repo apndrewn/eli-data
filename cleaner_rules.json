@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-05-07T13:29:09.399Z",
+  "exportedAt": "2026-05-03T17:44:58.608Z",
   "sectionVersions": {
-    "cleanerRules": 3
+    "cleanerRules": 1
   },
   "sections": {
     "cleanerRules": [
@@ -26,7 +26,7 @@
         "id": "__meta",
         "version": 1,
         "lastSeenVersion": 1,
-        "lastUpdated": 1777933590688,
+        "lastUpdated": 1777829515377,
         "source": "import"
       }
     ]

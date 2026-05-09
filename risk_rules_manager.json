@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-05-08T18:31:34.974Z",
+  "exportedAt": "2026-05-08T22:07:35.511Z",
   "sectionVersions": {
     "jsonTools": 1
   },
@@ -8,7 +8,7 @@
     "jsonTools": [
       {
         "__version": "1.4",
-        "releasedAt": "2026-05-08T18:31:34.973Z",
+        "releasedAt": "2026-05-08T22:07:35.511Z",
         "id": "risk_rules_manager",
         "label": "Legal Risks",
         "defaultEnabled": true,

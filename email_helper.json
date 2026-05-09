@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-05-08T13:36:14.783Z",
+  "exportedAt": "2026-05-08T17:23:17.943Z",
   "sectionVersions": {
     "jsonTools": 1
   },
   "sections": {
     "jsonTools": [
       {
-        "__version": "8.1",
-        "releasedAt": "2026-05-08T13:36:14.783Z",
+        "__version": "1.0",
+        "releasedAt": "2026-05-08T17:23:17.943Z",
         "id": "email_helper",
         "label": "Email Helper",
         "defaultEnabled": false,

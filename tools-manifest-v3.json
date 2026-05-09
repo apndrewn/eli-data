@@ -1,20 +1,157 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-09T00:00:00.000Z",
-  "_comment": "v3 kernel manifest. Tools migrate here as Phase 9b lands them. Filename suffix '-v3.json' avoids collision with the v2-format file in the same eli-data repo.",
+  "lastUpdated": "2026-05-09T06:03:30.527Z",
   "tools": [
     {
       "id": "docuscrub",
       "version": "2.0.2",
+      "lastUpdated": "2026-05-09T06:03:01.983Z",
       "filename": "docuscrub-v3.json",
       "size": 34893,
       "label": "DocuScrub",
       "kind": "tool",
       "category": "Tools - ELI Core",
-      "audience": ["all"],
-      "changelog": "v2.0.2: Settings render inline (replacing tile area) to match v2's standalone tool layout. v2.0.1 was buggy (manifest/bundle version mismatch) — bump forces re-install.",
-      "lastUpdated": "2026-05-09T00:00:00.000Z"
+      "audience": [
+        "all"
+      ],
+      "changelog": ""
+    },
+    {
+      "id": "__data_catalog",
+      "version": 1,
+      "lastUpdated": "2026-05-01T21:18:00Z",
+      "filename": "catalog.json",
+      "size": 13974,
+      "label": "Master Catalog (Dashboard tiles)",
+      "kind": "data",
+      "category": "Data",
+      "audience": [
+        "all"
+      ],
+      "sections": [
+        "catalog"
+      ],
+      "changelog": ""
+    },
+    {
+      "id": "__data_prompts",
+      "version": 16,
+      "lastUpdated": "2026-05-06T00:00:00.000Z",
+      "filename": "prompts.json",
+      "size": 47147,
+      "label": "AI Prompts",
+      "kind": "data",
+      "category": "Data",
+      "audience": [
+        "all"
+      ],
+      "sections": [
+        "prompts"
+      ],
+      "changelog": ""
+    },
+    {
+      "id": "__data_agreement_types",
+      "version": 1,
+      "lastUpdated": "2026-05-03T17:44:58.606Z",
+      "filename": "agreement_types.json",
+      "size": 5583,
+      "label": "Agreement Types",
+      "kind": "data",
+      "category": "Data",
+      "audience": [
+        "all"
+      ],
+      "sections": [
+        "agreementTypes"
+      ],
+      "changelog": ""
+    },
+    {
+      "id": "__data_exec_brief_terms",
+      "version": 1,
+      "lastUpdated": "2026-05-03T17:44:58.607Z",
+      "filename": "exec_brief_terms.json",
+      "size": 4117,
+      "label": "Exec Brief Terms",
+      "kind": "data",
+      "category": "Data",
+      "audience": [
+        "all"
+      ],
+      "sections": [
+        "execBriefTerms"
+      ],
+      "changelog": ""
+    },
+    {
+      "id": "__data_email_templates",
+      "version": 1,
+      "lastUpdated": "2026-05-03T17:44:58.607Z",
+      "filename": "email_templates.json",
+      "size": 970,
+      "label": "Email Templates",
+      "kind": "data",
+      "category": "Data",
+      "audience": [
+        "all"
+      ],
+      "sections": [
+        "emailTemplates"
+      ],
+      "changelog": ""
+    },
+    {
+      "id": "__data_cleaner_rules",
+      "version": 1,
+      "lastUpdated": "2026-05-03T17:44:58.608Z",
+      "filename": "cleaner_rules.json",
+      "size": 940,
+      "label": "Cleaner Rules",
+      "kind": "data",
+      "category": "Data",
+      "audience": [
+        "all"
+      ],
+      "sections": [
+        "cleanerRules"
+      ],
+      "changelog": ""
+    },
+    {
+      "id": "__data_loading_msgs",
+      "version": 1,
+      "lastUpdated": "2026-05-03T17:44:58.609Z",
+      "filename": "loading_msgs.json",
+      "size": 1041,
+      "label": "Loading Messages",
+      "kind": "data",
+      "category": "Data",
+      "audience": [
+        "all"
+      ],
+      "sections": [
+        "loadingMsgs"
+      ],
+      "changelog": ""
+    },
+    {
+      "id": "__data_trophies",
+      "version": 2,
+      "lastUpdated": "2026-05-01T20:30:00Z",
+      "filename": "trophies.json",
+      "size": 30004,
+      "label": "Trophies Library",
+      "kind": "data",
+      "category": "Data",
+      "audience": [
+        "all"
+      ],
+      "sections": [
+        "trophies"
+      ],
+      "changelog": ""
     }
   ]
 }

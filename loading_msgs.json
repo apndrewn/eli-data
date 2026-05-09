@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-05-07T13:25:22.057Z",
+  "exportedAt": "2026-05-03T17:44:58.609Z",
   "sectionVersions": {
-    "loadingMsgs": 3
+    "loadingMsgs": 1
   },
   "sections": {
     "loadingMsgs": [
@@ -10,8 +10,8 @@
         "id": "__meta",
         "version": 1,
         "lastSeenVersion": 1,
-        "lastUpdated": 1777933590741,
-        "source": "import"
+        "lastUpdated": 1777827984675,
+        "source": "cdn"
       },
       {
         "id": "default",

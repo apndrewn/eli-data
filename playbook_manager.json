@@ -1,13 +1,14 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-05-04T02:43:32.446Z",
+  "exportedAt": "2026-05-08T17:23:17.948Z",
   "sectionVersions": {
     "jsonTools": 1
   },
   "sections": {
     "jsonTools": [
       {
-        "__version": 3,
+        "__version": "1.0",
+        "releasedAt": "2026-05-08T17:23:17.948Z",
         "id": "playbook_manager",
         "label": "Playbook Manager",
         "defaultEnabled": false,
