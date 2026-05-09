@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-09T21:34:40.282Z",
+  "lastUpdated": "2026-05-09T21:57:18.069Z",
   "tools": [
     {
       "id": "docuscrub",
@@ -20,9 +20,9 @@
     {
       "id": "eli_settings",
       "version": null,
-      "lastUpdated": "2026-05-09T21:34:40.127Z",
+      "lastUpdated": "2026-05-09T21:57:17.966Z",
       "filename": "eli_settings-v3.json",
-      "size": 64923,
+      "size": 65259,
       "label": "Settings",
       "kind": "tool",
       "category": "System",
@@ -47,7 +47,7 @@
     },
     {
       "id": "__data_catalog",
-      "lastUpdated": "2026-05-09T21:34:40.291Z",
+      "lastUpdated": "2026-05-09T21:57:18.079Z",
       "filename": "catalog.json",
       "size": 13974,
       "label": "Master Catalog (Dashboard tiles)",
@@ -63,7 +63,7 @@
     },
     {
       "id": "__data_prompts",
-      "lastUpdated": "2026-05-09T21:34:40.292Z",
+      "lastUpdated": "2026-05-09T21:57:18.079Z",
       "filename": "prompts.json",
       "size": 44919,
       "label": "AI Prompts",
@@ -79,7 +79,7 @@
     },
     {
       "id": "__data_agreement_types",
-      "lastUpdated": "2026-05-09T21:34:40.292Z",
+      "lastUpdated": "2026-05-09T21:57:18.080Z",
       "filename": "agreement_types.json",
       "size": 5583,
       "label": "Agreement Types",
@@ -95,7 +95,7 @@
     },
     {
       "id": "__data_exec_brief_terms",
-      "lastUpdated": "2026-05-09T21:34:40.293Z",
+      "lastUpdated": "2026-05-09T21:57:18.080Z",
       "filename": "exec_brief_terms.json",
       "size": 4117,
       "label": "Exec Brief Terms",
@@ -111,7 +111,7 @@
     },
     {
       "id": "__data_email_templates",
-      "lastUpdated": "2026-05-09T21:34:40.293Z",
+      "lastUpdated": "2026-05-09T21:57:18.080Z",
       "filename": "email_templates.json",
       "size": 970,
       "label": "Email Templates",
@@ -127,7 +127,7 @@
     },
     {
       "id": "__data_cleaner_rules",
-      "lastUpdated": "2026-05-09T21:34:40.293Z",
+      "lastUpdated": "2026-05-09T21:57:18.081Z",
       "filename": "cleaner_rules.json",
       "size": 940,
       "label": "Cleaner Rules",
@@ -143,7 +143,7 @@
     },
     {
       "id": "__data_loading_msgs",
-      "lastUpdated": "2026-05-09T21:34:40.294Z",
+      "lastUpdated": "2026-05-09T21:57:18.081Z",
       "filename": "loading_msgs.json",
       "size": 1041,
       "label": "Loading Messages",
@@ -159,7 +159,7 @@
     },
     {
       "id": "__data_trophies",
-      "lastUpdated": "2026-05-09T21:34:40.295Z",
+      "lastUpdated": "2026-05-09T21:57:18.081Z",
       "filename": "trophies.json",
       "size": 30004,
       "label": "Trophies Library",
