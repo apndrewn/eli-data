@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "kernelMajor": 3,
+  "lastUpdated": "2026-05-09T00:00:00.000Z",
+  "_comment": "v3 kernel manifest — separate from tools-manifest-v2.json so v2 installs don't pull v3 bundles (incompatible engine/view/init/requires/advertises shape). Tools migrate into this file as Phase 9b lands them.",
+  "tools": [
+    {
+      "id": "docuscrub",
+      "version": "2.0.0",
+      "filename": "docuscrub-v3.json",
+      "size": 33358,
+      "label": "DocuScrub",
+      "kind": "tool",
+      "category": "Tools - ELI Core",
+      "audience": ["all"],
+      "changelog": "v2.0.0: First v3-format build. Engine + view split, init() registers tile handler, runRaw escape hatch for bulk Word ops.",
+      "lastUpdated": "2026-05-09T00:00:00.000Z"
+    }
+  ]
+}
