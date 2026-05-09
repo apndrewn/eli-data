@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-09T07:24:59.452Z",
+  "lastUpdated": "2026-05-09T07:29:10.583Z",
   "tools": [
     {
       "id": "docuscrub",
@@ -20,9 +20,9 @@
     {
       "id": "eli_settings",
       "version": "1.0.0",
-      "lastUpdated": "2026-05-09T07:24:59.304Z",
+      "lastUpdated": "2026-05-09T07:29:10.288Z",
       "filename": "eli_settings-v3.json",
-      "size": 45236,
+      "size": 45226,
       "label": "Settings",
       "kind": "tool",
       "category": "System",
