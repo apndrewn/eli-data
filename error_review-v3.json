@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-05-09T18:02:47.052Z",
+  "exportedAt": "2026-05-09T18:06:35.993Z",
   "sectionVersions": {
     "jsonTools": 1
   },
   "sections": {
     "jsonTools": [
       {
-        "__version": "1.2.0",
-        "releasedAt": "2026-05-09T18:02:47.051Z",
+        "__version": "1.1.3",
+        "releasedAt": "2026-05-09T18:06:35.992Z",
         "id": "error_review",
         "label": "Error Review",
         "defaultEnabled": true,

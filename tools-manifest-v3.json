@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-09T18:02:47.159Z",
+  "lastUpdated": "2026-05-09T18:06:36.063Z",
   "tools": [
     {
       "id": "docuscrub",
@@ -33,8 +33,8 @@
     },
     {
       "id": "error_review",
-      "version": "1.2.0",
-      "lastUpdated": "2026-05-09T18:02:47.051Z",
+      "version": "1.1.3",
+      "lastUpdated": "2026-05-09T18:06:35.992Z",
       "filename": "error_review-v3.json",
       "size": 59078,
       "label": "Error Review",
