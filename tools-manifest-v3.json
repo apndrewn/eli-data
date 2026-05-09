@@ -6,14 +6,14 @@
   "tools": [
     {
       "id": "docuscrub",
-      "version": "2.0.1",
+      "version": "2.0.2",
       "filename": "docuscrub-v3.json",
       "size": 34893,
       "label": "DocuScrub",
       "kind": "tool",
       "category": "Tools - ELI Core",
       "audience": ["all"],
-      "changelog": "v2.0.1: Settings render inline (replacing tile area) to match v2's standalone tool layout. Was a modal in 2.0.0.",
+      "changelog": "v2.0.2: Settings render inline (replacing tile area) to match v2's standalone tool layout. v2.0.1 was buggy (manifest/bundle version mismatch) — bump forces re-install.",
       "lastUpdated": "2026-05-09T00:00:00.000Z"
     }
   ]
