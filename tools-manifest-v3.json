@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-09T06:12:58.492Z",
+  "lastUpdated": "2026-05-09T06:20:36.037Z",
   "tools": [
     {
       "id": "docuscrub",
       "version": "2.0.2",
-      "lastUpdated": "2026-05-09T06:12:58.405Z",
+      "lastUpdated": "2026-05-09T06:20:35.848Z",
       "filename": "docuscrub-v3.json",
-      "size": 40354,
+      "size": 40825,
       "label": "DocuScrub",
       "kind": "tool",
       "category": "Tools - ELI Core",
