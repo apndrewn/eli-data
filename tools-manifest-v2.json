@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-05-09T19:34:37.083Z",
+  "lastUpdated": "2026-05-09T19:36:07.260Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -90,7 +90,7 @@
     {
       "id": "tool_eli5",
       "version": 1,
-      "lastUpdated": "2026-05-09T19:34:37.089Z",
+      "lastUpdated": "2026-05-09T19:36:07.274Z",
       "filename": "eli5_tool.json",
       "size": 14470,
       "label": "ELI5",
