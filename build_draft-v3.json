@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-05-10T05:19:14.841Z",
+  "exportedAt": "2026-05-10T05:29:47.157Z",
   "sectionVersions": {
     "jsonTools": 1
   },
   "sections": {
     "jsonTools": [
       {
-        "releasedAt": "2026-05-10T05:19:14.839Z",
+        "releasedAt": "2026-05-10T05:29:47.155Z",
         "id": "build_draft",
         "label": "Build Draft",
         "defaultEnabled": true,
@@ -32,10 +32,10 @@
           "desc": "OARS-aware draft assembly + AI fill.",
           "hoverTip": "Build a draft from OARS data + templates",
           "category": "Tools - Drafting",
-          "core": true,
+          "core": false,
           "default": true,
           "order": 10,
-          "microLabel": "BEFORE EXECUTION",
+          "microLabel": null,
           "microLabelVariant": "gold",
           "statKey": "appOpenedDraft",
           "requiresApiKey": true,
