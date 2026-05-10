@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-05-10T21:37:46.925Z",
+  "exportedAt": "2026-05-10T21:47:04.361Z",
   "sectionVersions": {
     "jsonTools": 1
   },
   "sections": {
     "jsonTools": [
       {
-        "releasedAt": "2026-05-10T21:37:46.923Z",
+        "releasedAt": "2026-05-10T21:47:04.360Z",
         "id": "legal_review",
         "label": "Legal Review",
         "defaultEnabled": true,
