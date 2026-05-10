@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-05-10T13:03:16.784Z",
+  "exportedAt": "2026-05-10T13:10:05.568Z",
   "sectionVersions": {
     "jsonTools": 1
   },
   "sections": {
     "jsonTools": [
       {
-        "releasedAt": "2026-05-10T13:03:16.783Z",
+        "releasedAt": "2026-05-10T13:10:05.567Z",
         "id": "ask_eli",
         "label": "Ask ELI",
         "defaultEnabled": true,
@@ -32,10 +32,10 @@
           "desc": "Chat with ELI about this document — Q&A, summaries, explanations.",
           "hoverTip": "Ask questions about this document",
           "category": "Tools - ELI Core",
-          "core": false,
+          "core": true,
           "default": true,
-          "order": 3,
-          "microLabel": null,
+          "order": 1,
+          "microLabel": "ESSENTIAL",
           "microLabelVariant": "gold",
           "statKey": "appOpenedAskEli",
           "requiresApiKey": true,
