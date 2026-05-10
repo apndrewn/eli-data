@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-10T18:10:25.965Z",
+  "lastUpdated": "2026-05-10T18:33:38.043Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -90,9 +90,9 @@
     {
       "id": "ask_eli",
       "version": null,
-      "lastUpdated": "2026-05-10T18:09:42.677Z",
+      "lastUpdated": "2026-05-10T18:33:13.614Z",
       "filename": "ask_eli-v3.json",
-      "size": 138159,
+      "size": 143144,
       "label": "Ask ELI",
       "kind": "tool",
       "category": "Tools - ELI Core",
@@ -104,9 +104,9 @@
     {
       "id": "version_history",
       "version": null,
-      "lastUpdated": "2026-05-10T18:09:42.814Z",
+      "lastUpdated": "2026-05-10T18:33:16.800Z",
       "filename": "version_history-v3.json",
-      "size": 35827,
+      "size": 35681,
       "label": "Version History",
       "kind": "tool",
       "category": "Tools - ELI Core",
@@ -117,7 +117,7 @@
     },
     {
       "id": "__data_catalog",
-      "lastUpdated": "2026-05-10T18:10:25.981Z",
+      "lastUpdated": "2026-05-10T18:33:38.058Z",
       "filename": "catalog.json",
       "size": 13974,
       "label": "Master Catalog (Dashboard tiles)",
@@ -133,7 +133,7 @@
     },
     {
       "id": "__data_prompts",
-      "lastUpdated": "2026-05-10T18:10:25.982Z",
+      "lastUpdated": "2026-05-10T18:33:38.059Z",
       "filename": "prompts.json",
       "size": 44919,
       "label": "AI Prompts",
@@ -149,7 +149,7 @@
     },
     {
       "id": "__data_agreement_types",
-      "lastUpdated": "2026-05-10T18:10:25.983Z",
+      "lastUpdated": "2026-05-10T18:33:38.059Z",
       "filename": "agreement_types.json",
       "size": 5583,
       "label": "Agreement Types",
@@ -165,7 +165,7 @@
     },
     {
       "id": "__data_exec_brief_terms",
-      "lastUpdated": "2026-05-10T18:10:25.983Z",
+      "lastUpdated": "2026-05-10T18:33:38.059Z",
       "filename": "exec_brief_terms.json",
       "size": 4117,
       "label": "Exec Brief Terms",
@@ -181,7 +181,7 @@
     },
     {
       "id": "__data_email_templates",
-      "lastUpdated": "2026-05-10T18:10:25.983Z",
+      "lastUpdated": "2026-05-10T18:33:38.060Z",
       "filename": "email_templates.json",
       "size": 970,
       "label": "Email Templates",
@@ -197,7 +197,7 @@
     },
     {
       "id": "__data_cleaner_rules",
-      "lastUpdated": "2026-05-10T18:10:25.984Z",
+      "lastUpdated": "2026-05-10T18:33:38.060Z",
       "filename": "cleaner_rules.json",
       "size": 940,
       "label": "Cleaner Rules",
@@ -213,7 +213,7 @@
     },
     {
       "id": "__data_loading_msgs",
-      "lastUpdated": "2026-05-10T18:10:25.985Z",
+      "lastUpdated": "2026-05-10T18:33:38.060Z",
       "filename": "loading_msgs.json",
       "size": 1041,
       "label": "Loading Messages",
@@ -229,7 +229,7 @@
     },
     {
       "id": "__data_trophies",
-      "lastUpdated": "2026-05-10T18:10:25.985Z",
+      "lastUpdated": "2026-05-10T18:33:38.061Z",
       "filename": "trophies.json",
       "size": 30004,
       "label": "Trophies Library",
@@ -245,7 +245,7 @@
     },
     {
       "id": "__data_bd_templates",
-      "lastUpdated": "2026-05-10T18:10:26.034Z",
+      "lastUpdated": "2026-05-10T18:33:38.109Z",
       "filename": "bd_templates.enc.json",
       "size": 20821066,
       "label": "Build Draft Templates",
@@ -262,7 +262,7 @@
     },
     {
       "id": "__data_playbooks",
-      "lastUpdated": "2026-05-10T18:10:26.065Z",
+      "lastUpdated": "2026-05-10T18:33:38.141Z",
       "filename": "playbooks.enc.json",
       "size": 2018874,
       "label": "Negotiation Playbooks",
@@ -279,7 +279,7 @@
     },
     {
       "id": "__data_risk_rules",
-      "lastUpdated": "2026-05-10T18:10:26.068Z",
+      "lastUpdated": "2026-05-10T18:33:38.144Z",
       "filename": "riskRules.enc.json",
       "size": 2282,
       "label": "Risk Rules Library",
@@ -296,7 +296,7 @@
     },
     {
       "id": "__data_templates",
-      "lastUpdated": "2026-05-10T18:10:26.071Z",
+      "lastUpdated": "2026-05-10T18:33:38.146Z",
       "filename": "templates.enc.json",
       "size": 626786,
       "label": "Document Templates",
@@ -313,7 +313,7 @@
     },
     {
       "id": "__data_requesters_enc",
-      "lastUpdated": "2026-05-10T18:10:26.072Z",
+      "lastUpdated": "2026-05-10T18:33:38.147Z",
       "filename": "requesters.enc.json",
       "size": 39398,
       "label": "Requesters Directory",
