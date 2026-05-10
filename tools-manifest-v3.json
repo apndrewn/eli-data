@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-09T22:24:32.388Z",
+  "lastUpdated": "2026-05-10T00:59:10.537Z",
   "tools": [
     {
       "id": "tool_manager",
       "version": null,
-      "lastUpdated": "2026-05-09T22:13:14.136Z",
+      "lastUpdated": "2026-05-10T00:59:09.999Z",
       "filename": "tool_manager-v3.json",
-      "size": 22291,
+      "size": 24159,
       "label": "Tool Manager",
       "kind": "tool",
       "category": "Tools - ELI Core",
@@ -61,7 +61,7 @@
     },
     {
       "id": "__data_catalog",
-      "lastUpdated": "2026-05-09T22:24:32.398Z",
+      "lastUpdated": "2026-05-10T00:59:10.546Z",
       "filename": "catalog.json",
       "size": 13974,
       "label": "Master Catalog (Dashboard tiles)",
@@ -77,7 +77,7 @@
     },
     {
       "id": "__data_prompts",
-      "lastUpdated": "2026-05-09T22:24:32.398Z",
+      "lastUpdated": "2026-05-10T00:59:10.547Z",
       "filename": "prompts.json",
       "size": 44919,
       "label": "AI Prompts",
@@ -93,7 +93,7 @@
     },
     {
       "id": "__data_agreement_types",
-      "lastUpdated": "2026-05-09T22:24:32.399Z",
+      "lastUpdated": "2026-05-10T00:59:10.547Z",
       "filename": "agreement_types.json",
       "size": 5583,
       "label": "Agreement Types",
@@ -109,7 +109,7 @@
     },
     {
       "id": "__data_exec_brief_terms",
-      "lastUpdated": "2026-05-09T22:24:32.399Z",
+      "lastUpdated": "2026-05-10T00:59:10.547Z",
       "filename": "exec_brief_terms.json",
       "size": 4117,
       "label": "Exec Brief Terms",
@@ -125,7 +125,7 @@
     },
     {
       "id": "__data_email_templates",
-      "lastUpdated": "2026-05-09T22:24:32.399Z",
+      "lastUpdated": "2026-05-10T00:59:10.548Z",
       "filename": "email_templates.json",
       "size": 970,
       "label": "Email Templates",
@@ -141,7 +141,7 @@
     },
     {
       "id": "__data_cleaner_rules",
-      "lastUpdated": "2026-05-09T22:24:32.399Z",
+      "lastUpdated": "2026-05-10T00:59:10.548Z",
       "filename": "cleaner_rules.json",
       "size": 940,
       "label": "Cleaner Rules",
@@ -157,7 +157,7 @@
     },
     {
       "id": "__data_loading_msgs",
-      "lastUpdated": "2026-05-09T22:24:32.400Z",
+      "lastUpdated": "2026-05-10T00:59:10.548Z",
       "filename": "loading_msgs.json",
       "size": 1041,
       "label": "Loading Messages",
@@ -173,7 +173,7 @@
     },
     {
       "id": "__data_trophies",
-      "lastUpdated": "2026-05-09T22:24:32.400Z",
+      "lastUpdated": "2026-05-10T00:59:10.549Z",
       "filename": "trophies.json",
       "size": 30004,
       "label": "Trophies Library",
