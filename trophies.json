@@ -878,5 +878,5 @@
     ]
   },
   "_note": "Trophies extracted from inline ELI_TROPHIES const in taskpane_v2.js (Step 17 offload, 2026-05-01). Each trophy's `check` is the JS function body as a string; the loader compiles it via new Function('s','e', body) on import. Import via Settings -> Data Hub -> Import Master JSON OR per-section Import on the Trophies row. After import, evaluateTrophies and the trophy gallery read from IDB instead of the (now deleted) inline const.",
-  "releasedAt": "2026-05-11T06:33:10.583Z"
+  "releasedAt": "2026-05-11T06:38:16.630Z"
 }
