@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-05-10T22:50:08.118Z",
+  "exportedAt": "2026-05-11T05:20:58.708Z",
   "sectionVersions": {
     "jsonTools": 1
   },
   "sections": {
     "jsonTools": [
       {
-        "releasedAt": "2026-05-10T22:50:08.116Z",
+        "releasedAt": "2026-05-11T05:20:58.707Z",
         "id": "legal_review",
         "label": "Legal Review",
         "defaultEnabled": true,
@@ -37,7 +37,7 @@
           "core": true,
           "default": true,
           "order": 1,
-          "microLabel": "ESSENTIAL",
+          "microLabel": "AS NEEDED",
           "microLabelVariant": "gold",
           "statKey": "appOpenedLegalReview",
           "requiresApiKey": true,
