@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-11T23:09:14.911Z",
+  "lastUpdated": "2026-05-11T23:43:57.695Z",
   "tools": [
     {
       "id": "tool_manager",
       "version": null,
-      "lastUpdated": "2026-05-11T03:29:58.980Z",
+      "lastUpdated": "2026-05-11T23:43:47.315Z",
       "filename": "tool_manager-v3.json",
-      "size": 61393,
+      "size": 61855,
       "label": "Tool Manager",
       "kind": "tool",
       "category": "Tools - ELI Core",
@@ -132,9 +132,9 @@
     {
       "id": "trophy_gallery",
       "version": null,
-      "lastUpdated": "2026-05-11T05:49:20.549Z",
+      "lastUpdated": "2026-05-11T23:43:47.234Z",
       "filename": "trophy_gallery-v3.json",
-      "size": 55234,
+      "size": 55308,
       "label": "Trophy Gallery",
       "kind": "tool",
       "category": "Engagement",
@@ -174,9 +174,9 @@
     {
       "id": "error_review",
       "version": null,
-      "lastUpdated": "2026-05-11T04:30:11.945Z",
+      "lastUpdated": "2026-05-11T23:43:46.956Z",
       "filename": "error_review-v3.json",
-      "size": 73339,
+      "size": 74042,
       "label": "Error Review",
       "kind": "tool",
       "category": "Tools - ELI Core",
@@ -188,9 +188,9 @@
     {
       "id": "build_draft",
       "version": null,
-      "lastUpdated": "2026-05-11T05:18:33.604Z",
+      "lastUpdated": "2026-05-11T23:43:47.051Z",
       "filename": "build_draft-v3.json",
-      "size": 196037,
+      "size": 199595,
       "label": "Build Draft",
       "kind": "tool",
       "category": "Tools - Drafting",
@@ -202,9 +202,9 @@
     {
       "id": "auto_emailer",
       "version": null,
-      "lastUpdated": "2026-05-11T05:12:57.471Z",
+      "lastUpdated": "2026-05-11T23:43:47.141Z",
       "filename": "auto_emailer-v3.json",
-      "size": 68464,
+      "size": 68649,
       "label": "Auto Emailer",
       "kind": "tool",
       "category": "Tools - ELI Core",
@@ -216,9 +216,9 @@
     {
       "id": "ask_eli",
       "version": null,
-      "lastUpdated": "2026-05-11T23:05:10.741Z",
+      "lastUpdated": "2026-05-11T23:43:46.862Z",
       "filename": "ask_eli-v3.json",
-      "size": 166679,
+      "size": 169297,
       "label": "Ask ELI",
       "kind": "tool",
       "category": "Tools - ELI Core",
@@ -285,7 +285,7 @@
     },
     {
       "id": "__data_catalog",
-      "lastUpdated": "2026-05-11T23:09:14.931Z",
+      "lastUpdated": "2026-05-11T23:43:57.713Z",
       "filename": "catalog.json",
       "size": 13974,
       "label": "Master Catalog (Dashboard tiles)",
@@ -301,7 +301,7 @@
     },
     {
       "id": "__data_prompts",
-      "lastUpdated": "2026-05-11T23:09:14.932Z",
+      "lastUpdated": "2026-05-11T23:43:57.713Z",
       "filename": "prompts.json",
       "size": 44912,
       "label": "AI Prompts",
@@ -317,7 +317,7 @@
     },
     {
       "id": "__data_agreement_types",
-      "lastUpdated": "2026-05-11T23:09:14.932Z",
+      "lastUpdated": "2026-05-11T23:43:57.714Z",
       "filename": "agreement_types.json",
       "size": 5583,
       "label": "Agreement Types",
@@ -333,7 +333,7 @@
     },
     {
       "id": "__data_exec_brief_terms",
-      "lastUpdated": "2026-05-11T23:09:14.933Z",
+      "lastUpdated": "2026-05-11T23:43:57.714Z",
       "filename": "exec_brief_terms.json",
       "size": 4117,
       "label": "Exec Brief Terms",
@@ -349,7 +349,7 @@
     },
     {
       "id": "__data_email_templates",
-      "lastUpdated": "2026-05-11T23:09:14.933Z",
+      "lastUpdated": "2026-05-11T23:43:57.715Z",
       "filename": "email_templates.json",
       "size": 970,
       "label": "Email Templates",
@@ -365,7 +365,7 @@
     },
     {
       "id": "__data_cleaner_rules",
-      "lastUpdated": "2026-05-11T23:09:14.933Z",
+      "lastUpdated": "2026-05-11T23:43:57.715Z",
       "filename": "cleaner_rules.json",
       "size": 940,
       "label": "Cleaner Rules",
@@ -381,7 +381,7 @@
     },
     {
       "id": "__data_loading_msgs",
-      "lastUpdated": "2026-05-11T23:09:14.934Z",
+      "lastUpdated": "2026-05-11T23:43:57.715Z",
       "filename": "loading_msgs.json",
       "size": 1041,
       "label": "Loading Messages",
@@ -397,7 +397,7 @@
     },
     {
       "id": "__data_trophies",
-      "lastUpdated": "2026-05-11T23:09:14.934Z",
+      "lastUpdated": "2026-05-11T23:43:57.716Z",
       "filename": "trophies.json",
       "size": 30004,
       "label": "Trophies Library",
@@ -413,7 +413,7 @@
     },
     {
       "id": "__data_bd_templates",
-      "lastUpdated": "2026-05-11T23:09:15.040Z",
+      "lastUpdated": "2026-05-11T23:43:57.762Z",
       "filename": "bd_templates.enc.json",
       "size": 20821066,
       "label": "Build Draft Templates",
@@ -430,7 +430,7 @@
     },
     {
       "id": "__data_playbooks",
-      "lastUpdated": "2026-05-11T23:09:15.087Z",
+      "lastUpdated": "2026-05-11T23:43:57.789Z",
       "filename": "playbooks.enc.json",
       "size": 2018874,
       "label": "Negotiation Playbooks",
@@ -447,7 +447,7 @@
     },
     {
       "id": "__data_risk_rules",
-      "lastUpdated": "2026-05-11T23:09:15.090Z",
+      "lastUpdated": "2026-05-11T23:43:57.791Z",
       "filename": "riskRules.enc.json",
       "size": 2282,
       "label": "Risk Rules Library",
@@ -464,7 +464,7 @@
     },
     {
       "id": "__data_templates",
-      "lastUpdated": "2026-05-11T23:09:15.092Z",
+      "lastUpdated": "2026-05-11T23:43:57.793Z",
       "filename": "templates.enc.json",
       "size": 626786,
       "label": "Document Templates",
@@ -481,7 +481,7 @@
     },
     {
       "id": "__data_requesters_enc",
-      "lastUpdated": "2026-05-11T23:09:15.095Z",
+      "lastUpdated": "2026-05-11T23:43:57.794Z",
       "filename": "requesters.enc.json",
       "size": 39398,
       "label": "Requesters Directory",
