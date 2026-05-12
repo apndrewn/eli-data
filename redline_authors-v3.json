@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-05-12T05:25:17.726Z",
+  "exportedAt": "2026-05-12T13:06:49.787Z",
   "sectionVersions": {
     "jsonTools": 1
   },
   "sections": {
     "jsonTools": [
       {
-        "releasedAt": "2026-05-12T05:25:17.724Z",
+        "releasedAt": "2026-05-12T13:06:49.785Z",
         "id": "redline_authors",
         "label": "Redline Authors",
         "defaultEnabled": true,
@@ -16,6 +16,7 @@
         ],
         "tier": "boot",
         "requires": {
+          "host": 1,
           "storage": 1
         },
         "advertises": {

@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-05-12T01:59:10.373Z",
+  "exportedAt": "2026-05-12T13:06:50.132Z",
   "sectionVersions": {
     "jsonTools": 1
   },
   "sections": {
     "jsonTools": [
       {
-        "releasedAt": "2026-05-12T01:59:10.372Z",
+        "releasedAt": "2026-05-12T13:06:50.131Z",
         "id": "risk_rules_manager",
         "label": "Legal Risks",
         "defaultEnabled": true,

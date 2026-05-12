@@ -1,25 +1,11 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-05-12T12:58:35.916Z",
+  "lastUpdated": "2026-05-12T13:06:56.041Z",
   "tools": [
-    {
-      "id": "redline_email_pack",
-      "version": null,
-      "lastUpdated": "2026-05-12T01:59:10.138Z",
-      "filename": "redline_email_pack.json",
-      "size": 30094,
-      "label": "Redline Emails",
-      "kind": "tool",
-      "category": "Tools - ELI Core",
-      "audience": [
-        "all"
-      ],
-      "changelog": ""
-    },
     {
       "id": "risk_rules_manager",
       "version": null,
-      "lastUpdated": "2026-05-12T01:59:10.372Z",
+      "lastUpdated": "2026-05-12T13:06:50.131Z",
       "filename": "risk_rules_manager.json",
       "size": 67340,
       "label": "Legal Risks",

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-12T12:58:35.916Z",
+  "lastUpdated": "2026-05-12T13:06:56.041Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -90,9 +90,9 @@
     {
       "id": "playbook_manager",
       "version": null,
-      "lastUpdated": "2026-05-12T05:55:52.697Z",
+      "lastUpdated": "2026-05-12T13:06:49.660Z",
       "filename": "playbook_manager-v3.json",
-      "size": 67410,
+      "size": 67431,
       "label": "Playbook Manager",
       "kind": "tool",
       "category": "Admin",
@@ -104,9 +104,9 @@
     {
       "id": "email_helper",
       "version": null,
-      "lastUpdated": "2026-05-12T02:37:33.297Z",
+      "lastUpdated": "2026-05-12T13:06:49.537Z",
       "filename": "email_helper-v3.json",
-      "size": 76807,
+      "size": 76805,
       "label": "Email Helper",
       "kind": "tool",
       "category": "Tools - ELI Core",
@@ -146,9 +146,9 @@
     {
       "id": "review_redlines",
       "version": null,
-      "lastUpdated": "2026-05-12T12:53:45.784Z",
+      "lastUpdated": "2026-05-12T13:06:41.755Z",
       "filename": "review_redlines-v3.json",
-      "size": 572343,
+      "size": 572398,
       "label": "Review Redlines",
       "kind": "tool",
       "category": "Tools - ELI Core",
@@ -178,6 +178,20 @@
       "filename": "compare-v3.json",
       "size": 124542,
       "label": "Compare to Template",
+      "kind": "tool",
+      "category": "Tools - ELI Core",
+      "audience": [
+        "all"
+      ],
+      "changelog": ""
+    },
+    {
+      "id": "redline_email_pack",
+      "version": null,
+      "lastUpdated": "2026-05-12T13:06:50.004Z",
+      "filename": "redline_email_pack-v3.json",
+      "size": 30190,
+      "label": "Redline Emails",
       "kind": "tool",
       "category": "Tools - ELI Core",
       "audience": [
@@ -329,9 +343,9 @@
     {
       "id": "redline_authors",
       "version": null,
-      "lastUpdated": "2026-05-12T05:25:17.724Z",
+      "lastUpdated": "2026-05-12T13:06:49.785Z",
       "filename": "redline_authors-v3.json",
-      "size": 25251,
+      "size": 25272,
       "label": "Redline Authors",
       "kind": "tool",
       "category": "System",
@@ -343,9 +357,9 @@
     {
       "id": "tool_author_studio",
       "version": null,
-      "lastUpdated": "2026-05-12T12:58:35.810Z",
+      "lastUpdated": "2026-05-12T13:06:49.428Z",
       "filename": "tool_author_studio-v3.json",
-      "size": 72745,
+      "size": 73973,
       "label": "Tool Author Studio",
       "kind": "tool",
       "category": "Admin",
