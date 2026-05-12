@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-12T03:35:50.339Z",
+  "lastUpdated": "2026-05-12T03:50:01.561Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -531,7 +531,7 @@
       "id": "external_innovation",
       "label": "External Innovation",
       "icon": "🔍",
-      "description": "Tools + every data library for the External Innovation team",
+      "description": "Complete External Innovation toolkit — every legal tool plus all data libraries",
       "audience": [
         "all"
       ],
@@ -540,6 +540,21 @@
         "auto_emailer",
         "ask_eli",
         "version_history",
+        "oars_loader",
+        "docuscrub",
+        "final_review",
+        "playbook_manager",
+        "email_helper",
+        "focus_flow",
+        "eli5",
+        "review_redlines",
+        "trophy_gallery",
+        "compare",
+        "redline_email_pack",
+        "risk_rules_manager",
+        "legal_review",
+        "legal_risks",
+        "refresh_eli",
         "__data_catalog",
         "__data_prompts",
         "__data_agreement_types",
@@ -560,7 +575,7 @@
       "id": "core",
       "label": "ELI Core",
       "icon": "⚡",
-      "description": "Default kernel-bundled tools every user gets",
+      "description": "Default kernel-bundled tools every user gets — system infrastructure + the essentials",
       "audience": [
         "all"
       ],
@@ -572,6 +587,9 @@
         "auto_emailer",
         "ask_eli",
         "version_history",
+        "eli_kit",
+        "eli-activity",
+        "eli_stats",
         "__data_catalog",
         "__data_prompts",
         "__data_loading_msgs",
