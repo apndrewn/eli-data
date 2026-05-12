@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-12T16:54:41.135Z",
+  "lastUpdated": "2026-05-12T16:56:17.336Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -300,9 +300,9 @@
     {
       "id": "legal_review",
       "version": null,
-      "lastUpdated": "2026-05-12T16:43:04.189Z",
+      "lastUpdated": "2026-05-12T16:56:17.206Z",
       "filename": "legal_review-v3.json",
-      "size": 43070,
+      "size": 43645,
       "label": "Legal Review",
       "kind": "tool",
       "category": "Tools - ELI Core",
@@ -314,9 +314,9 @@
     {
       "id": "legal_risks",
       "version": null,
-      "lastUpdated": "2026-05-12T15:52:59.504Z",
+      "lastUpdated": "2026-05-12T16:55:44.733Z",
       "filename": "legal_risks-v3.json",
-      "size": 132140,
+      "size": 132141,
       "label": "Legal Risks",
       "kind": "tool",
       "category": "Tools - ELI Core",

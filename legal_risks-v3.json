@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-05-12T15:52:59.506Z",
+  "exportedAt": "2026-05-12T16:55:44.736Z",
   "sectionVersions": {
     "jsonTools": 1
   },
   "sections": {
     "jsonTools": [
       {
-        "releasedAt": "2026-05-12T15:52:59.504Z",
+        "releasedAt": "2026-05-12T16:55:44.733Z",
         "id": "legal_risks",
         "label": "Legal Risks",
         "defaultEnabled": true,
         "audience": [
           "all"
         ],
-        "tier": "demand",
+        "tier": "preload",
         "requires": {
           "host": 1,
           "ai": 1,
