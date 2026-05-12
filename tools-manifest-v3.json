@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-12T00:31:55.257Z",
+  "lastUpdated": "2026-05-12T00:49:40.990Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -116,14 +116,14 @@
       "changelog": ""
     },
     {
-      "id": "eli5",
+      "id": "review_redlines",
       "version": null,
-      "lastUpdated": "2026-05-11T23:05:10.344Z",
-      "filename": "eli5-v3.json",
-      "size": 28603,
-      "label": "ELI5 Explainer",
+      "lastUpdated": "2026-05-12T00:49:31.877Z",
+      "filename": "review_redlines-v3.json",
+      "size": 371727,
+      "label": "Review Redlines",
       "kind": "tool",
-      "category": "Patents",
+      "category": "Tools - ELI Core",
       "audience": [
         "all"
       ],
@@ -216,9 +216,9 @@
     {
       "id": "ask_eli",
       "version": null,
-      "lastUpdated": "2026-05-11T23:51:39.274Z",
+      "lastUpdated": "2026-05-12T00:49:36.410Z",
       "filename": "ask_eli-v3.json",
-      "size": 170870,
+      "size": 171719,
       "label": "Ask ELI",
       "kind": "tool",
       "category": "Tools - ELI Core",
@@ -285,7 +285,7 @@
     },
     {
       "id": "__data_catalog",
-      "lastUpdated": "2026-05-12T00:31:55.284Z",
+      "lastUpdated": "2026-05-12T00:49:41.009Z",
       "filename": "catalog.json",
       "size": 13974,
       "label": "Master Catalog (Dashboard tiles)",
@@ -301,7 +301,7 @@
     },
     {
       "id": "__data_prompts",
-      "lastUpdated": "2026-05-12T00:31:55.285Z",
+      "lastUpdated": "2026-05-12T00:49:41.010Z",
       "filename": "prompts.json",
       "size": 44912,
       "label": "AI Prompts",
@@ -317,7 +317,7 @@
     },
     {
       "id": "__data_agreement_types",
-      "lastUpdated": "2026-05-12T00:31:55.286Z",
+      "lastUpdated": "2026-05-12T00:49:41.011Z",
       "filename": "agreement_types.json",
       "size": 5583,
       "label": "Agreement Types",
@@ -333,7 +333,7 @@
     },
     {
       "id": "__data_exec_brief_terms",
-      "lastUpdated": "2026-05-12T00:31:55.287Z",
+      "lastUpdated": "2026-05-12T00:49:41.011Z",
       "filename": "exec_brief_terms.json",
       "size": 4117,
       "label": "Exec Brief Terms",
@@ -349,7 +349,7 @@
     },
     {
       "id": "__data_email_templates",
-      "lastUpdated": "2026-05-12T00:31:55.287Z",
+      "lastUpdated": "2026-05-12T00:49:41.011Z",
       "filename": "email_templates.json",
       "size": 970,
       "label": "Email Templates",
@@ -365,7 +365,7 @@
     },
     {
       "id": "__data_cleaner_rules",
-      "lastUpdated": "2026-05-12T00:31:55.287Z",
+      "lastUpdated": "2026-05-12T00:49:41.012Z",
       "filename": "cleaner_rules.json",
       "size": 940,
       "label": "Cleaner Rules",
@@ -381,7 +381,7 @@
     },
     {
       "id": "__data_loading_msgs",
-      "lastUpdated": "2026-05-12T00:31:55.288Z",
+      "lastUpdated": "2026-05-12T00:49:41.012Z",
       "filename": "loading_msgs.json",
       "size": 1041,
       "label": "Loading Messages",
@@ -397,7 +397,7 @@
     },
     {
       "id": "__data_trophies",
-      "lastUpdated": "2026-05-12T00:31:55.288Z",
+      "lastUpdated": "2026-05-12T00:49:41.013Z",
       "filename": "trophies.json",
       "size": 30004,
       "label": "Trophies Library",
@@ -413,7 +413,7 @@
     },
     {
       "id": "__data_bd_templates",
-      "lastUpdated": "2026-05-12T00:31:55.353Z",
+      "lastUpdated": "2026-05-12T00:49:41.063Z",
       "filename": "bd_templates.enc.json",
       "size": 20821066,
       "label": "Build Draft Templates",
@@ -430,7 +430,7 @@
     },
     {
       "id": "__data_playbooks",
-      "lastUpdated": "2026-05-12T00:31:55.390Z",
+      "lastUpdated": "2026-05-12T00:49:41.093Z",
       "filename": "playbooks.enc.json",
       "size": 2018874,
       "label": "Negotiation Playbooks",
@@ -447,7 +447,7 @@
     },
     {
       "id": "__data_risk_rules",
-      "lastUpdated": "2026-05-12T00:31:55.392Z",
+      "lastUpdated": "2026-05-12T00:49:41.095Z",
       "filename": "riskRules.enc.json",
       "size": 2282,
       "label": "Risk Rules Library",
@@ -464,7 +464,7 @@
     },
     {
       "id": "__data_templates",
-      "lastUpdated": "2026-05-12T00:31:55.397Z",
+      "lastUpdated": "2026-05-12T00:49:41.097Z",
       "filename": "templates.enc.json",
       "size": 626786,
       "label": "Document Templates",
@@ -481,7 +481,7 @@
     },
     {
       "id": "__data_requesters_enc",
-      "lastUpdated": "2026-05-12T00:31:55.400Z",
+      "lastUpdated": "2026-05-12T00:49:41.098Z",
       "filename": "requesters.enc.json",
       "size": 39398,
       "label": "Requesters Directory",
