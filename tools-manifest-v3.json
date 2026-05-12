@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-12T15:39:10.095Z",
+  "lastUpdated": "2026-05-12T15:43:32.585Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -230,9 +230,9 @@
     {
       "id": "build_draft",
       "version": null,
-      "lastUpdated": "2026-05-12T15:39:09.859Z",
+      "lastUpdated": "2026-05-12T15:43:32.374Z",
       "filename": "build_draft-v3.json",
-      "size": 204674,
+      "size": 205472,
       "label": "Build Draft",
       "kind": "tool",
       "category": "Tools - Drafting",
