@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-12T23:18:02.428Z",
+  "lastUpdated": "2026-05-12T23:20:03.137Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -286,9 +286,9 @@
     {
       "id": "eli_stats",
       "version": null,
-      "lastUpdated": "2026-05-12T23:18:02.200Z",
+      "lastUpdated": "2026-05-12T23:20:03.036Z",
       "filename": "eli_stats-v3.json",
-      "size": 32876,
+      "size": 33185,
       "label": "ELI Stats",
       "kind": "tool",
       "category": "System",
