@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-12T01:26:57.833Z",
+  "lastUpdated": "2026-05-12T01:33:03.999Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -62,9 +62,9 @@
     {
       "id": "docuscrub",
       "version": null,
-      "lastUpdated": "2026-05-12T01:11:40.614Z",
+      "lastUpdated": "2026-05-12T01:33:03.902Z",
       "filename": "docuscrub-v3.json",
-      "size": 56926,
+      "size": 57927,
       "label": "DocuScrub",
       "kind": "tool",
       "category": "Tools - ELI Core",
@@ -76,9 +76,9 @@
     {
       "id": "final_review",
       "version": null,
-      "lastUpdated": "2026-05-12T01:18:18.940Z",
+      "lastUpdated": "2026-05-12T01:33:03.827Z",
       "filename": "final_review-v3.json",
-      "size": 77125,
+      "size": 77971,
       "label": "Final Review",
       "kind": "tool",
       "category": "Tools - ELI Core",
@@ -160,9 +160,9 @@
     {
       "id": "compare",
       "version": null,
-      "lastUpdated": "2026-05-12T01:26:57.660Z",
+      "lastUpdated": "2026-05-12T01:33:03.671Z",
       "filename": "compare-v3.json",
-      "size": 118770,
+      "size": 118768,
       "label": "Compare to Template",
       "kind": "tool",
       "category": "Tools - ELI Core",
@@ -272,9 +272,9 @@
     {
       "id": "legal_review",
       "version": null,
-      "lastUpdated": "2026-05-12T01:18:19.171Z",
+      "lastUpdated": "2026-05-12T01:33:03.749Z",
       "filename": "legal_review-v3.json",
-      "size": 39233,
+      "size": 39235,
       "label": "Legal Review",
       "kind": "tool",
       "category": "Tools - ELI Core",
@@ -299,7 +299,7 @@
     },
     {
       "id": "__data_catalog",
-      "lastUpdated": "2026-05-12T01:26:57.854Z",
+      "lastUpdated": "2026-05-12T01:33:04.021Z",
       "filename": "catalog.json",
       "size": 13974,
       "label": "Master Catalog (Dashboard tiles)",
@@ -315,7 +315,7 @@
     },
     {
       "id": "__data_prompts",
-      "lastUpdated": "2026-05-12T01:26:57.855Z",
+      "lastUpdated": "2026-05-12T01:33:04.021Z",
       "filename": "prompts.json",
       "size": 44912,
       "label": "AI Prompts",
@@ -331,7 +331,7 @@
     },
     {
       "id": "__data_agreement_types",
-      "lastUpdated": "2026-05-12T01:26:57.855Z",
+      "lastUpdated": "2026-05-12T01:33:04.022Z",
       "filename": "agreement_types.json",
       "size": 5583,
       "label": "Agreement Types",
@@ -347,7 +347,7 @@
     },
     {
       "id": "__data_exec_brief_terms",
-      "lastUpdated": "2026-05-12T01:26:57.857Z",
+      "lastUpdated": "2026-05-12T01:33:04.022Z",
       "filename": "exec_brief_terms.json",
       "size": 4117,
       "label": "Exec Brief Terms",
@@ -363,7 +363,7 @@
     },
     {
       "id": "__data_email_templates",
-      "lastUpdated": "2026-05-12T01:26:57.858Z",
+      "lastUpdated": "2026-05-12T01:33:04.022Z",
       "filename": "email_templates.json",
       "size": 970,
       "label": "Email Templates",
@@ -379,7 +379,7 @@
     },
     {
       "id": "__data_cleaner_rules",
-      "lastUpdated": "2026-05-12T01:26:57.859Z",
+      "lastUpdated": "2026-05-12T01:33:04.023Z",
       "filename": "cleaner_rules.json",
       "size": 940,
       "label": "Cleaner Rules",
@@ -395,7 +395,7 @@
     },
     {
       "id": "__data_loading_msgs",
-      "lastUpdated": "2026-05-12T01:26:57.859Z",
+      "lastUpdated": "2026-05-12T01:33:04.023Z",
       "filename": "loading_msgs.json",
       "size": 1041,
       "label": "Loading Messages",
@@ -411,7 +411,7 @@
     },
     {
       "id": "__data_trophies",
-      "lastUpdated": "2026-05-12T01:26:57.860Z",
+      "lastUpdated": "2026-05-12T01:33:04.023Z",
       "filename": "trophies.json",
       "size": 30004,
       "label": "Trophies Library",
@@ -427,7 +427,7 @@
     },
     {
       "id": "__data_bd_templates",
-      "lastUpdated": "2026-05-12T01:26:57.915Z",
+      "lastUpdated": "2026-05-12T01:33:04.097Z",
       "filename": "bd_templates.enc.json",
       "size": 20821066,
       "label": "Build Draft Templates",
@@ -444,7 +444,7 @@
     },
     {
       "id": "__data_playbooks",
-      "lastUpdated": "2026-05-12T01:26:57.946Z",
+      "lastUpdated": "2026-05-12T01:33:04.126Z",
       "filename": "playbooks.enc.json",
       "size": 2018874,
       "label": "Negotiation Playbooks",
@@ -461,7 +461,7 @@
     },
     {
       "id": "__data_risk_rules",
-      "lastUpdated": "2026-05-12T01:26:57.948Z",
+      "lastUpdated": "2026-05-12T01:33:04.129Z",
       "filename": "riskRules.enc.json",
       "size": 2282,
       "label": "Risk Rules Library",
@@ -478,7 +478,7 @@
     },
     {
       "id": "__data_templates",
-      "lastUpdated": "2026-05-12T01:26:57.950Z",
+      "lastUpdated": "2026-05-12T01:33:04.132Z",
       "filename": "templates.enc.json",
       "size": 626786,
       "label": "Document Templates",
@@ -495,7 +495,7 @@
     },
     {
       "id": "__data_requesters_enc",
-      "lastUpdated": "2026-05-12T01:26:57.951Z",
+      "lastUpdated": "2026-05-12T01:33:04.133Z",
       "filename": "requesters.enc.json",
       "size": 39398,
       "label": "Requesters Directory",
