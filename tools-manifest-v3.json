@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-12T05:13:35.894Z",
+  "lastUpdated": "2026-05-12T05:19:45.269Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -132,9 +132,9 @@
     {
       "id": "review_redlines",
       "version": null,
-      "lastUpdated": "2026-05-12T05:07:15.136Z",
+      "lastUpdated": "2026-05-12T05:19:44.953Z",
       "filename": "review_redlines-v3.json",
-      "size": 384781,
+      "size": 382626,
       "label": "Review Redlines",
       "kind": "tool",
       "category": "Tools - ELI Core",
@@ -230,9 +230,9 @@
     {
       "id": "ask_eli",
       "version": null,
-      "lastUpdated": "2026-05-12T04:45:03.132Z",
+      "lastUpdated": "2026-05-12T05:19:45.063Z",
       "filename": "ask_eli-v3.json",
-      "size": 172457,
+      "size": 173034,
       "label": "Ask ELI",
       "kind": "tool",
       "category": "Tools - ELI Core",
@@ -258,9 +258,9 @@
     {
       "id": "eli_stats",
       "version": null,
-      "lastUpdated": "2026-05-11T05:18:33.428Z",
+      "lastUpdated": "2026-05-12T05:19:45.157Z",
       "filename": "eli_stats-v3.json",
-      "size": 21916,
+      "size": 22362,
       "label": "ELI Stats",
       "kind": "tool",
       "category": "System",
@@ -311,6 +311,20 @@
       "audienceEmails": [
         "andrew_nemiroff@colpal.com"
       ]
+    },
+    {
+      "id": "redline_authors",
+      "version": null,
+      "lastUpdated": "2026-05-12T05:19:44.847Z",
+      "filename": "redline_authors-v3.json",
+      "size": 26507,
+      "label": "Redline Authors",
+      "kind": "tool",
+      "category": "System",
+      "audience": [
+        "all"
+      ],
+      "changelog": ""
     },
     {
       "id": "__data_catalog",
@@ -555,6 +569,7 @@
         "legal_review",
         "legal_risks",
         "refresh_eli",
+        "redline_authors",
         "__data_catalog",
         "__data_prompts",
         "__data_agreement_types",
@@ -589,6 +604,7 @@
         "eli_kit",
         "eli-activity",
         "eli_stats",
+        "redline_authors",
         "__data_catalog",
         "__data_prompts",
         "__data_loading_msgs",
