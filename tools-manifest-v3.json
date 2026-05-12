@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-12T12:33:23.132Z",
+  "lastUpdated": "2026-05-12T12:33:40.103Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -132,7 +132,7 @@
     {
       "id": "eli5",
       "version": null,
-      "lastUpdated": "2026-05-12T12:33:23.132Z",
+      "lastUpdated": "2026-05-12T12:33:40.103Z",
       "filename": "eli5-v3.json",
       "size": 28415,
       "label": "ELI5 Explainer",
