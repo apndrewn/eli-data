@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-12T22:51:33.917Z",
+  "lastUpdated": "2026-05-12T22:56:40.994Z",
   "tools": [
     {
       "id": "tool_manager",
       "version": null,
-      "lastUpdated": "2026-05-12T22:51:33.796Z",
+      "lastUpdated": "2026-05-12T22:56:40.755Z",
       "filename": "tool_manager-v3.json",
-      "size": 86214,
+      "size": 86211,
       "label": "Data Hub",
       "kind": "tool",
       "category": "Tools - ELI Core",
@@ -357,9 +357,9 @@
     {
       "id": "tool_author_studio",
       "version": null,
-      "lastUpdated": "2026-05-12T16:43:03.958Z",
+      "lastUpdated": "2026-05-12T22:56:40.848Z",
       "filename": "tool_author_studio-v3.json",
-      "size": 74047,
+      "size": 74045,
       "label": "Tool Author Studio",
       "kind": "tool",
       "category": "Admin",
