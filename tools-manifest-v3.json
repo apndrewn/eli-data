@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-12T05:54:25.810Z",
+  "lastUpdated": "2026-05-12T05:55:52.778Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -82,6 +82,20 @@
       "label": "Final Review",
       "kind": "tool",
       "category": "Tools - ELI Core",
+      "audience": [
+        "all"
+      ],
+      "changelog": ""
+    },
+    {
+      "id": "playbook_manager",
+      "version": null,
+      "lastUpdated": "2026-05-12T05:55:52.697Z",
+      "filename": "playbook_manager-v3.json",
+      "size": 67410,
+      "label": "Playbook Manager",
+      "kind": "tool",
+      "category": "Admin",
       "audience": [
         "all"
       ],
