@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-12T00:56:45.196Z",
+  "lastUpdated": "2026-05-12T00:58:02.525Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -110,6 +110,20 @@
       "label": "Focus Flow",
       "kind": "tool",
       "category": "Accessibility",
+      "audience": [
+        "all"
+      ],
+      "changelog": ""
+    },
+    {
+      "id": "eli5",
+      "version": null,
+      "lastUpdated": "2026-05-12T00:58:02.444Z",
+      "filename": "eli5-v3.json",
+      "size": 28603,
+      "label": "ELI5 Explainer",
+      "kind": "tool",
+      "category": "Patents",
       "audience": [
         "all"
       ],
@@ -285,7 +299,7 @@
     },
     {
       "id": "__data_catalog",
-      "lastUpdated": "2026-05-12T00:56:45.216Z",
+      "lastUpdated": "2026-05-12T00:58:02.559Z",
       "filename": "catalog.json",
       "size": 13974,
       "label": "Master Catalog (Dashboard tiles)",
@@ -301,7 +315,7 @@
     },
     {
       "id": "__data_prompts",
-      "lastUpdated": "2026-05-12T00:56:45.216Z",
+      "lastUpdated": "2026-05-12T00:58:02.559Z",
       "filename": "prompts.json",
       "size": 44912,
       "label": "AI Prompts",
@@ -317,7 +331,7 @@
     },
     {
       "id": "__data_agreement_types",
-      "lastUpdated": "2026-05-12T00:56:45.217Z",
+      "lastUpdated": "2026-05-12T00:58:02.560Z",
       "filename": "agreement_types.json",
       "size": 5583,
       "label": "Agreement Types",
@@ -333,7 +347,7 @@
     },
     {
       "id": "__data_exec_brief_terms",
-      "lastUpdated": "2026-05-12T00:56:45.217Z",
+      "lastUpdated": "2026-05-12T00:58:02.561Z",
       "filename": "exec_brief_terms.json",
       "size": 4117,
       "label": "Exec Brief Terms",
@@ -349,7 +363,7 @@
     },
     {
       "id": "__data_email_templates",
-      "lastUpdated": "2026-05-12T00:56:45.217Z",
+      "lastUpdated": "2026-05-12T00:58:02.562Z",
       "filename": "email_templates.json",
       "size": 970,
       "label": "Email Templates",
@@ -365,7 +379,7 @@
     },
     {
       "id": "__data_cleaner_rules",
-      "lastUpdated": "2026-05-12T00:56:45.218Z",
+      "lastUpdated": "2026-05-12T00:58:02.562Z",
       "filename": "cleaner_rules.json",
       "size": 940,
       "label": "Cleaner Rules",
@@ -381,7 +395,7 @@
     },
     {
       "id": "__data_loading_msgs",
-      "lastUpdated": "2026-05-12T00:56:45.218Z",
+      "lastUpdated": "2026-05-12T00:58:02.562Z",
       "filename": "loading_msgs.json",
       "size": 1041,
       "label": "Loading Messages",
@@ -397,7 +411,7 @@
     },
     {
       "id": "__data_trophies",
-      "lastUpdated": "2026-05-12T00:56:45.218Z",
+      "lastUpdated": "2026-05-12T00:58:02.563Z",
       "filename": "trophies.json",
       "size": 30004,
       "label": "Trophies Library",
@@ -413,7 +427,7 @@
     },
     {
       "id": "__data_bd_templates",
-      "lastUpdated": "2026-05-12T00:56:45.275Z",
+      "lastUpdated": "2026-05-12T00:58:02.624Z",
       "filename": "bd_templates.enc.json",
       "size": 20821066,
       "label": "Build Draft Templates",
@@ -430,7 +444,7 @@
     },
     {
       "id": "__data_playbooks",
-      "lastUpdated": "2026-05-12T00:56:45.308Z",
+      "lastUpdated": "2026-05-12T00:58:02.655Z",
       "filename": "playbooks.enc.json",
       "size": 2018874,
       "label": "Negotiation Playbooks",
@@ -447,7 +461,7 @@
     },
     {
       "id": "__data_risk_rules",
-      "lastUpdated": "2026-05-12T00:56:45.311Z",
+      "lastUpdated": "2026-05-12T00:58:02.658Z",
       "filename": "riskRules.enc.json",
       "size": 2282,
       "label": "Risk Rules Library",
@@ -464,7 +478,7 @@
     },
     {
       "id": "__data_templates",
-      "lastUpdated": "2026-05-12T00:56:45.313Z",
+      "lastUpdated": "2026-05-12T00:58:02.659Z",
       "filename": "templates.enc.json",
       "size": 626786,
       "label": "Document Templates",
@@ -481,7 +495,7 @@
     },
     {
       "id": "__data_requesters_enc",
-      "lastUpdated": "2026-05-12T00:56:45.314Z",
+      "lastUpdated": "2026-05-12T00:58:02.661Z",
       "filename": "requesters.enc.json",
       "size": 39398,
       "label": "Requesters Directory",

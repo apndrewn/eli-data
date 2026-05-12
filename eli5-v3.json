@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-05-11T23:05:10.345Z",
+  "exportedAt": "2026-05-12T00:58:02.447Z",
   "sectionVersions": {
     "jsonTools": 1
   },
   "sections": {
     "jsonTools": [
       {
-        "releasedAt": "2026-05-11T23:05:10.344Z",
+        "releasedAt": "2026-05-12T00:58:02.444Z",
         "id": "eli5",
         "label": "ELI5 Explainer",
         "defaultEnabled": true,
