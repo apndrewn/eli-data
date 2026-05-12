@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-12T12:15:26.280Z",
+  "lastUpdated": "2026-05-12T12:27:27.904Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -146,9 +146,9 @@
     {
       "id": "review_redlines",
       "version": null,
-      "lastUpdated": "2026-05-12T12:15:22.163Z",
+      "lastUpdated": "2026-05-12T12:27:20.006Z",
       "filename": "review_redlines-v3.json",
-      "size": 540281,
+      "size": 553126,
       "label": "Review Redlines",
       "kind": "tool",
       "category": "Tools - ELI Core",
@@ -343,9 +343,9 @@
     {
       "id": "tool_author_studio",
       "version": null,
-      "lastUpdated": "2026-05-12T05:54:25.703Z",
+      "lastUpdated": "2026-05-12T12:27:20.129Z",
       "filename": "tool_author_studio-v3.json",
-      "size": 34730,
+      "size": 37078,
       "label": "Tool Author Studio",
       "kind": "tool",
       "category": "Admin",
