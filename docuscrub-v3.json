@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "releasedAt": "2026-05-12T12:33:50.616Z",
+  "releasedAt": "2026-05-12T12:37:07.858Z",
   "sectionVersions": {
     "jsonTools": 1
   },
   "sections": {
     "jsonTools": [
       {
-        "releasedAt": "2026-05-12T12:33:50.616Z",
+        "releasedAt": "2026-05-12T12:37:07.858Z",
         "id": "docuscrub",
         "label": "DocuScrub",
         "defaultEnabled": true,
@@ -28,7 +28,7 @@
         "catalog": {
           "id": "app_docuscrub",
           "icon": "🧼",
-          "title": "DOCU-SCRUB2",
+          "title": "DOCU-SCRUB3",
           "desc": "Format Cleaner: Whitens fonts, flosses spacing, removes metadata.",
           "hoverTip": "Clean up document formatting",
           "category": "Tools - ELI Core",
