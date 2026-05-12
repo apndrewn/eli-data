@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-05-12T01:59:10.590Z",
+  "exportedAt": "2026-05-12T15:52:59.350Z",
   "sectionVersions": {
     "jsonTools": 1
   },
   "sections": {
     "jsonTools": [
       {
-        "releasedAt": "2026-05-12T01:59:10.589Z",
+        "releasedAt": "2026-05-12T15:52:59.349Z",
         "id": "trophy_gallery",
         "label": "Trophy Gallery",
         "defaultEnabled": true,
         "audience": [
           "all"
         ],
-        "tier": "boot",
+        "tier": "demand",
         "requires": {
           "storage": 1
         },

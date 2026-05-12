@@ -1,27 +1,28 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-05-12T13:06:41.756Z",
+  "exportedAt": "2026-05-12T15:52:59.656Z",
   "sectionVersions": {
     "jsonTools": 1
   },
   "sections": {
     "jsonTools": [
       {
-        "releasedAt": "2026-05-12T13:06:41.755Z",
+        "releasedAt": "2026-05-12T15:52:59.655Z",
         "id": "review_redlines",
         "label": "Review Redlines",
         "defaultEnabled": true,
         "audience": [
           "all"
         ],
-        "tier": "boot",
+        "tier": "preload",
         "requires": {
           "host": 2,
           "ai": 1,
           "storage": 1
         },
         "dependsOn": [
-          "redline_authors"
+          "redline_authors",
+          "playbook_manager"
         ],
         "advertises": {
           "tile": {

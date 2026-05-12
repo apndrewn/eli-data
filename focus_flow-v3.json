@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-05-11T23:05:10.525Z",
+  "exportedAt": "2026-05-12T15:52:59.106Z",
   "sectionVersions": {
     "jsonTools": 1
   },
   "sections": {
     "jsonTools": [
       {
-        "releasedAt": "2026-05-11T23:05:10.524Z",
+        "releasedAt": "2026-05-12T15:52:59.104Z",
         "id": "focus_flow",
         "label": "Focus Flow",
         "defaultEnabled": true,
         "audience": [
           "all"
         ],
-        "tier": "boot",
+        "tier": "demand",
         "requires": {
           "host": 1,
           "storage": 1

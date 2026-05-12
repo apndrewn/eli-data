@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-05-12T13:06:49.661Z",
+  "exportedAt": "2026-05-12T15:52:59.222Z",
   "sectionVersions": {
     "jsonTools": 1
   },
   "sections": {
     "jsonTools": [
       {
-        "releasedAt": "2026-05-12T13:06:49.660Z",
+        "releasedAt": "2026-05-12T15:52:59.221Z",
         "id": "playbook_manager",
         "label": "Playbook Manager",
         "defaultEnabled": false,
         "audience": [
           "all"
         ],
-        "tier": "boot",
+        "tier": "demand",
         "requires": {
           "host": 1,
           "storage": 1

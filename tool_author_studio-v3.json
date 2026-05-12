@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-05-12T13:06:49.429Z",
+  "exportedAt": "2026-05-12T15:52:58.440Z",
   "sectionVersions": {
     "jsonTools": 1
   },
   "sections": {
     "jsonTools": [
       {
-        "releasedAt": "2026-05-12T13:06:49.428Z",
+        "releasedAt": "2026-05-12T15:52:58.436Z",
         "id": "tool_author_studio",
         "label": "Tool Author Studio",
         "defaultEnabled": true,
@@ -15,7 +15,7 @@
         "audienceEmails": [
           "andrew_nemiroff@colpal.com"
         ],
-        "tier": "boot",
+        "tier": "demand",
         "requires": {
           "storage": 1
         },
