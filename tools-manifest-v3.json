@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-12T05:40:24.514Z",
+  "lastUpdated": "2026-05-12T05:54:25.810Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -325,6 +325,21 @@
         "all"
       ],
       "changelog": ""
+    },
+    {
+      "id": "tool_author_studio",
+      "version": null,
+      "lastUpdated": "2026-05-12T05:54:25.703Z",
+      "filename": "tool_author_studio-v3.json",
+      "size": 34730,
+      "label": "Tool Author Studio",
+      "kind": "tool",
+      "category": "Admin",
+      "audience": [],
+      "changelog": "",
+      "audienceEmails": [
+        "andrew_nemiroff@colpal.com"
+      ]
     },
     {
       "id": "__data_catalog",
