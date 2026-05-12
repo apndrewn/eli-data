@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-05-12T03:21:08.098Z",
+  "exportedAt": "2026-05-12T16:02:59.262Z",
   "sectionVersions": {
     "jsonTools": 1
   },
   "sections": {
     "jsonTools": [
       {
-        "releasedAt": "2026-05-12T03:21:08.097Z",
+        "releasedAt": "2026-05-12T16:02:59.260Z",
         "id": "refresh_eli",
         "label": "Refresh ELI",
         "defaultEnabled": true,
@@ -15,7 +15,7 @@
         "audienceEmails": [
           "andrew_nemiroff@colpal.com"
         ],
-        "tier": "boot",
+        "tier": "demand",
         "requires": {
           "storage": 1
         },
