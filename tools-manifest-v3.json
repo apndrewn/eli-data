@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-12T13:32:54.699Z",
+  "lastUpdated": "2026-05-12T13:34:31.910Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -118,10 +118,10 @@
     {
       "id": "focus_flow",
       "version": null,
-      "lastUpdated": "2026-05-12T13:32:54.699Z",
+      "lastUpdated": "2026-05-12T13:34:31.910Z",
       "filename": "focus_flow-v3.json",
-      "size": 17464,
-      "label": "Focus Flow",
+      "size": 17468,
+      "label": "Focus Flow91",
       "kind": "tool",
       "category": "Accessibility",
       "audience": [
