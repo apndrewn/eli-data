@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "releasedAt": "2026-05-12T13:32:54.699Z",
+  "releasedAt": "2026-05-12T13:34:31.910Z",
   "sectionVersions": {
     "jsonTools": 1
   },
   "sections": {
     "jsonTools": [
       {
-        "releasedAt": "2026-05-12T13:32:54.699Z",
+        "releasedAt": "2026-05-12T13:34:31.910Z",
         "id": "focus_flow",
-        "label": "Focus Flow",
+        "label": "Focus Flow91",
         "defaultEnabled": true,
         "audience": [
           "all"
@@ -31,9 +31,9 @@
         "catalog": {
           "id": "app_focus_flow",
           "icon": "👁️",
-          "title": "FOCUS FLOW21",
+          "title": "FOCUS FLOW81",
           "desc": "Bionic reading format — bold the first N% of each word for faster eye anchoring.",
-          "hoverTip": "Apply bionic reading format",
+          "hoverTip": "Apply bionic reading format12",
           "category": "Accessibility",
           "core": false,
           "default": false,
