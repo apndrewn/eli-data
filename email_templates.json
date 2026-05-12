@@ -1,14 +1,6 @@
 {
-  "schemaVersion": 1,
   "sections": {
     "emailTemplates": [
-      {
-        "id": "__meta",
-        "version": 1,
-        "lastSeenVersion": 1,
-        "lastUpdated": 1777829515377,
-        "source": "import"
-      },
       {
         "id": "requester",
         "subject": "[Entity] and [TP Entity] -- [Type] ([CP Ref])",
@@ -21,5 +13,5 @@
       }
     ]
   },
-  "releasedAt": "2026-05-12T02:37:33.439Z"
+  "releasedAt": "2026-05-12T02:42:08.890Z"
 }

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-12T02:37:33.416Z",
+  "lastUpdated": "2026-05-12T02:42:08.861Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -299,9 +299,9 @@
     },
     {
       "id": "__data_catalog",
-      "lastUpdated": "2026-05-12T02:37:33.437Z",
+      "lastUpdated": "2026-05-12T02:42:08.886Z",
       "filename": "catalog.json",
-      "size": 13974,
+      "size": 13514,
       "label": "Master Catalog (Dashboard tiles)",
       "kind": "data",
       "category": "Data",
@@ -315,9 +315,9 @@
     },
     {
       "id": "__data_prompts",
-      "lastUpdated": "2026-05-12T02:37:33.438Z",
+      "lastUpdated": "2026-05-12T02:42:08.888Z",
       "filename": "prompts.json",
-      "size": 44912,
+      "size": 44644,
       "label": "AI Prompts",
       "kind": "data",
       "category": "Data",
@@ -331,9 +331,9 @@
     },
     {
       "id": "__data_agreement_types",
-      "lastUpdated": "2026-05-12T02:37:33.438Z",
+      "lastUpdated": "2026-05-12T02:42:08.889Z",
       "filename": "agreement_types.json",
-      "size": 5583,
+      "size": 5308,
       "label": "Agreement Types",
       "kind": "data",
       "category": "Data",
@@ -347,9 +347,9 @@
     },
     {
       "id": "__data_exec_brief_terms",
-      "lastUpdated": "2026-05-12T02:37:33.438Z",
+      "lastUpdated": "2026-05-12T02:42:08.889Z",
       "filename": "exec_brief_terms.json",
-      "size": 4117,
+      "size": 3842,
       "label": "Exec Brief Terms",
       "kind": "data",
       "category": "Data",
@@ -363,9 +363,9 @@
     },
     {
       "id": "__data_email_templates",
-      "lastUpdated": "2026-05-12T02:37:33.439Z",
+      "lastUpdated": "2026-05-12T02:42:08.890Z",
       "filename": "email_templates.json",
-      "size": 970,
+      "size": 695,
       "label": "Email Templates",
       "kind": "data",
       "category": "Data",
@@ -379,9 +379,9 @@
     },
     {
       "id": "__data_cleaner_rules",
-      "lastUpdated": "2026-05-12T02:37:33.439Z",
+      "lastUpdated": "2026-05-12T02:42:08.890Z",
       "filename": "cleaner_rules.json",
-      "size": 940,
+      "size": 667,
       "label": "Cleaner Rules",
       "kind": "data",
       "category": "Data",
@@ -395,9 +395,9 @@
     },
     {
       "id": "__data_loading_msgs",
-      "lastUpdated": "2026-05-12T02:37:33.439Z",
+      "lastUpdated": "2026-05-12T02:42:08.890Z",
       "filename": "loading_msgs.json",
-      "size": 1041,
+      "size": 772,
       "label": "Loading Messages",
       "kind": "data",
       "category": "Data",
@@ -411,9 +411,9 @@
     },
     {
       "id": "__data_trophies",
-      "lastUpdated": "2026-05-12T02:37:33.440Z",
+      "lastUpdated": "2026-05-12T02:42:08.891Z",
       "filename": "trophies.json",
-      "size": 30004,
+      "size": 29013,
       "label": "Trophies Library",
       "kind": "data",
       "category": "Data",
@@ -427,7 +427,7 @@
     },
     {
       "id": "__data_bd_templates",
-      "lastUpdated": "2026-05-12T02:37:33.496Z",
+      "lastUpdated": "2026-05-12T02:42:08.958Z",
       "filename": "bd_templates.enc.json",
       "size": 20821066,
       "label": "Build Draft Templates",
@@ -444,7 +444,7 @@
     },
     {
       "id": "__data_playbooks",
-      "lastUpdated": "2026-05-12T02:37:33.526Z",
+      "lastUpdated": "2026-05-12T02:42:09.047Z",
       "filename": "playbooks.enc.json",
       "size": 2018874,
       "label": "Negotiation Playbooks",
@@ -461,7 +461,7 @@
     },
     {
       "id": "__data_risk_rules",
-      "lastUpdated": "2026-05-12T02:37:33.530Z",
+      "lastUpdated": "2026-05-12T02:42:09.052Z",
       "filename": "riskRules.enc.json",
       "size": 2282,
       "label": "Risk Rules Library",
@@ -478,7 +478,7 @@
     },
     {
       "id": "__data_templates",
-      "lastUpdated": "2026-05-12T02:37:33.532Z",
+      "lastUpdated": "2026-05-12T02:42:09.055Z",
       "filename": "templates.enc.json",
       "size": 626786,
       "label": "Document Templates",
@@ -495,7 +495,7 @@
     },
     {
       "id": "__data_requesters_enc",
-      "lastUpdated": "2026-05-12T02:37:33.533Z",
+      "lastUpdated": "2026-05-12T02:42:09.056Z",
       "filename": "requesters.enc.json",
       "size": 39398,
       "label": "Requesters Directory",
@@ -532,6 +532,7 @@
         "__data_email_templates",
         "__data_cleaner_rules",
         "__data_loading_msgs",
+        "__data_requesters",
         "__data_trophies",
         "__data_bd_templates",
         "__data_playbooks",

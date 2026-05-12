@@ -1,14 +1,6 @@
 {
-  "schemaVersion": 1,
   "sections": {
     "loadingMsgs": [
-      {
-        "id": "__meta",
-        "version": 1,
-        "lastSeenVersion": 1,
-        "lastUpdated": 1777827984675,
-        "source": "cdn"
-      },
       {
         "id": "default",
         "messages": [
@@ -33,5 +25,5 @@
       }
     ]
   },
-  "releasedAt": "2026-05-12T02:37:33.439Z"
+  "releasedAt": "2026-05-12T02:42:08.890Z"
 }

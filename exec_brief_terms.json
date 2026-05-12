@@ -1,5 +1,4 @@
 {
-  "schemaVersion": 1,
   "sections": {
     "execBriefTerms": [
       {
@@ -169,15 +168,8 @@
           "Financial Obligations",
           "Confidentiality"
         ]
-      },
-      {
-        "id": "__meta",
-        "version": 1,
-        "lastSeenVersion": 1,
-        "lastUpdated": 1777829515377,
-        "source": "import"
       }
     ]
   },
-  "releasedAt": "2026-05-12T02:37:33.438Z"
+  "releasedAt": "2026-05-12T02:42:08.889Z"
 }

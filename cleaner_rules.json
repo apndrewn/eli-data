@@ -1,5 +1,4 @@
 {
-  "schemaVersion": 1,
   "sections": {
     "cleanerRules": [
       {
@@ -17,15 +16,8 @@
             "desc": "Supplier pays all their own expenses."
           }
         ]
-      },
-      {
-        "id": "__meta",
-        "version": 1,
-        "lastSeenVersion": 1,
-        "lastUpdated": 1777829515377,
-        "source": "import"
       }
     ]
   },
-  "releasedAt": "2026-05-12T02:37:33.439Z"
+  "releasedAt": "2026-05-12T02:42:08.890Z"
 }
