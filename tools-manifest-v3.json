@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-12T16:12:48.743Z",
+  "lastUpdated": "2026-05-12T16:43:11.777Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -146,9 +146,9 @@
     {
       "id": "review_redlines",
       "version": null,
-      "lastUpdated": "2026-05-12T15:52:59.655Z",
+      "lastUpdated": "2026-05-12T16:43:03.856Z",
       "filename": "review_redlines-v3.json",
-      "size": 572431,
+      "size": 582306,
       "label": "Review Redlines",
       "kind": "tool",
       "category": "Tools - ELI Core",
@@ -202,9 +202,9 @@
     {
       "id": "eli_settings",
       "version": null,
-      "lastUpdated": "2026-05-12T05:26:42.175Z",
+      "lastUpdated": "2026-05-12T16:43:04.490Z",
       "filename": "eli_settings-v3.json",
-      "size": 68257,
+      "size": 69331,
       "label": "Settings",
       "kind": "tool",
       "category": "System",
@@ -230,9 +230,9 @@
     {
       "id": "build_draft",
       "version": null,
-      "lastUpdated": "2026-05-12T15:48:28.227Z",
+      "lastUpdated": "2026-05-12T16:43:04.322Z",
       "filename": "build_draft-v3.json",
-      "size": 206564,
+      "size": 225014,
       "label": "Build Draft",
       "kind": "tool",
       "category": "Tools - Drafting",
@@ -244,9 +244,9 @@
     {
       "id": "auto_emailer",
       "version": null,
-      "lastUpdated": "2026-05-12T15:53:00.048Z",
+      "lastUpdated": "2026-05-12T16:43:04.090Z",
       "filename": "auto_emailer-v3.json",
-      "size": 68652,
+      "size": 69402,
       "label": "Auto Emailer",
       "kind": "tool",
       "category": "Tools - ELI Core",
@@ -272,9 +272,9 @@
     {
       "id": "version_history",
       "version": null,
-      "lastUpdated": "2026-05-11T03:19:00.546Z",
+      "lastUpdated": "2026-05-12T16:43:04.406Z",
       "filename": "version_history-v3.json",
-      "size": 45806,
+      "size": 46097,
       "label": "Version History",
       "kind": "tool",
       "category": "Tools - ELI Core",
@@ -300,9 +300,9 @@
     {
       "id": "legal_review",
       "version": null,
-      "lastUpdated": "2026-05-12T15:53:00.167Z",
+      "lastUpdated": "2026-05-12T16:43:04.189Z",
       "filename": "legal_review-v3.json",
-      "size": 39238,
+      "size": 43070,
       "label": "Legal Review",
       "kind": "tool",
       "category": "Tools - ELI Core",
@@ -357,9 +357,9 @@
     {
       "id": "tool_author_studio",
       "version": null,
-      "lastUpdated": "2026-05-12T15:52:58.436Z",
+      "lastUpdated": "2026-05-12T16:43:03.958Z",
       "filename": "tool_author_studio-v3.json",
-      "size": 73975,
+      "size": 74047,
       "label": "Tool Author Studio",
       "kind": "tool",
       "category": "Admin",
