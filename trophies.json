@@ -232,7 +232,8 @@
         "title": "The Daily Grind",
         "desc": "Used ELI 3 days in a row.",
         "target": 3,
-        "check": "return (s.currentStreak || 0) >= 3;"
+        "check": "return (s.currentStreak || 0) >= 3;",
+        "metric": "currentStreak"
       },
       {
         "id": "t112",
@@ -283,7 +284,8 @@
         "title": "Century Club",
         "desc": "Hit 100 total active days using ELI.",
         "target": 100,
-        "check": "return (s.totalActiveDays || 0) >= 100;"
+        "check": "return (s.totalActiveDays || 0) >= 100;",
+        "metric": "totalActiveDays"
       },
       {
         "id": "t118",
@@ -345,7 +347,8 @@
         "title": "The Format Fanatic",
         "desc": "Standardize font and spacing across 1,000,000 total words.",
         "target": 1000000,
-        "check": "return (s.wordsFormatted || 0) >= 1000000;"
+        "check": "return (s.wordsFormatted || 0) >= 1000000;",
+        "metric": "wordsFormatted"
       },
       {
         "id": "t130",
@@ -371,7 +374,8 @@
         "title": "The Inbox Inquisitor",
         "desc": "Inject 250 AI-drafted responses directly from the Email Helper.",
         "target": 250,
-        "check": "return (s.emailsDrafted || 0) >= 250;"
+        "check": "return (s.emailsDrafted || 0) >= 250;",
+        "metric": "emailsDrafted"
       },
       {
         "id": "t133",
@@ -397,7 +401,8 @@
         "title": "The Librarian's Apprentice",
         "desc": "Curate and save your first 2000 specialized clauses into the Clause Library.",
         "target": 2000,
-        "check": "return (s.vaultClauses || 0) >= 2000;"
+        "check": "return (s.vaultClauses || 0) >= 2000;",
+        "metric": "vaultClauses"
       },
       {
         "id": "t136",
@@ -405,7 +410,8 @@
         "title": "The Bionic Sprinter",
         "desc": "Process 5,000 words consecutively using Focus Flow.",
         "target": 5000,
-        "check": "return (s.bionicWords || 0) >= 5000;"
+        "check": "return (s.bionicWords || 0) >= 5000;",
+        "metric": "bionicWords"
       },
       {
         "id": "t137",
@@ -422,7 +428,8 @@
         "title": "The First Frame",
         "desc": "Use ELI for 7 distinct active days.",
         "target": 7,
-        "check": "return (s.totalActiveDays || 0) >= 7;"
+        "check": "return (s.totalActiveDays || 0) >= 7;",
+        "metric": "totalActiveDays"
       },
       {
         "id": "t139",
@@ -447,7 +454,8 @@
         "title": "The Perfectionist",
         "desc": "Find 500 document errors across all your reviewed files.",
         "target": 500,
-        "check": "return (s.errorsFound || 0) >= 500;"
+        "check": "return (s.errorsFound || 0) >= 500;",
+        "metric": "errorsFound"
       },
       {
         "id": "t142",
@@ -455,7 +463,8 @@
         "title": "The Sweeper",
         "desc": "Fix 1,000 syntax and mechanical errors.",
         "target": 1000,
-        "check": "return (s.errorsFixed || 0) >= 1000;"
+        "check": "return (s.errorsFixed || 0) >= 1000;",
+        "metric": "errorsFixed"
       },
       {
         "id": "t143",
@@ -463,7 +472,8 @@
         "title": "The Eagle Eye",
         "desc": "Find 5,000 document errors across your career.",
         "target": 5000,
-        "check": "return (s.errorsFound || 0) >= 5000;"
+        "check": "return (s.errorsFound || 0) >= 5000;",
+        "metric": "errorsFound"
       },
       {
         "id": "t144",
@@ -471,7 +481,8 @@
         "title": "The Master Proofreader",
         "desc": "Fix 15,000 syntax and mechanical errors.",
         "target": 15000,
-        "check": "return (s.errorsFixed || 0) >= 15000;"
+        "check": "return (s.errorsFixed || 0) >= 15000;",
+        "metric": "errorsFixed"
       },
       {
         "id": "t145",
@@ -479,7 +490,8 @@
         "title": "The Radar",
         "desc": "Identify 100 hidden legal risks across your documents.",
         "target": 100,
-        "check": "return (s.risksFound || 0) >= 100;"
+        "check": "return (s.risksFound || 0) >= 100;",
+        "metric": "risksFound"
       },
       {
         "id": "t146",
@@ -487,7 +499,8 @@
         "title": "The Guardian",
         "desc": "Mitigate 50 substantial legal risks.",
         "target": 50,
-        "check": "return (s.risksMitigated || 0) >= 50;"
+        "check": "return (s.risksMitigated || 0) >= 50;",
+        "metric": "risksMitigated"
       },
       {
         "id": "t147",
@@ -495,7 +508,8 @@
         "title": "The Watchtower",
         "desc": "Identify 1,000 hidden legal risks.",
         "target": 1000,
-        "check": "return (s.risksFound || 0) >= 1000;"
+        "check": "return (s.risksFound || 0) >= 1000;",
+        "metric": "risksFound"
       },
       {
         "id": "t148",
@@ -503,7 +517,8 @@
         "title": "The Shield",
         "desc": "Mitigate 500 substantial legal risks.",
         "target": 500,
-        "check": "return (s.risksMitigated || 0) >= 500;"
+        "check": "return (s.risksMitigated || 0) >= 500;",
+        "metric": "risksMitigated"
       },
       {
         "id": "t149",
@@ -511,7 +526,8 @@
         "title": "The Oracle of Liability",
         "desc": "Identify an incredible 10,000 hidden legal risks.",
         "target": 10000,
-        "check": "return (s.risksFound || 0) >= 10000;"
+        "check": "return (s.risksFound || 0) >= 10000;",
+        "metric": "risksFound"
       },
       {
         "id": "t150",
@@ -519,7 +535,8 @@
         "title": "The Ironclad Architect",
         "desc": "Mitigate 5,000 legal risks across major transactions.",
         "target": 5000,
-        "check": "return (s.risksMitigated || 0) >= 5000;"
+        "check": "return (s.risksMitigated || 0) >= 5000;",
+        "metric": "risksMitigated"
       },
       {
         "id": "t151",
@@ -527,7 +544,8 @@
         "title": "The Micro-Sleuth",
         "desc": "Find 25,000 tiny document errors.",
         "target": 25000,
-        "check": "return (s.errorsFound || 0) >= 25000;"
+        "check": "return (s.errorsFound || 0) >= 25000;",
+        "metric": "errorsFound"
       },
       {
         "id": "t152",
@@ -535,7 +553,8 @@
         "title": "The Flawless Record",
         "desc": "Fix 100,000 errors. You have effectively perfected the art of drafting.",
         "target": 100000,
-        "check": "return (s.errorsFixed || 0) >= 100000;"
+        "check": "return (s.errorsFixed || 0) >= 100000;",
+        "metric": "errorsFixed"
       },
       {
         "id": "t153",
@@ -877,5 +896,5 @@
     ]
   },
   "_note": "Trophies extracted from inline ELI_TROPHIES const in taskpane_v2.js (Step 17 offload, 2026-05-01). Each trophy's `check` is the JS function body as a string; the loader compiles it via new Function('s','e', body) on import. Import via Settings -> Data Hub -> Import Master JSON OR per-section Import on the Trophies row. After import, evaluateTrophies and the trophy gallery read from IDB instead of the (now deleted) inline const.",
-  "releasedAt": "2026-05-12T02:58:32.822Z"
+  "releasedAt": "2026-05-12T18:15:02.421Z"
 }
