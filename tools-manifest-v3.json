@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-12T05:19:45.269Z",
+  "lastUpdated": "2026-05-12T05:25:17.806Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -315,9 +315,9 @@
     {
       "id": "redline_authors",
       "version": null,
-      "lastUpdated": "2026-05-12T05:19:44.847Z",
+      "lastUpdated": "2026-05-12T05:25:17.724Z",
       "filename": "redline_authors-v3.json",
-      "size": 26507,
+      "size": 25251,
       "label": "Redline Authors",
       "kind": "tool",
       "category": "System",
