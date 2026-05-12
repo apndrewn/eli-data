@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-12T15:53:12.575Z",
+  "lastUpdated": "2026-05-12T15:53:50.948Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -34,9 +34,9 @@
     {
       "id": "eli_kit",
       "version": null,
-      "lastUpdated": "2026-05-12T02:33:22.478Z",
+      "lastUpdated": "2026-05-12T15:53:50.431Z",
       "filename": "eli_kit-v3.json",
-      "size": 57216,
+      "size": 57219,
       "label": "ELI Kit",
       "kind": "tool",
       "category": "System",
@@ -216,9 +216,9 @@
     {
       "id": "error_review",
       "version": null,
-      "lastUpdated": "2026-05-11T23:53:32.959Z",
+      "lastUpdated": "2026-05-12T15:53:50.255Z",
       "filename": "error_review-v3.json",
-      "size": 74429,
+      "size": 74432,
       "label": "Error Review",
       "kind": "tool",
       "category": "Tools - ELI Core",

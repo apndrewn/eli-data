@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-05-11T23:53:32.960Z",
+  "exportedAt": "2026-05-12T15:53:50.256Z",
   "sectionVersions": {
     "jsonTools": 1
   },
   "sections": {
     "jsonTools": [
       {
-        "releasedAt": "2026-05-11T23:53:32.959Z",
+        "releasedAt": "2026-05-12T15:53:50.255Z",
         "id": "error_review",
         "label": "Error Review",
         "defaultEnabled": true,
         "audience": [
           "all"
         ],
-        "tier": "boot",
+        "tier": "preload",
         "requires": {
           "host": 2,
           "ai": 1,
