@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-05-12T03:25:01.986Z",
+  "exportedAt": "2026-05-12T04:07:29.934Z",
   "sectionVersions": {
     "jsonTools": 1
   },
   "sections": {
     "jsonTools": [
       {
-        "releasedAt": "2026-05-12T03:25:01.984Z",
+        "releasedAt": "2026-05-12T04:07:29.933Z",
         "id": "review_redlines",
         "label": "Review Redlines",
         "defaultEnabled": true,
@@ -42,7 +42,7 @@
           "hoverTip": "Audit & decide on every redline",
           "category": "Tools - ELI Core",
           "core": false,
-          "default": true,
+          "default": false,
           "order": 25,
           "microLabel": null,
           "microLabelStyle": null,
