@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-12T18:07:57.916Z",
+  "lastUpdated": "2026-05-12T18:14:03.105Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -216,9 +216,9 @@
     {
       "id": "error_review",
       "version": null,
-      "lastUpdated": "2026-05-12T18:07:53.944Z",
+      "lastUpdated": "2026-05-12T18:13:58.262Z",
       "filename": "error_review-v3.json",
-      "size": 74672,
+      "size": 75341,
       "label": "Error Review",
       "kind": "tool",
       "category": "Tools - ELI Core",
@@ -230,9 +230,9 @@
     {
       "id": "build_draft",
       "version": null,
-      "lastUpdated": "2026-05-12T16:43:04.322Z",
+      "lastUpdated": "2026-05-12T18:13:58.463Z",
       "filename": "build_draft-v3.json",
-      "size": 225014,
+      "size": 225437,
       "label": "Build Draft",
       "kind": "tool",
       "category": "Tools - Drafting",
@@ -258,9 +258,9 @@
     {
       "id": "ask_eli",
       "version": null,
-      "lastUpdated": "2026-05-12T15:52:59.888Z",
+      "lastUpdated": "2026-05-12T18:13:58.587Z",
       "filename": "ask_eli-v3.json",
-      "size": 175123,
+      "size": 175997,
       "label": "Ask ELI",
       "kind": "tool",
       "category": "Tools - ELI Core",
@@ -314,9 +314,9 @@
     {
       "id": "legal_risks",
       "version": null,
-      "lastUpdated": "2026-05-12T18:03:09.604Z",
+      "lastUpdated": "2026-05-12T18:13:58.340Z",
       "filename": "legal_risks-v3.json",
-      "size": 155708,
+      "size": 156202,
       "label": "Legal Risks",
       "kind": "tool",
       "category": "Tools - ELI Core",
