@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-12T03:21:08.197Z",
+  "lastUpdated": "2026-05-12T03:22:55.415Z",
   "tools": [
     {
       "id": "tool_manager",
       "version": null,
-      "lastUpdated": "2026-05-12T02:58:32.641Z",
+      "lastUpdated": "2026-05-12T03:22:55.332Z",
       "filename": "tool_manager-v3.json",
-      "size": 66563,
+      "size": 67966,
       "label": "Tool Manager",
       "kind": "tool",
       "category": "Tools - ELI Core",
