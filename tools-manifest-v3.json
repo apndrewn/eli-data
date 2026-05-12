@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-12T22:59:25.810Z",
+  "lastUpdated": "2026-05-12T23:12:04.537Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -174,9 +174,9 @@
     {
       "id": "compare",
       "version": null,
-      "lastUpdated": "2026-05-12T18:07:53.811Z",
+      "lastUpdated": "2026-05-12T23:12:04.303Z",
       "filename": "compare-v3.json",
-      "size": 125175,
+      "size": 103090,
       "label": "Compare to Template",
       "kind": "tool",
       "category": "Tools - ELI Core",
@@ -188,9 +188,9 @@
     {
       "id": "redline_email_pack",
       "version": null,
-      "lastUpdated": "2026-05-12T13:06:50.004Z",
+      "lastUpdated": "2026-05-12T23:12:04.411Z",
       "filename": "redline_email_pack-v3.json",
-      "size": 30190,
+      "size": 32420,
       "label": "Redline Emails",
       "kind": "tool",
       "category": "Tools - ELI Core",
@@ -314,9 +314,9 @@
     {
       "id": "legal_risks",
       "version": null,
-      "lastUpdated": "2026-05-12T18:16:10.376Z",
+      "lastUpdated": "2026-05-12T23:12:04.186Z",
       "filename": "legal_risks-v3.json",
-      "size": 156457,
+      "size": 95255,
       "label": "Legal Risks",
       "kind": "tool",
       "category": "Tools - ELI Core",
