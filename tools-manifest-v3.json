@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-12T05:04:22.163Z",
+  "lastUpdated": "2026-05-12T05:07:15.236Z",
   "tools": [
     {
       "id": "tool_manager",
       "version": null,
-      "lastUpdated": "2026-05-12T04:18:52.509Z",
+      "lastUpdated": "2026-05-12T05:07:14.956Z",
       "filename": "tool_manager-v3.json",
-      "size": 70285,
-      "label": "Tool Manager",
+      "size": 70331,
+      "label": "Data Hub",
       "kind": "tool",
       "category": "Tools - ELI Core",
       "audience": [
@@ -132,9 +132,9 @@
     {
       "id": "review_redlines",
       "version": null,
-      "lastUpdated": "2026-05-12T05:04:22.046Z",
+      "lastUpdated": "2026-05-12T05:07:15.136Z",
       "filename": "review_redlines-v3.json",
-      "size": 384785,
+      "size": 384781,
       "label": "Review Redlines",
       "kind": "tool",
       "category": "Tools - ELI Core",
@@ -174,9 +174,9 @@
     {
       "id": "eli_settings",
       "version": null,
-      "lastUpdated": "2026-05-12T03:35:50.237Z",
+      "lastUpdated": "2026-05-12T05:07:15.036Z",
       "filename": "eli_settings-v3.json",
-      "size": 68196,
+      "size": 67807,
       "label": "Settings",
       "kind": "tool",
       "category": "System",
