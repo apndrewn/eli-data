@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-05-11T05:20:58.708Z",
+  "exportedAt": "2026-05-12T01:18:19.173Z",
   "sectionVersions": {
     "jsonTools": 1
   },
   "sections": {
     "jsonTools": [
       {
-        "releasedAt": "2026-05-11T05:20:58.707Z",
+        "releasedAt": "2026-05-12T01:18:19.171Z",
         "id": "legal_review",
         "label": "Legal Review",
         "defaultEnabled": true,
@@ -29,7 +29,7 @@
         },
         "catalog": {
           "id": "app_legal_review",
-          "icon": "⚖️",
+          "icon": "🎯",
           "title": "LEGAL REVIEW",
           "desc": "Configure + launch the high-fidelity review engine.",
           "hoverTip": "Triage agreement type + scan path",
