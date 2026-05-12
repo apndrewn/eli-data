@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-12T01:59:16.374Z",
+  "lastUpdated": "2026-05-12T02:04:06.465Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -286,9 +286,9 @@
     {
       "id": "legal_risks",
       "version": null,
-      "lastUpdated": "2026-05-11T06:28:34.392Z",
+      "lastUpdated": "2026-05-12T02:04:06.294Z",
       "filename": "legal_risks-v3.json",
-      "size": 133409,
+      "size": 132138,
       "label": "Legal Risks",
       "kind": "tool",
       "category": "Tools - ELI Core",
@@ -299,7 +299,7 @@
     },
     {
       "id": "__data_catalog",
-      "lastUpdated": "2026-05-12T01:59:16.399Z",
+      "lastUpdated": "2026-05-12T02:04:06.505Z",
       "filename": "catalog.json",
       "size": 13974,
       "label": "Master Catalog (Dashboard tiles)",
@@ -315,7 +315,7 @@
     },
     {
       "id": "__data_prompts",
-      "lastUpdated": "2026-05-12T01:59:16.400Z",
+      "lastUpdated": "2026-05-12T02:04:06.506Z",
       "filename": "prompts.json",
       "size": 44912,
       "label": "AI Prompts",
@@ -331,7 +331,7 @@
     },
     {
       "id": "__data_agreement_types",
-      "lastUpdated": "2026-05-12T01:59:16.401Z",
+      "lastUpdated": "2026-05-12T02:04:06.507Z",
       "filename": "agreement_types.json",
       "size": 5583,
       "label": "Agreement Types",
@@ -347,7 +347,7 @@
     },
     {
       "id": "__data_exec_brief_terms",
-      "lastUpdated": "2026-05-12T01:59:16.401Z",
+      "lastUpdated": "2026-05-12T02:04:06.507Z",
       "filename": "exec_brief_terms.json",
       "size": 4117,
       "label": "Exec Brief Terms",
@@ -363,7 +363,7 @@
     },
     {
       "id": "__data_email_templates",
-      "lastUpdated": "2026-05-12T01:59:16.402Z",
+      "lastUpdated": "2026-05-12T02:04:06.507Z",
       "filename": "email_templates.json",
       "size": 970,
       "label": "Email Templates",
@@ -379,7 +379,7 @@
     },
     {
       "id": "__data_cleaner_rules",
-      "lastUpdated": "2026-05-12T01:59:16.402Z",
+      "lastUpdated": "2026-05-12T02:04:06.508Z",
       "filename": "cleaner_rules.json",
       "size": 940,
       "label": "Cleaner Rules",
@@ -395,7 +395,7 @@
     },
     {
       "id": "__data_loading_msgs",
-      "lastUpdated": "2026-05-12T01:59:16.402Z",
+      "lastUpdated": "2026-05-12T02:04:06.508Z",
       "filename": "loading_msgs.json",
       "size": 1041,
       "label": "Loading Messages",
@@ -411,7 +411,7 @@
     },
     {
       "id": "__data_trophies",
-      "lastUpdated": "2026-05-12T01:59:16.403Z",
+      "lastUpdated": "2026-05-12T02:04:06.512Z",
       "filename": "trophies.json",
       "size": 30004,
       "label": "Trophies Library",
@@ -427,7 +427,7 @@
     },
     {
       "id": "__data_bd_templates",
-      "lastUpdated": "2026-05-12T01:59:16.469Z",
+      "lastUpdated": "2026-05-12T02:04:06.580Z",
       "filename": "bd_templates.enc.json",
       "size": 20821066,
       "label": "Build Draft Templates",
@@ -444,7 +444,7 @@
     },
     {
       "id": "__data_playbooks",
-      "lastUpdated": "2026-05-12T01:59:16.501Z",
+      "lastUpdated": "2026-05-12T02:04:06.618Z",
       "filename": "playbooks.enc.json",
       "size": 2018874,
       "label": "Negotiation Playbooks",
@@ -461,7 +461,7 @@
     },
     {
       "id": "__data_risk_rules",
-      "lastUpdated": "2026-05-12T01:59:16.505Z",
+      "lastUpdated": "2026-05-12T02:04:06.621Z",
       "filename": "riskRules.enc.json",
       "size": 2282,
       "label": "Risk Rules Library",
@@ -478,7 +478,7 @@
     },
     {
       "id": "__data_templates",
-      "lastUpdated": "2026-05-12T01:59:16.507Z",
+      "lastUpdated": "2026-05-12T02:04:06.623Z",
       "filename": "templates.enc.json",
       "size": 626786,
       "label": "Document Templates",
@@ -495,7 +495,7 @@
     },
     {
       "id": "__data_requesters_enc",
-      "lastUpdated": "2026-05-12T01:59:16.509Z",
+      "lastUpdated": "2026-05-12T02:04:06.624Z",
       "filename": "requesters.enc.json",
       "size": 39398,
       "label": "Requesters Directory",
