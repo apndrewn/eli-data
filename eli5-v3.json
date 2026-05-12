@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "releasedAt": "2026-05-12T12:29:38.612Z",
+  "releasedAt": "2026-05-12T12:33:05.093Z",
   "sectionVersions": {
     "jsonTools": 1
   },
   "sections": {
     "jsonTools": [
       {
-        "releasedAt": "2026-05-12T12:29:38.612Z",
+        "releasedAt": "2026-05-12T12:33:05.093Z",
         "id": "eli5",
         "label": "ELI5 Explainer",
         "defaultEnabled": true,
@@ -36,7 +36,7 @@
           "icon": "🧸",
           "title": "ELI5 EXPLAINER4",
           "desc": "Simplifies complex documents for different audiences (age 10/14/18).",
-          "hoverTip": "Explain it like I'm 51",
+          "hoverTip": "Explain it like I'm 52",
           "category": "Patents",
           "core": false,
           "default": false,
