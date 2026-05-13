@@ -1,27 +1,7 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-05-13T01:12:30.846Z",
+  "lastUpdated": "2026-05-13T01:12:32.324Z",
   "overrides": [
-    {
-      "id": "override-2026-05-13T01-05-22",
-      "audience": [
-        "all"
-      ],
-      "actions": [
-        {
-          "type": "enable_tool",
-          "toolId": "DocuScrub"
-        },
-        {
-          "type": "notice",
-          "title": "Heads up from Andrew9",
-          "html": "Enable",
-          "dismissible": true,
-          "requireAck": false
-        }
-      ],
-      "expiresAt": "2026-05-20T01:05:22.309Z"
-    },
     {
       "id": "override-2026-05-13T01-10-42",
       "audience": [
