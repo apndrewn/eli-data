@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-13T01:04:34.229Z",
+  "lastUpdated": "2026-05-13T01:06:43.063Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -357,9 +357,9 @@
     {
       "id": "tool_author_studio",
       "version": null,
-      "lastUpdated": "2026-05-13T00:57:23.361Z",
+      "lastUpdated": "2026-05-13T01:06:42.949Z",
       "filename": "tool_author_studio-v3.json",
-      "size": 75304,
+      "size": 77367,
       "label": "Tool Author Studio",
       "kind": "tool",
       "category": "Admin",
