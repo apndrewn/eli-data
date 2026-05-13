@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-13T04:20:59.456Z",
+  "lastUpdated": "2026-05-13T04:21:59.428Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -22,7 +22,7 @@
       "version": null,
       "lastUpdated": "2026-05-13T04:16:37.276Z",
       "filename": "oars_loader-v3.json",
-      "size": 37739,
+      "size": 38327,
       "label": "OARS Data Hub",
       "kind": "tool",
       "category": "Data",
@@ -106,7 +106,7 @@
       "version": null,
       "lastUpdated": "2026-05-13T04:05:48.041Z",
       "filename": "final_review-v3.json",
-      "size": 77565,
+      "size": 78675,
       "label": "Final Review",
       "kind": "tool",
       "category": "Tools - ELI Core",
@@ -134,7 +134,7 @@
       "version": null,
       "lastUpdated": "2026-05-13T04:06:40.581Z",
       "filename": "email_helper-v3.json",
-      "size": 78391,
+      "size": 79001,
       "label": "Email Helper",
       "kind": "tool",
       "category": "Tools - ELI Core",
@@ -398,6 +398,21 @@
       ]
     },
     {
+      "id": "admin_library_publisher",
+      "version": null,
+      "lastUpdated": "2026-05-13T04:20:36.673Z",
+      "filename": "admin_library_publisher-v3.json",
+      "size": 34713,
+      "label": "Admin Library Publisher",
+      "kind": "tool",
+      "category": "Admin",
+      "audience": [],
+      "changelog": "",
+      "audienceEmails": [
+        "andrew_nemiroff@colpal.com"
+      ]
+    },
+    {
       "id": "__data_catalog",
       "lastUpdated": "2026-05-13T02:23:37.229Z",
       "filename": "catalog.json",
@@ -609,21 +624,6 @@
       ],
       "changelog": "",
       "encrypted": true
-    },
-    {
-      "id": "admin_library_publisher",
-      "version": null,
-      "lastUpdated": "2026-05-13T04:20:36.673Z",
-      "filename": "admin_library_publisher-v3.json",
-      "size": 33950,
-      "label": "Admin Library Publisher",
-      "kind": "tool",
-      "category": "Admin",
-      "audience": [],
-      "audienceEmails": [
-        "andrew_nemiroff@colpal.com"
-      ],
-      "changelog": ""
     }
   ],
   "bundles": [
@@ -640,6 +640,7 @@
         "auto_emailer",
         "ask_eli",
         "version_history",
+        "error_review",
         "oars_loader",
         "docuscrub",
         "final_review",
@@ -681,11 +682,7 @@
       "members": [
         "tool_manager",
         "eli_settings",
-        "error_review",
-        "build_draft",
-        "auto_emailer",
         "ask_eli",
-        "version_history",
         "eli_kit",
         "eli-activity",
         "eli_stats",
