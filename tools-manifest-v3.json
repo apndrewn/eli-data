@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-13T04:36:32.851Z",
+  "lastUpdated": "2026-05-13T04:39:33.594Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -628,9 +628,9 @@
     {
       "id": "admin_data_editor",
       "version": null,
-      "lastUpdated": "2026-05-13T04:29:10.917Z",
+      "lastUpdated": "2026-05-13T04:39:21.349Z",
       "filename": "admin_data_editor-v3.json",
-      "size": 17969,
+      "size": 26342,
       "label": "Admin Data Editor",
       "kind": "tool",
       "category": "Admin",
