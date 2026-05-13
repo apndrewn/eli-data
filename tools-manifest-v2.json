@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-05-13T01:43:16.967Z",
+  "lastUpdated": "2026-05-13T02:23:37.202Z",
   "tools": [
     {
       "id": "risk_rules_manager",
@@ -18,9 +18,9 @@
     },
     {
       "id": "__data_catalog",
-      "lastUpdated": "2026-05-12T02:58:32.819Z",
+      "lastUpdated": "2026-05-13T02:23:37.229Z",
       "filename": "catalog.json",
-      "size": 13514,
+      "size": 13709,
       "label": "Master Catalog (Dashboard tiles)",
       "kind": "data",
       "category": "Data",

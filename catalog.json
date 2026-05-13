@@ -238,7 +238,7 @@
           "diff"
         ],
         "experimental": false,
-        "action": "if (typeof window.showLegalReview === 'function') window.showLegalReview('template');"
+        "action": "if (window.eli && window.eli.dispatch) window.eli.dispatch('tile', 'app_compare'); else if (typeof showCompareToTemplateApp === 'function') showCompareToTemplateApp(); else if (typeof showToast === 'function') showToast('Compare not loaded — install via Tool Manager.', 'error');"
       },
       {
         "id": "app_redline_dashboard",
@@ -347,5 +347,5 @@
       }
     ]
   },
-  "releasedAt": "2026-05-12T02:58:32.819Z"
+  "releasedAt": "2026-05-13T02:23:37.229Z"
 }
