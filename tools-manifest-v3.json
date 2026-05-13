@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-13T01:56:41.454Z",
+  "lastUpdated": "2026-05-13T02:20:43.463Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -202,9 +202,9 @@
     {
       "id": "compare",
       "version": null,
-      "lastUpdated": "2026-05-12T23:14:23.442Z",
+      "lastUpdated": "2026-05-13T02:20:35.439Z",
       "filename": "compare-v3.json",
-      "size": 127074,
+      "size": 113346,
       "label": "Compare to Template",
       "kind": "tool",
       "category": "Tools - ELI Core",
@@ -342,9 +342,9 @@
     {
       "id": "legal_risks",
       "version": null,
-      "lastUpdated": "2026-05-13T01:36:49.550Z",
+      "lastUpdated": "2026-05-13T02:20:35.540Z",
       "filename": "legal_risks-v3.json",
-      "size": 158703,
+      "size": 158032,
       "label": "Legal Risks",
       "kind": "tool",
       "category": "Tools - ELI Core",
