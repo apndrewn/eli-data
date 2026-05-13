@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-13T01:48:58.889Z",
+  "lastUpdated": "2026-05-13T01:49:23.451Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -132,9 +132,9 @@
     {
       "id": "email_helper",
       "version": null,
-      "lastUpdated": "2026-05-12T15:52:58.561Z",
+      "lastUpdated": "2026-05-13T01:49:23.451Z",
       "filename": "email_helper-v3.json",
-      "size": 76807,
+      "size": 76528,
       "label": "Email Helper",
       "kind": "tool",
       "category": "Tools - ELI Core",
