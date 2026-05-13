@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-13T04:06:41.007Z",
+  "lastUpdated": "2026-05-13T04:09:40.907Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -609,6 +609,21 @@
       ],
       "changelog": "",
       "encrypted": true
+    },
+    {
+      "id": "admin_library_publisher",
+      "version": null,
+      "lastUpdated": "2026-05-13T04:09:40.424Z",
+      "filename": "admin_library_publisher-v3.json",
+      "size": 33801,
+      "label": "Admin Library Publisher",
+      "kind": "tool",
+      "category": "Admin",
+      "audience": [],
+      "audienceEmails": [
+        "andrew_nemiroff@colpal.com"
+      ],
+      "changelog": ""
     }
   ],
   "bundles": [
