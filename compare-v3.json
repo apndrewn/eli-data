@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-05-13T23:29:07.841Z",
+  "exportedAt": "2026-05-13T23:39:27.688Z",
   "sectionVersions": {
     "jsonTools": 1
   },
   "sections": {
     "jsonTools": [
       {
-        "releasedAt": "2026-05-13T23:29:07.840Z",
+        "releasedAt": "2026-05-13T23:39:27.687Z",
         "id": "compare",
         "label": "Compare to Template",
         "defaultEnabled": true,

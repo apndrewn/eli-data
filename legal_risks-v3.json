@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-05-13T23:29:07.711Z",
+  "exportedAt": "2026-05-13T23:39:27.582Z",
   "sectionVersions": {
     "jsonTools": 1
   },
   "sections": {
     "jsonTools": [
       {
-        "releasedAt": "2026-05-13T23:29:07.710Z",
+        "releasedAt": "2026-05-13T23:39:27.581Z",
         "id": "legal_risks",
         "label": "Legal Risks",
         "defaultEnabled": true,
