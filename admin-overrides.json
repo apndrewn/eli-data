@@ -1,26 +1,5 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-05-13T01:12:32.324Z",
-  "overrides": [
-    {
-      "id": "override-2026-05-13T01-10-42",
-      "audience": [
-        "all"
-      ],
-      "actions": [
-        {
-          "type": "enable_tool",
-          "toolId": "docuscrub"
-        },
-        {
-          "type": "notice",
-          "title": "Heads up from Andrew second",
-          "html": "SECOND ENABLE",
-          "dismissible": true,
-          "requireAck": false
-        }
-      ],
-      "expiresAt": "2026-05-20T01:10:41.600Z"
-    }
-  ]
+  "lastUpdated": "2026-05-13T01:12:33.878Z",
+  "overrides": []
 }
