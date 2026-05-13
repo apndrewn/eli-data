@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-13T04:55:48.384Z",
+  "lastUpdated": "2026-05-13T05:04:44.340Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -632,6 +632,21 @@
       "filename": "admin_data_editor-v3.json",
       "size": 26342,
       "label": "Admin Data Editor",
+      "kind": "tool",
+      "category": "Admin",
+      "audience": [],
+      "audienceEmails": [
+        "andrew_nemiroff@colpal.com"
+      ],
+      "changelog": ""
+    },
+    {
+      "id": "admin_template_studio",
+      "version": null,
+      "lastUpdated": "2026-05-13T05:04:31.225Z",
+      "filename": "admin_template_studio-v3.json",
+      "size": 65395,
+      "label": "Admin Template Studio",
       "kind": "tool",
       "category": "Admin",
       "audience": [],
