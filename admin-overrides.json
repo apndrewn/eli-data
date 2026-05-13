@@ -1,22 +1,5 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-05-13T01:55:13.256Z",
-  "overrides": [
-    {
-      "id": "override-2026-05-13T01-45-48",
-      "audience": [
-        "all"
-      ],
-      "actions": [
-        {
-          "type": "notice",
-          "title": "Heads up from Andrew 2?",
-          "html": "2",
-          "dismissible": true,
-          "requireAck": false
-        }
-      ],
-      "expiresAt": "2026-05-20T01:45:48.841Z"
-    }
-  ]
+  "lastUpdated": "2026-05-13T01:55:16.130Z",
+  "overrides": []
 }
