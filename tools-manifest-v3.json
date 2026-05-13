@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-13T01:24:53.494Z",
+  "lastUpdated": "2026-05-13T01:30:13.767Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -328,9 +328,9 @@
     {
       "id": "legal_review",
       "version": null,
-      "lastUpdated": "2026-05-12T16:56:17.206Z",
+      "lastUpdated": "2026-05-13T01:30:09.708Z",
       "filename": "legal_review-v3.json",
-      "size": 43645,
+      "size": 43639,
       "label": "Legal Review",
       "kind": "tool",
       "category": "Tools - ELI Core",
@@ -636,7 +636,6 @@
         "trophy_gallery",
         "compare",
         "redline_email_pack",
-        "risk_rules_manager",
         "legal_review",
         "legal_risks",
         "refresh_eli",
