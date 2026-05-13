@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-05-13T01:38:01.552Z",
+  "lastUpdated": "2026-05-13T01:38:13.711Z",
   "overrides": [
     {
       "id": "override-2026-05-13T01-18-52",
@@ -17,22 +17,6 @@
         }
       ],
       "expiresAt": "2026-05-20T01:18:52.059Z"
-    },
-    {
-      "id": "override-2026-05-13T01-20-49",
-      "audience": [
-        "all"
-      ],
-      "actions": [
-        {
-          "type": "notice",
-          "title": "Heads up from Andrew -- second message",
-          "html": "sd",
-          "dismissible": true,
-          "requireAck": false
-        }
-      ],
-      "expiresAt": "2026-05-20T01:20:49.625Z"
     }
   ]
 }
