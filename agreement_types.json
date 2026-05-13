@@ -1,12 +1,17 @@
 {
-  "schemaVersion": 1,
-  "exportedAt": "2026-05-13T04:36:32.004Z",
-  "__releasedAt": "2026-05-13T04:36:32.004Z",
-  "sectionVersions": {
-    "agreementTypes": 1778646992004
-  },
   "sections": {
     "agreementTypes": [
+      {
+        "id": "AI / LLM Agreement",
+        "label": "AI / LLM Agreement",
+        "aliases": [
+          "llm",
+          "ai",
+          "artificial intelligence",
+          "machine learning",
+          "generative ai"
+        ]
+      },
       {
         "id": "All Agreements",
         "label": "All Agreements",
@@ -70,13 +75,6 @@
         ]
       },
       {
-        "id": "Donation Agreement",
-        "label": "Donation Agreement",
-        "aliases": [
-          "Donation"
-        ]
-      },
-      {
         "id": "Grant Agreement",
         "label": "Grant Agreement",
         "aliases": [
@@ -96,10 +94,12 @@
         ]
       },
       {
-        "id": "Letter of Intent",
-        "label": "Letter of Intent",
+        "id": "Joint Venture",
+        "label": "Joint Venture",
         "aliases": [
-          "LOI"
+          "joint venture",
+          "jv",
+          "partnership agreement"
         ]
       },
       {
@@ -234,5 +234,6 @@
         ]
       }
     ]
-  }
+  },
+  "releasedAt": "2026-05-13T05:36:16.377Z"
 }

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-13T05:26:17.412Z",
+  "lastUpdated": "2026-05-13T05:36:16.337Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -190,7 +190,7 @@
       "version": null,
       "lastUpdated": "2026-05-13T05:10:16.896Z",
       "filename": "trophy_gallery-v3.json",
-      "size": 68792,
+      "size": 69447,
       "label": "Trophy Gallery",
       "kind": "tool",
       "category": "Engagement",
@@ -260,7 +260,7 @@
       "version": null,
       "lastUpdated": "2026-05-13T04:47:33.066Z",
       "filename": "build_draft-v3.json",
-      "size": 225385,
+      "size": 226087,
       "label": "Build Draft",
       "kind": "tool",
       "category": "Tools - Drafting",
@@ -288,7 +288,7 @@
       "version": null,
       "lastUpdated": "2026-05-13T04:55:47.864Z",
       "filename": "ask_eli-v3.json",
-      "size": 178081,
+      "size": 178868,
       "label": "Ask ELI",
       "kind": "tool",
       "category": "Tools - ELI Core",
@@ -402,8 +402,53 @@
       "version": null,
       "lastUpdated": "2026-05-13T04:26:19.788Z",
       "filename": "admin_library_publisher-v3.json",
-      "size": 36381,
+      "size": 37144,
       "label": "Admin Library Publisher",
+      "kind": "tool",
+      "category": "Admin",
+      "audience": [],
+      "changelog": "",
+      "audienceEmails": [
+        "andrew_nemiroff@colpal.com"
+      ]
+    },
+    {
+      "id": "admin_data_editor",
+      "version": null,
+      "lastUpdated": "2026-05-13T04:39:21.349Z",
+      "filename": "admin_data_editor-v3.json",
+      "size": 27115,
+      "label": "Admin Data Editor",
+      "kind": "tool",
+      "category": "Admin",
+      "audience": [],
+      "changelog": "",
+      "audienceEmails": [
+        "andrew_nemiroff@colpal.com"
+      ]
+    },
+    {
+      "id": "admin_template_studio",
+      "version": null,
+      "lastUpdated": "2026-05-13T05:36:11.749Z",
+      "filename": "admin_template_studio-v3.json",
+      "size": 68972,
+      "label": "Admin Template Studio",
+      "kind": "tool",
+      "category": "Admin",
+      "audience": [],
+      "changelog": "",
+      "audienceEmails": [
+        "andrew_nemiroff@colpal.com"
+      ]
+    },
+    {
+      "id": "admin_storage_inspector",
+      "version": null,
+      "lastUpdated": "2026-05-13T05:13:23.442Z",
+      "filename": "admin_storage_inspector-v3.json",
+      "size": 21384,
+      "label": "Admin Storage Inspector",
       "kind": "tool",
       "category": "Admin",
       "audience": [],
@@ -446,9 +491,9 @@
     },
     {
       "id": "__data_agreement_types",
-      "lastUpdated": "2026-05-13T04:36:32.851Z",
+      "lastUpdated": "2026-05-13T05:36:16.377Z",
       "filename": "agreement_types.json",
-      "size": 5323,
+      "size": 5308,
       "label": "Agreement Types",
       "kind": "data",
       "category": "Data",
@@ -458,7 +503,7 @@
       "sections": [
         "agreementTypes"
       ],
-      "changelog": "24 rows · pushed 2026-05-13T04:36:32Z"
+      "changelog": ""
     },
     {
       "id": "__data_exec_brief_terms",
@@ -510,9 +555,9 @@
     },
     {
       "id": "__data_loading_msgs",
-      "lastUpdated": "2026-05-13T04:27:37.020Z",
+      "lastUpdated": "2026-05-13T05:36:16.379Z",
       "filename": "loading_msgs.json",
-      "size": 944,
+      "size": 772,
       "label": "Loading Messages",
       "kind": "data",
       "category": "Data",
@@ -522,7 +567,7 @@
       "sections": [
         "loadingMsgs"
       ],
-      "changelog": "2 rows · pushed 2026-05-13T04:27:37Z"
+      "changelog": ""
     },
     {
       "id": "__data_trophies",
@@ -624,51 +669,6 @@
       ],
       "changelog": "",
       "encrypted": true
-    },
-    {
-      "id": "admin_data_editor",
-      "version": null,
-      "lastUpdated": "2026-05-13T04:39:21.349Z",
-      "filename": "admin_data_editor-v3.json",
-      "size": 26342,
-      "label": "Admin Data Editor",
-      "kind": "tool",
-      "category": "Admin",
-      "audience": [],
-      "audienceEmails": [
-        "andrew_nemiroff@colpal.com"
-      ],
-      "changelog": ""
-    },
-    {
-      "id": "admin_template_studio",
-      "version": null,
-      "lastUpdated": "2026-05-13T05:26:16.905Z",
-      "filename": "admin_template_studio-v3.json",
-      "size": 59513,
-      "label": "Admin Template Studio",
-      "kind": "tool",
-      "category": "Admin",
-      "audience": [],
-      "audienceEmails": [
-        "andrew_nemiroff@colpal.com"
-      ],
-      "changelog": ""
-    },
-    {
-      "id": "admin_storage_inspector",
-      "version": null,
-      "lastUpdated": "2026-05-13T05:13:23.442Z",
-      "filename": "admin_storage_inspector-v3.json",
-      "size": 20647,
-      "label": "Admin Storage Inspector",
-      "kind": "tool",
-      "category": "Admin",
-      "audience": [],
-      "audienceEmails": [
-        "andrew_nemiroff@colpal.com"
-      ],
-      "changelog": ""
     }
   ],
   "bundles": [
