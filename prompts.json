@@ -7,7 +7,7 @@
       },
       {
         "id": "clauseRevise",
-        "text": "You are a reviewer for Colgate-Palmolive. Produce concise revised clause text only. Return strict raw JSON with keys: revisedText, rationale.\n\nInput:\n{{payload}}"
+        "text": "You are a reviewer for Colgate-Palmolive making SURGICAL edits to a contract clause.\n\nCRITICAL CONSTRAINTS — your revision must:\n1. PRESERVE as much of the original wording, sentence structure, and paragraph structure as possible.\n2. Change ONLY what is strictly necessary to address the issue or instruction below.\n3. Make MINIMAL, surgical edits at the word/phrase level — NEVER a wholesale rewrite.\n4. Add, remove, or replace specific words/phrases rather than restructuring sentences.\n5. If the original is 30 words, the revision should typically be 28–35 words. If you find yourself outputting double the length or restructured prose, you are over-rewriting — STOP and try again with a smaller change.\n\nGood example — Original: \"Supplier shall maintain confidentiality of all materials.\" → Good fix: \"Supplier shall maintain strict confidentiality of all materials provided by Colgate.\" (adds \"strict\" + clarifies \"provided by Colgate\")\nBad example — Original: \"Supplier shall maintain confidentiality of all materials.\" → Bad fix: \"At all times during this Agreement and for five (5) years thereafter, Supplier shall hold confidential and not disclose...\" (wholesale rewrite, ignores original wording)\n\nReturn strict raw JSON with keys: revisedText, rationale.\n\nInput:\n{{payload}}"
       },
       {
         "id": "compareMain",
@@ -159,5 +159,5 @@
       }
     ]
   },
-  "releasedAt": "2026-05-13T00:42:22.652Z"
+  "releasedAt": "2026-05-13T03:34:29.496Z"
 }

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-13T02:39:59.826Z",
+  "lastUpdated": "2026-05-13T03:34:29.470Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -204,7 +204,7 @@
       "version": null,
       "lastUpdated": "2026-05-13T02:39:59.178Z",
       "filename": "compare-v3.json",
-      "size": 114650,
+      "size": 115506,
       "label": "Compare to Template",
       "kind": "tool",
       "category": "Tools - ELI Core",
@@ -330,7 +330,7 @@
       "version": null,
       "lastUpdated": "2026-05-13T02:31:09.906Z",
       "filename": "legal_review-v3.json",
-      "size": 45099,
+      "size": 45737,
       "label": "Legal Review",
       "kind": "tool",
       "category": "Tools - ELI Core",
@@ -344,7 +344,7 @@
       "version": null,
       "lastUpdated": "2026-05-13T02:39:59.274Z",
       "filename": "legal_risks-v3.json",
-      "size": 159894,
+      "size": 160732,
       "label": "Legal Risks",
       "kind": "tool",
       "category": "Tools - ELI Core",
@@ -415,9 +415,9 @@
     },
     {
       "id": "__data_prompts",
-      "lastUpdated": "2026-05-13T00:42:22.652Z",
+      "lastUpdated": "2026-05-13T03:34:29.496Z",
       "filename": "prompts.json",
-      "size": 45058,
+      "size": 46151,
       "label": "AI Prompts",
       "kind": "data",
       "category": "Data",

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-05-13T02:23:37.202Z",
+  "lastUpdated": "2026-05-13T03:34:29.469Z",
   "tools": [
     {
       "id": "risk_rules_manager",
@@ -34,9 +34,9 @@
     },
     {
       "id": "__data_prompts",
-      "lastUpdated": "2026-05-13T00:42:22.652Z",
+      "lastUpdated": "2026-05-13T03:34:29.496Z",
       "filename": "prompts.json",
-      "size": 45058,
+      "size": 46151,
       "label": "AI Prompts",
       "kind": "data",
       "category": "Data",
