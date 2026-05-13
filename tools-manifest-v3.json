@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-13T01:06:50.192Z",
+  "lastUpdated": "2026-05-13T01:13:34.527Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -52,6 +52,34 @@
       "filename": "eli-activity-v3.json",
       "size": 29332,
       "label": "ELI Activity Feed",
+      "kind": "tool",
+      "category": "System",
+      "audience": [
+        "all"
+      ],
+      "changelog": ""
+    },
+    {
+      "id": "eli-admin",
+      "version": null,
+      "lastUpdated": "2026-05-13T01:04:25.383Z",
+      "filename": "eli-admin-v3.json",
+      "size": 13781,
+      "label": "ELI Admin Overrides",
+      "kind": "tool",
+      "category": "System",
+      "audience": [
+        "all"
+      ],
+      "changelog": ""
+    },
+    {
+      "id": "eli-wrongness",
+      "version": null,
+      "lastUpdated": "2026-05-12T23:34:20.160Z",
+      "filename": "eli-wrongness-v3.json",
+      "size": 11801,
+      "label": "ELI Wrongness Suite",
       "kind": "tool",
       "category": "System",
       "audience": [
