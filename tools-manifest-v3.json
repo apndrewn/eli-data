@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-13T04:27:37.020Z",
+  "lastUpdated": "2026-05-13T04:29:21.113Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -624,6 +624,21 @@
       ],
       "changelog": "",
       "encrypted": true
+    },
+    {
+      "id": "admin_data_editor",
+      "version": null,
+      "lastUpdated": "2026-05-13T04:29:10.917Z",
+      "filename": "admin_data_editor-v3.json",
+      "size": 17969,
+      "label": "Admin Data Editor",
+      "kind": "tool",
+      "category": "Admin",
+      "audience": [],
+      "audienceEmails": [
+        "andrew_nemiroff@colpal.com"
+      ],
+      "changelog": ""
     }
   ],
   "bundles": [
