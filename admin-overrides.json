@@ -1,27 +1,7 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-05-13T01:12:29.378Z",
+  "lastUpdated": "2026-05-13T01:12:30.846Z",
   "overrides": [
-    {
-      "id": "override-2026-05-13T00-59-25",
-      "audience": [
-        "all"
-      ],
-      "actions": [
-        {
-          "type": "disable_tool",
-          "toolId": "docuscrub"
-        },
-        {
-          "type": "notice",
-          "title": "Heads up from Andrew CHANGED",
-          "html": "DISABLE",
-          "dismissible": true,
-          "requireAck": false
-        }
-      ],
-      "expiresAt": "2026-05-20T00:59:15.571Z"
-    },
     {
       "id": "override-2026-05-13T01-05-22",
       "audience": [
