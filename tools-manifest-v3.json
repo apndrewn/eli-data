@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-13T23:18:51.841Z",
+  "lastUpdated": "2026-05-13T23:25:13.670Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -104,9 +104,9 @@
     {
       "id": "final_review",
       "version": null,
-      "lastUpdated": "2026-05-13T12:11:05.157Z",
+      "lastUpdated": "2026-05-13T23:25:13.192Z",
       "filename": "final_review-v3.json",
-      "size": 79116,
+      "size": 81041,
       "label": "Final Review",
       "kind": "tool",
       "category": "Tools - ELI Core",
@@ -328,9 +328,9 @@
     {
       "id": "legal_review",
       "version": null,
-      "lastUpdated": "2026-05-13T23:18:51.312Z",
+      "lastUpdated": "2026-05-13T23:25:13.100Z",
       "filename": "legal_review-v3.json",
-      "size": 69363,
+      "size": 69776,
       "label": "Legal Review",
       "kind": "tool",
       "category": "Tools - ELI Core",
