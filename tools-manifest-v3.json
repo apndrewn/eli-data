@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-13T23:12:14.333Z",
+  "lastUpdated": "2026-05-13T23:14:50.076Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -174,9 +174,9 @@
     {
       "id": "review_redlines",
       "version": null,
-      "lastUpdated": "2026-05-13T23:09:40.835Z",
+      "lastUpdated": "2026-05-13T23:14:49.545Z",
       "filename": "review_redlines-v3.json",
-      "size": 618185,
+      "size": 618404,
       "label": "Review Redlines",
       "kind": "tool",
       "category": "Tools - ELI Core",
@@ -202,9 +202,9 @@
     {
       "id": "compare",
       "version": null,
-      "lastUpdated": "2026-05-13T23:09:40.721Z",
+      "lastUpdated": "2026-05-13T23:14:49.439Z",
       "filename": "compare-v3.json",
-      "size": 122947,
+      "size": 123165,
       "label": "Compare to Template",
       "kind": "tool",
       "category": "Tools - ELI Core",
@@ -342,9 +342,9 @@
     {
       "id": "legal_risks",
       "version": null,
-      "lastUpdated": "2026-05-13T23:09:40.602Z",
+      "lastUpdated": "2026-05-13T23:14:49.348Z",
       "filename": "legal_risks-v3.json",
-      "size": 179110,
+      "size": 179590,
       "label": "Legal Risks",
       "kind": "tool",
       "category": "Tools - ELI Core",
