@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-13T12:11:13.311Z",
+  "lastUpdated": "2026-05-13T12:18:07.531Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -34,9 +34,9 @@
     {
       "id": "eli_kit",
       "version": null,
-      "lastUpdated": "2026-05-13T05:53:25.790Z",
+      "lastUpdated": "2026-05-13T12:18:00.297Z",
       "filename": "eli_kit-v3.json",
-      "size": 81782,
+      "size": 82628,
       "label": "ELI Kit",
       "kind": "tool",
       "category": "System",
@@ -188,9 +188,9 @@
     {
       "id": "trophy_gallery",
       "version": null,
-      "lastUpdated": "2026-05-13T05:10:16.896Z",
+      "lastUpdated": "2026-05-13T12:18:00.501Z",
       "filename": "trophy_gallery-v3.json",
-      "size": 69447,
+      "size": 70573,
       "label": "Trophy Gallery",
       "kind": "tool",
       "category": "Engagement",
@@ -430,9 +430,9 @@
     {
       "id": "admin_template_studio",
       "version": null,
-      "lastUpdated": "2026-05-13T12:11:05.655Z",
+      "lastUpdated": "2026-05-13T12:18:00.412Z",
       "filename": "admin_template_studio-v3.json",
-      "size": 84038,
+      "size": 85955,
       "label": "Admin Template Studio",
       "kind": "tool",
       "category": "Admin",
