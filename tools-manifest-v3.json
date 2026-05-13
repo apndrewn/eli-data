@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-13T05:59:53.626Z",
+  "lastUpdated": "2026-05-13T06:03:18.430Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -430,9 +430,9 @@
     {
       "id": "admin_template_studio",
       "version": null,
-      "lastUpdated": "2026-05-13T05:59:41.946Z",
+      "lastUpdated": "2026-05-13T06:03:18.336Z",
       "filename": "admin_template_studio-v3.json",
-      "size": 79162,
+      "size": 83374,
       "label": "Admin Template Studio",
       "kind": "tool",
       "category": "Admin",
