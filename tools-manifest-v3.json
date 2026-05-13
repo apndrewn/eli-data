@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-13T04:26:20.284Z",
+  "lastUpdated": "2026-05-13T04:27:37.020Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -510,9 +510,9 @@
     },
     {
       "id": "__data_loading_msgs",
-      "lastUpdated": "2026-05-12T02:58:32.822Z",
+      "lastUpdated": "2026-05-13T04:27:37.020Z",
       "filename": "loading_msgs.json",
-      "size": 772,
+      "size": 944,
       "label": "Loading Messages",
       "kind": "data",
       "category": "Data",
@@ -522,7 +522,7 @@
       "sections": [
         "loadingMsgs"
       ],
-      "changelog": ""
+      "changelog": "2 rows · pushed 2026-05-13T04:27:37Z"
     },
     {
       "id": "__data_trophies",
