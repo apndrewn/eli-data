@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-13T01:13:34.527Z",
+  "lastUpdated": "2026-05-13T01:24:53.494Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -62,9 +62,9 @@
     {
       "id": "eli-admin",
       "version": null,
-      "lastUpdated": "2026-05-13T01:04:25.383Z",
+      "lastUpdated": "2026-05-13T01:24:49.020Z",
       "filename": "eli-admin-v3.json",
-      "size": 13781,
+      "size": 14177,
       "label": "ELI Admin Overrides",
       "kind": "tool",
       "category": "System",
