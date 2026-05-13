@@ -1,0 +1,526 @@
+{
+  "schemaVersion": 1,
+  "submittedAt": "2026-05-13T05:54:36.112Z",
+  "type": "improvement",
+  "title": "Test",
+  "description": "Test improvement",
+  "context": {
+    "kernelVersion": "v3-phase10m-tier-prepop-r5-revert",
+    "online": true,
+    "selfTest": "25/25 ok",
+    "user": {
+      "email": "andrew_nemiroff@colpal.com",
+      "firstName": "Andrew",
+      "name": "Andrew Nemiroff",
+      "group": "External Innovation"
+    },
+    "tools": [
+      "admin_data_editor",
+      "admin_library_publisher",
+      "admin_storage_inspector",
+      "admin_template_studio",
+      "ask_eli",
+      "auto_emailer",
+      "build_draft",
+      "compare",
+      "docuscrub",
+      "eli-activity",
+      "eli-admin",
+      "eli-wrongness",
+      "eli5",
+      "eli_kit",
+      "eli_settings",
+      "eli_stats",
+      "email_helper",
+      "error_review",
+      "final_review",
+      "focus_flow",
+      "legal_review",
+      "legal_risks",
+      "oars_loader",
+      "playbook_manager",
+      "redline_authors",
+      "redline_email_pack",
+      "refresh_eli",
+      "review_redlines",
+      "tool_author_studio",
+      "tool_manager",
+      "trophy_gallery",
+      "version_history"
+    ],
+    "events": [
+      {
+        "channel": "_selftest",
+        "name": "ping",
+        "payload": {
+          "hello": "world"
+        },
+        "timestamp": 1778651536075
+      },
+      {
+        "channel": "_selftest",
+        "name": "ping",
+        "payload": {
+          "hello": "world"
+        },
+        "timestamp": 1778651536075
+      },
+      {
+        "channel": "tool",
+        "name": "build_draft_initialized",
+        "payload": {},
+        "timestamp": 1778651536108
+      },
+      {
+        "channel": "tool",
+        "name": "loaded",
+        "payload": {
+          "id": "build_draft",
+          "tier": "boot",
+          "fns": 13,
+          "failures": 0
+        },
+        "timestamp": 1778651536108
+      },
+      {
+        "channel": "tool",
+        "name": "eli_activity_initialized",
+        "payload": {
+          "ringSize": 2
+        },
+        "timestamp": 1778651536109,
+        "sanitized": true
+      },
+      {
+        "channel": "tool",
+        "name": "loaded",
+        "payload": {
+          "id": "eli-activity",
+          "tier": "boot",
+          "fns": 5,
+          "failures": 0
+        },
+        "timestamp": 1778651536109,
+        "sanitized": true
+      },
+      {
+        "channel": "tool",
+        "name": "eli_settings_initialized",
+        "payload": {},
+        "timestamp": 1778651536111,
+        "sanitized": true
+      },
+      {
+        "channel": "tool",
+        "name": "loaded",
+        "payload": {
+          "id": "eli_settings",
+          "tier": "boot",
+          "fns": 1,
+          "failures": 0
+        },
+        "timestamp": 1778651536111,
+        "sanitized": true
+      },
+      {
+        "channel": "tool",
+        "name": "eli_stats_initialized",
+        "payload": {},
+        "timestamp": 1778651536113,
+        "sanitized": true
+      },
+      {
+        "channel": "tool",
+        "name": "loaded",
+        "payload": {
+          "id": "eli_stats",
+          "tier": "boot",
+          "fns": 8,
+          "failures": 0
+        },
+        "timestamp": 1778651536113,
+        "sanitized": true
+      },
+      {
+        "channel": "tool",
+        "name": "final_review_initialized",
+        "payload": {},
+        "timestamp": 1778651536116,
+        "sanitized": true
+      },
+      {
+        "channel": "tool",
+        "name": "loaded",
+        "payload": {
+          "id": "final_review",
+          "tier": "boot",
+          "fns": 34,
+          "failures": 0
+        },
+        "timestamp": 1778651536116,
+        "sanitized": true
+      },
+      {
+        "channel": "tool",
+        "name": "oars_loader_initialized",
+        "payload": {},
+        "timestamp": 1778651536119,
+        "sanitized": true
+      },
+      {
+        "channel": "tool",
+        "name": "loaded",
+        "payload": {
+          "id": "oars_loader",
+          "tier": "boot",
+          "fns": 7,
+          "failures": 0
+        },
+        "timestamp": 1778651536119,
+        "sanitized": true
+      },
+      {
+        "channel": "tool",
+        "name": "loaded",
+        "payload": {
+          "id": "redline_email_pack",
+          "tier": "boot",
+          "fns": 5,
+          "failures": 0
+        },
+        "timestamp": 1778651536120,
+        "sanitized": true
+      },
+      {
+        "channel": "tool",
+        "name": "tool_author_studio_initialized",
+        "payload": {},
+        "timestamp": 1778651536122,
+        "sanitized": true
+      },
+      {
+        "channel": "tool",
+        "name": "loaded",
+        "payload": {
+          "id": "tool_author_studio",
+          "tier": "boot",
+          "fns": 1,
+          "failures": 0
+        },
+        "timestamp": 1778651536122,
+        "sanitized": true
+      },
+      {
+        "channel": "tool",
+        "name": "tool_manager_initialized",
+        "payload": {},
+        "timestamp": 1778651536124,
+        "sanitized": true
+      },
+      {
+        "channel": "tool",
+        "name": "loaded",
+        "payload": {
+          "id": "tool_manager",
+          "tier": "boot",
+          "fns": 5,
+          "failures": 0
+        },
+        "timestamp": 1778651536124,
+        "sanitized": true
+      },
+      {
+        "channel": "tool",
+        "name": "version_history_initialized",
+        "payload": {},
+        "timestamp": 1778651536127,
+        "sanitized": true
+      },
+      {
+        "channel": "tool",
+        "name": "loaded",
+        "payload": {
+          "id": "version_history",
+          "tier": "boot",
+          "fns": 12,
+          "failures": 0
+        },
+        "timestamp": 1778651536127,
+        "sanitized": true
+      },
+      {
+        "channel": "tools",
+        "name": "boot_loaded",
+        "payload": {
+          "count": 10,
+          "total": 32,
+          "metaSkipped": 0,
+          "disabledSkipped": 0
+        },
+        "timestamp": 1778651536128,
+        "sanitized": true
+      },
+      {
+        "channel": "oars",
+        "name": "sentinel_check",
+        "payload": {
+          "raw": null,
+          "type": "object",
+          "isCleared": false
+        },
+        "timestamp": 1778651536128,
+        "sanitized": true
+      },
+      {
+        "channel": "stats",
+        "name": "real_provider_installed",
+        "payload": {
+          "hydratedCount": 357,
+          "replayedOps": 2
+        },
+        "timestamp": 1778651536246,
+        "sanitized": true
+      },
+      {
+        "channel": "manifest",
+        "name": "fetched",
+        "payload": {
+          "entries": 45,
+          "url": "https://raw.githubusercontent.com/apndrewn/eli-data/main/tools-manifest-v3.json"
+        },
+        "timestamp": 1778651536276,
+        "sanitized": true
+      },
+      {
+        "channel": "tool",
+        "name": "auto_emailer_initialized",
+        "payload": {},
+        "timestamp": 1778651536370,
+        "sanitized": true
+      },
+      {
+        "channel": "tool",
+        "name": "loaded",
+        "payload": {
+          "id": "auto_emailer",
+          "tier": "preload",
+          "fns": 13,
+          "failures": 0
+        },
+        "timestamp": 1778651536370,
+        "sanitized": true
+      },
+      {
+        "channel": "tool",
+        "name": "eli_admin_initialized",
+        "payload": {},
+        "timestamp": 1778651536372,
+        "sanitized": true
+      },
+      {
+        "channel": "tool",
+        "name": "loaded",
+        "payload": {
+          "id": "eli-admin",
+          "tier": "preload",
+          "fns": 1,
+          "failures": 0
+        },
+        "timestamp": 1778651536372,
+        "sanitized": true
+      },
+      {
+        "channel": "tool",
+        "name": "eli_kit_initialized",
+        "payload": {},
+        "timestamp": 1778651536374,
+        "sanitized": true
+      },
+      {
+        "channel": "tool",
+        "name": "loaded",
+        "payload": {
+          "id": "eli_kit",
+          "tier": "preload",
+          "fns": 4,
+          "failures": 0
+        },
+        "timestamp": 1778651536374,
+        "sanitized": true
+      },
+      {
+        "channel": "tool",
+        "name": "error_review_initialized",
+        "payload": {},
+        "timestamp": 1778651536376,
+        "sanitized": true
+      },
+      {
+        "channel": "tool",
+        "name": "loaded",
+        "payload": {
+          "id": "error_review",
+          "tier": "preload",
+          "fns": 5,
+          "failures": 0
+        },
+        "timestamp": 1778651536376,
+        "sanitized": true
+      },
+      {
+        "channel": "tool",
+        "name": "legal_review_initialized",
+        "payload": {},
+        "timestamp": 1778651536377,
+        "sanitized": true
+      },
+      {
+        "channel": "tool",
+        "name": "loaded",
+        "payload": {
+          "id": "legal_review",
+          "tier": "preload",
+          "fns": 6,
+          "failures": 0
+        },
+        "timestamp": 1778651536377,
+        "sanitized": true
+      },
+      {
+        "channel": "tool",
+        "name": "legal_risks_initialized",
+        "payload": {},
+        "timestamp": 1778651536382,
+        "sanitized": true
+      },
+      {
+        "channel": "tool",
+        "name": "loaded",
+        "payload": {
+          "id": "legal_risks",
+          "tier": "preload",
+          "fns": 18,
+          "failures": 0
+        },
+        "timestamp": 1778651536382,
+        "sanitized": true
+      },
+      {
+        "channel": "tool",
+        "name": "redline_authors_initialized",
+        "payload": {},
+        "timestamp": 1778651536384,
+        "sanitized": true
+      },
+      {
+        "channel": "tool",
+        "name": "loaded",
+        "payload": {
+          "id": "redline_authors",
+          "tier": "preload",
+          "fns": 2,
+          "failures": 0
+        },
+        "timestamp": 1778651536384,
+        "sanitized": true
+      },
+      {
+        "channel": "tool",
+        "name": "trophy_gallery_initialized",
+        "payload": {},
+        "timestamp": 1778651536388,
+        "sanitized": true
+      },
+      {
+        "channel": "tool",
+        "name": "loaded",
+        "payload": {
+          "id": "trophy_gallery",
+          "tier": "preload",
+          "fns": 12,
+          "failures": 0
+        },
+        "timestamp": 1778651536388,
+        "sanitized": true
+      },
+      {
+        "channel": "tool",
+        "name": "ask_eli_initialized",
+        "payload": {},
+        "timestamp": 1778651536395,
+        "sanitized": true
+      },
+      {
+        "channel": "tool",
+        "name": "loaded",
+        "payload": {
+          "id": "ask_eli",
+          "tier": "preload",
+          "fns": 17,
+          "failures": 0
+        },
+        "timestamp": 1778651536395,
+        "sanitized": true
+      },
+      {
+        "channel": "tools",
+        "name": "preload_loaded",
+        "payload": {
+          "count": 10
+        },
+        "timestamp": 1778651536396,
+        "sanitized": true
+      },
+      {
+        "channel": "activity",
+        "name": "added",
+        "payload": {
+          "type": "doc_loaded",
+          "label": "DOC. LOADED",
+          "summary": "10,907 words"
+        },
+        "timestamp": 1778651536649,
+        "sanitized": true
+      },
+      {
+        "channel": "host",
+        "name": "agreement_type_detected",
+        "payload": {
+          "type": "Non-Disclosure Agreement",
+          "score": 2
+        },
+        "timestamp": 1778651536655,
+        "sanitized": true
+      },
+      {
+        "channel": "dashboard",
+        "name": "tile_clicked",
+        "payload": {
+          "id": "admin_template_studio",
+          "catalogId": "app_admin_template_studio"
+        },
+        "timestamp": 1778651540927,
+        "sanitized": true
+      },
+      {
+        "channel": "tool",
+        "name": "admin_template_studio_initialized",
+        "payload": {},
+        "timestamp": 1778651540930,
+        "sanitized": true
+      },
+      {
+        "channel": "tool",
+        "name": "loaded",
+        "payload": {
+          "id": "admin_template_studio",
+          "tier": "demand",
+          "fns": 42,
+          "failures": 0
+        },
+        "timestamp": 1778651540930,
+        "sanitized": true
+      }
+    ]
+  }
+}
