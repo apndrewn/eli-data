@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-13T04:04:40.964Z",
+  "lastUpdated": "2026-05-13T04:05:48.593Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -104,9 +104,9 @@
     {
       "id": "final_review",
       "version": null,
-      "lastUpdated": "2026-05-12T02:16:23.783Z",
+      "lastUpdated": "2026-05-13T04:05:48.041Z",
       "filename": "final_review-v3.json",
-      "size": 78179,
+      "size": 77565,
       "label": "Final Review",
       "kind": "tool",
       "category": "Tools - ELI Core",
