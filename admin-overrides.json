@@ -1,20 +1,7 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-05-13T01:12:24.484Z",
+  "lastUpdated": "2026-05-13T01:12:26.346Z",
   "overrides": [
-    {
-      "id": "override-2026-05-12T18-57-08",
-      "audience": [
-        "all"
-      ],
-      "actions": [
-        {
-          "type": "disable_tool",
-          "toolId": "docuscrub"
-        }
-      ],
-      "expiresAt": "2026-05-19T18:57:08.104Z"
-    },
     {
       "id": "override-2026-05-13T00-46-38",
       "audience": [
