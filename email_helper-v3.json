@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "releasedAt": "2026-05-13T01:49:23.452Z",
+  "releasedAt": "2026-05-13T01:49:56.937Z",
   "sectionVersions": {
     "jsonTools": 1
   },
   "sections": {
     "jsonTools": [
       {
-        "releasedAt": "2026-05-13T01:49:23.452Z",
+        "releasedAt": "2026-05-13T01:49:56.937Z",
         "id": "email_helper",
         "label": "Email Helper",
         "defaultEnabled": false,
