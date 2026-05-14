@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-14T00:03:07.153Z",
+  "lastUpdated": "2026-05-14T00:13:24.252Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -328,9 +328,9 @@
     {
       "id": "legal_review",
       "version": null,
-      "lastUpdated": "2026-05-14T00:02:49.619Z",
+      "lastUpdated": "2026-05-14T00:13:20.576Z",
       "filename": "legal_review-v3.json",
-      "size": 72386,
+      "size": 73154,
       "label": "Legal Review",
       "kind": "tool",
       "category": "Tools - ELI Core",
