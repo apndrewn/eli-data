@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-14T00:13:24.252Z",
+  "lastUpdated": "2026-05-14T00:17:53.078Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -328,7 +328,7 @@
     {
       "id": "legal_review",
       "version": null,
-      "lastUpdated": "2026-05-14T00:13:20.576Z",
+      "lastUpdated": "2026-05-14T00:17:48.304Z",
       "filename": "legal_review-v3.json",
       "size": 73154,
       "label": "Legal Review",
