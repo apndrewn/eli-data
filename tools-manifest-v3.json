@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-14T07:11:05.101Z",
+  "lastUpdated": "2026-05-14T11:56:34.245Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -460,9 +460,9 @@
     {
       "id": "admin_team_guidance",
       "version": null,
-      "lastUpdated": "2026-05-14T07:10:03.530Z",
+      "lastUpdated": "2026-05-14T11:56:28.755Z",
       "filename": "admin_team_guidance-v3.json",
-      "size": 20228,
+      "size": 21476,
       "label": "Team Guidance Admin",
       "kind": "tool",
       "category": "Admin",
