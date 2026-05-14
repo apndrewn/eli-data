@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-14T03:30:11.128Z",
+  "lastUpdated": "2026-05-14T03:31:18.044Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -475,7 +475,7 @@
     },
     {
       "id": "__data_prompts",
-      "lastUpdated": "2026-05-14T03:19:31.607Z",
+      "lastUpdated": "2026-05-14T03:31:18.077Z",
       "filename": "prompts.json",
       "size": 48347,
       "label": "AI Prompts",
