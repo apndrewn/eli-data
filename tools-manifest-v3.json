@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-14T22:44:04.098Z",
+  "lastUpdated": "2026-05-14T22:46:10.620Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -272,9 +272,9 @@
     {
       "id": "auto_emailer",
       "version": null,
-      "lastUpdated": "2026-05-14T22:44:03.699Z",
+      "lastUpdated": "2026-05-14T22:46:10.234Z",
       "filename": "auto_emailer-v3.json",
-      "size": 75957,
+      "size": 75815,
       "label": "Auto Emailer",
       "kind": "tool",
       "category": "Tools - ELI Core",
