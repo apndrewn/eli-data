@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-14T03:13:49.185Z",
+  "lastUpdated": "2026-05-14T03:19:31.573Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -174,9 +174,9 @@
     {
       "id": "review_redlines",
       "version": null,
-      "lastUpdated": "2026-05-14T03:13:49.061Z",
+      "lastUpdated": "2026-05-14T03:19:31.470Z",
       "filename": "review_redlines-v3.json",
-      "size": 665779,
+      "size": 667060,
       "label": "Review Redlines",
       "kind": "tool",
       "category": "Tools - ELI Core",
@@ -475,9 +475,9 @@
     },
     {
       "id": "__data_prompts",
-      "lastUpdated": "2026-05-14T03:08:41.201Z",
+      "lastUpdated": "2026-05-14T03:19:31.607Z",
       "filename": "prompts.json",
-      "size": 48013,
+      "size": 48347,
       "label": "AI Prompts",
       "kind": "data",
       "category": "Data",
