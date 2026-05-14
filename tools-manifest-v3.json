@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-14T02:07:27.974Z",
+  "lastUpdated": "2026-05-14T02:10:29.907Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -244,9 +244,9 @@
     {
       "id": "error_review",
       "version": null,
-      "lastUpdated": "2026-05-14T02:07:27.877Z",
+      "lastUpdated": "2026-05-14T02:10:29.819Z",
       "filename": "error_review-v3.json",
-      "size": 92181,
+      "size": 94218,
       "label": "Error Review",
       "kind": "tool",
       "category": "Tools - ELI Core",
