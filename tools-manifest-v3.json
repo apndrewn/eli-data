@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-15T05:11:55.745Z",
+  "lastUpdated": "2026-05-15T05:17:47.918Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -104,9 +104,9 @@
     {
       "id": "final_review",
       "version": null,
-      "lastUpdated": "2026-05-14T01:24:40.219Z",
+      "lastUpdated": "2026-05-15T05:17:47.673Z",
       "filename": "final_review-v3.json",
-      "size": 97537,
+      "size": 96911,
       "label": "Final Review",
       "kind": "tool",
       "category": "Tools - ELI Core",
@@ -202,9 +202,9 @@
     {
       "id": "compare",
       "version": null,
-      "lastUpdated": "2026-05-15T05:08:50.090Z",
+      "lastUpdated": "2026-05-15T05:17:47.769Z",
       "filename": "compare-v3.json",
-      "size": 141267,
+      "size": 142987,
       "label": "Compare to Template",
       "kind": "tool",
       "category": "Tools - ELI Core",
