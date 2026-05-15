@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-15T13:58:28.405Z",
+  "lastUpdated": "2026-05-15T14:05:50.217Z",
   "tools": [
     {
       "id": "tool_manager",
       "version": null,
-      "lastUpdated": "2026-05-12T22:59:25.691Z",
+      "lastUpdated": "2026-05-15T14:05:39.079Z",
       "filename": "tool_manager-v3.json",
-      "size": 81405,
+      "size": 87038,
       "label": "Data Hub",
       "kind": "tool",
       "category": "Tools - ELI Core",
@@ -475,9 +475,9 @@
     {
       "id": "bd_template_tester",
       "version": null,
-      "lastUpdated": "2026-05-15T13:57:29.064Z",
+      "lastUpdated": "2026-05-15T14:05:39.198Z",
       "filename": "bd_template_tester-v3.json",
-      "size": 27422,
+      "size": 28518,
       "label": "BD Template Tester",
       "kind": "tool",
       "category": "Admin",
