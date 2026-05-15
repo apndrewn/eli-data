@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-15T00:03:07.104Z",
+  "lastUpdated": "2026-05-15T00:04:17.715Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -216,9 +216,9 @@
     {
       "id": "redline_email_pack",
       "version": null,
-      "lastUpdated": "2026-05-13T12:11:04.808Z",
+      "lastUpdated": "2026-05-15T00:04:07.480Z",
       "filename": "redline_email_pack-v3.json",
-      "size": 32608,
+      "size": 32609,
       "label": "Redline Emails",
       "kind": "tool",
       "category": "Tools - ELI Core",

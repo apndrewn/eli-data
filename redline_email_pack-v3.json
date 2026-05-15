@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-05-13T12:11:04.810Z",
+  "exportedAt": "2026-05-15T00:04:07.481Z",
   "sectionVersions": {
     "jsonTools": 1
   },
   "sections": {
     "jsonTools": [
       {
-        "releasedAt": "2026-05-13T12:11:04.808Z",
+        "releasedAt": "2026-05-15T00:04:07.480Z",
         "id": "redline_email_pack",
         "label": "Redline Emails",
-        "defaultEnabled": true,
+        "defaultEnabled": false,
         "audience": [
           "all"
         ],
