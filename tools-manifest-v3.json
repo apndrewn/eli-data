@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-15T01:46:29.365Z",
+  "lastUpdated": "2026-05-15T01:51:34.066Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -20,9 +20,9 @@
     {
       "id": "oars_loader",
       "version": null,
-      "lastUpdated": "2026-05-13T04:16:37.276Z",
+      "lastUpdated": "2026-05-15T01:51:33.550Z",
       "filename": "oars_loader-v3.json",
-      "size": 38327,
+      "size": 40023,
       "label": "OARS Data Hub",
       "kind": "tool",
       "category": "Data",
@@ -460,9 +460,9 @@
     {
       "id": "admin_team_guidance",
       "version": null,
-      "lastUpdated": "2026-05-14T11:56:28.755Z",
+      "lastUpdated": "2026-05-15T01:51:33.644Z",
       "filename": "admin_team_guidance-v3.json",
-      "size": 21476,
+      "size": 22254,
       "label": "Team Guidance Admin",
       "kind": "tool",
       "category": "Admin",
