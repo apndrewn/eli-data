@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-15T05:01:55.623Z",
+  "lastUpdated": "2026-05-15T05:08:50.168Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -174,9 +174,9 @@
     {
       "id": "review_redlines",
       "version": null,
-      "lastUpdated": "2026-05-15T04:57:52.822Z",
+      "lastUpdated": "2026-05-15T05:08:49.986Z",
       "filename": "review_redlines-v3.json",
-      "size": 731638,
+      "size": 732819,
       "label": "Review Redlines",
       "kind": "tool",
       "category": "Tools - ELI Core",
@@ -202,9 +202,9 @@
     {
       "id": "compare",
       "version": null,
-      "lastUpdated": "2026-05-15T00:02:57.020Z",
+      "lastUpdated": "2026-05-15T05:08:50.090Z",
       "filename": "compare-v3.json",
-      "size": 143183,
+      "size": 141267,
       "label": "Compare to Template",
       "kind": "tool",
       "category": "Tools - ELI Core",
