@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-15T05:17:47.918Z",
+  "lastUpdated": "2026-05-15T05:21:39.811Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -202,9 +202,9 @@
     {
       "id": "compare",
       "version": null,
-      "lastUpdated": "2026-05-15T05:17:47.769Z",
+      "lastUpdated": "2026-05-15T05:21:39.726Z",
       "filename": "compare-v3.json",
-      "size": 142987,
+      "size": 143369,
       "label": "Compare to Template",
       "kind": "tool",
       "category": "Tools - ELI Core",
