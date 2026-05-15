@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-15T21:34:02.199Z",
+  "lastUpdated": "2026-05-15T21:47:59.047Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -258,9 +258,9 @@
     {
       "id": "build_draft",
       "version": null,
-      "lastUpdated": "2026-05-15T21:32:16.984Z",
+      "lastUpdated": "2026-05-15T21:47:58.738Z",
       "filename": "build_draft-v3.json",
-      "size": 230135,
+      "size": 229849,
       "label": "Build Draft",
       "kind": "tool",
       "category": "Tools - Drafting",
@@ -475,9 +475,9 @@
     {
       "id": "bd_template_tester",
       "version": null,
-      "lastUpdated": "2026-05-15T21:34:02.020Z",
+      "lastUpdated": "2026-05-15T21:47:58.854Z",
       "filename": "bd_template_tester-v3.json",
-      "size": 171627,
+      "size": 168303,
       "label": "BD Template Tester",
       "kind": "tool",
       "category": "Admin",
