@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-15T00:54:26.397Z",
+  "lastUpdated": "2026-05-15T01:03:46.587Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -188,9 +188,9 @@
     {
       "id": "trophy_gallery",
       "version": null,
-      "lastUpdated": "2026-05-13T12:18:00.501Z",
+      "lastUpdated": "2026-05-15T01:03:40.960Z",
       "filename": "trophy_gallery-v3.json",
-      "size": 70573,
+      "size": 70828,
       "label": "Trophy Gallery",
       "kind": "tool",
       "category": "Engagement",
@@ -314,9 +314,9 @@
     {
       "id": "eli_stats",
       "version": null,
-      "lastUpdated": "2026-05-14T04:46:34.908Z",
+      "lastUpdated": "2026-05-15T01:03:41.074Z",
       "filename": "eli_stats-v3.json",
-      "size": 33714,
+      "size": 34090,
       "label": "ELI Stats",
       "kind": "tool",
       "category": "System",
@@ -400,9 +400,9 @@
     {
       "id": "admin_library_publisher",
       "version": null,
-      "lastUpdated": "2026-05-13T12:11:05.772Z",
+      "lastUpdated": "2026-05-15T01:03:41.172Z",
       "filename": "admin_library_publisher-v3.json",
-      "size": 38908,
+      "size": 38179,
       "label": "Admin Library Publisher",
       "kind": "tool",
       "category": "Admin",
