@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-15T23:15:09.800Z",
+  "lastUpdated": "2026-05-15T23:24:41.131Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -475,9 +475,9 @@
     {
       "id": "bd_template_tester",
       "version": null,
-      "lastUpdated": "2026-05-15T23:15:09.625Z",
+      "lastUpdated": "2026-05-15T23:24:38.385Z",
       "filename": "bd_template_tester-v3.json",
-      "size": 224364,
+      "size": 224173,
       "label": "BD Template Tester",
       "kind": "tool",
       "category": "Admin",
