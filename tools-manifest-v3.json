@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-16T05:15:34.443Z",
+  "lastUpdated": "2026-05-16T05:20:57.420Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -20,9 +20,9 @@
     {
       "id": "oars_loader",
       "version": null,
-      "lastUpdated": "2026-05-16T05:15:34.204Z",
+      "lastUpdated": "2026-05-16T05:20:57.312Z",
       "filename": "oars_loader-v3.json",
-      "size": 60625,
+      "size": 60794,
       "label": "OARS Data Hub",
       "kind": "tool",
       "category": "Data",
@@ -48,9 +48,9 @@
     {
       "id": "eli-activity",
       "version": null,
-      "lastUpdated": "2026-05-16T05:15:34.289Z",
+      "lastUpdated": "2026-05-16T05:20:57.199Z",
       "filename": "eli-activity-v3.json",
-      "size": 31769,
+      "size": 32033,
       "label": "ELI Activity Feed",
       "kind": "tool",
       "category": "System",
