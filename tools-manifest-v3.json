@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-16T06:35:35.416Z",
+  "lastUpdated": "2026-05-16T06:39:15.636Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -174,9 +174,9 @@
     {
       "id": "review_redlines",
       "version": null,
-      "lastUpdated": "2026-05-15T13:43:08.948Z",
+      "lastUpdated": "2026-05-16T06:39:10.952Z",
       "filename": "review_redlines-v3.json",
-      "size": 771990,
+      "size": 772182,
       "label": "Review Redlines",
       "kind": "tool",
       "category": "Tools - ELI Core",
@@ -415,9 +415,9 @@
     {
       "id": "admin_data_editor",
       "version": null,
-      "lastUpdated": "2026-05-15T01:46:20.243Z",
+      "lastUpdated": "2026-05-16T06:39:10.861Z",
       "filename": "admin_data_editor-v3.json",
-      "size": 27810,
+      "size": 28462,
       "label": "Admin Data Editor",
       "kind": "tool",
       "category": "Admin",
