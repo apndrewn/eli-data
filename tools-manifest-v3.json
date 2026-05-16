@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-16T15:10:23.664Z",
+  "lastUpdated": "2026-05-16T15:14:20.177Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -244,9 +244,9 @@
     {
       "id": "error_review",
       "version": null,
-      "lastUpdated": "2026-05-16T06:55:44.993Z",
+      "lastUpdated": "2026-05-16T15:14:20.083Z",
       "filename": "error_review-v3.json",
-      "size": 115170,
+      "size": 114930,
       "label": "Error Review",
       "kind": "tool",
       "category": "Tools - ELI Core",
@@ -521,7 +521,7 @@
     },
     {
       "id": "__data_prompts",
-      "lastUpdated": "2026-05-16T15:10:23.710Z",
+      "lastUpdated": "2026-05-16T15:14:20.225Z",
       "filename": "prompts.json",
       "size": 48513,
       "label": "AI Prompts",
