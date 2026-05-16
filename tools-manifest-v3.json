@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-16T16:26:57.185Z",
+  "lastUpdated": "2026-05-16T16:33:22.620Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -174,9 +174,9 @@
     {
       "id": "review_redlines",
       "version": null,
-      "lastUpdated": "2026-05-16T06:39:10.952Z",
+      "lastUpdated": "2026-05-16T16:33:22.529Z",
       "filename": "review_redlines-v3.json",
-      "size": 772182,
+      "size": 773755,
       "label": "Review Redlines",
       "kind": "tool",
       "category": "Tools - ELI Core",
