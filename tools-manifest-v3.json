@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-16T14:44:47.796Z",
+  "lastUpdated": "2026-05-16T15:10:23.664Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -342,9 +342,9 @@
     {
       "id": "legal_risks",
       "version": null,
-      "lastUpdated": "2026-05-16T14:44:47.711Z",
+      "lastUpdated": "2026-05-16T15:10:23.578Z",
       "filename": "legal_risks-v3.json",
-      "size": 212721,
+      "size": 213217,
       "label": "Legal Risks",
       "kind": "tool",
       "category": "Tools - ELI Core",
@@ -521,9 +521,9 @@
     },
     {
       "id": "__data_prompts",
-      "lastUpdated": "2026-05-14T03:31:18.077Z",
+      "lastUpdated": "2026-05-16T15:10:23.710Z",
       "filename": "prompts.json",
-      "size": 48347,
+      "size": 48513,
       "label": "AI Prompts",
       "kind": "data",
       "category": "Data",
