@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-16T07:22:03.475Z",
+  "lastUpdated": "2026-05-16T07:53:11.334Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -356,9 +356,9 @@
     {
       "id": "refresh_eli",
       "version": null,
-      "lastUpdated": "2026-05-12T16:02:59.260Z",
+      "lastUpdated": "2026-05-16T07:53:06.183Z",
       "filename": "refresh_eli-v3.json",
-      "size": 19243,
+      "size": 21090,
       "label": "Refresh ELI",
       "kind": "tool",
       "category": "Admin",
