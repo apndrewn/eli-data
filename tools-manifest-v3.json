@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-16T06:55:45.071Z",
+  "lastUpdated": "2026-05-16T07:17:54.451Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -48,9 +48,9 @@
     {
       "id": "eli-activity",
       "version": null,
-      "lastUpdated": "2026-05-16T05:25:09.779Z",
+      "lastUpdated": "2026-05-16T07:17:49.713Z",
       "filename": "eli-activity-v3.json",
-      "size": 35712,
+      "size": 39162,
       "label": "ELI Activity Feed",
       "kind": "tool",
       "category": "System",
@@ -104,9 +104,9 @@
     {
       "id": "final_review",
       "version": null,
-      "lastUpdated": "2026-05-15T05:17:47.673Z",
+      "lastUpdated": "2026-05-16T07:17:49.634Z",
       "filename": "final_review-v3.json",
-      "size": 96911,
+      "size": 96914,
       "label": "Final Review",
       "kind": "tool",
       "category": "Tools - ELI Core",
