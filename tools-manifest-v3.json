@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-16T15:14:20.177Z",
+  "lastUpdated": "2026-05-16T15:17:46.311Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -286,9 +286,9 @@
     {
       "id": "ask_eli",
       "version": null,
-      "lastUpdated": "2026-05-16T04:44:20.829Z",
+      "lastUpdated": "2026-05-16T15:17:46.220Z",
       "filename": "ask_eli-v3.json",
-      "size": 229185,
+      "size": 227439,
       "label": "Ask ELI",
       "kind": "tool",
       "category": "Tools - ELI Core",
@@ -521,9 +521,9 @@
     },
     {
       "id": "__data_prompts",
-      "lastUpdated": "2026-05-16T15:14:20.225Z",
+      "lastUpdated": "2026-05-16T15:17:46.352Z",
       "filename": "prompts.json",
-      "size": 48513,
+      "size": 48519,
       "label": "AI Prompts",
       "kind": "data",
       "category": "Data",

@@ -99,7 +99,7 @@
       },
       {
         "id": "qaCitationRuleAnchored",
-        "text": "\n    CITATION ANCHORS: The DOCUMENT TEXT above is provided as a paragraph-indexed JSON array, each entry shaped {\"id\": \"ELI_QA_N\", \"text\": \"...\"}. For EACH citation in your answer, return BOTH the verbatim text AND the matching id from the JSON. The id will be used to jump precisely to that paragraph in the user's Word document.\n    UPDATED CITATIONS FORMAT: each entry must be {\"id\": \"ELI_QA_42\", \"text\": \"verbatim excerpt for display\"}. The 'id' MUST exactly match an id from the JSON above. If you cannot find a matching id (e.g. paraphrased across paragraphs), still return the text — the frontend will fall back to text-search.\n    ⚠️ DO NOT CONFLATE id WITH INLINE MARKER: The 'id' (like \"ELI_QA_42\" or just the number 42) is METADATA stored INSIDE each citation object. The INLINE marker in 'answer' must be the 1-based array index — [1], [2], [3] in order — NOT the paragraph number from the id. Even if a citation has id \"ELI_QA_438\", the inline marker for it is still [1] if it's the first entry in citations[], [2] if the second, etc.\n    WRONG: answer says \"...required to provide notice [438]...\" because the cited paragraph is ELI_QA_438.\n    RIGHT: answer says \"...required to provide notice [1]...\" because that's the first citation in the citations array (whose id happens to be ELI_QA_438)."
+        "text": "\n    CITATION ANCHORS: The DOCUMENT TEXT above is provided as a paragraph-indexed JSON array, each entry shaped {\"id\": \"ELI_IDX_N\", \"text\": \"...\"}. For EACH citation in your answer, return BOTH the verbatim text AND the matching id from the JSON. The id will be used to jump precisely to that paragraph in the user's Word document.\n    UPDATED CITATIONS FORMAT: each entry must be {\"id\": \"ELI_IDX_42\", \"text\": \"verbatim excerpt for display\"}. The 'id' MUST exactly match an id from the JSON above. If you cannot find a matching id (e.g. paraphrased across paragraphs), still return the text — the frontend will fall back to text-search.\n    ⚠️ DO NOT CONFLATE id WITH INLINE MARKER: The 'id' (like \"ELI_IDX_42\" or just the number 42) is METADATA stored INSIDE each citation object. The INLINE marker in 'answer' must be the 1-based array index — [1], [2], [3] in order — NOT the paragraph number from the id. Even if a citation has id \"ELI_IDX_438\", the inline marker for it is still [1] if it's the first entry in citations[], [2] if the second, etc.\n    WRONG: answer says \"...required to provide notice [438]...\" because the cited paragraph is ELI_IDX_438.\n    RIGHT: answer says \"...required to provide notice [1]...\" because that's the first citation in the citations array (whose id happens to be ELI_IDX_438)."
       },
       {
         "id": "qaMain",
@@ -159,5 +159,5 @@
       }
     ]
   },
-  "releasedAt": "2026-05-16T15:14:20.225Z"
+  "releasedAt": "2026-05-16T15:17:46.352Z"
 }
