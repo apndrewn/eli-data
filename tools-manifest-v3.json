@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-16T21:50:42.505Z",
+  "lastUpdated": "2026-05-16T21:52:13.732Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -346,6 +346,20 @@
       "filename": "legal_risks-v3.json",
       "size": 244036,
       "label": "Legal Risks",
+      "kind": "tool",
+      "category": "Tools - ELI Core",
+      "audience": [
+        "all"
+      ],
+      "changelog": ""
+    },
+    {
+      "id": "usage_risks",
+      "version": null,
+      "lastUpdated": "2026-05-16T21:49:18.460Z",
+      "filename": "usage_risks-v3.json",
+      "size": 61345,
+      "label": "Usage Risks",
       "kind": "tool",
       "category": "Tools - ELI Core",
       "audience": [
