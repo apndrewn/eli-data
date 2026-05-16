@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-16T01:11:55.829Z",
+  "lastUpdated": "2026-05-16T01:46:57.401Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -286,9 +286,9 @@
     {
       "id": "ask_eli",
       "version": null,
-      "lastUpdated": "2026-05-15T04:34:45.520Z",
+      "lastUpdated": "2026-05-16T01:46:53.023Z",
       "filename": "ask_eli-v3.json",
-      "size": 225003,
+      "size": 227641,
       "label": "Ask ELI",
       "kind": "tool",
       "category": "Tools - ELI Core",
@@ -486,6 +486,21 @@
       "audienceEmails": [
         "andrew_nemiroff@colpal.com",
         "jared_lerner@colpal.com"
+      ]
+    },
+    {
+      "id": "eli_agent",
+      "version": null,
+      "lastUpdated": "2026-05-16T01:46:48.188Z",
+      "filename": "eli_agent-v3.json",
+      "size": 29471,
+      "label": "ELI Agent",
+      "kind": "tool",
+      "category": "Admin",
+      "audience": [],
+      "changelog": "",
+      "audienceEmails": [
+        "andrew_nemiroff@colpal.com"
       ]
     },
     {
