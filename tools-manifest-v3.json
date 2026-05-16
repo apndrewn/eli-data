@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-16T21:52:13.732Z",
+  "lastUpdated": "2026-05-16T22:14:22.011Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -356,12 +356,12 @@
     {
       "id": "usage_risks",
       "version": null,
-      "lastUpdated": "2026-05-16T21:49:18.460Z",
+      "lastUpdated": "2026-05-16T22:14:21.942Z",
       "filename": "usage_risks-v3.json",
-      "size": 61345,
+      "size": 61347,
       "label": "Usage Risks",
       "kind": "tool",
-      "category": "Tools - ELI Core",
+      "category": "External Innovation",
       "audience": [
         "all"
       ],
