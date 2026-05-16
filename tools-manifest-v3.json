@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-16T05:32:03.381Z",
+  "lastUpdated": "2026-05-16T05:38:18.092Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -20,9 +20,9 @@
     {
       "id": "oars_loader",
       "version": null,
-      "lastUpdated": "2026-05-16T05:21:56.141Z",
+      "lastUpdated": "2026-05-16T05:38:17.867Z",
       "filename": "oars_loader-v3.json",
-      "size": 61326,
+      "size": 61582,
       "label": "OARS Data Hub",
       "kind": "tool",
       "category": "Data",
@@ -258,9 +258,9 @@
     {
       "id": "build_draft",
       "version": null,
-      "lastUpdated": "2026-05-16T05:32:03.264Z",
+      "lastUpdated": "2026-05-16T05:38:17.976Z",
       "filename": "build_draft-v3.json",
-      "size": 239679,
+      "size": 240350,
       "label": "Build Draft",
       "kind": "tool",
       "category": "Tools - Drafting",
