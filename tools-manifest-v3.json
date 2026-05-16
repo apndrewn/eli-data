@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-16T22:21:29.568Z",
+  "lastUpdated": "2026-05-16T22:31:06.252Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -356,9 +356,9 @@
     {
       "id": "usage_risks",
       "version": null,
-      "lastUpdated": "2026-05-16T22:21:29.487Z",
+      "lastUpdated": "2026-05-16T22:31:06.158Z",
       "filename": "usage_risks-v3.json",
-      "size": 61949,
+      "size": 61912,
       "label": "Usage Risks",
       "kind": "tool",
       "category": "External Innovation",
