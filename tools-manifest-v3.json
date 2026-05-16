@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-16T21:11:13.920Z",
+  "lastUpdated": "2026-05-16T21:16:21.086Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -342,9 +342,9 @@
     {
       "id": "legal_risks",
       "version": null,
-      "lastUpdated": "2026-05-16T21:11:13.828Z",
+      "lastUpdated": "2026-05-16T21:16:20.990Z",
       "filename": "legal_risks-v3.json",
-      "size": 235179,
+      "size": 239422,
       "label": "Legal Risks",
       "kind": "tool",
       "category": "Tools - ELI Core",
