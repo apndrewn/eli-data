@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-16T05:38:18.092Z",
+  "lastUpdated": "2026-05-16T05:46:11.890Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -34,9 +34,9 @@
     {
       "id": "eli_kit",
       "version": null,
-      "lastUpdated": "2026-05-14T00:46:44.235Z",
+      "lastUpdated": "2026-05-16T05:46:11.790Z",
       "filename": "eli_kit-v3.json",
-      "size": 88768,
+      "size": 90745,
       "label": "ELI Kit",
       "kind": "tool",
       "category": "System",
