@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-16T22:31:06.252Z",
+  "lastUpdated": "2026-05-16T22:36:57.697Z",
   "tools": [
     {
       "id": "tool_manager",
       "version": null,
-      "lastUpdated": "2026-05-15T14:05:39.079Z",
+      "lastUpdated": "2026-05-16T22:36:57.611Z",
       "filename": "tool_manager-v3.json",
-      "size": 87038,
+      "size": 87307,
       "label": "Data Hub",
       "kind": "tool",
       "category": "Tools - ELI Core",
@@ -535,9 +535,9 @@
     },
     {
       "id": "__data_prompts",
-      "lastUpdated": "2026-05-16T15:42:09.198Z",
+      "lastUpdated": "2026-05-16T22:36:57.737Z",
       "filename": "prompts.json",
-      "size": 49105,
+      "size": 49389,
       "label": "AI Prompts",
       "kind": "data",
       "category": "Data",
