@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-05-13T12:18:00.413Z",
+  "exportedAt": "2026-05-17T13:54:46.123Z",
   "sectionVersions": {
     "jsonTools": 1
   },
   "sections": {
     "jsonTools": [
       {
-        "releasedAt": "2026-05-13T12:18:00.412Z",
+        "releasedAt": "2026-05-17T13:54:46.122Z",
         "id": "admin_template_studio",
         "label": "Admin Template Studio",
         "defaultEnabled": true,
@@ -19,7 +19,8 @@
         "requires": {
           "host": 1,
           "ai": 1,
-          "storage": 1
+          "storage": 1,
+          "kernel": 2
         },
         "advertises": {
           "tile": {

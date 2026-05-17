@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-05-16T07:53:06.184Z",
+  "exportedAt": "2026-05-17T13:54:46.232Z",
   "sectionVersions": {
     "jsonTools": 1
   },
   "sections": {
     "jsonTools": [
       {
-        "releasedAt": "2026-05-16T07:53:06.183Z",
+        "releasedAt": "2026-05-17T13:54:46.231Z",
         "id": "refresh_eli",
         "label": "Refresh ELI",
         "defaultEnabled": true,
@@ -17,7 +17,8 @@
         ],
         "tier": "demand",
         "requires": {
-          "storage": 1
+          "storage": 1,
+          "kernel": 2
         },
         "advertises": {
           "tile": {

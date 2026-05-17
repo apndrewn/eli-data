@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-05-12T15:52:59.106Z",
+  "exportedAt": "2026-05-17T13:54:46.206Z",
   "sectionVersions": {
     "jsonTools": 1
   },
   "sections": {
     "jsonTools": [
       {
-        "releasedAt": "2026-05-12T15:52:59.104Z",
+        "releasedAt": "2026-05-17T13:54:46.206Z",
         "id": "focus_flow",
         "label": "Focus Flow",
         "defaultEnabled": true,
@@ -17,7 +17,8 @@
         "tier": "demand",
         "requires": {
           "host": 1,
-          "storage": 1
+          "storage": 1,
+          "kernel": 2
         },
         "advertises": {
           "tile": {

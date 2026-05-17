@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-05-13T01:43:16.869Z",
+  "exportedAt": "2026-05-17T13:54:46.168Z",
   "sectionVersions": {
     "jsonTools": 1
   },
   "sections": {
     "jsonTools": [
       {
-        "releasedAt": "2026-05-13T01:43:16.867Z",
+        "releasedAt": "2026-05-17T13:54:46.168Z",
         "id": "eli-admin",
         "label": "ELI Admin Overrides",
         "defaultEnabled": true,
@@ -16,7 +16,8 @@
         ],
         "tier": "preload",
         "requires": {
-          "storage": 1
+          "storage": 1,
+          "kernel": 2
         },
         "advertises": {},
         "catalog": {

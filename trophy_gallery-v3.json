@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-05-16T06:28:29.218Z",
+  "exportedAt": "2026-05-17T13:54:46.269Z",
   "sectionVersions": {
     "jsonTools": 1
   },
   "sections": {
     "jsonTools": [
       {
-        "releasedAt": "2026-05-16T06:28:29.216Z",
+        "releasedAt": "2026-05-17T13:54:46.268Z",
         "id": "trophy_gallery",
         "label": "Trophy Gallery",
         "defaultEnabled": true,
@@ -16,7 +16,8 @@
         ],
         "tier": "preload",
         "requires": {
-          "storage": 1
+          "storage": 1,
+          "kernel": 2
         },
         "advertises": {
           "tile": {

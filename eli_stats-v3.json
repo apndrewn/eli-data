@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-05-17T05:33:06.876Z",
+  "exportedAt": "2026-05-17T13:54:46.187Z",
   "sectionVersions": {
     "jsonTools": 1
   },
   "sections": {
     "jsonTools": [
       {
-        "releasedAt": "2026-05-17T05:33:06.875Z",
+        "releasedAt": "2026-05-17T13:54:46.187Z",
         "id": "eli_stats",
         "label": "ELI Stats",
         "defaultEnabled": true,
@@ -16,7 +16,8 @@
         ],
         "tier": "boot",
         "requires": {
-          "host": 1
+          "host": 1,
+          "kernel": 2
         },
         "catalog": {
           "id": "app_eli_stats",

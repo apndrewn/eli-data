@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-05-13T12:11:05.254Z",
+  "exportedAt": "2026-05-17T13:54:46.117Z",
   "sectionVersions": {
     "jsonTools": 1
   },
   "sections": {
     "jsonTools": [
       {
-        "releasedAt": "2026-05-13T12:11:05.253Z",
+        "releasedAt": "2026-05-17T13:54:46.116Z",
         "id": "admin_storage_inspector",
         "label": "Admin Storage Inspector",
         "defaultEnabled": true,
@@ -17,7 +17,8 @@
         ],
         "tier": "demand",
         "requires": {
-          "storage": 1
+          "storage": 1,
+          "kernel": 2
         },
         "advertises": {
           "tile": {

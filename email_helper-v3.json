@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-05-13T04:06:40.582Z",
+  "exportedAt": "2026-05-17T13:54:46.191Z",
   "sectionVersions": {
     "jsonTools": 1
   },
   "sections": {
     "jsonTools": [
       {
-        "releasedAt": "2026-05-13T04:06:40.581Z",
+        "releasedAt": "2026-05-17T13:54:46.191Z",
         "id": "email_helper",
         "label": "Email Helper",
         "defaultEnabled": false,
@@ -18,7 +18,8 @@
         "requires": {
           "host": 1,
           "ai": 1,
-          "storage": 1
+          "storage": 1,
+          "kernel": 2
         },
         "advertises": {
           "tile": {

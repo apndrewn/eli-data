@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-05-17T13:42:42.773Z",
+  "exportedAt": "2026-05-17T13:54:46.247Z",
   "sectionVersions": {
     "jsonTools": 1
   },
   "sections": {
     "jsonTools": [
       {
-        "releasedAt": "2026-05-17T13:42:42.771Z",
+        "releasedAt": "2026-05-17T13:54:46.246Z",
         "id": "review_redlines",
         "label": "Review Redlines",
         "defaultEnabled": true,
@@ -18,7 +18,8 @@
         "requires": {
           "host": 2,
           "ai": 1,
-          "storage": 1
+          "storage": 1,
+          "kernel": 2
         },
         "dependsOn": [
           "redline_authors",

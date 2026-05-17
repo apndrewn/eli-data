@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-05-16T05:38:17.868Z",
+  "exportedAt": "2026-05-17T13:54:46.221Z",
   "sectionVersions": {
     "jsonTools": 1
   },
   "sections": {
     "jsonTools": [
       {
-        "releasedAt": "2026-05-16T05:38:17.867Z",
+        "releasedAt": "2026-05-17T13:54:46.221Z",
         "id": "oars_loader",
         "label": "OARS Data Hub",
         "defaultEnabled": true,
@@ -17,7 +17,8 @@
         "tier": "boot",
         "requires": {
           "host": 1,
-          "storage": 1
+          "storage": 1,
+          "kernel": 2
         },
         "advertises": {
           "tile": {

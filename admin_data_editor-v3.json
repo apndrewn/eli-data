@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-05-16T06:39:10.863Z",
+  "exportedAt": "2026-05-17T13:54:46.110Z",
   "sectionVersions": {
     "jsonTools": 1
   },
   "sections": {
     "jsonTools": [
       {
-        "releasedAt": "2026-05-16T06:39:10.861Z",
+        "releasedAt": "2026-05-17T13:54:46.109Z",
         "id": "admin_data_editor",
         "label": "Admin Data Editor",
         "defaultEnabled": true,
@@ -18,7 +18,8 @@
         "tier": "demand",
         "requires": {
           "host": 1,
-          "storage": 1
+          "storage": 1,
+          "kernel": 2
         },
         "advertises": {
           "tile": {

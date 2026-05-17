@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-05-17T05:40:12.026Z",
+  "exportedAt": "2026-05-17T13:54:46.209Z",
   "sectionVersions": {
     "jsonTools": 1
   },
   "sections": {
     "jsonTools": [
       {
-        "releasedAt": "2026-05-17T05:40:12.024Z",
+        "releasedAt": "2026-05-17T13:54:46.209Z",
         "id": "legal_review",
         "label": "Legal Review",
         "defaultEnabled": true,
@@ -17,7 +17,8 @@
         "tier": "preload",
         "requires": {
           "host": 1,
-          "storage": 1
+          "storage": 1,
+          "kernel": 2
         },
         "advertises": {
           "tile": {

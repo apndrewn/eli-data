@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-05-16T04:44:20.930Z",
+  "exportedAt": "2026-05-17T13:54:46.175Z",
   "sectionVersions": {
     "jsonTools": 1
   },
   "sections": {
     "jsonTools": [
       {
-        "releasedAt": "2026-05-16T04:44:20.929Z",
+        "releasedAt": "2026-05-17T13:54:46.175Z",
         "id": "eli_agent",
         "label": "ELI Agent",
         "defaultEnabled": true,
@@ -19,7 +19,8 @@
         "requires": {
           "host": 2,
           "ai": 1,
-          "storage": 1
+          "storage": 1,
+          "kernel": 2
         },
         "advertises": {
           "tile": {

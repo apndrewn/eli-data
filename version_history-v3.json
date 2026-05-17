@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-05-12T16:43:04.407Z",
+  "exportedAt": "2026-05-17T13:54:46.275Z",
   "sectionVersions": {
     "jsonTools": 1
   },
   "sections": {
     "jsonTools": [
       {
-        "releasedAt": "2026-05-12T16:43:04.406Z",
+        "releasedAt": "2026-05-17T13:54:46.275Z",
         "id": "version_history",
         "label": "Version History",
         "defaultEnabled": true,
@@ -16,7 +16,8 @@
         ],
         "tier": "boot",
         "requires": {
-          "host": 1
+          "host": 1,
+          "kernel": 2
         },
         "advertises": {
           "tile": {

@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-05-16T07:17:49.635Z",
+  "exportedAt": "2026-05-17T13:54:46.203Z",
   "sectionVersions": {
     "jsonTools": 1
   },
   "sections": {
     "jsonTools": [
       {
-        "releasedAt": "2026-05-16T07:17:49.634Z",
+        "releasedAt": "2026-05-17T13:54:46.203Z",
         "id": "final_review",
         "label": "Final Review",
         "defaultEnabled": true,
@@ -18,7 +18,8 @@
         "requires": {
           "host": 1,
           "ai": 1,
-          "storage": 1
+          "storage": 1,
+          "kernel": 2
         },
         "advertises": {
           "tile": {

@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-05-16T07:17:49.714Z",
+  "exportedAt": "2026-05-17T13:54:46.167Z",
   "sectionVersions": {
     "jsonTools": 1
   },
   "sections": {
     "jsonTools": [
       {
-        "releasedAt": "2026-05-16T07:17:49.713Z",
+        "releasedAt": "2026-05-17T13:54:46.166Z",
         "id": "eli-activity",
         "label": "ELI Activity Feed",
         "defaultEnabled": true,
@@ -16,7 +16,8 @@
         ],
         "tier": "boot",
         "requires": {
-          "storage": 1
+          "storage": 1,
+          "kernel": 2
         },
         "advertises": {},
         "catalog": {

@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-05-14T01:18:57.411Z",
+  "exportedAt": "2026-05-17T13:54:46.260Z",
   "sectionVersions": {
     "jsonTools": 1
   },
   "sections": {
     "jsonTools": [
       {
-        "releasedAt": "2026-05-14T01:18:57.410Z",
+        "releasedAt": "2026-05-17T13:54:46.259Z",
         "id": "tool_author_studio",
         "label": "Tool Author Studio",
         "defaultEnabled": true,
@@ -17,7 +17,8 @@
         ],
         "tier": "boot",
         "requires": {
-          "storage": 1
+          "storage": 1,
+          "kernel": 2
         },
         "advertises": {
           "tile": {

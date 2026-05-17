@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-05-12T23:34:20.161Z",
+  "exportedAt": "2026-05-17T13:54:46.170Z",
   "sectionVersions": {
     "jsonTools": 1
   },
   "sections": {
     "jsonTools": [
       {
-        "releasedAt": "2026-05-12T23:34:20.160Z",
+        "releasedAt": "2026-05-17T13:54:46.170Z",
         "id": "eli-wrongness",
         "label": "ELI Wrongness Suite",
         "defaultEnabled": true,
@@ -16,7 +16,8 @@
         ],
         "tier": "demand",
         "requires": {
-          "storage": 1
+          "storage": 1,
+          "kernel": 2
         },
         "advertises": {},
         "catalog": {

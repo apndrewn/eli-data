@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-05-17T13:42:38.544Z",
+  "exportedAt": "2026-05-17T13:54:46.130Z",
   "sectionVersions": {
     "jsonTools": 1
   },
   "sections": {
     "jsonTools": [
       {
-        "releasedAt": "2026-05-17T13:42:38.541Z",
+        "releasedAt": "2026-05-17T13:54:46.130Z",
         "id": "ask_eli",
         "label": "Ask ELI",
         "defaultEnabled": true,
@@ -18,7 +18,8 @@
         "requires": {
           "host": 1,
           "ai": 1,
-          "storage": 1
+          "storage": 1,
+          "kernel": 2
         },
         "dependsOn": [
           "redline_authors"

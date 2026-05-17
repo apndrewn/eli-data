@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-05-16T14:10:50.498Z",
+  "exportedAt": "2026-05-17T13:54:46.140Z",
   "sectionVersions": {
     "jsonTools": 1
   },
   "sections": {
     "jsonTools": [
       {
-        "releasedAt": "2026-05-16T14:10:50.495Z",
+        "releasedAt": "2026-05-17T13:54:46.140Z",
         "id": "bd_template_tester",
         "label": "BD Template Tester",
         "defaultEnabled": true,
@@ -19,7 +19,8 @@
         "tier": "preload",
         "requires": {
           "host": 2,
-          "storage": 1
+          "storage": 1,
+          "kernel": 2
         },
         "advertises": {
           "tile": {

@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-05-17T05:11:25.187Z",
+  "exportedAt": "2026-05-17T13:54:46.183Z",
   "sectionVersions": {
     "jsonTools": 1
   },
   "sections": {
     "jsonTools": [
       {
-        "releasedAt": "2026-05-17T05:11:25.185Z",
+        "releasedAt": "2026-05-17T13:54:46.183Z",
         "id": "eli_settings",
         "label": "Settings",
         "audience": [
@@ -17,7 +17,8 @@
         "requires": {
           "host": 1,
           "ai": 1,
-          "storage": 1
+          "storage": 1,
+          "kernel": 2
         },
         "advertises": {},
         "catalog": {

@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-05-15T00:04:07.481Z",
+  "exportedAt": "2026-05-17T13:54:46.229Z",
   "sectionVersions": {
     "jsonTools": 1
   },
   "sections": {
     "jsonTools": [
       {
-        "releasedAt": "2026-05-15T00:04:07.480Z",
+        "releasedAt": "2026-05-17T13:54:46.229Z",
         "id": "redline_email_pack",
         "label": "Redline Emails",
         "defaultEnabled": false,
@@ -17,7 +17,8 @@
         "requires": {
           "host": 1,
           "ai": 1,
-          "storage": 1
+          "storage": 1,
+          "kernel": 2
         },
         "catalog": {
           "id": "app_redline_email_pack",

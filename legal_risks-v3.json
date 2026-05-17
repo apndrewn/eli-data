@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-05-17T06:36:27.460Z",
+  "exportedAt": "2026-05-17T13:54:46.215Z",
   "sectionVersions": {
     "jsonTools": 1
   },
   "sections": {
     "jsonTools": [
       {
-        "releasedAt": "2026-05-17T06:36:27.459Z",
+        "releasedAt": "2026-05-17T13:54:46.214Z",
         "id": "legal_risks",
         "label": "Legal Risks",
         "defaultEnabled": true,
@@ -18,7 +18,8 @@
         "requires": {
           "host": 1,
           "ai": 1,
-          "storage": 1
+          "storage": 1,
+          "kernel": 2
         },
         "advertises": {
           "tile": {

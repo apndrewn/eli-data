@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-05-17T05:22:47.940Z",
+  "exportedAt": "2026-05-17T13:54:46.127Z",
   "sectionVersions": {
     "jsonTools": 1
   },
   "sections": {
     "jsonTools": [
       {
-        "releasedAt": "2026-05-17T05:22:47.939Z",
+        "releasedAt": "2026-05-17T13:54:46.126Z",
         "id": "admin_usage_viewer",
         "label": "Admin Usage Viewer",
         "defaultEnabled": true,
@@ -17,7 +17,8 @@
         ],
         "tier": "demand",
         "requires": {
-          "storage": 1
+          "storage": 1,
+          "kernel": 2
         },
         "advertises": {
           "tile": {
