@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-16T23:06:16.663Z",
+  "lastUpdated": "2026-05-17T04:59:48.375Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -230,9 +230,9 @@
     {
       "id": "eli_settings",
       "version": null,
-      "lastUpdated": "2026-05-16T06:23:37.382Z",
+      "lastUpdated": "2026-05-17T04:58:13.971Z",
       "filename": "eli_settings-v3.json",
-      "size": 77094,
+      "size": 80900,
       "label": "Settings",
       "kind": "tool",
       "category": "System",
@@ -509,6 +509,35 @@
       "filename": "eli_agent-v3.json",
       "size": 198561,
       "label": "ELI Agent",
+      "kind": "tool",
+      "category": "Admin",
+      "audience": [],
+      "changelog": "",
+      "audienceEmails": [
+        "andrew_nemiroff@colpal.com"
+      ]
+    },
+    {
+      "id": "eli_telemetry",
+      "version": null,
+      "lastUpdated": "2026-05-17T04:58:59.637Z",
+      "filename": "eli_telemetry-v3.json",
+      "size": 19095,
+      "label": "Usage Telemetry",
+      "kind": "tool",
+      "category": "System",
+      "audience": [
+        "all"
+      ],
+      "changelog": ""
+    },
+    {
+      "id": "admin_usage_viewer",
+      "version": null,
+      "lastUpdated": "2026-05-17T04:58:10.264Z",
+      "filename": "admin_usage_viewer-v3.json",
+      "size": 29102,
+      "label": "Admin Usage Viewer",
       "kind": "tool",
       "category": "Admin",
       "audience": [],
