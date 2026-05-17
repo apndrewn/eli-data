@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-17T16:47:01.444Z",
+  "lastUpdated": "2026-05-17T16:51:12.505Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -20,12 +20,12 @@
     {
       "id": "oars_loader",
       "version": null,
-      "lastUpdated": "2026-05-17T16:47:01.444Z",
+      "lastUpdated": "2026-05-17T13:54:46.221Z",
       "filename": "oars_loader-v3.json",
-      "size": 60873,
+      "size": 61605,
       "label": "OARS Data Hub",
       "kind": "tool",
-      "category": "External Innovation",
+      "category": "Data",
       "audience": [
         "all"
       ],
@@ -104,12 +104,12 @@
     {
       "id": "final_review",
       "version": null,
-      "lastUpdated": "2026-05-17T13:54:46.203Z",
+      "lastUpdated": "2026-05-17T16:50:40.269Z",
       "filename": "final_review-v3.json",
-      "size": 96937,
+      "size": 96940,
       "label": "Final Review",
       "kind": "tool",
-      "category": "Tools - ELI Core",
+      "category": "External Innovation",
       "audience": [
         "all"
       ],
@@ -174,12 +174,12 @@
     {
       "id": "review_redlines",
       "version": null,
-      "lastUpdated": "2026-05-17T16:33:45.749Z",
+      "lastUpdated": "2026-05-17T16:50:40.104Z",
       "filename": "review_redlines-v3.json",
-      "size": 799774,
+      "size": 799777,
       "label": "Review Redlines",
       "kind": "tool",
-      "category": "Tools - ELI Core",
+      "category": "External Innovation",
       "audience": [
         "all"
       ],
@@ -202,12 +202,12 @@
     {
       "id": "compare",
       "version": null,
-      "lastUpdated": "2026-05-17T13:54:46.157Z",
+      "lastUpdated": "2026-05-17T16:50:39.954Z",
       "filename": "compare-v3.json",
-      "size": 149037,
+      "size": 149040,
       "label": "Compare to Template",
       "kind": "tool",
-      "category": "Tools - ELI Core",
+      "category": "External Innovation",
       "audience": [
         "all"
       ],
@@ -258,12 +258,12 @@
     {
       "id": "build_draft",
       "version": null,
-      "lastUpdated": "2026-05-17T13:54:46.147Z",
+      "lastUpdated": "2026-05-17T16:50:40.670Z",
       "filename": "build_draft-v3.json",
-      "size": 240373,
+      "size": 240376,
       "label": "Build Draft",
       "kind": "tool",
-      "category": "Tools - Drafting",
+      "category": "External Innovation",
       "audience": [
         "all"
       ],
@@ -272,12 +272,12 @@
     {
       "id": "auto_emailer",
       "version": null,
-      "lastUpdated": "2026-05-17T13:54:46.136Z",
+      "lastUpdated": "2026-05-17T16:50:40.403Z",
       "filename": "auto_emailer-v3.json",
-      "size": 76216,
+      "size": 76219,
       "label": "Auto Emailer",
       "kind": "tool",
-      "category": "Tools - ELI Core",
+      "category": "External Innovation",
       "audience": [
         "all"
       ],
@@ -328,12 +328,12 @@
     {
       "id": "legal_review",
       "version": null,
-      "lastUpdated": "2026-05-17T13:54:46.209Z",
+      "lastUpdated": "2026-05-17T16:50:40.537Z",
       "filename": "legal_review-v3.json",
-      "size": 75631,
+      "size": 75634,
       "label": "Legal Review",
       "kind": "tool",
-      "category": "Tools - ELI Core",
+      "category": "External Innovation",
       "audience": [
         "all"
       ],
@@ -399,9 +399,9 @@
     {
       "id": "tool_author_studio",
       "version": null,
-      "lastUpdated": "2026-05-17T15:53:00.488Z",
+      "lastUpdated": "2026-05-17T16:50:40.804Z",
       "filename": "tool_author_studio-v3.json",
-      "size": 92459,
+      "size": 94058,
       "label": "Tool Author Studio",
       "kind": "tool",
       "category": "Admin",

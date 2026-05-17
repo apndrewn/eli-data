@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-05-17T13:54:46.136Z",
+  "exportedAt": "2026-05-17T16:50:40.405Z",
   "sectionVersions": {
     "jsonTools": 1
   },
   "sections": {
     "jsonTools": [
       {
-        "releasedAt": "2026-05-17T13:54:46.136Z",
+        "releasedAt": "2026-05-17T16:50:40.403Z",
         "id": "auto_emailer",
         "label": "Auto Emailer",
         "defaultEnabled": true,
@@ -38,7 +38,7 @@
           "title": "AUTO EMAILER",
           "desc": "Compose Gmail draft to TP or requester from saved templates.",
           "hoverTip": "Open Gmail draft from this document",
-          "category": "Tools - ELI Core",
+          "category": "External Innovation",
           "core": false,
           "default": true,
           "order": 2,

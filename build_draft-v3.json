@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-05-17T13:54:46.149Z",
+  "exportedAt": "2026-05-17T16:50:40.673Z",
   "sectionVersions": {
     "jsonTools": 1
   },
   "sections": {
     "jsonTools": [
       {
-        "releasedAt": "2026-05-17T13:54:46.147Z",
+        "releasedAt": "2026-05-17T16:50:40.670Z",
         "id": "build_draft",
         "label": "Build Draft",
         "defaultEnabled": true,
@@ -35,7 +35,7 @@
           "title": "BUILD DRAFT",
           "desc": "OARS-aware draft assembly + AI fill.",
           "hoverTip": "Build a draft from OARS data + templates",
-          "category": "Tools - Drafting",
+          "category": "External Innovation",
           "core": false,
           "default": true,
           "order": 1,

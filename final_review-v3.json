@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-05-17T13:54:46.203Z",
+  "exportedAt": "2026-05-17T16:50:40.271Z",
   "sectionVersions": {
     "jsonTools": 1
   },
   "sections": {
     "jsonTools": [
       {
-        "releasedAt": "2026-05-17T13:54:46.203Z",
+        "releasedAt": "2026-05-17T16:50:40.269Z",
         "id": "final_review",
         "label": "Final Review",
         "defaultEnabled": true,
@@ -44,7 +44,7 @@
           "title": "FINAL REVIEW",
           "desc": "Summarizes the agreement's key terms for the requester to approve before execution.",
           "hoverTip": "Generate an executive summary for sign-off",
-          "category": "Tools - ELI Core",
+          "category": "External Innovation",
           "core": true,
           "default": true,
           "order": 3,

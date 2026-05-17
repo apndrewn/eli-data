@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-05-17T16:33:45.750Z",
+  "exportedAt": "2026-05-17T16:50:40.106Z",
   "sectionVersions": {
     "jsonTools": 1
   },
   "sections": {
     "jsonTools": [
       {
-        "releasedAt": "2026-05-17T16:33:45.749Z",
+        "releasedAt": "2026-05-17T16:50:40.104Z",
         "id": "review_redlines",
         "label": "Review Redlines",
         "defaultEnabled": true,
@@ -45,7 +45,7 @@
           "title": "REVIEW REDLINES",
           "desc": "Track-Port workbench — captures every tracked change in the doc, groups by clause, runs AI legal review per row.",
           "hoverTip": "Audit & decide on every redline",
-          "category": "Tools - ELI Core",
+          "category": "External Innovation",
           "core": false,
           "default": false,
           "order": 25,

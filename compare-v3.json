@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-05-17T13:54:46.157Z",
+  "exportedAt": "2026-05-17T16:50:39.955Z",
   "sectionVersions": {
     "jsonTools": 1
   },
   "sections": {
     "jsonTools": [
       {
-        "releasedAt": "2026-05-17T13:54:46.157Z",
+        "releasedAt": "2026-05-17T16:50:39.954Z",
         "id": "compare",
         "label": "Compare to Template",
         "defaultEnabled": true,
@@ -41,7 +41,7 @@
           "title": "COMPARE DOC",
           "desc": "Compare a draft against a stored template — surfaces deviations as a redline-style report.",
           "hoverTip": "Compare draft vs template",
-          "category": "Tools - ELI Core",
+          "category": "External Innovation",
           "core": false,
           "default": false,
           "order": 30,

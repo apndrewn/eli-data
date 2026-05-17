@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-05-17T13:54:46.209Z",
+  "exportedAt": "2026-05-17T16:50:40.538Z",
   "sectionVersions": {
     "jsonTools": 1
   },
   "sections": {
     "jsonTools": [
       {
-        "releasedAt": "2026-05-17T13:54:46.209Z",
+        "releasedAt": "2026-05-17T16:50:40.537Z",
         "id": "legal_review",
         "label": "Legal Review",
         "defaultEnabled": true,
@@ -37,7 +37,7 @@
           "title": "LEGAL REVIEW",
           "desc": "Configure + launch the high-fidelity review engine.",
           "hoverTip": "Triage agreement type + scan path",
-          "category": "Tools - ELI Core",
+          "category": "External Innovation",
           "core": true,
           "default": true,
           "order": 1,
