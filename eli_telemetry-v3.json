@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-05-17T13:54:46.189Z",
+  "exportedAt": "2026-05-17T14:58:57.543Z",
   "sectionVersions": {
     "jsonTools": 1
   },
   "sections": {
     "jsonTools": [
       {
-        "releasedAt": "2026-05-17T13:54:46.189Z",
+        "releasedAt": "2026-05-17T14:58:57.528Z",
         "id": "eli_telemetry",
         "label": "Usage Telemetry",
         "defaultEnabled": true,
         "audience": [
           "all"
         ],
-        "tier": "preload",
+        "tier": "boot",
         "requires": {
           "host": 1,
           "storage": 1,
