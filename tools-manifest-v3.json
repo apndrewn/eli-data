@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-17T13:40:34.972Z",
+  "lastUpdated": "2026-05-17T13:42:46.675Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -174,9 +174,9 @@
     {
       "id": "review_redlines",
       "version": null,
-      "lastUpdated": "2026-05-16T22:55:18.332Z",
+      "lastUpdated": "2026-05-17T13:42:42.771Z",
       "filename": "review_redlines-v3.json",
-      "size": 799288,
+      "size": 799672,
       "label": "Review Redlines",
       "kind": "tool",
       "category": "Tools - ELI Core",
@@ -286,9 +286,9 @@
     {
       "id": "ask_eli",
       "version": null,
-      "lastUpdated": "2026-05-17T13:40:34.810Z",
+      "lastUpdated": "2026-05-17T13:42:38.541Z",
       "filename": "ask_eli-v3.json",
-      "size": 260955,
+      "size": 263480,
       "label": "Ask ELI",
       "kind": "tool",
       "category": "Tools - ELI Core",
