@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-05-17T13:56:13.068Z",
+  "lastUpdated": "2026-05-17T13:58:16.718Z",
   "tools": [
     {
       "id": "__data_catalog",
@@ -244,6 +244,7 @@
         "redline_email_pack",
         "legal_review",
         "legal_risks",
+        "usage_risks",
         "refresh_eli",
         "redline_authors",
         "__data_catalog",
