@@ -316,21 +316,21 @@
       },
       {
         "id": "t121",
-        "icon": "🔎",
-        "title": "Clause Matcher",
-        "desc": "Use the Match feature in the Clause Library 10 times.",
-        "metric": "clauseMatches",
+        "icon": "🎯",
+        "title": "Template Tactician",
+        "desc": "Use Build Draft 10 times.",
+        "metric": "appOpenedDraft",
         "target": 10,
-        "check": "return (s.clauseMatches || 0) >= 10;"
+        "check": "return (s.appOpenedDraft || 0) >= 10;"
       },
       {
         "id": "t123",
-        "icon": "🎯",
-        "title": "Precision Counsel",
-        "desc": "Use the Match feature in the Clause Library 100 times.",
-        "metric": "clauseMatches",
+        "icon": "🎼",
+        "title": "Drafting Maestro",
+        "desc": "Use Build Draft 100 times.",
+        "metric": "appOpenedDraft",
         "target": 100,
-        "check": "return (s.clauseMatches || 0) >= 100;"
+        "check": "return (s.appOpenedDraft || 0) >= 100;"
       },
       {
         "id": "t124",
@@ -397,12 +397,12 @@
       },
       {
         "id": "t135",
-        "icon": "🗂️",
-        "title": "The Librarian's Apprentice",
-        "desc": "Curate and save your first 2000 specialized clauses into the Clause Library.",
-        "target": 2000,
-        "check": "return (s.vaultClauses || 0) >= 2000;",
-        "metric": "vaultClauses"
+        "icon": "📚",
+        "title": "The Records Keeper",
+        "desc": "Analyze 1,000 individual tracked changes using the Review Redline tool.",
+        "metric": "trackChangesAnalyzed",
+        "target": 1000,
+        "check": "return (s.trackChangesAnalyzed || 0) >= 1000;"
       },
       {
         "id": "t136",
@@ -814,12 +814,12 @@
       },
       {
         "id": "t182",
-        "icon": "📚",
-        "title": "The Clause Curator",
-        "desc": "Save 50 custom clauses to the Clause Library.",
-        "metric": "vaultClauses",
+        "icon": "✒️",
+        "title": "Curator of Standards",
+        "desc": "Run Final Review 50 times.",
+        "metric": "appOpenedFinalReview",
         "target": 50,
-        "check": "return (s.vaultClauses || 0) >= 50;"
+        "check": "return (s.appOpenedFinalReview || 0) >= 50;"
       },
       {
         "id": "t183",
@@ -896,5 +896,5 @@
     ]
   },
   "_note": "Trophies extracted from inline ELI_TROPHIES const in taskpane_v2.js (Step 17 offload, 2026-05-01). Each trophy's `check` is the JS function body as a string; the loader compiles it via new Function('s','e', body) on import. Import via Settings -> Data Hub -> Import Master JSON OR per-section Import on the Trophies row. After import, evaluateTrophies and the trophy gallery read from IDB instead of the (now deleted) inline const.",
-  "releasedAt": "2026-05-12T18:15:02.421Z"
+  "releasedAt": "2026-05-17T16:44:30.925Z"
 }
