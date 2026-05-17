@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-17T17:01:52.859Z",
+  "lastUpdated": "2026-05-17T17:07:01.244Z",
   "tools": [
     {
       "id": "tool_manager",
       "version": null,
-      "lastUpdated": "2026-05-17T17:01:52.859Z",
+      "lastUpdated": "2026-05-17T14:56:13.216Z",
       "filename": "tool_manager-v3.json",
-      "size": 90021,
+      "size": 89958,
       "label": "Data Hub",
       "kind": "tool",
-      "category": "System",
+      "category": "Tools - ELI Core",
       "audience": [
         "all"
       ],
@@ -174,9 +174,9 @@
     {
       "id": "review_redlines",
       "version": null,
-      "lastUpdated": "2026-05-17T17:00:42.487Z",
+      "lastUpdated": "2026-05-17T17:06:53.243Z",
       "filename": "review_redlines-v3.json",
-      "size": 802639,
+      "size": 804405,
       "label": "Review Redlines",
       "kind": "tool",
       "category": "External Innovation",
