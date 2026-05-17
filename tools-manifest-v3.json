@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-17T13:58:16.718Z",
+  "lastUpdated": "2026-05-17T14:01:33.493Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -836,10 +836,31 @@
         "eli-activity",
         "eli_stats",
         "redline_authors",
+        "eli-admin",
+        "eli-wrongness",
+        "eli_telemetry",
         "__data_catalog",
         "__data_prompts",
         "__data_loading_msgs",
         "__data_trophies"
+      ]
+    },
+    {
+      "id": "admin",
+      "label": "Admin Tools",
+      "icon": "🛠",
+      "description": "Admin-only tools — library publishing, data editing, storage inspection, team guidance, template studio, usage analytics, multi-agent orchestration scaffold",
+      "audience": [
+        "all"
+      ],
+      "members": [
+        "admin_data_editor",
+        "admin_library_publisher",
+        "admin_storage_inspector",
+        "admin_team_guidance",
+        "admin_template_studio",
+        "admin_usage_viewer",
+        "eli_agent"
       ]
     }
   ]
