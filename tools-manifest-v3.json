@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-17T18:16:06.012Z",
+  "lastUpdated": "2026-05-17T18:26:28.051Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -174,9 +174,9 @@
     {
       "id": "review_redlines",
       "version": null,
-      "lastUpdated": "2026-05-17T18:16:05.419Z",
+      "lastUpdated": "2026-05-17T18:26:27.423Z",
       "filename": "review_redlines-v3.json",
-      "size": 823350,
+      "size": 822245,
       "label": "Review Redlines",
       "kind": "tool",
       "category": "External Innovation",
@@ -328,9 +328,9 @@
     {
       "id": "legal_review",
       "version": null,
-      "lastUpdated": "2026-05-17T16:50:40.537Z",
+      "lastUpdated": "2026-05-17T18:26:27.535Z",
       "filename": "legal_review-v3.json",
-      "size": 75634,
+      "size": 78568,
       "label": "Legal Review",
       "kind": "tool",
       "category": "External Innovation",
