@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-05-17T13:54:46.215Z",
+  "exportedAt": "2026-05-17T14:46:42.785Z",
   "sectionVersions": {
     "jsonTools": 1
   },
   "sections": {
     "jsonTools": [
       {
-        "releasedAt": "2026-05-17T13:54:46.214Z",
+        "releasedAt": "2026-05-17T14:46:42.783Z",
         "id": "legal_risks",
         "label": "Legal Risks",
         "defaultEnabled": true,
@@ -38,7 +38,7 @@
           "title": "LEGAL RISKS",
           "desc": "AI scan for risks + operational watchouts against your custom rules.",
           "hoverTip": "Run the high-fidelity risk scanner",
-          "category": "Tools - ELI Core",
+          "category": "External Innovation",
           "core": false,
           "default": false,
           "order": 10,
