@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-05-17T04:58:10.265Z",
+  "exportedAt": "2026-05-17T05:22:47.940Z",
   "sectionVersions": {
     "jsonTools": 1
   },
   "sections": {
     "jsonTools": [
       {
-        "releasedAt": "2026-05-17T04:58:10.264Z",
+        "releasedAt": "2026-05-17T05:22:47.939Z",
         "id": "admin_usage_viewer",
         "label": "Admin Usage Viewer",
         "defaultEnabled": true,
@@ -48,7 +48,7 @@
             "dashboard"
           ],
           "experimental": false,
-          "hidden": true,
+          "hidden": false,
           "action": "if (window.eli && window.eli.dispatch) window.eli.dispatch('tile', 'app_admin_usage_viewer'); else if (typeof showToast === 'function') showToast('Usage Viewer not loaded.', 'error');"
         },
         "engine": {
