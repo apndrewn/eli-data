@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-17T16:21:57.845Z",
+  "lastUpdated": "2026-05-17T16:34:02.964Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -174,7 +174,7 @@
     {
       "id": "review_redlines",
       "version": null,
-      "lastUpdated": "2026-05-17T13:56:12.953Z",
+      "lastUpdated": "2026-05-17T16:33:45.749Z",
       "filename": "review_redlines-v3.json",
       "size": 799774,
       "label": "Review Redlines",
@@ -220,20 +220,6 @@
       "filename": "redline_email_pack-v3.json",
       "size": 32632,
       "label": "Redline Emails",
-      "kind": "tool",
-      "category": "Tools - ELI Core",
-      "audience": [
-        "all"
-      ],
-      "changelog": ""
-    },
-    {
-      "id": "risk_rules_manager",
-      "version": null,
-      "lastUpdated": "2026-05-17T13:54:46.257Z",
-      "filename": "risk_rules_manager-v3.json",
-      "size": 38815,
-      "label": "Legal Risks",
       "kind": "tool",
       "category": "Tools - ELI Core",
       "audience": [
