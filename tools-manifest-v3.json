@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-17T14:01:33.493Z",
+  "lastUpdated": "2026-05-17T14:10:48.478Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -860,7 +860,9 @@
         "admin_team_guidance",
         "admin_template_studio",
         "admin_usage_viewer",
-        "eli_agent"
+        "eli_agent",
+        "tool_author_studio",
+        "bd_template_tester"
       ]
     }
   ]
