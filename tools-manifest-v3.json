@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-17T14:13:19.961Z",
+  "lastUpdated": "2026-05-17T14:16:47.231Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -34,9 +34,9 @@
     {
       "id": "eli_kit",
       "version": null,
-      "lastUpdated": "2026-05-17T13:54:46.179Z",
+      "lastUpdated": "2026-05-17T14:16:46.900Z",
       "filename": "eli_kit-v3.json",
-      "size": 100523,
+      "size": 102894,
       "label": "ELI Kit",
       "kind": "tool",
       "category": "System",
@@ -90,12 +90,12 @@
     {
       "id": "docuscrub",
       "version": null,
-      "lastUpdated": "2026-05-17T13:54:46.162Z",
+      "lastUpdated": "2026-05-17T14:16:46.999Z",
       "filename": "docuscrub-v3.json",
-      "size": 60811,
+      "size": 60814,
       "label": "DocuScrub",
       "kind": "tool",
-      "category": "Tools - ELI Core",
+      "category": "External Innovation",
       "audience": [
         "all"
       ],
