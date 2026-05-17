@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-17T15:59:44.035Z",
+  "lastUpdated": "2026-05-17T16:04:44.129Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -741,9 +741,9 @@
     },
     {
       "id": "__data_templates",
-      "lastUpdated": "2026-05-12T02:58:32.956Z",
+      "lastUpdated": "2026-05-17T16:04:44.307Z",
       "filename": "templates.enc.json",
-      "size": 626786,
+      "size": 626790,
       "label": "Document Templates",
       "kind": "data",
       "category": "Data",
