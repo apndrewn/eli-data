@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "releasedAt": "2026-05-18T04:18:50.939Z",
+  "releasedAt": "2026-05-18T04:24:06.127Z",
   "sectionVersions": {
     "jsonTools": 1
   },
   "sections": {
     "jsonTools": [
       {
-        "releasedAt": "2026-05-18T04:18:50.939Z",
+        "releasedAt": "2026-05-18T04:24:06.127Z",
         "id": "eli_settings",
         "label": "Settings",
         "audience": [
@@ -31,7 +31,7 @@
           "core": false,
           "default": false,
           "order": 999,
-          "hidden": false,
+          "hidden": true,
           "statKey": null,
           "requiresApiKey": false,
           "tags": [
@@ -52,7 +52,9 @@
         "disabled": false,
         "defaultEnabled": true,
         "audienceEmails": [],
-        "audienceEmailDomains": []
+        "audienceEmailDomains": [],
+        "installedAt": 1779078220360,
+        "kernelVersion": "v3-phase10m-tier-prepop-r5-revert"
       }
     ]
   }
