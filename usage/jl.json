@@ -1,0 +1,16 @@
+{
+  "userName": "JL",
+  "userKey": "jl",
+  "generatedAt": "2026-05-18T12:53:04.957Z",
+  "days": [
+    {
+      "date": "2026-05-18",
+      "toolsUsed": {},
+      "sessions": 1,
+      "firstActiveAt": 1779108779909,
+      "lastActiveAt": 1779108779909,
+      "tokens": {},
+      "estCostUSD": 0
+    }
+  ]
+}
