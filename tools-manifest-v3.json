@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-18T04:14:51.415Z",
+  "lastUpdated": "2026-05-18T04:16:12.721Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -230,9 +230,9 @@
     {
       "id": "eli_settings",
       "version": null,
-      "lastUpdated": "2026-05-18T04:09:28.580Z",
+      "lastUpdated": "2026-05-18T04:16:04.469Z",
       "filename": "eli_settings-v3.json",
-      "size": 92589,
+      "size": 93147,
       "label": "Settings",
       "kind": "tool",
       "category": "System",
@@ -444,9 +444,9 @@
     {
       "id": "admin_template_studio",
       "version": null,
-      "lastUpdated": "2026-05-18T04:14:51.415Z",
+      "lastUpdated": "2026-05-17T13:54:46.122Z",
       "filename": "admin_template_studio-v3.json",
-      "size": 84813,
+      "size": 85978,
       "label": "Admin Template Studio",
       "kind": "tool",
       "category": "Admin",
@@ -520,9 +520,9 @@
     {
       "id": "eli_telemetry",
       "version": null,
-      "lastUpdated": "2026-05-18T04:09:28.445Z",
+      "lastUpdated": "2026-05-18T04:16:04.358Z",
       "filename": "eli_telemetry-v3.json",
-      "size": 27881,
+      "size": 28651,
       "label": "Usage Telemetry",
       "kind": "tool",
       "category": "System",
@@ -693,9 +693,9 @@
     },
     {
       "id": "__data_playbooks",
-      "lastUpdated": "2026-05-18T04:13:21.873Z",
+      "lastUpdated": "2026-05-18T04:16:12.921Z",
       "filename": "playbooks.enc.json",
-      "size": 2018946,
+      "size": 2018874,
       "label": "Negotiation Playbooks",
       "kind": "data",
       "category": "Data",
@@ -705,7 +705,7 @@
       "sections": [
         "playbooks"
       ],
-      "changelog": "12 rows · pushed 2026-05-18T04:13:21Z",
+      "changelog": "",
       "encrypted": true
     },
     {
@@ -744,9 +744,9 @@
     },
     {
       "id": "__data_requesters_enc",
-      "lastUpdated": "2026-05-18T04:13:23.626Z",
+      "lastUpdated": "2026-05-18T04:16:12.939Z",
       "filename": "requesters.enc.json",
-      "size": 39470,
+      "size": 39398,
       "label": "Requesters Directory",
       "kind": "data",
       "category": "Data",
@@ -756,7 +756,7 @@
       "sections": [
         "requesters"
       ],
-      "changelog": "383 rows · pushed 2026-05-18T04:13:23Z",
+      "changelog": "",
       "encrypted": true
     }
   ],
