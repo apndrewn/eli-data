@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-18T04:24:06.127Z",
+  "lastUpdated": "2026-05-18T04:28:04.930Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -230,9 +230,9 @@
     {
       "id": "eli_settings",
       "version": null,
-      "lastUpdated": "2026-05-18T04:24:06.127Z",
+      "lastUpdated": "2026-05-18T04:16:04.469Z",
       "filename": "eli_settings-v3.json",
-      "size": 91911,
+      "size": 93147,
       "label": "Settings",
       "kind": "tool",
       "category": "System",
@@ -520,9 +520,9 @@
     {
       "id": "eli_telemetry",
       "version": null,
-      "lastUpdated": "2026-05-18T04:16:04.358Z",
+      "lastUpdated": "2026-05-18T04:27:57.892Z",
       "filename": "eli_telemetry-v3.json",
-      "size": 28651,
+      "size": 29719,
       "label": "Usage Telemetry",
       "kind": "tool",
       "category": "System",
