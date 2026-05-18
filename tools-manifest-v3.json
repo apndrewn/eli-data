@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-18T04:44:45.997Z",
+  "lastUpdated": "2026-05-18T04:47:37.959Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -534,9 +534,9 @@
     {
       "id": "admin_usage_viewer",
       "version": null,
-      "lastUpdated": "2026-05-17T13:54:46.126Z",
+      "lastUpdated": "2026-05-18T04:47:37.831Z",
       "filename": "admin_usage_viewer-v3.json",
-      "size": 29126,
+      "size": 31339,
       "label": "Admin Usage Viewer",
       "kind": "tool",
       "category": "Admin",
