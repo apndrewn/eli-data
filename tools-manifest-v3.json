@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-18T05:14:06.916Z",
+  "lastUpdated": "2026-05-18T05:16:01.227Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -188,9 +188,9 @@
     {
       "id": "trophy_gallery",
       "version": null,
-      "lastUpdated": "2026-05-18T05:14:06.916Z",
+      "lastUpdated": "2026-05-17T13:54:46.268Z",
       "filename": "trophy_gallery-v3.json",
-      "size": 77883,
+      "size": 78296,
       "label": "Trophy Gallery",
       "kind": "tool",
       "category": "Engagement",
@@ -414,9 +414,9 @@
     {
       "id": "admin_library_publisher",
       "version": null,
-      "lastUpdated": "2026-05-18T04:02:57.813Z",
+      "lastUpdated": "2026-05-18T05:15:50.450Z",
       "filename": "admin_library_publisher-v3.json",
-      "size": 40894,
+      "size": 51700,
       "label": "Admin Library Publisher",
       "kind": "tool",
       "category": "Admin",
