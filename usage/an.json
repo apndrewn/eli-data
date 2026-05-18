@@ -1,32 +1,32 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-05-18T06:39:24.813Z",
+  "generatedAt": "2026-05-18T06:49:06.695Z",
   "days": [
     {
       "date": "2026-05-18",
       "toolsUsed": {
-        "error": 1,
-        "legal_review": 2,
-        "risk": 1,
-        "review_redlines": 1,
-        "admin_telemetry_inspector": 7,
-        "admin_usage_viewer": 3,
+        "error": 3,
+        "legal_review": 10,
+        "risk": 3,
+        "review_redlines": 3,
+        "admin_telemetry_inspector": 11,
+        "admin_usage_viewer": 6,
         "auto_emailer": 1,
-        "usage_risks": 3,
-        "final_review": 1
+        "final_review": 1,
+        "storage_inspector": 4
       },
-      "sessions": 0,
+      "sessions": 5,
       "firstActiveAt": 1779078527026,
-      "lastActiveAt": 1779086349466,
+      "lastActiveAt": 1779086928472,
       "tokens": {
         "gemini-3.1-flash-lite-preview": {
-          "promptTokens": 66920,
-          "candidatesTokens": 4255,
-          "calls": 9
+          "promptTokens": 116952,
+          "candidatesTokens": 8957,
+          "calls": 23
         }
       },
-      "estCostUSD": 0.003528
+      "estCostUSD": 0.006469
     }
   ]
 }
