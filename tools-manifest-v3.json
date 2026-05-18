@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-18T04:06:05.521Z",
+  "lastUpdated": "2026-05-18T04:09:28.705Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -230,9 +230,9 @@
     {
       "id": "eli_settings",
       "version": null,
-      "lastUpdated": "2026-05-18T03:56:22.391Z",
+      "lastUpdated": "2026-05-18T04:09:28.580Z",
       "filename": "eli_settings-v3.json",
-      "size": 92121,
+      "size": 92589,
       "label": "Settings",
       "kind": "tool",
       "category": "System",
@@ -520,9 +520,9 @@
     {
       "id": "eli_telemetry",
       "version": null,
-      "lastUpdated": "2026-05-18T03:56:22.302Z",
+      "lastUpdated": "2026-05-18T04:09:28.445Z",
       "filename": "eli_telemetry-v3.json",
-      "size": 27053,
+      "size": 27881,
       "label": "Usage Telemetry",
       "kind": "tool",
       "category": "System",
@@ -758,17 +758,6 @@
       ],
       "changelog": "383 rows · pushed 2026-05-18T04:06:05Z",
       "encrypted": true
-    },
-    {
-      "id": "__data_playbooks_proprietary",
-      "label": "Playbooks",
-      "filename": "playbooks.enc.json",
-      "audience": [
-        "all"
-      ],
-      "size": 2018946,
-      "lastUpdated": "2026-05-18T04:04:47.884Z",
-      "changelog": "12 rows · pushed 2026-05-18T04:04:47Z"
     }
   ],
   "bundles": [
