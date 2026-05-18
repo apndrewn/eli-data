@@ -1,0 +1,16 @@
+{
+  "userName": "KC",
+  "userKey": "kc",
+  "generatedAt": "2026-05-18T14:32:34.598Z",
+  "days": [
+    {
+      "date": "2026-05-18",
+      "toolsUsed": {},
+      "sessions": 1,
+      "firstActiveAt": 1779114749594,
+      "lastActiveAt": 1779114749594,
+      "tokens": {},
+      "estCostUSD": 0
+    }
+  ]
+}
