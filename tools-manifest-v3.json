@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-18T06:25:12.905Z",
+  "lastUpdated": "2026-05-18T06:29:14.311Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -342,9 +342,9 @@
     {
       "id": "legal_risks",
       "version": null,
-      "lastUpdated": "2026-05-18T06:01:31.952Z",
+      "lastUpdated": "2026-05-18T06:29:10.903Z",
       "filename": "legal_risks-v3.json",
-      "size": 246729,
+      "size": 248222,
       "label": "Legal Risks",
       "kind": "tool",
       "category": "External Innovation",
@@ -549,9 +549,9 @@
     {
       "id": "admin_telemetry_inspector",
       "version": null,
-      "lastUpdated": "2026-05-18T06:23:48.361Z",
+      "lastUpdated": "2026-05-18T06:29:10.993Z",
       "filename": "admin_telemetry_inspector-v3.json",
-      "size": 17335,
+      "size": 18725,
       "label": "Telemetry Inspector",
       "kind": "tool",
       "category": "Admin",
