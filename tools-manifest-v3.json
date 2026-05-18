@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-18T06:56:18.512Z",
+  "lastUpdated": "2026-05-18T06:59:52.220Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -328,9 +328,9 @@
     {
       "id": "legal_review",
       "version": null,
-      "lastUpdated": "2026-05-17T22:19:53.360Z",
+      "lastUpdated": "2026-05-18T06:59:52.043Z",
       "filename": "legal_review-v3.json",
-      "size": 81738,
+      "size": 83006,
       "label": "Legal Review",
       "kind": "tool",
       "category": "External Innovation",
@@ -520,9 +520,9 @@
     {
       "id": "eli_telemetry",
       "version": null,
-      "lastUpdated": "2026-05-18T06:56:18.401Z",
+      "lastUpdated": "2026-05-18T06:59:52.133Z",
       "filename": "eli_telemetry-v3.json",
-      "size": 42662,
+      "size": 42717,
       "label": "Usage Telemetry",
       "kind": "tool",
       "category": "System",
