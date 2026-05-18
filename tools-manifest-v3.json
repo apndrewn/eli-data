@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-18T12:09:50.256Z",
+  "lastUpdated": "2026-05-18T15:25:58.598Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -725,9 +725,9 @@
     },
     {
       "id": "__data_risk_rules",
-      "lastUpdated": "2026-05-18T05:49:37.419Z",
+      "lastUpdated": "2026-05-18T15:25:58.598Z",
       "filename": "riskRules.enc.json",
-      "size": 2282,
+      "size": 2354,
       "label": "Risk Rules Library",
       "kind": "data",
       "category": "Data",
@@ -737,7 +737,7 @@
       "sections": [
         "riskRules"
       ],
-      "changelog": "",
+      "changelog": "1 rows · pushed 2026-05-18T15:25:58Z",
       "encrypted": true
     },
     {
