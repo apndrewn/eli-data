@@ -1,7 +1,7 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-05-18T06:11:45.172Z",
+  "generatedAt": "2026-05-18T06:32:45.790Z",
   "days": [
     {
       "date": "2026-05-18",
@@ -14,11 +14,12 @@
         "usage_risks": 32,
         "risk": 12,
         "review_redlines": 4,
-        "storage_inspector": 1
+        "storage_inspector": 1,
+        "admin_telemetry_inspector": 1
       },
       "sessions": 0,
       "firstActiveAt": 1779078527026,
-      "lastActiveAt": 1779084697750,
+      "lastActiveAt": 1779085945110,
       "tokens": {
         "gemini-3.1-flash-lite-preview": {
           "promptTokens": 139911,
