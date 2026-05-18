@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-18T03:19:13.309Z",
+  "lastUpdated": "2026-05-18T03:23:37.031Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -202,9 +202,9 @@
     {
       "id": "compare",
       "version": null,
-      "lastUpdated": "2026-05-18T03:19:13.219Z",
+      "lastUpdated": "2026-05-18T03:23:36.949Z",
       "filename": "compare-v3.json",
-      "size": 163994,
+      "size": 164522,
       "label": "Compare to Template",
       "kind": "tool",
       "category": "External Innovation",
