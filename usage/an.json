@@ -1,6 +1,19 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-05-18T04:24:54.551Z",
-  "days": []
+  "generatedAt": "2026-05-18T04:39:52.406Z",
+  "days": [
+    {
+      "date": "2026-05-18",
+      "toolsUsed": {
+        "trophy_gallery": 9,
+        "admin_usage_viewer": 1
+      },
+      "sessions": 0,
+      "firstActiveAt": 1779078527026,
+      "lastActiveAt": 1779079175574,
+      "tokens": {},
+      "estCostUSD": 0
+    }
+  ]
 }
