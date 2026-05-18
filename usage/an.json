@@ -1,27 +1,30 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-05-18T04:40:48.052Z",
+  "generatedAt": "2026-05-18T05:25:37.613Z",
   "days": [
     {
       "date": "2026-05-18",
       "toolsUsed": {
-        "admin_usage_viewer": 3,
-        "error": 1,
-        "legal_review": 1,
-        "risk": 1
+        "admin_usage_viewer": 13,
+        "error": 2,
+        "legal_review": 2,
+        "risk": 11,
+        "trophy_gallery": 9,
+        "admin_data_editor": 1,
+        "admin_library_publisher": 5
       },
       "sessions": 0,
       "firstActiveAt": 1779078527026,
-      "lastActiveAt": 1779079236930,
+      "lastActiveAt": 1779081929511,
       "tokens": {
         "gemini-3.1-flash-lite-preview": {
-          "promptTokens": 12094,
-          "candidatesTokens": 1572,
-          "calls": 2
+          "promptTokens": 24188,
+          "candidatesTokens": 3144,
+          "calls": 4
         }
       },
-      "estCostUSD": 0.000798
+      "estCostUSD": 0.001596
     }
   ]
 }
