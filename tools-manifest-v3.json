@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-18T04:38:50.016Z",
+  "lastUpdated": "2026-05-18T04:44:45.997Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -520,9 +520,9 @@
     {
       "id": "eli_telemetry",
       "version": null,
-      "lastUpdated": "2026-05-18T04:38:49.925Z",
+      "lastUpdated": "2026-05-18T04:44:44.018Z",
       "filename": "eli_telemetry-v3.json",
-      "size": 36711,
+      "size": 37183,
       "label": "Usage Telemetry",
       "kind": "tool",
       "category": "System",
