@@ -1,28 +1,41 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-05-18T12:36:47.540Z",
+  "generatedAt": "2026-05-18T15:45:17.361Z",
   "days": [
     {
       "date": "2026-05-18",
       "toolsUsed": {
         "error": 3,
         "legal_review": 10,
-        "review_redlines": 3,
+        "review_redlines": 18,
         "auto_emailer": 1,
-        "final_review": 1
+        "final_review": 1,
+        "draft": 6,
+        "eli_agent": 1,
+        "ask_eli": 4,
+        "docuscrub": 1,
+        "eli5": 1,
+        "email_helper": 1,
+        "focus_flow": 1,
+        "draft_templates": 2,
+        "admin_library_publisher": 6,
+        "agent_apply_instruction": 1,
+        "agent_draft_agreement": 1,
+        "bd_template_tester": 1,
+        "agent_address_comments": 1
       },
-      "sessions": 5,
+      "sessions": 29,
       "firstActiveAt": 1779078527026,
-      "lastActiveAt": 1779107802891,
+      "lastActiveAt": 1779118906066,
       "tokens": {
         "gemini-3.1-flash-lite-preview": {
-          "promptTokens": 116952,
-          "candidatesTokens": 8957,
-          "calls": 23
+          "promptTokens": 342447,
+          "candidatesTokens": 17317,
+          "calls": 74
         }
       },
-      "estCostUSD": 0.006469
+      "estCostUSD": 0.017161
     }
   ]
 }
