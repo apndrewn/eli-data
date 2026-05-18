@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-18T04:03:05.838Z",
+  "lastUpdated": "2026-05-18T04:04:47.884Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -758,6 +758,17 @@
       ],
       "changelog": "",
       "encrypted": true
+    },
+    {
+      "id": "__data_playbooks_proprietary",
+      "label": "Playbooks",
+      "filename": "playbooks.enc.json",
+      "audience": [
+        "all"
+      ],
+      "size": 2018946,
+      "lastUpdated": "2026-05-18T04:04:47.884Z",
+      "changelog": "12 rows · pushed 2026-05-18T04:04:47Z"
     }
   ],
   "bundles": [
