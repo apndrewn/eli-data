@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-18T05:45:50.640Z",
+  "lastUpdated": "2026-05-18T05:49:26.752Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -314,9 +314,9 @@
     {
       "id": "eli_stats",
       "version": null,
-      "lastUpdated": "2026-05-17T13:54:46.187Z",
+      "lastUpdated": "2026-05-18T05:49:26.646Z",
       "filename": "eli_stats-v3.json",
-      "size": 42959,
+      "size": 44347,
       "label": "ELI Stats",
       "kind": "tool",
       "category": "System",
@@ -676,9 +676,9 @@
     },
     {
       "id": "__data_bd_templates",
-      "lastUpdated": "2026-05-18T05:45:50.640Z",
+      "lastUpdated": "2026-05-18T05:49:26.887Z",
       "filename": "bd_templates.enc.json",
-      "size": 20821138,
+      "size": 20821066,
       "label": "Build Draft Templates",
       "kind": "data",
       "category": "Data",
@@ -688,14 +688,14 @@
       "sections": [
         "bdTemplates"
       ],
-      "changelog": " · restored 2026-05-18T05:45:50Z",
+      "changelog": "",
       "encrypted": true
     },
     {
       "id": "__data_playbooks",
-      "lastUpdated": "2026-05-18T05:45:50.640Z",
+      "lastUpdated": "2026-05-18T05:49:26.983Z",
       "filename": "playbooks.enc.json",
-      "size": 2018946,
+      "size": 2018874,
       "label": "Negotiation Playbooks",
       "kind": "data",
       "category": "Data",
@@ -705,14 +705,14 @@
       "sections": [
         "playbooks"
       ],
-      "changelog": " · restored 2026-05-18T05:45:50Z",
+      "changelog": "",
       "encrypted": true
     },
     {
       "id": "__data_risk_rules",
-      "lastUpdated": "2026-05-18T05:45:50.640Z",
+      "lastUpdated": "2026-05-18T05:49:26.994Z",
       "filename": "riskRules.enc.json",
-      "size": 2342,
+      "size": 2282,
       "label": "Risk Rules Library",
       "kind": "data",
       "category": "Data",
@@ -722,14 +722,14 @@
       "sections": [
         "riskRules"
       ],
-      "changelog": " · restored 2026-05-18T05:45:50Z",
+      "changelog": "",
       "encrypted": true
     },
     {
       "id": "__data_templates",
-      "lastUpdated": "2026-05-18T05:45:50.640Z",
+      "lastUpdated": "2026-05-18T05:49:26.996Z",
       "filename": "templates.enc.json",
-      "size": 626846,
+      "size": 626790,
       "label": "Document Templates",
       "kind": "data",
       "category": "Data",
@@ -739,14 +739,14 @@
       "sections": [
         "templates"
       ],
-      "changelog": " · restored 2026-05-18T05:45:50Z",
+      "changelog": "",
       "encrypted": true
     },
     {
       "id": "__data_requesters_enc",
-      "lastUpdated": "2026-05-18T05:45:50.640Z",
+      "lastUpdated": "2026-05-18T05:49:26.999Z",
       "filename": "requesters.enc.json",
-      "size": 39470,
+      "size": 39398,
       "label": "Requesters Directory",
       "kind": "data",
       "category": "Data",
@@ -756,7 +756,7 @@
       "sections": [
         "requesters"
       ],
-      "changelog": " · restored 2026-05-18T05:45:50Z",
+      "changelog": "",
       "encrypted": true
     }
   ],
