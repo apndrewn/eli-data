@@ -1,7 +1,7 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-05-18T15:45:17.361Z",
+  "generatedAt": "2026-05-18T23:33:46.407Z",
   "days": [
     {
       "date": "2026-05-18",
@@ -23,11 +23,12 @@
         "agent_apply_instruction": 1,
         "agent_draft_agreement": 1,
         "bd_template_tester": 1,
-        "agent_address_comments": 1
+        "agent_address_comments": 1,
+        "playbook_manager": 1
       },
       "sessions": 29,
       "firstActiveAt": 1779078527026,
-      "lastActiveAt": 1779118906066,
+      "lastActiveAt": 1779147221594,
       "tokens": {
         "gemini-3.1-flash-lite-preview": {
           "promptTokens": 342447,
