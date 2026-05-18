@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-18T11:52:39.217Z",
+  "lastUpdated": "2026-05-18T11:56:13.566Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -118,9 +118,9 @@
     {
       "id": "playbook_manager",
       "version": null,
-      "lastUpdated": "2026-05-18T04:00:24.521Z",
+      "lastUpdated": "2026-05-18T11:56:13.482Z",
       "filename": "playbook_manager-v3.json",
-      "size": 67950,
+      "size": 68187,
       "label": "Playbook Manager",
       "kind": "tool",
       "category": "Admin",
