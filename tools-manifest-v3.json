@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-18T15:47:45.831Z",
+  "lastUpdated": "2026-05-18T23:30:26.421Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -174,9 +174,9 @@
     {
       "id": "review_redlines",
       "version": null,
-      "lastUpdated": "2026-05-18T11:52:32.196Z",
+      "lastUpdated": "2026-05-18T23:30:11.759Z",
       "filename": "review_redlines-v3.json",
-      "size": 935331,
+      "size": 936775,
       "label": "Review Redlines",
       "kind": "tool",
       "category": "External Innovation",
@@ -314,9 +314,9 @@
     {
       "id": "eli_stats",
       "version": null,
-      "lastUpdated": "2026-05-18T06:43:31.385Z",
+      "lastUpdated": "2026-05-18T23:30:11.496Z",
       "filename": "eli_stats-v3.json",
-      "size": 45637,
+      "size": 45958,
       "label": "ELI Stats",
       "kind": "tool",
       "category": "System",
@@ -342,9 +342,9 @@
     {
       "id": "legal_risks",
       "version": null,
-      "lastUpdated": "2026-05-18T12:09:50.177Z",
+      "lastUpdated": "2026-05-18T23:30:11.626Z",
       "filename": "legal_risks-v3.json",
-      "size": 249898,
+      "size": 253779,
       "label": "Legal Risks",
       "kind": "tool",
       "category": "External Innovation",
@@ -489,9 +489,9 @@
     {
       "id": "bd_template_tester",
       "version": null,
-      "lastUpdated": "2026-05-18T04:00:24.706Z",
+      "lastUpdated": "2026-05-18T23:30:11.873Z",
       "filename": "bd_template_tester-v3.json",
-      "size": 247703,
+      "size": 249373,
       "label": "BD Template Tester",
       "kind": "tool",
       "category": "Admin",
@@ -694,7 +694,7 @@
       "id": "__data_bd_templates",
       "lastUpdated": "2026-05-18T15:36:25.536Z",
       "filename": "bd_templates.enc.json",
-      "size": 28567566,
+      "size": 20821066,
       "label": "Build Draft Templates",
       "kind": "data",
       "category": "Data",
@@ -704,7 +704,7 @@
       "sections": [
         "bdTemplates"
       ],
-      "changelog": "7 rows · pushed 2026-05-18T15:36:25Z",
+      "changelog": "",
       "encrypted": true
     },
     {
@@ -728,7 +728,7 @@
       "id": "__data_risk_rules",
       "lastUpdated": "2026-05-18T15:25:58.598Z",
       "filename": "riskRules.enc.json",
-      "size": 2354,
+      "size": 2282,
       "label": "Risk Rules Library",
       "kind": "data",
       "category": "Data",
@@ -738,7 +738,7 @@
       "sections": [
         "riskRules"
       ],
-      "changelog": "1 rows · pushed 2026-05-18T15:25:58Z",
+      "changelog": "",
       "encrypted": true
     },
     {
