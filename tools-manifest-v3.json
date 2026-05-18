@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-18T06:01:43.157Z",
+  "lastUpdated": "2026-05-18T06:03:52.086Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -174,9 +174,9 @@
     {
       "id": "review_redlines",
       "version": null,
-      "lastUpdated": "2026-05-18T03:31:52.907Z",
+      "lastUpdated": "2026-05-18T06:03:51.979Z",
       "filename": "review_redlines-v3.json",
-      "size": 932924,
+      "size": 932896,
       "label": "Review Redlines",
       "kind": "tool",
       "category": "External Innovation",
