@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-18T05:43:58.088Z",
+  "lastUpdated": "2026-05-18T05:45:50.640Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -676,9 +676,9 @@
     },
     {
       "id": "__data_bd_templates",
-      "lastUpdated": "2026-05-18T05:43:58.190Z",
+      "lastUpdated": "2026-05-18T05:45:50.640Z",
       "filename": "bd_templates.enc.json",
-      "size": 20821066,
+      "size": 20821138,
       "label": "Build Draft Templates",
       "kind": "data",
       "category": "Data",
@@ -688,14 +688,14 @@
       "sections": [
         "bdTemplates"
       ],
-      "changelog": "",
+      "changelog": " · restored 2026-05-18T05:45:50Z",
       "encrypted": true
     },
     {
       "id": "__data_playbooks",
-      "lastUpdated": "2026-05-18T04:16:12.921Z",
+      "lastUpdated": "2026-05-18T05:45:50.640Z",
       "filename": "playbooks.enc.json",
-      "size": 2018874,
+      "size": 2018946,
       "label": "Negotiation Playbooks",
       "kind": "data",
       "category": "Data",
@@ -705,14 +705,14 @@
       "sections": [
         "playbooks"
       ],
-      "changelog": "",
+      "changelog": " · restored 2026-05-18T05:45:50Z",
       "encrypted": true
     },
     {
       "id": "__data_risk_rules",
-      "lastUpdated": "2026-05-12T02:58:32.954Z",
+      "lastUpdated": "2026-05-18T05:45:50.640Z",
       "filename": "riskRules.enc.json",
-      "size": 2282,
+      "size": 2342,
       "label": "Risk Rules Library",
       "kind": "data",
       "category": "Data",
@@ -722,14 +722,14 @@
       "sections": [
         "riskRules"
       ],
-      "changelog": "",
+      "changelog": " · restored 2026-05-18T05:45:50Z",
       "encrypted": true
     },
     {
       "id": "__data_templates",
-      "lastUpdated": "2026-05-17T16:04:44.307Z",
+      "lastUpdated": "2026-05-18T05:45:50.640Z",
       "filename": "templates.enc.json",
-      "size": 626790,
+      "size": 626846,
       "label": "Document Templates",
       "kind": "data",
       "category": "Data",
@@ -739,14 +739,14 @@
       "sections": [
         "templates"
       ],
-      "changelog": "",
+      "changelog": " · restored 2026-05-18T05:45:50Z",
       "encrypted": true
     },
     {
       "id": "__data_requesters_enc",
-      "lastUpdated": "2026-05-18T04:16:12.939Z",
+      "lastUpdated": "2026-05-18T05:45:50.640Z",
       "filename": "requesters.enc.json",
-      "size": 39398,
+      "size": 39470,
       "label": "Requesters Directory",
       "kind": "data",
       "category": "Data",
@@ -756,7 +756,7 @@
       "sections": [
         "requesters"
       ],
-      "changelog": "",
+      "changelog": " · restored 2026-05-18T05:45:50Z",
       "encrypted": true
     }
   ],
