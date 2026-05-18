@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-18T05:26:11.610Z",
+  "lastUpdated": "2026-05-18T05:26:21.879Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -676,7 +676,7 @@
     },
     {
       "id": "__data_bd_templates",
-      "lastUpdated": "2026-05-18T05:26:11.732Z",
+      "lastUpdated": "2026-05-18T05:26:21.977Z",
       "filename": "bd_templates.enc.json",
       "size": 20821066,
       "label": "Build Draft Templates",
