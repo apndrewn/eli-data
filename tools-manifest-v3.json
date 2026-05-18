@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-18T05:38:25.837Z",
+  "lastUpdated": "2026-05-18T05:43:58.088Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -342,9 +342,9 @@
     {
       "id": "legal_risks",
       "version": null,
-      "lastUpdated": "2026-05-18T00:24:44.124Z",
+      "lastUpdated": "2026-05-18T05:43:57.998Z",
       "filename": "legal_risks-v3.json",
-      "size": 246147,
+      "size": 246757,
       "label": "Legal Risks",
       "kind": "tool",
       "category": "External Innovation",
@@ -676,9 +676,9 @@
     },
     {
       "id": "__data_bd_templates",
-      "lastUpdated": "2026-05-18T05:23:16.827Z",
+      "lastUpdated": "2026-05-18T05:43:58.190Z",
       "filename": "bd_templates.enc.json",
-      "size": 20821138,
+      "size": 20821066,
       "label": "Build Draft Templates",
       "kind": "data",
       "category": "Data",
@@ -688,7 +688,7 @@
       "sections": [
         "bdTemplates"
       ],
-      "changelog": "6 rows · pushed 2026-05-18T05:23:16Z",
+      "changelog": "",
       "encrypted": true
     },
     {
