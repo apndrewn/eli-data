@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-18T03:56:44.357Z",
+  "lastUpdated": "2026-05-18T04:00:24.798Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -118,9 +118,9 @@
     {
       "id": "playbook_manager",
       "version": null,
-      "lastUpdated": "2026-05-17T13:54:46.224Z",
+      "lastUpdated": "2026-05-18T04:00:24.521Z",
       "filename": "playbook_manager-v3.json",
-      "size": 67765,
+      "size": 67950,
       "label": "Playbook Manager",
       "kind": "tool",
       "category": "Admin",
@@ -489,9 +489,9 @@
     {
       "id": "bd_template_tester",
       "version": null,
-      "lastUpdated": "2026-05-17T13:54:46.140Z",
+      "lastUpdated": "2026-05-18T04:00:24.706Z",
       "filename": "bd_template_tester-v3.json",
-      "size": 247530,
+      "size": 247703,
       "label": "BD Template Tester",
       "kind": "tool",
       "category": "Admin",
@@ -505,9 +505,9 @@
     {
       "id": "eli_agent",
       "version": null,
-      "lastUpdated": "2026-05-17T13:54:46.175Z",
+      "lastUpdated": "2026-05-18T04:00:24.615Z",
       "filename": "eli_agent-v3.json",
-      "size": 198584,
+      "size": 199317,
       "label": "ELI Agent",
       "kind": "tool",
       "category": "Admin",
