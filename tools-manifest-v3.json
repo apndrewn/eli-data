@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-18T05:23:16.827Z",
+  "lastUpdated": "2026-05-18T05:26:11.610Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -414,9 +414,9 @@
     {
       "id": "admin_library_publisher",
       "version": null,
-      "lastUpdated": "2026-05-18T05:22:28.621Z",
+      "lastUpdated": "2026-05-18T05:26:11.510Z",
       "filename": "admin_library_publisher-v3.json",
-      "size": 53810,
+      "size": 57177,
       "label": "Admin Library Publisher",
       "kind": "tool",
       "category": "Admin",
@@ -676,9 +676,9 @@
     },
     {
       "id": "__data_bd_templates",
-      "lastUpdated": "2026-05-18T05:23:16.827Z",
+      "lastUpdated": "2026-05-18T05:26:11.732Z",
       "filename": "bd_templates.enc.json",
-      "size": 20821138,
+      "size": 20821066,
       "label": "Build Draft Templates",
       "kind": "data",
       "category": "Data",
@@ -688,7 +688,7 @@
       "sections": [
         "bdTemplates"
       ],
-      "changelog": "6 rows · pushed 2026-05-18T05:23:16Z",
+      "changelog": "",
       "encrypted": true
     },
     {
