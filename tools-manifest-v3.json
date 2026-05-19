@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-19T12:25:27.795Z",
+  "lastUpdated": "2026-05-19T12:30:06.351Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -342,9 +342,9 @@
     {
       "id": "legal_risks",
       "version": null,
-      "lastUpdated": "2026-05-19T12:24:16.333Z",
+      "lastUpdated": "2026-05-19T12:30:05.837Z",
       "filename": "legal_risks-v3.json",
-      "size": 254184,
+      "size": 254539,
       "label": "Legal Risks",
       "kind": "tool",
       "category": "External Innovation",
@@ -399,9 +399,9 @@
     {
       "id": "tool_author_studio",
       "version": null,
-      "lastUpdated": "2026-05-17T16:55:52.230Z",
+      "lastUpdated": "2026-05-19T12:30:05.755Z",
       "filename": "tool_author_studio-v3.json",
-      "size": 97053,
+      "size": 104384,
       "label": "Tool Author Studio",
       "kind": "tool",
       "category": "Admin",
