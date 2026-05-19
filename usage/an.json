@@ -1,7 +1,26 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-05-18T23:50:00.000Z",
-  "days": [],
-  "note": "Cleared 2026-05-18 to neutralize MAX-merge bringing back stale review_redlines counts. Next local push writes fresh from clean state."
+  "generatedAt": "2026-05-19T01:47:14.657Z",
+  "days": [
+    {
+      "date": "2026-05-18",
+      "toolsUsed": {
+        "legal_review": 15,
+        "review_redlines": 5,
+        "risk": 1
+      },
+      "sessions": 8,
+      "firstActiveAt": 1779153164146,
+      "lastActiveAt": 1779155103081,
+      "tokens": {
+        "gemini-3.1-flash-lite-preview": {
+          "promptTokens": 370101,
+          "candidatesTokens": 17454,
+          "calls": 152
+        }
+      },
+      "estCostUSD": 0.018295
+    }
+  ]
 }
