@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-19T00:07:27.871Z",
+  "lastUpdated": "2026-05-19T00:14:20.687Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -48,9 +48,9 @@
     {
       "id": "eli-activity",
       "version": null,
-      "lastUpdated": "2026-05-17T13:54:46.166Z",
+      "lastUpdated": "2026-05-19T00:14:19.740Z",
       "filename": "eli-activity-v3.json",
-      "size": 39185,
+      "size": 39898,
       "label": "ELI Activity Feed",
       "kind": "tool",
       "category": "System",
@@ -244,9 +244,9 @@
     {
       "id": "error_review",
       "version": null,
-      "lastUpdated": "2026-05-18T11:52:33.314Z",
+      "lastUpdated": "2026-05-19T00:14:19.840Z",
       "filename": "error_review-v3.json",
-      "size": 128326,
+      "size": 129791,
       "label": "Error Review",
       "kind": "tool",
       "category": "Tools - ELI Core",
@@ -328,9 +328,9 @@
     {
       "id": "legal_review",
       "version": null,
-      "lastUpdated": "2026-05-18T07:05:31.043Z",
+      "lastUpdated": "2026-05-19T00:14:19.957Z",
       "filename": "legal_review-v3.json",
-      "size": 83304,
+      "size": 83723,
       "label": "Legal Review",
       "kind": "tool",
       "category": "External Innovation",
