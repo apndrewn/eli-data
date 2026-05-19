@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-19T03:51:47.649Z",
+  "lastUpdated": "2026-05-19T03:53:44.292Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -160,9 +160,9 @@
     {
       "id": "eli5",
       "version": null,
-      "lastUpdated": "2026-05-19T03:51:44.568Z",
+      "lastUpdated": "2026-05-19T03:53:44.200Z",
       "filename": "eli5-v3.json",
-      "size": 31087,
+      "size": 31968,
       "label": "ELI5 Explainer",
       "kind": "tool",
       "category": "Patents",
