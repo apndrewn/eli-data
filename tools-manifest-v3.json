@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-19T03:10:52.422Z",
+  "lastUpdated": "2026-05-19T03:43:48.239Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -160,7 +160,7 @@
     {
       "id": "eli5",
       "version": null,
-      "lastUpdated": "2026-05-18T11:52:32.664Z",
+      "lastUpdated": "2026-05-19T03:25:19.859Z",
       "filename": "eli5-v3.json",
       "size": 28803,
       "label": "ELI5 Explainer",
@@ -174,9 +174,9 @@
     {
       "id": "review_redlines",
       "version": null,
-      "lastUpdated": "2026-05-19T03:10:51.751Z",
+      "lastUpdated": "2026-05-19T03:43:47.676Z",
       "filename": "review_redlines-v3.json",
-      "size": 994445,
+      "size": 996621,
       "label": "Review Redlines",
       "kind": "tool",
       "category": "External Innovation",
