@@ -1,26 +1,79 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-05-19T01:47:14.657Z",
+  "generatedAt": "2026-05-19T04:32:52.611Z",
   "days": [
     {
       "date": "2026-05-18",
       "toolsUsed": {
-        "legal_review": 15,
-        "review_redlines": 5,
-        "risk": 1
+        "legal_review": 50,
+        "review_redlines": 39,
+        "risk": 1,
+        "eli5": 5,
+        "error": 1
       },
-      "sessions": 8,
+      "sessions": 49,
       "firstActiveAt": 1779153164146,
-      "lastActiveAt": 1779155103081,
+      "lastActiveAt": 1779163173456,
       "tokens": {
         "gemini-3.1-flash-lite-preview": {
-          "promptTokens": 370101,
-          "candidatesTokens": 17454,
-          "calls": 152
+          "promptTokens": 1549315,
+          "candidatesTokens": 71440,
+          "calls": 684
         }
       },
-      "estCostUSD": 0.018295
+      "estCostUSD": 0.076261,
+      "tokensByTool": {
+        "review_redlines": {
+          "gemini-3.1-flash-lite-preview": {
+            "promptTokens": 1024690,
+            "candidatesTokens": 46738,
+            "calls": 494
+          }
+        },
+        "eli5": {
+          "gemini-3.1-flash-lite-preview": {
+            "promptTokens": 84648,
+            "candidatesTokens": 3022,
+            "calls": 6
+          }
+        },
+        "error": {
+          "gemini-3.1-flash-lite-preview": {
+            "promptTokens": 1155,
+            "candidatesTokens": 1,
+            "calls": 1
+          }
+        }
+      }
+    },
+    {
+      "date": "2026-05-19",
+      "toolsUsed": {
+        "legal_review": 7,
+        "review_redlines": 7,
+        "risk": 1
+      },
+      "sessions": 6,
+      "firstActiveAt": 1779163210519,
+      "lastActiveAt": 1779165028450,
+      "tokens": {
+        "gemini-3.1-flash-lite-preview": {
+          "promptTokens": 72855,
+          "candidatesTokens": 3647,
+          "calls": 33
+        }
+      },
+      "tokensByTool": {
+        "review_redlines": {
+          "gemini-3.1-flash-lite-preview": {
+            "promptTokens": 72855,
+            "candidatesTokens": 3647,
+            "calls": 33
+          }
+        }
+      },
+      "estCostUSD": 0.003644
     }
   ]
 }
