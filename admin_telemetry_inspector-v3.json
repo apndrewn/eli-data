@@ -1,18 +1,20 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-05-19T06:25:25.735Z",
+  "exportedAt": "2026-05-19T06:26:24.872Z",
   "sectionVersions": {
     "jsonTools": 1
   },
   "sections": {
     "jsonTools": [
       {
-        "releasedAt": "2026-05-19T06:25:25.734Z",
+        "releasedAt": "2026-05-19T06:26:24.871Z",
         "id": "admin_telemetry_inspector",
         "label": "User Stats",
         "defaultEnabled": true,
-        "audience": [
-          "all"
+        "audience": [],
+        "audienceEmails": [
+          "andrew_nemiroff@colpal.com",
+          "jared_lerner@colpal.com"
         ],
         "tier": "demand",
         "requires": {
@@ -33,7 +35,7 @@
           "title": "USER STATS",
           "desc": "Your activity ledger — tools launched, AI calls, cost, model usage, per day and overall.",
           "hoverTip": "Your personal usage stats",
-          "category": "Insights",
+          "category": "Admin",
           "core": false,
           "default": false,
           "order": 97,
@@ -41,9 +43,9 @@
           "requiresApiKey": false,
           "requiresFooterDoc": false,
           "tags": [
+            "admin",
             "stats",
             "usage",
-            "personal",
             "cost"
           ],
           "experimental": false,
