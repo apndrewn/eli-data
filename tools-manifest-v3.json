@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-19T05:55:50.307Z",
+  "lastUpdated": "2026-05-19T06:22:04.015Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -549,10 +549,10 @@
     {
       "id": "admin_telemetry_inspector",
       "version": null,
-      "lastUpdated": "2026-05-19T01:51:18.148Z",
+      "lastUpdated": "2026-05-19T06:22:03.473Z",
       "filename": "admin_telemetry_inspector-v3.json",
-      "size": 26334,
-      "label": "Telemetry Inspector",
+      "size": 31473,
+      "label": "User Stats",
       "kind": "tool",
       "category": "Admin",
       "audience": [],
