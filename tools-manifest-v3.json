@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-19T00:40:28.714Z",
+  "lastUpdated": "2026-05-19T01:01:10.721Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -314,9 +314,9 @@
     {
       "id": "eli_stats",
       "version": null,
-      "lastUpdated": "2026-05-18T23:30:11.496Z",
+      "lastUpdated": "2026-05-19T01:01:10.121Z",
       "filename": "eli_stats-v3.json",
-      "size": 45958,
+      "size": 46763,
       "label": "ELI Stats",
       "kind": "tool",
       "category": "System",
@@ -520,9 +520,9 @@
     {
       "id": "eli_telemetry",
       "version": null,
-      "lastUpdated": "2026-05-18T12:01:08.915Z",
+      "lastUpdated": "2026-05-19T01:01:10.217Z",
       "filename": "eli_telemetry-v3.json",
-      "size": 43165,
+      "size": 44069,
       "label": "Usage Telemetry",
       "kind": "tool",
       "category": "System",
