@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-19T01:45:08.326Z",
+  "lastUpdated": "2026-05-19T01:51:18.787Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -520,9 +520,9 @@
     {
       "id": "eli_telemetry",
       "version": null,
-      "lastUpdated": "2026-05-19T01:01:10.217Z",
+      "lastUpdated": "2026-05-19T01:51:17.927Z",
       "filename": "eli_telemetry-v3.json",
-      "size": 44069,
+      "size": 46964,
       "label": "Usage Telemetry",
       "kind": "tool",
       "category": "System",
@@ -534,9 +534,9 @@
     {
       "id": "admin_usage_viewer",
       "version": null,
-      "lastUpdated": "2026-05-18T06:39:17.922Z",
+      "lastUpdated": "2026-05-19T01:51:18.018Z",
       "filename": "admin_usage_viewer-v3.json",
-      "size": 41154,
+      "size": 44979,
       "label": "Admin Usage Viewer",
       "kind": "tool",
       "category": "Admin",
@@ -549,9 +549,9 @@
     {
       "id": "admin_telemetry_inspector",
       "version": null,
-      "lastUpdated": "2026-05-19T00:26:48.684Z",
+      "lastUpdated": "2026-05-19T01:51:18.148Z",
       "filename": "admin_telemetry_inspector-v3.json",
-      "size": 24392,
+      "size": 26334,
       "label": "Telemetry Inspector",
       "kind": "tool",
       "category": "Admin",
