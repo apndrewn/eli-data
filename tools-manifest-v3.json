@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-19T00:20:27.366Z",
+  "lastUpdated": "2026-05-19T00:26:49.229Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -549,17 +549,16 @@
     {
       "id": "admin_telemetry_inspector",
       "version": null,
-      "lastUpdated": "2026-05-18T15:47:45.831Z",
+      "lastUpdated": "2026-05-19T00:26:48.684Z",
       "filename": "admin_telemetry_inspector-v3.json",
-      "size": 19077,
+      "size": 24392,
       "label": "Telemetry Inspector",
       "kind": "tool",
       "category": "Admin",
       "audience": [],
       "changelog": "",
       "audienceEmails": [
-        "andrew_nemiroff@colpal.com",
-        "jared_lerner@colpal.com"
+        "andrew_nemiroff@colpal.com"
       ]
     },
     {
