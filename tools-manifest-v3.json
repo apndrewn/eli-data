@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-19T12:32:01.499Z",
+  "lastUpdated": "2026-05-19T19:34:09.469Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -692,9 +692,9 @@
     },
     {
       "id": "__data_bd_templates",
-      "lastUpdated": "2026-05-18T15:36:25.536Z",
+      "lastUpdated": "2026-05-19T19:34:09.469Z",
       "filename": "bd_templates.enc.json",
-      "size": 20821066,
+      "size": 16127562,
       "label": "Build Draft Templates",
       "kind": "data",
       "category": "Data",
@@ -704,7 +704,7 @@
       "sections": [
         "bdTemplates"
       ],
-      "changelog": "",
+      "changelog": "4 rows · pushed 2026-05-19T19:34:09Z",
       "encrypted": true
     },
     {
