@@ -1,42 +1,7 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-05-18T23:33:46.407Z",
-  "days": [
-    {
-      "date": "2026-05-18",
-      "toolsUsed": {
-        "error": 3,
-        "legal_review": 10,
-        "review_redlines": 18,
-        "auto_emailer": 1,
-        "final_review": 1,
-        "draft": 6,
-        "eli_agent": 1,
-        "ask_eli": 4,
-        "docuscrub": 1,
-        "eli5": 1,
-        "email_helper": 1,
-        "focus_flow": 1,
-        "draft_templates": 2,
-        "admin_library_publisher": 6,
-        "agent_apply_instruction": 1,
-        "agent_draft_agreement": 1,
-        "bd_template_tester": 1,
-        "agent_address_comments": 1,
-        "playbook_manager": 1
-      },
-      "sessions": 29,
-      "firstActiveAt": 1779078527026,
-      "lastActiveAt": 1779147221594,
-      "tokens": {
-        "gemini-3.1-flash-lite-preview": {
-          "promptTokens": 342447,
-          "candidatesTokens": 17317,
-          "calls": 74
-        }
-      },
-      "estCostUSD": 0.017161
-    }
-  ]
+  "generatedAt": "2026-05-18T23:50:00.000Z",
+  "days": [],
+  "note": "Cleared 2026-05-18 to neutralize MAX-merge bringing back stale review_redlines counts. Next local push writes fresh from clean state."
 }
