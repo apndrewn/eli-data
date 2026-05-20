@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-20T02:00:46.828Z",
+  "lastUpdated": "2026-05-20T02:03:55.318Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -414,9 +414,9 @@
     {
       "id": "admin_library_publisher",
       "version": null,
-      "lastUpdated": "2026-05-18T05:26:11.510Z",
+      "lastUpdated": "2026-05-20T02:03:54.470Z",
       "filename": "admin_library_publisher-v3.json",
-      "size": 57177,
+      "size": 58144,
       "label": "Admin Library Publisher",
       "kind": "tool",
       "category": "Admin",
