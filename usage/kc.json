@@ -1,14 +1,33 @@
 {
   "userName": "KC",
   "userKey": "kc",
-  "generatedAt": "2026-05-18T14:32:34.598Z",
+  "generatedAt": "2026-05-20T20:39:51.015Z",
   "days": [
     {
       "date": "2026-05-18",
-      "toolsUsed": {},
-      "sessions": 1,
+      "toolsUsed": {
+        "error": 1
+      },
+      "sessions": 2,
       "firstActiveAt": 1779114749594,
-      "lastActiveAt": 1779114749594,
+      "lastActiveAt": 1779114833778,
+      "tokens": {
+        "gemini-3.1-flash-lite-preview": {
+          "promptTokens": 19981,
+          "candidatesTokens": 169,
+          "calls": 1
+        }
+      },
+      "estCostUSD": 0.000833
+    },
+    {
+      "date": "2026-05-20",
+      "toolsUsed": {
+        "error": 1
+      },
+      "sessions": 1,
+      "firstActiveAt": 1779309586011,
+      "lastActiveAt": 1779309586152,
       "tokens": {},
       "estCostUSD": 0
     }
