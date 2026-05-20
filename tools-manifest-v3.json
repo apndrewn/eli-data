@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-19T19:49:53.262Z",
+  "lastUpdated": "2026-05-20T00:46:02.391Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -174,9 +174,9 @@
     {
       "id": "review_redlines",
       "version": null,
-      "lastUpdated": "2026-05-19T05:55:49.731Z",
+      "lastUpdated": "2026-05-20T00:45:57.783Z",
       "filename": "review_redlines-v3.json",
-      "size": 1047462,
+      "size": 1050525,
       "label": "Review Redlines",
       "kind": "tool",
       "category": "External Innovation",
@@ -694,7 +694,7 @@
       "id": "__data_bd_templates",
       "lastUpdated": "2026-05-19T19:49:53.262Z",
       "filename": "bd_templates.enc.json",
-      "size": 16127834,
+      "size": 20821066,
       "label": "Build Draft Templates",
       "kind": "data",
       "category": "Data",
@@ -704,7 +704,7 @@
       "sections": [
         "bdTemplates"
       ],
-      "changelog": "4 rows · pushed 2026-05-19T19:49:53Z",
+      "changelog": "",
       "encrypted": true
     },
     {
