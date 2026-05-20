@@ -1,7 +1,7 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-05-20T00:43:45.592Z",
+  "generatedAt": "2026-05-20T01:55:06.913Z",
   "days": [
     {
       "date": "2026-05-18",
@@ -68,14 +68,20 @@
         "review_redlines": 22,
         "risk": 3,
         "ask_eli": 1,
-        "error": 1,
+        "error": 14,
         "playbook_manager": 1,
         "auto_emailer": 1,
-        "compare": 4
+        "compare": 4,
+        "final_review": 1,
+        "draft_templates": 16,
+        "admin_team_guidance": 2,
+        "draft": 21,
+        "bd_template_tester": 1,
+        "admin_library_publisher": 3
       },
-      "sessions": 43,
+      "sessions": 62,
       "firstActiveAt": 1779163210519,
-      "lastActiveAt": 1779237820913,
+      "lastActiveAt": 1779242101881,
       "tokens": {
         "gemini-3.1-flash-lite-preview": {
           "promptTokens": 1389313,
@@ -107,16 +113,16 @@
         },
         "risk": {
           "gemini-3.1-flash-lite-preview": {
-            "promptTokens": 5155,
-            "candidatesTokens": 1101,
+            "promptTokens": 17963,
+            "candidatesTokens": 1240,
             "calls": 1
           }
         },
         "error": {
           "gemini-3.1-flash-lite-preview": {
-            "promptTokens": 6939,
-            "candidatesTokens": 396,
-            "calls": 1
+            "promptTokens": 189907,
+            "candidatesTokens": 4639,
+            "calls": 13
           }
         },
         "auto_emailer": {
@@ -131,6 +137,27 @@
             "promptTokens": 44228,
             "candidatesTokens": 6195,
             "calls": 6
+          }
+        },
+        "draft": {
+          "gemini-3.1-flash-lite-preview": {
+            "promptTokens": 27310,
+            "candidatesTokens": 4451,
+            "calls": 12
+          }
+        },
+        "_unknown": {
+          "gemini-3.1-flash-lite-preview": {
+            "promptTokens": 21312,
+            "candidatesTokens": 2665,
+            "calls": 3
+          }
+        },
+        "draft_templates": {
+          "gemini-3.1-flash-lite-preview": {
+            "promptTokens": 96878,
+            "candidatesTokens": 895,
+            "calls": 4
           }
         }
       },
