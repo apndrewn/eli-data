@@ -1,7 +1,7 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-05-20T13:55:15.651Z",
+  "generatedAt": "2026-05-20T23:08:21.695Z",
   "days": [
     {
       "date": "2026-05-18",
@@ -64,8 +64,8 @@
     {
       "date": "2026-05-19",
       "toolsUsed": {
-        "legal_review": 35,
-        "review_redlines": 22,
+        "legal_review": 45,
+        "review_redlines": 31,
         "risk": 3,
         "ask_eli": 1,
         "error": 14,
@@ -84,17 +84,17 @@
       "lastActiveAt": 1779249445947,
       "tokens": {
         "gemini-3.1-flash-lite-preview": {
-          "promptTokens": 1389313,
-          "candidatesTokens": 64551,
-          "calls": 739
+          "promptTokens": 1479784,
+          "candidatesTokens": 70550,
+          "calls": 774
         }
       },
       "tokensByTool": {
         "review_redlines": {
           "gemini-3.1-flash-lite-preview": {
-            "promptTokens": 1248738,
-            "candidatesTokens": 49447,
-            "calls": 723
+            "promptTokens": 1310909,
+            "candidatesTokens": 52748,
+            "calls": 752
           }
         },
         "ask_eli": {
@@ -161,22 +161,23 @@
           }
         }
       },
-      "estCostUSD": 0.068483
+      "estCostUSD": 0.073301
     },
     {
       "date": "2026-05-20",
       "toolsUsed": {
         "draft": 16,
         "draft_templates": 28,
-        "admin_library_publisher": 1,
-        "error": 1
+        "admin_library_publisher": 5,
+        "error": 4,
+        "ask_eli": 1
       },
-      "sessions": 48,
-      "firstActiveAt": 1779250555875,
-      "lastActiveAt": 1779285314654,
+      "sessions": 50,
+      "firstActiveAt": 1779249675554,
+      "lastActiveAt": 1779318501163,
       "tokens": {
         "gemini-3.1-flash-lite-preview": {
-          "promptTokens": 29539,
+          "promptTokens": 75971,
           "candidatesTokens": 2796,
           "calls": 6
         }
@@ -191,13 +192,13 @@
         },
         "error": {
           "gemini-3.1-flash-lite-preview": {
-            "promptTokens": 18843,
-            "candidatesTokens": 326,
-            "calls": 1
+            "promptTokens": 71415,
+            "candidatesTokens": 1113,
+            "calls": 4
           }
         }
       },
-      "estCostUSD": 0.001741
+      "estCostUSD": 0.003598
     }
   ]
 }
