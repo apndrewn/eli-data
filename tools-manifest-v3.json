@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-20T06:26:02.584Z",
+  "lastUpdated": "2026-05-20T12:03:58.217Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -20,9 +20,9 @@
     {
       "id": "oars_loader",
       "version": null,
-      "lastUpdated": "2026-05-18T07:21:48.772Z",
+      "lastUpdated": "2026-05-20T12:03:57.341Z",
       "filename": "oars_loader-v3.json",
-      "size": 63502,
+      "size": 68894,
       "label": "OARS Data Hub",
       "kind": "tool",
       "category": "Data",
@@ -258,9 +258,9 @@
     {
       "id": "build_draft",
       "version": null,
-      "lastUpdated": "2026-05-20T04:54:18.552Z",
+      "lastUpdated": "2026-05-20T12:03:57.236Z",
       "filename": "build_draft-v3.json",
-      "size": 286539,
+      "size": 291143,
       "label": "Build Draft",
       "kind": "tool",
       "category": "External Innovation",
