@@ -1,0 +1,17 @@
+{
+  "userName": "AR",
+  "userKey": "ar",
+  "generatedAt": "2026-05-20T14:05:32.435Z",
+  "days": [
+    {
+      "date": "2026-05-20",
+      "toolsUsed": {},
+      "sessions": 1,
+      "firstActiveAt": 1779285927427,
+      "lastActiveAt": 1779285927427,
+      "tokens": {},
+      "tokensByTool": {},
+      "estCostUSD": 0
+    }
+  ]
+}
