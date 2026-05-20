@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-20T02:11:07.605Z",
+  "lastUpdated": "2026-05-20T02:11:57.645Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -258,9 +258,9 @@
     {
       "id": "build_draft",
       "version": null,
-      "lastUpdated": "2026-05-20T02:10:00.813Z",
+      "lastUpdated": "2026-05-20T02:11:54.978Z",
       "filename": "build_draft-v3.json",
-      "size": 260845,
+      "size": 261638,
       "label": "Build Draft",
       "kind": "tool",
       "category": "External Innovation",
@@ -694,7 +694,7 @@
       "id": "__data_bd_templates",
       "lastUpdated": "2026-05-20T02:11:07.605Z",
       "filename": "bd_templates.enc.json",
-      "size": 17680894,
+      "size": 20821066,
       "label": "Build Draft Templates",
       "kind": "data",
       "category": "Data",
@@ -704,7 +704,7 @@
       "sections": [
         "bdTemplates"
       ],
-      "changelog": "5 rows · pushed 2026-05-20T02:11:07Z",
+      "changelog": "",
       "encrypted": true
     },
     {
