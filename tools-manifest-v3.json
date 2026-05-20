@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-20T05:12:33.024Z",
+  "lastUpdated": "2026-05-20T06:16:34.067Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -489,9 +489,9 @@
     {
       "id": "bd_template_tester",
       "version": null,
-      "lastUpdated": "2026-05-19T05:12:11.264Z",
+      "lastUpdated": "2026-05-20T06:16:28.350Z",
       "filename": "bd_template_tester-v3.json",
-      "size": 249044,
+      "size": 265061,
       "label": "BD Template Tester",
       "kind": "tool",
       "category": "Admin",
@@ -694,7 +694,7 @@
       "id": "__data_bd_templates",
       "lastUpdated": "2026-05-20T05:12:33.024Z",
       "filename": "bd_templates.enc.json",
-      "size": 17515002,
+      "size": 20821066,
       "label": "Build Draft Templates",
       "kind": "data",
       "category": "Data",
@@ -704,7 +704,7 @@
       "sections": [
         "bdTemplates"
       ],
-      "changelog": "5 rows · pushed 2026-05-20T05:12:33Z",
+      "changelog": "",
       "encrypted": true
     },
     {
