@@ -1,7 +1,7 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-05-19T13:04:00.472Z",
+  "generatedAt": "2026-05-20T00:43:45.592Z",
   "days": [
     {
       "date": "2026-05-18",
@@ -23,7 +23,8 @@
         "agent_draft_agreement": 1,
         "bd_template_tester": 1,
         "agent_address_comments": 1,
-        "playbook_manager": 2
+        "playbook_manager": 2,
+        "risk": 1
       },
       "sessions": 49,
       "firstActiveAt": 1779107797180,
@@ -63,29 +64,77 @@
     {
       "date": "2026-05-19",
       "toolsUsed": {
-        "legal_review": 7,
-        "review_redlines": 7
+        "legal_review": 35,
+        "review_redlines": 22,
+        "risk": 3,
+        "ask_eli": 1,
+        "error": 1,
+        "playbook_manager": 1,
+        "auto_emailer": 1,
+        "compare": 4
       },
-      "sessions": 6,
+      "sessions": 43,
       "firstActiveAt": 1779163210519,
-      "lastActiveAt": 1779195836334,
+      "lastActiveAt": 1779237820913,
       "tokens": {
         "gemini-3.1-flash-lite-preview": {
-          "promptTokens": 72855,
-          "candidatesTokens": 3647,
-          "calls": 33
+          "promptTokens": 1389313,
+          "candidatesTokens": 64551,
+          "calls": 739
         }
       },
       "tokensByTool": {
         "review_redlines": {
           "gemini-3.1-flash-lite-preview": {
-            "promptTokens": 72855,
-            "candidatesTokens": 3647,
-            "calls": 33
+            "promptTokens": 1248738,
+            "candidatesTokens": 49447,
+            "calls": 723
+          }
+        },
+        "ask_eli": {
+          "gemini-3.1-flash-lite-preview": {
+            "promptTokens": 35878,
+            "candidatesTokens": 581,
+            "calls": 1
+          }
+        },
+        "legal_review": {
+          "gemini-3.1-flash-lite-preview": {
+            "promptTokens": 44337,
+            "candidatesTokens": 6740,
+            "calls": 6
+          }
+        },
+        "risk": {
+          "gemini-3.1-flash-lite-preview": {
+            "promptTokens": 5155,
+            "candidatesTokens": 1101,
+            "calls": 1
+          }
+        },
+        "error": {
+          "gemini-3.1-flash-lite-preview": {
+            "promptTokens": 6939,
+            "candidatesTokens": 396,
+            "calls": 1
+          }
+        },
+        "auto_emailer": {
+          "gemini-3.1-flash-lite-preview": {
+            "promptTokens": 4038,
+            "candidatesTokens": 91,
+            "calls": 1
+          }
+        },
+        "compare": {
+          "gemini-3.1-flash-lite-preview": {
+            "promptTokens": 44228,
+            "candidatesTokens": 6195,
+            "calls": 6
           }
         }
       },
-      "estCostUSD": 0.003644
+      "estCostUSD": 0.068483
     }
   ]
 }
