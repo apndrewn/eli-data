@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-21T05:42:21.327Z",
+  "lastUpdated": "2026-05-21T11:58:33.228Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -505,9 +505,9 @@
     {
       "id": "clause_library",
       "version": null,
-      "lastUpdated": "2026-05-21T05:42:20.536Z",
+      "lastUpdated": "2026-05-21T11:58:32.435Z",
       "filename": "clause_library-v3.json",
-      "size": 103206,
+      "size": 107247,
       "label": "Skeleton Workshop",
       "kind": "tool",
       "category": "Admin",
