@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-21T04:12:16.765Z",
+  "lastUpdated": "2026-05-21T04:30:21.635Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -258,9 +258,9 @@
     {
       "id": "build_draft",
       "version": null,
-      "lastUpdated": "2026-05-21T04:12:15.895Z",
+      "lastUpdated": "2026-05-21T04:30:14.626Z",
       "filename": "build_draft-v3.json",
-      "size": 350505,
+      "size": 352385,
       "label": "Build Draft",
       "kind": "tool",
       "category": "External Innovation",
@@ -505,9 +505,9 @@
     {
       "id": "clause_library",
       "version": null,
-      "lastUpdated": "2026-05-21T03:46:26.875Z",
+      "lastUpdated": "2026-05-21T04:30:14.732Z",
       "filename": "clause_library-v3.json",
-      "size": 44297,
+      "size": 64076,
       "label": "Skeleton Workshop",
       "kind": "tool",
       "category": "Admin",
