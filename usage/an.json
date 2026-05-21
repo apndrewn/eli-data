@@ -1,7 +1,7 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-05-21T12:34:19.025Z",
+  "generatedAt": "2026-05-21T23:55:57.705Z",
   "days": [
     {
       "date": "2026-05-18",
@@ -166,12 +166,12 @@
     {
       "date": "2026-05-20",
       "toolsUsed": {
-        "draft": 26,
-        "draft_templates": 34,
+        "draft": 34,
+        "draft_templates": 68,
         "admin_library_publisher": 5,
         "error": 4,
         "ask_eli": 2,
-        "legal_review": 3,
+        "legal_review": 5,
         "review_redlines": 3,
         "agent_apply_instruction": 1,
         "final_review": 1,
@@ -179,9 +179,9 @@
         "playbook_manager": 1,
         "agent_draft_agreement": 1
       },
-      "sessions": 71,
+      "sessions": 92,
       "firstActiveAt": 1779249675554,
-      "lastActiveAt": 1779318501163,
+      "lastActiveAt": 1779335897000,
       "tokens": {
         "gemini-3.1-flash-lite-preview": {
           "promptTokens": 403245,
@@ -237,10 +237,14 @@
     },
     {
       "date": "2026-05-21",
-      "toolsUsed": {},
-      "sessions": 3,
-      "firstActiveAt": 1779366837249,
-      "lastActiveAt": 1779366854066,
+      "toolsUsed": {
+        "draft_templates": 39,
+        "draft": 6,
+        "usage_risks": 1
+      },
+      "sessions": 24,
+      "firstActiveAt": 1779336377643,
+      "lastActiveAt": 1779407755160,
       "tokens": {},
       "tokensByTool": {},
       "estCostUSD": 0
