@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-21T01:02:27.252Z",
+  "lastUpdated": "2026-05-21T01:56:34.845Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -230,9 +230,9 @@
     {
       "id": "eli_settings",
       "version": null,
-      "lastUpdated": "2026-05-18T04:29:32.835Z",
+      "lastUpdated": "2026-05-21T01:56:27.227Z",
       "filename": "eli_settings-v3.json",
-      "size": 93506,
+      "size": 94244,
       "label": "Settings",
       "kind": "tool",
       "category": "System",
@@ -258,9 +258,9 @@
     {
       "id": "build_draft",
       "version": null,
-      "lastUpdated": "2026-05-21T01:02:26.468Z",
+      "lastUpdated": "2026-05-21T01:56:27.133Z",
       "filename": "build_draft-v3.json",
-      "size": 311299,
+      "size": 325904,
       "label": "Build Draft",
       "kind": "tool",
       "category": "External Innovation",
@@ -493,6 +493,22 @@
       "filename": "bd_template_tester-v3.json",
       "size": 259737,
       "label": "BD Template Tester",
+      "kind": "tool",
+      "category": "Admin",
+      "audience": [],
+      "changelog": "",
+      "audienceEmails": [
+        "andrew_nemiroff@colpal.com",
+        "jared_lerner@colpal.com"
+      ]
+    },
+    {
+      "id": "clause_library",
+      "version": null,
+      "lastUpdated": "2026-05-21T01:56:27.027Z",
+      "filename": "clause_library-v3.json",
+      "size": 24856,
+      "label": "Clause Library",
       "kind": "tool",
       "category": "Admin",
       "audience": [],
