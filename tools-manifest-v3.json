@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-21T11:58:33.228Z",
+  "lastUpdated": "2026-05-21T12:00:40.945Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -230,9 +230,9 @@
     {
       "id": "eli_settings",
       "version": null,
-      "lastUpdated": "2026-05-21T02:36:04.892Z",
+      "lastUpdated": "2026-05-21T12:00:40.127Z",
       "filename": "eli_settings-v3.json",
-      "size": 95036,
+      "size": 95274,
       "label": "Settings",
       "kind": "tool",
       "category": "System",
@@ -258,9 +258,9 @@
     {
       "id": "build_draft",
       "version": null,
-      "lastUpdated": "2026-05-21T05:42:20.432Z",
+      "lastUpdated": "2026-05-21T12:00:40.030Z",
       "filename": "build_draft-v3.json",
-      "size": 365034,
+      "size": 365237,
       "label": "Build Draft",
       "kind": "tool",
       "category": "External Innovation",
@@ -505,17 +505,16 @@
     {
       "id": "clause_library",
       "version": null,
-      "lastUpdated": "2026-05-21T11:58:32.435Z",
+      "lastUpdated": "2026-05-21T12:00:39.928Z",
       "filename": "clause_library-v3.json",
-      "size": 107247,
+      "size": 107432,
       "label": "Skeleton Workshop",
       "kind": "tool",
       "category": "Admin",
       "audience": [],
       "changelog": "",
       "audienceEmails": [
-        "andrew_nemiroff@colpal.com",
-        "jared_lerner@colpal.com"
+        "andrew_nemiroff@colpal.com"
       ]
     },
     {
