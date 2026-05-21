@@ -1,7 +1,7 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-05-20T23:08:21.695Z",
+  "generatedAt": "2026-05-21T12:34:19.025Z",
   "days": [
     {
       "date": "2026-05-18",
@@ -166,39 +166,84 @@
     {
       "date": "2026-05-20",
       "toolsUsed": {
-        "draft": 16,
-        "draft_templates": 28,
+        "draft": 26,
+        "draft_templates": 34,
         "admin_library_publisher": 5,
         "error": 4,
-        "ask_eli": 1
+        "ask_eli": 2,
+        "legal_review": 3,
+        "review_redlines": 3,
+        "agent_apply_instruction": 1,
+        "final_review": 1,
+        "docuscrub": 2,
+        "playbook_manager": 1,
+        "agent_draft_agreement": 1
       },
-      "sessions": 50,
+      "sessions": 71,
       "firstActiveAt": 1779249675554,
       "lastActiveAt": 1779318501163,
       "tokens": {
         "gemini-3.1-flash-lite-preview": {
-          "promptTokens": 75971,
-          "candidatesTokens": 2796,
-          "calls": 6
+          "promptTokens": 403245,
+          "candidatesTokens": 21535,
+          "calls": 88
         }
       },
       "tokensByTool": {
         "draft": {
           "gemini-3.1-flash-lite-preview": {
-            "promptTokens": 10696,
-            "candidatesTokens": 2470,
-            "calls": 5
+            "promptTokens": 17375,
+            "candidatesTokens": 3653,
+            "calls": 8
           }
         },
         "error": {
           "gemini-3.1-flash-lite-preview": {
             "promptTokens": 71415,
-            "candidatesTokens": 1113,
+            "candidatesTokens": 2642,
             "calls": 4
+          }
+        },
+        "review_redlines": {
+          "gemini-3.1-flash-lite-preview": {
+            "promptTokens": 143875,
+            "candidatesTokens": 7276,
+            "calls": 65
+          }
+        },
+        "agent_apply_instruction": {
+          "gemini-3.1-flash-lite-preview": {
+            "promptTokens": 191038,
+            "candidatesTokens": 7429,
+            "calls": 10
+          }
+        },
+        "final_review": {
+          "gemini-3.1-flash-lite-preview": {
+            "promptTokens": 2195,
+            "candidatesTokens": 464,
+            "calls": 1
+          }
+        },
+        "agent_draft_agreement": {
+          "gemini-3.1-flash-lite-preview": {
+            "promptTokens": 367,
+            "candidatesTokens": 71,
+            "calls": 1
           }
         }
       },
-      "estCostUSD": 0.003598
+      "estCostUSD": 0.020437
+    },
+    {
+      "date": "2026-05-21",
+      "toolsUsed": {},
+      "sessions": 3,
+      "firstActiveAt": 1779366837249,
+      "lastActiveAt": 1779366854066,
+      "tokens": {},
+      "tokensByTool": {},
+      "estCostUSD": 0
     }
   ]
 }
