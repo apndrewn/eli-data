@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-05-21T02:39:56.964Z",
+  "exportedAt": "2026-05-21T02:42:39.362Z",
   "sectionVersions": {
     "jsonTools": 1
   },
   "sections": {
     "jsonTools": [
       {
-        "releasedAt": "2026-05-21T02:39:56.963Z",
+        "releasedAt": "2026-05-21T02:42:39.361Z",
         "id": "clause_library",
         "label": "Clause Library",
         "defaultEnabled": true,
@@ -16,7 +16,7 @@
           "andrew_nemiroff@colpal.com",
           "jared_lerner@colpal.com"
         ],
-        "tier": "demand",
+        "tier": "preload",
         "requires": {
           "host": 2,
           "storage": 1,
