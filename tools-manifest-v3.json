@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-21T02:12:51.773Z",
+  "lastUpdated": "2026-05-21T02:36:05.829Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -230,9 +230,9 @@
     {
       "id": "eli_settings",
       "version": null,
-      "lastUpdated": "2026-05-21T01:56:27.227Z",
+      "lastUpdated": "2026-05-21T02:36:04.892Z",
       "filename": "eli_settings-v3.json",
-      "size": 94244,
+      "size": 95036,
       "label": "Settings",
       "kind": "tool",
       "category": "System",
@@ -258,9 +258,9 @@
     {
       "id": "build_draft",
       "version": null,
-      "lastUpdated": "2026-05-21T01:56:27.133Z",
+      "lastUpdated": "2026-05-21T02:36:04.993Z",
       "filename": "build_draft-v3.json",
-      "size": 325904,
+      "size": 326608,
       "label": "Build Draft",
       "kind": "tool",
       "category": "External Innovation",
