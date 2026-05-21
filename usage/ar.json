@@ -1,14 +1,49 @@
 {
   "userName": "AR",
   "userKey": "ar",
-  "generatedAt": "2026-05-20T14:05:32.435Z",
+  "generatedAt": "2026-05-21T15:27:35.003Z",
   "days": [
     {
       "date": "2026-05-20",
+      "toolsUsed": {
+        "error": 2,
+        "final_review": 1,
+        "docuscrub": 1
+      },
+      "sessions": 8,
+      "firstActiveAt": 1779285927427,
+      "lastActiveAt": 1779297561400,
+      "tokens": {
+        "gemini-3.1-flash-lite-preview": {
+          "promptTokens": 42229,
+          "candidatesTokens": 2293,
+          "calls": 4
+        }
+      },
+      "tokensByTool": {
+        "_unknown": {
+          "gemini-3.1-flash-lite-preview": {
+            "promptTokens": 14616,
+            "candidatesTokens": 401,
+            "calls": 2
+          }
+        },
+        "error": {
+          "gemini-3.1-flash-lite-preview": {
+            "promptTokens": 27613,
+            "candidatesTokens": 1892,
+            "calls": 2
+          }
+        }
+      },
+      "estCostUSD": 0.002148
+    },
+    {
+      "date": "2026-05-21",
       "toolsUsed": {},
       "sessions": 1,
-      "firstActiveAt": 1779285927427,
-      "lastActiveAt": 1779285927427,
+      "firstActiveAt": 1779377249996,
+      "lastActiveAt": 1779377249996,
       "tokens": {},
       "tokensByTool": {},
       "estCostUSD": 0
