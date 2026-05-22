@@ -1,7 +1,7 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-05-22T22:58:29.099Z",
+  "generatedAt": "2026-05-22T23:49:53.408Z",
   "days": [
     {
       "date": "2026-05-18",
@@ -298,9 +298,9 @@
         "auto_emailer": 1,
         "admin_team_guidance": 1
       },
-      "sessions": 109,
+      "sessions": 149,
       "firstActiveAt": 1779422435064,
-      "lastActiveAt": 1779490698112,
+      "lastActiveAt": 1779493765238,
       "tokens": {
         "gemini-3.1-flash-lite-preview": {
           "promptTokens": 11904,
@@ -330,9 +330,9 @@
   "fleet": {
     "userId": "AN-uhwo53g5",
     "initials": "AN",
-    "kernelVersion": "v3-2026-05-23c-encrypted-push",
+    "kernelVersion": "v3-2026-05-23d-dump-type",
     "installedAt": "2026-05-22T16:36:38.096Z",
-    "lastSeenAt": "2026-05-22T22:58:29.294Z",
+    "lastSeenAt": "2026-05-22T23:49:53.529Z",
     "settings": {
       "ai_model": "gemini-3.1-flash-lite-preview",
       "ai_temperature": 0.3,
@@ -342,10 +342,10 @@
       "ai_model_list": [
         "gemini-3.1-flash-lite-preview"
       ],
-      "expand_width": 800,
+      "expand_width": "700",
       "expand_threshold": 480,
       "debug_mode": false,
-      "light_mode": true,
+      "light_mode": false,
       "header_theme_index": 0,
       "minimize_feed": false,
       "auto_hide_sidebar": false,
@@ -362,7 +362,7 @@
       },
       {
         "id": "admin_fleet",
-        "releasedAt": "2026-05-22T22:39:13.041Z",
+        "releasedAt": "2026-05-22T23:43:26.442Z",
         "disabled": false
       },
       {
@@ -437,7 +437,7 @@
       },
       {
         "id": "eli-admin",
-        "releasedAt": "2026-05-22T17:58:59.421Z",
+        "releasedAt": "2026-05-22T23:12:36.993Z",
         "disabled": false
       },
       {
@@ -448,6 +448,11 @@
       {
         "id": "eli5",
         "releasedAt": "2026-05-19T03:53:44.200Z",
+        "disabled": false
+      },
+      {
+        "id": "eli_agent",
+        "releasedAt": "2026-05-18T04:00:24.615Z",
         "disabled": false
       },
       {
@@ -467,7 +472,7 @@
       },
       {
         "id": "eli_telemetry",
-        "releasedAt": "2026-05-22T22:57:28.214Z",
+        "releasedAt": "2026-05-22T23:21:49.781Z",
         "disabled": false
       },
       {
@@ -561,6 +566,52 @@
         "disabled": false
       }
     ],
+    "appliedOverrides": [
+      {
+        "id": "fleet-disable_tool-eli_agent-AN-uhwo53g5-1779490444733",
+        "at": 1779490626291
+      },
+      {
+        "id": "fleet-pin-docuscrub-AN-uhwo53g5-1779491036030",
+        "at": 1779491464558
+      },
+      {
+        "id": "fleet-pin-docuscrub-AN-uhwo53g5-1779491788887",
+        "at": 1779491797697
+      },
+      {
+        "id": "fleet-pin-docuscrub-AN-uhwo53g5-1779492101891",
+        "at": 1779492122602
+      },
+      {
+        "id": "fleet-set-expand_width-AN-uhwo53g5-1779488914472",
+        "at": 1779489243923
+      },
+      {
+        "id": "fleet-set-expand_width-AN-uhwo53g5-1779492053815",
+        "at": 1779492122602
+      },
+      {
+        "id": "fleet-set-light_mode-AN-uhwo53g5-1779491989491",
+        "at": 1779492122602
+      },
+      {
+        "id": "fleet-unpin-eli5-AN-uhwo53g5-1779491004418",
+        "at": 1779491464558
+      },
+      {
+        "id": "fleet-unpin-eli5-AN-uhwo53g5-1779491757799",
+        "at": 1779491797697
+      },
+      {
+        "id": "fleet-unpin-focus_flow-AN-uhwo53g5-1779490933006",
+        "at": 1779490961956
+      },
+      {
+        "id": "fleet-unpin-focus_flow-AN-uhwo53g5-1779491766059",
+        "at": 1779491797697
+      }
+    ],
     "dashboardApps": [
       "legal_review",
       "error_review",
@@ -568,8 +619,7 @@
       "build_draft",
       "auto_emailer",
       "admin_fleet",
-      "eli5",
-      "focus_flow"
+      "docuscrub"
     ],
     "dashboardCustomized": true
   }
