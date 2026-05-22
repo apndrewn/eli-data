@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-22T23:12:37.937Z",
+  "lastUpdated": "2026-05-22T23:22:01.983Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -551,9 +551,9 @@
     {
       "id": "eli_telemetry",
       "version": null,
-      "lastUpdated": "2026-05-22T22:57:28.214Z",
+      "lastUpdated": "2026-05-22T23:21:49.781Z",
       "filename": "eli_telemetry-v3.json",
-      "size": 56304,
+      "size": 57397,
       "label": "Usage Telemetry",
       "kind": "tool",
       "category": "System",
@@ -596,9 +596,9 @@
     {
       "id": "admin_fleet",
       "version": null,
-      "lastUpdated": "2026-05-22T22:39:13.041Z",
+      "lastUpdated": "2026-05-22T23:21:49.898Z",
       "filename": "admin_fleet-v3.json",
-      "size": 99649,
+      "size": 102556,
       "label": "Admin Fleet",
       "kind": "tool",
       "category": "Admin",
