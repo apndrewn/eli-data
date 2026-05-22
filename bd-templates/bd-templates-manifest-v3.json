@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-05-22T02:15:51.024Z",
+  "lastUpdated": "2026-05-22T03:19:02.258Z",
   "templates": [
     {
       "id": "bd_doc__amendment__masterxml___",
@@ -33,8 +33,8 @@
       "name": "Non-Disclosure Agreement",
       "agreementType": "non-disclosure agreement",
       "filename": "bd_doc__non_disclosure_agreement__masterxml___.json",
-      "size": 1057733,
-      "lastUpdated": "2026-05-22T01:39:36.364Z",
+      "size": 2754248,
+      "lastUpdated": "2026-05-22T03:18:59.460Z",
       "core": true,
       "defaultForType": false,
       "audienceEmails": [],
