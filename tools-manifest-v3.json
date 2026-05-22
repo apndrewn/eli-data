@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-22T04:59:01.477Z",
+  "lastUpdated": "2026-05-22T05:19:04.887Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -258,9 +258,9 @@
     {
       "id": "build_draft",
       "version": null,
-      "lastUpdated": "2026-05-22T04:55:14.558Z",
+      "lastUpdated": "2026-05-22T05:19:00.792Z",
       "filename": "build_draft-v3.json",
-      "size": 409464,
+      "size": 415457,
       "label": "Build Draft",
       "kind": "tool",
       "category": "External Innovation",
@@ -520,9 +520,9 @@
     {
       "id": "template_manager",
       "version": null,
-      "lastUpdated": "2026-05-22T03:51:07.825Z",
+      "lastUpdated": "2026-05-22T05:19:00.889Z",
       "filename": "template_manager-v3.json",
-      "size": 48457,
+      "size": 50875,
       "label": "Template Manager",
       "kind": "tool",
       "category": "Admin",
