@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-22T03:51:08.602Z",
+  "lastUpdated": "2026-05-22T03:55:25.804Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -258,9 +258,9 @@
     {
       "id": "build_draft",
       "version": null,
-      "lastUpdated": "2026-05-22T03:19:26.742Z",
+      "lastUpdated": "2026-05-22T03:55:24.631Z",
       "filename": "build_draft-v3.json",
-      "size": 389670,
+      "size": 394208,
       "label": "Build Draft",
       "kind": "tool",
       "category": "External Innovation",
@@ -414,9 +414,9 @@
     {
       "id": "admin_library_publisher",
       "version": null,
-      "lastUpdated": "2026-05-20T04:13:25.771Z",
+      "lastUpdated": "2026-05-22T03:55:24.742Z",
       "filename": "admin_library_publisher-v3.json",
-      "size": 61781,
+      "size": 61798,
       "label": "Admin Library Publisher",
       "kind": "tool",
       "category": "Admin",
