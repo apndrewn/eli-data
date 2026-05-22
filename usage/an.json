@@ -1,7 +1,7 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-05-22T16:36:37.941Z",
+  "generatedAt": "2026-05-22T16:47:37.051Z",
   "days": [
     {
       "date": "2026-05-18",
@@ -298,9 +298,9 @@
         "auto_emailer": 1,
         "admin_team_guidance": 1
       },
-      "sessions": 61,
+      "sessions": 71,
       "firstActiveAt": 1779422435064,
-      "lastActiveAt": 1779467520353,
+      "lastActiveAt": 1779468423062,
       "tokens": {
         "gemini-3.1-flash-lite-preview": {
           "promptTokens": 11904,
@@ -328,9 +328,23 @@
     }
   ],
   "fleet": {
+    "userId": "AN-uhwo53g5",
     "initials": "AN",
-    "kernelVersion": "v3-phase10m-tier-prepop-r5-revert",
+    "kernelVersion": "v3-2026-05-23-settings-registry+user_id",
     "installedAt": "2026-05-22T16:36:38.096Z",
-    "lastSeenAt": "2026-05-22T16:36:38.096Z"
+    "lastSeenAt": "2026-05-22T16:47:37.203Z",
+    "settings": {
+      "ai_model": "gemini-3.1-flash-lite-preview",
+      "ai_temperature": 0.3,
+      "ai_timeout_ms": 120000,
+      "ai_thinking_budget": 0,
+      "ai_allow_streaming": false,
+      "ai_model_list": [
+        "gemini-3.1-flash-lite-preview"
+      ],
+      "expand_width": 800,
+      "expand_threshold": 480,
+      "debug_mode": false
+    }
   }
 }
