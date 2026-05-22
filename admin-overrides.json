@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-05-22T23:03:56.031Z",
+  "lastUpdated": "2026-05-22T23:15:46.327Z",
   "overrides": [
     {
       "id": "fleet-disable_tool-eli_agent-AN-uhwo53g5-1779490444733",
@@ -14,20 +14,6 @@
         }
       ],
       "pushedAt": "2026-05-22T22:54:04.733Z",
-      "pushedBy": "andrew_nemiroff@colpal.com"
-    },
-    {
-      "id": "fleet-unpin-focus_flow-AN-uhwo53g5-1779490933006",
-      "audienceEmails": [
-        "andrew_nemiroff@colpal.com"
-      ],
-      "actions": [
-        {
-          "type": "unpin_tool",
-          "toolId": "focus_flow"
-        }
-      ],
-      "pushedAt": "2026-05-22T23:02:13.006Z",
       "pushedBy": "andrew_nemiroff@colpal.com"
     },
     {
