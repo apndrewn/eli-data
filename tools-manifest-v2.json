@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-05-22T02:21:52.841Z",
+  "lastUpdated": "2026-05-22T02:25:36.372Z",
   "tools": [
     {
       "id": "__data_catalog",
@@ -131,23 +131,6 @@
       "changelog": ""
     },
     {
-      "id": "__data_bd_templates",
-      "lastUpdated": "2026-05-21T15:22:34.951Z",
-      "filename": "bd_templates.enc.json",
-      "size": 14998603,
-      "label": "Build Draft Templates",
-      "kind": "data",
-      "category": "Data",
-      "audience": [
-        "all"
-      ],
-      "sections": [
-        "bdTemplates"
-      ],
-      "changelog": "",
-      "encrypted": true
-    },
-    {
       "id": "__data_playbooks",
       "lastUpdated": "2026-05-18T05:49:37.412Z",
       "filename": "playbooks.enc.json",
@@ -255,7 +238,6 @@
         "__data_cleaner_rules",
         "__data_loading_msgs",
         "__data_trophies",
-        "__data_bd_templates",
         "__data_playbooks",
         "__data_risk_rules",
         "__data_templates",
