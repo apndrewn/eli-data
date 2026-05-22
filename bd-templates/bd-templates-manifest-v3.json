@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-05-22T05:38:26.925Z",
+  "lastUpdated": "2026-05-22T05:49:46.613Z",
   "templates": [
     {
       "id": "bd_doc__amendment__masterxml___",
       "name": "Amendment",
       "agreementType": "amendment",
       "filename": "bd_doc__amendment__masterxml___.json",
-      "size": 2602955,
-      "lastUpdated": "2026-05-22T05:38:24.306Z",
+      "size": 221963,
+      "lastUpdated": "2026-05-22T05:49:44.893Z",
       "core": true,
       "defaultForType": false,
       "audienceEmails": [],
