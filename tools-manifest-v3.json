@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-22T15:59:05.794Z",
+  "lastUpdated": "2026-05-22T16:16:59.910Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -591,6 +591,21 @@
       "audienceEmails": [
         "andrew_nemiroff@colpal.com",
         "jared_lerner@colpal.com"
+      ]
+    },
+    {
+      "id": "admin_fleet",
+      "version": null,
+      "lastUpdated": "2026-05-22T16:16:30.328Z",
+      "filename": "admin_fleet-v3.json",
+      "size": 48948,
+      "label": "Admin Fleet",
+      "kind": "tool",
+      "category": "Admin",
+      "audience": [],
+      "changelog": "",
+      "audienceEmails": [
+        "andrew_nemiroff@colpal.com"
       ]
     },
     {
