@@ -1,7 +1,7 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-05-22T03:09:53.896Z",
+  "generatedAt": "2026-05-22T14:22:48.768Z",
   "days": [
     {
       "date": "2026-05-18",
@@ -245,9 +245,9 @@
         "error": 1,
         "admin_library_publisher": 1
       },
-      "sessions": 36,
+      "sessions": 42,
       "firstActiveAt": 1779336377643,
-      "lastActiveAt": 1779419388847,
+      "lastActiveAt": 1779422341860,
       "tokens": {
         "gemini-3.1-flash-lite-preview": {
           "promptTokens": 24902,
@@ -276,9 +276,54 @@
             "candidatesTokens": 1273,
             "calls": 1
           }
+        },
+        "_unknown": {
+          "gemini-3.1-flash-lite-preview": {
+            "promptTokens": 2126,
+            "candidatesTokens": 1005,
+            "calls": 1
+          }
         }
       },
       "estCostUSD": 0.001951
+    },
+    {
+      "date": "2026-05-22",
+      "toolsUsed": {
+        "draft": 12,
+        "draft_templates": 20,
+        "admin_library_publisher": 1,
+        "admin_data_editor": 1,
+        "bd_template_tester": 1,
+        "auto_emailer": 1
+      },
+      "sessions": 39,
+      "firstActiveAt": 1779422435064,
+      "lastActiveAt": 1779459763742,
+      "tokens": {
+        "gemini-3.1-flash-lite-preview": {
+          "promptTokens": 11904,
+          "candidatesTokens": 373,
+          "calls": 2
+        }
+      },
+      "tokensByTool": {
+        "draft": {
+          "gemini-3.1-flash-lite-preview": {
+            "promptTokens": 2324,
+            "candidatesTokens": 299,
+            "calls": 1
+          }
+        },
+        "auto_emailer": {
+          "gemini-3.1-flash-lite-preview": {
+            "promptTokens": 9580,
+            "candidatesTokens": 74,
+            "calls": 1
+          }
+        }
+      },
+      "estCostUSD": 0.000551
     }
   ]
 }
