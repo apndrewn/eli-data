@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-05-22T23:16:06.059Z",
+  "lastUpdated": "2026-05-22T23:16:28.887Z",
   "overrides": [
     {
       "id": "fleet-unpin-eli5-AN-uhwo53g5-1779491757799",
@@ -28,6 +28,20 @@
         }
       ],
       "pushedAt": "2026-05-22T23:16:06.059Z",
+      "pushedBy": "andrew_nemiroff@colpal.com"
+    },
+    {
+      "id": "fleet-pin-docuscrub-AN-uhwo53g5-1779491788887",
+      "audienceEmails": [
+        "andrew_nemiroff@colpal.com"
+      ],
+      "actions": [
+        {
+          "type": "pin_tool",
+          "toolId": "docuscrub"
+        }
+      ],
+      "pushedAt": "2026-05-22T23:16:28.887Z",
       "pushedBy": "andrew_nemiroff@colpal.com"
     }
   ]
