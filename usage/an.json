@@ -1,7 +1,7 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-05-22T22:52:27.371Z",
+  "generatedAt": "2026-05-22T22:58:29.099Z",
   "days": [
     {
       "date": "2026-05-18",
@@ -298,9 +298,9 @@
         "auto_emailer": 1,
         "admin_team_guidance": 1
       },
-      "sessions": 102,
+      "sessions": 109,
       "firstActiveAt": 1779422435064,
-      "lastActiveAt": 1779490308327,
+      "lastActiveAt": 1779490698112,
       "tokens": {
         "gemini-3.1-flash-lite-preview": {
           "promptTokens": 11904,
@@ -330,9 +330,9 @@
   "fleet": {
     "userId": "AN-uhwo53g5",
     "initials": "AN",
-    "kernelVersion": "v3-2026-05-23b-audience-excludes+validate",
+    "kernelVersion": "v3-2026-05-23c-encrypted-push",
     "installedAt": "2026-05-22T16:36:38.096Z",
-    "lastSeenAt": "2026-05-22T22:52:27.537Z",
+    "lastSeenAt": "2026-05-22T22:58:29.294Z",
     "settings": {
       "ai_model": "gemini-3.1-flash-lite-preview",
       "ai_temperature": 0.3,
@@ -451,11 +451,6 @@
         "disabled": false
       },
       {
-        "id": "eli_agent",
-        "releasedAt": "2026-05-18T04:00:24.615Z",
-        "disabled": false
-      },
-      {
         "id": "eli_kit",
         "releasedAt": "2026-05-17T14:16:46.900Z",
         "disabled": false
@@ -472,7 +467,7 @@
       },
       {
         "id": "eli_telemetry",
-        "releasedAt": "2026-05-22T22:45:00.676Z",
+        "releasedAt": "2026-05-22T22:57:28.214Z",
         "disabled": false
       },
       {
@@ -567,13 +562,14 @@
       }
     ],
     "dashboardApps": [
-      "app_legal_review",
-      "app_error_review",
-      "executive-brief",
-      "app_build_draft",
-      "app_auto_emailer",
-      "app_admin_fleet",
-      "app_eli5"
+      "legal_review",
+      "error_review",
+      "final_review",
+      "build_draft",
+      "auto_emailer",
+      "admin_fleet",
+      "eli5",
+      "focus_flow"
     ],
     "dashboardCustomized": true
   }
