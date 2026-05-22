@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-22T00:01:45.134Z",
+  "lastUpdated": "2026-05-22T00:03:10.494Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -520,16 +520,17 @@
     {
       "id": "template_manager",
       "version": null,
-      "lastUpdated": "2026-05-22T00:01:41.666Z",
+      "lastUpdated": "2026-05-22T00:03:09.713Z",
       "filename": "template_manager-v3.json",
-      "size": 44746,
+      "size": 44829,
       "label": "Template Manager",
       "kind": "tool",
       "category": "Admin",
       "audience": [],
       "changelog": "",
       "audienceEmails": [
-        "andrew_nemiroff@colpal.com"
+        "andrew_nemiroff@colpal.com",
+        "jared_lerner@colpal.com"
       ]
     },
     {
