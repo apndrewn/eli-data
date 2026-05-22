@@ -1,5 +1,22 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-05-13T01:55:16.130Z",
-  "overrides": []
+  "lastUpdated": "2026-05-22T22:28:34.472Z",
+  "overrides": [
+    {
+      "id": "fleet-set-expand_width-AN-uhwo53g5-1779488914472",
+      "audienceEmails": [
+        "andrew_nemiroff@colpal.com"
+      ],
+      "actions": [
+        {
+          "type": "set_setting",
+          "key": "expand_width",
+          "value": "600",
+          "force": "reset"
+        }
+      ],
+      "pushedAt": "2026-05-22T22:28:34.472Z",
+      "pushedBy": "andrew_nemiroff@colpal.com"
+    }
+  ]
 }
