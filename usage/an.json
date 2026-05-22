@@ -1,7 +1,7 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-05-21T23:55:57.705Z",
+  "generatedAt": "2026-05-22T03:09:53.896Z",
   "days": [
     {
       "date": "2026-05-18",
@@ -239,15 +239,46 @@
       "date": "2026-05-21",
       "toolsUsed": {
         "draft_templates": 39,
-        "draft": 6,
-        "usage_risks": 1
+        "draft": 16,
+        "usage_risks": 1,
+        "auto_emailer_templates": 1,
+        "error": 1,
+        "admin_library_publisher": 1
       },
-      "sessions": 24,
+      "sessions": 36,
       "firstActiveAt": 1779336377643,
-      "lastActiveAt": 1779407755160,
-      "tokens": {},
-      "tokensByTool": {},
-      "estCostUSD": 0
+      "lastActiveAt": 1779419388847,
+      "tokens": {
+        "gemini-3.1-flash-lite-preview": {
+          "promptTokens": 24902,
+          "candidatesTokens": 4776,
+          "calls": 9
+        }
+      },
+      "tokensByTool": {
+        "draft": {
+          "gemini-3.1-flash-lite-preview": {
+            "promptTokens": 15162,
+            "candidatesTokens": 3155,
+            "calls": 7
+          }
+        },
+        "error": {
+          "gemini-3.1-flash-lite-preview": {
+            "promptTokens": 7917,
+            "candidatesTokens": 348,
+            "calls": 1
+          }
+        },
+        "draft_templates": {
+          "gemini-3.1-flash-lite-preview": {
+            "promptTokens": 1823,
+            "candidatesTokens": 1273,
+            "calls": 1
+          }
+        }
+      },
+      "estCostUSD": 0.001951
     }
   ]
 }
