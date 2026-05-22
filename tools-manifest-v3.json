@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-22T00:16:39.569Z",
+  "lastUpdated": "2026-05-22T00:19:27.778Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -520,9 +520,9 @@
     {
       "id": "template_manager",
       "version": null,
-      "lastUpdated": "2026-05-22T00:16:38.433Z",
+      "lastUpdated": "2026-05-22T00:19:26.924Z",
       "filename": "template_manager-v3.json",
-      "size": 50337,
+      "size": 50410,
       "label": "Template Manager",
       "kind": "tool",
       "category": "Admin",
