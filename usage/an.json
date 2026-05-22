@@ -1,7 +1,7 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-05-22T16:52:52.271Z",
+  "generatedAt": "2026-05-22T22:50:40.804Z",
   "days": [
     {
       "date": "2026-05-18",
@@ -298,9 +298,9 @@
         "auto_emailer": 1,
         "admin_team_guidance": 1
       },
-      "sessions": 74,
+      "sessions": 99,
       "firstActiveAt": 1779422435064,
-      "lastActiveAt": 1779468702246,
+      "lastActiveAt": 1779490232612,
       "tokens": {
         "gemini-3.1-flash-lite-preview": {
           "promptTokens": 11904,
@@ -330,9 +330,9 @@
   "fleet": {
     "userId": "AN-uhwo53g5",
     "initials": "AN",
-    "kernelVersion": "v3-2026-05-23-settings-registry+user_id",
+    "kernelVersion": "v3-2026-05-23b-audience-excludes+validate",
     "installedAt": "2026-05-22T16:36:38.096Z",
-    "lastSeenAt": "2026-05-22T16:52:52.432Z",
+    "lastSeenAt": "2026-05-22T22:50:40.979Z",
     "settings": {
       "ai_model": "gemini-3.1-flash-lite-preview",
       "ai_temperature": 0.3,
@@ -344,7 +344,15 @@
       ],
       "expand_width": 800,
       "expand_threshold": 480,
-      "debug_mode": false
+      "debug_mode": false,
+      "light_mode": true,
+      "header_theme_index": 0,
+      "minimize_feed": false,
+      "auto_hide_sidebar": false,
+      "auto_expand_window": false,
+      "auto_check_tools": true,
+      "show_expand_pill": true,
+      "language": "en"
     },
     "tools": [
       {
@@ -354,7 +362,7 @@
       },
       {
         "id": "admin_fleet",
-        "releasedAt": "2026-05-22T16:51:07.553Z",
+        "releasedAt": "2026-05-22T22:39:13.041Z",
         "disabled": false
       },
       {
@@ -429,7 +437,7 @@
       },
       {
         "id": "eli-admin",
-        "releasedAt": "2026-05-22T14:51:11.168Z",
+        "releasedAt": "2026-05-22T17:58:59.421Z",
         "disabled": false
       },
       {
@@ -464,7 +472,7 @@
       },
       {
         "id": "eli_telemetry",
-        "releasedAt": "2026-05-22T16:49:07.580Z",
+        "releasedAt": "2026-05-22T22:45:00.676Z",
         "disabled": false
       },
       {
@@ -557,6 +565,14 @@
         "releasedAt": "2026-05-18T01:48:28.552Z",
         "disabled": false
       }
-    ]
+    ],
+    "dashboardApps": [
+      "app_auto_emailer",
+      "app_build_draft",
+      "app_error_review",
+      "executive-brief",
+      "app_legal_review"
+    ],
+    "dashboardCustomized": false
   }
 }
