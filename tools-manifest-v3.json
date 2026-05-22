@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-22T16:16:59.910Z",
+  "lastUpdated": "2026-05-22T16:21:35.417Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -48,9 +48,9 @@
     {
       "id": "eli-activity",
       "version": null,
-      "lastUpdated": "2026-05-22T14:20:46.693Z",
+      "lastUpdated": "2026-05-22T16:21:23.180Z",
       "filename": "eli-activity-v3.json",
-      "size": 42126,
+      "size": 41961,
       "label": "ELI Activity Feed",
       "kind": "tool",
       "category": "System",
@@ -551,9 +551,9 @@
     {
       "id": "eli_telemetry",
       "version": null,
-      "lastUpdated": "2026-05-22T15:59:05.000Z",
+      "lastUpdated": "2026-05-22T16:21:23.296Z",
       "filename": "eli_telemetry-v3.json",
-      "size": 49820,
+      "size": 50132,
       "label": "Usage Telemetry",
       "kind": "tool",
       "category": "System",
@@ -596,9 +596,9 @@
     {
       "id": "admin_fleet",
       "version": null,
-      "lastUpdated": "2026-05-22T16:16:30.328Z",
+      "lastUpdated": "2026-05-22T16:21:23.413Z",
       "filename": "admin_fleet-v3.json",
-      "size": 48948,
+      "size": 48949,
       "label": "Admin Fleet",
       "kind": "tool",
       "category": "Admin",
