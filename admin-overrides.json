@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-05-22T23:16:28.887Z",
+  "lastUpdated": "2026-05-22T23:19:49.491Z",
   "overrides": [
     {
       "id": "fleet-unpin-eli5-AN-uhwo53g5-1779491757799",
@@ -43,6 +43,22 @@
       ],
       "pushedAt": "2026-05-22T23:16:28.887Z",
       "pushedBy": "andrew_nemiroff@colpal.com"
+    },
+    {
+      "id": "fleet-set-light_mode-AN-uhwo53g5-1779491989491",
+      "actions": [
+        {
+          "type": "set_setting",
+          "key": "light_mode",
+          "value": "false",
+          "force": "reset"
+        }
+      ],
+      "pushedAt": "2026-05-22T23:19:49.491Z",
+      "pushedBy": "andrew_nemiroff@colpal.com",
+      "audienceEmails": [
+        "andrew_nemiroff@colpal.com"
+      ]
     }
   ]
 }
