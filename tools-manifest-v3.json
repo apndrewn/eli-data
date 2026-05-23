@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-23T05:30:09.100Z",
+  "lastUpdated": "2026-05-23T05:41:50.700Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -62,9 +62,9 @@
     {
       "id": "eli-admin",
       "version": null,
-      "lastUpdated": "2026-05-23T00:06:59.919Z",
+      "lastUpdated": "2026-05-23T05:41:49.885Z",
       "filename": "eli-admin-v3.json",
-      "size": 33230,
+      "size": 36638,
       "label": "ELI Admin Overrides",
       "kind": "tool",
       "category": "System",
@@ -596,9 +596,9 @@
     {
       "id": "admin_fleet",
       "version": null,
-      "lastUpdated": "2026-05-23T04:14:13.529Z",
+      "lastUpdated": "2026-05-23T05:41:49.763Z",
       "filename": "admin_fleet-v3.json",
-      "size": 132927,
+      "size": 145333,
       "label": "Admin Fleet",
       "kind": "tool",
       "category": "Admin",
