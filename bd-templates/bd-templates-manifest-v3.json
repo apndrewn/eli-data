@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-05-23T00:06:34.119Z",
+  "lastUpdated": "2026-05-23T04:44:58.106Z",
   "templates": [
     {
       "id": "bd_doc__amendment__masterxml___",
@@ -33,8 +33,8 @@
       "name": "Material Transfer Agreement",
       "agreementType": "material transfer agreement",
       "filename": "bd_doc__material_transfer_agreement__masterxml___.json",
-      "size": 270021,
-      "lastUpdated": "2026-05-22T05:50:05.912Z",
+      "size": 138989,
+      "lastUpdated": "2026-05-23T04:44:56.731Z",
       "core": true,
       "defaultForType": false,
       "audienceEmails": [],
