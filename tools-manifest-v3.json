@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-23T00:13:32.951Z",
+  "lastUpdated": "2026-05-23T00:30:56.036Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -600,6 +600,21 @@
       "filename": "admin_fleet-v3.json",
       "size": 115380,
       "label": "Admin Fleet",
+      "kind": "tool",
+      "category": "Admin",
+      "audience": [],
+      "changelog": "",
+      "audienceEmails": [
+        "andrew_nemiroff@colpal.com"
+      ]
+    },
+    {
+      "id": "business_continuity",
+      "version": null,
+      "lastUpdated": "2026-05-23T00:30:46.839Z",
+      "filename": "business_continuity-v3.json",
+      "size": 29128,
+      "label": "Business Continuity",
       "kind": "tool",
       "category": "Admin",
       "audience": [],
