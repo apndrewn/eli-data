@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-23T01:45:39.776Z",
+  "lastUpdated": "2026-05-23T01:48:44.182Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -34,9 +34,9 @@
     {
       "id": "eli_kit",
       "version": null,
-      "lastUpdated": "2026-05-17T14:16:46.900Z",
+      "lastUpdated": "2026-05-23T01:48:43.447Z",
       "filename": "eli_kit-v3.json",
-      "size": 102894,
+      "size": 103633,
       "label": "ELI Kit",
       "kind": "tool",
       "category": "System",
@@ -230,9 +230,9 @@
     {
       "id": "eli_settings",
       "version": null,
-      "lastUpdated": "2026-05-23T01:43:21.071Z",
+      "lastUpdated": "2026-05-23T01:48:43.346Z",
       "filename": "eli_settings-v3.json",
-      "size": 96196,
+      "size": 95417,
       "label": "Settings",
       "kind": "tool",
       "category": "System",
