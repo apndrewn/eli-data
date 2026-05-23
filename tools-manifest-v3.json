@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-23T14:48:31.842Z",
+  "lastUpdated": "2026-05-23T14:53:01.699Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -626,9 +626,9 @@
     {
       "id": "template_searcher",
       "version": null,
-      "lastUpdated": "2026-05-23T14:48:31.046Z",
+      "lastUpdated": "2026-05-23T14:53:00.897Z",
       "filename": "template_searcher-v3.json",
-      "size": 48818,
+      "size": 51423,
       "label": "Template Searcher",
       "kind": "tool",
       "category": "Admin",
