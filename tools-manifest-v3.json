@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-23T04:56:56.901Z",
+  "lastUpdated": "2026-05-23T05:09:30.682Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -342,9 +342,9 @@
     {
       "id": "legal_risks",
       "version": null,
-      "lastUpdated": "2026-05-19T12:30:05.837Z",
+      "lastUpdated": "2026-05-23T05:09:29.918Z",
       "filename": "legal_risks-v3.json",
-      "size": 254539,
+      "size": 255880,
       "label": "Legal Risks",
       "kind": "tool",
       "category": "External Innovation",
