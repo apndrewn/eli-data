@@ -1,7 +1,7 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-05-23T03:54:23.711Z",
+  "generatedAt": "2026-05-23T04:13:25.021Z",
   "days": [
     {
       "date": "2026-05-18",
@@ -325,14 +325,24 @@
         }
       },
       "estCostUSD": 0.000551
+    },
+    {
+      "date": "2026-05-23",
+      "toolsUsed": {},
+      "sessions": 2,
+      "firstActiveAt": 1779509342235,
+      "lastActiveAt": 1779509488221,
+      "tokens": {},
+      "tokensByTool": {},
+      "estCostUSD": 0
     }
   ],
   "fleet": {
-    "userId": "AN-hihtomk4",
+    "userId": "AN-r2sbcwj5",
     "initials": "AN",
     "kernelVersion": "v3-2026-05-23j-uuid-on-demand",
     "installedAt": "2026-05-22T16:36:38.096Z",
-    "lastSeenAt": "2026-05-23T03:54:23.812Z",
+    "lastSeenAt": "2026-05-23T04:13:25.148Z",
     "settings": {
       "ai_model": "gemini-3.1-flash-lite-preview",
       "ai_temperature": 0.3,
@@ -362,7 +372,7 @@
       },
       {
         "id": "admin_fleet",
-        "releasedAt": "2026-05-23T03:53:12.623Z",
+        "releasedAt": "2026-05-23T04:00:50.566Z",
         "disabled": false
       },
       {
@@ -467,7 +477,7 @@
       },
       {
         "id": "eli_settings",
-        "releasedAt": "2026-05-23T03:48:50.810Z",
+        "releasedAt": "2026-05-23T03:55:03.606Z",
         "disabled": false
       },
       {
