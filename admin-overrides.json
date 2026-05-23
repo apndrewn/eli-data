@@ -1,23 +1,7 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-05-23T00:02:02.093Z",
+  "lastUpdated": "2026-05-23T00:02:02.665Z",
   "overrides": [
-    {
-      "id": "fleet-set-expand_width-AN-uhwo53g5-1779494239810",
-      "actions": [
-        {
-          "type": "set_setting",
-          "key": "expand_width",
-          "value": 600,
-          "force": true
-        }
-      ],
-      "pushedAt": "2026-05-22T23:57:19.810Z",
-      "pushedBy": "andrew_nemiroff@colpal.com",
-      "audienceEmails": [
-        "andrew_nemiroff@colpal.com"
-      ]
-    },
     {
       "id": "fleet-revert-fleet-set-expand_width-AN-uhwo53g5-1779494239810-1779494522092",
       "actions": [
