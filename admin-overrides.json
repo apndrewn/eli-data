@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-05-23T04:35:09.431Z",
+  "lastUpdated": "2026-05-23T04:36:07.027Z",
   "overrides": [
     {
       "id": "fleet-notice-AN-ioimnwgd-1779510909431",
@@ -17,6 +17,20 @@
       "audienceEmails": [
         "andrew_nemiroff@colpal.com"
       ]
+    },
+    {
+      "id": "fleet-disable_tool-eli_agent-AN-ioimnwgd-1779510967027",
+      "audienceEmails": [
+        "andrew_nemiroff@colpal.com"
+      ],
+      "actions": [
+        {
+          "type": "disable_tool",
+          "toolId": "eli_agent"
+        }
+      ],
+      "pushedAt": "2026-05-23T04:36:07.027Z",
+      "pushedBy": "andrew_nemiroff@colpal.com"
     }
   ]
 }
