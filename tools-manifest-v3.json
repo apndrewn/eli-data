@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-23T15:27:21.334Z",
+  "lastUpdated": "2026-05-23T15:44:18.419Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -630,6 +630,21 @@
       "filename": "template_searcher-v3.json",
       "size": 56849,
       "label": "Template Searcher",
+      "kind": "tool",
+      "category": "Admin",
+      "audience": [],
+      "changelog": "",
+      "audienceEmails": [
+        "andrew_nemiroff@colpal.com"
+      ]
+    },
+    {
+      "id": "template_indexer",
+      "version": null,
+      "lastUpdated": "2026-05-23T15:44:17.537Z",
+      "filename": "template_indexer-v3.json",
+      "size": 22290,
+      "label": "Template Indexer",
       "kind": "tool",
       "category": "Admin",
       "audience": [],
