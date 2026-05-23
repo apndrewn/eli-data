@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-23T05:10:53.478Z",
+  "lastUpdated": "2026-05-23T05:13:17.403Z",
   "tools": [
     {
       "id": "tool_manager",
       "version": null,
-      "lastUpdated": "2026-05-23T04:56:56.121Z",
+      "lastUpdated": "2026-05-23T05:13:16.636Z",
       "filename": "tool_manager-v3.json",
-      "size": 93097,
+      "size": 96673,
       "label": "Data Hub",
       "kind": "tool",
       "category": "Tools - ELI Core",
