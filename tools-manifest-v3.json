@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-23T23:05:22.881Z",
+  "lastUpdated": "2026-05-23T23:09:47.409Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -641,9 +641,9 @@
     {
       "id": "template_indexer",
       "version": null,
-      "lastUpdated": "2026-05-23T23:05:22.095Z",
+      "lastUpdated": "2026-05-23T23:09:46.677Z",
       "filename": "template_indexer-v3.json",
-      "size": 188567,
+      "size": 189571,
       "label": "Template Indexer",
       "kind": "tool",
       "category": "Admin",
