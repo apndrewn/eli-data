@@ -1,26 +1,28 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-05-23T06:12:23.556Z",
+  "generatedAt": "2026-05-23T18:23:09.893Z",
   "days": [
     {
       "date": "2026-05-23",
       "toolsUsed": {
         "draft": 1,
         "error": 1,
-        "draft_templates": 4,
+        "draft_templates": 5,
         "admin_library_publisher": 1,
         "legal_review": 11,
-        "risk": 9
+        "risk": 9,
+        "template_searcher": 13,
+        "template_indexer": 25
       },
-      "sessions": 54,
+      "sessions": 112,
       "firstActiveAt": 1779510766586,
-      "lastActiveAt": 1779516738687,
+      "lastActiveAt": 1779560588820,
       "tokens": {
         "gemini-3.1-flash-lite-preview": {
-          "promptTokens": 60615,
-          "candidatesTokens": 9827,
-          "calls": 12
+          "promptTokens": 61998,
+          "candidatesTokens": 9977,
+          "calls": 13
         }
       },
       "tokensByTool": {
@@ -44,9 +46,16 @@
             "candidatesTokens": 8292,
             "calls": 8
           }
+        },
+        "_unknown": {
+          "gemini-3.1-flash-lite-preview": {
+            "promptTokens": 1383,
+            "candidatesTokens": 150,
+            "calls": 1
+          }
         }
       },
-      "estCostUSD": 0.00439
+      "estCostUSD": 0.004475
     }
   ],
   "fleet": {
@@ -54,7 +63,7 @@
     "initials": "AN",
     "kernelVersion": "v3-2026-05-23j-uuid-on-demand",
     "installedAt": "2026-05-22T16:36:38.096Z",
-    "lastSeenAt": "2026-05-23T06:12:23.656Z",
+    "lastSeenAt": "2026-05-23T18:23:10.053Z",
     "settings": {
       "ai_model": "gemini-3.1-flash-lite-preview",
       "ai_temperature": 0.3,
@@ -84,7 +93,7 @@
       },
       {
         "id": "admin_fleet",
-        "releasedAt": "2026-05-23T06:11:24.338Z",
+        "releasedAt": "2026-05-23T07:08:46.944Z",
         "disabled": false
       },
       {
@@ -94,7 +103,7 @@
       },
       {
         "id": "admin_storage_inspector",
-        "releasedAt": "2026-05-17T13:54:46.116Z",
+        "releasedAt": "2026-05-23T06:36:46.324Z",
         "disabled": false
       },
       {
@@ -114,7 +123,7 @@
       },
       {
         "id": "admin_usage_viewer",
-        "releasedAt": "2026-05-23T06:11:24.467Z",
+        "releasedAt": "2026-05-23T06:31:05.079Z",
         "disabled": false
       },
       {
@@ -263,8 +272,18 @@
         "disabled": false
       },
       {
+        "id": "template_indexer",
+        "releasedAt": "2026-05-23T18:22:29.522Z",
+        "disabled": false
+      },
+      {
         "id": "template_manager",
         "releasedAt": "2026-05-22T13:42:03.788Z",
+        "disabled": false
+      },
+      {
+        "id": "template_searcher",
+        "releasedAt": "2026-05-23T16:06:25.472Z",
         "disabled": false
       },
       {
@@ -309,6 +328,10 @@
       {
         "id": "fleet-revoke-admin_template_studio-AN-ioimnwgd-1779515352322",
         "at": 1779515530322
+      },
+      {
+        "id": "fleet-set-light_mode-AN-ioimnwgd-1779517227118",
+        "at": 1779517922943
       }
     ],
     "dashboardApps": [
