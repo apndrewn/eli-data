@@ -1,5 +1,22 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-05-23T01:28:04.831Z",
-  "overrides": []
+  "lastUpdated": "2026-05-23T04:35:09.431Z",
+  "overrides": [
+    {
+      "id": "fleet-notice-AN-ioimnwgd-1779510909431",
+      "actions": [
+        {
+          "type": "notice",
+          "title": "Heads up",
+          "html": "<p>test....</p>",
+          "dismissLabel": "OK"
+        }
+      ],
+      "pushedAt": "2026-05-23T04:35:09.431Z",
+      "pushedBy": "andrew_nemiroff@colpal.com",
+      "audienceEmails": [
+        "andrew_nemiroff@colpal.com"
+      ]
+    }
+  ]
 }
