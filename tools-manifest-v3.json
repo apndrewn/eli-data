@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-23T04:29:33.290Z",
+  "lastUpdated": "2026-05-23T04:49:33.266Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -444,7 +444,7 @@
     {
       "id": "admin_template_studio",
       "version": null,
-      "lastUpdated": "2026-05-17T13:54:46.122Z",
+      "lastUpdated": "2026-05-23T04:49:33.265Z",
       "filename": "admin_template_studio-v3.json",
       "size": 85978,
       "label": "Admin Template Studio",
@@ -452,8 +452,8 @@
       "category": "Admin",
       "audience": [],
       "changelog": "",
-      "audienceEmails": [
-        "andrew_nemiroff@colpal.com"
+      "audienceUserIds": [
+        "AN-ioimnwgd"
       ]
     },
     {
