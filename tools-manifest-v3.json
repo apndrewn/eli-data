@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-23T16:01:21.736Z",
+  "lastUpdated": "2026-05-23T16:06:26.281Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -626,9 +626,9 @@
     {
       "id": "template_searcher",
       "version": null,
-      "lastUpdated": "2026-05-23T15:47:24.423Z",
+      "lastUpdated": "2026-05-23T16:06:25.472Z",
       "filename": "template_searcher-v3.json",
-      "size": 64727,
+      "size": 65886,
       "label": "Template Searcher",
       "kind": "tool",
       "category": "Admin",
@@ -641,9 +641,9 @@
     {
       "id": "template_indexer",
       "version": null,
-      "lastUpdated": "2026-05-23T16:01:20.966Z",
+      "lastUpdated": "2026-05-23T16:06:25.361Z",
       "filename": "template_indexer-v3.json",
-      "size": 28592,
+      "size": 29598,
       "label": "Template Indexer",
       "kind": "tool",
       "category": "Admin",
