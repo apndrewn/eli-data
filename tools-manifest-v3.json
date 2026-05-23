@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-23T01:57:25.354Z",
+  "lastUpdated": "2026-05-23T01:59:56.599Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -611,9 +611,9 @@
     {
       "id": "business_continuity",
       "version": null,
-      "lastUpdated": "2026-05-23T01:54:50.137Z",
+      "lastUpdated": "2026-05-23T01:59:55.860Z",
       "filename": "business_continuity-v3.json",
-      "size": 34927,
+      "size": 36355,
       "label": "Business Continuity",
       "kind": "tool",
       "category": "Admin",
