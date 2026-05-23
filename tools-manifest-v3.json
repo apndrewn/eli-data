@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-23T04:00:51.516Z",
+  "lastUpdated": "2026-05-23T04:14:14.568Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -596,9 +596,9 @@
     {
       "id": "admin_fleet",
       "version": null,
-      "lastUpdated": "2026-05-23T04:00:50.566Z",
+      "lastUpdated": "2026-05-23T04:14:13.529Z",
       "filename": "admin_fleet-v3.json",
-      "size": 126217,
+      "size": 132927,
       "label": "Admin Fleet",
       "kind": "tool",
       "category": "Admin",
