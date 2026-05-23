@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-23T03:20:41.394Z",
+  "lastUpdated": "2026-05-23T03:21:21.499Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -90,7 +90,7 @@
     {
       "id": "docuscrub",
       "version": null,
-      "lastUpdated": "2026-05-18T11:52:33.187Z",
+      "lastUpdated": "2026-05-23T03:21:20.668Z",
       "filename": "docuscrub-v3.json",
       "size": 61405,
       "label": "DocuScrub",
