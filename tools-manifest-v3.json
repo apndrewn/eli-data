@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-24T19:27:31.326Z",
+  "lastUpdated": "2026-05-24T20:01:38.204Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -202,9 +202,9 @@
     {
       "id": "compare",
       "version": null,
-      "lastUpdated": "2026-05-22T13:53:24.613Z",
+      "lastUpdated": "2026-05-24T20:01:32.701Z",
       "filename": "compare-v3.json",
-      "size": 165453,
+      "size": 195747,
       "label": "Compare to Template",
       "kind": "tool",
       "category": "External Innovation",
@@ -328,9 +328,9 @@
     {
       "id": "legal_review",
       "version": null,
-      "lastUpdated": "2026-05-21T00:09:03.365Z",
+      "lastUpdated": "2026-05-24T20:01:32.794Z",
       "filename": "legal_review-v3.json",
-      "size": 84846,
+      "size": 85865,
       "label": "Legal Review",
       "kind": "tool",
       "category": "External Innovation",
