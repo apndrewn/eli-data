@@ -1,28 +1,30 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-05-23T18:23:09.893Z",
+  "generatedAt": "2026-05-24T14:16:47.843Z",
   "days": [
     {
       "date": "2026-05-23",
       "toolsUsed": {
         "draft": 1,
         "error": 1,
-        "draft_templates": 5,
+        "draft_templates": 6,
         "admin_library_publisher": 1,
         "legal_review": 11,
         "risk": 9,
         "template_searcher": 13,
-        "template_indexer": 25
+        "template_indexer": 68,
+        "auto_emailer": 1,
+        "focus_flow": 1
       },
-      "sessions": 112,
+      "sessions": 159,
       "firstActiveAt": 1779510766586,
-      "lastActiveAt": 1779560588820,
+      "lastActiveAt": 1779579477372,
       "tokens": {
         "gemini-3.1-flash-lite-preview": {
-          "promptTokens": 61998,
-          "candidatesTokens": 9977,
-          "calls": 13
+          "promptTokens": 77911,
+          "candidatesTokens": 10053,
+          "calls": 14
         }
       },
       "tokensByTool": {
@@ -53,9 +55,28 @@
             "candidatesTokens": 150,
             "calls": 1
           }
+        },
+        "template_indexer": {
+          "gemini-3.1-flash-lite-preview": {
+            "promptTokens": 15913,
+            "candidatesTokens": 76,
+            "calls": 1
+          }
         }
       },
-      "estCostUSD": 0.004475
+      "estCostUSD": 0.005127
+    },
+    {
+      "date": "2026-05-24",
+      "toolsUsed": {
+        "template_indexer": 2
+      },
+      "sessions": 2,
+      "firstActiveAt": 1779597075300,
+      "lastActiveAt": 1779632205040,
+      "tokens": {},
+      "tokensByTool": {},
+      "estCostUSD": 0
     }
   ],
   "fleet": {
@@ -63,7 +84,7 @@
     "initials": "AN",
     "kernelVersion": "v3-2026-05-23j-uuid-on-demand",
     "installedAt": "2026-05-22T16:36:38.096Z",
-    "lastSeenAt": "2026-05-23T18:23:10.053Z",
+    "lastSeenAt": "2026-05-24T14:16:48.026Z",
     "settings": {
       "ai_model": "gemini-3.1-flash-lite-preview",
       "ai_temperature": 0.3,
@@ -273,7 +294,7 @@
       },
       {
         "id": "template_indexer",
-        "releasedAt": "2026-05-23T18:22:29.522Z",
+        "releasedAt": "2026-05-24T04:40:30.364Z",
         "disabled": false
       },
       {
@@ -335,12 +356,13 @@
       }
     ],
     "dashboardApps": [
-      "auto_emailer",
-      "build_draft",
+      "legal_review",
       "error_review",
       "final_review",
-      "legal_review"
+      "build_draft",
+      "auto_emailer",
+      "template_indexer"
     ],
-    "dashboardCustomized": false
+    "dashboardCustomized": true
   }
 }
