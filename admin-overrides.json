@@ -1,21 +1,7 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-05-25T05:17:18.967Z",
+  "lastUpdated": "2026-05-25T05:17:20.530Z",
   "overrides": [
-    {
-      "id": "fleet-clear-override-admin_template_studio-AN-ioimnwgd-1779515598046",
-      "actions": [
-        {
-          "type": "audience_clear_user_override",
-          "toolId": "admin_template_studio"
-        }
-      ],
-      "pushedAt": "2026-05-23T05:53:18.046Z",
-      "pushedBy": "andrew_nemiroff@colpal.com",
-      "audienceEmails": [
-        "andrew_nemiroff@colpal.com"
-      ]
-    },
     {
       "id": "fleet-set-light_mode-AN-ioimnwgd-1779517227118",
       "actions": [
