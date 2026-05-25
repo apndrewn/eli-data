@@ -1,21 +1,7 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-05-25T05:15:40.161Z",
+  "lastUpdated": "2026-05-25T05:17:18.967Z",
   "overrides": [
-    {
-      "id": "fleet-revoke-admin_template_studio-AN-ioimnwgd-1779515352322",
-      "actions": [
-        {
-          "type": "audience_revoke_user",
-          "toolId": "admin_template_studio"
-        }
-      ],
-      "pushedAt": "2026-05-23T05:49:12.322Z",
-      "pushedBy": "andrew_nemiroff@colpal.com",
-      "audienceEmails": [
-        "andrew_nemiroff@colpal.com"
-      ]
-    },
     {
       "id": "fleet-clear-override-admin_template_studio-AN-ioimnwgd-1779515598046",
       "actions": [
