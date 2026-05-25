@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-25T20:23:10.375Z",
+  "lastUpdated": "2026-05-25T21:31:06.580Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -258,9 +258,9 @@
     {
       "id": "build_draft",
       "version": null,
-      "lastUpdated": "2026-05-24T17:42:38.320Z",
+      "lastUpdated": "2026-05-25T21:31:05.591Z",
       "filename": "build_draft-v3.json",
-      "size": 431747,
+      "size": 433518,
       "label": "Build Draft",
       "kind": "tool",
       "category": "External Innovation",
@@ -551,9 +551,9 @@
     {
       "id": "eli_telemetry",
       "version": null,
-      "lastUpdated": "2026-05-25T04:58:44.707Z",
+      "lastUpdated": "2026-05-25T21:31:05.705Z",
       "filename": "eli_telemetry-v3.json",
-      "size": 63005,
+      "size": 65547,
       "label": "Usage Telemetry",
       "kind": "tool",
       "category": "System",
