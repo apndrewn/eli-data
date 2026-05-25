@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-25T02:26:06.194Z",
+  "lastUpdated": "2026-05-25T02:33:03.414Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -656,9 +656,9 @@
     {
       "id": "infographics_lab",
       "version": null,
-      "lastUpdated": "2026-05-25T02:26:05.445Z",
+      "lastUpdated": "2026-05-25T02:33:02.633Z",
       "filename": "infographics_lab-v3.json",
-      "size": 13091,
+      "size": 18722,
       "label": "Infographics Lab",
       "kind": "tool",
       "category": "Admin",
