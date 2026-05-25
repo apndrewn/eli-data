@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-25T03:48:43.741Z",
+  "lastUpdated": "2026-05-25T04:58:49.972Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -551,9 +551,9 @@
     {
       "id": "eli_telemetry",
       "version": null,
-      "lastUpdated": "2026-05-23T06:11:24.227Z",
+      "lastUpdated": "2026-05-25T04:58:44.707Z",
       "filename": "eli_telemetry-v3.json",
-      "size": 61702,
+      "size": 63005,
       "label": "Usage Telemetry",
       "kind": "tool",
       "category": "System",
@@ -656,10 +656,25 @@
     {
       "id": "infographics_lab",
       "version": null,
-      "lastUpdated": "2026-05-25T03:38:51.763Z",
+      "lastUpdated": "2026-05-25T04:58:44.527Z",
       "filename": "infographics_lab-v3.json",
-      "size": 33520,
+      "size": 33889,
       "label": "Infographics Lab",
+      "kind": "tool",
+      "category": "Admin",
+      "audience": [],
+      "changelog": "",
+      "audienceEmails": [
+        "andrew_nemiroff@colpal.com"
+      ]
+    },
+    {
+      "id": "survey_tester",
+      "version": null,
+      "lastUpdated": "2026-05-25T04:58:44.621Z",
+      "filename": "survey_tester-v3.json",
+      "size": 31804,
+      "label": "Survey Tester",
       "kind": "tool",
       "category": "Admin",
       "audience": [],
