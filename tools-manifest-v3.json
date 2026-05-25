@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-25T21:31:06.580Z",
+  "lastUpdated": "2026-05-25T21:33:56.166Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -503,21 +503,6 @@
       ]
     },
     {
-      "id": "clause_library",
-      "version": null,
-      "lastUpdated": "2026-05-21T12:00:39.928Z",
-      "filename": "clause_library-v3.json",
-      "size": 107432,
-      "label": "Skeleton Workshop",
-      "kind": "tool",
-      "category": "Admin",
-      "audience": [],
-      "changelog": "",
-      "audienceEmails": [
-        "andrew_nemiroff@colpal.com"
-      ]
-    },
-    {
       "id": "template_manager",
       "version": null,
       "lastUpdated": "2026-05-22T13:42:03.788Z",
@@ -596,9 +581,9 @@
     {
       "id": "admin_fleet",
       "version": null,
-      "lastUpdated": "2026-05-25T20:23:08.865Z",
+      "lastUpdated": "2026-05-25T21:33:50.543Z",
       "filename": "admin_fleet-v3.json",
-      "size": 290126,
+      "size": 291695,
       "label": "Admin Fleet",
       "kind": "tool",
       "category": "Admin",
