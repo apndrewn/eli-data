@@ -1,0 +1,552 @@
+{
+  "userName": "AN",
+  "userKey": "an",
+  "generatedAt": "2026-05-25T04:22:25.494Z",
+  "days": [
+    {
+      "date": "2026-05-19",
+      "toolsUsed": {
+        "final_review": 1,
+        "legal_review": 12,
+        "review_redlines": 11,
+        "draft_templates": 42,
+        "admin_team_guidance": 2,
+        "draft": 27,
+        "error": 14,
+        "bd_template_tester": 1,
+        "risk": 1,
+        "admin_library_publisher": 9
+      },
+      "sessions": 92,
+      "firstActiveAt": 1779196219590,
+      "lastActiveAt": 1779249445947,
+      "tokens": {
+        "gemini-3.1-flash-lite-preview": {
+          "promptTokens": 924575,
+          "candidatesTokens": 36351,
+          "calls": 359
+        }
+      },
+      "tokensByTool": {
+        "review_redlines": {
+          "gemini-3.1-flash-lite-preview": {
+            "promptTokens": 571205,
+            "candidatesTokens": 22461,
+            "calls": 326
+          }
+        },
+        "draft": {
+          "gemini-3.1-flash-lite-preview": {
+            "promptTokens": 27310,
+            "candidatesTokens": 4451,
+            "calls": 12
+          }
+        },
+        "error": {
+          "gemini-3.1-flash-lite-preview": {
+            "promptTokens": 189907,
+            "candidatesTokens": 4639,
+            "calls": 13
+          }
+        },
+        "_unknown": {
+          "gemini-3.1-flash-lite-preview": {
+            "promptTokens": 21312,
+            "candidatesTokens": 2665,
+            "calls": 3
+          }
+        },
+        "risk": {
+          "gemini-3.1-flash-lite-preview": {
+            "promptTokens": 17963,
+            "candidatesTokens": 1240,
+            "calls": 1
+          }
+        },
+        "draft_templates": {
+          "gemini-3.1-flash-lite-preview": {
+            "promptTokens": 96878,
+            "candidatesTokens": 895,
+            "calls": 4
+          }
+        }
+      },
+      "estCostUSD": 0.044253
+    },
+    {
+      "date": "2026-05-20",
+      "toolsUsed": {
+        "draft": 26,
+        "draft_templates": 34,
+        "admin_library_publisher": 1,
+        "error": 3,
+        "legal_review": 3,
+        "review_redlines": 3,
+        "ask_eli": 2,
+        "agent_apply_instruction": 1,
+        "final_review": 1,
+        "docuscrub": 2,
+        "playbook_manager": 1,
+        "agent_draft_agreement": 1
+      },
+      "sessions": 71,
+      "firstActiveAt": 1779250555875,
+      "lastActiveAt": 1779314973840,
+      "tokens": {
+        "gemini-3.1-flash-lite-preview": {
+          "promptTokens": 403245,
+          "candidatesTokens": 21535,
+          "calls": 88
+        }
+      },
+      "tokensByTool": {
+        "draft": {
+          "gemini-3.1-flash-lite-preview": {
+            "promptTokens": 17375,
+            "candidatesTokens": 3653,
+            "calls": 8
+          }
+        },
+        "error": {
+          "gemini-3.1-flash-lite-preview": {
+            "promptTokens": 48395,
+            "candidatesTokens": 2642,
+            "calls": 3
+          }
+        },
+        "review_redlines": {
+          "gemini-3.1-flash-lite-preview": {
+            "promptTokens": 143875,
+            "candidatesTokens": 7276,
+            "calls": 65
+          }
+        },
+        "agent_apply_instruction": {
+          "gemini-3.1-flash-lite-preview": {
+            "promptTokens": 191038,
+            "candidatesTokens": 7429,
+            "calls": 10
+          }
+        },
+        "final_review": {
+          "gemini-3.1-flash-lite-preview": {
+            "promptTokens": 2195,
+            "candidatesTokens": 464,
+            "calls": 1
+          }
+        },
+        "agent_draft_agreement": {
+          "gemini-3.1-flash-lite-preview": {
+            "promptTokens": 367,
+            "candidatesTokens": 71,
+            "calls": 1
+          }
+        }
+      },
+      "estCostUSD": 0.020437
+    },
+    {
+      "date": "2026-05-21",
+      "toolsUsed": {
+        "auto_emailer_templates": 1,
+        "draft_templates": 37,
+        "draft": 17,
+        "error": 1,
+        "admin_library_publisher": 1
+      },
+      "sessions": 47,
+      "firstActiveAt": 1779366837249,
+      "lastActiveAt": 1779421818696,
+      "tokens": {
+        "gemini-3.1-flash-lite-preview": {
+          "promptTokens": 24902,
+          "candidatesTokens": 4776,
+          "calls": 9
+        }
+      },
+      "tokensByTool": {
+        "draft": {
+          "gemini-3.1-flash-lite-preview": {
+            "promptTokens": 15162,
+            "candidatesTokens": 3155,
+            "calls": 7
+          }
+        },
+        "error": {
+          "gemini-3.1-flash-lite-preview": {
+            "promptTokens": 7917,
+            "candidatesTokens": 348,
+            "calls": 1
+          }
+        },
+        "draft_templates": {
+          "gemini-3.1-flash-lite-preview": {
+            "promptTokens": 1823,
+            "candidatesTokens": 1273,
+            "calls": 1
+          }
+        }
+      },
+      "estCostUSD": 0.001951
+    },
+    {
+      "date": "2026-05-22",
+      "toolsUsed": {
+        "draft_templates": 5,
+        "draft": 1
+      },
+      "sessions": 9,
+      "firstActiveAt": 1779422747627,
+      "lastActiveAt": 1779429891679,
+      "tokens": {
+        "gemini-3.1-flash-lite-preview": {
+          "promptTokens": 2324,
+          "candidatesTokens": 299,
+          "calls": 1
+        }
+      },
+      "tokensByTool": {
+        "draft": {
+          "gemini-3.1-flash-lite-preview": {
+            "promptTokens": 2324,
+            "candidatesTokens": 299,
+            "calls": 1
+          }
+        }
+      },
+      "estCostUSD": 0.000153
+    },
+    {
+      "date": "2026-05-24",
+      "toolsUsed": {
+        "draft_templates": 7,
+        "draft": 1,
+        "error": 1,
+        "template_searcher": 1
+      },
+      "sessions": 6,
+      "firstActiveAt": 1779681004900,
+      "lastActiveAt": 1779681508385,
+      "tokens": {
+        "gemini-flash-lite-latest": {
+          "promptTokens": 25019,
+          "candidatesTokens": 901,
+          "calls": 1
+        }
+      },
+      "tokensByTool": {
+        "error": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 25019,
+            "candidatesTokens": 901,
+            "calls": 1
+          }
+        }
+      },
+      "estCostUSD": 0.002147
+    },
+    {
+      "date": "2026-05-25",
+      "toolsUsed": {
+        "draft_templates": 4
+      },
+      "sessions": 10,
+      "firstActiveAt": 1779681826353,
+      "lastActiveAt": 1779682910007,
+      "tokens": {},
+      "tokensByTool": {},
+      "estCostUSD": 0
+    }
+  ],
+  "fleet": {
+    "userId": "AN-0jixa0g9",
+    "initials": "AN",
+    "kernelVersion": "v3-2026-05-23j-uuid-on-demand",
+    "installedAt": "2026-05-25T04:22:25.663Z",
+    "lastSeenAt": "2026-05-25T04:22:25.663Z",
+    "settings": {
+      "ai_model": "gemini-flash-lite-latest",
+      "ai_temperature": 0.3,
+      "ai_timeout_ms": 120000,
+      "ai_thinking_budget": 0,
+      "ai_allow_streaming": false,
+      "ai_model_list": [
+        "gemini-3.1-flash-lite",
+        "gemini-3-flash-preview",
+        "gemini-2.5-flash",
+        "gemini-2.5-pro"
+      ],
+      "expand_width": 800,
+      "expand_threshold": 480,
+      "debug_mode": false,
+      "ai_image_model": "gemini-3.1-flash-image-preview",
+      "light_mode": false,
+      "header_theme_index": 0,
+      "minimize_feed": false,
+      "auto_hide_sidebar": true,
+      "auto_expand_window": false,
+      "auto_check_tools": true,
+      "show_expand_pill": true,
+      "language": "en"
+    },
+    "tools": [
+      {
+        "id": "admin_data_editor",
+        "releasedAt": "2026-05-17T13:54:46.109Z",
+        "disabled": false
+      },
+      {
+        "id": "admin_fleet",
+        "releasedAt": "2026-05-25T01:50:35.047Z",
+        "disabled": false
+      },
+      {
+        "id": "admin_library_publisher",
+        "releasedAt": "2026-05-22T03:55:24.742Z",
+        "disabled": false
+      },
+      {
+        "id": "admin_storage_inspector",
+        "releasedAt": "2026-05-23T06:36:46.324Z",
+        "disabled": false
+      },
+      {
+        "id": "admin_team_guidance",
+        "releasedAt": "2026-05-17T13:54:46.120Z",
+        "disabled": false
+      },
+      {
+        "id": "admin_telemetry_inspector",
+        "releasedAt": "2026-05-19T12:32:00.921Z",
+        "disabled": false
+      },
+      {
+        "id": "admin_template_studio",
+        "releasedAt": "2026-05-17T13:54:46.122Z",
+        "disabled": false
+      },
+      {
+        "id": "admin_usage_viewer",
+        "releasedAt": "2026-05-23T06:31:05.079Z",
+        "disabled": false
+      },
+      {
+        "id": "ask_eli",
+        "releasedAt": "2026-05-18T23:44:18.233Z",
+        "disabled": false
+      },
+      {
+        "id": "auto_emailer",
+        "releasedAt": "2026-05-18T11:52:32.931Z",
+        "disabled": false
+      },
+      {
+        "id": "bd_template_tester",
+        "releasedAt": "2026-05-20T06:26:01.803Z",
+        "disabled": false
+      },
+      {
+        "id": "build_draft",
+        "releasedAt": "2026-05-24T17:42:38.320Z",
+        "disabled": false
+      },
+      {
+        "id": "business_continuity",
+        "releasedAt": "2026-05-23T01:59:55.860Z",
+        "disabled": false
+      },
+      {
+        "id": "clause_library",
+        "releasedAt": "2026-05-21T12:00:39.928Z",
+        "disabled": false
+      },
+      {
+        "id": "compare",
+        "releasedAt": "2026-05-25T00:15:17.323Z",
+        "disabled": false
+      },
+      {
+        "id": "docuscrub",
+        "releasedAt": "2026-05-23T03:21:20.668Z",
+        "disabled": false
+      },
+      {
+        "id": "eli-activity",
+        "releasedAt": "2026-05-23T02:42:54.570Z",
+        "disabled": false
+      },
+      {
+        "id": "eli-admin",
+        "releasedAt": "2026-05-23T05:41:49.885Z",
+        "disabled": false
+      },
+      {
+        "id": "eli-wrongness",
+        "releasedAt": "2026-05-17T13:54:46.170Z",
+        "disabled": false
+      },
+      {
+        "id": "eli5",
+        "releasedAt": "2026-05-19T03:53:44.200Z",
+        "disabled": false
+      },
+      {
+        "id": "eli_agent",
+        "releasedAt": "2026-05-18T04:00:24.615Z",
+        "disabled": false
+      },
+      {
+        "id": "eli_kit",
+        "releasedAt": "2026-05-23T02:40:18.964Z",
+        "disabled": false
+      },
+      {
+        "id": "eli_settings",
+        "releasedAt": "2026-05-25T03:48:43.003Z",
+        "disabled": false
+      },
+      {
+        "id": "eli_stats",
+        "releasedAt": "2026-05-22T04:58:57.289Z",
+        "disabled": false
+      },
+      {
+        "id": "eli_telemetry",
+        "releasedAt": "2026-05-23T06:11:24.227Z",
+        "disabled": false
+      },
+      {
+        "id": "email_helper",
+        "releasedAt": "2026-05-18T11:52:32.556Z",
+        "disabled": false
+      },
+      {
+        "id": "error_review",
+        "releasedAt": "2026-05-19T00:14:19.840Z",
+        "disabled": false
+      },
+      {
+        "id": "final_review",
+        "releasedAt": "2026-05-18T11:52:32.317Z",
+        "disabled": false
+      },
+      {
+        "id": "focus_flow",
+        "releasedAt": "2026-05-18T11:52:32.797Z",
+        "disabled": false
+      },
+      {
+        "id": "infographics_lab",
+        "releasedAt": "2026-05-25T03:38:51.763Z",
+        "disabled": false
+      },
+      {
+        "id": "legal_review",
+        "releasedAt": "2026-05-24T20:01:32.794Z",
+        "disabled": false
+      },
+      {
+        "id": "legal_risks",
+        "releasedAt": "2026-05-23T05:30:08.210Z",
+        "disabled": false
+      },
+      {
+        "id": "oars_loader",
+        "releasedAt": "2026-05-22T04:21:48.648Z",
+        "disabled": false
+      },
+      {
+        "id": "playbook_manager",
+        "releasedAt": "2026-05-18T11:56:13.482Z",
+        "disabled": false
+      },
+      {
+        "id": "redline_authors",
+        "releasedAt": "2026-05-17T13:54:46.226Z",
+        "disabled": false
+      },
+      {
+        "id": "redline_email_pack",
+        "releasedAt": "2026-05-17T13:54:46.229Z",
+        "disabled": false
+      },
+      {
+        "id": "refresh_eli",
+        "releasedAt": "2026-05-17T13:54:46.231Z",
+        "disabled": false
+      },
+      {
+        "id": "review_redlines",
+        "releasedAt": "2026-05-20T01:09:52.508Z",
+        "disabled": false
+      },
+      {
+        "id": "template_indexer",
+        "releasedAt": "2026-05-24T18:27:57.643Z",
+        "disabled": false
+      },
+      {
+        "id": "template_manager",
+        "releasedAt": "2026-05-22T13:42:03.788Z",
+        "disabled": false
+      },
+      {
+        "id": "template_searcher",
+        "releasedAt": "2026-05-25T00:40:35.674Z",
+        "disabled": false
+      },
+      {
+        "id": "tool_author_studio",
+        "releasedAt": "2026-05-19T12:30:05.755Z",
+        "disabled": false
+      },
+      {
+        "id": "tool_manager",
+        "releasedAt": "2026-05-23T05:13:16.636Z",
+        "disabled": false
+      },
+      {
+        "id": "trophy_gallery",
+        "releasedAt": "2026-05-23T04:21:48.055Z",
+        "disabled": false
+      },
+      {
+        "id": "usage_risks",
+        "releasedAt": "2026-05-18T05:51:45.234Z",
+        "disabled": false
+      },
+      {
+        "id": "version_history",
+        "releasedAt": "2026-05-18T01:48:28.552Z",
+        "disabled": false
+      }
+    ],
+    "appliedOverrides": [
+      {
+        "id": "fleet-clear-override-admin_template_studio-AN-ioimnwgd-1779515598046",
+        "at": 1779681014053
+      },
+      {
+        "id": "fleet-revoke-admin_template_studio-AN-ioimnwgd-1779515352322",
+        "at": 1779681014053
+      },
+      {
+        "id": "fleet-set-light_mode-AN-ioimnwgd-1779517227118",
+        "at": 1779681014053
+      },
+      {
+        "id": "override-2026-05-12T13-24-52",
+        "at": 1778592564380
+      }
+    ],
+    "dashboardApps": [
+      "legal_review",
+      "error_review",
+      "final_review",
+      "build_draft",
+      "auto_emailer",
+      "admin_telemetry_inspector"
+    ],
+    "dashboardCustomized": true
+  }
+}
