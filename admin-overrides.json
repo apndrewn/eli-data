@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-05-23T06:20:27.118Z",
+  "lastUpdated": "2026-05-25T04:23:44.303Z",
   "overrides": [
     {
       "id": "fleet-revoke-admin_template_studio-AN-ioimnwgd-1779515352322",
@@ -41,6 +41,22 @@
         }
       ],
       "pushedAt": "2026-05-23T06:20:27.118Z",
+      "pushedBy": "andrew_nemiroff@colpal.com",
+      "audienceEmails": [
+        "andrew_nemiroff@colpal.com"
+      ]
+    },
+    {
+      "id": "fleet-notice-AN-0jixa0g9-1779683024303",
+      "actions": [
+        {
+          "type": "notice",
+          "title": "HI",
+          "html": "<p>Hi at work</p>",
+          "dismissLabel": "OK"
+        }
+      ],
+      "pushedAt": "2026-05-25T04:23:44.303Z",
       "pushedBy": "andrew_nemiroff@colpal.com",
       "audienceEmails": [
         "andrew_nemiroff@colpal.com"
