@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-25T01:46:30.881Z",
+  "lastUpdated": "2026-05-25T01:50:37.311Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -230,9 +230,9 @@
     {
       "id": "eli_settings",
       "version": null,
-      "lastUpdated": "2026-05-25T01:46:30.106Z",
+      "lastUpdated": "2026-05-25T01:50:35.294Z",
       "filename": "eli_settings-v3.json",
-      "size": 104079,
+      "size": 108752,
       "label": "Settings",
       "kind": "tool",
       "category": "System",
@@ -596,9 +596,9 @@
     {
       "id": "admin_fleet",
       "version": null,
-      "lastUpdated": "2026-05-25T01:37:40.131Z",
+      "lastUpdated": "2026-05-25T01:50:35.047Z",
       "filename": "admin_fleet-v3.json",
-      "size": 250214,
+      "size": 249794,
       "label": "Admin Fleet",
       "kind": "tool",
       "category": "Admin",
