@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-25T23:32:17.259Z",
+  "lastUpdated": "2026-05-25T23:50:48.429Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -660,6 +660,21 @@
       "filename": "survey_tester-v3.json",
       "size": 33462,
       "label": "Survey Tester",
+      "kind": "tool",
+      "category": "Admin",
+      "audience": [],
+      "changelog": "",
+      "audienceEmails": [
+        "andrew_nemiroff@colpal.com"
+      ]
+    },
+    {
+      "id": "chrome_tester",
+      "version": null,
+      "lastUpdated": "2026-05-25T23:50:47.564Z",
+      "filename": "chrome_tester-v3.json",
+      "size": 15485,
+      "label": "Chrome Tester",
       "kind": "tool",
       "category": "Admin",
       "audience": [],
