@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-25T05:07:39.186Z",
+  "lastUpdated": "2026-05-25T05:13:15.230Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -671,9 +671,9 @@
     {
       "id": "survey_tester",
       "version": null,
-      "lastUpdated": "2026-05-25T04:58:44.621Z",
+      "lastUpdated": "2026-05-25T05:13:14.300Z",
       "filename": "survey_tester-v3.json",
-      "size": 31804,
+      "size": 33461,
       "label": "Survey Tester",
       "kind": "tool",
       "category": "Admin",
