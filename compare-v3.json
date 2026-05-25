@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-05-25T00:15:17.324Z",
+  "exportedAt": "2026-05-25T06:17:19.986Z",
   "sectionVersions": {
     "jsonTools": 1
   },
   "sections": {
     "jsonTools": [
       {
-        "releasedAt": "2026-05-25T00:15:17.323Z",
+        "releasedAt": "2026-05-25T06:17:19.985Z",
         "id": "compare",
         "label": "Compare to Template",
         "defaultEnabled": true,
         "audience": [
           "all"
         ],
-        "tier": "demand",
+        "tier": "preload",
         "requires": {
           "host": 1,
           "ai": 1,
