@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-05-25T05:25:47.467Z",
+  "lastUpdated": "2026-05-25T20:23:05.274Z",
   "overrides": [
     {
       "id": "fleet-set-light_mode-AN-ioimnwgd-1779517227118",
@@ -87,6 +87,27 @@
         }
       ],
       "pushedAt": "2026-05-25T05:25:47.467Z",
+      "pushedBy": "andrew_nemiroff@colpal.com",
+      "audienceEmails": [
+        "andrew_nemiroff@colpal.com"
+      ]
+    },
+    {
+      "id": "fleet-layout-AN-ioimnwgd-1779740585273",
+      "actions": [
+        {
+          "type": "set_dashboard_pins",
+          "pins": [
+            "app_auto_emailer",
+            "app_build_draft",
+            "app_error_review",
+            "executive-brief",
+            "app_legal_review",
+            "app_admin_fleet"
+          ]
+        }
+      ],
+      "pushedAt": "2026-05-25T20:23:05.273Z",
       "pushedBy": "andrew_nemiroff@colpal.com",
       "audienceEmails": [
         "andrew_nemiroff@colpal.com"
