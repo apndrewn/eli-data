@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-26T04:49:22.144Z",
+  "lastUpdated": "2026-05-26T04:55:06.452Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -670,9 +670,9 @@
     {
       "id": "eli_mascot_studio",
       "version": null,
-      "lastUpdated": "2026-05-26T04:49:21.402Z",
+      "lastUpdated": "2026-05-26T04:55:05.700Z",
       "filename": "eli_mascot_studio-v3.json",
-      "size": 30767,
+      "size": 32624,
       "label": "Personalize ELI",
       "kind": "tool",
       "category": "External Innovation",
