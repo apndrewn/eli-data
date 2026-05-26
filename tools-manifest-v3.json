@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-26T00:26:04.688Z",
+  "lastUpdated": "2026-05-26T02:00:22.601Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -230,9 +230,9 @@
     {
       "id": "eli_settings",
       "version": null,
-      "lastUpdated": "2026-05-25T05:01:45.582Z",
+      "lastUpdated": "2026-05-26T02:00:17.824Z",
       "filename": "eli_settings-v3.json",
-      "size": 115962,
+      "size": 116540,
       "label": "Settings",
       "kind": "tool",
       "category": "System",
@@ -407,7 +407,9 @@
       "category": "Admin",
       "audience": [],
       "changelog": "",
-      "audienceEmails": []
+      "audienceEmails": [
+        "andrew_nemiroff@colpal.com"
+      ]
     },
     {
       "id": "admin_library_publisher",
@@ -450,7 +452,9 @@
       "category": "Admin",
       "audience": [],
       "changelog": "",
-      "audienceEmails": []
+      "audienceEmails": [
+        "andrew_nemiroff@colpal.com"
+      ]
     },
     {
       "id": "admin_storage_inspector",
@@ -510,6 +514,7 @@
       "audience": [],
       "changelog": "",
       "audienceEmails": [
+        "andrew_nemiroff@colpal.com",
         "jared_lerner@colpal.com"
       ]
     },
