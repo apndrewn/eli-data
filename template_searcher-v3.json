@@ -1,19 +1,18 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-05-25T23:30:55.237Z",
+  "exportedAt": "2026-05-26T00:18:24.157Z",
   "sectionVersions": {
     "jsonTools": 1
   },
   "sections": {
     "jsonTools": [
       {
-        "releasedAt": "2026-05-25T23:30:55.235Z",
+        "releasedAt": "2026-05-26T00:18:24.155Z",
         "id": "template_searcher",
         "label": "Template Searcher",
         "defaultEnabled": true,
-        "audience": [],
-        "audienceEmails": [
-          "andrew_nemiroff@colpal.com"
+        "audience": [
+          "all"
         ],
         "tier": "demand",
         "requires": {
@@ -32,12 +31,12 @@
           "id": "app_template_searcher",
           "icon": "🔎",
           "title": "TEMPLATE SEARCHER",
-          "desc": "Find any word or phrase across every template in bd_templates. Decompresses on the fly, highlights matches, groups by template. Admin-only.",
+          "desc": "Find any word or phrase across every template in your library. Boolean operators (AND/OR/NOT), quoted phrases, parens for grouping. Highlights matches, groups by template + section.",
           "hoverTip": "Search template library",
-          "category": "Admin",
+          "category": "External Innovation",
           "core": false,
           "default": false,
-          "order": 98,
+          "order": 32,
           "badging": null,
           "microLabel": null,
           "microLabelStyle": null,
@@ -46,9 +45,9 @@
           "requiresApiKey": false,
           "requiresFooterDoc": false,
           "tags": [
-            "admin",
             "templates",
             "search",
+            "boolean",
             "bd_templates"
           ],
           "experimental": false,

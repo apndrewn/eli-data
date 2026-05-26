@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-26T00:14:23.830Z",
+  "lastUpdated": "2026-05-26T00:18:25.028Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -611,17 +611,16 @@
     {
       "id": "template_searcher",
       "version": null,
-      "lastUpdated": "2026-05-25T23:30:55.235Z",
+      "lastUpdated": "2026-05-26T00:18:24.155Z",
       "filename": "template_searcher-v3.json",
-      "size": 146851,
+      "size": 146856,
       "label": "Template Searcher",
       "kind": "tool",
-      "category": "Admin",
-      "audience": [],
-      "changelog": "",
-      "audienceEmails": [
-        "andrew_nemiroff@colpal.com"
-      ]
+      "category": "External Innovation",
+      "audience": [
+        "all"
+      ],
+      "changelog": ""
     },
     {
       "id": "template_indexer",
@@ -660,21 +659,6 @@
       "filename": "survey_tester-v3.json",
       "size": 33462,
       "label": "Survey Tester",
-      "kind": "tool",
-      "category": "Admin",
-      "audience": [],
-      "changelog": "",
-      "audienceEmails": [
-        "andrew_nemiroff@colpal.com"
-      ]
-    },
-    {
-      "id": "chrome_tester",
-      "version": null,
-      "lastUpdated": "2026-05-26T00:14:22.985Z",
-      "filename": "chrome_tester-v3.json",
-      "size": 23782,
-      "label": "Chrome Tester",
       "kind": "tool",
       "category": "Admin",
       "audience": [],
