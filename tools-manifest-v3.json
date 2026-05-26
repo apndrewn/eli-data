@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-26T00:18:25.028Z",
+  "lastUpdated": "2026-05-26T00:24:11.379Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -514,7 +514,6 @@
       "audience": [],
       "changelog": "",
       "audienceEmails": [
-        "andrew_nemiroff@colpal.com",
         "jared_lerner@colpal.com"
       ]
     },
