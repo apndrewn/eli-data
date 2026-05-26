@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-26T02:00:53.230Z",
+  "lastUpdated": "2026-05-26T02:08:37.099Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -452,9 +452,7 @@
       "category": "Admin",
       "audience": [],
       "changelog": "",
-      "audienceEmails": [
-        "andrew_nemiroff@colpal.com"
-      ]
+      "audienceEmails": []
     },
     {
       "id": "admin_storage_inspector",
