@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-26T04:18:58.051Z",
+  "lastUpdated": "2026-05-26T04:36:24.949Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -666,6 +666,20 @@
       "audienceEmails": [
         "andrew_nemiroff@colpal.com"
       ]
+    },
+    {
+      "id": "eli_mascot_studio",
+      "version": null,
+      "lastUpdated": "2026-05-26T04:35:53.067Z",
+      "filename": "eli_mascot_studio-v3.json",
+      "size": 19383,
+      "label": "Personalize ELI",
+      "kind": "tool",
+      "category": "External Innovation",
+      "audience": [
+        "all"
+      ],
+      "changelog": ""
     },
     {
       "id": "__data_catalog",
