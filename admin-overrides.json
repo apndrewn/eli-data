@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-05-26T00:26:05.284Z",
+  "lastUpdated": "2026-05-26T02:08:37.724Z",
   "overrides": [
     {
       "id": "fleet-set-light_mode-AN-ioimnwgd-1779517227118",
@@ -125,6 +125,20 @@
         }
       ],
       "pushedAt": "2026-05-26T00:26:05.284Z",
+      "pushedBy": "andrew_nemiroff@colpal.com"
+    },
+    {
+      "id": "fleet-uninstall-admin_template_studio-AN-0jixa0g9-1779761317724",
+      "audienceEmails": [
+        "andrew_nemiroff@colpal.com"
+      ],
+      "actions": [
+        {
+          "type": "force_redownload_tool",
+          "toolId": "admin_template_studio"
+        }
+      ],
+      "pushedAt": "2026-05-26T02:08:37.724Z",
       "pushedBy": "andrew_nemiroff@colpal.com"
     }
   ]
