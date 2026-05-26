@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-26T02:08:37.099Z",
+  "lastUpdated": "2026-05-26T03:25:51.131Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -286,9 +286,9 @@
     {
       "id": "ask_eli",
       "version": null,
-      "lastUpdated": "2026-05-18T23:44:18.233Z",
+      "lastUpdated": "2026-05-26T03:25:46.399Z",
       "filename": "ask_eli-v3.json",
-      "size": 265969,
+      "size": 273067,
       "label": "Ask ELI",
       "kind": "tool",
       "category": "Tools - ELI Core",
@@ -452,7 +452,9 @@
       "category": "Admin",
       "audience": [],
       "changelog": "",
-      "audienceEmails": []
+      "audienceEmails": [
+        "andrew_nemiroff@colpal.com"
+      ]
     },
     {
       "id": "admin_storage_inspector",
