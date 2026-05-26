@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-26T05:32:14.611Z",
+  "lastUpdated": "2026-05-26T05:36:27.159Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -244,9 +244,9 @@
     {
       "id": "error_review",
       "version": null,
-      "lastUpdated": "2026-05-19T00:14:19.840Z",
+      "lastUpdated": "2026-05-26T05:36:26.271Z",
       "filename": "error_review-v3.json",
-      "size": 129791,
+      "size": 132605,
       "label": "Error Review",
       "kind": "tool",
       "category": "Tools - ELI Core",
@@ -286,9 +286,9 @@
     {
       "id": "ask_eli",
       "version": null,
-      "lastUpdated": "2026-05-26T05:32:13.758Z",
+      "lastUpdated": "2026-05-26T05:36:26.121Z",
       "filename": "ask_eli-v3.json",
-      "size": 273506,
+      "size": 272218,
       "label": "Ask ELI",
       "kind": "tool",
       "category": "Tools - ELI Core",
