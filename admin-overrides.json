@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-05-26T02:08:37.724Z",
+  "lastUpdated": "2026-05-26T06:00:38.657Z",
   "overrides": [
     {
       "id": "fleet-set-light_mode-AN-ioimnwgd-1779517227118",
@@ -140,6 +140,22 @@
       ],
       "pushedAt": "2026-05-26T02:08:37.724Z",
       "pushedBy": "andrew_nemiroff@colpal.com"
+    },
+    {
+      "id": "fleet-notice-AN-0jixa0g9-1779775238656",
+      "actions": [
+        {
+          "type": "notice",
+          "title": "What's New?",
+          "html": "<div style=\"display:flex; gap:14px; align-items:flex-start;\">\n  <div>[ELI MASCOT SVG]</div>\n  <div>\n    <h3 style=\"margin:0 0 8px; color:#0d1b2a;\">Meet your ELI</h3>\n    <p style=\"margin:0 0 12px; color:#475569;\">\n      You can now customize ELI's look — skin tone, hair, suit, glasses.\n      The look you pick shows up wherever ELI appears.\n    </p>\n    <button onclick=\"eli.dispatch('tile','app_eli_mascot_studio'); \n      var ov=this.closest('.eli-dialog-overlay'); if(ov)ov.remove();\" \n      style=\"background:#2563eb; color:#fff; border:none; padding:8px 18px; \n      border-radius:6px; font-weight:700; cursor:pointer;\">\n      🎨 Personalize ELI\n    </button>\n  </div>\n</div>",
+          "dismissLabel": "OK"
+        }
+      ],
+      "pushedAt": "2026-05-26T06:00:38.656Z",
+      "pushedBy": "andrew_nemiroff@colpal.com",
+      "audienceEmails": [
+        "andrew_nemiroff@colpal.com"
+      ]
     }
   ]
 }
