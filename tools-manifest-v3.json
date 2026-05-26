@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-26T04:55:06.452Z",
+  "lastUpdated": "2026-05-26T05:10:54.297Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -34,9 +34,9 @@
     {
       "id": "eli_kit",
       "version": null,
-      "lastUpdated": "2026-05-26T03:51:32.918Z",
+      "lastUpdated": "2026-05-26T05:10:42.151Z",
       "filename": "eli_kit-v3.json",
-      "size": 132426,
+      "size": 130851,
       "label": "ELI Kit",
       "kind": "tool",
       "category": "System",
@@ -286,9 +286,9 @@
     {
       "id": "ask_eli",
       "version": null,
-      "lastUpdated": "2026-05-26T04:18:57.239Z",
+      "lastUpdated": "2026-05-26T05:10:42.024Z",
       "filename": "ask_eli-v3.json",
-      "size": 273288,
+      "size": 272218,
       "label": "Ask ELI",
       "kind": "tool",
       "category": "Tools - ELI Core",
@@ -670,9 +670,9 @@
     {
       "id": "eli_mascot_studio",
       "version": null,
-      "lastUpdated": "2026-05-26T04:55:05.700Z",
+      "lastUpdated": "2026-05-26T05:10:41.911Z",
       "filename": "eli_mascot_studio-v3.json",
-      "size": 32624,
+      "size": 40664,
       "label": "Personalize ELI",
       "kind": "tool",
       "category": "External Innovation",
