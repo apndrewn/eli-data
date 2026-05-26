@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-26T06:02:35.926Z",
+  "lastUpdated": "2026-05-26T06:05:11.574Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -272,9 +272,9 @@
     {
       "id": "auto_emailer",
       "version": null,
-      "lastUpdated": "2026-05-18T11:52:32.931Z",
+      "lastUpdated": "2026-05-26T06:05:10.808Z",
       "filename": "auto_emailer-v3.json",
-      "size": 76434,
+      "size": 76833,
       "label": "Auto Emailer",
       "kind": "tool",
       "category": "External Innovation",
@@ -286,9 +286,9 @@
     {
       "id": "ask_eli",
       "version": null,
-      "lastUpdated": "2026-05-26T05:36:26.121Z",
+      "lastUpdated": "2026-05-26T06:05:10.691Z",
       "filename": "ask_eli-v3.json",
-      "size": 272218,
+      "size": 272373,
       "label": "Ask ELI",
       "kind": "tool",
       "category": "Tools - ELI Core",
