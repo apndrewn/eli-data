@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-05-26T00:24:51.451Z",
+  "lastUpdated": "2026-05-26T17:24:12.186Z",
   "templates": [
     {
       "id": "bd_doc__amendment__masterxml___",
@@ -74,6 +74,19 @@
       "filename": "bd_doc__services_agreement__masterxml___.json",
       "size": 480610,
       "lastUpdated": "2026-05-25T03:52:43.843Z",
+      "core": true,
+      "defaultForType": false,
+      "audienceEmails": [],
+      "audienceGroups": [],
+      "aliases": []
+    },
+    {
+      "id": "bd_doc__speaker_agreement__masterxml___",
+      "name": "Speaker Agreement",
+      "agreementType": "speaker agreement",
+      "filename": "bd_doc__speaker_agreement__masterxml___.json",
+      "size": 90810,
+      "lastUpdated": "2026-05-26T17:24:10.466Z",
       "core": true,
       "defaultForType": false,
       "audienceEmails": [],
