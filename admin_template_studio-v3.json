@@ -1,20 +1,18 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-05-17T13:54:46.123Z",
+  "exportedAt": "2026-05-26T05:58:50.350Z",
   "sectionVersions": {
     "jsonTools": 1
   },
   "sections": {
     "jsonTools": [
       {
-        "releasedAt": "2026-05-17T13:54:46.122Z",
+        "releasedAt": "2026-05-26T05:58:50.348Z",
         "id": "admin_template_studio",
         "label": "Admin Template Studio",
         "defaultEnabled": true,
         "audience": [],
-        "audienceEmails": [
-          "andrew_nemiroff@colpal.com"
-        ],
+        "audienceEmails": [],
         "tier": "demand",
         "requires": {
           "host": 1,
