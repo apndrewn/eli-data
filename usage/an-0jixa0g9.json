@@ -1,7 +1,7 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-05-26T05:40:20.788Z",
+  "generatedAt": "2026-05-26T17:44:07.774Z",
   "days": [
     {
       "date": "2026-05-19",
@@ -243,7 +243,7 @@
           }
         }
       },
-      "estCostUSD": 0.002147
+      "estCostUSD": 0.001181
     },
     {
       "date": "2026-05-25",
@@ -259,13 +259,78 @@
     },
     {
       "date": "2026-05-26",
-      "toolsUsed": {},
-      "sessions": 2,
+      "toolsUsed": {
+        "ask_eli": 14,
+        "mascot_studio": 6,
+        "error": 15,
+        "draft_templates": 19,
+        "draft": 11,
+        "template_searcher": 2,
+        "infographics_lab": 1,
+        "admin_fleet": 4,
+        "legal_review": 1,
+        "review_redlines": 1,
+        "admin_team_guidance": 1,
+        "template_indexer": 1
+      },
+      "sessions": 36,
       "firstActiveAt": 1779774015687,
-      "lastActiveAt": 1779774019704,
-      "tokens": {},
-      "tokensByTool": {},
-      "estCostUSD": 0
+      "lastActiveAt": 1779817447214,
+      "tokens": {
+        "gemini-flash-lite-latest": {
+          "promptTokens": 195842,
+          "candidatesTokens": 16124,
+          "calls": 20
+        },
+        "gemini-3.1-flash-image-preview": {
+          "promptTokens": 1065,
+          "candidatesTokens": 3005,
+          "calls": 2
+        }
+      },
+      "tokensByTool": {
+        "error": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 173202,
+            "candidatesTokens": 12039,
+            "calls": 14
+          }
+        },
+        "draft": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 6674,
+            "candidatesTokens": 3239,
+            "calls": 3
+          }
+        },
+        "infographics_lab": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 11848,
+            "candidatesTokens": 374,
+            "calls": 1
+          },
+          "gemini-3.1-flash-image-preview": {
+            "promptTokens": 1065,
+            "candidatesTokens": 3005,
+            "calls": 2
+          }
+        },
+        "ask_eli": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 1581,
+            "candidatesTokens": 93,
+            "calls": 1
+          }
+        },
+        "review_redlines": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 2537,
+            "candidatesTokens": 379,
+            "calls": 1
+          }
+        }
+      },
+      "estCostUSD": 0.101528
     }
   ],
   "fleet": {
@@ -273,7 +338,7 @@
     "initials": "AN",
     "kernelVersion": "v3-2026-05-23j-uuid-on-demand",
     "installedAt": "2026-05-25T04:22:25.663Z",
-    "lastSeenAt": "2026-05-26T05:40:21.245Z",
+    "lastSeenAt": "2026-05-26T17:44:07.961Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -298,18 +363,23 @@
       "auto_check_tools": true,
       "show_expand_pill": true,
       "language": "en",
-      "mascot.skinTone": "#ffdbb5",
-      "mascot.hairColor": "#5c3317",
-      "mascot.tieColor": "#c62828",
-      "mascot.hairStyle": "professional",
+      "mascot.skinTone": "#e8b48b",
+      "mascot.hairColor": "#8b5a2b",
+      "mascot.tieColor": "#0d47a1",
+      "mascot.hairStyle": "curly",
       "mascot.facialHair": "none",
-      "mascot.glasses": "round",
-      "mascot.suitColor": "#1565c0"
+      "mascot.glasses": "rectangle",
+      "mascot.suitColor": "#263238"
     },
     "tools": [
       {
         "id": "admin_data_editor",
         "releasedAt": "2026-05-17T13:54:46.109Z",
+        "disabled": false
+      },
+      {
+        "id": "admin_fleet",
+        "releasedAt": "2026-05-25T21:33:50.543Z",
         "disabled": false
       },
       {
@@ -338,8 +408,13 @@
         "disabled": false
       },
       {
+        "id": "ask_eli",
+        "releasedAt": "2026-05-26T06:05:10.691Z",
+        "disabled": false
+      },
+      {
         "id": "auto_emailer",
-        "releasedAt": "2026-05-18T11:52:32.931Z",
+        "releasedAt": "2026-05-26T06:05:10.808Z",
         "disabled": false
       },
       {
@@ -348,8 +423,18 @@
         "disabled": false
       },
       {
-        "id": "clause_library",
-        "releasedAt": "2026-05-21T12:00:39.928Z",
+        "id": "build_draft",
+        "releasedAt": "2026-05-25T21:31:05.591Z",
+        "disabled": false
+      },
+      {
+        "id": "business_continuity",
+        "releasedAt": "2026-05-25T06:17:20.288Z",
+        "disabled": false
+      },
+      {
+        "id": "compare",
+        "releasedAt": "2026-05-25T06:17:19.985Z",
         "disabled": false
       },
       {
@@ -360,6 +445,11 @@
       {
         "id": "eli-activity",
         "releasedAt": "2026-05-23T02:42:54.570Z",
+        "disabled": false
+      },
+      {
+        "id": "eli-admin",
+        "releasedAt": "2026-05-25T14:54:42.447Z",
         "disabled": false
       },
       {
@@ -378,8 +468,28 @@
         "disabled": false
       },
       {
+        "id": "eli_kit",
+        "releasedAt": "2026-05-26T05:10:42.151Z",
+        "disabled": false
+      },
+      {
+        "id": "eli_mascot_studio",
+        "releasedAt": "2026-05-26T06:22:01.262Z",
+        "disabled": false
+      },
+      {
+        "id": "eli_settings",
+        "releasedAt": "2026-05-26T02:00:17.824Z",
+        "disabled": false
+      },
+      {
         "id": "eli_stats",
         "releasedAt": "2026-05-22T04:58:57.289Z",
+        "disabled": false
+      },
+      {
+        "id": "eli_telemetry",
+        "releasedAt": "2026-05-25T21:31:05.705Z",
         "disabled": false
       },
       {
@@ -389,7 +499,7 @@
       },
       {
         "id": "error_review",
-        "releasedAt": "2026-05-19T00:14:19.840Z",
+        "releasedAt": "2026-05-26T05:49:35.018Z",
         "disabled": false
       },
       {
@@ -403,6 +513,11 @@
         "disabled": false
       },
       {
+        "id": "infographics_lab",
+        "releasedAt": "2026-05-25T04:58:44.527Z",
+        "disabled": false
+      },
+      {
         "id": "legal_review",
         "releasedAt": "2026-05-24T20:01:32.794Z",
         "disabled": false
@@ -410,6 +525,11 @@
       {
         "id": "legal_risks",
         "releasedAt": "2026-05-23T05:30:08.210Z",
+        "disabled": false
+      },
+      {
+        "id": "oars_loader",
+        "releasedAt": "2026-05-25T06:18:58.712Z",
         "disabled": false
       },
       {
@@ -438,6 +558,11 @@
         "disabled": false
       },
       {
+        "id": "survey_tester",
+        "releasedAt": "2026-05-25T05:24:23.316Z",
+        "disabled": false
+      },
+      {
         "id": "template_indexer",
         "releasedAt": "2026-05-24T18:27:57.643Z",
         "disabled": false
@@ -445,6 +570,11 @@
       {
         "id": "template_manager",
         "releasedAt": "2026-05-22T13:42:03.788Z",
+        "disabled": false
+      },
+      {
+        "id": "template_searcher",
+        "releasedAt": "2026-05-26T00:18:24.155Z",
         "disabled": false
       },
       {
@@ -471,82 +601,16 @@
         "id": "version_history",
         "releasedAt": "2026-05-18T01:48:28.552Z",
         "disabled": false
-      },
-      {
-        "id": "eli-admin",
-        "releasedAt": "2026-05-25T14:54:42.447Z",
-        "disabled": false
-      },
-      {
-        "id": "eli_telemetry",
-        "releasedAt": "2026-05-25T21:31:05.705Z",
-        "disabled": false
-      },
-      {
-        "id": "business_continuity",
-        "releasedAt": "2026-05-25T06:17:20.288Z",
-        "disabled": false
-      },
-      {
-        "id": "oars_loader",
-        "releasedAt": "2026-05-25T06:18:58.712Z",
-        "disabled": false
-      },
-      {
-        "id": "eli_mascot_studio",
-        "releasedAt": "2026-05-26T05:24:20.131Z",
-        "disabled": false
-      },
-      {
-        "id": "template_searcher",
-        "releasedAt": "2026-05-26T00:18:24.155Z",
-        "disabled": false
-      },
-      {
-        "id": "infographics_lab",
-        "releasedAt": "2026-05-25T04:58:44.527Z",
-        "disabled": false
-      },
-      {
-        "id": "survey_tester",
-        "releasedAt": "2026-05-25T05:24:23.316Z",
-        "disabled": false
-      },
-      {
-        "id": "eli_settings",
-        "releasedAt": "2026-05-26T02:00:17.824Z",
-        "disabled": false
-      },
-      {
-        "id": "eli_kit",
-        "releasedAt": "2026-05-26T05:10:42.151Z",
-        "disabled": false
-      },
-      {
-        "id": "compare",
-        "releasedAt": "2026-05-25T06:17:19.985Z",
-        "disabled": false
-      },
-      {
-        "id": "build_draft",
-        "releasedAt": "2026-05-25T21:31:05.591Z",
-        "disabled": false
-      },
-      {
-        "id": "admin_fleet",
-        "releasedAt": "2026-05-25T21:33:50.543Z",
-        "disabled": false
-      },
-      {
-        "id": "ask_eli",
-        "releasedAt": "2026-05-26T05:36:26.121Z",
-        "disabled": false
       }
     ],
     "appliedOverrides": [
       {
         "id": "fleet-clear-override-admin_template_studio-AN-ioimnwgd-1779515598046",
         "at": 1779681014053
+      },
+      {
+        "id": "fleet-layout-AN-ioimnwgd-1779740585273",
+        "at": 1779774022585
       },
       {
         "id": "fleet-notice-AN-0jixa0g9-1779683024303",
@@ -557,12 +621,24 @@
         "at": 1779683994064
       },
       {
+        "id": "fleet-notice-AN-0jixa0g9-1779775238656",
+        "at": 1779802358909
+      },
+      {
         "id": "fleet-revoke-admin_template_studio-AN-ioimnwgd-1779515352322",
         "at": 1779681014053
       },
       {
         "id": "fleet-set-light_mode-AN-ioimnwgd-1779517227118",
         "at": 1779681014053
+      },
+      {
+        "id": "fleet-survey-AN-ioimnwgd-1779685816913",
+        "at": 1779774022585
+      },
+      {
+        "id": "fleet-survey-AN-ioimnwgd-1779686747467",
+        "at": 1779774022585
       },
       {
         "id": "fleet-uninstall-admin_template_studio-AN-0jixa0g9-1779755165284",
@@ -582,8 +658,7 @@
       "error_review",
       "final_review",
       "build_draft",
-      "auto_emailer",
-      "admin_telemetry_inspector"
+      "auto_emailer"
     ],
     "dashboardCustomized": true
   }
