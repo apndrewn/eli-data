@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-05-26T20:36:29.204Z",
+  "lastUpdated": "2026-05-26T20:36:39.175Z",
   "templates": [
     {
       "id": "bd_doc__amendment__masterxml___",
@@ -22,6 +22,19 @@
       "filename": "bd_doc__clinical_study_agreement__masterxml___.json",
       "size": 498156,
       "lastUpdated": "2026-05-26T20:36:27.351Z",
+      "core": true,
+      "defaultForType": false,
+      "audienceEmails": [],
+      "audienceGroups": [],
+      "aliases": []
+    },
+    {
+      "id": "bd_doc__consulting_agreement__masterxml___",
+      "name": "Consulting Agreement",
+      "agreementType": "consulting agreement",
+      "filename": "bd_doc__consulting_agreement__masterxml___.json",
+      "size": 480880,
+      "lastUpdated": "2026-05-26T20:36:37.533Z",
       "core": true,
       "defaultForType": false,
       "audienceEmails": [],
