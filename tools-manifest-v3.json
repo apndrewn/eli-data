@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-26T00:24:11.379Z",
+  "lastUpdated": "2026-05-26T00:25:13.083Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -407,9 +407,7 @@
       "category": "Admin",
       "audience": [],
       "changelog": "",
-      "audienceEmails": [
-        "andrew_nemiroff@colpal.com"
-      ]
+      "audienceEmails": []
     },
     {
       "id": "admin_library_publisher",
