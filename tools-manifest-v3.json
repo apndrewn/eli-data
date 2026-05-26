@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-26T00:11:00.724Z",
+  "lastUpdated": "2026-05-26T00:14:23.830Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -671,9 +671,9 @@
     {
       "id": "chrome_tester",
       "version": null,
-      "lastUpdated": "2026-05-26T00:10:59.744Z",
+      "lastUpdated": "2026-05-26T00:14:22.985Z",
       "filename": "chrome_tester-v3.json",
-      "size": 24353,
+      "size": 23782,
       "label": "Chrome Tester",
       "kind": "tool",
       "category": "Admin",
