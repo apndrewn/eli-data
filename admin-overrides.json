@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-05-26T00:25:13.688Z",
+  "lastUpdated": "2026-05-26T00:25:23.838Z",
   "overrides": [
     {
       "id": "fleet-set-light_mode-AN-ioimnwgd-1779517227118",
@@ -112,20 +112,6 @@
       "audienceEmails": [
         "andrew_nemiroff@colpal.com"
       ]
-    },
-    {
-      "id": "fleet-uninstall-tool_author_studio-AN-0jixa0g9-1779755113688",
-      "audienceEmails": [
-        "andrew_nemiroff@colpal.com"
-      ],
-      "actions": [
-        {
-          "type": "force_redownload_tool",
-          "toolId": "tool_author_studio"
-        }
-      ],
-      "pushedAt": "2026-05-26T00:25:13.688Z",
-      "pushedBy": "andrew_nemiroff@colpal.com"
     }
   ]
 }
