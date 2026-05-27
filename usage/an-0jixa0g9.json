@@ -1,7 +1,7 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-05-26T17:44:07.774Z",
+  "generatedAt": "2026-05-27T12:41:36.007Z",
   "days": [
     {
       "date": "2026-05-19",
@@ -260,27 +260,28 @@
     {
       "date": "2026-05-26",
       "toolsUsed": {
-        "ask_eli": 14,
-        "mascot_studio": 6,
-        "error": 15,
-        "draft_templates": 19,
-        "draft": 11,
+        "ask_eli": 16,
+        "mascot_studio": 7,
+        "error": 20,
+        "draft_templates": 41,
+        "draft": 19,
         "template_searcher": 2,
         "infographics_lab": 1,
-        "admin_fleet": 4,
+        "admin_fleet": 5,
         "legal_review": 1,
         "review_redlines": 1,
         "admin_team_guidance": 1,
-        "template_indexer": 1
+        "template_indexer": 1,
+        "bd_template_tester": 1
       },
-      "sessions": 36,
+      "sessions": 69,
       "firstActiveAt": 1779774015687,
-      "lastActiveAt": 1779817447214,
+      "lastActiveAt": 1779848509383,
       "tokens": {
         "gemini-flash-lite-latest": {
-          "promptTokens": 195842,
-          "candidatesTokens": 16124,
-          "calls": 20
+          "promptTokens": 296537,
+          "candidatesTokens": 23236,
+          "calls": 30
         },
         "gemini-3.1-flash-image-preview": {
           "promptTokens": 1065,
@@ -291,16 +292,16 @@
       "tokensByTool": {
         "error": {
           "gemini-flash-lite-latest": {
-            "promptTokens": 173202,
-            "candidatesTokens": 12039,
-            "calls": 14
+            "promptTokens": 267392,
+            "candidatesTokens": 15642,
+            "calls": 21
           }
         },
         "draft": {
           "gemini-flash-lite-latest": {
-            "promptTokens": 6674,
-            "candidatesTokens": 3239,
-            "calls": 3
+            "promptTokens": 13179,
+            "candidatesTokens": 6748,
+            "calls": 6
           }
         },
         "infographics_lab": {
@@ -330,7 +331,22 @@
           }
         }
       },
-      "estCostUSD": 0.101528
+      "estCostUSD": 0.106978
+    },
+    {
+      "date": "2026-05-27",
+      "toolsUsed": {},
+      "sessions": 1,
+      "firstActiveAt": 1779885690980,
+      "lastActiveAt": 1779885690980,
+      "tokens": {},
+      "tokensByTool": {},
+      "estCostUSD": 0,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
     }
   ],
   "fleet": {
@@ -338,7 +354,7 @@
     "initials": "AN",
     "kernelVersion": "v3-2026-05-23j-uuid-on-demand",
     "installedAt": "2026-05-25T04:22:25.663Z",
-    "lastSeenAt": "2026-05-26T17:44:07.961Z",
+    "lastSeenAt": "2026-05-27T12:41:36.537Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -366,7 +382,7 @@
       "mascot.skinTone": "#e8b48b",
       "mascot.hairColor": "#8b5a2b",
       "mascot.tieColor": "#0d47a1",
-      "mascot.hairStyle": "curly",
+      "mascot.hairStyle": "professional",
       "mascot.facialHair": "none",
       "mascot.glasses": "rectangle",
       "mascot.suitColor": "#263238"
@@ -404,7 +420,7 @@
       },
       {
         "id": "admin_usage_viewer",
-        "releasedAt": "2026-05-23T06:31:05.079Z",
+        "releasedAt": "2026-05-27T00:43:30.315Z",
         "disabled": false
       },
       {
@@ -424,7 +440,7 @@
       },
       {
         "id": "build_draft",
-        "releasedAt": "2026-05-25T21:31:05.591Z",
+        "releasedAt": "2026-05-27T01:53:39.727Z",
         "disabled": false
       },
       {
@@ -479,7 +495,7 @@
       },
       {
         "id": "eli_settings",
-        "releasedAt": "2026-05-26T02:00:17.824Z",
+        "releasedAt": "2026-05-27T00:38:28.222Z",
         "disabled": false
       },
       {
@@ -499,7 +515,7 @@
       },
       {
         "id": "error_review",
-        "releasedAt": "2026-05-26T05:49:35.018Z",
+        "releasedAt": "2026-05-27T00:53:01.367Z",
         "disabled": false
       },
       {
@@ -570,6 +586,11 @@
       {
         "id": "template_manager",
         "releasedAt": "2026-05-22T13:42:03.788Z",
+        "disabled": false
+      },
+      {
+        "id": "template_repair_lab",
+        "releasedAt": "2026-05-27T02:18:06.772Z",
         "disabled": false
       },
       {
@@ -658,7 +679,8 @@
       "error_review",
       "final_review",
       "build_draft",
-      "auto_emailer"
+      "auto_emailer",
+      "template_repair_lab"
     ],
     "dashboardCustomized": true
   }
