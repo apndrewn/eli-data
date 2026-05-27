@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-05-27T17:07:37.433Z",
+  "lastUpdated": "2026-05-27T17:07:42.293Z",
   "templates": [
     {
       "id": "bd_doc__amendment__masterxml___",
@@ -98,8 +98,8 @@
       "name": "Master Services Agreement",
       "agreementType": "master services agreement",
       "filename": "bd_doc__master_services_agreement__masterxml___.json",
-      "size": 498283,
-      "lastUpdated": "2026-05-27T05:48:14.670Z",
+      "size": 498423,
+      "lastUpdated": "2026-05-27T17:07:40.307Z",
       "core": true,
       "defaultForType": false,
       "audienceEmails": [],
