@@ -1,7 +1,7 @@
 {
   "userName": "JL",
   "userKey": "jl",
-  "generatedAt": "2026-05-26T14:38:04.160Z",
+  "generatedAt": "2026-05-27T13:42:44.936Z",
   "days": [
     {
       "date": "2026-05-19",
@@ -80,12 +80,43 @@
     {
       "date": "2026-05-26",
       "toolsUsed": {
-        "draft": 1,
-        "draft_templates": 2
+        "draft": 9,
+        "draft_templates": 10,
+        "ask_eli": 1,
+        "mascot_studio": 1
       },
-      "sessions": 5,
+      "sessions": 14,
       "firstActiveAt": 1779802790257,
-      "lastActiveAt": 1779806248371,
+      "lastActiveAt": 1779830119016,
+      "tokens": {
+        "gemini-flash-lite-latest": {
+          "promptTokens": 10896,
+          "candidatesTokens": 2636,
+          "calls": 5
+        }
+      },
+      "tokensByTool": {
+        "draft": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 10896,
+            "candidatesTokens": 2636,
+            "calls": 5
+          }
+        }
+      },
+      "estCostUSD": 0.000963,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
+    },
+    {
+      "date": "2026-05-27",
+      "toolsUsed": {},
+      "sessions": 1,
+      "firstActiveAt": 1779889359914,
+      "lastActiveAt": 1779889359914,
       "tokens": {},
       "tokensByTool": {},
       "estCostUSD": 0,
@@ -101,7 +132,7 @@
     "initials": "JL",
     "kernelVersion": "v3-2026-05-23j-uuid-on-demand",
     "installedAt": "2026-05-26T14:38:04.421Z",
-    "lastSeenAt": "2026-05-26T14:38:04.421Z",
+    "lastSeenAt": "2026-05-27T13:42:45.303Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -126,10 +157,10 @@
       "auto_check_tools": true,
       "show_expand_pill": true,
       "language": "en",
-      "mascot.skinTone": "#ffdbb5",
-      "mascot.hairColor": "#5c3317",
+      "mascot.skinTone": "#e8b48b",
+      "mascot.hairColor": "#c19a6b",
       "mascot.tieColor": "#c62828",
-      "mascot.hairStyle": "professional",
+      "mascot.hairStyle": "bald",
       "mascot.facialHair": "none",
       "mascot.glasses": "round",
       "mascot.suitColor": "#1565c0"
@@ -153,11 +184,6 @@
       {
         "id": "bd_template_tester",
         "releasedAt": "2026-05-20T06:26:01.803Z",
-        "disabled": false
-      },
-      {
-        "id": "build_draft",
-        "releasedAt": "2026-05-25T21:31:05.591Z",
         "disabled": false
       },
       {
@@ -201,11 +227,6 @@
         "disabled": false
       },
       {
-        "id": "eli_settings",
-        "releasedAt": "2026-05-26T02:00:17.824Z",
-        "disabled": false
-      },
-      {
         "id": "eli_stats",
         "releasedAt": "2026-05-22T04:58:57.289Z",
         "disabled": false
@@ -218,11 +239,6 @@
       {
         "id": "email_helper",
         "releasedAt": "2026-05-18T11:52:32.556Z",
-        "disabled": false
-      },
-      {
-        "id": "error_review",
-        "releasedAt": "2026-05-26T05:49:35.018Z",
         "disabled": false
       },
       {
@@ -309,9 +325,29 @@
         "id": "version_history",
         "releasedAt": "2026-05-18T01:48:28.552Z",
         "disabled": false
+      },
+      {
+        "id": "eli_settings",
+        "releasedAt": "2026-05-27T00:38:28.222Z",
+        "disabled": false
+      },
+      {
+        "id": "error_review",
+        "releasedAt": "2026-05-27T05:35:12.074Z",
+        "disabled": false
+      },
+      {
+        "id": "build_draft",
+        "releasedAt": "2026-05-27T05:09:06.482Z",
+        "disabled": false
       }
     ],
-    "appliedOverrides": [],
+    "appliedOverrides": [
+      {
+        "id": "fleet-notice-JL-4scjk8n4-1779807676143",
+        "at": 1779807930783
+      }
+    ],
     "dashboardApps": [
       "legal_review",
       "error_review",
