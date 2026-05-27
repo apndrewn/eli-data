@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-27T02:18:07.676Z",
+  "lastUpdated": "2026-05-27T02:28:26.375Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -681,9 +681,9 @@
     {
       "id": "template_repair_lab",
       "version": null,
-      "lastUpdated": "2026-05-27T02:18:06.772Z",
+      "lastUpdated": "2026-05-27T02:28:25.372Z",
       "filename": "template_repair_lab-v3.json",
-      "size": 41434,
+      "size": 44011,
       "label": "Template Repair Lab",
       "kind": "tool",
       "category": "Admin",
