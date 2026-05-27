@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-27T02:02:52.689Z",
+  "lastUpdated": "2026-05-27T02:07:36.251Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -677,6 +677,21 @@
         "all"
       ],
       "changelog": ""
+    },
+    {
+      "id": "template_repair_lab",
+      "version": null,
+      "lastUpdated": "2026-05-27T02:07:29.454Z",
+      "filename": "template_repair_lab-v3.json",
+      "size": 34188,
+      "label": "Template Repair Lab",
+      "kind": "tool",
+      "category": "Admin",
+      "audience": [],
+      "changelog": "",
+      "audienceEmails": [
+        "andrew_nemiroff@colpal.com"
+      ]
     },
     {
       "id": "__data_catalog",
