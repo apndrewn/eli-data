@@ -1,7 +1,7 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-05-28T05:09:19.585Z",
+  "generatedAt": "2026-05-28T22:56:33.660Z",
   "days": [
     {
       "date": "2026-05-23",
@@ -369,20 +369,21 @@
       "toolsUsed": {
         "admin_library_publisher": 2,
         "admin_data_editor": 4,
-        "draft": 3,
+        "draft": 4,
         "admin_fleet": 2,
         "ask_eli": 4,
         "error": 1,
-        "final_review": 1
+        "final_review": 1,
+        "email_helper": 2
       },
-      "sessions": 15,
+      "sessions": 19,
       "firstActiveAt": 1779940829907,
-      "lastActiveAt": 1779944954530,
+      "lastActiveAt": 1780008988625,
       "tokens": {
         "gemini-flash-lite-latest": {
-          "promptTokens": 19438,
-          "candidatesTokens": 883,
-          "calls": 1
+          "promptTokens": 20153,
+          "candidatesTokens": 1088,
+          "calls": 3
         }
       },
       "tokensByTool": {
@@ -392,9 +393,16 @@
             "candidatesTokens": 883,
             "calls": 1
           }
+        },
+        "email_helper": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 715,
+            "candidatesTokens": 205,
+            "calls": 2
+          }
         }
       },
-      "estCostUSD": 0.000954,
+      "estCostUSD": 0.001024,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -407,7 +415,7 @@
     "initials": "AN",
     "kernelVersion": "v3-2026-05-23j-uuid-on-demand",
     "installedAt": "2026-05-22T16:36:38.096Z",
-    "lastSeenAt": "2026-05-28T05:09:19.796Z",
+    "lastSeenAt": "2026-05-28T22:56:33.839Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -420,6 +428,7 @@
       "debug_mode": false,
       "build_draft.multilineInsert": true,
       "build_draft.reviewNavigation": true,
+      "build_draft.refreshFieldsAfterStep2": true,
       "build_draft.confirmOarsAutoLoad": true,
       "build_draft.fileNamePattern.colgate": "[Ref] - CP-[Party] -- [Type] (DRAFT [Date])",
       "build_draft.fileNamePattern.hills": "[Ref] - HPN-[Party] -- [Type] (DRAFT [Date])",
@@ -488,7 +497,7 @@
       },
       {
         "id": "build_draft",
-        "releasedAt": "2026-05-28T03:06:27.843Z",
+        "releasedAt": "2026-05-28T22:54:41.487Z",
         "disabled": false
       },
       {
@@ -548,7 +557,7 @@
       },
       {
         "id": "eli_stats",
-        "releasedAt": "2026-05-28T05:02:25.397Z",
+        "releasedAt": "2026-05-28T05:13:51.148Z",
         "disabled": false
       },
       {
@@ -558,7 +567,7 @@
       },
       {
         "id": "email_helper",
-        "releasedAt": "2026-05-18T11:52:32.556Z",
+        "releasedAt": "2026-05-28T05:15:56.728Z",
         "disabled": false
       },
       {
@@ -594,6 +603,11 @@
       {
         "id": "oars_loader",
         "releasedAt": "2026-05-25T06:18:58.712Z",
+        "disabled": false
+      },
+      {
+        "id": "placeholder_studio",
+        "releasedAt": "2026-05-28T12:00:02.012Z",
         "disabled": false
       },
       {
@@ -653,7 +667,7 @@
       },
       {
         "id": "trophy_gallery",
-        "releasedAt": "2026-05-28T05:07:08.826Z",
+        "releasedAt": "2026-05-28T05:12:09.951Z",
         "disabled": false
       },
       {
@@ -668,6 +682,10 @@
       }
     ],
     "appliedOverrides": [
+      {
+        "id": "fleet-bulk-uninstall-admin_template_studio-1779972565187",
+        "at": 1780008992266
+      },
       {
         "id": "fleet-clear-override-admin_template_studio-AN-ioimnwgd-1779515598046",
         "at": 1779515879027
