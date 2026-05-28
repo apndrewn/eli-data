@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-28T00:38:49.237Z",
+  "lastUpdated": "2026-05-28T00:42:28.092Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -685,6 +685,21 @@
       "filename": "template_repair_lab-v3.json",
       "size": 44011,
       "label": "Template Repair Lab",
+      "kind": "tool",
+      "category": "Admin",
+      "audience": [],
+      "changelog": "",
+      "audienceEmails": [
+        "andrew_nemiroff@colpal.com"
+      ]
+    },
+    {
+      "id": "inserter_lab",
+      "version": null,
+      "lastUpdated": "2026-05-28T00:42:27.243Z",
+      "filename": "inserter_lab-v3.json",
+      "size": 20984,
+      "label": "Inserter Lab",
       "kind": "tool",
       "category": "Admin",
       "audience": [],
