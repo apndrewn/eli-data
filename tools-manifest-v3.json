@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-28T05:12:11.038Z",
+  "lastUpdated": "2026-05-28T05:13:51.924Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -132,10 +132,10 @@
     {
       "id": "email_helper",
       "version": null,
-      "lastUpdated": "2026-05-18T11:52:32.556Z",
+      "lastUpdated": "2026-05-28T05:13:51.038Z",
       "filename": "email_helper-v3.json",
-      "size": 79206,
-      "label": "Email Helper",
+      "size": 79201,
+      "label": "Text Helper",
       "kind": "tool",
       "category": "Tools - ELI Core",
       "audience": [
@@ -314,9 +314,9 @@
     {
       "id": "eli_stats",
       "version": null,
-      "lastUpdated": "2026-05-28T05:02:25.397Z",
+      "lastUpdated": "2026-05-28T05:13:51.148Z",
       "filename": "eli_stats-v3.json",
-      "size": 63227,
+      "size": 63280,
       "label": "ELI Stats",
       "kind": "tool",
       "category": "System",

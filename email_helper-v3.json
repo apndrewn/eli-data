@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-05-18T11:52:32.557Z",
+  "exportedAt": "2026-05-28T05:13:51.039Z",
   "sectionVersions": {
     "jsonTools": 1
   },
   "sections": {
     "jsonTools": [
       {
-        "releasedAt": "2026-05-18T11:52:32.556Z",
+        "releasedAt": "2026-05-28T05:13:51.038Z",
         "id": "email_helper",
-        "label": "Email Helper",
+        "label": "Text Helper",
         "defaultEnabled": false,
         "audience": [
           "all"
@@ -35,9 +35,9 @@
         "catalog": {
           "id": "app_email_helper",
           "icon": "✉️",
-          "title": "EMAIL HELPER",
-          "desc": "Capture document text → AI-rewritten email draft with click-to-accept redline + selection regen.",
-          "hoverTip": "Compose & redline emails with AI",
+          "title": "TEXT HELPER",
+          "desc": "Capture document text → AI-rewritten text draft with click-to-accept redline + selection regen.",
+          "hoverTip": "Compose & redline text with AI",
           "category": "Tools - ELI Core",
           "core": false,
           "default": false,
