@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-28T05:15:57.483Z",
+  "lastUpdated": "2026-05-28T12:00:03.104Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -418,6 +418,21 @@
       "filename": "admin_library_publisher-v3.json",
       "size": 91062,
       "label": "Admin Data Hub",
+      "kind": "tool",
+      "category": "Admin",
+      "audience": [],
+      "changelog": "",
+      "audienceEmails": [
+        "andrew_nemiroff@colpal.com"
+      ]
+    },
+    {
+      "id": "placeholder_studio",
+      "version": null,
+      "lastUpdated": "2026-05-28T12:00:02.012Z",
+      "filename": "placeholder_studio-v3.json",
+      "size": 45926,
+      "label": "Placeholder Studio",
       "kind": "tool",
       "category": "Admin",
       "audience": [],
@@ -943,6 +958,7 @@
         "admin_template_studio",
         "admin_usage_viewer",
         "admin_telemetry_inspector",
+        "placeholder_studio",
         "eli_agent",
         "tool_author_studio",
         "bd_template_tester"

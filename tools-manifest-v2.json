@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-05-28T05:15:57.483Z",
+  "lastUpdated": "2026-05-28T12:00:03.104Z",
   "tools": [
     {
       "id": "__data_catalog",
@@ -284,6 +284,7 @@
         "admin_template_studio",
         "admin_usage_viewer",
         "admin_telemetry_inspector",
+        "placeholder_studio",
         "eli_agent",
         "tool_author_studio",
         "bd_template_tester"
