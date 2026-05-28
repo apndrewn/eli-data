@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-28T04:02:03.135Z",
+  "lastUpdated": "2026-05-28T04:08:53.668Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -414,25 +414,10 @@
     {
       "id": "admin_library_publisher",
       "version": null,
-      "lastUpdated": "2026-05-22T03:55:24.742Z",
+      "lastUpdated": "2026-05-28T04:08:52.768Z",
       "filename": "admin_library_publisher-v3.json",
-      "size": 61798,
-      "label": "Admin Library Publisher",
-      "kind": "tool",
-      "category": "Admin",
-      "audience": [],
-      "changelog": "",
-      "audienceEmails": [
-        "andrew_nemiroff@colpal.com"
-      ]
-    },
-    {
-      "id": "admin_data_editor",
-      "version": null,
-      "lastUpdated": "2026-05-17T13:54:46.109Z",
-      "filename": "admin_data_editor-v3.json",
-      "size": 28485,
-      "label": "Admin Data Editor",
+      "size": 82920,
+      "label": "Admin Data Hub",
       "kind": "tool",
       "category": "Admin",
       "audience": [],
@@ -947,12 +932,11 @@
       "id": "admin",
       "label": "Admin Tools",
       "icon": "🛠",
-      "description": "Admin-only tools — library publishing, data editing, storage inspection, team guidance, template studio, usage analytics, multi-agent orchestration scaffold",
+      "description": "Admin-only tools — data hub (edit + publish), storage inspection, team guidance, template studio, usage analytics, multi-agent orchestration scaffold",
       "audience": [
         "all"
       ],
       "members": [
-        "admin_data_editor",
         "admin_library_publisher",
         "admin_storage_inspector",
         "admin_team_guidance",
