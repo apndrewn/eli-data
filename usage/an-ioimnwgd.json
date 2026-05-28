@@ -1,7 +1,7 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-05-28T02:08:57.553Z",
+  "generatedAt": "2026-05-28T05:09:19.585Z",
   "days": [
     {
       "date": "2026-05-23",
@@ -307,30 +307,37 @@
     {
       "date": "2026-05-27",
       "toolsUsed": {
-        "draft_templates": 25,
+        "draft_templates": 27,
         "docuscrub": 2,
-        "draft": 67,
-        "error": 19,
-        "admin_data_editor": 1,
+        "draft": 80,
+        "error": 20,
+        "admin_data_editor": 4,
         "auto_emailer": 1,
-        "legal_review": 1
+        "legal_review": 4,
+        "playbook_manager": 1,
+        "ask_eli": 2,
+        "mascot_studio": 2,
+        "final_review": 1,
+        "review_redlines": 1,
+        "business_continuity": 1,
+        "admin_library_publisher": 1
       },
-      "sessions": 82,
+      "sessions": 107,
       "firstActiveAt": 1779854492420,
-      "lastActiveAt": 1779934132824,
+      "lastActiveAt": 1779940579005,
       "tokens": {
         "gemini-flash-lite-latest": {
-          "promptTokens": 326408,
-          "candidatesTokens": 19793,
-          "calls": 28
+          "promptTokens": 392035,
+          "candidatesTokens": 24133,
+          "calls": 58
         }
       },
       "tokensByTool": {
         "draft": {
           "gemini-flash-lite-latest": {
-            "promptTokens": 22443,
-            "candidatesTokens": 6189,
-            "calls": 10
+            "promptTokens": 26611,
+            "candidatesTokens": 7064,
+            "calls": 12
           }
         },
         "error": {
@@ -339,15 +346,59 @@
             "candidatesTokens": 13604,
             "calls": 18
           }
+        },
+        "review_redlines": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 61459,
+            "candidatesTokens": 3465,
+            "calls": 28
+          }
         }
       },
-      "estCostUSD": 0.017015,
+      "estCostUSD": 0.020508,
       "drafts": {
         "byType": {
           "unknown": 2
         },
         "byTemplate": {},
         "total": 2
+      }
+    },
+    {
+      "date": "2026-05-28",
+      "toolsUsed": {
+        "admin_library_publisher": 2,
+        "admin_data_editor": 4,
+        "draft": 3,
+        "admin_fleet": 2,
+        "ask_eli": 4,
+        "error": 1,
+        "final_review": 1
+      },
+      "sessions": 15,
+      "firstActiveAt": 1779940829907,
+      "lastActiveAt": 1779944954530,
+      "tokens": {
+        "gemini-flash-lite-latest": {
+          "promptTokens": 19438,
+          "candidatesTokens": 883,
+          "calls": 1
+        }
+      },
+      "tokensByTool": {
+        "error": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 19438,
+            "candidatesTokens": 883,
+            "calls": 1
+          }
+        }
+      },
+      "estCostUSD": 0.000954,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
       }
     }
   ],
@@ -356,7 +407,7 @@
     "initials": "AN",
     "kernelVersion": "v3-2026-05-23j-uuid-on-demand",
     "installedAt": "2026-05-22T16:36:38.096Z",
-    "lastSeenAt": "2026-05-28T02:08:57.887Z",
+    "lastSeenAt": "2026-05-28T05:09:19.796Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -370,6 +421,8 @@
       "build_draft.multilineInsert": true,
       "build_draft.reviewNavigation": true,
       "build_draft.confirmOarsAutoLoad": true,
+      "build_draft.fileNamePattern.colgate": "[Ref] - CP-[Party] -- [Type] (DRAFT [Date])",
+      "build_draft.fileNamePattern.hills": "[Ref] - HPN-[Party] -- [Type] (DRAFT [Date])",
       "ai_image_model": "gemini-3.1-flash-image-preview",
       "light_mode": false,
       "header_theme_index": 0,
@@ -382,17 +435,12 @@
       "mascot.skinTone": "#ffdbb5",
       "mascot.hairColor": "#5c3317",
       "mascot.tieColor": "#c62828",
-      "mascot.hairStyle": "quiff",
+      "mascot.hairStyle": "professional",
       "mascot.facialHair": "none",
       "mascot.glasses": "round",
       "mascot.suitColor": "#1565c0"
     },
     "tools": [
-      {
-        "id": "admin_data_editor",
-        "releasedAt": "2026-05-17T13:54:46.109Z",
-        "disabled": false
-      },
       {
         "id": "admin_fleet",
         "releasedAt": "2026-05-25T21:33:50.543Z",
@@ -400,7 +448,7 @@
       },
       {
         "id": "admin_library_publisher",
-        "releasedAt": "2026-05-22T03:55:24.742Z",
+        "releasedAt": "2026-05-28T04:41:23.634Z",
         "disabled": false
       },
       {
@@ -415,12 +463,12 @@
       },
       {
         "id": "admin_telemetry_inspector",
-        "releasedAt": "2026-05-19T12:32:00.921Z",
+        "releasedAt": "2026-05-28T03:58:43.231Z",
         "disabled": false
       },
       {
         "id": "admin_usage_viewer",
-        "releasedAt": "2026-05-27T00:43:30.315Z",
+        "releasedAt": "2026-05-28T02:34:07.127Z",
         "disabled": false
       },
       {
@@ -440,7 +488,7 @@
       },
       {
         "id": "build_draft",
-        "releasedAt": "2026-05-28T01:54:59.732Z",
+        "releasedAt": "2026-05-28T03:06:27.843Z",
         "disabled": false
       },
       {
@@ -500,12 +548,12 @@
       },
       {
         "id": "eli_stats",
-        "releasedAt": "2026-05-22T04:58:57.289Z",
+        "releasedAt": "2026-05-28T05:02:25.397Z",
         "disabled": false
       },
       {
         "id": "eli_telemetry",
-        "releasedAt": "2026-05-28T00:03:57.754Z",
+        "releasedAt": "2026-05-28T03:46:51.830Z",
         "disabled": false
       },
       {
@@ -520,7 +568,7 @@
       },
       {
         "id": "final_review",
-        "releasedAt": "2026-05-18T11:52:32.317Z",
+        "releasedAt": "2026-05-28T05:00:01.210Z",
         "disabled": false
       },
       {
@@ -531,11 +579,6 @@
       {
         "id": "infographics_lab",
         "releasedAt": "2026-05-25T04:58:44.527Z",
-        "disabled": false
-      },
-      {
-        "id": "inserter_lab",
-        "releasedAt": "2026-05-28T00:42:27.243Z",
         "disabled": false
       },
       {
@@ -594,11 +637,6 @@
         "disabled": false
       },
       {
-        "id": "template_repair_lab",
-        "releasedAt": "2026-05-27T02:28:25.372Z",
-        "disabled": false
-      },
-      {
         "id": "template_searcher",
         "releasedAt": "2026-05-26T00:18:24.155Z",
         "disabled": false
@@ -615,7 +653,7 @@
       },
       {
         "id": "trophy_gallery",
-        "releasedAt": "2026-05-23T04:21:48.055Z",
+        "releasedAt": "2026-05-28T05:07:08.826Z",
         "disabled": false
       },
       {
@@ -693,7 +731,7 @@
       "final_review",
       "build_draft",
       "auto_emailer",
-      "template_repair_lab"
+      "app_template_repair_lab"
     ],
     "dashboardCustomized": true
   }
