@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-28T03:55:35.331Z",
+  "lastUpdated": "2026-05-28T03:58:44.052Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -314,9 +314,9 @@
     {
       "id": "eli_stats",
       "version": null,
-      "lastUpdated": "2026-05-28T03:55:34.510Z",
+      "lastUpdated": "2026-05-28T03:58:43.132Z",
       "filename": "eli_stats-v3.json",
-      "size": 63560,
+      "size": 61744,
       "label": "ELI Stats",
       "kind": "tool",
       "category": "System",
@@ -562,18 +562,16 @@
     {
       "id": "admin_telemetry_inspector",
       "version": null,
-      "lastUpdated": "2026-05-19T12:32:00.921Z",
+      "lastUpdated": "2026-05-28T03:58:43.231Z",
       "filename": "admin_telemetry_inspector-v3.json",
-      "size": 53640,
+      "size": 53529,
       "label": "User Stats",
       "kind": "tool",
-      "category": "Admin",
-      "audience": [],
-      "changelog": "",
-      "audienceEmails": [
-        "andrew_nemiroff@colpal.com",
-        "jared_lerner@colpal.com"
-      ]
+      "category": "System",
+      "audience": [
+        "all"
+      ],
+      "changelog": ""
     },
     {
       "id": "admin_fleet",
