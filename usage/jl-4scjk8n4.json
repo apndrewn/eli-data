@@ -1,7 +1,7 @@
 {
   "userName": "JL",
   "userKey": "jl",
-  "generatedAt": "2026-05-27T13:42:44.936Z",
+  "generatedAt": "2026-05-28T14:28:36.646Z",
   "days": [
     {
       "date": "2026-05-19",
@@ -113,10 +113,27 @@
     },
     {
       "date": "2026-05-27",
-      "toolsUsed": {},
-      "sessions": 1,
+      "toolsUsed": {
+        "draft_templates": 1
+      },
+      "sessions": 2,
       "firstActiveAt": 1779889359914,
-      "lastActiveAt": 1779889359914,
+      "lastActiveAt": 1779889378677,
+      "tokens": {},
+      "tokensByTool": {},
+      "estCostUSD": 0,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
+    },
+    {
+      "date": "2026-05-28",
+      "toolsUsed": {},
+      "sessions": 2,
+      "firstActiveAt": 1779978511518,
+      "lastActiveAt": 1779978514847,
       "tokens": {},
       "tokensByTool": {},
       "estCostUSD": 0,
@@ -132,7 +149,7 @@
     "initials": "JL",
     "kernelVersion": "v3-2026-05-23j-uuid-on-demand",
     "installedAt": "2026-05-26T14:38:04.421Z",
-    "lastSeenAt": "2026-05-27T13:42:45.303Z",
+    "lastSeenAt": "2026-05-28T14:28:37.035Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -163,22 +180,17 @@
       "mascot.hairStyle": "bald",
       "mascot.facialHair": "none",
       "mascot.glasses": "round",
-      "mascot.suitColor": "#1565c0"
+      "mascot.suitColor": "#1565c0",
+      "build_draft.multilineInsert": true,
+      "build_draft.reviewNavigation": true,
+      "build_draft.confirmOarsAutoLoad": true,
+      "build_draft.fileNamePattern.colgate": "[Ref] - CP-[Party] -- [Type] (DRAFT [Date])",
+      "build_draft.fileNamePattern.hills": "[Ref] - HPN-[Party] -- [Type] (DRAFT [Date])"
     },
     "tools": [
       {
-        "id": "admin_telemetry_inspector",
-        "releasedAt": "2026-05-19T12:32:00.921Z",
-        "disabled": false
-      },
-      {
         "id": "ask_eli",
         "releasedAt": "2026-05-26T06:05:10.691Z",
-        "disabled": false
-      },
-      {
-        "id": "auto_emailer",
-        "releasedAt": "2026-05-26T06:05:10.808Z",
         "disabled": false
       },
       {
@@ -227,23 +239,13 @@
         "disabled": false
       },
       {
-        "id": "eli_stats",
-        "releasedAt": "2026-05-22T04:58:57.289Z",
+        "id": "eli_settings",
+        "releasedAt": "2026-05-27T00:38:28.222Z",
         "disabled": false
       },
       {
-        "id": "eli_telemetry",
-        "releasedAt": "2026-05-25T21:31:05.705Z",
-        "disabled": false
-      },
-      {
-        "id": "email_helper",
-        "releasedAt": "2026-05-18T11:52:32.556Z",
-        "disabled": false
-      },
-      {
-        "id": "final_review",
-        "releasedAt": "2026-05-18T11:52:32.317Z",
+        "id": "error_review",
+        "releasedAt": "2026-05-27T05:35:12.074Z",
         "disabled": false
       },
       {
@@ -312,11 +314,6 @@
         "disabled": false
       },
       {
-        "id": "trophy_gallery",
-        "releasedAt": "2026-05-23T04:21:48.055Z",
-        "disabled": false
-      },
-      {
         "id": "usage_risks",
         "releasedAt": "2026-05-18T05:51:45.234Z",
         "disabled": false
@@ -327,22 +324,51 @@
         "disabled": false
       },
       {
-        "id": "eli_settings",
-        "releasedAt": "2026-05-27T00:38:28.222Z",
+        "id": "auto_emailer",
+        "releasedAt": "2026-05-27T23:12:11.681Z",
         "disabled": false
       },
       {
-        "id": "error_review",
-        "releasedAt": "2026-05-27T05:35:12.074Z",
+        "id": "trophy_gallery",
+        "releasedAt": "2026-05-28T05:12:09.951Z",
+        "disabled": false
+      },
+      {
+        "id": "email_helper",
+        "releasedAt": "2026-05-28T05:15:56.728Z",
+        "disabled": false
+      },
+      {
+        "id": "final_review",
+        "releasedAt": "2026-05-28T05:00:01.210Z",
         "disabled": false
       },
       {
         "id": "build_draft",
-        "releasedAt": "2026-05-27T05:09:06.482Z",
+        "releasedAt": "2026-05-28T03:06:27.843Z",
+        "disabled": false
+      },
+      {
+        "id": "eli_stats",
+        "releasedAt": "2026-05-28T05:13:51.148Z",
+        "disabled": false
+      },
+      {
+        "id": "eli_telemetry",
+        "releasedAt": "2026-05-28T03:46:51.830Z",
+        "disabled": false
+      },
+      {
+        "id": "admin_telemetry_inspector",
+        "releasedAt": "2026-05-28T03:58:43.231Z",
         "disabled": false
       }
     ],
     "appliedOverrides": [
+      {
+        "id": "fleet-bulk-uninstall-admin_template_studio-1779972565187",
+        "at": 1779978515175
+      },
       {
         "id": "fleet-notice-JL-4scjk8n4-1779807676143",
         "at": 1779807930783
