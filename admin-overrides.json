@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-05-26T15:01:16.143Z",
+  "lastUpdated": "2026-05-28T12:48:45.556Z",
   "overrides": [
     {
       "id": "fleet-set-light_mode-AN-ioimnwgd-1779517227118",
@@ -171,6 +171,22 @@
       "pushedBy": "andrew_nemiroff@colpal.com",
       "audienceEmails": [
         "jared_lerner@colpal.com"
+      ]
+    },
+    {
+      "id": "fleet-notice-AR-3j0qszmj-1779972525555",
+      "actions": [
+        {
+          "type": "notice",
+          "title": "Hi Amelia.",
+          "html": "<p>If you click the + icon on your dashboard and open the Admin tools, there is a new tool called Placeholder Studio. It should explain how to use the placeholders.</p>",
+          "dismissLabel": "OK"
+        }
+      ],
+      "pushedAt": "2026-05-28T12:48:45.555Z",
+      "pushedBy": "andrew_nemiroff@colpal.com",
+      "audienceEmails": [
+        "amelia_reid@colpal.com"
       ]
     }
   ]
