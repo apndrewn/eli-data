@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-28T12:00:03.104Z",
+  "lastUpdated": "2026-05-28T12:49:26.013Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -440,18 +440,6 @@
       "audienceEmails": [
         "andrew_nemiroff@colpal.com"
       ]
-    },
-    {
-      "id": "admin_template_studio",
-      "version": null,
-      "lastUpdated": "2026-05-26T05:58:50.348Z",
-      "filename": "admin_template_studio-v3.json",
-      "size": 85930,
-      "label": "Admin Template Studio",
-      "kind": "tool",
-      "category": "Admin",
-      "audience": [],
-      "changelog": ""
     },
     {
       "id": "admin_storage_inspector",
