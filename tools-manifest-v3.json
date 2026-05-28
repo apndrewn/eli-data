@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-28T04:08:53.668Z",
+  "lastUpdated": "2026-05-28T04:41:24.482Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -414,9 +414,9 @@
     {
       "id": "admin_library_publisher",
       "version": null,
-      "lastUpdated": "2026-05-28T04:08:52.768Z",
+      "lastUpdated": "2026-05-28T04:41:23.634Z",
       "filename": "admin_library_publisher-v3.json",
-      "size": 82920,
+      "size": 91062,
       "label": "Admin Data Hub",
       "kind": "tool",
       "category": "Admin",
