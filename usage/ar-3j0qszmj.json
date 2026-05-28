@@ -1,7 +1,7 @@
 {
   "userName": "AR",
   "userKey": "ar",
-  "generatedAt": "2026-05-28T13:31:46.342Z",
+  "generatedAt": "2026-05-28T19:09:08.977Z",
   "days": [
     {
       "date": "2026-05-20",
@@ -177,10 +177,14 @@
     },
     {
       "date": "2026-05-28",
-      "toolsUsed": {},
-      "sessions": 2,
+      "toolsUsed": {
+        "template_searcher": 1,
+        "draft": 3,
+        "draft_templates": 1
+      },
+      "sessions": 5,
       "firstActiveAt": 1779975101245,
-      "lastActiveAt": 1779975104070,
+      "lastActiveAt": 1779995343968,
       "tokens": {},
       "tokensByTool": {},
       "estCostUSD": 0,
@@ -196,7 +200,7 @@
     "initials": "AR",
     "kernelVersion": "v3-2026-05-23j-uuid-on-demand",
     "installedAt": "2026-05-27T17:37:06.120Z",
-    "lastSeenAt": "2026-05-28T13:31:46.642Z",
+    "lastSeenAt": "2026-05-28T19:09:09.203Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -210,6 +214,11 @@
       "expand_width": 800,
       "expand_threshold": 480,
       "debug_mode": false,
+      "build_draft.multilineInsert": true,
+      "build_draft.reviewNavigation": true,
+      "build_draft.confirmOarsAutoLoad": true,
+      "build_draft.fileNamePattern.colgate": "[Ref] - CP-[Party] -- [Type] (DRAFT [Date])",
+      "build_draft.fileNamePattern.hills": "[Ref] - HPN-[Party] -- [Type] (DRAFT [Date])",
       "ai_image_model": "gemini-3.1-flash-image-preview",
       "light_mode": false,
       "header_theme_index": 0,
@@ -225,17 +234,27 @@
       "mascot.hairStyle": "pigtails",
       "mascot.facialHair": "none",
       "mascot.glasses": "round",
-      "mascot.suitColor": "#1565c0",
-      "build_draft.multilineInsert": true,
-      "build_draft.reviewNavigation": true,
-      "build_draft.confirmOarsAutoLoad": true,
-      "build_draft.fileNamePattern.colgate": "[Ref] - CP-[Party] -- [Type] (DRAFT [Date])",
-      "build_draft.fileNamePattern.hills": "[Ref] - HPN-[Party] -- [Type] (DRAFT [Date])"
+      "mascot.suitColor": "#1565c0"
     },
     "tools": [
       {
+        "id": "admin_telemetry_inspector",
+        "releasedAt": "2026-05-28T03:58:43.231Z",
+        "disabled": false
+      },
+      {
         "id": "ask_eli",
         "releasedAt": "2026-05-26T06:05:10.691Z",
+        "disabled": false
+      },
+      {
+        "id": "auto_emailer",
+        "releasedAt": "2026-05-27T23:12:11.681Z",
+        "disabled": false
+      },
+      {
+        "id": "build_draft",
+        "releasedAt": "2026-05-28T03:06:27.843Z",
         "disabled": false
       },
       {
@@ -284,8 +303,28 @@
         "disabled": false
       },
       {
+        "id": "eli_stats",
+        "releasedAt": "2026-05-28T05:13:51.148Z",
+        "disabled": false
+      },
+      {
+        "id": "eli_telemetry",
+        "releasedAt": "2026-05-28T03:46:51.830Z",
+        "disabled": false
+      },
+      {
+        "id": "email_helper",
+        "releasedAt": "2026-05-28T05:15:56.728Z",
+        "disabled": false
+      },
+      {
         "id": "error_review",
         "releasedAt": "2026-05-27T05:35:12.074Z",
+        "disabled": false
+      },
+      {
+        "id": "final_review",
+        "releasedAt": "2026-05-28T05:00:01.210Z",
         "disabled": false
       },
       {
@@ -349,6 +388,11 @@
         "disabled": false
       },
       {
+        "id": "trophy_gallery",
+        "releasedAt": "2026-05-28T05:12:09.951Z",
+        "disabled": false
+      },
+      {
         "id": "usage_risks",
         "releasedAt": "2026-05-18T05:51:45.234Z",
         "disabled": false
@@ -356,46 +400,6 @@
       {
         "id": "version_history",
         "releasedAt": "2026-05-18T01:48:28.552Z",
-        "disabled": false
-      },
-      {
-        "id": "final_review",
-        "releasedAt": "2026-05-28T05:00:01.210Z",
-        "disabled": false
-      },
-      {
-        "id": "email_helper",
-        "releasedAt": "2026-05-28T05:15:56.728Z",
-        "disabled": false
-      },
-      {
-        "id": "auto_emailer",
-        "releasedAt": "2026-05-27T23:12:11.681Z",
-        "disabled": false
-      },
-      {
-        "id": "trophy_gallery",
-        "releasedAt": "2026-05-28T05:12:09.951Z",
-        "disabled": false
-      },
-      {
-        "id": "eli_stats",
-        "releasedAt": "2026-05-28T05:13:51.148Z",
-        "disabled": false
-      },
-      {
-        "id": "eli_telemetry",
-        "releasedAt": "2026-05-28T03:46:51.830Z",
-        "disabled": false
-      },
-      {
-        "id": "admin_telemetry_inspector",
-        "releasedAt": "2026-05-28T03:58:43.231Z",
-        "disabled": false
-      },
-      {
-        "id": "build_draft",
-        "releasedAt": "2026-05-28T03:06:27.843Z",
         "disabled": false
       }
     ],
