@@ -1,7 +1,7 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-05-29T05:09:19.816Z",
+  "generatedAt": "2026-05-29T12:34:04.424Z",
   "days": [
     {
       "date": "2026-05-23",
@@ -422,18 +422,42 @@
     {
       "date": "2026-05-29",
       "toolsUsed": {
-        "draft_templates": 25,
+        "draft_templates": 34,
         "template_indexer": 1,
         "template_searcher": 1,
-        "draft": 8,
-        "bd_template_tester": 1
+        "draft": 23,
+        "bd_template_tester": 1,
+        "error": 1,
+        "legal_review": 1,
+        "final_review": 4
       },
-      "sessions": 19,
+      "sessions": 42,
       "firstActiveAt": 1780027850974,
-      "lastActiveAt": 1780031357223,
-      "tokens": {},
-      "tokensByTool": {},
-      "estCostUSD": 0,
+      "lastActiveAt": 1780058039408,
+      "tokens": {
+        "gemini-flash-lite-latest": {
+          "promptTokens": 23350,
+          "candidatesTokens": 2268,
+          "calls": 4
+        }
+      },
+      "tokensByTool": {
+        "draft": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 6117,
+            "candidatesTokens": 1685,
+            "calls": 3
+          }
+        },
+        "error": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 17233,
+            "candidatesTokens": 583,
+            "calls": 1
+          }
+        }
+      },
+      "estCostUSD": 0.001388,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -446,7 +470,7 @@
     "initials": "AN",
     "kernelVersion": "v3-2026-05-23j-uuid-on-demand",
     "installedAt": "2026-05-22T16:36:38.096Z",
-    "lastSeenAt": "2026-05-29T05:09:19.972Z",
+    "lastSeenAt": "2026-05-29T12:34:04.610Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -528,7 +552,7 @@
       },
       {
         "id": "build_draft",
-        "releasedAt": "2026-05-28T22:59:52.586Z",
+        "releasedAt": "2026-05-29T06:22:43.047Z",
         "disabled": false
       },
       {
@@ -548,7 +572,7 @@
       },
       {
         "id": "docuscrub",
-        "releasedAt": "2026-05-28T23:27:32.451Z",
+        "releasedAt": "2026-05-29T06:24:38.649Z",
         "disabled": false
       },
       {
