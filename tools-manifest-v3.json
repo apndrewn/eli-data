@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-28T23:27:33.344Z",
+  "lastUpdated": "2026-05-29T02:07:05.217Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -433,6 +433,21 @@
       "filename": "placeholder_studio-v3.json",
       "size": 45926,
       "label": "Placeholder Studio",
+      "kind": "tool",
+      "category": "Admin",
+      "audience": [],
+      "changelog": "",
+      "audienceEmails": [
+        "andrew_nemiroff@colpal.com"
+      ]
+    },
+    {
+      "id": "clause_diff_lab",
+      "version": null,
+      "lastUpdated": "2026-05-29T02:05:47.132Z",
+      "filename": "clause_diff_lab-v3.json",
+      "size": 33713,
+      "label": "Clause Diff Lab",
       "kind": "tool",
       "category": "Admin",
       "audience": [],
@@ -959,6 +974,7 @@
         "admin_usage_viewer",
         "admin_telemetry_inspector",
         "placeholder_studio",
+        "clause_diff_lab",
         "eli_agent",
         "tool_author_studio",
         "bd_template_tester"
