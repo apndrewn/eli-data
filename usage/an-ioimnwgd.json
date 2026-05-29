@@ -1,7 +1,7 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-05-29T02:08:17.628Z",
+  "generatedAt": "2026-05-29T05:09:19.816Z",
   "days": [
     {
       "date": "2026-05-23",
@@ -369,17 +369,19 @@
       "toolsUsed": {
         "admin_library_publisher": 2,
         "admin_data_editor": 4,
-        "draft": 6,
+        "draft": 7,
         "admin_fleet": 2,
         "ask_eli": 4,
         "error": 1,
         "final_review": 4,
         "email_helper": 2,
-        "draft_templates": 3
+        "draft_templates": 10,
+        "clause_diff_lab": 13,
+        "docuscrub": 1
       },
-      "sessions": 26,
+      "sessions": 42,
       "firstActiveAt": 1779940829907,
-      "lastActiveAt": 1780020492596,
+      "lastActiveAt": 1780026975525,
       "tokens": {
         "gemini-flash-lite-latest": {
           "promptTokens": 32079,
@@ -416,6 +418,27 @@
         "byTemplate": {},
         "total": 0
       }
+    },
+    {
+      "date": "2026-05-29",
+      "toolsUsed": {
+        "draft_templates": 25,
+        "template_indexer": 1,
+        "template_searcher": 1,
+        "draft": 8,
+        "bd_template_tester": 1
+      },
+      "sessions": 19,
+      "firstActiveAt": 1780027850974,
+      "lastActiveAt": 1780031357223,
+      "tokens": {},
+      "tokensByTool": {},
+      "estCostUSD": 0,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
     }
   ],
   "fleet": {
@@ -423,7 +446,7 @@
     "initials": "AN",
     "kernelVersion": "v3-2026-05-23j-uuid-on-demand",
     "installedAt": "2026-05-22T16:36:38.096Z",
-    "lastSeenAt": "2026-05-29T02:08:17.814Z",
+    "lastSeenAt": "2026-05-29T05:09:19.972Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -511,6 +534,11 @@
       {
         "id": "business_continuity",
         "releasedAt": "2026-05-25T06:17:20.288Z",
+        "disabled": false
+      },
+      {
+        "id": "clause_diff_lab",
+        "releasedAt": "2026-05-29T03:16:15.588Z",
         "disabled": false
       },
       {
@@ -686,11 +714,6 @@
       {
         "id": "version_history",
         "releasedAt": "2026-05-18T01:48:28.552Z",
-        "disabled": false
-      },
-      {
-        "id": "clause_diff_lab",
-        "releasedAt": "2026-05-29T02:05:47.132Z",
         "disabled": false
       }
     ],
