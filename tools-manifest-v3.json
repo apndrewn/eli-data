@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-29T17:48:16.890Z",
+  "lastUpdated": "2026-05-29T17:49:50.766Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -725,9 +725,9 @@
     },
     {
       "id": "__data_agreement_types",
-      "lastUpdated": "2026-05-29T17:42:24.207Z",
+      "lastUpdated": "2026-05-29T17:49:50.766Z",
       "filename": "agreement_types.json",
-      "size": 5859,
+      "size": 6047,
       "label": "Agreement Types",
       "kind": "data",
       "category": "Data",
@@ -737,7 +737,7 @@
       "sections": [
         "agreementTypes"
       ],
-      "changelog": ""
+      "changelog": "24 rows · pushed 2026-05-29T17:49:50Z"
     },
     {
       "id": "__data_exec_brief_terms",
