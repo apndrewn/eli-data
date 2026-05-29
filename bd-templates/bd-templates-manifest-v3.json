@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-05-29T13:23:49.537Z",
+  "lastUpdated": "2026-05-29T13:53:16.404Z",
   "templates": [
     {
       "id": "bd_doc__amendment__masterxml___",
@@ -72,8 +72,8 @@
       "name": "Grant Agreement",
       "agreementType": "grant agreement",
       "filename": "bd_doc__grant_agreement__masterxml___.json",
-      "size": 263877,
-      "lastUpdated": "2026-05-27T15:16:54.148Z",
+      "size": 108896,
+      "lastUpdated": "2026-05-29T13:53:14.663Z",
       "core": true,
       "defaultForType": false,
       "audienceEmails": [],
