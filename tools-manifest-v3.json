@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-29T02:51:03.005Z",
+  "lastUpdated": "2026-05-29T02:56:10.706Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -444,9 +444,9 @@
     {
       "id": "clause_diff_lab",
       "version": null,
-      "lastUpdated": "2026-05-29T02:50:44.355Z",
+      "lastUpdated": "2026-05-29T02:55:28.347Z",
       "filename": "clause_diff_lab-v3.json",
-      "size": 48063,
+      "size": 47792,
       "label": "Clause Diff Lab",
       "kind": "tool",
       "category": "Admin",
