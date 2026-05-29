@@ -1,7 +1,7 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-05-28T22:56:33.660Z",
+  "generatedAt": "2026-05-29T02:08:17.628Z",
   "days": [
     {
       "date": "2026-05-23",
@@ -369,21 +369,22 @@
       "toolsUsed": {
         "admin_library_publisher": 2,
         "admin_data_editor": 4,
-        "draft": 4,
+        "draft": 6,
         "admin_fleet": 2,
         "ask_eli": 4,
         "error": 1,
-        "final_review": 1,
-        "email_helper": 2
+        "final_review": 4,
+        "email_helper": 2,
+        "draft_templates": 3
       },
-      "sessions": 19,
+      "sessions": 26,
       "firstActiveAt": 1779940829907,
-      "lastActiveAt": 1780008988625,
+      "lastActiveAt": 1780020492596,
       "tokens": {
         "gemini-flash-lite-latest": {
-          "promptTokens": 20153,
-          "candidatesTokens": 1088,
-          "calls": 3
+          "promptTokens": 32079,
+          "candidatesTokens": 1742,
+          "calls": 4
         }
       },
       "tokensByTool": {
@@ -400,9 +401,16 @@
             "candidatesTokens": 205,
             "calls": 2
           }
+        },
+        "final_review": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 11926,
+            "candidatesTokens": 654,
+            "calls": 1
+          }
         }
       },
-      "estCostUSD": 0.001024,
+      "estCostUSD": 0.001632,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -415,7 +423,7 @@
     "initials": "AN",
     "kernelVersion": "v3-2026-05-23j-uuid-on-demand",
     "installedAt": "2026-05-22T16:36:38.096Z",
-    "lastSeenAt": "2026-05-28T22:56:33.839Z",
+    "lastSeenAt": "2026-05-29T02:08:17.814Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -477,7 +485,7 @@
       },
       {
         "id": "admin_usage_viewer",
-        "releasedAt": "2026-05-28T02:34:07.127Z",
+        "releasedAt": "2026-05-28T23:06:32.262Z",
         "disabled": false
       },
       {
@@ -497,7 +505,7 @@
       },
       {
         "id": "build_draft",
-        "releasedAt": "2026-05-28T22:54:41.487Z",
+        "releasedAt": "2026-05-28T22:59:52.586Z",
         "disabled": false
       },
       {
@@ -512,7 +520,7 @@
       },
       {
         "id": "docuscrub",
-        "releasedAt": "2026-05-23T03:21:20.668Z",
+        "releasedAt": "2026-05-28T23:27:32.451Z",
         "disabled": false
       },
       {
@@ -577,7 +585,7 @@
       },
       {
         "id": "final_review",
-        "releasedAt": "2026-05-28T05:00:01.210Z",
+        "releasedAt": "2026-05-28T23:27:32.584Z",
         "disabled": false
       },
       {
@@ -678,6 +686,11 @@
       {
         "id": "version_history",
         "releasedAt": "2026-05-18T01:48:28.552Z",
+        "disabled": false
+      },
+      {
+        "id": "clause_diff_lab",
+        "releasedAt": "2026-05-29T02:05:47.132Z",
         "disabled": false
       }
     ],
