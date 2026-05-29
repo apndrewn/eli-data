@@ -1,7 +1,7 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-05-29T12:34:04.424Z",
+  "generatedAt": "2026-05-29T17:22:45.123Z",
   "days": [
     {
       "date": "2026-05-23",
@@ -422,31 +422,33 @@
     {
       "date": "2026-05-29",
       "toolsUsed": {
-        "draft_templates": 34,
-        "template_indexer": 1,
-        "template_searcher": 1,
-        "draft": 23,
+        "draft_templates": 61,
+        "template_indexer": 6,
+        "template_searcher": 4,
+        "draft": 33,
         "bd_template_tester": 1,
         "error": 1,
         "legal_review": 1,
-        "final_review": 4
+        "final_review": 5,
+        "clause_diff_lab": 1,
+        "docuscrub": 1
       },
-      "sessions": 42,
+      "sessions": 58,
       "firstActiveAt": 1780027850974,
-      "lastActiveAt": 1780058039408,
+      "lastActiveAt": 1780075364075,
       "tokens": {
         "gemini-flash-lite-latest": {
-          "promptTokens": 23350,
-          "candidatesTokens": 2268,
-          "calls": 4
+          "promptTokens": 30206,
+          "candidatesTokens": 2343,
+          "calls": 5
         }
       },
       "tokensByTool": {
         "draft": {
           "gemini-flash-lite-latest": {
-            "promptTokens": 6117,
-            "candidatesTokens": 1685,
-            "calls": 3
+            "promptTokens": 12973,
+            "candidatesTokens": 1760,
+            "calls": 4
           }
         },
         "error": {
@@ -457,7 +459,7 @@
           }
         }
       },
-      "estCostUSD": 0.001388,
+      "estCostUSD": 0.001677,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -470,7 +472,7 @@
     "initials": "AN",
     "kernelVersion": "v3-2026-05-23j-uuid-on-demand",
     "installedAt": "2026-05-22T16:36:38.096Z",
-    "lastSeenAt": "2026-05-29T12:34:04.610Z",
+    "lastSeenAt": "2026-05-29T17:22:45.300Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -485,13 +487,13 @@
       "build_draft.reviewNavigation": true,
       "build_draft.refreshFieldsAfterStep2": true,
       "build_draft.confirmOarsAutoLoad": true,
-      "build_draft.fileNamePattern.colgate": "[Ref] - CP-[Party] -- [Type] (DRAFT [Date])",
-      "build_draft.fileNamePattern.hills": "[Ref] - HPN-[Party] -- [Type] (DRAFT [Date])",
+      "build_draft.fileNamePattern.colgate": "[Ref] [Party] - [Type] (CP DRAFT [Date])",
+      "build_draft.fileNamePattern.hills": "[Ref] [Party] - [Type] (HPN DRAFT [Date])",
       "ai_image_model": "gemini-3.1-flash-image-preview",
       "light_mode": false,
       "header_theme_index": 0,
       "minimize_feed": false,
-      "auto_hide_sidebar": false,
+      "auto_hide_sidebar": true,
       "auto_expand_window": false,
       "auto_check_tools": true,
       "show_expand_pill": true,
@@ -552,7 +554,7 @@
       },
       {
         "id": "build_draft",
-        "releasedAt": "2026-05-29T06:22:43.047Z",
+        "releasedAt": "2026-05-29T17:14:03.202Z",
         "disabled": false
       },
       {
@@ -572,7 +574,7 @@
       },
       {
         "id": "docuscrub",
-        "releasedAt": "2026-05-29T06:24:38.649Z",
+        "releasedAt": "2026-05-29T06:30:33.071Z",
         "disabled": false
       },
       {
@@ -637,7 +639,7 @@
       },
       {
         "id": "final_review",
-        "releasedAt": "2026-05-28T23:27:32.584Z",
+        "releasedAt": "2026-05-29T06:30:33.173Z",
         "disabled": false
       },
       {
@@ -662,7 +664,7 @@
       },
       {
         "id": "oars_loader",
-        "releasedAt": "2026-05-25T06:18:58.712Z",
+        "releasedAt": "2026-05-29T17:14:03.302Z",
         "disabled": false
       },
       {
