@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-05-29T18:01:44.812Z",
+  "lastUpdated": "2026-05-29T18:41:12.925Z",
   "tools": [
     {
       "id": "__data_catalog",
@@ -286,6 +286,7 @@
         "admin_telemetry_inspector",
         "placeholder_studio",
         "clause_diff_lab",
+        "admin_draft_audit",
         "eli_agent",
         "tool_author_studio",
         "bd_template_tester"

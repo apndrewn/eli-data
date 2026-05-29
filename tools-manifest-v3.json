@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-29T18:01:44.812Z",
+  "lastUpdated": "2026-05-29T18:41:12.925Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -258,9 +258,9 @@
     {
       "id": "build_draft",
       "version": null,
-      "lastUpdated": "2026-05-29T18:01:35.501Z",
+      "lastUpdated": "2026-05-29T18:25:48.618Z",
       "filename": "build_draft-v3.json",
-      "size": 516088,
+      "size": 526711,
       "label": "Build Draft",
       "kind": "tool",
       "category": "External Innovation",
@@ -457,6 +457,35 @@
       ]
     },
     {
+      "id": "draft_audit",
+      "version": null,
+      "lastUpdated": "2026-05-29T18:29:23.414Z",
+      "filename": "draft_audit-v3.json",
+      "size": 19962,
+      "label": "My Draft History",
+      "kind": "tool",
+      "category": "Tools - ELI Core",
+      "audience": [
+        "all"
+      ],
+      "changelog": ""
+    },
+    {
+      "id": "admin_draft_audit",
+      "version": null,
+      "lastUpdated": "2026-05-29T18:29:23.512Z",
+      "filename": "admin_draft_audit-v3.json",
+      "size": 20155,
+      "label": "Draft Audit (Fleet)",
+      "kind": "tool",
+      "category": "Admin",
+      "audience": [],
+      "changelog": "",
+      "audienceEmails": [
+        "andrew_nemiroff@colpal.com"
+      ]
+    },
+    {
       "id": "admin_template_studio",
       "version": null,
       "lastUpdated": "2026-05-26T05:58:50.348Z",
@@ -548,9 +577,9 @@
     {
       "id": "eli_telemetry",
       "version": null,
-      "lastUpdated": "2026-05-28T03:46:51.830Z",
+      "lastUpdated": "2026-05-29T18:26:57.662Z",
       "filename": "eli_telemetry-v3.json",
-      "size": 67575,
+      "size": 72507,
       "label": "Usage Telemetry",
       "kind": "tool",
       "category": "System",
@@ -975,6 +1004,7 @@
         "admin_telemetry_inspector",
         "placeholder_studio",
         "clause_diff_lab",
+        "admin_draft_audit",
         "eli_agent",
         "tool_author_studio",
         "bd_template_tester"
