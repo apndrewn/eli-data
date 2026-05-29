@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-29T19:10:47.797Z",
+  "lastUpdated": "2026-05-29T19:20:18.107Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -258,9 +258,9 @@
     {
       "id": "build_draft",
       "version": null,
-      "lastUpdated": "2026-05-29T18:49:35.116Z",
+      "lastUpdated": "2026-05-29T19:19:57.069Z",
       "filename": "build_draft-v3.json",
-      "size": 529462,
+      "size": 530258,
       "label": "Build Draft",
       "kind": "tool",
       "category": "External Innovation",
@@ -459,9 +459,9 @@
     {
       "id": "draft_audit",
       "version": null,
-      "lastUpdated": "2026-05-29T18:49:35.218Z",
+      "lastUpdated": "2026-05-29T19:19:56.874Z",
       "filename": "draft_audit-v3.json",
-      "size": 20668,
+      "size": 27178,
       "label": "My Draft History",
       "kind": "tool",
       "category": "Tools - ELI Core",
@@ -473,9 +473,9 @@
     {
       "id": "admin_draft_audit",
       "version": null,
-      "lastUpdated": "2026-05-29T18:49:35.309Z",
+      "lastUpdated": "2026-05-29T19:20:03.252Z",
       "filename": "admin_draft_audit-v3.json",
-      "size": 20861,
+      "size": 27371,
       "label": "Draft Audit (Fleet)",
       "kind": "tool",
       "category": "Admin",
@@ -488,9 +488,9 @@
     {
       "id": "admin_email_rules",
       "version": null,
-      "lastUpdated": "2026-05-29T19:10:34.903Z",
+      "lastUpdated": "2026-05-29T19:19:56.969Z",
       "filename": "admin_email_rules-v3.json",
-      "size": 19470,
+      "size": 24586,
       "label": "Email CC Rules",
       "kind": "tool",
       "category": "Admin",
