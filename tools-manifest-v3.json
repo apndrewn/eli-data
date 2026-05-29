@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-29T19:38:03.245Z",
+  "lastUpdated": "2026-05-29T19:54:10.888Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -258,9 +258,9 @@
     {
       "id": "build_draft",
       "version": null,
-      "lastUpdated": "2026-05-29T19:37:40.821Z",
+      "lastUpdated": "2026-05-29T19:54:03.054Z",
       "filename": "build_draft-v3.json",
-      "size": 535127,
+      "size": 536532,
       "label": "Build Draft",
       "kind": "tool",
       "category": "External Innovation",
@@ -459,9 +459,9 @@
     {
       "id": "draft_audit",
       "version": null,
-      "lastUpdated": "2026-05-29T19:19:56.874Z",
+      "lastUpdated": "2026-05-29T19:54:03.155Z",
       "filename": "draft_audit-v3.json",
-      "size": 27178,
+      "size": 28927,
       "label": "My Draft History",
       "kind": "tool",
       "category": "Tools - ELI Core",
@@ -473,9 +473,9 @@
     {
       "id": "admin_draft_audit",
       "version": null,
-      "lastUpdated": "2026-05-29T19:20:03.252Z",
+      "lastUpdated": "2026-05-29T19:54:03.252Z",
       "filename": "admin_draft_audit-v3.json",
-      "size": 27371,
+      "size": 29120,
       "label": "Draft Audit (Fleet)",
       "kind": "tool",
       "category": "Admin",
