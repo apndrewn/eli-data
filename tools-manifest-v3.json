@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-29T06:22:51.467Z",
+  "lastUpdated": "2026-05-29T06:27:14.116Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -90,9 +90,9 @@
     {
       "id": "docuscrub",
       "version": null,
-      "lastUpdated": "2026-05-28T23:27:32.451Z",
+      "lastUpdated": "2026-05-29T06:24:38.649Z",
       "filename": "docuscrub-v3.json",
-      "size": 64615,
+      "size": 63761,
       "label": "DocuScrub",
       "kind": "tool",
       "category": "External Innovation",
