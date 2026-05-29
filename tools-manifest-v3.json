@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-29T18:50:16.076Z",
+  "lastUpdated": "2026-05-29T19:10:47.797Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -272,9 +272,9 @@
     {
       "id": "auto_emailer",
       "version": null,
-      "lastUpdated": "2026-05-27T23:12:11.681Z",
+      "lastUpdated": "2026-05-29T19:10:35.005Z",
       "filename": "auto_emailer-v3.json",
-      "size": 82098,
+      "size": 88153,
       "label": "Auto Emailer",
       "kind": "tool",
       "category": "External Innovation",
@@ -477,6 +477,21 @@
       "filename": "admin_draft_audit-v3.json",
       "size": 20861,
       "label": "Draft Audit (Fleet)",
+      "kind": "tool",
+      "category": "Admin",
+      "audience": [],
+      "changelog": "",
+      "audienceEmails": [
+        "andrew_nemiroff@colpal.com"
+      ]
+    },
+    {
+      "id": "admin_email_rules",
+      "version": null,
+      "lastUpdated": "2026-05-29T19:10:34.903Z",
+      "filename": "admin_email_rules-v3.json",
+      "size": 19470,
+      "label": "Email CC Rules",
       "kind": "tool",
       "category": "Admin",
       "audience": [],
@@ -1005,6 +1020,7 @@
         "placeholder_studio",
         "clause_diff_lab",
         "admin_draft_audit",
+        "admin_email_rules",
         "eli_agent",
         "tool_author_studio",
         "bd_template_tester"
