@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-29T18:41:12.925Z",
+  "lastUpdated": "2026-05-29T18:50:16.076Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -258,9 +258,9 @@
     {
       "id": "build_draft",
       "version": null,
-      "lastUpdated": "2026-05-29T18:25:48.618Z",
+      "lastUpdated": "2026-05-29T18:49:35.116Z",
       "filename": "build_draft-v3.json",
-      "size": 526711,
+      "size": 529462,
       "label": "Build Draft",
       "kind": "tool",
       "category": "External Innovation",
@@ -459,9 +459,9 @@
     {
       "id": "draft_audit",
       "version": null,
-      "lastUpdated": "2026-05-29T18:29:23.414Z",
+      "lastUpdated": "2026-05-29T18:49:35.218Z",
       "filename": "draft_audit-v3.json",
-      "size": 19962,
+      "size": 20668,
       "label": "My Draft History",
       "kind": "tool",
       "category": "Tools - ELI Core",
@@ -473,9 +473,9 @@
     {
       "id": "admin_draft_audit",
       "version": null,
-      "lastUpdated": "2026-05-29T18:29:23.512Z",
+      "lastUpdated": "2026-05-29T18:49:35.309Z",
       "filename": "admin_draft_audit-v3.json",
-      "size": 20155,
+      "size": 20861,
       "label": "Draft Audit (Fleet)",
       "kind": "tool",
       "category": "Admin",
@@ -577,9 +577,9 @@
     {
       "id": "eli_telemetry",
       "version": null,
-      "lastUpdated": "2026-05-29T18:26:57.662Z",
+      "lastUpdated": "2026-05-29T18:47:35.648Z",
       "filename": "eli_telemetry-v3.json",
-      "size": 72507,
+      "size": 74485,
       "label": "Usage Telemetry",
       "kind": "tool",
       "category": "System",
