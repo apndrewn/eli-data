@@ -1,7 +1,7 @@
 {
   "userName": "JL",
   "userKey": "jl",
-  "generatedAt": "2026-05-28T21:10:27.744Z",
+  "generatedAt": "2026-05-29T14:27:38.886Z",
   "days": [
     {
       "date": "2026-05-19",
@@ -145,6 +145,21 @@
         "byTemplate": {},
         "total": 0
       }
+    },
+    {
+      "date": "2026-05-29",
+      "toolsUsed": {},
+      "sessions": 1,
+      "firstActiveAt": 1780064853860,
+      "lastActiveAt": 1780064853860,
+      "tokens": {},
+      "tokensByTool": {},
+      "estCostUSD": 0,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
     }
   ],
   "fleet": {
@@ -152,7 +167,7 @@
     "initials": "JL",
     "kernelVersion": "v3-2026-05-23j-uuid-on-demand",
     "installedAt": "2026-05-26T14:38:04.421Z",
-    "lastSeenAt": "2026-05-28T21:10:28.010Z",
+    "lastSeenAt": "2026-05-29T14:27:39.112Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -188,7 +203,8 @@
       "mascot.hairStyle": "bald",
       "mascot.facialHair": "none",
       "mascot.glasses": "round",
-      "mascot.suitColor": "#1565c0"
+      "mascot.suitColor": "#1565c0",
+      "build_draft.refreshFieldsAfterStep2": true
     },
     "tools": [
       {
@@ -212,18 +228,8 @@
         "disabled": false
       },
       {
-        "id": "build_draft",
-        "releasedAt": "2026-05-28T03:06:27.843Z",
-        "disabled": false
-      },
-      {
         "id": "compare",
         "releasedAt": "2026-05-25T06:17:19.985Z",
-        "disabled": false
-      },
-      {
-        "id": "docuscrub",
-        "releasedAt": "2026-05-23T03:21:20.668Z",
         "disabled": false
       },
       {
@@ -279,11 +285,6 @@
       {
         "id": "error_review",
         "releasedAt": "2026-05-27T05:35:12.074Z",
-        "disabled": false
-      },
-      {
-        "id": "final_review",
-        "releasedAt": "2026-05-28T05:00:01.210Z",
         "disabled": false
       },
       {
@@ -364,6 +365,21 @@
       {
         "id": "version_history",
         "releasedAt": "2026-05-18T01:48:28.552Z",
+        "disabled": false
+      },
+      {
+        "id": "docuscrub",
+        "releasedAt": "2026-05-29T06:30:33.071Z",
+        "disabled": false
+      },
+      {
+        "id": "final_review",
+        "releasedAt": "2026-05-29T06:30:33.173Z",
+        "disabled": false
+      },
+      {
+        "id": "build_draft",
+        "releasedAt": "2026-05-29T14:26:34.567Z",
         "disabled": false
       }
     ],
