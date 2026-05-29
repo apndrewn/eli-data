@@ -1,10 +1,4 @@
 {
-  "schemaVersion": 1,
-  "exportedAt": "2026-05-29T17:49:49.199Z",
-  "__releasedAt": "2026-05-29T17:49:49.199Z",
-  "sectionVersions": {
-    "agreementTypes": 1780076989199
-  },
   "sections": {
     "agreementTypes": [
       {
@@ -90,7 +84,7 @@
       {
         "id": "Grant Agreement",
         "label": "Grant Agreement",
-        "abbrev": "Grant",
+        "abbrev": "",
         "aliases": [
           "grant",
           "funding",
@@ -181,7 +175,7 @@
       {
         "id": "Research Agreement",
         "label": "Research Agreement",
-        "abbrev": "Research",
+        "abbrev": "",
         "aliases": [
           "research",
           "sponsored research",
@@ -264,5 +258,6 @@
         ]
       }
     ]
-  }
+  },
+  "releasedAt": "2026-05-29T17:59:57.510Z"
 }

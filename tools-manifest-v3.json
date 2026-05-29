@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-29T17:49:50.766Z",
+  "lastUpdated": "2026-05-29T17:59:57.453Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -258,9 +258,9 @@
     {
       "id": "build_draft",
       "version": null,
-      "lastUpdated": "2026-05-29T17:42:03.123Z",
+      "lastUpdated": "2026-05-29T17:59:40.728Z",
       "filename": "build_draft-v3.json",
-      "size": 515318,
+      "size": 515373,
       "label": "Build Draft",
       "kind": "tool",
       "category": "External Innovation",
@@ -517,9 +517,9 @@
     {
       "id": "template_manager",
       "version": null,
-      "lastUpdated": "2026-05-22T13:42:03.788Z",
+      "lastUpdated": "2026-05-29T17:59:40.612Z",
       "filename": "template_manager-v3.json",
-      "size": 54215,
+      "size": 55429,
       "label": "Template Manager",
       "kind": "tool",
       "category": "Admin",
@@ -725,9 +725,9 @@
     },
     {
       "id": "__data_agreement_types",
-      "lastUpdated": "2026-05-29T17:49:50.766Z",
+      "lastUpdated": "2026-05-29T17:59:57.510Z",
       "filename": "agreement_types.json",
-      "size": 6047,
+      "size": 5859,
       "label": "Agreement Types",
       "kind": "data",
       "category": "Data",
@@ -737,7 +737,7 @@
       "sections": [
         "agreementTypes"
       ],
-      "changelog": "24 rows · pushed 2026-05-29T17:49:50Z"
+      "changelog": ""
     },
     {
       "id": "__data_exec_brief_terms",
