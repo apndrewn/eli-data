@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-05-29T14:02:01.543Z",
+  "lastUpdated": "2026-05-29T14:04:31.417Z",
   "templates": [
     {
       "id": "bd_doc__amendment__masterxml___",
@@ -189,8 +189,8 @@
       "name": "Speaker Agreement",
       "agreementType": "speaker agreement",
       "filename": "bd_doc__speaker_agreement__masterxml___.json",
-      "size": 95070,
-      "lastUpdated": "2026-05-26T18:13:45.415Z",
+      "size": 94990,
+      "lastUpdated": "2026-05-29T14:04:29.658Z",
       "core": true,
       "defaultForType": false,
       "audienceEmails": [],
