@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-05-30T20:41:44.544Z",
+  "lastUpdated": "2026-05-30T20:50:37.501Z",
   "tools": [
     {
       "id": "__data_catalog",
@@ -20,9 +20,9 @@
     },
     {
       "id": "__data_prompts",
-      "lastUpdated": "2026-05-16T22:36:57.737Z",
+      "lastUpdated": "2026-05-30T20:50:37.555Z",
       "filename": "prompts.json",
-      "size": 49389,
+      "size": 47446,
       "label": "AI Prompts",
       "kind": "data",
       "category": "Data",
