@@ -1,7 +1,7 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-05-30T00:54:42.252Z",
+  "generatedAt": "2026-05-30T04:36:47.893Z",
   "days": [
     {
       "date": "2026-05-23",
@@ -422,7 +422,7 @@
     {
       "date": "2026-05-29",
       "toolsUsed": {
-        "draft_templates": 82,
+        "draft_templates": 83,
         "template_indexer": 6,
         "template_searcher": 5,
         "draft": 43,
@@ -434,13 +434,13 @@
         "docuscrub": 1,
         "admin_data_editor": 3,
         "admin_library_publisher": 1,
-        "draft_audit": 7,
-        "admin_draft_audit": 7,
+        "draft_audit": 8,
+        "admin_draft_audit": 8,
         "email_rules": 5
       },
-      "sessions": 78,
+      "sessions": 79,
       "firstActiveAt": 1780027850974,
-      "lastActiveAt": 1780102465069,
+      "lastActiveAt": 1780104914520,
       "tokens": {
         "gemini-flash-lite-latest": {
           "promptTokens": 75638,
@@ -470,6 +470,21 @@
         "byTemplate": {},
         "total": 0
       }
+    },
+    {
+      "date": "2026-05-30",
+      "toolsUsed": {},
+      "sessions": 1,
+      "firstActiveAt": 1780115802875,
+      "lastActiveAt": 1780115802875,
+      "tokens": {},
+      "tokensByTool": {},
+      "estCostUSD": 0,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
     }
   ],
   "fleet": {
@@ -477,7 +492,7 @@
     "initials": "AN",
     "kernelVersion": "v3-2026-05-23j-uuid-on-demand",
     "installedAt": "2026-05-22T16:36:38.096Z",
-    "lastSeenAt": "2026-05-30T00:54:42.370Z",
+    "lastSeenAt": "2026-05-30T04:36:48.056Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -513,6 +528,11 @@
       "mascot.suitColor": "#1565c0"
     },
     "tools": [
+      {
+        "id": "admin_draft_audit",
+        "releasedAt": "2026-05-30T01:09:05.267Z",
+        "disabled": false
+      },
       {
         "id": "admin_email_rules",
         "releasedAt": "2026-05-29T19:19:56.969Z",
@@ -564,6 +584,11 @@
         "disabled": false
       },
       {
+        "id": "build_draft",
+        "releasedAt": "2026-05-30T01:09:05.056Z",
+        "disabled": false
+      },
+      {
         "id": "business_continuity",
         "releasedAt": "2026-05-25T06:17:20.288Z",
         "disabled": false
@@ -581,6 +606,11 @@
       {
         "id": "docuscrub",
         "releasedAt": "2026-05-29T06:30:33.071Z",
+        "disabled": false
+      },
+      {
+        "id": "draft_audit",
+        "releasedAt": "2026-05-30T01:09:05.167Z",
         "disabled": false
       },
       {
@@ -669,11 +699,6 @@
         "disabled": false
       },
       {
-        "id": "oars_loader",
-        "releasedAt": "2026-05-29T17:42:03.240Z",
-        "disabled": false
-      },
-      {
         "id": "placeholder_studio",
         "releasedAt": "2026-05-28T12:00:02.012Z",
         "disabled": false
@@ -749,18 +774,8 @@
         "disabled": false
       },
       {
-        "id": "draft_audit",
-        "releasedAt": "2026-05-29T19:54:03.155Z",
-        "disabled": false
-      },
-      {
-        "id": "admin_draft_audit",
-        "releasedAt": "2026-05-29T19:54:03.252Z",
-        "disabled": false
-      },
-      {
-        "id": "build_draft",
-        "releasedAt": "2026-05-29T19:54:03.054Z",
+        "id": "oars_loader",
+        "releasedAt": "2026-05-30T01:36:31.668Z",
         "disabled": false
       }
     ],
