@@ -1,7 +1,7 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-05-29T17:22:45.123Z",
+  "generatedAt": "2026-05-30T00:54:42.252Z",
   "days": [
     {
       "date": "2026-05-23",
@@ -422,44 +422,49 @@
     {
       "date": "2026-05-29",
       "toolsUsed": {
-        "draft_templates": 61,
+        "draft_templates": 82,
         "template_indexer": 6,
-        "template_searcher": 4,
-        "draft": 33,
+        "template_searcher": 5,
+        "draft": 43,
         "bd_template_tester": 1,
-        "error": 1,
+        "error": 3,
         "legal_review": 1,
         "final_review": 5,
         "clause_diff_lab": 1,
-        "docuscrub": 1
+        "docuscrub": 1,
+        "admin_data_editor": 3,
+        "admin_library_publisher": 1,
+        "draft_audit": 7,
+        "admin_draft_audit": 7,
+        "email_rules": 5
       },
-      "sessions": 58,
+      "sessions": 78,
       "firstActiveAt": 1780027850974,
-      "lastActiveAt": 1780075364075,
+      "lastActiveAt": 1780102465069,
       "tokens": {
         "gemini-flash-lite-latest": {
-          "promptTokens": 30206,
-          "candidatesTokens": 2343,
-          "calls": 5
+          "promptTokens": 75638,
+          "candidatesTokens": 4853,
+          "calls": 12
         }
       },
       "tokensByTool": {
         "draft": {
           "gemini-flash-lite-latest": {
-            "promptTokens": 12973,
-            "candidatesTokens": 1760,
-            "calls": 4
+            "promptTokens": 21768,
+            "candidatesTokens": 3306,
+            "calls": 8
           }
         },
         "error": {
           "gemini-flash-lite-latest": {
-            "promptTokens": 17233,
-            "candidatesTokens": 583,
-            "calls": 1
+            "promptTokens": 53870,
+            "candidatesTokens": 1547,
+            "calls": 4
           }
         }
       },
-      "estCostUSD": 0.001677,
+      "estCostUSD": 0.003996,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -472,7 +477,7 @@
     "initials": "AN",
     "kernelVersion": "v3-2026-05-23j-uuid-on-demand",
     "installedAt": "2026-05-22T16:36:38.096Z",
-    "lastSeenAt": "2026-05-29T17:22:45.300Z",
+    "lastSeenAt": "2026-05-30T00:54:42.370Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -487,6 +492,7 @@
       "build_draft.reviewNavigation": true,
       "build_draft.refreshFieldsAfterStep2": true,
       "build_draft.confirmOarsAutoLoad": true,
+      "build_draft.shareStep2FillsToCdn": false,
       "build_draft.fileNamePattern.colgate": "[Ref] [Party] - [Type] (CP DRAFT [Date])",
       "build_draft.fileNamePattern.hills": "[Ref] [Party] - [Type] (HPN DRAFT [Date])",
       "ai_image_model": "gemini-3.1-flash-image-preview",
@@ -508,13 +514,18 @@
     },
     "tools": [
       {
+        "id": "admin_email_rules",
+        "releasedAt": "2026-05-29T19:19:56.969Z",
+        "disabled": false
+      },
+      {
         "id": "admin_fleet",
         "releasedAt": "2026-05-25T21:33:50.543Z",
         "disabled": false
       },
       {
         "id": "admin_library_publisher",
-        "releasedAt": "2026-05-28T04:41:23.634Z",
+        "releasedAt": "2026-05-29T17:48:05.440Z",
         "disabled": false
       },
       {
@@ -544,17 +555,12 @@
       },
       {
         "id": "auto_emailer",
-        "releasedAt": "2026-05-27T23:12:11.681Z",
+        "releasedAt": "2026-05-29T19:27:22.945Z",
         "disabled": false
       },
       {
         "id": "bd_template_tester",
         "releasedAt": "2026-05-20T06:26:01.803Z",
-        "disabled": false
-      },
-      {
-        "id": "build_draft",
-        "releasedAt": "2026-05-29T17:14:03.202Z",
         "disabled": false
       },
       {
@@ -624,7 +630,7 @@
       },
       {
         "id": "eli_telemetry",
-        "releasedAt": "2026-05-28T03:46:51.830Z",
+        "releasedAt": "2026-05-29T18:47:35.648Z",
         "disabled": false
       },
       {
@@ -664,7 +670,7 @@
       },
       {
         "id": "oars_loader",
-        "releasedAt": "2026-05-29T17:14:03.302Z",
+        "releasedAt": "2026-05-29T17:42:03.240Z",
         "disabled": false
       },
       {
@@ -709,7 +715,7 @@
       },
       {
         "id": "template_manager",
-        "releasedAt": "2026-05-22T13:42:03.788Z",
+        "releasedAt": "2026-05-29T17:59:40.612Z",
         "disabled": false
       },
       {
@@ -740,6 +746,21 @@
       {
         "id": "version_history",
         "releasedAt": "2026-05-18T01:48:28.552Z",
+        "disabled": false
+      },
+      {
+        "id": "draft_audit",
+        "releasedAt": "2026-05-29T19:54:03.155Z",
+        "disabled": false
+      },
+      {
+        "id": "admin_draft_audit",
+        "releasedAt": "2026-05-29T19:54:03.252Z",
+        "disabled": false
+      },
+      {
+        "id": "build_draft",
+        "releasedAt": "2026-05-29T19:54:03.054Z",
         "disabled": false
       }
     ],
