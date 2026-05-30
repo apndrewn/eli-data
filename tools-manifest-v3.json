@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-05-30T16:30:44.083Z",
+  "lastUpdated": "2026-05-30T18:15:15.492Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -272,9 +272,9 @@
     {
       "id": "auto_emailer",
       "version": null,
-      "lastUpdated": "2026-05-29T19:27:22.945Z",
+      "lastUpdated": "2026-05-30T18:15:09.750Z",
       "filename": "auto_emailer-v3.json",
-      "size": 88952,
+      "size": 89586,
       "label": "Auto Emailer",
       "kind": "tool",
       "category": "External Innovation",
@@ -488,9 +488,9 @@
     {
       "id": "admin_email_rules",
       "version": null,
-      "lastUpdated": "2026-05-29T19:19:56.969Z",
+      "lastUpdated": "2026-05-30T18:15:09.643Z",
       "filename": "admin_email_rules-v3.json",
-      "size": 24586,
+      "size": 27174,
       "label": "Email CC Rules",
       "kind": "tool",
       "category": "Admin",
