@@ -1,7 +1,7 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-05-30T15:09:28.715Z",
+  "generatedAt": "2026-05-30T18:17:05.203Z",
   "days": [
     {
       "date": "2026-05-23",
@@ -473,10 +473,15 @@
     },
     {
       "date": "2026-05-30",
-      "toolsUsed": {},
-      "sessions": 3,
+      "toolsUsed": {
+        "draft_templates": 3,
+        "email_rules": 2,
+        "draft_audit": 5,
+        "draft": 1
+      },
+      "sessions": 5,
       "firstActiveAt": 1780115802875,
-      "lastActiveAt": 1780153763691,
+      "lastActiveAt": 1780165020190,
       "tokens": {},
       "tokensByTool": {},
       "estCostUSD": 0,
@@ -492,7 +497,7 @@
     "initials": "AN",
     "kernelVersion": "v3-2026-05-23j-uuid-on-demand",
     "installedAt": "2026-05-22T16:36:38.096Z",
-    "lastSeenAt": "2026-05-30T15:09:28.890Z",
+    "lastSeenAt": "2026-05-30T18:17:05.378Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -529,16 +534,6 @@
     },
     "tools": [
       {
-        "id": "admin_draft_audit",
-        "releasedAt": "2026-05-30T01:09:05.267Z",
-        "disabled": false
-      },
-      {
-        "id": "admin_email_rules",
-        "releasedAt": "2026-05-29T19:19:56.969Z",
-        "disabled": false
-      },
-      {
         "id": "admin_fleet",
         "releasedAt": "2026-05-25T21:33:50.543Z",
         "disabled": false
@@ -574,18 +569,13 @@
         "disabled": false
       },
       {
-        "id": "auto_emailer",
-        "releasedAt": "2026-05-29T19:27:22.945Z",
-        "disabled": false
-      },
-      {
         "id": "bd_template_tester",
         "releasedAt": "2026-05-20T06:26:01.803Z",
         "disabled": false
       },
       {
         "id": "build_draft",
-        "releasedAt": "2026-05-30T01:09:05.056Z",
+        "releasedAt": "2026-05-30T15:21:42.337Z",
         "disabled": false
       },
       {
@@ -606,11 +596,6 @@
       {
         "id": "docuscrub",
         "releasedAt": "2026-05-29T06:30:33.071Z",
-        "disabled": false
-      },
-      {
-        "id": "draft_audit",
-        "releasedAt": "2026-05-30T01:09:05.167Z",
         "disabled": false
       },
       {
@@ -776,6 +761,26 @@
       {
         "id": "version_history",
         "releasedAt": "2026-05-18T01:48:28.552Z",
+        "disabled": false
+      },
+      {
+        "id": "draft_audit",
+        "releasedAt": "2026-05-30T16:30:37.394Z",
+        "disabled": false
+      },
+      {
+        "id": "admin_draft_audit",
+        "releasedAt": "2026-05-30T16:30:37.507Z",
+        "disabled": false
+      },
+      {
+        "id": "admin_email_rules",
+        "releasedAt": "2026-05-30T18:15:09.643Z",
+        "disabled": false
+      },
+      {
+        "id": "auto_emailer",
+        "releasedAt": "2026-05-30T18:15:09.750Z",
         "disabled": false
       }
     ],
