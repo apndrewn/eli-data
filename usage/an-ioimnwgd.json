@@ -1,7 +1,7 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-05-31T16:19:55.633Z",
+  "generatedAt": "2026-05-31T19:52:34.609Z",
   "days": [
     {
       "date": "2026-05-23",
@@ -543,14 +543,37 @@
     {
       "date": "2026-05-31",
       "toolsUsed": {
-        "draft": 1
+        "draft": 63,
+        "draft_templates": 2,
+        "legal_review": 3
       },
-      "sessions": 1,
+      "sessions": 46,
       "firstActiveAt": 1780244390615,
-      "lastActiveAt": 1780244390917,
-      "tokens": {},
-      "tokensByTool": {},
-      "estCostUSD": 0,
+      "lastActiveAt": 1780257153488,
+      "tokens": {
+        "gemini-flash-lite-latest": {
+          "promptTokens": 25297,
+          "candidatesTokens": 1482,
+          "calls": 2
+        }
+      },
+      "tokensByTool": {
+        "draft": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 23171,
+            "candidatesTokens": 477,
+            "calls": 1
+          }
+        },
+        "legal_review": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 2126,
+            "candidatesTokens": 1005,
+            "calls": 1
+          }
+        }
+      },
+      "estCostUSD": 0.001308,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -563,7 +586,7 @@
     "initials": "AN",
     "kernelVersion": "v3-2026-05-23j-uuid-on-demand",
     "installedAt": "2026-05-22T16:36:38.096Z",
-    "lastSeenAt": "2026-05-31T16:19:55.806Z",
+    "lastSeenAt": "2026-05-31T19:52:34.804Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -582,6 +605,7 @@
       "build_draft.confirmOarsAutoLoad": true,
       "build_draft.shareStep2FillsToCdn": false,
       "build_draft.requireAllSteps": true,
+      "build_draft.guidedMode": true,
       "build_draft.fileNamePattern.colgate": "[Ref] [Party] - [Type] (CP DRAFT [Date])",
       "build_draft.fileNamePattern.hills": "[Ref] [Party] - [Type] (HPN DRAFT [Date])",
       "ai_image_model": "gemini-3.1-flash-image-preview",
@@ -655,6 +679,11 @@
       {
         "id": "bd_template_tester",
         "releasedAt": "2026-05-20T06:26:01.803Z",
+        "disabled": false
+      },
+      {
+        "id": "build_draft",
+        "releasedAt": "2026-05-31T19:18:22.202Z",
         "disabled": false
       },
       {
@@ -845,11 +874,6 @@
       {
         "id": "version_history",
         "releasedAt": "2026-05-18T01:48:28.552Z",
-        "disabled": false
-      },
-      {
-        "id": "build_draft",
-        "releasedAt": "2026-05-31T00:27:36.013Z",
         "disabled": false
       }
     ],
