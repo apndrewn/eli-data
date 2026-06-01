@@ -1,7 +1,7 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-06-01T12:43:38.159Z",
+  "generatedAt": "2026-06-01T18:02:20.176Z",
   "days": [
     {
       "date": "2026-05-19",
@@ -457,13 +457,38 @@
     },
     {
       "date": "2026-06-01",
-      "toolsUsed": {},
-      "sessions": 2,
+      "toolsUsed": {
+        "draft_templates": 18,
+        "draft": 3,
+        "error": 1
+      },
+      "sessions": 30,
       "firstActiveAt": 1780317812951,
-      "lastActiveAt": 1780317817283,
-      "tokens": {},
-      "tokensByTool": {},
-      "estCostUSD": 0,
+      "lastActiveAt": 1780336935146,
+      "tokens": {
+        "gemini-flash-lite-latest": {
+          "promptTokens": 10448,
+          "candidatesTokens": 1617,
+          "calls": 4
+        }
+      },
+      "tokensByTool": {
+        "draft": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 4662,
+            "candidatesTokens": 1103,
+            "calls": 3
+          }
+        },
+        "error": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 5786,
+            "candidatesTokens": 514,
+            "calls": 1
+          }
+        }
+      },
+      "estCostUSD": 0.000741,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -476,7 +501,7 @@
     "initials": "AN",
     "kernelVersion": "v3-2026-05-23j-uuid-on-demand",
     "installedAt": "2026-05-25T04:22:25.663Z",
-    "lastSeenAt": "2026-06-01T12:43:38.397Z",
+    "lastSeenAt": "2026-06-01T18:02:20.426Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -496,6 +521,9 @@
       "build_draft.reviewNavigation": true,
       "build_draft.refreshFieldsAfterStep2": true,
       "build_draft.confirmOarsAutoLoad": true,
+      "build_draft.shareStep2FillsToCdn": false,
+      "build_draft.requireAllSteps": true,
+      "build_draft.guidedMode": true,
       "build_draft.fileNamePattern.colgate": "[Ref] [Party] - [Type] (CP DRAFT [Date])",
       "build_draft.fileNamePattern.hills": "[Ref] [Party] - [Type] (HPN DRAFT [Date])",
       "ai_image_model": "gemini-3.1-flash-image-preview",
@@ -513,15 +541,22 @@
       "mascot.hairStyle": "professional",
       "mascot.facialHair": "none",
       "mascot.glasses": "rectangle",
-      "mascot.suitColor": "#263238",
-      "build_draft.shareStep2FillsToCdn": false,
-      "build_draft.requireAllSteps": true,
-      "build_draft.guidedMode": true
+      "mascot.suitColor": "#263238"
     },
     "tools": [
       {
         "id": "admin_data_editor",
         "releasedAt": "2026-05-17T13:54:46.109Z",
+        "disabled": false
+      },
+      {
+        "id": "admin_draft_audit",
+        "releasedAt": "2026-05-30T16:30:37.507Z",
+        "disabled": false
+      },
+      {
+        "id": "admin_email_rules",
+        "releasedAt": "2026-05-30T18:15:09.643Z",
         "disabled": false
       },
       {
@@ -560,8 +595,18 @@
         "disabled": false
       },
       {
+        "id": "auto_emailer",
+        "releasedAt": "2026-05-30T18:15:09.750Z",
+        "disabled": false
+      },
+      {
         "id": "bd_template_tester",
         "releasedAt": "2026-05-20T06:26:01.803Z",
+        "disabled": false
+      },
+      {
+        "id": "build_draft",
+        "releasedAt": "2026-06-01T06:08:58.281Z",
         "disabled": false
       },
       {
@@ -582,6 +627,11 @@
       {
         "id": "docuscrub",
         "releasedAt": "2026-05-29T06:30:33.071Z",
+        "disabled": false
+      },
+      {
+        "id": "draft_audit",
+        "releasedAt": "2026-05-30T16:30:37.394Z",
         "disabled": false
       },
       {
@@ -620,13 +670,28 @@
         "disabled": false
       },
       {
+        "id": "eli_settings",
+        "releasedAt": "2026-05-30T20:54:10.391Z",
+        "disabled": false
+      },
+      {
         "id": "eli_stats",
         "releasedAt": "2026-05-28T05:13:51.148Z",
         "disabled": false
       },
       {
+        "id": "eli_telemetry",
+        "releasedAt": "2026-05-29T18:47:35.648Z",
+        "disabled": false
+      },
+      {
         "id": "email_helper",
         "releasedAt": "2026-05-28T05:15:56.728Z",
+        "disabled": false
+      },
+      {
+        "id": "error_review",
+        "releasedAt": "2026-05-30T21:55:54.299Z",
         "disabled": false
       },
       {
@@ -652,6 +717,11 @@
       {
         "id": "legal_risks",
         "releasedAt": "2026-05-23T05:30:08.210Z",
+        "disabled": false
+      },
+      {
+        "id": "oars_loader",
+        "releasedAt": "2026-05-30T20:52:18.066Z",
         "disabled": false
       },
       {
@@ -732,51 +802,6 @@
       {
         "id": "version_history",
         "releasedAt": "2026-05-18T01:48:28.552Z",
-        "disabled": false
-      },
-      {
-        "id": "admin_email_rules",
-        "releasedAt": "2026-05-30T18:15:09.643Z",
-        "disabled": false
-      },
-      {
-        "id": "auto_emailer",
-        "releasedAt": "2026-05-30T18:15:09.750Z",
-        "disabled": false
-      },
-      {
-        "id": "oars_loader",
-        "releasedAt": "2026-05-30T20:52:18.066Z",
-        "disabled": false
-      },
-      {
-        "id": "admin_draft_audit",
-        "releasedAt": "2026-05-30T16:30:37.507Z",
-        "disabled": false
-      },
-      {
-        "id": "eli_telemetry",
-        "releasedAt": "2026-05-29T18:47:35.648Z",
-        "disabled": false
-      },
-      {
-        "id": "draft_audit",
-        "releasedAt": "2026-05-30T16:30:37.394Z",
-        "disabled": false
-      },
-      {
-        "id": "error_review",
-        "releasedAt": "2026-05-30T21:55:54.299Z",
-        "disabled": false
-      },
-      {
-        "id": "build_draft",
-        "releasedAt": "2026-06-01T06:08:58.281Z",
-        "disabled": false
-      },
-      {
-        "id": "eli_settings",
-        "releasedAt": "2026-05-30T20:54:10.391Z",
         "disabled": false
       }
     ],
