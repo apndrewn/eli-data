@@ -1,7 +1,7 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-05-29T18:50:36.950Z",
+  "generatedAt": "2026-06-01T12:43:38.159Z",
   "days": [
     {
       "date": "2026-05-19",
@@ -426,12 +426,12 @@
     {
       "date": "2026-05-29",
       "toolsUsed": {
-        "draft_templates": 5,
+        "draft_templates": 8,
         "draft": 2
       },
-      "sessions": 8,
+      "sessions": 11,
       "firstActiveAt": 1780065671906,
-      "lastActiveAt": 1780080635933,
+      "lastActiveAt": 1780080695891,
       "tokens": {
         "gemini-flash-lite-latest": {
           "promptTokens": 3360,
@@ -454,6 +454,21 @@
         "byTemplate": {},
         "total": 0
       }
+    },
+    {
+      "date": "2026-06-01",
+      "toolsUsed": {},
+      "sessions": 2,
+      "firstActiveAt": 1780317812951,
+      "lastActiveAt": 1780317817283,
+      "tokens": {},
+      "tokensByTool": {},
+      "estCostUSD": 0,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
     }
   ],
   "fleet": {
@@ -461,7 +476,7 @@
     "initials": "AN",
     "kernelVersion": "v3-2026-05-23j-uuid-on-demand",
     "installedAt": "2026-05-25T04:22:25.663Z",
-    "lastSeenAt": "2026-05-29T18:50:37.282Z",
+    "lastSeenAt": "2026-06-01T12:43:38.397Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -498,7 +513,10 @@
       "mascot.hairStyle": "professional",
       "mascot.facialHair": "none",
       "mascot.glasses": "rectangle",
-      "mascot.suitColor": "#263238"
+      "mascot.suitColor": "#263238",
+      "build_draft.shareStep2FillsToCdn": false,
+      "build_draft.requireAllSteps": true,
+      "build_draft.guidedMode": true
     },
     "tools": [
       {
@@ -509,6 +527,11 @@
       {
         "id": "admin_fleet",
         "releasedAt": "2026-05-25T21:33:50.543Z",
+        "disabled": false
+      },
+      {
+        "id": "admin_library_publisher",
+        "releasedAt": "2026-05-29T17:48:05.440Z",
         "disabled": false
       },
       {
@@ -534,11 +557,6 @@
       {
         "id": "ask_eli",
         "releasedAt": "2026-05-26T06:05:10.691Z",
-        "disabled": false
-      },
-      {
-        "id": "auto_emailer",
-        "releasedAt": "2026-05-27T23:12:11.681Z",
         "disabled": false
       },
       {
@@ -602,11 +620,6 @@
         "disabled": false
       },
       {
-        "id": "eli_settings",
-        "releasedAt": "2026-05-27T00:38:28.222Z",
-        "disabled": false
-      },
-      {
         "id": "eli_stats",
         "releasedAt": "2026-05-28T05:13:51.148Z",
         "disabled": false
@@ -614,11 +627,6 @@
       {
         "id": "email_helper",
         "releasedAt": "2026-05-28T05:15:56.728Z",
-        "disabled": false
-      },
-      {
-        "id": "error_review",
-        "releasedAt": "2026-05-27T05:35:12.074Z",
         "disabled": false
       },
       {
@@ -687,6 +695,11 @@
         "disabled": false
       },
       {
+        "id": "template_manager",
+        "releasedAt": "2026-05-29T17:59:40.612Z",
+        "disabled": false
+      },
+      {
         "id": "template_repair_lab",
         "releasedAt": "2026-05-27T02:28:25.372Z",
         "disabled": false
@@ -722,38 +735,48 @@
         "disabled": false
       },
       {
-        "id": "draft_audit",
-        "releasedAt": "2026-05-29T18:29:23.414Z",
+        "id": "admin_email_rules",
+        "releasedAt": "2026-05-30T18:15:09.643Z",
         "disabled": false
       },
       {
-        "id": "build_draft",
-        "releasedAt": "2026-05-29T18:25:48.618Z",
-        "disabled": false
-      },
-      {
-        "id": "eli_telemetry",
-        "releasedAt": "2026-05-29T18:26:57.662Z",
-        "disabled": false
-      },
-      {
-        "id": "admin_draft_audit",
-        "releasedAt": "2026-05-29T18:29:23.512Z",
-        "disabled": false
-      },
-      {
-        "id": "template_manager",
-        "releasedAt": "2026-05-29T17:59:40.612Z",
+        "id": "auto_emailer",
+        "releasedAt": "2026-05-30T18:15:09.750Z",
         "disabled": false
       },
       {
         "id": "oars_loader",
-        "releasedAt": "2026-05-29T17:42:03.240Z",
+        "releasedAt": "2026-05-30T20:52:18.066Z",
         "disabled": false
       },
       {
-        "id": "admin_library_publisher",
-        "releasedAt": "2026-05-29T17:48:05.440Z",
+        "id": "admin_draft_audit",
+        "releasedAt": "2026-05-30T16:30:37.507Z",
+        "disabled": false
+      },
+      {
+        "id": "eli_telemetry",
+        "releasedAt": "2026-05-29T18:47:35.648Z",
+        "disabled": false
+      },
+      {
+        "id": "draft_audit",
+        "releasedAt": "2026-05-30T16:30:37.394Z",
+        "disabled": false
+      },
+      {
+        "id": "error_review",
+        "releasedAt": "2026-05-30T21:55:54.299Z",
+        "disabled": false
+      },
+      {
+        "id": "build_draft",
+        "releasedAt": "2026-06-01T06:08:58.281Z",
+        "disabled": false
+      },
+      {
+        "id": "eli_settings",
+        "releasedAt": "2026-05-30T20:54:10.391Z",
         "disabled": false
       }
     ],
