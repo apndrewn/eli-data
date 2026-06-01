@@ -1,7 +1,7 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-05-31T23:57:07.331Z",
+  "generatedAt": "2026-06-01T02:59:58.990Z",
   "days": [
     {
       "date": "2026-05-23",
@@ -543,26 +543,27 @@
     {
       "date": "2026-05-31",
       "toolsUsed": {
-        "draft": 68,
-        "draft_templates": 2,
-        "legal_review": 3
+        "draft": 119,
+        "draft_templates": 4,
+        "legal_review": 3,
+        "error": 5
       },
-      "sessions": 50,
+      "sessions": 97,
       "firstActiveAt": 1780244390615,
-      "lastActiveAt": 1780271822314,
+      "lastActiveAt": 1780282795589,
       "tokens": {
         "gemini-flash-lite-latest": {
-          "promptTokens": 29942,
-          "candidatesTokens": 2074,
-          "calls": 4
+          "promptTokens": 174167,
+          "candidatesTokens": 8221,
+          "calls": 32
         }
       },
       "tokensByTool": {
         "draft": {
           "gemini-flash-lite-latest": {
-            "promptTokens": 27816,
-            "candidatesTokens": 1069,
-            "calls": 3
+            "promptTokens": 128556,
+            "candidatesTokens": 4527,
+            "calls": 26
           }
         },
         "legal_review": {
@@ -571,9 +572,16 @@
             "candidatesTokens": 1005,
             "calls": 1
           }
+        },
+        "error": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 43485,
+            "candidatesTokens": 2689,
+            "calls": 5
+          }
         }
       },
-      "estCostUSD": 0.001612,
+      "estCostUSD": 0.008611,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -586,7 +594,7 @@
     "initials": "AN",
     "kernelVersion": "v3-2026-05-23j-uuid-on-demand",
     "installedAt": "2026-05-22T16:36:38.096Z",
-    "lastSeenAt": "2026-05-31T23:57:07.492Z",
+    "lastSeenAt": "2026-06-01T02:59:59.165Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -679,6 +687,11 @@
       {
         "id": "bd_template_tester",
         "releasedAt": "2026-05-20T06:26:01.803Z",
+        "disabled": false
+      },
+      {
+        "id": "build_draft",
+        "releasedAt": "2026-06-01T02:59:09.108Z",
         "disabled": false
       },
       {
@@ -869,11 +882,6 @@
       {
         "id": "version_history",
         "releasedAt": "2026-05-18T01:48:28.552Z",
-        "disabled": false
-      },
-      {
-        "id": "build_draft",
-        "releasedAt": "2026-05-31T20:07:38.961Z",
         "disabled": false
       }
     ],
