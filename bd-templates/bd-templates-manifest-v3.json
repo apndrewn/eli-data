@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-06-02T13:09:19.363Z",
+  "lastUpdated": "2026-06-02T13:37:29.272Z",
   "templates": [
     {
       "id": "bd_doc__amendment__masterxml___",
@@ -137,13 +137,14 @@
       "name": "Non-Disclosure Agreement",
       "agreementType": "non-disclosure agreement",
       "filename": "bd_doc__non_disclosure_agreement__masterxml___.json",
-      "size": 148172,
-      "lastUpdated": "2026-05-27T20:33:53.240Z",
+      "size": 151154,
+      "lastUpdated": "2026-06-02T13:37:27.205Z",
       "core": true,
       "defaultForType": false,
       "audienceEmails": [],
       "audienceGroups": [],
-      "aliases": []
+      "aliases": [],
+      "publishedBy": "andrew_nemiroff@colpal.com"
     },
     {
       "id": "bd_doc__renewal__masterxml___",
