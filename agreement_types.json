@@ -36,7 +36,7 @@
       {
         "id": "Clinical Study Agreement",
         "label": "Clinical Study Agreement",
-        "abbrev": "CSA",
+        "abbrev": "Clinical Study",
         "aliases": [
           "clinical study",
           "clinical trial",
@@ -259,5 +259,5 @@
       }
     ]
   },
-  "releasedAt": "2026-06-02T03:01:59.139Z"
+  "releasedAt": "2026-06-02T03:07:30.511Z"
 }
