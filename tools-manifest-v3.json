@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-06-02T05:52:19.722Z",
+  "lastUpdated": "2026-06-02T05:55:22.019Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -429,7 +429,7 @@
     {
       "id": "placeholder_studio",
       "version": null,
-      "lastUpdated": "2026-05-28T12:00:02.012Z",
+      "lastUpdated": "2026-06-02T05:55:21.376Z",
       "filename": "placeholder_studio-v3.json",
       "size": 45926,
       "label": "Placeholder Studio",
