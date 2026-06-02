@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-06-02T14:39:37.303Z",
+  "lastUpdated": "2026-06-02T14:42:44.603Z",
   "templates": [
     {
       "id": "bd_doc__amendment__masterxml___",
@@ -210,13 +210,14 @@
       "name": "Statement of Work",
       "agreementType": "statement of work",
       "filename": "bd_doc__statement_of_work__masterxml___.json",
-      "size": 95174,
-      "lastUpdated": "2026-05-27T20:35:15.619Z",
+      "size": 95379,
+      "lastUpdated": "2026-06-02T14:42:42.826Z",
       "core": true,
       "defaultForType": false,
       "audienceEmails": [],
       "audienceGroups": [],
-      "aliases": []
+      "aliases": [],
+      "publishedBy": "andrew_nemiroff@colpal.com"
     },
     {
       "id": "bd_doc__termination_agreement__masterxml___",
