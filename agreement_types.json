@@ -1,4 +1,10 @@
 {
+  "schemaVersion": 1,
+  "exportedAt": "2026-06-02T02:57:05.123Z",
+  "__releasedAt": "2026-06-02T02:57:05.123Z",
+  "sectionVersions": {
+    "agreementTypes": 1780369025123
+  },
   "sections": {
     "agreementTypes": [
       {
@@ -36,7 +42,7 @@
       {
         "id": "Clinical Study Agreement",
         "label": "Clinical Study Agreement",
-        "abbrev": "CSA",
+        "abbrev": "Clinical Study",
         "aliases": [
           "clinical study",
           "clinical trial",
@@ -258,6 +264,5 @@
         ]
       }
     ]
-  },
-  "releasedAt": "2026-05-29T17:59:57.510Z"
+  }
 }
