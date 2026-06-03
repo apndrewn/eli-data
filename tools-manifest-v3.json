@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-06-02T05:55:22.019Z",
+  "lastUpdated": "2026-06-03T01:46:49.372Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -258,9 +258,9 @@
     {
       "id": "build_draft",
       "version": null,
-      "lastUpdated": "2026-06-02T05:43:07.143Z",
+      "lastUpdated": "2026-06-03T01:46:47.451Z",
       "filename": "build_draft-v3.json",
-      "size": 664115,
+      "size": 664094,
       "label": "Build Draft",
       "kind": "tool",
       "category": "External Innovation",
@@ -429,7 +429,7 @@
     {
       "id": "placeholder_studio",
       "version": null,
-      "lastUpdated": "2026-06-02T05:55:21.376Z",
+      "lastUpdated": "2026-06-03T01:46:47.560Z",
       "filename": "placeholder_studio-v3.json",
       "size": 45926,
       "label": "Placeholder Studio",
