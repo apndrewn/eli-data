@@ -1,7 +1,7 @@
 {
   "userName": "AR",
   "userKey": "ar",
-  "generatedAt": "2026-06-02T19:06:14.551Z",
+  "generatedAt": "2026-06-03T17:43:30.562Z",
   "days": [
     {
       "date": "2026-05-20",
@@ -214,16 +214,18 @@
       "toolsUsed": {
         "legal_review": 1,
         "review_redlines": 1,
-        "auto_emailer": 1
+        "auto_emailer": 2,
+        "draft": 3,
+        "error": 2
       },
-      "sessions": 3,
+      "sessions": 4,
       "firstActiveAt": 1780413468536,
-      "lastActiveAt": 1780427169533,
+      "lastActiveAt": 1780430460006,
       "tokens": {
         "gemini-flash-lite-latest": {
-          "promptTokens": 4995,
-          "candidatesTokens": 423,
-          "calls": 3
+          "promptTokens": 62324,
+          "candidatesTokens": 5198,
+          "calls": 15
         }
       },
       "tokensByTool": {
@@ -240,9 +242,45 @@
             "candidatesTokens": 86,
             "calls": 1
           }
+        },
+        "_unknown": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 41290,
+            "candidatesTokens": 2447,
+            "calls": 6
+          }
+        },
+        "draft": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 8075,
+            "candidatesTokens": 1484,
+            "calls": 4
+          }
+        },
+        "error": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 7964,
+            "candidatesTokens": 844,
+            "calls": 2
+          }
         }
       },
-      "estCostUSD": 0.000284,
+      "estCostUSD": 0.003533,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
+    },
+    {
+      "date": "2026-06-03",
+      "toolsUsed": {},
+      "sessions": 1,
+      "firstActiveAt": 1780508605555,
+      "lastActiveAt": 1780508605555,
+      "tokens": {},
+      "tokensByTool": {},
+      "estCostUSD": 0,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -255,7 +293,7 @@
     "initials": "AR",
     "kernelVersion": "v3-2026-05-23j-uuid-on-demand",
     "installedAt": "2026-05-27T17:37:06.120Z",
-    "lastSeenAt": "2026-06-02T19:06:14.846Z",
+    "lastSeenAt": "2026-06-03T17:43:30.823Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
