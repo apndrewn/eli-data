@@ -1,24 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-06-02T20:06:41.925Z",
+  "lastUpdated": "2026-06-03T02:13:56.860Z",
   "enabled": true,
-  "rules": [
-    {
-      "id": "c8ca0f39-2c9c-4f2b-a359-dfe8883cd048",
-      "label": "New rule",
-      "enabled": true,
-      "whenSenders": [
-        "amelia_reid@colpal.com"
-      ],
-      "whenCategories": [
-        "HL"
-      ],
-      "whenAgreementTypes": [],
-      "whenDirection": "both",
-      "addCc": [
-        "josh_trojak@colpal.com"
-      ],
-      "addTo": []
-    }
-  ]
+  "rules": []
 }
