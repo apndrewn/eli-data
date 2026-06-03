@@ -183,8 +183,8 @@
         ]
       },
       {
-        "id": "Service Agreement",
-        "label": "Service Agreement",
+        "id": "Services Agreement",
+        "label": "Services Agreement",
         "abbrev": "",
         "aliases": [
           "service agreement",
@@ -259,5 +259,5 @@
       }
     ]
   },
-  "releasedAt": "2026-06-02T03:07:30.511Z"
+  "releasedAt": "2026-06-03T01:52:13.716Z"
 }
