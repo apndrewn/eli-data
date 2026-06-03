@@ -141,7 +141,9 @@
         "abbrev": "MTA",
         "aliases": [
           "mta",
-          "material transfer"
+          "material transfer",
+          "materials transfer",
+          "materials transfer agreement"
         ]
       },
       {
@@ -259,5 +261,5 @@
       }
     ]
   },
-  "releasedAt": "2026-06-03T01:52:13.716Z"
+  "releasedAt": "2026-06-03T23:25:43.495Z"
 }
