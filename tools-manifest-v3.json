@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-06-03T11:55:16.127Z",
+  "lastUpdated": "2026-06-03T11:58:16.056Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -738,9 +738,9 @@
     {
       "id": "agreement_glance",
       "version": null,
-      "lastUpdated": "2026-06-03T11:55:10.807Z",
+      "lastUpdated": "2026-06-03T11:58:15.280Z",
       "filename": "agreement_glance-v3.json",
-      "size": 32018,
+      "size": 32936,
       "label": "Agreement at a Glance",
       "kind": "tool",
       "category": "Tools",
