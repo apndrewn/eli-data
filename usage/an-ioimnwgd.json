@@ -1,7 +1,7 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-06-03T04:43:51.956Z",
+  "generatedAt": "2026-06-03T11:50:39.100Z",
   "days": [
     {
       "date": "2026-05-23",
@@ -697,13 +697,30 @@
     },
     {
       "date": "2026-06-03",
-      "toolsUsed": {},
-      "sessions": 1,
+      "toolsUsed": {
+        "draft_templates": 2,
+        "draft": 4
+      },
+      "sessions": 6,
       "firstActiveAt": 1780461826943,
-      "lastActiveAt": 1780461826943,
-      "tokens": {},
-      "tokensByTool": {},
-      "estCostUSD": 0,
+      "lastActiveAt": 1780487434078,
+      "tokens": {
+        "gemini-flash-lite-latest": {
+          "promptTokens": 7745,
+          "candidatesTokens": 1218,
+          "calls": 6
+        }
+      },
+      "tokensByTool": {
+        "draft": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 7745,
+            "candidatesTokens": 1218,
+            "calls": 6
+          }
+        }
+      },
+      "estCostUSD": 0.000553,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -716,7 +733,7 @@
     "initials": "AN",
     "kernelVersion": "v3-2026-05-23j-uuid-on-demand",
     "installedAt": "2026-05-22T16:36:38.096Z",
-    "lastSeenAt": "2026-06-03T04:43:52.124Z",
+    "lastSeenAt": "2026-06-03T11:50:39.356Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -797,6 +814,11 @@
         "disabled": false
       },
       {
+        "id": "agreement_glance",
+        "releasedAt": "2026-06-03T05:28:26.171Z",
+        "disabled": false
+      },
+      {
         "id": "ask_eli",
         "releasedAt": "2026-05-26T06:05:10.691Z",
         "disabled": false
@@ -813,7 +835,7 @@
       },
       {
         "id": "build_draft",
-        "releasedAt": "2026-06-03T01:48:11.628Z",
+        "releasedAt": "2026-06-03T05:00:20.604Z",
         "disabled": false
       },
       {
