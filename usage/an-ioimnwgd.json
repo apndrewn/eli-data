@@ -1,7 +1,7 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-06-03T11:50:39.100Z",
+  "generatedAt": "2026-06-03T23:00:07.193Z",
   "days": [
     {
       "date": "2026-05-23",
@@ -699,16 +699,17 @@
       "date": "2026-06-03",
       "toolsUsed": {
         "draft_templates": 2,
-        "draft": 4
+        "draft": 4,
+        "legal_review": 1
       },
-      "sessions": 6,
+      "sessions": 8,
       "firstActiveAt": 1780461826943,
-      "lastActiveAt": 1780487434078,
+      "lastActiveAt": 1780527606163,
       "tokens": {
         "gemini-flash-lite-latest": {
-          "promptTokens": 7745,
-          "candidatesTokens": 1218,
-          "calls": 6
+          "promptTokens": 35069,
+          "candidatesTokens": 3504,
+          "calls": 9
         }
       },
       "tokensByTool": {
@@ -718,9 +719,23 @@
             "candidatesTokens": 1218,
             "calls": 6
           }
+        },
+        "_unknown": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 25119,
+            "candidatesTokens": 1061,
+            "calls": 2
+          }
+        },
+        "legal_review": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 2205,
+            "candidatesTokens": 1225,
+            "calls": 1
+          }
         }
       },
-      "estCostUSD": 0.000553,
+      "estCostUSD": 0.002104,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -733,7 +748,7 @@
     "initials": "AN",
     "kernelVersion": "v3-2026-05-23j-uuid-on-demand",
     "installedAt": "2026-05-22T16:36:38.096Z",
-    "lastSeenAt": "2026-06-03T11:50:39.356Z",
+    "lastSeenAt": "2026-06-03T23:00:07.437Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -811,11 +826,6 @@
       {
         "id": "admin_usage_viewer",
         "releasedAt": "2026-05-28T23:06:32.262Z",
-        "disabled": false
-      },
-      {
-        "id": "agreement_glance",
-        "releasedAt": "2026-06-03T05:28:26.171Z",
         "disabled": false
       },
       {
@@ -1031,6 +1041,11 @@
       {
         "id": "version_history",
         "releasedAt": "2026-05-18T01:48:28.552Z",
+        "disabled": false
+      },
+      {
+        "id": "agreement_glance",
+        "releasedAt": "2026-06-03T11:58:15.280Z",
         "disabled": false
       }
     ],
