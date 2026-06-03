@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-06-03T05:00:21.946Z",
+  "lastUpdated": "2026-06-03T05:29:23.172Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -734,6 +734,21 @@
         "all"
       ],
       "changelog": ""
+    },
+    {
+      "id": "agreement_glance",
+      "version": null,
+      "lastUpdated": "2026-06-03T05:28:26.171Z",
+      "filename": "agreement_glance-v3.json",
+      "size": 31341,
+      "label": "Agreement at a Glance",
+      "kind": "tool",
+      "category": "Tools",
+      "audience": [],
+      "changelog": "",
+      "audienceEmails": [
+        "andrew_nemiroff@colpal.com"
+      ]
     },
     {
       "id": "__data_catalog",
