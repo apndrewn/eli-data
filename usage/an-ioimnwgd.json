@@ -1,7 +1,7 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-06-02T03:33:49.056Z",
+  "generatedAt": "2026-06-03T01:40:23.600Z",
   "days": [
     {
       "date": "2026-05-23",
@@ -592,7 +592,7 @@
     {
       "date": "2026-06-01",
       "toolsUsed": {
-        "draft": 88,
+        "draft": 99,
         "draft_templates": 8,
         "error": 4,
         "ask_eli": 1,
@@ -600,24 +600,25 @@
         "auto_emailer": 6,
         "email_rules": 1,
         "admin_data_editor": 2,
-        "admin_library_publisher": 1
+        "admin_library_publisher": 1,
+        "legal_review": 1
       },
-      "sessions": 93,
+      "sessions": 106,
       "firstActiveAt": 1780287508894,
-      "lastActiveAt": 1780371224344,
+      "lastActiveAt": 1780372295391,
       "tokens": {
         "gemini-flash-lite-latest": {
-          "promptTokens": 142384,
-          "candidatesTokens": 7433,
-          "calls": 48
+          "promptTokens": 144511,
+          "candidatesTokens": 8438,
+          "calls": 49
         }
       },
       "tokensByTool": {
         "draft": {
           "gemini-flash-lite-latest": {
-            "promptTokens": 90388,
-            "candidatesTokens": 6661,
-            "calls": 44
+            "promptTokens": 92515,
+            "candidatesTokens": 7666,
+            "calls": 45
           }
         },
         "error": {
@@ -635,7 +636,7 @@
           }
         }
       },
-      "estCostUSD": 0.007182,
+      "estCostUSD": 0.007468,
       "drafts": {
         "byType": {
           "services agreement": 2
@@ -645,6 +646,53 @@
         },
         "total": 2
       }
+    },
+    {
+      "date": "2026-06-02",
+      "toolsUsed": {
+        "draft": 20,
+        "draft_templates": 8,
+        "error": 3,
+        "email_rules": 1,
+        "ask_eli": 1,
+        "placeholder_studio": 1
+      },
+      "sessions": 22,
+      "firstActiveAt": 1780375844392,
+      "lastActiveAt": 1780450818579,
+      "tokens": {
+        "gemini-flash-lite-latest": {
+          "promptTokens": 50903,
+          "candidatesTokens": 1490,
+          "calls": 14
+        }
+      },
+      "tokensByTool": {
+        "draft": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 9805,
+            "candidatesTokens": 848,
+            "calls": 10
+          }
+        },
+        "error": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 41098,
+            "candidatesTokens": 642,
+            "calls": 4
+          }
+        }
+      },
+      "estCostUSD": 0.002334,
+      "drafts": {
+        "byType": {
+          "services agreement": 4
+        },
+        "byTemplate": {
+          "bd_doc__services_agreement__masterxml___": 4
+        },
+        "total": 4
+      }
     }
   ],
   "fleet": {
@@ -652,7 +700,7 @@
     "initials": "AN",
     "kernelVersion": "v3-2026-05-23j-uuid-on-demand",
     "installedAt": "2026-05-22T16:36:38.096Z",
-    "lastSeenAt": "2026-06-02T03:33:49.229Z",
+    "lastSeenAt": "2026-06-03T01:40:23.770Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -695,11 +743,6 @@
       {
         "id": "admin_draft_audit",
         "releasedAt": "2026-05-30T16:30:37.507Z",
-        "disabled": false
-      },
-      {
-        "id": "admin_email_rules",
-        "releasedAt": "2026-05-30T18:15:09.643Z",
         "disabled": false
       },
       {
@@ -749,7 +792,7 @@
       },
       {
         "id": "build_draft",
-        "releasedAt": "2026-06-02T03:21:13.883Z",
+        "releasedAt": "2026-06-02T05:43:07.143Z",
         "disabled": false
       },
       {
@@ -863,13 +906,13 @@
         "disabled": false
       },
       {
-        "id": "placeholder_editor",
-        "releasedAt": "2026-06-01T03:29:20.691Z",
+        "id": "oars_loader",
+        "releasedAt": "2026-06-02T03:22:58.260Z",
         "disabled": false
       },
       {
-        "id": "placeholder_studio",
-        "releasedAt": "2026-05-28T12:00:02.012Z",
+        "id": "placeholder_editor",
+        "releasedAt": "2026-06-01T03:29:20.691Z",
         "disabled": false
       },
       {
@@ -909,7 +952,7 @@
       },
       {
         "id": "template_manager",
-        "releasedAt": "2026-05-29T17:59:40.612Z",
+        "releasedAt": "2026-06-02T05:41:41.048Z",
         "disabled": false
       },
       {
@@ -943,8 +986,13 @@
         "disabled": false
       },
       {
-        "id": "oars_loader",
-        "releasedAt": "2026-06-02T03:22:58.260Z",
+        "id": "admin_email_rules",
+        "releasedAt": "2026-06-02T05:52:18.667Z",
+        "disabled": false
+      },
+      {
+        "id": "placeholder_studio",
+        "releasedAt": "2026-06-02T05:55:21.376Z",
         "disabled": false
       }
     ],
