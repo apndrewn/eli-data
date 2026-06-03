@@ -1,7 +1,7 @@
 {
   "userName": "JL",
   "userKey": "jl",
-  "generatedAt": "2026-05-29T14:27:38.886Z",
+  "generatedAt": "2026-06-03T14:58:17.950Z",
   "days": [
     {
       "date": "2026-05-19",
@@ -148,13 +148,60 @@
     },
     {
       "date": "2026-05-29",
-      "toolsUsed": {},
-      "sessions": 1,
+      "toolsUsed": {
+        "draft": 2,
+        "bd_template_tester": 1,
+        "draft_templates": 2
+      },
+      "sessions": 3,
       "firstActiveAt": 1780064853860,
-      "lastActiveAt": 1780064853860,
-      "tokens": {},
-      "tokensByTool": {},
-      "estCostUSD": 0,
+      "lastActiveAt": 1780065612102,
+      "tokens": {
+        "gemini-flash-lite-latest": {
+          "promptTokens": 2140,
+          "candidatesTokens": 979,
+          "calls": 1
+        }
+      },
+      "tokensByTool": {
+        "draft": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 2140,
+            "candidatesTokens": 979,
+            "calls": 1
+          }
+        }
+      },
+      "estCostUSD": 0.000281,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
+    },
+    {
+      "date": "2026-06-03",
+      "toolsUsed": {},
+      "sessions": 2,
+      "firstActiveAt": 1780498692916,
+      "lastActiveAt": 1780498697462,
+      "tokens": {
+        "gemini-flash-lite-latest": {
+          "promptTokens": 2205,
+          "candidatesTokens": 1225,
+          "calls": 1
+        }
+      },
+      "tokensByTool": {
+        "_unknown": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 2205,
+            "candidatesTokens": 1225,
+            "calls": 1
+          }
+        }
+      },
+      "estCostUSD": 0.000333,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -167,7 +214,7 @@
     "initials": "JL",
     "kernelVersion": "v3-2026-05-23j-uuid-on-demand",
     "installedAt": "2026-05-26T14:38:04.421Z",
-    "lastSeenAt": "2026-05-29T14:27:39.112Z",
+    "lastSeenAt": "2026-06-03T14:58:18.313Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -185,9 +232,10 @@
       "debug_mode": false,
       "build_draft.multilineInsert": true,
       "build_draft.reviewNavigation": true,
+      "build_draft.refreshFieldsAfterStep2": true,
       "build_draft.confirmOarsAutoLoad": true,
-      "build_draft.fileNamePattern.colgate": "[Ref] - CP-[Party] -- [Type] (DRAFT [Date])",
-      "build_draft.fileNamePattern.hills": "[Ref] - HPN-[Party] -- [Type] (DRAFT [Date])",
+      "build_draft.fileNamePattern.colgate": "[Ref] [Party] - [Type] (CP Draft [Date])",
+      "build_draft.fileNamePattern.hills": "[Ref] [Party] - [Type] (HPN Draft [Date])",
       "ai_image_model": "gemini-3.1-flash-image-preview",
       "light_mode": false,
       "header_theme_index": 0,
@@ -204,7 +252,9 @@
       "mascot.facialHair": "none",
       "mascot.glasses": "round",
       "mascot.suitColor": "#1565c0",
-      "build_draft.refreshFieldsAfterStep2": true
+      "build_draft.shareStep2FillsToCdn": false,
+      "build_draft.requireAllSteps": true,
+      "build_draft.guidedMode": true
     },
     "tools": [
       {
@@ -218,11 +268,6 @@
         "disabled": false
       },
       {
-        "id": "auto_emailer",
-        "releasedAt": "2026-05-27T23:12:11.681Z",
-        "disabled": false
-      },
-      {
         "id": "bd_template_tester",
         "releasedAt": "2026-05-20T06:26:01.803Z",
         "disabled": false
@@ -230,6 +275,11 @@
       {
         "id": "compare",
         "releasedAt": "2026-05-25T06:17:19.985Z",
+        "disabled": false
+      },
+      {
+        "id": "docuscrub",
+        "releasedAt": "2026-05-29T06:30:33.071Z",
         "disabled": false
       },
       {
@@ -263,18 +313,8 @@
         "disabled": false
       },
       {
-        "id": "eli_settings",
-        "releasedAt": "2026-05-27T00:38:28.222Z",
-        "disabled": false
-      },
-      {
         "id": "eli_stats",
         "releasedAt": "2026-05-28T05:13:51.148Z",
-        "disabled": false
-      },
-      {
-        "id": "eli_telemetry",
-        "releasedAt": "2026-05-28T03:46:51.830Z",
         "disabled": false
       },
       {
@@ -283,8 +323,8 @@
         "disabled": false
       },
       {
-        "id": "error_review",
-        "releasedAt": "2026-05-27T05:35:12.074Z",
+        "id": "final_review",
+        "releasedAt": "2026-05-29T06:30:33.173Z",
         "disabled": false
       },
       {
@@ -300,11 +340,6 @@
       {
         "id": "legal_risks",
         "releasedAt": "2026-05-23T05:30:08.210Z",
-        "disabled": false
-      },
-      {
-        "id": "oars_loader",
-        "releasedAt": "2026-05-25T06:18:58.712Z",
         "disabled": false
       },
       {
@@ -330,11 +365,6 @@
       {
         "id": "risk_rules_manager",
         "releasedAt": null,
-        "disabled": false
-      },
-      {
-        "id": "template_manager",
-        "releasedAt": "2026-05-22T13:42:03.788Z",
         "disabled": false
       },
       {
@@ -368,18 +398,43 @@
         "disabled": false
       },
       {
-        "id": "docuscrub",
-        "releasedAt": "2026-05-29T06:30:33.071Z",
+        "id": "oars_loader",
+        "releasedAt": "2026-06-02T03:22:58.260Z",
         "disabled": false
       },
       {
-        "id": "final_review",
-        "releasedAt": "2026-05-29T06:30:33.173Z",
+        "id": "eli_settings",
+        "releasedAt": "2026-05-30T20:54:10.391Z",
+        "disabled": false
+      },
+      {
+        "id": "auto_emailer",
+        "releasedAt": "2026-06-02T02:44:53.213Z",
+        "disabled": false
+      },
+      {
+        "id": "template_manager",
+        "releasedAt": "2026-06-02T05:41:41.048Z",
+        "disabled": false
+      },
+      {
+        "id": "error_review",
+        "releasedAt": "2026-05-30T21:55:54.299Z",
+        "disabled": false
+      },
+      {
+        "id": "eli_telemetry",
+        "releasedAt": "2026-05-29T18:47:35.648Z",
         "disabled": false
       },
       {
         "id": "build_draft",
-        "releasedAt": "2026-05-29T14:26:34.567Z",
+        "releasedAt": "2026-06-03T05:00:20.604Z",
+        "disabled": false
+      },
+      {
+        "id": "draft_audit",
+        "releasedAt": "2026-05-30T16:30:37.394Z",
         "disabled": false
       }
     ],
