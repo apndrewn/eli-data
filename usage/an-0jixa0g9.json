@@ -1,7 +1,7 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-06-02T19:13:53.698Z",
+  "generatedAt": "2026-06-03T12:44:06.333Z",
   "days": [
     {
       "date": "2026-05-19",
@@ -502,46 +502,51 @@
       "toolsUsed": {
         "draft_templates": 40,
         "bd_template_tester": 1,
-        "draft": 16,
+        "draft": 17,
         "docuscrub": 1,
-        "error": 3,
+        "error": 5,
         "template_indexer": 4,
-        "legal_review": 1,
-        "review_redlines": 1,
+        "legal_review": 2,
+        "review_redlines": 2,
         "auto_emailer": 2,
-        "business_continuity": 1,
-        "email_rules": 2
+        "business_continuity": 2,
+        "email_rules": 3,
+        "template_searcher": 1,
+        "draft_audit": 1,
+        "playbook_manager": 1,
+        "ask_eli": 1,
+        "admin_data_editor": 1
       },
-      "sessions": 58,
+      "sessions": 60,
       "firstActiveAt": 1780404658810,
-      "lastActiveAt": 1780427628912,
+      "lastActiveAt": 1780431966305,
       "tokens": {
         "gemini-flash-lite-latest": {
-          "promptTokens": 184927,
-          "candidatesTokens": 12688,
-          "calls": 65
+          "promptTokens": 328530,
+          "candidatesTokens": 20083,
+          "calls": 124
         }
       },
       "tokensByTool": {
         "error": {
           "gemini-flash-lite-latest": {
-            "promptTokens": 38650,
-            "candidatesTokens": 3413,
-            "calls": 3
+            "promptTokens": 69147,
+            "candidatesTokens": 4253,
+            "calls": 7
           }
         },
         "draft": {
           "gemini-flash-lite-latest": {
-            "promptTokens": 11675,
-            "candidatesTokens": 3190,
-            "calls": 8
+            "promptTokens": 14407,
+            "candidatesTokens": 3823,
+            "calls": 12
           }
         },
         "review_redlines": {
           "gemini-flash-lite-latest": {
-            "promptTokens": 115972,
-            "candidatesTokens": 5958,
-            "calls": 53
+            "promptTokens": 226346,
+            "candidatesTokens": 11880,
+            "calls": 104
           }
         },
         "auto_emailer": {
@@ -552,7 +557,22 @@
           }
         }
       },
-      "estCostUSD": 0.009935,
+      "estCostUSD": 0.017158,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
+    },
+    {
+      "date": "2026-06-03",
+      "toolsUsed": {},
+      "sessions": 1,
+      "firstActiveAt": 1780490641301,
+      "lastActiveAt": 1780490641301,
+      "tokens": {},
+      "tokensByTool": {},
+      "estCostUSD": 0,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -565,7 +585,7 @@
     "initials": "AN",
     "kernelVersion": "v3-2026-05-23j-uuid-on-demand",
     "installedAt": "2026-05-25T04:22:25.663Z",
-    "lastSeenAt": "2026-06-02T19:13:53.933Z",
+    "lastSeenAt": "2026-06-03T12:44:06.636Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
