@@ -1,7 +1,7 @@
 {
   "userName": "AR",
   "userKey": "ar",
-  "generatedAt": "2026-06-03T17:43:30.562Z",
+  "generatedAt": "2026-06-04T14:19:46.397Z",
   "days": [
     {
       "date": "2026-05-20",
@@ -286,6 +286,23 @@
         "byTemplate": {},
         "total": 0
       }
+    },
+    {
+      "date": "2026-06-04",
+      "toolsUsed": {
+        "draft": 1
+      },
+      "sessions": 1,
+      "firstActiveAt": 1780582781391,
+      "lastActiveAt": 1780582782589,
+      "tokens": {},
+      "tokensByTool": {},
+      "estCostUSD": 0,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
     }
   ],
   "fleet": {
@@ -293,7 +310,7 @@
     "initials": "AR",
     "kernelVersion": "v3-2026-05-23j-uuid-on-demand",
     "installedAt": "2026-05-27T17:37:06.120Z",
-    "lastSeenAt": "2026-06-03T17:43:30.823Z",
+    "lastSeenAt": "2026-06-04T14:19:46.673Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -350,16 +367,6 @@
         "disabled": false
       },
       {
-        "id": "build_draft",
-        "releasedAt": "2026-06-02T05:43:07.143Z",
-        "disabled": false
-      },
-      {
-        "id": "compare",
-        "releasedAt": "2026-05-25T06:17:19.985Z",
-        "disabled": false
-      },
-      {
         "id": "docuscrub",
         "releasedAt": "2026-05-29T06:30:33.071Z",
         "disabled": false
@@ -367,11 +374,6 @@
       {
         "id": "draft_audit",
         "releasedAt": "2026-05-30T16:30:37.394Z",
-        "disabled": false
-      },
-      {
-        "id": "eli-activity",
-        "releasedAt": "2026-05-23T02:42:54.570Z",
         "disabled": false
       },
       {
@@ -420,11 +422,6 @@
         "disabled": false
       },
       {
-        "id": "error_review",
-        "releasedAt": "2026-05-30T21:55:54.299Z",
-        "disabled": false
-      },
-      {
         "id": "final_review",
         "releasedAt": "2026-05-29T06:30:33.173Z",
         "disabled": false
@@ -437,11 +434,6 @@
       {
         "id": "legal_review",
         "releasedAt": "2026-05-24T20:01:32.794Z",
-        "disabled": false
-      },
-      {
-        "id": "legal_risks",
-        "releasedAt": "2026-05-23T05:30:08.210Z",
         "disabled": false
       },
       {
@@ -503,6 +495,26 @@
         "id": "version_history",
         "releasedAt": "2026-05-18T01:48:28.552Z",
         "disabled": false
+      },
+      {
+        "id": "eli-activity",
+        "releasedAt": "2026-06-04T05:10:44.789Z",
+        "disabled": false
+      },
+      {
+        "id": "error_review",
+        "releasedAt": "2026-06-04T04:56:03.174Z",
+        "disabled": false
+      },
+      {
+        "id": "compare",
+        "releasedAt": "2026-06-04T04:56:03.497Z",
+        "disabled": false
+      },
+      {
+        "id": "legal_risks",
+        "releasedAt": "2026-06-04T04:56:03.405Z",
+        "disabled": false
       }
     ],
     "appliedOverrides": [
@@ -519,7 +531,7 @@
       "legal_review",
       "error_review",
       "final_review",
-      "build_draft",
+      "app_build_draft",
       "auto_emailer"
     ],
     "dashboardCustomized": true
