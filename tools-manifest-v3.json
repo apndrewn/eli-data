@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-06-04T04:35:10.047Z",
+  "lastUpdated": "2026-06-04T04:40:59.066Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -515,9 +515,9 @@
     {
       "id": "admin_storage_inspector",
       "version": null,
-      "lastUpdated": "2026-05-23T06:36:46.324Z",
+      "lastUpdated": "2026-06-04T04:40:58.275Z",
       "filename": "admin_storage_inspector-v3.json",
-      "size": 24418,
+      "size": 30029,
       "label": "Admin Storage Inspector",
       "kind": "tool",
       "category": "Admin",
