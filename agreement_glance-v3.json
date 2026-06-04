@@ -1,19 +1,18 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-06-04T02:34:11.925Z",
+  "exportedAt": "2026-06-04T03:26:46.939Z",
   "sectionVersions": {
     "jsonTools": 1
   },
   "sections": {
     "jsonTools": [
       {
-        "releasedAt": "2026-06-04T02:34:11.924Z",
+        "releasedAt": "2026-06-04T03:26:46.938Z",
         "id": "agreement_glance",
         "label": "Agreement at a Glance",
         "defaultEnabled": true,
-        "audience": [],
-        "audienceEmails": [
-          "andrew_nemiroff@colpal.com"
+        "audience": [
+          "all"
         ],
         "tier": "preload",
         "requires": {
