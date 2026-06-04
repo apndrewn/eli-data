@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "exportedAt": "2026-06-04T01:07:07.444Z",
+  "sectionVersions": {
+    "jsonTools": 1
+  },
+  "sections": {
+    "jsonTools": [
+      {
+        "releasedAt": "2026-06-04T01:07:07.442Z",
+        "id": "ask_dock",
+        "label": "Ask ELI Dock",
+        "defaultEnabled": true,
+        "audience": [
+          "all"
+        ],
+        "tier": "preload",
+        "requires": {
+          "storage": 1,
+          "kernel": 2
+        },
+        "dependsOn": [
+          "ask_eli"
+        ],
+        "advertises": {
+          "ask_dock": {
+            "open": "init",
+            "close": "init"
+          }
+        },
+        "catalog": {
+          "id": "app_ask_dock",
+          "icon": "💬",
+          "title": "ASK ELI DOCK",
+          "desc": "Pull-down Ask ELI panel available from any screen via the header arrow.",
+          "hoverTip": "Ask ELI from anywhere",
+          "category": "System",
+          "core": false,
+          "default": false,
+          "order": 91,
+          "statKey": "appOpenedAskDock",
+          "requiresApiKey": false,
+          "tags": [
+            "chat",
+            "ask-eli",
+            "dock",
+            "chrome"
+          ],
+          "hidden": true
+        },
+        "init": "function init(eli) {\n  var SETTING_KEY = \"ask_dock_enabled\";\n  var _enabled = true;\n  var _handle = null, _backdrop = null, _panel = null, _panelBody = null;\n  var _built = false, _isOpen = false, _hideTimer = null;\n\n  // ── Kill switch via eli.settings (instant off, no uninstall) ──────\n  try {\n    if (eli.settings && typeof eli.settings.register === \"function\") {\n      eli.settings.register(SETTING_KEY, {\n        default: true,\n        type: \"boolean\",\n        storage: { type: \"ls_blob_field\", key: \"eli_user_settings\", field: \"askDockEnabled\" },\n        apply: function (v) { _enabled = v !== false; _applyEnabled(); },\n        adminPushable: true,\n        describe: \"Show the pull-down Ask ELI dock under the header\",\n      });\n      _enabled = eli.settings.get(SETTING_KEY) !== false;\n    }\n  } catch (_e) {}\n\n  // ── Position chrome relative to the live header bottom edge ───────\n  function _headerBottom() {\n    try {\n      var h = document.querySelector(\".header\");\n      if (h) {\n        var r = h.getBoundingClientRect();\n        if (r && r.bottom > 0) return Math.round(r.bottom);\n      }\n    } catch (_e) {}\n    return 0;\n  }\n  function _positionChrome() {\n    var top = _headerBottom();\n    if (_handle) _handle.style.top = top + \"px\";\n    if (_backdrop) _backdrop.style.top = top + \"px\";\n    if (_panel) {\n      _panel.style.top = top + \"px\";\n      // Cap the panel height so a sliver of backdrop remains tappable to close.\n      _panel.style.maxHeight = \"calc(100vh - \" + (top + 44) + \"px)\";\n    }\n  }\n\n  // ── Build the handle + panel once (idempotent) ───────────────────\n  function _build() {\n    if (_built) return;\n    _built = true;\n\n    _handle = document.createElement(\"button\");\n    _handle.type = \"button\";\n    _handle.id = \"_eli3_askdock_handle\";\n    _handle.className = \"_eli3_askdock_handle\";\n    _handle.setAttribute(\"data-askdock\", \"1\");\n    _handle.title = \"Ask ELI — open from anywhere\";\n    _handle.innerHTML =\n      '<span class=\"_eli3_askdock_label\">💬 Ask ELI</span>' +\n      '<span class=\"_eli3_askdock_chev\">▾</span>';\n    _handle.onclick = function () { _isOpen ? _close() : _openDock(); };\n    document.body.appendChild(_handle);\n\n    _backdrop = document.createElement(\"div\");\n    _backdrop.id = \"_eli3_askdock_backdrop\";\n    _backdrop.className = \"_eli3_askdock_backdrop\";\n    _backdrop.setAttribute(\"data-askdock\", \"1\");\n    _backdrop.style.display = \"none\";\n    _backdrop.onclick = _close;\n    document.body.appendChild(_backdrop);\n\n    _panel = document.createElement(\"div\");\n    _panel.id = \"_eli3_askdock_panel\";\n    _panel.className = \"_eli3_askdock_panel\";\n    _panel.setAttribute(\"data-askdock\", \"1\");\n    _panel.style.display = \"none\";\n    _panel.innerHTML =\n      '<div class=\"_eli3_askdock_phead\">' +\n        '<div class=\"_eli3_askdock_ptitle\">🤖 Ask ELI</div>' +\n        '<button type=\"button\" class=\"_eli3_askdock_pclose\" title=\"Close\">✕</button>' +\n      '</div>' +\n      '<div class=\"_eli3_askdock_pbody\" id=\"_eli3_askdock_pbody\"></div>';\n    document.body.appendChild(_panel);\n    _panelBody = _panel.querySelector(\"#_eli3_askdock_pbody\");\n    _panel.querySelector(\"._eli3_askdock_pclose\").onclick = _close;\n\n    _positionChrome();\n    try { window.addEventListener(\"resize\", _positionChrome); } catch (_e) {}\n  }\n\n  // ── Open / close ─────────────────────────────────────────────────\n  function _openDock() {\n    if (!_enabled) return;\n    _build();\n    if (_hideTimer) { clearTimeout(_hideTimer); _hideTimer = null; }\n    _positionChrome();\n    _panel.style.display = \"flex\";\n    _backdrop.style.display = \"block\";\n    // Fresh render each open: clear, then render Ask ELI into the panel body.\n    // Conversation persists via ask_eli's _sharedSessionHistory; the doc\n    // mapping/index is docHash-cached so this does NOT re-map.\n    if (_panelBody) _panelBody.innerHTML = \"\";\n    _isOpen = true;\n    requestAnimationFrame(function () {\n      if (_backdrop) _backdrop.classList.add(\"_eli3_askdock_show\");\n      if (_panel) _panel.classList.add(\"_eli3_askdock_open\");\n      if (_handle) _handle.classList.add(\"_eli3_askdock_open\");\n    });\n    var render = function () {\n      if (!_isOpen) return; // user closed before load finished\n      try { eli.dispatch(\"ask_eli\", \"openPanel\", { mount: _panelBody, onClose: _close }); }\n      catch (e) { if (typeof showToast === \"function\") showToast(\"Ask ELI failed to open: \" + (e && e.message || \"unknown\"), \"err\"); }\n    };\n    if (eli.tools && typeof eli.tools.ensureLoaded === \"function\") {\n      eli.tools.ensureLoaded(\"ask_eli\").then(render).catch(render);\n    } else { render(); }\n    try { if (eli.stats && eli.stats.record) eli.stats.record(\"appOpenedAskDock\"); } catch (_e) {}\n  }\n\n  function _close() {\n    if (!_panel) return;\n    _isOpen = false;\n    if (_backdrop) _backdrop.classList.remove(\"_eli3_askdock_show\");\n    if (_panel) _panel.classList.remove(\"_eli3_askdock_open\");\n    if (_handle) _handle.classList.remove(\"_eli3_askdock_open\");\n    // After the slide-out transition, hide + tear down the Ask ELI instance\n    // (clearing the body fires ask_eli's DOM-removal watchdog → frees its\n    // selection poller). Conversation is safe in _sharedSessionHistory.\n    _hideTimer = setTimeout(function () {\n      if (_isOpen) return;\n      if (_panel) _panel.style.display = \"none\";\n      if (_backdrop) _backdrop.style.display = \"none\";\n      if (_panelBody) _panelBody.innerHTML = \"\";\n    }, 300);\n  }\n\n  // ── Enable/disable (kill switch) ─────────────────────────────────\n  function _applyEnabled() {\n    if (!_enabled) {\n      _close();\n      if (_handle) _handle.style.display = \"none\";\n    } else {\n      if (!_built) _build();\n      if (_handle) _handle.style.display = \"\";\n      _positionChrome();\n    }\n  }\n\n  // ── Boot: build the handle (only if enabled) ─────────────────────\n  if (_enabled) {\n    // Header may not be in the DOM at first init tick — retry briefly.\n    var tries = 0;\n    (function _ensure() {\n      _build();\n      _applyEnabled();\n      // Re-position once the header settles (theme/layout can shift it).\n      _positionChrome();\n      if (_headerBottom() === 0 && tries++ < 20) setTimeout(_ensure, 300);\n    })();\n  }\n\n  eli.register({\n    ask_dock: { open: _openDock, close: _close },\n  });\n\n  eli.log.event(\"tool\", \"ask_dock_initialized\", { enabled: _enabled });\n}\n",
+        "css": "/* ask_dock — pull-down Ask ELI handle + slide-down panel. All selectors\n   namespaced _eli3_askdock_* so removal is clean (delete this file + the\n   tool). Navy/gold to match ELI chrome. Light panel body (dialog convention). */\n\n/* Pull-down handle — attached to the header's bottom edge, centered. */\n._eli3_askdock_handle {\n  position: fixed;\n  left: 50%;\n  transform: translateX(-50%);\n  /* top set by JS to the header's bottom */\n  z-index: 8000;\n  display: inline-flex;\n  align-items: center;\n  gap: 6px;\n  padding: 3px 16px 5px;\n  background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);\n  color: #e7c14e;\n  border: 1px solid #c9a227;\n  border-top: none;\n  border-radius: 0 0 11px 11px;\n  box-shadow: 0 5px 12px rgba(15, 23, 42, 0.28);\n  cursor: pointer;\n  font-family: inherit;\n  transition: background 0.15s ease, box-shadow 0.15s ease;\n}\n._eli3_askdock_handle:hover {\n  background: linear-gradient(135deg, #1e293b 0%, #334155 100%);\n  box-shadow: 0 6px 16px rgba(15, 23, 42, 0.36);\n}\n._eli3_askdock_label {\n  font-size: 10px;\n  font-weight: 800;\n  letter-spacing: 0.05em;\n  text-transform: uppercase;\n  line-height: 1;\n}\n._eli3_askdock_chev {\n  font-size: 11px;\n  line-height: 1;\n  transition: transform 0.25s ease;\n}\n._eli3_askdock_handle._eli3_askdock_open ._eli3_askdock_chev {\n  transform: rotate(180deg);\n}\n\n/* Dimming backdrop below the header */\n._eli3_askdock_backdrop {\n  position: fixed;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  /* top set by JS */\n  z-index: 7990;\n  background: rgba(15, 23, 42, 0);\n  pointer-events: none;\n  transition: background 0.25s ease;\n}\n._eli3_askdock_backdrop._eli3_askdock_show {\n  background: rgba(15, 23, 42, 0.42);\n  pointer-events: auto;\n}\n\n/* Slide-down panel */\n._eli3_askdock_panel {\n  position: fixed;\n  left: 0;\n  right: 0;\n  /* top + max-height set by JS */\n  z-index: 8001;\n  display: flex;\n  flex-direction: column;\n  background: #f8fafc;\n  border-bottom: 3px solid #c9a227;\n  box-shadow: 0 16px 40px rgba(15, 23, 42, 0.42);\n  transform: translateY(-110%);\n  transition: transform 0.28s cubic-bezier(0.16, 1, 0.3, 1);\n  overflow: hidden;\n}\n._eli3_askdock_panel._eli3_askdock_open {\n  transform: translateY(0);\n}\n\n._eli3_askdock_phead {\n  flex: 0 0 auto;\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  padding: 8px 14px;\n  background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);\n  color: #f8fafc;\n}\n._eli3_askdock_ptitle {\n  font-size: 13px;\n  font-weight: 700;\n  letter-spacing: 0.2px;\n}\n._eli3_askdock_pclose {\n  background: rgba(255, 255, 255, 0.08);\n  border: 1px solid rgba(255, 255, 255, 0.16);\n  color: #cbd5e1;\n  width: 28px;\n  height: 28px;\n  border-radius: 7px;\n  font-size: 13px;\n  cursor: pointer;\n  transition: all 0.15s ease;\n}\n._eli3_askdock_pclose:hover {\n  background: rgba(255, 255, 255, 0.16);\n  color: #fff;\n}\n\n/* Body mount — Ask ELI's chat renders in here and fills it */\n._eli3_askdock_pbody {\n  flex: 1 1 auto;\n  min-height: 0;\n  overflow: auto;\n  position: relative;\n}\n._eli3_askdock_pbody > * {\n  height: 100%;\n}\n"
+      }
+    ]
+  }
+}

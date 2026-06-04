@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-06-04T00:44:33.121Z",
+  "lastUpdated": "2026-06-04T01:07:13.601Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -286,9 +286,9 @@
     {
       "id": "ask_eli",
       "version": null,
-      "lastUpdated": "2026-05-26T06:05:10.691Z",
+      "lastUpdated": "2026-06-04T01:07:07.561Z",
       "filename": "ask_eli-v3.json",
-      "size": 272373,
+      "size": 273542,
       "label": "Ask ELI",
       "kind": "tool",
       "category": "Tools - ELI Core",
@@ -749,6 +749,20 @@
       "audienceEmails": [
         "andrew_nemiroff@colpal.com"
       ]
+    },
+    {
+      "id": "ask_dock",
+      "version": null,
+      "lastUpdated": "2026-06-04T01:07:07.442Z",
+      "filename": "ask_dock-v3.json",
+      "size": 11387,
+      "label": "Ask ELI Dock",
+      "kind": "tool",
+      "category": "System",
+      "audience": [
+        "all"
+      ],
+      "changelog": ""
     },
     {
       "id": "__data_catalog",
