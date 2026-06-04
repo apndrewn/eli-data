@@ -1,7 +1,7 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-06-04T02:00:11.692Z",
+  "generatedAt": "2026-06-04T05:00:29.915Z",
   "days": [
     {
       "date": "2026-05-23",
@@ -698,24 +698,25 @@
     {
       "date": "2026-06-03",
       "toolsUsed": {
-        "draft_templates": 2,
-        "draft": 13,
-        "legal_review": 21,
-        "review_redlines": 14,
-        "ask_eli": 2,
-        "ask_dock": 13,
-        "final_review": 2,
-        "error": 3,
-        "auto_emailer": 1
+        "draft_templates": 4,
+        "draft": 76,
+        "legal_review": 37,
+        "review_redlines": 21,
+        "ask_eli": 13,
+        "ask_dock": 86,
+        "final_review": 3,
+        "error": 7,
+        "auto_emailer": 2,
+        "risk": 5
       },
-      "sessions": 44,
+      "sessions": 94,
       "firstActiveAt": 1780461826943,
-      "lastActiveAt": 1780538410347,
+      "lastActiveAt": 1780545581638,
       "tokens": {
         "gemini-flash-lite-latest": {
-          "promptTokens": 174298,
-          "candidatesTokens": 10106,
-          "calls": 54
+          "promptTokens": 403588,
+          "candidatesTokens": 23957,
+          "calls": 109
         }
       },
       "tokensByTool": {
@@ -728,9 +729,9 @@
         },
         "_unknown": {
           "gemini-flash-lite-latest": {
-            "promptTokens": 25119,
-            "candidatesTokens": 1061,
-            "calls": 2
+            "promptTokens": 46233,
+            "candidatesTokens": 2837,
+            "calls": 5
           }
         },
         "legal_review": {
@@ -742,16 +743,16 @@
         },
         "review_redlines": {
           "gemini-flash-lite-latest": {
-            "promptTokens": 80710,
-            "candidatesTokens": 2795,
-            "calls": 39
+            "promptTokens": 170595,
+            "candidatesTokens": 8034,
+            "calls": 82
           }
         },
         "ask_dock": {
           "gemini-flash-lite-latest": {
-            "promptTokens": 39345,
-            "candidatesTokens": 2229,
-            "calls": 3
+            "promptTokens": 87228,
+            "candidatesTokens": 2936,
+            "calls": 5
           }
         },
         "final_review": {
@@ -763,13 +764,86 @@
         },
         "error": {
           "gemini-flash-lite-latest": {
-            "promptTokens": 13754,
-            "candidatesTokens": 1084,
-            "calls": 2
+            "promptTokens": 41262,
+            "candidatesTokens": 3408,
+            "calls": 6
+          }
+        },
+        "risk": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 42900,
+            "candidatesTokens": 3805,
+            "calls": 3
           }
         }
       },
-      "estCostUSD": 0.008993,
+      "estCostUSD": 0.020935,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
+    },
+    {
+      "date": "2026-06-04",
+      "toolsUsed": {
+        "draft_templates": 3,
+        "final_review": 3,
+        "ask_dock": 57,
+        "auto_emailer": 1,
+        "draft": 45,
+        "legal_review": 8,
+        "review_redlines": 4,
+        "error": 1
+      },
+      "sessions": 27,
+      "firstActiveAt": 1780545613695,
+      "lastActiveAt": 1780549229655,
+      "tokens": {
+        "gemini-flash-lite-latest": {
+          "promptTokens": 35585,
+          "candidatesTokens": 2577,
+          "calls": 16
+        }
+      },
+      "tokensByTool": {
+        "_unknown": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 1605,
+            "candidatesTokens": 502,
+            "calls": 1
+          }
+        },
+        "auto_emailer": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 795,
+            "candidatesTokens": 72,
+            "calls": 1
+          }
+        },
+        "review_redlines": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 24644,
+            "candidatesTokens": 1132,
+            "calls": 12
+          }
+        },
+        "error": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 6877,
+            "candidatesTokens": 598,
+            "calls": 1
+          }
+        },
+        "ask_dock": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 1664,
+            "candidatesTokens": 273,
+            "calls": 1
+          }
+        }
+      },
+      "estCostUSD": 0.001939,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -782,7 +856,7 @@
     "initials": "AN",
     "kernelVersion": "v3-2026-05-23j-uuid-on-demand",
     "installedAt": "2026-05-22T16:36:38.096Z",
-    "lastSeenAt": "2026-06-04T02:00:11.916Z",
+    "lastSeenAt": "2026-06-04T05:00:30.130Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -845,7 +919,7 @@
       },
       {
         "id": "admin_storage_inspector",
-        "releasedAt": "2026-05-23T06:36:46.324Z",
+        "releasedAt": "2026-06-04T04:40:58.275Z",
         "disabled": false
       },
       {
@@ -865,17 +939,17 @@
       },
       {
         "id": "agreement_glance",
-        "releasedAt": "2026-06-03T11:58:15.280Z",
+        "releasedAt": "2026-06-04T04:35:09.285Z",
         "disabled": false
       },
       {
         "id": "ask_dock",
-        "releasedAt": "2026-06-04T01:59:52.038Z",
+        "releasedAt": "2026-06-04T04:51:08.083Z",
         "disabled": false
       },
       {
         "id": "ask_eli",
-        "releasedAt": "2026-06-04T01:07:07.561Z",
+        "releasedAt": "2026-06-04T04:30:14.079Z",
         "disabled": false
       },
       {
@@ -905,7 +979,7 @@
       },
       {
         "id": "compare",
-        "releasedAt": "2026-05-25T06:17:19.985Z",
+        "releasedAt": "2026-06-04T04:56:03.497Z",
         "disabled": false
       },
       {
@@ -975,7 +1049,7 @@
       },
       {
         "id": "error_review",
-        "releasedAt": "2026-05-30T21:55:54.299Z",
+        "releasedAt": "2026-06-04T04:56:03.174Z",
         "disabled": false
       },
       {
@@ -1000,7 +1074,7 @@
       },
       {
         "id": "legal_risks",
-        "releasedAt": "2026-05-23T05:30:08.210Z",
+        "releasedAt": "2026-06-04T04:56:03.405Z",
         "disabled": false
       },
       {
@@ -1040,7 +1114,7 @@
       },
       {
         "id": "review_redlines",
-        "releasedAt": "2026-06-04T00:44:32.380Z",
+        "releasedAt": "2026-06-04T04:59:31.975Z",
         "disabled": false
       },
       {
