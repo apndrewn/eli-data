@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-06-04T00:26:52.099Z",
+  "lastUpdated": "2026-06-04T00:31:15.877Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -174,9 +174,9 @@
     {
       "id": "review_redlines",
       "version": null,
-      "lastUpdated": "2026-06-04T00:26:51.287Z",
+      "lastUpdated": "2026-06-04T00:31:15.039Z",
       "filename": "review_redlines-v3.json",
-      "size": 1056445,
+      "size": 1057042,
       "label": "Review Redlines",
       "kind": "tool",
       "category": "External Innovation",
@@ -768,9 +768,9 @@
     },
     {
       "id": "__data_prompts",
-      "lastUpdated": "2026-06-04T00:26:52.158Z",
+      "lastUpdated": "2026-06-04T00:31:15.934Z",
       "filename": "prompts.json",
-      "size": 49360,
+      "size": 49859,
       "label": "AI Prompts",
       "kind": "data",
       "category": "Data",
