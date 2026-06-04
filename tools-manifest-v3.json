@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-06-04T04:04:32.172Z",
+  "lastUpdated": "2026-06-04T04:12:54.160Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -752,9 +752,9 @@
     {
       "id": "ask_dock",
       "version": null,
-      "lastUpdated": "2026-06-04T04:04:31.386Z",
+      "lastUpdated": "2026-06-04T04:12:53.327Z",
       "filename": "ask_dock-v3.json",
-      "size": 32009,
+      "size": 31973,
       "label": "Ask ELI Dock",
       "kind": "tool",
       "category": "System",
