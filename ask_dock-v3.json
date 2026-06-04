@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-06-04T01:52:09.223Z",
+  "exportedAt": "2026-06-04T01:59:52.039Z",
   "sectionVersions": {
     "jsonTools": 1
   },
   "sections": {
     "jsonTools": [
       {
-        "releasedAt": "2026-06-04T01:52:09.221Z",
+        "releasedAt": "2026-06-04T01:59:52.038Z",
         "id": "ask_dock",
         "label": "Ask ELI Dock",
         "defaultEnabled": true,
@@ -19,9 +19,6 @@
           "storage": 1,
           "kernel": 2
         },
-        "dependsOn": [
-          "ask_eli"
-        ],
         "advertises": {
           "ask_dock": {
             "open": "init",
