@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-06-04T02:01:48.355Z",
+  "lastUpdated": "2026-06-04T02:07:47.852Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -738,9 +738,9 @@
     {
       "id": "agreement_glance",
       "version": null,
-      "lastUpdated": "2026-06-03T11:58:15.280Z",
+      "lastUpdated": "2026-06-04T02:07:47.084Z",
       "filename": "agreement_glance-v3.json",
-      "size": 32936,
+      "size": 37721,
       "label": "Agreement at a Glance",
       "kind": "tool",
       "category": "Tools",
@@ -753,9 +753,9 @@
     {
       "id": "ask_dock",
       "version": null,
-      "lastUpdated": "2026-06-04T02:01:47.330Z",
+      "lastUpdated": "2026-06-04T02:07:46.984Z",
       "filename": "ask_dock-v3.json",
-      "size": 17718,
+      "size": 20028,
       "label": "Ask ELI Dock",
       "kind": "tool",
       "category": "System",
