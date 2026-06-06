@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-06-06T13:57:02.806Z",
+  "lastUpdated": "2026-06-06T14:02:27.410Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -444,9 +444,9 @@
     {
       "id": "redline_narrator",
       "version": null,
-      "lastUpdated": "2026-06-06T13:57:02.089Z",
+      "lastUpdated": "2026-06-06T14:02:26.677Z",
       "filename": "redline_narrator-v3.json",
-      "size": 80936,
+      "size": 88611,
       "label": "Redline Narrator",
       "kind": "tool",
       "category": "Admin",
