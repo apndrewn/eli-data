@@ -1,7 +1,7 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-06-05T03:33:55.195Z",
+  "generatedAt": "2026-06-06T05:25:36.586Z",
   "days": [
     {
       "date": "2026-05-23",
@@ -789,17 +789,17 @@
       "toolsUsed": {
         "draft_templates": 3,
         "final_review": 3,
-        "ask_dock": 74,
+        "ask_dock": 80,
         "auto_emailer": 1,
-        "draft": 49,
+        "draft": 53,
         "legal_review": 21,
         "review_redlines": 14,
         "error": 2,
         "ask_eli": 3
       },
-      "sessions": 39,
+      "sessions": 41,
       "firstActiveAt": 1780545613695,
-      "lastActiveAt": 1780630433259,
+      "lastActiveAt": 1780631535610,
       "tokens": {
         "gemini-flash-lite-latest": {
           "promptTokens": 121988,
@@ -857,6 +857,24 @@
         "byTemplate": {},
         "total": 0
       }
+    },
+    {
+      "date": "2026-06-06",
+      "toolsUsed": {
+        "draft": 3,
+        "ask_dock": 1
+      },
+      "sessions": 2,
+      "firstActiveAt": 1780722760919,
+      "lastActiveAt": 1780723533333,
+      "tokens": {},
+      "tokensByTool": {},
+      "estCostUSD": 0,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
     }
   ],
   "fleet": {
@@ -864,7 +882,7 @@
     "initials": "AN",
     "kernelVersion": "v3-2026-05-23j-uuid-on-demand",
     "installedAt": "2026-05-22T16:36:38.096Z",
-    "lastSeenAt": "2026-06-05T03:33:55.370Z",
+    "lastSeenAt": "2026-06-06T05:25:36.759Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -888,7 +906,7 @@
       "build_draft.fileNamePattern.hills": "[Ref] [Party] - [Type] (HPN Draft [Date])",
       "ai_image_model": "gemini-3.1-flash-image-preview",
       "ask_dock_enabled": true,
-      "light_mode": true,
+      "light_mode": false,
       "header_theme_index": 0,
       "minimize_feed": false,
       "auto_hide_sidebar": true,
@@ -952,7 +970,7 @@
       },
       {
         "id": "ask_dock",
-        "releasedAt": "2026-06-05T03:30:48.786Z",
+        "releasedAt": "2026-06-05T03:37:47.415Z",
         "disabled": false
       },
       {
@@ -972,7 +990,7 @@
       },
       {
         "id": "build_draft",
-        "releasedAt": "2026-06-03T05:00:20.604Z",
+        "releasedAt": "2026-06-06T05:25:16.893Z",
         "disabled": false
       },
       {
