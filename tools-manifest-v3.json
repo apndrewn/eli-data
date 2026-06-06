@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-06-06T05:38:35.324Z",
+  "lastUpdated": "2026-06-06T05:51:09.200Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -433,6 +433,21 @@
       "filename": "placeholder_studio-v3.json",
       "size": 45926,
       "label": "Placeholder Studio",
+      "kind": "tool",
+      "category": "Admin",
+      "audience": [],
+      "changelog": "",
+      "audienceEmails": [
+        "andrew_nemiroff@colpal.com"
+      ]
+    },
+    {
+      "id": "redline_narrator",
+      "version": null,
+      "lastUpdated": "2026-06-06T05:51:08.474Z",
+      "filename": "redline_narrator-v3.json",
+      "size": 23178,
+      "label": "Redline Narrator",
       "kind": "tool",
       "category": "Admin",
       "audience": [],
