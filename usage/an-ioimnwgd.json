@@ -1,7 +1,7 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-06-06T21:02:25.794Z",
+  "generatedAt": "2026-06-06T21:02:32.411Z",
   "days": [
     {
       "date": "2026-05-23",
@@ -861,7 +861,7 @@
     {
       "date": "2026-06-06",
       "toolsUsed": {
-        "draft": 24,
+        "draft": 25,
         "ask_dock": 4,
         "error": 2,
         "final_review": 2,
@@ -870,9 +870,9 @@
         "review_redlines": 1,
         "draft_templates": 1
       },
-      "sessions": 44,
+      "sessions": 45,
       "firstActiveAt": 1780722760919,
-      "lastActiveAt": 1780779740777,
+      "lastActiveAt": 1780779749336,
       "tokens": {
         "gemini-flash-lite-latest": {
           "promptTokens": 900515,
@@ -930,7 +930,7 @@
     "initials": "AN",
     "kernelVersion": "v3-2026-05-23j-uuid-on-demand",
     "installedAt": "2026-05-22T16:36:38.096Z",
-    "lastSeenAt": "2026-06-06T21:02:25.992Z",
+    "lastSeenAt": "2026-06-06T21:02:32.572Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -1034,6 +1034,11 @@
       {
         "id": "bd_template_tester",
         "releasedAt": "2026-05-20T06:26:01.803Z",
+        "disabled": false
+      },
+      {
+        "id": "build_draft",
+        "releasedAt": "2026-06-06T17:08:59.878Z",
         "disabled": false
       },
       {
@@ -1234,11 +1239,6 @@
       {
         "id": "version_history",
         "releasedAt": "2026-05-18T01:48:28.552Z",
-        "disabled": false
-      },
-      {
-        "id": "build_draft",
-        "releasedAt": "2026-06-06T17:08:59.878Z",
         "disabled": false
       }
     ],
