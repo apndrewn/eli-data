@@ -1,7 +1,7 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-06-06T05:25:36.586Z",
+  "generatedAt": "2026-06-06T13:16:49.496Z",
   "days": [
     {
       "date": "2026-05-23",
@@ -861,15 +861,46 @@
     {
       "date": "2026-06-06",
       "toolsUsed": {
-        "draft": 3,
-        "ask_dock": 1
+        "draft": 11,
+        "ask_dock": 4,
+        "error": 1,
+        "final_review": 2,
+        "legal_review": 1
       },
-      "sessions": 2,
+      "sessions": 9,
       "firstActiveAt": 1780722760919,
-      "lastActiveAt": 1780723533333,
-      "tokens": {},
-      "tokensByTool": {},
-      "estCostUSD": 0,
+      "lastActiveAt": 1780751804483,
+      "tokens": {
+        "gemini-flash-lite-latest": {
+          "promptTokens": 44288,
+          "candidatesTokens": 2128,
+          "calls": 5
+        }
+      },
+      "tokensByTool": {
+        "error": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 6876,
+            "candidatesTokens": 514,
+            "calls": 1
+          }
+        },
+        "final_review": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 10390,
+            "candidatesTokens": 505,
+            "calls": 1
+          }
+        },
+        "_unknown": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 27022,
+            "candidatesTokens": 1109,
+            "calls": 3
+          }
+        }
+      },
+      "estCostUSD": 0.002197,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -882,7 +913,7 @@
     "initials": "AN",
     "kernelVersion": "v3-2026-05-23j-uuid-on-demand",
     "installedAt": "2026-05-22T16:36:38.096Z",
-    "lastSeenAt": "2026-06-06T05:25:36.759Z",
+    "lastSeenAt": "2026-06-06T13:16:49.668Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -990,7 +1021,7 @@
       },
       {
         "id": "build_draft",
-        "releasedAt": "2026-06-06T05:25:16.893Z",
+        "releasedAt": "2026-06-06T05:38:34.492Z",
         "disabled": false
       },
       {
@@ -1131,6 +1162,11 @@
       {
         "id": "redline_email_pack",
         "releasedAt": "2026-05-17T13:54:46.229Z",
+        "disabled": false
+      },
+      {
+        "id": "redline_narrator",
+        "releasedAt": "2026-06-06T06:03:08.053Z",
         "disabled": false
       },
       {
