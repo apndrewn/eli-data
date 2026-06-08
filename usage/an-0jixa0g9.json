@@ -1,7 +1,7 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-06-04T20:18:58.792Z",
+  "generatedAt": "2026-06-08T19:03:37.762Z",
   "days": [
     {
       "date": "2026-05-19",
@@ -638,18 +638,21 @@
     {
       "date": "2026-06-04",
       "toolsUsed": {
-        "draft": 3,
-        "ask_dock": 3,
-        "placeholder_studio": 2
+        "draft": 6,
+        "ask_dock": 8,
+        "placeholder_studio": 2,
+        "ask_eli": 1,
+        "template_searcher": 1,
+        "auto_emailer": 1
       },
       "sessions": 10,
       "firstActiveAt": 1780576859528,
-      "lastActiveAt": 1780604338231,
+      "lastActiveAt": 1780604585772,
       "tokens": {
         "gemini-flash-lite-latest": {
-          "promptTokens": 1976,
-          "candidatesTokens": 482,
-          "calls": 1
+          "promptTokens": 3195,
+          "candidatesTokens": 607,
+          "calls": 2
         }
       },
       "tokensByTool": {
@@ -659,9 +662,31 @@
             "candidatesTokens": 482,
             "calls": 1
           }
+        },
+        "auto_emailer": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 1219,
+            "candidatesTokens": 125,
+            "calls": 1
+          }
         }
       },
-      "estCostUSD": 0.000175,
+      "estCostUSD": 0.000249,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
+    },
+    {
+      "date": "2026-06-08",
+      "toolsUsed": {},
+      "sessions": 1,
+      "firstActiveAt": 1780945412734,
+      "lastActiveAt": 1780945412734,
+      "tokens": {},
+      "tokensByTool": {},
+      "estCostUSD": 0,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -674,7 +699,7 @@
     "initials": "AN",
     "kernelVersion": "v3-2026-05-23j-uuid-on-demand",
     "installedAt": "2026-05-25T04:22:25.663Z",
-    "lastSeenAt": "2026-06-04T20:18:59.058Z",
+    "lastSeenAt": "2026-06-08T19:03:37.986Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -759,16 +784,6 @@
         "disabled": false
       },
       {
-        "id": "agreement_glance",
-        "releasedAt": "2026-06-04T04:35:09.285Z",
-        "disabled": false
-      },
-      {
-        "id": "ask_dock",
-        "releasedAt": "2026-06-04T04:51:08.083Z",
-        "disabled": false
-      },
-      {
         "id": "ask_eli",
         "releasedAt": "2026-06-04T04:30:14.079Z",
         "disabled": false
@@ -781,11 +796,6 @@
       {
         "id": "bd_template_tester",
         "releasedAt": "2026-05-20T06:26:01.803Z",
-        "disabled": false
-      },
-      {
-        "id": "build_draft",
-        "releasedAt": "2026-06-03T05:00:20.604Z",
         "disabled": false
       },
       {
@@ -976,6 +986,26 @@
       {
         "id": "version_history",
         "releasedAt": "2026-05-18T01:48:28.552Z",
+        "disabled": false
+      },
+      {
+        "id": "redline_narrator",
+        "releasedAt": "2026-06-06T15:46:15.147Z",
+        "disabled": false
+      },
+      {
+        "id": "ask_dock",
+        "releasedAt": "2026-06-05T03:37:47.415Z",
+        "disabled": false
+      },
+      {
+        "id": "agreement_glance",
+        "releasedAt": "2026-06-08T01:06:59.383Z",
+        "disabled": false
+      },
+      {
+        "id": "build_draft",
+        "releasedAt": "2026-06-08T00:41:31.070Z",
         "disabled": false
       }
     ],
