@@ -1,7 +1,7 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-06-08T00:43:26.480Z",
+  "generatedAt": "2026-06-09T02:47:02.151Z",
   "days": [
     {
       "date": "2026-05-23",
@@ -928,28 +928,44 @@
     {
       "date": "2026-06-07",
       "toolsUsed": {
-        "draft": 1
+        "draft": 1,
+        "draft_audit": 1
       },
-      "sessions": 1,
+      "sessions": 2,
       "firstActiveAt": 1780879401390,
-      "lastActiveAt": 1780879404890,
+      "lastActiveAt": 1780880931559,
       "tokens": {
         "gemini-flash-lite-latest": {
-          "promptTokens": 2126,
-          "candidatesTokens": 1005,
-          "calls": 1
+          "promptTokens": 15503,
+          "candidatesTokens": 1693,
+          "calls": 2
         }
       },
       "tokensByTool": {
         "draft": {
           "gemini-flash-lite-latest": {
-            "promptTokens": 2126,
-            "candidatesTokens": 1005,
-            "calls": 1
+            "promptTokens": 15503,
+            "candidatesTokens": 1693,
+            "calls": 2
           }
         }
       },
-      "estCostUSD": 0.000286,
+      "estCostUSD": 0.000959,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
+    },
+    {
+      "date": "2026-06-08",
+      "toolsUsed": {},
+      "sessions": 2,
+      "firstActiveAt": 1780973216795,
+      "lastActiveAt": 1780973220420,
+      "tokens": {},
+      "tokensByTool": {},
+      "estCostUSD": 0,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -962,7 +978,7 @@
     "initials": "AN",
     "kernelVersion": "v3-2026-05-23j-uuid-on-demand",
     "installedAt": "2026-05-22T16:36:38.096Z",
-    "lastSeenAt": "2026-06-08T00:43:26.693Z",
+    "lastSeenAt": "2026-06-09T02:47:02.363Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -1045,7 +1061,7 @@
       },
       {
         "id": "agreement_glance",
-        "releasedAt": "2026-06-04T04:35:09.285Z",
+        "releasedAt": "2026-06-08T01:06:59.383Z",
         "disabled": false
       },
       {
