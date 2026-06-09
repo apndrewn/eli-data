@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-06-09T12:28:20.524Z",
+  "lastUpdated": "2026-06-09T21:15:56.819Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -671,10 +671,10 @@
       "label": "Business Continuity",
       "kind": "tool",
       "category": "Admin",
-      "audience": [],
       "changelog": "",
       "audienceEmails": [
-        "andrew_nemiroff@colpal.com"
+        "andrew_nemiroff@colpal.com",
+        "clifford_wilkins@colpal.com"
       ]
     },
     {
