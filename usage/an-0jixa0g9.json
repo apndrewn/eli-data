@@ -1,7 +1,7 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-06-08T19:03:37.762Z",
+  "generatedAt": "2026-06-09T13:46:39.363Z",
   "days": [
     {
       "date": "2026-05-19",
@@ -680,13 +680,85 @@
     },
     {
       "date": "2026-06-08",
-      "toolsUsed": {},
+      "toolsUsed": {
+        "ask_eli": 4,
+        "error": 8,
+        "mascot_studio": 1,
+        "legal_review": 2,
+        "template_searcher": 1,
+        "docuscrub": 1,
+        "risk": 1
+      },
       "sessions": 1,
       "firstActiveAt": 1780945412734,
-      "lastActiveAt": 1780945412734,
-      "tokens": {},
-      "tokensByTool": {},
-      "estCostUSD": 0,
+      "lastActiveAt": 1780956844821,
+      "tokens": {
+        "gemini-flash-lite-latest": {
+          "promptTokens": 192889,
+          "candidatesTokens": 7515,
+          "calls": 13
+        }
+      },
+      "tokensByTool": {
+        "error": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 91365,
+            "candidatesTokens": 4242,
+            "calls": 7
+          }
+        },
+        "template_searcher": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 41388,
+            "candidatesTokens": 937,
+            "calls": 2
+          }
+        },
+        "ask_eli": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 48329,
+            "candidatesTokens": 1005,
+            "calls": 3
+          }
+        },
+        "risk": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 11807,
+            "candidatesTokens": 1331,
+            "calls": 1
+          }
+        }
+      },
+      "estCostUSD": 0.009219,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
+    },
+    {
+      "date": "2026-06-09",
+      "toolsUsed": {},
+      "sessions": 1,
+      "firstActiveAt": 1781012794333,
+      "lastActiveAt": 1781012798309,
+      "tokens": {
+        "gemini-flash-lite-latest": {
+          "promptTokens": 2266,
+          "candidatesTokens": 1229,
+          "calls": 1
+        }
+      },
+      "tokensByTool": {
+        "_unknown": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 2266,
+            "candidatesTokens": 1229,
+            "calls": 1
+          }
+        }
+      },
+      "estCostUSD": 0.000336,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -699,7 +771,7 @@
     "initials": "AN",
     "kernelVersion": "v3-2026-05-23j-uuid-on-demand",
     "installedAt": "2026-05-25T04:22:25.663Z",
-    "lastSeenAt": "2026-06-08T19:03:37.986Z",
+    "lastSeenAt": "2026-06-09T13:46:39.582Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -735,10 +807,10 @@
       "show_expand_pill": true,
       "language": "en",
       "mascot.skinTone": "#e8b48b",
-      "mascot.hairColor": "#8b5a2b",
+      "mascot.hairColor": "#2d3748",
       "mascot.tieColor": "#0d47a1",
-      "mascot.hairStyle": "professional",
-      "mascot.facialHair": "none",
+      "mascot.hairStyle": "bald",
+      "mascot.facialHair": "goatee",
       "mascot.glasses": "rectangle",
       "mascot.suitColor": "#263238"
     },
@@ -784,6 +856,16 @@
         "disabled": false
       },
       {
+        "id": "agreement_glance",
+        "releasedAt": "2026-06-08T01:06:59.383Z",
+        "disabled": false
+      },
+      {
+        "id": "ask_dock",
+        "releasedAt": "2026-06-05T03:37:47.415Z",
+        "disabled": false
+      },
+      {
         "id": "ask_eli",
         "releasedAt": "2026-06-04T04:30:14.079Z",
         "disabled": false
@@ -796,6 +878,11 @@
       {
         "id": "bd_template_tester",
         "releasedAt": "2026-05-20T06:26:01.803Z",
+        "disabled": false
+      },
+      {
+        "id": "build_draft",
+        "releasedAt": "2026-06-08T00:41:31.070Z",
         "disabled": false
       },
       {
@@ -934,6 +1021,11 @@
         "disabled": false
       },
       {
+        "id": "redline_narrator",
+        "releasedAt": "2026-06-06T15:46:15.147Z",
+        "disabled": false
+      },
+      {
         "id": "refresh_eli",
         "releasedAt": "2026-05-17T13:54:46.231Z",
         "disabled": false
@@ -986,26 +1078,6 @@
       {
         "id": "version_history",
         "releasedAt": "2026-05-18T01:48:28.552Z",
-        "disabled": false
-      },
-      {
-        "id": "redline_narrator",
-        "releasedAt": "2026-06-06T15:46:15.147Z",
-        "disabled": false
-      },
-      {
-        "id": "ask_dock",
-        "releasedAt": "2026-06-05T03:37:47.415Z",
-        "disabled": false
-      },
-      {
-        "id": "agreement_glance",
-        "releasedAt": "2026-06-08T01:06:59.383Z",
-        "disabled": false
-      },
-      {
-        "id": "build_draft",
-        "releasedAt": "2026-06-08T00:41:31.070Z",
         "disabled": false
       }
     ],
