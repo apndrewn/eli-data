@@ -1,7 +1,7 @@
 {
   "userName": "JL",
   "userKey": "jl",
-  "generatedAt": "2026-06-09T12:42:47.037Z",
+  "generatedAt": "2026-06-09T20:58:06.720Z",
   "days": [
     {
       "date": "2026-05-19",
@@ -333,13 +333,30 @@
     },
     {
       "date": "2026-06-09",
-      "toolsUsed": {},
-      "sessions": 1,
+      "toolsUsed": {
+        "draft": 3,
+        "draft_templates": 3
+      },
+      "sessions": 4,
       "firstActiveAt": 1781008962010,
-      "lastActiveAt": 1781008962010,
-      "tokens": {},
-      "tokensByTool": {},
-      "estCostUSD": 0,
+      "lastActiveAt": 1781038684953,
+      "tokens": {
+        "gemini-flash-lite-latest": {
+          "promptTokens": 2115,
+          "candidatesTokens": 841,
+          "calls": 1
+        }
+      },
+      "tokensByTool": {
+        "draft": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 2115,
+            "candidatesTokens": 841,
+            "calls": 1
+          }
+        }
+      },
+      "estCostUSD": 0.000253,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -352,7 +369,7 @@
     "initials": "JL",
     "kernelVersion": "v3-2026-05-23j-uuid-on-demand",
     "installedAt": "2026-05-26T14:38:04.421Z",
-    "lastSeenAt": "2026-06-09T12:42:47.325Z",
+    "lastSeenAt": "2026-06-09T20:58:06.939Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -393,7 +410,8 @@
       "mascot.hairStyle": "bald",
       "mascot.facialHair": "none",
       "mascot.glasses": "round",
-      "mascot.suitColor": "#1565c0"
+      "mascot.suitColor": "#1565c0",
+      "ask_eli_redline_regen_enabled": true
     },
     "tools": [
       {
@@ -413,7 +431,7 @@
       },
       {
         "id": "ask_eli",
-        "releasedAt": "2026-06-04T04:30:14.079Z",
+        "releasedAt": "2026-06-09T05:32:13.060Z",
         "disabled": false
       },
       {
@@ -428,7 +446,7 @@
       },
       {
         "id": "build_draft",
-        "releasedAt": "2026-06-08T00:41:31.070Z",
+        "releasedAt": "2026-06-09T05:29:41.214Z",
         "disabled": false
       },
       {
@@ -503,7 +521,7 @@
       },
       {
         "id": "final_review",
-        "releasedAt": "2026-05-29T06:30:33.173Z",
+        "releasedAt": "2026-06-09T05:29:41.101Z",
         "disabled": false
       },
       {
