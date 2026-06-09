@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-06-09T06:02:11.002Z",
+  "lastUpdated": "2026-06-09T06:05:49.182Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -777,6 +777,21 @@
         "all"
       ],
       "changelog": ""
+    },
+    {
+      "id": "workflow_creator",
+      "version": null,
+      "lastUpdated": "2026-06-09T06:00:46.661Z",
+      "filename": "workflow_creator-v3.json",
+      "size": 92070,
+      "label": "Workflow Creator",
+      "kind": "tool",
+      "category": "Admin",
+      "audience": [],
+      "changelog": "",
+      "audienceEmails": [
+        "andrew_nemiroff@colpal.com"
+      ]
     },
     {
       "id": "__data_catalog",
