@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-06-09T05:04:26.225Z",
+  "lastUpdated": "2026-06-09T05:10:06.750Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -286,9 +286,9 @@
     {
       "id": "ask_eli",
       "version": null,
-      "lastUpdated": "2026-06-09T05:04:25.416Z",
+      "lastUpdated": "2026-06-09T05:10:05.939Z",
       "filename": "ask_eli-v3.json",
-      "size": 321632,
+      "size": 321924,
       "label": "Ask ELI",
       "kind": "tool",
       "category": "Tools - ELI Core",
