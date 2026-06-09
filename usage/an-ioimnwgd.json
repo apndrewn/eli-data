@@ -1,7 +1,7 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-06-09T06:01:34.392Z",
+  "generatedAt": "2026-06-09T12:11:46.296Z",
   "days": [
     {
       "date": "2026-05-23",
@@ -996,11 +996,13 @@
         "ask_eli": 32,
         "final_review": 3,
         "ask_dock": 2,
-        "draft": 2
+        "draft": 2,
+        "email_helper": 1,
+        "template_indexer": 1
       },
-      "sessions": 31,
+      "sessions": 33,
       "firstActiveAt": 1780977700379,
-      "lastActiveAt": 1780984889374,
+      "lastActiveAt": 1781007101278,
       "tokens": {
         "gemini-flash-lite-latest": {
           "promptTokens": 1145827,
@@ -1037,7 +1039,7 @@
     "initials": "AN",
     "kernelVersion": "v3-2026-05-23j-uuid-on-demand",
     "installedAt": "2026-05-22T16:36:38.096Z",
-    "lastSeenAt": "2026-06-09T06:01:34.635Z",
+    "lastSeenAt": "2026-06-09T12:11:46.584Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
