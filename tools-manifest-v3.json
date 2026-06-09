@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-06-09T05:24:59.914Z",
+  "lastUpdated": "2026-06-09T05:29:41.980Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -104,9 +104,9 @@
     {
       "id": "final_review",
       "version": null,
-      "lastUpdated": "2026-05-29T06:30:33.173Z",
+      "lastUpdated": "2026-06-09T05:29:41.101Z",
       "filename": "final_review-v3.json",
-      "size": 97930,
+      "size": 102868,
       "label": "Final Review",
       "kind": "tool",
       "category": "External Innovation",
@@ -258,9 +258,9 @@
     {
       "id": "build_draft",
       "version": null,
-      "lastUpdated": "2026-06-09T02:52:49.136Z",
+      "lastUpdated": "2026-06-09T05:29:41.214Z",
       "filename": "build_draft-v3.json",
-      "size": 683656,
+      "size": 684282,
       "label": "Build Draft",
       "kind": "tool",
       "category": "External Innovation",
