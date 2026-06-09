@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-06-09T12:25:52.345Z",
+  "lastUpdated": "2026-06-09T12:28:20.524Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -781,9 +781,9 @@
     {
       "id": "workflow_creator",
       "version": null,
-      "lastUpdated": "2026-06-09T12:25:51.470Z",
+      "lastUpdated": "2026-06-09T12:28:19.764Z",
       "filename": "workflow_creator-v3.json",
-      "size": 91085,
+      "size": 92017,
       "label": "Workflow Creator",
       "kind": "tool",
       "category": "Admin",
