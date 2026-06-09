@@ -1,7 +1,7 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-06-09T13:46:39.363Z",
+  "generatedAt": "2026-06-09T17:14:35.798Z",
   "days": [
     {
       "date": "2026-05-19",
@@ -738,27 +738,48 @@
     },
     {
       "date": "2026-06-09",
-      "toolsUsed": {},
-      "sessions": 1,
+      "toolsUsed": {
+        "infographics_lab": 5,
+        "usage_risks": 1,
+        "final_review": 1
+      },
+      "sessions": 6,
       "firstActiveAt": 1781012794333,
-      "lastActiveAt": 1781012798309,
+      "lastActiveAt": 1781025272937,
       "tokens": {
         "gemini-flash-lite-latest": {
-          "promptTokens": 2266,
-          "candidatesTokens": 1229,
-          "calls": 1
+          "promptTokens": 286943,
+          "candidatesTokens": 7310,
+          "calls": 21
+        },
+        "gemini-3.1-flash-image-preview": {
+          "promptTokens": 2783,
+          "candidatesTokens": 6389,
+          "calls": 4
         }
       },
       "tokensByTool": {
         "_unknown": {
           "gemini-flash-lite-latest": {
-            "promptTokens": 2266,
-            "candidatesTokens": 1229,
-            "calls": 1
+            "promptTokens": 195004,
+            "candidatesTokens": 5147,
+            "calls": 14
+          }
+        },
+        "infographics_lab": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 91939,
+            "candidatesTokens": 2163,
+            "calls": 7
+          },
+          "gemini-3.1-flash-image-preview": {
+            "promptTokens": 2783,
+            "candidatesTokens": 6389,
+            "calls": 4
           }
         }
       },
-      "estCostUSD": 0.000336,
+      "estCostUSD": 0.205445,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -771,7 +792,7 @@
     "initials": "AN",
     "kernelVersion": "v3-2026-05-23j-uuid-on-demand",
     "installedAt": "2026-05-25T04:22:25.663Z",
-    "lastSeenAt": "2026-06-09T13:46:39.582Z",
+    "lastSeenAt": "2026-06-09T17:14:36.003Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -812,7 +833,9 @@
       "mascot.hairStyle": "bald",
       "mascot.facialHair": "goatee",
       "mascot.glasses": "rectangle",
-      "mascot.suitColor": "#263238"
+      "mascot.suitColor": "#263238",
+      "workflow_creator_enabled": true,
+      "ask_eli_redline_regen_enabled": true
     },
     "tools": [
       {
@@ -867,7 +890,7 @@
       },
       {
         "id": "ask_eli",
-        "releasedAt": "2026-06-04T04:30:14.079Z",
+        "releasedAt": "2026-06-09T05:32:13.060Z",
         "disabled": false
       },
       {
@@ -882,7 +905,7 @@
       },
       {
         "id": "build_draft",
-        "releasedAt": "2026-06-08T00:41:31.070Z",
+        "releasedAt": "2026-06-09T05:29:41.214Z",
         "disabled": false
       },
       {
@@ -972,7 +995,7 @@
       },
       {
         "id": "final_review",
-        "releasedAt": "2026-05-29T06:30:33.173Z",
+        "releasedAt": "2026-06-09T05:29:41.101Z",
         "disabled": false
       },
       {
@@ -1078,6 +1101,11 @@
       {
         "id": "version_history",
         "releasedAt": "2026-05-18T01:48:28.552Z",
+        "disabled": false
+      },
+      {
+        "id": "workflow_creator",
+        "releasedAt": "2026-06-09T12:28:19.764Z",
         "disabled": false
       }
     ],
