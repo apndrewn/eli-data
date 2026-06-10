@@ -1,7 +1,7 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-06-09T12:11:46.296Z",
+  "generatedAt": "2026-06-10T01:36:19.717Z",
   "days": [
     {
       "date": "2026-05-23",
@@ -993,21 +993,21 @@
     {
       "date": "2026-06-09",
       "toolsUsed": {
-        "ask_eli": 32,
+        "ask_eli": 33,
         "final_review": 3,
         "ask_dock": 2,
         "draft": 2,
         "email_helper": 1,
         "template_indexer": 1
       },
-      "sessions": 33,
+      "sessions": 41,
       "firstActiveAt": 1780977700379,
-      "lastActiveAt": 1781007101278,
+      "lastActiveAt": 1781055374701,
       "tokens": {
         "gemini-flash-lite-latest": {
-          "promptTokens": 1145827,
-          "candidatesTokens": 13923,
-          "calls": 45
+          "promptTokens": 1849942,
+          "candidatesTokens": 19270,
+          "calls": 83
         }
       },
       "tokensByTool": {
@@ -1020,13 +1020,13 @@
         },
         "_unknown": {
           "gemini-flash-lite-latest": {
-            "promptTokens": 246645,
-            "candidatesTokens": 5778,
-            "calls": 6
+            "promptTokens": 950760,
+            "candidatesTokens": 11125,
+            "calls": 44
           }
         }
       },
-      "estCostUSD": 0.048618,
+      "estCostUSD": 0.077852,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -1039,7 +1039,7 @@
     "initials": "AN",
     "kernelVersion": "v3-2026-05-23j-uuid-on-demand",
     "installedAt": "2026-05-22T16:36:38.096Z",
-    "lastSeenAt": "2026-06-09T12:11:46.584Z",
+    "lastSeenAt": "2026-06-10T01:36:19.913Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -1078,6 +1078,7 @@
       "mascot.facialHair": "none",
       "mascot.glasses": "round",
       "mascot.suitColor": "#1565c0",
+      "workflow_creator_enabled": true,
       "ask_eli_redline_regen_enabled": true
     },
     "tools": [
@@ -1353,7 +1354,7 @@
       },
       {
         "id": "workflow_creator",
-        "releasedAt": "2026-06-09T06:00:46.661Z",
+        "releasedAt": "2026-06-09T12:28:19.764Z",
         "disabled": false
       }
     ],
