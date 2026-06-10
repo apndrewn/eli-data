@@ -1,7 +1,7 @@
 {
   "userName": "AR",
   "userKey": "ar",
-  "generatedAt": "2026-06-09T18:25:13.295Z",
+  "generatedAt": "2026-06-10T20:19:57.061Z",
   "days": [
     {
       "date": "2026-05-20",
@@ -332,14 +332,14 @@
         "draft": 2,
         "error": 2
       },
-      "sessions": 7,
+      "sessions": 8,
       "firstActiveAt": 1781011307843,
-      "lastActiveAt": 1781029508291,
+      "lastActiveAt": 1781030744969,
       "tokens": {
         "gemini-flash-lite-latest": {
-          "promptTokens": 52261,
-          "candidatesTokens": 2764,
-          "calls": 11
+          "promptTokens": 118457,
+          "candidatesTokens": 8773,
+          "calls": 27
         }
       },
       "tokensByTool": {
@@ -359,13 +359,28 @@
         },
         "_unknown": {
           "gemini-flash-lite-latest": {
-            "promptTokens": 30420,
-            "candidatesTokens": 688,
-            "calls": 3
+            "promptTokens": 96616,
+            "candidatesTokens": 6697,
+            "calls": 19
           }
         }
       },
-      "estCostUSD": 0.002643,
+      "estCostUSD": 0.006493,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
+    },
+    {
+      "date": "2026-06-10",
+      "toolsUsed": {},
+      "sessions": 1,
+      "firstActiveAt": 1781122792053,
+      "lastActiveAt": 1781122792053,
+      "tokens": {},
+      "tokensByTool": {},
+      "estCostUSD": 0,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -378,7 +393,7 @@
     "initials": "AR",
     "kernelVersion": "v3-2026-05-23j-uuid-on-demand",
     "installedAt": "2026-05-27T17:37:06.120Z",
-    "lastSeenAt": "2026-06-09T18:25:13.552Z",
+    "lastSeenAt": "2026-06-10T20:19:57.284Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -606,6 +621,10 @@
       {
         "id": "fleet-bulk-uninstall-admin_template_studio-1779972565187",
         "at": 1779975104663
+      },
+      {
+        "id": "fleet-bulk-uninstall-admin_template_studio-1781097762124",
+        "at": 1781122795477
       },
       {
         "id": "fleet-notice-AR-3j0qszmj-1779972525555",
