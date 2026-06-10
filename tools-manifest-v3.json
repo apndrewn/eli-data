@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-06-09T21:15:56.819Z",
+  "lastUpdated": "2026-06-10T01:50:18.183Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -671,10 +671,10 @@
       "label": "Business Continuity",
       "kind": "tool",
       "category": "Admin",
+      "audience": [],
       "changelog": "",
       "audienceEmails": [
-        "andrew_nemiroff@colpal.com",
-        "clifford_wilkins@colpal.com"
+        "andrew_nemiroff@colpal.com"
       ]
     },
     {
@@ -785,6 +785,21 @@
       "filename": "workflow_creator-v3.json",
       "size": 92017,
       "label": "Workflow Creator",
+      "kind": "tool",
+      "category": "Admin",
+      "audience": [],
+      "changelog": "",
+      "audienceEmails": [
+        "andrew_nemiroff@colpal.com"
+      ]
+    },
+    {
+      "id": "template_editor",
+      "version": null,
+      "lastUpdated": "2026-06-10T01:50:17.095Z",
+      "filename": "template_editor-v3.json",
+      "size": 59175,
+      "label": "Template Editor",
       "kind": "tool",
       "category": "Admin",
       "audience": [],
