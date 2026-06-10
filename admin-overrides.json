@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-05-28T12:49:25.187Z",
+  "lastUpdated": "2026-06-10T13:22:42.124Z",
   "overrides": [
     {
       "id": "fleet-set-light_mode-AN-ioimnwgd-1779517227118",
@@ -198,6 +198,20 @@
         }
       ],
       "pushedAt": "2026-05-28T12:49:25.187Z",
+      "pushedBy": "andrew_nemiroff@colpal.com",
+      "audience": [
+        "all"
+      ]
+    },
+    {
+      "id": "fleet-bulk-uninstall-admin_template_studio-1781097762124",
+      "actions": [
+        {
+          "type": "force_redownload_tool",
+          "toolId": "admin_template_studio"
+        }
+      ],
+      "pushedAt": "2026-06-10T13:22:42.124Z",
       "pushedBy": "andrew_nemiroff@colpal.com",
       "audience": [
         "all"
