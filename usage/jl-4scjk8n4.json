@@ -1,7 +1,7 @@
 {
   "userName": "JL",
   "userKey": "jl",
-  "generatedAt": "2026-06-09T20:58:06.720Z",
+  "generatedAt": "2026-06-11T15:51:34.059Z",
   "days": [
     {
       "date": "2026-05-19",
@@ -335,28 +335,51 @@
       "date": "2026-06-09",
       "toolsUsed": {
         "draft": 3,
-        "draft_templates": 3
+        "draft_templates": 3,
+        "error": 1
       },
       "sessions": 4,
       "firstActiveAt": 1781008962010,
-      "lastActiveAt": 1781038684953,
+      "lastActiveAt": 1781039361280,
       "tokens": {
         "gemini-flash-lite-latest": {
-          "promptTokens": 2115,
-          "candidatesTokens": 841,
-          "calls": 1
+          "promptTokens": 17378,
+          "candidatesTokens": 1289,
+          "calls": 3
         }
       },
       "tokensByTool": {
         "draft": {
           "gemini-flash-lite-latest": {
-            "promptTokens": 2115,
-            "candidatesTokens": 841,
+            "promptTokens": 4451,
+            "candidatesTokens": 1146,
+            "calls": 2
+          }
+        },
+        "error": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 12927,
+            "candidatesTokens": 143,
             "calls": 1
           }
         }
       },
-      "estCostUSD": 0.000253,
+      "estCostUSD": 0.000953,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
+    },
+    {
+      "date": "2026-06-11",
+      "toolsUsed": {},
+      "sessions": 1,
+      "firstActiveAt": 1781193089018,
+      "lastActiveAt": 1781193089018,
+      "tokens": {},
+      "tokensByTool": {},
+      "estCostUSD": 0,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -369,7 +392,7 @@
     "initials": "JL",
     "kernelVersion": "v3-2026-05-23j-uuid-on-demand",
     "installedAt": "2026-05-26T14:38:04.421Z",
-    "lastSeenAt": "2026-06-09T20:58:06.939Z",
+    "lastSeenAt": "2026-06-11T15:51:34.495Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -609,6 +632,10 @@
       {
         "id": "fleet-bulk-uninstall-admin_template_studio-1779972565187",
         "at": 1779978515175
+      },
+      {
+        "id": "fleet-bulk-uninstall-admin_template_studio-1781097762124",
+        "at": 1781193093242
       },
       {
         "id": "fleet-notice-JL-4scjk8n4-1779807676143",
