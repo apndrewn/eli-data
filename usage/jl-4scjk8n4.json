@@ -1,7 +1,7 @@
 {
   "userName": "JL",
   "userKey": "jl",
-  "generatedAt": "2026-06-11T15:51:34.059Z",
+  "generatedAt": "2026-06-11T20:19:40.409Z",
   "days": [
     {
       "date": "2026-05-19",
@@ -373,13 +373,31 @@
     },
     {
       "date": "2026-06-11",
-      "toolsUsed": {},
-      "sessions": 1,
+      "toolsUsed": {
+        "legal_review": 1,
+        "review_redlines": 1,
+        "draft_templates": 1
+      },
+      "sessions": 3,
       "firstActiveAt": 1781193089018,
-      "lastActiveAt": 1781193089018,
-      "tokens": {},
-      "tokensByTool": {},
-      "estCostUSD": 0,
+      "lastActiveAt": 1781209175367,
+      "tokens": {
+        "gemini-flash-lite-latest": {
+          "promptTokens": 115128,
+          "candidatesTokens": 5874,
+          "calls": 55
+        }
+      },
+      "tokensByTool": {
+        "review_redlines": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 115128,
+            "candidatesTokens": 5874,
+            "calls": 55
+          }
+        }
+      },
+      "estCostUSD": 0.00578,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -392,7 +410,7 @@
     "initials": "JL",
     "kernelVersion": "v3-2026-05-23j-uuid-on-demand",
     "installedAt": "2026-05-26T14:38:04.421Z",
-    "lastSeenAt": "2026-06-11T15:51:34.495Z",
+    "lastSeenAt": "2026-06-11T20:19:40.649Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
