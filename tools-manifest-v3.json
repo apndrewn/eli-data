@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-06-12T04:25:01.846Z",
+  "lastUpdated": "2026-06-12T04:34:19.728Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -286,9 +286,9 @@
     {
       "id": "ask_eli",
       "version": null,
-      "lastUpdated": "2026-06-09T05:32:13.060Z",
+      "lastUpdated": "2026-06-12T04:34:18.731Z",
       "filename": "ask_eli-v3.json",
-      "size": 334483,
+      "size": 334499,
       "label": "Ask ELI",
       "kind": "tool",
       "category": "Tools - ELI Core",
@@ -671,12 +671,10 @@
       "label": "Business Continuity",
       "kind": "tool",
       "category": "Admin",
+      "audience": [],
       "changelog": "",
       "audienceEmails": [
         "andrew_nemiroff@colpal.com"
-      ],
-      "audienceUserIds": [
-        "CW-0vhbtvoi"
       ]
     },
     {
