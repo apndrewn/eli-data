@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-06-12T21:45:47.302Z",
+  "lastUpdated": "2026-06-12T21:45:55.000Z",
   "templates": [
     {
       "id": "bd_doc__amendment__masterxml___",
@@ -34,8 +34,8 @@
       "name": "Consulting Agreement",
       "agreementType": "consulting agreement",
       "filename": "bd_doc__consulting_agreement__masterxml___.json",
-      "size": 527378,
-      "lastUpdated": "2026-06-12T21:16:16.094Z",
+      "size": 537354,
+      "lastUpdated": "2026-06-12T21:45:53.253Z",
       "core": true,
       "defaultForType": false,
       "audienceEmails": [],
