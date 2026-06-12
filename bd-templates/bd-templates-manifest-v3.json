@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-06-12T19:46:59.216Z",
+  "lastUpdated": "2026-06-12T21:16:18.406Z",
   "templates": [
     {
       "id": "bd_doc__amendment__masterxml___",
@@ -34,14 +34,14 @@
       "name": "Consulting Agreement",
       "agreementType": "consulting agreement",
       "filename": "bd_doc__consulting_agreement__masterxml___.json",
-      "size": 611331,
-      "lastUpdated": "2026-06-12T19:46:57.331Z",
+      "size": 527378,
+      "lastUpdated": "2026-06-12T21:16:16.094Z",
       "core": true,
       "defaultForType": false,
       "audienceEmails": [],
       "audienceGroups": [],
       "aliases": [],
-      "publishedBy": "jared_lerner@colpal.com"
+      "publishedBy": "andrew_nemiroff@colpal.com"
     },
     {
       "id": "bd_doc__consumer_study_agreement__masterxml___",
