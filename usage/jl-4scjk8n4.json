@@ -1,7 +1,7 @@
 {
   "userName": "JL",
   "userKey": "jl",
-  "generatedAt": "2026-06-12T13:53:56.952Z",
+  "generatedAt": "2026-06-12T15:39:32.671Z",
   "days": [
     {
       "date": "2026-05-19",
@@ -407,12 +407,26 @@
     {
       "date": "2026-06-12",
       "toolsUsed": {},
-      "sessions": 1,
+      "sessions": 16,
       "firstActiveAt": 1781272431891,
-      "lastActiveAt": 1781272431891,
-      "tokens": {},
-      "tokensByTool": {},
-      "estCostUSD": 0,
+      "lastActiveAt": 1781278621204,
+      "tokens": {
+        "gemini-flash-lite-latest": {
+          "promptTokens": 1177,
+          "candidatesTokens": 122,
+          "calls": 1
+        }
+      },
+      "tokensByTool": {
+        "_unknown": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 1177,
+            "candidatesTokens": 122,
+            "calls": 1
+          }
+        }
+      },
+      "estCostUSD": 0.000071,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -423,9 +437,9 @@
   "fleet": {
     "userId": "JL-4scjk8n4",
     "initials": "JL",
-    "kernelVersion": "v3-2026-05-23j-uuid-on-demand",
+    "kernelVersion": "v3-2026-06-12b-stale-cdn-guard",
     "installedAt": "2026-05-26T14:38:04.421Z",
-    "lastSeenAt": "2026-06-12T13:53:57.263Z",
+    "lastSeenAt": "2026-06-12T15:39:32.950Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -452,6 +466,7 @@
       "build_draft.fileNamePattern.hills": "[Ref] [Party] - [Type] (HPN Draft [Date])",
       "ai_image_model": "gemini-3.1-flash-image-preview",
       "ask_dock_enabled": true,
+      "dashboard_widgets_enabled": true,
       "light_mode": false,
       "header_theme_index": 0,
       "minimize_feed": false,
@@ -482,12 +497,12 @@
       },
       {
         "id": "ask_dock",
-        "releasedAt": "2026-06-05T03:37:47.415Z",
+        "releasedAt": "2026-06-12T14:39:06.000Z",
         "disabled": false
       },
       {
         "id": "ask_eli",
-        "releasedAt": "2026-06-09T05:32:13.060Z",
+        "releasedAt": "2026-06-12T04:36:19.768Z",
         "disabled": false
       },
       {
@@ -502,12 +517,17 @@
       },
       {
         "id": "build_draft",
-        "releasedAt": "2026-06-09T05:29:41.214Z",
+        "releasedAt": "2026-06-12T01:16:10.010Z",
         "disabled": false
       },
       {
         "id": "compare",
         "releasedAt": "2026-06-04T04:56:03.497Z",
+        "disabled": false
+      },
+      {
+        "id": "dashboard_widgets",
+        "releasedAt": "2026-06-12T06:58:37.807Z",
         "disabled": false
       },
       {
@@ -527,7 +547,7 @@
       },
       {
         "id": "eli-admin",
-        "releasedAt": "2026-05-25T14:54:42.447Z",
+        "releasedAt": "2026-06-12T15:15:28.515Z",
         "disabled": false
       },
       {
@@ -542,7 +562,7 @@
       },
       {
         "id": "eli_kit",
-        "releasedAt": "2026-05-26T05:10:42.151Z",
+        "releasedAt": "2026-06-12T14:12:54.824Z",
         "disabled": false
       },
       {
@@ -552,7 +572,7 @@
       },
       {
         "id": "eli_settings",
-        "releasedAt": "2026-05-30T20:54:10.391Z",
+        "releasedAt": "2026-06-12T06:22:45.107Z",
         "disabled": false
       },
       {
@@ -562,7 +582,7 @@
       },
       {
         "id": "eli_telemetry",
-        "releasedAt": "2026-05-29T18:47:35.648Z",
+        "releasedAt": "2026-06-12T13:32:16.908Z",
         "disabled": false
       },
       {
@@ -647,7 +667,7 @@
       },
       {
         "id": "trophy_gallery",
-        "releasedAt": "2026-05-28T05:12:09.951Z",
+        "releasedAt": "2026-06-12T13:48:09.954Z",
         "disabled": false
       },
       {
@@ -675,6 +695,7 @@
         "at": 1779807930783
       }
     ],
+    "trophies": 24,
     "dashboardApps": [
       "legal_review",
       "error_review",
