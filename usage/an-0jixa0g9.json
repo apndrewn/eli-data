@@ -1,7 +1,7 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-06-12T13:37:19.105Z",
+  "generatedAt": "2026-06-12T17:09:00.961Z",
   "days": [
     {
       "date": "2026-05-19",
@@ -876,17 +876,24 @@
     {
       "date": "2026-06-12",
       "toolsUsed": {
-        "draft": 2,
-        "template_searcher": 1
+        "draft": 9,
+        "template_searcher": 1,
+        "ask_eli": 1,
+        "mascot_studio": 1,
+        "admin_fleet": 1,
+        "legal_review": 2,
+        "error": 1,
+        "ask_dock": 5,
+        "draft_templates": 1
       },
-      "sessions": 8,
+      "sessions": 41,
       "firstActiveAt": 1781269375089,
-      "lastActiveAt": 1781271419973,
+      "lastActiveAt": 1781284135935,
       "tokens": {
         "gemini-flash-lite-latest": {
-          "promptTokens": 1699,
-          "candidatesTokens": 560,
-          "calls": 1
+          "promptTokens": 6174,
+          "candidatesTokens": 1847,
+          "calls": 3
         }
       },
       "tokensByTool": {
@@ -896,9 +903,23 @@
             "candidatesTokens": 560,
             "calls": 1
           }
+        },
+        "error": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 2146,
+            "candidatesTokens": 147,
+            "calls": 1
+          }
+        },
+        "draft": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 2329,
+            "candidatesTokens": 1140,
+            "calls": 1
+          }
         }
       },
-      "estCostUSD": 0.00018,
+      "estCostUSD": 0.000616,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -911,7 +932,7 @@
     "initials": "AN",
     "kernelVersion": "v3-2026-05-23j-uuid-on-demand",
     "installedAt": "2026-05-25T04:22:25.663Z",
-    "lastSeenAt": "2026-06-12T13:37:19.317Z",
+    "lastSeenAt": "2026-06-12T17:09:01.417Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -947,11 +968,11 @@
       "auto_check_tools": true,
       "show_expand_pill": true,
       "language": "en",
-      "mascot.skinTone": "#e8b48b",
-      "mascot.hairColor": "#2d3748",
+      "mascot.skinTone": "#ffdbb5",
+      "mascot.hairColor": "#5c3317",
       "mascot.tieColor": "#0d47a1",
-      "mascot.hairStyle": "bald",
-      "mascot.facialHair": "goatee",
+      "mascot.hairStyle": "professional",
+      "mascot.facialHair": "none",
       "mascot.glasses": "rectangle",
       "mascot.suitColor": "#263238",
       "template_editor_enabled": true,
@@ -971,7 +992,7 @@
       },
       {
         "id": "admin_fleet",
-        "releasedAt": "2026-05-25T21:33:50.543Z",
+        "releasedAt": "2026-06-12T15:25:46.182Z",
         "disabled": false
       },
       {
@@ -1006,7 +1027,7 @@
       },
       {
         "id": "ask_dock",
-        "releasedAt": "2026-06-05T03:37:47.415Z",
+        "releasedAt": "2026-06-12T14:39:06.000Z",
         "disabled": false
       },
       {
@@ -1066,7 +1087,7 @@
       },
       {
         "id": "eli-admin",
-        "releasedAt": "2026-05-25T14:54:42.447Z",
+        "releasedAt": "2026-06-12T15:15:28.515Z",
         "disabled": false
       },
       {
@@ -1086,7 +1107,7 @@
       },
       {
         "id": "eli_kit",
-        "releasedAt": "2026-06-12T05:35:19.976Z",
+        "releasedAt": "2026-06-12T14:12:54.824Z",
         "disabled": false
       },
       {
@@ -1221,7 +1242,7 @@
       },
       {
         "id": "trophy_gallery",
-        "releasedAt": "2026-06-12T13:32:16.825Z",
+        "releasedAt": "2026-06-12T13:48:09.954Z",
         "disabled": false
       },
       {
@@ -1296,6 +1317,10 @@
       {
         "id": "override-2026-05-12T13-24-52",
         "at": 1778592564380
+      },
+      {
+        "id": "reset-elikit-update-loop-2026-06-12",
+        "at": 1781276064600
       }
     ],
     "trophies": 44,
