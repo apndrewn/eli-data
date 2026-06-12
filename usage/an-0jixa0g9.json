@@ -1,7 +1,7 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-06-12T17:09:00.961Z",
+  "generatedAt": "2026-06-12T22:11:51.728Z",
   "days": [
     {
       "date": "2026-05-19",
@@ -876,24 +876,25 @@
     {
       "date": "2026-06-12",
       "toolsUsed": {
-        "draft": 9,
+        "draft": 18,
         "template_searcher": 1,
         "ask_eli": 1,
         "mascot_studio": 1,
         "admin_fleet": 1,
         "legal_review": 2,
-        "error": 1,
+        "error": 2,
         "ask_dock": 5,
-        "draft_templates": 1
+        "draft_templates": 9,
+        "bd_template_tester": 1
       },
-      "sessions": 41,
+      "sessions": 54,
       "firstActiveAt": 1781269375089,
-      "lastActiveAt": 1781284135935,
+      "lastActiveAt": 1781302306698,
       "tokens": {
         "gemini-flash-lite-latest": {
-          "promptTokens": 6174,
-          "candidatesTokens": 1847,
-          "calls": 3
+          "promptTokens": 24130,
+          "candidatesTokens": 3482,
+          "calls": 7
         }
       },
       "tokensByTool": {
@@ -906,20 +907,20 @@
         },
         "error": {
           "gemini-flash-lite-latest": {
-            "promptTokens": 2146,
-            "candidatesTokens": 147,
-            "calls": 1
+            "promptTokens": 15371,
+            "candidatesTokens": 647,
+            "calls": 2
           }
         },
         "draft": {
           "gemini-flash-lite-latest": {
-            "promptTokens": 2329,
-            "candidatesTokens": 1140,
-            "calls": 1
+            "promptTokens": 7060,
+            "candidatesTokens": 2275,
+            "calls": 4
           }
         }
       },
-      "estCostUSD": 0.000616,
+      "estCostUSD": 0.001662,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -932,7 +933,7 @@
     "initials": "AN",
     "kernelVersion": "v3-2026-05-23j-uuid-on-demand",
     "installedAt": "2026-05-25T04:22:25.663Z",
-    "lastSeenAt": "2026-06-12T17:09:01.417Z",
+    "lastSeenAt": "2026-06-12T22:11:51.962Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -949,6 +950,8 @@
       "expand_threshold": 480,
       "debug_mode": false,
       "build_draft.multilineInsert": true,
+      "build_draft.normalize_host_styles": true,
+      "build_draft.isolate_template_styles": true,
       "build_draft.reviewNavigation": true,
       "build_draft.refreshFieldsAfterStep2": true,
       "build_draft.confirmOarsAutoLoad": true,
@@ -1047,7 +1050,7 @@
       },
       {
         "id": "build_draft",
-        "releasedAt": "2026-06-12T01:16:10.010Z",
+        "releasedAt": "2026-06-12T19:19:42.725Z",
         "disabled": false
       },
       {
