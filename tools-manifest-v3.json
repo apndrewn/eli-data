@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-06-12T05:47:28.905Z",
+  "lastUpdated": "2026-06-12T06:01:14.379Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -230,9 +230,9 @@
     {
       "id": "eli_settings",
       "version": null,
-      "lastUpdated": "2026-06-12T05:47:28.292Z",
+      "lastUpdated": "2026-06-12T06:01:13.793Z",
       "filename": "eli_settings-v3.json",
-      "size": 120168,
+      "size": 121759,
       "label": "Settings",
       "kind": "tool",
       "category": "System",
@@ -800,6 +800,21 @@
       "filename": "template_editor-v3.json",
       "size": 59175,
       "label": "Template Editor",
+      "kind": "tool",
+      "category": "Admin",
+      "audience": [],
+      "changelog": "",
+      "audienceEmails": [
+        "andrew_nemiroff@colpal.com"
+      ]
+    },
+    {
+      "id": "dashboard_widgets",
+      "version": null,
+      "lastUpdated": "2026-06-12T06:01:13.713Z",
+      "filename": "dashboard_widgets-v3.json",
+      "size": 35710,
+      "label": "Dashboard Widgets",
       "kind": "tool",
       "category": "Admin",
       "audience": [],
