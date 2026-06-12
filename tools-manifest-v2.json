@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-06-12T15:25:46.868Z",
+  "lastUpdated": "2026-06-12T15:27:40.667Z",
   "tools": [
     {
       "id": "__data_catalog",
@@ -296,7 +296,16 @@
         "admin_email_rules",
         "eli_agent",
         "tool_author_studio",
-        "bd_template_tester"
+        "bd_template_tester",
+        "redline_narrator",
+        "template_manager",
+        "admin_fleet",
+        "business_continuity",
+        "template_indexer",
+        "infographics_lab",
+        "survey_tester",
+        "workflow_creator",
+        "template_editor"
       ]
     }
   ]
