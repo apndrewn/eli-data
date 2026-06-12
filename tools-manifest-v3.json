@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-06-12T06:58:38.415Z",
+  "lastUpdated": "2026-06-12T13:32:17.687Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -188,9 +188,9 @@
     {
       "id": "trophy_gallery",
       "version": null,
-      "lastUpdated": "2026-05-28T05:12:09.951Z",
+      "lastUpdated": "2026-06-12T13:32:16.825Z",
       "filename": "trophy_gallery-v3.json",
-      "size": 78852,
+      "size": 86288,
       "label": "Trophy Gallery",
       "kind": "tool",
       "category": "Engagement",
@@ -607,9 +607,9 @@
     {
       "id": "eli_telemetry",
       "version": null,
-      "lastUpdated": "2026-05-29T18:47:35.648Z",
+      "lastUpdated": "2026-06-12T13:32:16.908Z",
       "filename": "eli_telemetry-v3.json",
-      "size": 74485,
+      "size": 75103,
       "label": "Usage Telemetry",
       "kind": "tool",
       "category": "System",
