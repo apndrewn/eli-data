@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-06-12T19:29:38.438Z",
+  "lastUpdated": "2026-06-12T19:35:37.359Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -90,9 +90,9 @@
     {
       "id": "docuscrub",
       "version": null,
-      "lastUpdated": "2026-06-12T19:29:37.658Z",
+      "lastUpdated": "2026-06-12T19:35:36.457Z",
       "filename": "docuscrub-v3.json",
-      "size": 64225,
+      "size": 66046,
       "label": "DocuScrub",
       "kind": "tool",
       "category": "External Innovation",
@@ -258,9 +258,9 @@
     {
       "id": "build_draft",
       "version": null,
-      "lastUpdated": "2026-06-12T19:29:37.584Z",
+      "lastUpdated": "2026-06-12T19:35:36.381Z",
       "filename": "build_draft-v3.json",
-      "size": 712190,
+      "size": 714390,
       "label": "Build Draft",
       "kind": "tool",
       "category": "External Innovation",
