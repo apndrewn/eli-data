@@ -1,7 +1,7 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-06-12T00:30:03.740Z",
+  "generatedAt": "2026-06-12T04:34:38.849Z",
   "days": [
     {
       "date": "2026-05-23",
@@ -1036,14 +1036,68 @@
     {
       "date": "2026-06-11",
       "toolsUsed": {
-        "draft": 2
+        "draft": 9,
+        "ask_dock": 2,
+        "ask_eli": 1,
+        "eli_agent": 1
+      },
+      "sessions": 7,
+      "firstActiveAt": 1781223954311,
+      "lastActiveAt": 1781227270416,
+      "tokens": {
+        "gemini-flash-lite-latest": {
+          "promptTokens": 1823,
+          "candidatesTokens": 1273,
+          "calls": 1
+        }
+      },
+      "tokensByTool": {
+        "draft": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 1823,
+            "candidatesTokens": 1273,
+            "calls": 1
+          }
+        }
+      },
+      "estCostUSD": 0.000328,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
+    },
+    {
+      "date": "2026-06-12",
+      "toolsUsed": {
+        "admin_fleet": 1,
+        "draft_templates": 1,
+        "draft": 1,
+        "ask_dock": 1,
+        "auto_emailer": 1,
+        "final_review": 2,
+        "ask_eli": 1
       },
       "sessions": 2,
-      "firstActiveAt": 1781223954311,
-      "lastActiveAt": 1781224201864,
-      "tokens": {},
-      "tokensByTool": {},
-      "estCostUSD": 0,
+      "firstActiveAt": 1781238242167,
+      "lastActiveAt": 1781238876338,
+      "tokens": {
+        "gemini-flash-lite-latest": {
+          "promptTokens": 18022,
+          "candidatesTokens": 76,
+          "calls": 1
+        }
+      },
+      "tokensByTool": {
+        "auto_emailer": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 18022,
+            "candidatesTokens": 76,
+            "calls": 1
+          }
+        }
+      },
+      "estCostUSD": 0.000736,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -1056,7 +1110,7 @@
     "initials": "AN",
     "kernelVersion": "v3-2026-05-23j-uuid-on-demand",
     "installedAt": "2026-05-22T16:36:38.096Z",
-    "lastSeenAt": "2026-06-12T00:30:04.071Z",
+    "lastSeenAt": "2026-06-12T04:34:39.055Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -1152,7 +1206,7 @@
       },
       {
         "id": "ask_eli",
-        "releasedAt": "2026-06-09T05:32:13.060Z",
+        "releasedAt": "2026-06-12T04:34:18.731Z",
         "disabled": false
       },
       {
@@ -1167,7 +1221,7 @@
       },
       {
         "id": "build_draft",
-        "releasedAt": "2026-06-12T00:29:02.586Z",
+        "releasedAt": "2026-06-12T01:16:10.010Z",
         "disabled": false
       },
       {
