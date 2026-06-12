@@ -1,7 +1,7 @@
 {
   "userName": "AR",
   "userKey": "ar",
-  "generatedAt": "2026-06-10T20:20:09.774Z",
+  "generatedAt": "2026-06-12T14:58:45.326Z",
   "days": [
     {
       "date": "2026-05-20",
@@ -377,9 +377,9 @@
       "toolsUsed": {
         "error": 1
       },
-      "sessions": 2,
+      "sessions": 3,
       "firstActiveAt": 1781122792053,
-      "lastActiveAt": 1781122807850,
+      "lastActiveAt": 1781122816945,
       "tokens": {
         "gemini-flash-lite-latest": {
           "promptTokens": 2177,
@@ -402,6 +402,21 @@
         "byTemplate": {},
         "total": 0
       }
+    },
+    {
+      "date": "2026-06-12",
+      "toolsUsed": {},
+      "sessions": 1,
+      "firstActiveAt": 1781276320318,
+      "lastActiveAt": 1781276320318,
+      "tokens": {},
+      "tokensByTool": {},
+      "estCostUSD": 0,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
     }
   ],
   "fleet": {
@@ -409,7 +424,7 @@
     "initials": "AR",
     "kernelVersion": "v3-2026-05-23j-uuid-on-demand",
     "installedAt": "2026-05-27T17:37:06.120Z",
-    "lastSeenAt": "2026-06-10T20:20:10.004Z",
+    "lastSeenAt": "2026-06-12T14:58:45.613Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -515,11 +530,6 @@
       {
         "id": "eli5",
         "releasedAt": "2026-05-19T03:53:44.200Z",
-        "disabled": false
-      },
-      {
-        "id": "eli_kit",
-        "releasedAt": "2026-05-26T05:10:42.151Z",
         "disabled": false
       },
       {
@@ -645,6 +655,10 @@
       {
         "id": "fleet-notice-AR-3j0qszmj-1779972525555",
         "at": 1779975104663
+      },
+      {
+        "id": "reset-elikit-update-loop-2026-06-12",
+        "at": 1781276323690
       }
     ],
     "dashboardApps": [
