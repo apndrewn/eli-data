@@ -1,7 +1,7 @@
 {
   "userName": "JL",
   "userKey": "jl",
-  "generatedAt": "2026-06-12T15:39:32.671Z",
+  "generatedAt": "2026-06-12T19:05:36.331Z",
   "days": [
     {
       "date": "2026-05-19",
@@ -406,15 +406,21 @@
     },
     {
       "date": "2026-06-12",
-      "toolsUsed": {},
-      "sessions": 16,
+      "toolsUsed": {
+        "legal_review": 2,
+        "review_redlines": 2,
+        "draft": 2,
+        "draft_templates": 1,
+        "bd_template_tester": 1
+      },
+      "sessions": 22,
       "firstActiveAt": 1781272431891,
-      "lastActiveAt": 1781278621204,
+      "lastActiveAt": 1781291131302,
       "tokens": {
         "gemini-flash-lite-latest": {
-          "promptTokens": 1177,
-          "candidatesTokens": 122,
-          "calls": 1
+          "promptTokens": 111350,
+          "candidatesTokens": 5967,
+          "calls": 55
         }
       },
       "tokensByTool": {
@@ -424,9 +430,23 @@
             "candidatesTokens": 122,
             "calls": 1
           }
+        },
+        "review_redlines": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 110069,
+            "candidatesTokens": 5804,
+            "calls": 53
+          }
+        },
+        "draft": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 104,
+            "candidatesTokens": 41,
+            "calls": 1
+          }
         }
       },
-      "estCostUSD": 0.000071,
+      "estCostUSD": 0.005647,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -439,7 +459,7 @@
     "initials": "JL",
     "kernelVersion": "v3-2026-06-12b-stale-cdn-guard",
     "installedAt": "2026-05-26T14:38:04.421Z",
-    "lastSeenAt": "2026-06-12T15:39:32.950Z",
+    "lastSeenAt": "2026-06-12T19:05:36.538Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -456,6 +476,8 @@
       "expand_threshold": 480,
       "debug_mode": false,
       "build_draft.multilineInsert": true,
+      "build_draft.normalize_host_styles": true,
+      "build_draft.isolate_template_styles": true,
       "build_draft.reviewNavigation": true,
       "build_draft.refreshFieldsAfterStep2": true,
       "build_draft.confirmOarsAutoLoad": true,
@@ -517,7 +539,7 @@
       },
       {
         "id": "build_draft",
-        "releasedAt": "2026-06-12T01:16:10.010Z",
+        "releasedAt": "2026-06-12T17:28:21.813Z",
         "disabled": false
       },
       {
