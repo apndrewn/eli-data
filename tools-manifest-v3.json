@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-06-12T06:22:45.756Z",
+  "lastUpdated": "2026-06-12T06:27:22.589Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -811,9 +811,9 @@
     {
       "id": "dashboard_widgets",
       "version": null,
-      "lastUpdated": "2026-06-12T06:22:45.025Z",
+      "lastUpdated": "2026-06-12T06:27:21.962Z",
       "filename": "dashboard_widgets-v3.json",
-      "size": 39465,
+      "size": 48092,
       "label": "Dashboard Widgets",
       "kind": "tool",
       "category": "System",
