@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-06-12T15:15:29.204Z",
+  "lastUpdated": "2026-06-12T15:17:54.453Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -1050,6 +1050,8 @@
         "usage_risks",
         "refresh_eli",
         "redline_authors",
+        "template_searcher",
+        "draft_audit",
         "__data_catalog",
         "__data_prompts",
         "__data_agreement_types",
@@ -1083,6 +1085,10 @@
         "eli-admin",
         "eli-wrongness",
         "eli_telemetry",
+        "ask_dock",
+        "dashboard_widgets",
+        "agreement_glance",
+        "eli_mascot_studio",
         "__data_catalog",
         "__data_prompts",
         "__data_loading_msgs",
