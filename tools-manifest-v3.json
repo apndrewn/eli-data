@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-06-10T13:22:43.606Z",
+  "lastUpdated": "2026-06-12T00:29:03.721Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -258,9 +258,9 @@
     {
       "id": "build_draft",
       "version": null,
-      "lastUpdated": "2026-06-09T05:29:41.214Z",
+      "lastUpdated": "2026-06-12T00:29:02.586Z",
       "filename": "build_draft-v3.json",
-      "size": 684282,
+      "size": 685914,
       "label": "Build Draft",
       "kind": "tool",
       "category": "External Innovation",
@@ -514,6 +514,18 @@
       "audienceEmails": [
         "andrew_nemiroff@colpal.com"
       ]
+    },
+    {
+      "id": "admin_template_studio",
+      "version": null,
+      "lastUpdated": "2026-05-26T05:58:50.348Z",
+      "filename": "admin_template_studio-v3.json",
+      "size": 85930,
+      "label": "Admin Template Studio",
+      "kind": "tool",
+      "category": "Admin",
+      "audience": [],
+      "changelog": ""
     },
     {
       "id": "admin_storage_inspector",
