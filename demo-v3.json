@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "exportedAt": "2026-06-13T00:53:46.276Z",
+  "sectionVersions": {
+    "jsonTools": 1
+  },
+  "sections": {
+    "jsonTools": [
+      {
+        "releasedAt": "2026-06-13T00:53:46.275Z",
+        "id": "demo",
+        "label": "Demo",
+        "defaultEnabled": true,
+        "audience": [],
+        "audienceEmails": [
+          "andrew_nemiroff@colpal.com"
+        ],
+        "tier": "demand",
+        "requires": {
+          "host": 1,
+          "storage": 1,
+          "kernel": 2
+        },
+        "advertises": {
+          "tile": {
+            "app_demo": "init"
+          }
+        },
+        "catalog": {
+          "id": "app_demo",
+          "icon": "🎬",
+          "title": "DEMO",
+          "desc": "Training demo director — load the Phase 1/2/3 demo agreements into Word.",
+          "hoverTip": "Training demo phases",
+          "category": "Admin",
+          "core": false,
+          "default": false,
+          "order": 96,
+          "statKey": "appOpenedDemo",
+          "requiresApiKey": false,
+          "requiresFooterDoc": false,
+          "tags": [
+            "demo",
+            "training",
+            "admin"
+          ],
+          "experimental": true,
+          "hidden": false,
+          "action": "if (window.eli && window.eli.dispatch) window.eli.dispatch('tile', 'app_demo');"
+        },
+        "functions": {
+          "_demoPhaseDoc": "function _demoPhaseDoc(n) {\n  if (n === 2) {\n    // TODO: replace with Flat-OPC of phase2.docx when provided.\n    return {\n      kind: \"placeholder\",\n      title: \"PHASE 2 — SERVICES AGREEMENT (PLACEHOLDER)\",\n      paragraphs: [\n        \"[Placeholder document — will be replaced by phase2.docx]\",\n        \"This Services Agreement (this “Agreement”) is entered into as of the date of last signature below (the “Effective Date”) by and between Colgate-Palmolive Company and [[Third Party Name]].\",\n        \"1. Services. Provider shall perform the services described in the attached Statement of Work (the “Services”).\",\n        \"2. Fees. In consideration of the Services, Company shall pay Provider $[[Total Fee]], due as $![[Payment Schedule]].\",\n        \"3. Term. This Agreement expires on [[Expiration Date]] unless earlier terminated in accordance with its terms.\",\n        \"OARS\",\n      ],\n    };\n  }\n  if (n === 3) {\n    // TODO: replace with Flat-OPC of phase3.docx when provided.\n    return {\n      kind: \"placeholder\",\n      title: \"PHASE 3 — MASTER SERVICES AGREEMENT (PLACEHOLDER)\",\n      paragraphs: [\n        \"[Placeholder document — will be replaced by phase3.docx]\",\n        \"This Master Services Agreement (this “Agreement”) establishes the framework under which the parties may enter into separate Statements of Work.\",\n        \"1. Statements of Work. Each SOW shall reference this Agreement and describe the services, deliverables, fees, and timeline.\",\n        \"2. Fees. Fees are set forth in each SOW. Payment terms: $![[Payment Schedule]].\",\n        \"3. Term. The initial term runs through [[Expiration Date]].\",\n        \"OARS\",\n      ],\n    };\n  }\n  return {\n    kind: \"placeholder\",\n    title: \"PHASE 1 — DEMO DOCUMENT (PLACEHOLDER)\",\n    paragraphs: [\n      \"[Placeholder document for Phase 1 — content to be provided]\",\n      \"Welcome to the ELI training demo. This document stands in for the Phase 1 agreement.\",\n      \"This Consulting Agreement is entered into by and between Colgate-Palmolive Company and [[Consultant Name]].\",\n      \"1. Engagement. Company engages Consultant to perform the services described herein.\",\n      \"2. Compensation. Company shall pay Consultant $[[Total Fee]] for the services.\",\n      \"OARS\",\n    ],\n  };\n}\n"
+        },
+        "init": "function init(eli) {\n  var STORE = window.STORE_CONFIG || \"config\";\n  var STATE_KEY = \"demo_active_phase\";\n\n  var PHASES = [\n    { n: 1, label: \"Phase 1\", agreement: \"Demo Document\", points: \"Intro agreement — placeholder content for now.\" },\n    { n: 2, label: \"Phase 2\", agreement: \"Services Agreement\", points: \"Will be the phase2.docx agreement.\" },\n    { n: 3, label: \"Phase 3\", agreement: \"Master Services Agreement\", points: \"Will be the phase3.docx agreement.\" },\n  ];\n\n  function _esc(s) {\n    return String(s == null ? \"\" : s)\n      .replace(/&/g, \"&amp;\").replace(/</g, \"&lt;\").replace(/>/g, \"&gt;\")\n      .replace(/\"/g, \"&quot;\").replace(/'/g, \"&#39;\");\n  }\n  function _toast(msg, type) { if (typeof showToast === \"function\") showToast(msg, type || \"info\"); }\n  function _mount() { return document.getElementById(\"_eli3_dashboard_root\"); }\n\n  function _getActivePhase() {\n    return eli.events.safeAsync(eli.storage.get(STORE, STATE_KEY), \"demo.state_read\")\n      .then(function (row) { return (row && row.phase) || 0; })\n      .catch(function () { return 0; });\n  }\n  function _setActivePhase(n) {\n    return eli.events.safeAsync(\n      eli.storage.put(STORE, { key: STATE_KEY, phase: n, ts: Date.now() }),\n      \"demo.state_write\"\n    ).catch(function () {});\n  }\n\n  // Wipe the body and insert the phase document. Placeholder docs insert\n  // as styled paragraphs; real docs (kind \"ooxml\") insert verbatim so\n  // formatting + embedded OARS tables arrive exactly as authored.\n  function _loadPhaseDoc(doc) {\n    return eli.host.runRaw(\"demo:load_phase\", function (context) {\n      var body = context.document.body;\n      if (doc.kind === \"ooxml\") {\n        body.insertOoxml(doc.flatOpc, \"Replace\");\n        return context.sync();\n      }\n      body.clear();\n      var title = body.insertParagraph(doc.title || \"DEMO DOCUMENT\", \"End\");\n      try { title.styleBuiltIn = \"Heading1\"; } catch (_e) {}\n      (doc.paragraphs || []).forEach(function (t) {\n        body.insertParagraph(String(t), \"End\");\n      });\n      return context.sync();\n    });\n  }\n\n  function _onPhaseClick(phase, row) {\n    eli.events.safeAsync(eli.ui.confirm({\n      title: \"Load \" + phase.label + \"?\",\n      message: \"This will REPLACE everything in the current Word document with the \" +\n        phase.label + \" agreement (\" + phase.agreement + \"). Continue?\",\n    }), \"demo.confirm\").then(function (ok) {\n      if (!ok) return;\n      var doc = (typeof window._demoPhaseDoc === \"function\") ? window._demoPhaseDoc(phase.n) : null;\n      if (!doc) { _toast(\"Phase \" + phase.n + \" document missing from bundle.\", \"err\"); return; }\n      var btn = row.querySelector(\"[data-act='load']\");\n      if (btn) { btn.disabled = true; btn.textContent = \"⏳ Loading…\"; }\n      eli.events.safeAsync(_loadPhaseDoc(doc), \"demo.load_phase\")\n        .then(function () {\n          eli.log.event(\"tool\", \"demo_phase_loaded\", { phase: phase.n, kind: doc.kind });\n          _toast(\"📄 \" + phase.label + \" document loaded.\", \"ok\");\n          return _setActivePhase(phase.n);\n        })\n        .then(function () { _show(); })\n        .catch(function (err) {\n          eli.log.event(\"tool\", \"demo_phase_load_failed\", { phase: phase.n, msg: err && err.message });\n          _toast(\"Load failed: \" + (err && err.message || \"unknown\"), \"err\");\n          if (btn) { btn.disabled = false; btn.textContent = \"LOAD\"; }\n        });\n    });\n  }\n\n  function _show() {\n    var m = _mount();\n    if (!m) { _toast(\"Dashboard root missing\", \"err\"); return; }\n    _getActivePhase().then(function (active) {\n      m.innerHTML = \"\";\n      var root = document.createElement(\"div\");\n      root.style.cssText = \"background:#f1f5f9; min-height:100%; font:500 13px/1.45 'Inter','Segoe UI',sans-serif; color:#0f172a;\";\n      var rows = PHASES.map(function (p) {\n        var isActive = active === p.n;\n        var isReal = false;\n        try { isReal = window._demoPhaseDoc && window._demoPhaseDoc(p.n).kind === \"ooxml\"; } catch (_e) {}\n        return '<div data-phase=\"' + p.n + '\" style=\"background:#fff; border:1px solid ' + (isActive ? \"#c9a227\" : \"#e2e8f0\") + '; border-left:4px solid ' + (isActive ? \"#c9a227\" : \"#cbd5e1\") + '; border-radius:8px; padding:14px 16px; margin-bottom:12px; display:flex; align-items:center; gap:14px;' + (isActive ? \"box-shadow:0 2px 10px rgba(201,162,39,0.18);\" : \"\") + '\">' +\n          '<div style=\"flex:0 0 auto; width:44px; height:44px; border-radius:8px; background:linear-gradient(135deg,#0d1b2a,#1b263b); color:#f2d866; display:flex; align-items:center; justify-content:center; font:800 18px/1 Georgia,serif; border:1px solid #c9a227;\">' + p.n + '</div>' +\n          '<div style=\"flex:1; min-width:0;\">' +\n            '<div style=\"font:800 13px/1.2 Inter,sans-serif; color:#0f172a;\">' + _esc(p.label) + ' · ' + _esc(p.agreement) +\n              (isActive ? ' <span style=\"color:#16a34a; font-weight:800;\">✓ LOADED</span>' : '') +\n              (isReal ? '' : ' <span style=\"font:700 9px/1 Inter,sans-serif; color:#92400e; background:#fef3c7; padding:2px 6px; border-radius:8px; vertical-align:middle;\">PLACEHOLDER</span>') +\n            '</div>' +\n            '<div style=\"font:500 11.5px/1.4 Inter,sans-serif; color:#64748b; margin-top:3px;\">' + _esc(p.points) + '</div>' +\n          '</div>' +\n          '<button data-act=\"load\" type=\"button\" style=\"flex:0 0 auto; padding:9px 18px; border:none; border-radius:8px; background:linear-gradient(135deg,#c9a227,#dbb846); color:#fff; font:800 11px/1 Inter,sans-serif; letter-spacing:0.06em; cursor:pointer; box-shadow:0 2px 6px rgba(201,162,39,0.3);\">' + (isActive ? \"RELOAD\" : \"LOAD\") + '</button>' +\n        '</div>';\n      }).join(\"\");\n      root.innerHTML =\n        '<div style=\"background:linear-gradient(135deg,#0d1b2a 0%,#1b263b 100%); border-bottom:2px solid #c9a227; padding:14px 20px; display:flex; align-items:center; gap:12px; position:sticky; top:0; z-index:5;\">' +\n          '<button data-act=\"back\" title=\"Back\" style=\"border:1px solid rgba(255,255,255,0.25); background:rgba(255,255,255,0.06); border-radius:6px; padding:4px 10px; cursor:pointer; font-size:14px; color:#e2e8f0;\">←</button>' +\n          '<div style=\"font:800 15px/1 Georgia,serif; color:#fff;\">🎬 Demo Director</div>' +\n          '<div style=\"flex:1\"></div>' +\n          '<div style=\"font:700 9px/1 Inter,sans-serif; color:#c9a227; letter-spacing:0.14em;\">TRAINING</div>' +\n        '</div>' +\n        '<div style=\"padding:20px 22px; max-width:760px; margin:0 auto;\">' +\n          '<div style=\"font:500 12px/1.5 Inter,sans-serif; color:#475569; background:#fff; border:1px solid #e2e8f0; border-left:3px solid #c9a227; padding:10px 14px; border-radius:6px; margin-bottom:16px;\">' +\n            'Load a phase document, then tell the room: <b>“Exit ELI and reload it.”</b> ' +\n            'The real boot-time OARS detection runs on reload — nothing is short-circuited.' +\n          '</div>' +\n          rows +\n        '</div>';\n      m.appendChild(root);\n      var back = root.querySelector(\"[data-act='back']\");\n      if (back) back.onclick = function () {\n        if (eli.dashboard && typeof eli.dashboard.goHome === \"function\") eli.dashboard.goHome();\n      };\n      PHASES.forEach(function (p) {\n        var row = root.querySelector('[data-phase=\"' + p.n + '\"]');\n        if (!row) return;\n        row.querySelector(\"[data-act='load']\").onclick = function () { _onPhaseClick(p, row); };\n      });\n    });\n  }\n\n  eli.register({\n    tile: { app_demo: function () {\n      try { if (eli.stats && eli.stats.record) eli.stats.record(\"appOpenedDemo\"); } catch (_) {}\n      _show();\n    } },\n  });\n}\n"
+      }
+    ]
+  }
+}

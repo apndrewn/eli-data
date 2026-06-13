@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-06-13T00:53:47.187Z",
+  "lastUpdated": "2026-06-13T00:55:00.219Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -823,6 +823,21 @@
       "changelog": ""
     },
     {
+      "id": "demo",
+      "version": null,
+      "lastUpdated": "2026-06-13T00:53:46.275Z",
+      "filename": "demo-v3.json",
+      "size": 11771,
+      "label": "Demo",
+      "kind": "tool",
+      "category": "Admin",
+      "audience": [],
+      "changelog": "",
+      "audienceEmails": [
+        "andrew_nemiroff@colpal.com"
+      ]
+    },
+    {
       "id": "__data_catalog",
       "lastUpdated": "2026-05-13T02:23:37.229Z",
       "filename": "catalog.json",
@@ -1125,7 +1140,8 @@
         "infographics_lab",
         "survey_tester",
         "workflow_creator",
-        "template_editor"
+        "template_editor",
+        "demo"
       ]
     }
   ]
