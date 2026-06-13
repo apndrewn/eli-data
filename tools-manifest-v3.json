@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-06-13T01:01:02.261Z",
+  "lastUpdated": "2026-06-13T01:08:26.773Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -825,9 +825,9 @@
     {
       "id": "demo",
       "version": null,
-      "lastUpdated": "2026-06-13T01:01:01.513Z",
+      "lastUpdated": "2026-06-13T01:08:26.023Z",
       "filename": "demo-v3.json",
-      "size": 272631,
+      "size": 866957,
       "label": "Demo",
       "kind": "tool",
       "category": "Admin",
