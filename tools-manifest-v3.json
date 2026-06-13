@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-06-13T04:03:37.882Z",
+  "lastUpdated": "2026-06-13T04:06:52.801Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -300,9 +300,9 @@
     {
       "id": "version_history",
       "version": null,
-      "lastUpdated": "2026-05-18T01:48:28.552Z",
+      "lastUpdated": "2026-06-13T04:06:52.044Z",
       "filename": "version_history-v3.json",
-      "size": 47992,
+      "size": 47939,
       "label": "Version History",
       "kind": "tool",
       "category": "Tools - ELI Core",
