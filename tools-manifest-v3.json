@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-06-13T03:34:15.302Z",
+  "lastUpdated": "2026-06-13T03:35:34.479Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -328,9 +328,9 @@
     {
       "id": "legal_review",
       "version": null,
-      "lastUpdated": "2026-06-13T03:34:14.546Z",
+      "lastUpdated": "2026-06-13T03:35:33.733Z",
       "filename": "legal_review-v3.json",
-      "size": 89442,
+      "size": 89440,
       "label": "Legal Review",
       "kind": "tool",
       "category": "External Innovation",
@@ -342,9 +342,9 @@
     {
       "id": "legal_risks",
       "version": null,
-      "lastUpdated": "2026-06-13T03:34:14.606Z",
+      "lastUpdated": "2026-06-13T03:35:33.801Z",
       "filename": "legal_risks-v3.json",
-      "size": 264206,
+      "size": 264205,
       "label": "Legal Risks",
       "kind": "tool",
       "category": "External Innovation",
