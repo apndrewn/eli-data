@@ -1,7 +1,7 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-06-13T06:13:01.316Z",
+  "generatedAt": "2026-06-13T15:06:44.777Z",
   "days": [
     {
       "date": "2026-06-12",
@@ -94,21 +94,22 @@
     {
       "date": "2026-06-13",
       "toolsUsed": {
-        "legal_review": 3,
+        "legal_review": 4,
         "compare": 1,
         "demo": 3,
         "draft": 3,
-        "error": 2,
-        "ask_eli": 1
+        "error": 3,
+        "ask_eli": 1,
+        "risk": 1
       },
-      "sessions": 30,
+      "sessions": 31,
       "firstActiveAt": 1781324265768,
-      "lastActiveAt": 1781331176297,
+      "lastActiveAt": 1781363199771,
       "tokens": {
         "gemini-flash-lite-latest": {
-          "promptTokens": 22496,
-          "candidatesTokens": 2764,
-          "calls": 3
+          "promptTokens": 32992,
+          "candidatesTokens": 4872,
+          "calls": 5
         }
       },
       "tokensByTool": {
@@ -125,9 +126,23 @@
             "candidatesTokens": 84,
             "calls": 1
           }
+        },
+        "error": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 5711,
+            "candidatesTokens": 716,
+            "calls": 1
+          }
+        },
+        "risk": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 4785,
+            "candidatesTokens": 1392,
+            "calls": 1
+          }
         }
       },
-      "estCostUSD": 0.001453,
+      "estCostUSD": 0.002294,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -140,7 +155,7 @@
     "initials": "AN",
     "kernelVersion": "v3-2026-06-13-dashfit",
     "installedAt": "2026-05-22T16:36:38.096Z",
-    "lastSeenAt": "2026-06-13T06:13:01.456Z",
+    "lastSeenAt": "2026-06-13T15:06:44.967Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -476,7 +491,7 @@
       }
     ],
     "appliedOverrides": [],
-    "trophies": 5,
+    "trophies": 8,
     "dashboardApps": [
       "auto_emailer",
       "build_draft",
