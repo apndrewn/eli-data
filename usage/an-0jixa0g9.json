@@ -1,7 +1,7 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-06-12T22:11:51.728Z",
+  "generatedAt": "2026-06-13T03:45:21.261Z",
   "days": [
     {
       "date": "2026-05-19",
@@ -876,7 +876,7 @@
     {
       "date": "2026-06-12",
       "toolsUsed": {
-        "draft": 18,
+        "draft": 26,
         "template_searcher": 1,
         "ask_eli": 1,
         "mascot_studio": 1,
@@ -887,14 +887,14 @@
         "draft_templates": 9,
         "bd_template_tester": 1
       },
-      "sessions": 54,
+      "sessions": 63,
       "firstActiveAt": 1781269375089,
-      "lastActiveAt": 1781302306698,
+      "lastActiveAt": 1781322316238,
       "tokens": {
         "gemini-flash-lite-latest": {
-          "promptTokens": 24130,
-          "candidatesTokens": 3482,
-          "calls": 7
+          "promptTokens": 40355,
+          "candidatesTokens": 9701,
+          "calls": 17
         }
       },
       "tokensByTool": {
@@ -914,13 +914,13 @@
         },
         "draft": {
           "gemini-flash-lite-latest": {
-            "promptTokens": 7060,
-            "candidatesTokens": 2275,
-            "calls": 4
+            "promptTokens": 23285,
+            "candidatesTokens": 8494,
+            "calls": 14
           }
         }
       },
-      "estCostUSD": 0.001662,
+      "estCostUSD": 0.003554,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -933,7 +933,7 @@
     "initials": "AN",
     "kernelVersion": "v3-2026-05-23j-uuid-on-demand",
     "installedAt": "2026-05-25T04:22:25.663Z",
-    "lastSeenAt": "2026-06-12T22:11:51.962Z",
+    "lastSeenAt": "2026-06-13T03:45:21.467Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -954,6 +954,7 @@
       "build_draft.isolate_template_styles": true,
       "build_draft.reviewNavigation": true,
       "build_draft.refreshFieldsAfterStep2": true,
+      "build_draft.trimTrailingBlanks": true,
       "build_draft.confirmOarsAutoLoad": true,
       "build_draft.shareStep2FillsToCdn": false,
       "build_draft.requireAllSteps": true,
@@ -1050,7 +1051,7 @@
       },
       {
         "id": "build_draft",
-        "releasedAt": "2026-06-12T19:19:42.725Z",
+        "releasedAt": "2026-06-12T22:03:44.872Z",
         "disabled": false
       },
       {
@@ -1075,7 +1076,7 @@
       },
       {
         "id": "docuscrub",
-        "releasedAt": "2026-05-29T06:30:33.071Z",
+        "releasedAt": "2026-06-12T19:36:38.572Z",
         "disabled": false
       },
       {
@@ -1170,7 +1171,7 @@
       },
       {
         "id": "oars_loader",
-        "releasedAt": "2026-06-02T03:22:58.260Z",
+        "releasedAt": "2026-06-12T23:09:55.784Z",
         "disabled": false
       },
       {
