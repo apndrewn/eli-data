@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-06-13T22:06:01.915Z",
+  "lastUpdated": "2026-06-13T23:03:44.719Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -825,9 +825,9 @@
     {
       "id": "demo",
       "version": null,
-      "lastUpdated": "2026-06-13T21:48:21.739Z",
+      "lastUpdated": "2026-06-13T23:03:39.478Z",
       "filename": "demo-v3.json",
-      "size": 896984,
+      "size": 897831,
       "label": "Demo",
       "kind": "tool",
       "category": "Tools - ELI Core",
@@ -839,9 +839,9 @@
     {
       "id": "dashboard_tour",
       "version": null,
-      "lastUpdated": "2026-06-13T22:06:01.166Z",
+      "lastUpdated": "2026-06-13T23:03:39.392Z",
       "filename": "dashboard_tour-v3.json",
-      "size": 40362,
+      "size": 43296,
       "label": "Dashboard Tour",
       "kind": "tool",
       "category": "Tools - ELI Core",
