@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-06-13T19:35:48.183Z",
+  "lastUpdated": "2026-06-13T19:40:34.885Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -839,7 +839,7 @@
     {
       "id": "dashboard_tour",
       "version": null,
-      "lastUpdated": "2026-06-13T19:35:47.302Z",
+      "lastUpdated": "2026-06-13T19:40:34.144Z",
       "filename": "dashboard_tour-v3.json",
       "size": 34871,
       "label": "Dashboard Tour",
