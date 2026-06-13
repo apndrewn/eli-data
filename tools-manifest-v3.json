@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-06-13T03:57:26.281Z",
+  "lastUpdated": "2026-06-13T04:03:37.882Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -20,9 +20,9 @@
     {
       "id": "oars_loader",
       "version": null,
-      "lastUpdated": "2026-06-13T00:18:39.158Z",
+      "lastUpdated": "2026-06-13T04:03:37.163Z",
       "filename": "oars_loader-v3.json",
-      "size": 89697,
+      "size": 89641,
       "label": "OARS Data Hub",
       "kind": "tool",
       "category": "Data",
