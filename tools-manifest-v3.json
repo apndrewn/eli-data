@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-06-13T03:39:10.157Z",
+  "lastUpdated": "2026-06-13T03:57:26.281Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -48,9 +48,9 @@
     {
       "id": "eli-activity",
       "version": null,
-      "lastUpdated": "2026-06-04T05:10:44.789Z",
+      "lastUpdated": "2026-06-13T03:57:25.462Z",
       "filename": "eli-activity-v3.json",
-      "size": 47167,
+      "size": 47695,
       "label": "ELI Activity Feed",
       "kind": "tool",
       "category": "System",
