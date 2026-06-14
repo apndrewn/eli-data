@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-06-14T23:15:35.710Z",
+  "lastUpdated": "2026-06-14T23:18:02.877Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -980,9 +980,9 @@
     },
     {
       "id": "__data_playbooks",
-      "lastUpdated": "2026-05-18T05:49:37.412Z",
+      "lastUpdated": "2026-06-14T23:18:02.877Z",
       "filename": "playbooks.enc.json",
-      "size": 2018874,
+      "size": 2018982,
       "label": "Negotiation Playbooks",
       "kind": "data",
       "category": "Data",
@@ -992,7 +992,7 @@
       "sections": [
         "playbooks"
       ],
-      "changelog": "",
+      "changelog": "12 rows · pushed 2026-06-14T23:18:02Z",
       "encrypted": true
     },
     {
