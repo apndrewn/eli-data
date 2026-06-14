@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-06-14T23:30:04.375Z",
+  "lastUpdated": "2026-06-14T23:40:42.662Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -174,9 +174,9 @@
     {
       "id": "review_redlines",
       "version": null,
-      "lastUpdated": "2026-06-14T23:30:03.620Z",
+      "lastUpdated": "2026-06-14T23:40:41.931Z",
       "filename": "review_redlines-v3.json",
-      "size": 1057037,
+      "size": 1060124,
       "label": "Review Redlines",
       "kind": "tool",
       "category": "External Innovation",
@@ -839,9 +839,9 @@
     {
       "id": "dashboard_tour",
       "version": null,
-      "lastUpdated": "2026-06-14T23:07:01.544Z",
+      "lastUpdated": "2026-06-14T23:40:41.830Z",
       "filename": "dashboard_tour-v3.json",
-      "size": 65300,
+      "size": 66363,
       "label": "Dashboard Tour",
       "kind": "tool",
       "category": "Tools - ELI Core",
