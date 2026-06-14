@@ -1,7 +1,7 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-06-14T13:57:50.676Z",
+  "generatedAt": "2026-06-14T21:15:55.591Z",
   "days": [
     {
       "date": "2026-06-12",
@@ -168,13 +168,39 @@
     },
     {
       "date": "2026-06-14",
-      "toolsUsed": {},
-      "sessions": 1,
+      "toolsUsed": {
+        "demo": 14,
+        "tour": 25,
+        "draft": 16,
+        "error": 1
+      },
+      "sessions": 28,
       "firstActiveAt": 1781445465666,
-      "lastActiveAt": 1781445465666,
-      "tokens": {},
-      "tokensByTool": {},
-      "estCostUSD": 0,
+      "lastActiveAt": 1781471750578,
+      "tokens": {
+        "gemini-flash-lite-latest": {
+          "promptTokens": 20658,
+          "candidatesTokens": 1323,
+          "calls": 7
+        }
+      },
+      "tokensByTool": {
+        "tour": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 4924,
+            "candidatesTokens": 931,
+            "calls": 5
+          }
+        },
+        "error": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 15734,
+            "candidatesTokens": 392,
+            "calls": 2
+          }
+        }
+      },
+      "estCostUSD": 0.001091,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -187,7 +213,7 @@
     "initials": "AN",
     "kernelVersion": "v3-2026-06-13-dashfit",
     "installedAt": "2026-05-22T16:36:38.096Z",
-    "lastSeenAt": "2026-06-14T13:57:50.877Z",
+    "lastSeenAt": "2026-06-14T21:15:55.785Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -323,7 +349,7 @@
       },
       {
         "id": "dashboard_tour",
-        "releasedAt": "2026-06-14T00:08:48.693Z",
+        "releasedAt": "2026-06-14T15:02:09.247Z",
         "disabled": false
       },
       {
@@ -333,7 +359,7 @@
       },
       {
         "id": "demo",
-        "releasedAt": "2026-06-14T00:08:48.784Z",
+        "releasedAt": "2026-06-14T00:26:03.845Z",
         "disabled": false
       },
       {
@@ -383,7 +409,7 @@
       },
       {
         "id": "eli_settings",
-        "releasedAt": "2026-06-12T06:22:45.107Z",
+        "releasedAt": "2026-06-14T01:02:29.475Z",
         "disabled": false
       },
       {
