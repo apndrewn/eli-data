@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-06-14T23:18:02.877Z",
+  "lastUpdated": "2026-06-14T23:18:14.386Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -825,9 +825,9 @@
     {
       "id": "demo",
       "version": null,
-      "lastUpdated": "2026-06-14T23:15:34.921Z",
+      "lastUpdated": "2026-06-14T23:18:13.058Z",
       "filename": "demo-v3.json",
-      "size": 906730,
+      "size": 906879,
       "label": "Demo",
       "kind": "tool",
       "category": "Tools - ELI Core",
@@ -982,7 +982,7 @@
       "id": "__data_playbooks",
       "lastUpdated": "2026-06-14T23:18:02.877Z",
       "filename": "playbooks.enc.json",
-      "size": 2018982,
+      "size": 2018874,
       "label": "Negotiation Playbooks",
       "kind": "data",
       "category": "Data",
@@ -992,7 +992,7 @@
       "sections": [
         "playbooks"
       ],
-      "changelog": "12 rows · pushed 2026-06-14T23:18:02Z",
+      "changelog": "",
       "encrypted": true
     },
     {
