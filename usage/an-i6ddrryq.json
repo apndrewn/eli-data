@@ -1,7 +1,7 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-06-13T21:18:48.381Z",
+  "generatedAt": "2026-06-14T13:57:50.676Z",
   "days": [
     {
       "date": "2026-06-12",
@@ -94,19 +94,20 @@
     {
       "date": "2026-06-13",
       "toolsUsed": {
-        "legal_review": 7,
+        "legal_review": 11,
         "compare": 1,
-        "demo": 44,
-        "draft": 17,
+        "demo": 61,
+        "draft": 29,
         "error": 5,
-        "ask_eli": 5,
+        "ask_eli": 7,
         "risk": 2,
         "ask_dock": 4,
-        "tour": 29
+        "tour": 43,
+        "final_review": 3
       },
-      "sessions": 66,
+      "sessions": 82,
       "firstActiveAt": 1781324265768,
-      "lastActiveAt": 1781385524954,
+      "lastActiveAt": 1781396512903,
       "tokens": {
         "gemini-flash-lite-latest": {
           "promptTokens": 59774,
@@ -164,6 +165,21 @@
         "byTemplate": {},
         "total": 0
       }
+    },
+    {
+      "date": "2026-06-14",
+      "toolsUsed": {},
+      "sessions": 1,
+      "firstActiveAt": 1781445465666,
+      "lastActiveAt": 1781445465666,
+      "tokens": {},
+      "tokensByTool": {},
+      "estCostUSD": 0,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
     }
   ],
   "fleet": {
@@ -171,7 +187,7 @@
     "initials": "AN",
     "kernelVersion": "v3-2026-06-13-dashfit",
     "installedAt": "2026-05-22T16:36:38.096Z",
-    "lastSeenAt": "2026-06-13T21:18:48.552Z",
+    "lastSeenAt": "2026-06-14T13:57:50.877Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -307,7 +323,7 @@
       },
       {
         "id": "dashboard_tour",
-        "releasedAt": "2026-06-13T19:57:23.272Z",
+        "releasedAt": "2026-06-14T00:08:48.693Z",
         "disabled": false
       },
       {
@@ -317,7 +333,7 @@
       },
       {
         "id": "demo",
-        "releasedAt": "2026-06-13T19:54:33.531Z",
+        "releasedAt": "2026-06-14T00:08:48.784Z",
         "disabled": false
       },
       {
@@ -512,7 +528,7 @@
       }
     ],
     "appliedOverrides": [],
-    "trophies": 9,
+    "trophies": 10,
     "dashboardApps": [
       "auto_emailer",
       "build_draft",
