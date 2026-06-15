@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-06-15T05:59:55.562Z",
+  "lastUpdated": "2026-06-15T06:05:22.479Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -839,9 +839,9 @@
     {
       "id": "dashboard_tour",
       "version": null,
-      "lastUpdated": "2026-06-15T05:59:54.827Z",
+      "lastUpdated": "2026-06-15T06:05:21.713Z",
       "filename": "dashboard_tour-v3.json",
-      "size": 97586,
+      "size": 97734,
       "label": "Dashboard Tour",
       "kind": "tool",
       "category": "Tools - ELI Core",
