@@ -1,7 +1,7 @@
 {
   "userName": "JL",
   "userKey": "jl",
-  "generatedAt": "2026-06-12T19:05:36.331Z",
+  "generatedAt": "2026-06-15T20:55:15.027Z",
   "days": [
     {
       "date": "2026-05-19",
@@ -410,12 +410,12 @@
         "legal_review": 2,
         "review_redlines": 2,
         "draft": 2,
-        "draft_templates": 1,
+        "draft_templates": 4,
         "bd_template_tester": 1
       },
-      "sessions": 22,
+      "sessions": 24,
       "firstActiveAt": 1781272431891,
-      "lastActiveAt": 1781291131302,
+      "lastActiveAt": 1781293573684,
       "tokens": {
         "gemini-flash-lite-latest": {
           "promptTokens": 111350,
@@ -452,6 +452,21 @@
         "byTemplate": {},
         "total": 0
       }
+    },
+    {
+      "date": "2026-06-15",
+      "toolsUsed": {},
+      "sessions": 1,
+      "firstActiveAt": 1781556909889,
+      "lastActiveAt": 1781556909889,
+      "tokens": {},
+      "tokensByTool": {},
+      "estCostUSD": 0,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
     }
   ],
   "fleet": {
@@ -459,7 +474,7 @@
     "initials": "JL",
     "kernelVersion": "v3-2026-06-12b-stale-cdn-guard",
     "installedAt": "2026-05-26T14:38:04.421Z",
-    "lastSeenAt": "2026-06-12T19:05:36.538Z",
+    "lastSeenAt": "2026-06-15T20:55:16.294Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -539,7 +554,7 @@
       },
       {
         "id": "build_draft",
-        "releasedAt": "2026-06-12T17:28:21.813Z",
+        "releasedAt": "2026-06-12T19:35:36.381Z",
         "disabled": false
       },
       {
@@ -554,7 +569,7 @@
       },
       {
         "id": "docuscrub",
-        "releasedAt": "2026-05-29T06:30:33.071Z",
+        "releasedAt": "2026-06-12T19:36:38.572Z",
         "disabled": false
       },
       {
