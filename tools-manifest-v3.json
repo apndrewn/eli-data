@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-06-15T05:46:57.726Z",
+  "lastUpdated": "2026-06-15T05:52:50.143Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -202,9 +202,9 @@
     {
       "id": "compare",
       "version": null,
-      "lastUpdated": "2026-06-04T04:56:03.497Z",
+      "lastUpdated": "2026-06-15T05:52:09.280Z",
       "filename": "compare-v3.json",
-      "size": 198219,
+      "size": 198342,
       "label": "Compare to Template",
       "kind": "tool",
       "category": "External Innovation",
@@ -825,9 +825,9 @@
     {
       "id": "demo",
       "version": null,
-      "lastUpdated": "2026-06-15T04:30:54.589Z",
+      "lastUpdated": "2026-06-15T05:52:09.153Z",
       "filename": "demo-v3.json",
-      "size": 909082,
+      "size": 908985,
       "label": "Training",
       "kind": "tool",
       "category": "Tools - ELI Core",
@@ -839,9 +839,9 @@
     {
       "id": "dashboard_tour",
       "version": null,
-      "lastUpdated": "2026-06-15T05:46:57.005Z",
+      "lastUpdated": "2026-06-15T05:52:09.061Z",
       "filename": "dashboard_tour-v3.json",
-      "size": 96154,
+      "size": 96345,
       "label": "Dashboard Tour",
       "kind": "tool",
       "category": "Tools - ELI Core",
