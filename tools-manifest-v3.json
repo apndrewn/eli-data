@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-06-15T04:54:38.586Z",
+  "lastUpdated": "2026-06-15T04:57:38.867Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -839,9 +839,9 @@
     {
       "id": "dashboard_tour",
       "version": null,
-      "lastUpdated": "2026-06-15T04:49:30.995Z",
+      "lastUpdated": "2026-06-15T04:57:37.962Z",
       "filename": "dashboard_tour-v3.json",
-      "size": 92478,
+      "size": 92498,
       "label": "Dashboard Tour",
       "kind": "tool",
       "category": "Tools - ELI Core",
@@ -853,9 +853,9 @@
     {
       "id": "feedback_inbox",
       "version": null,
-      "lastUpdated": "2026-06-15T04:53:04.555Z",
+      "lastUpdated": "2026-06-15T04:57:38.050Z",
       "filename": "feedback_inbox-v3.json",
-      "size": 12182,
+      "size": 12443,
       "label": "Feedback Inbox",
       "kind": "tool",
       "category": "Admin",
