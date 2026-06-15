@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-06-15T04:53:16.244Z",
+  "lastUpdated": "2026-06-15T04:54:38.586Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -849,6 +849,23 @@
         "all"
       ],
       "changelog": ""
+    },
+    {
+      "id": "feedback_inbox",
+      "version": null,
+      "lastUpdated": "2026-06-15T04:53:04.555Z",
+      "filename": "feedback_inbox-v3.json",
+      "size": 12182,
+      "label": "Feedback Inbox",
+      "kind": "tool",
+      "category": "Admin",
+      "audience": [
+        "all"
+      ],
+      "changelog": "",
+      "audienceEmails": [
+        "andrew_nemiroff@colpal.com"
+      ]
     },
     {
       "id": "__data_catalog",
