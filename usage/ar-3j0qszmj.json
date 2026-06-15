@@ -1,7 +1,7 @@
 {
   "userName": "AR",
   "userKey": "ar",
-  "generatedAt": "2026-06-15T17:18:17.135Z",
+  "generatedAt": "2026-06-15T20:52:59.940Z",
   "days": [
     {
       "date": "2026-05-20",
@@ -426,11 +426,11 @@
         "legal_review": 2,
         "review_redlines": 2,
         "ask_dock": 1,
-        "final_review": 1
+        "final_review": 2
       },
-      "sessions": 5,
+      "sessions": 8,
       "firstActiveAt": 1781527331800,
-      "lastActiveAt": 1781543895775,
+      "lastActiveAt": 1781556774918,
       "tokens": {
         "gemini-flash-lite-latest": {
           "promptTokens": 177085,
@@ -481,7 +481,7 @@
     "initials": "AR",
     "kernelVersion": "v3-2026-05-23j-uuid-on-demand",
     "installedAt": "2026-05-27T17:37:06.120Z",
-    "lastSeenAt": "2026-06-15T17:18:17.335Z",
+    "lastSeenAt": "2026-06-15T20:53:00.194Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
