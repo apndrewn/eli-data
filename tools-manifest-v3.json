@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-06-15T04:49:31.693Z",
+  "lastUpdated": "2026-06-15T04:53:16.244Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -1154,7 +1154,8 @@
         "survey_tester",
         "workflow_creator",
         "template_editor",
-        "demo"
+        "demo",
+        "feedback_inbox"
       ]
     }
   ]
