@@ -1,7 +1,7 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-06-13T19:25:25.750Z",
+  "generatedAt": "2026-06-15T01:41:53.617Z",
   "days": [
     {
       "date": "2026-05-19",
@@ -955,23 +955,25 @@
       "date": "2026-06-13",
       "toolsUsed": {
         "draft": 8,
-        "demo": 10,
+        "demo": 20,
         "auto_emailer": 1,
         "legal_review": 5,
         "review_redlines": 4,
         "admin_team_guidance": 1,
         "ask_dock": 9,
         "final_review": 2,
-        "template_searcher": 1
+        "template_searcher": 1,
+        "tour": 8,
+        "error": 1
       },
-      "sessions": 24,
+      "sessions": 32,
       "firstActiveAt": 1781323206602,
-      "lastActiveAt": 1781378720713,
+      "lastActiveAt": 1781380562494,
       "tokens": {
         "gemini-flash-lite-latest": {
-          "promptTokens": 133185,
-          "candidatesTokens": 9046,
-          "calls": 73
+          "promptTokens": 138918,
+          "candidatesTokens": 9723,
+          "calls": 74
         }
       },
       "tokensByTool": {
@@ -995,9 +997,16 @@
             "candidatesTokens": 951,
             "calls": 1
           }
+        },
+        "error": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 5733,
+            "candidatesTokens": 677,
+            "calls": 1
+          }
         }
       },
-      "estCostUSD": 0.007137,
+      "estCostUSD": 0.007501,
       "drafts": {
         "byType": {
           "services agreement": 1
@@ -1007,6 +1016,21 @@
         },
         "total": 1
       }
+    },
+    {
+      "date": "2026-06-14",
+      "toolsUsed": {},
+      "sessions": 1,
+      "firstActiveAt": 1781487708590,
+      "lastActiveAt": 1781487708590,
+      "tokens": {},
+      "tokensByTool": {},
+      "estCostUSD": 0,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
     }
   ],
   "fleet": {
@@ -1014,7 +1038,7 @@
     "initials": "AN",
     "kernelVersion": "v3-2026-06-13-dashfit",
     "installedAt": "2026-05-25T04:22:25.663Z",
-    "lastSeenAt": "2026-06-13T19:25:25.963Z",
+    "lastSeenAt": "2026-06-15T01:41:53.838Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -1151,18 +1175,8 @@
         "disabled": false
       },
       {
-        "id": "dashboard_tour",
-        "releasedAt": "2026-06-13T19:21:29.885Z",
-        "disabled": false
-      },
-      {
         "id": "dashboard_widgets",
         "releasedAt": "2026-06-13T05:08:16.673Z",
-        "disabled": false
-      },
-      {
-        "id": "demo",
-        "releasedAt": "2026-06-13T18:59:30.997Z",
         "disabled": false
       },
       {
@@ -1211,11 +1225,6 @@
         "disabled": false
       },
       {
-        "id": "eli_settings",
-        "releasedAt": "2026-06-12T06:22:45.107Z",
-        "disabled": false
-      },
-      {
         "id": "eli_stats",
         "releasedAt": "2026-05-28T05:13:51.148Z",
         "disabled": false
@@ -1233,11 +1242,6 @@
       {
         "id": "error_review",
         "releasedAt": "2026-06-13T04:15:02.974Z",
-        "disabled": false
-      },
-      {
-        "id": "final_review",
-        "releasedAt": "2026-06-09T05:29:41.101Z",
         "disabled": false
       },
       {
@@ -1296,11 +1300,6 @@
         "disabled": false
       },
       {
-        "id": "review_redlines",
-        "releasedAt": "2026-06-13T01:34:55.926Z",
-        "disabled": false
-      },
-      {
         "id": "survey_tester",
         "releasedAt": "2026-05-25T05:24:23.316Z",
         "disabled": false
@@ -1353,6 +1352,31 @@
       {
         "id": "workflow_creator",
         "releasedAt": "2026-06-09T12:28:19.764Z",
+        "disabled": false
+      },
+      {
+        "id": "dashboard_tour",
+        "releasedAt": "2026-06-15T01:38:06.012Z",
+        "disabled": false
+      },
+      {
+        "id": "demo",
+        "releasedAt": "2026-06-15T01:27:15.321Z",
+        "disabled": false
+      },
+      {
+        "id": "final_review",
+        "releasedAt": "2026-06-15T00:45:23.746Z",
+        "disabled": false
+      },
+      {
+        "id": "eli_settings",
+        "releasedAt": "2026-06-14T01:02:29.475Z",
+        "disabled": false
+      },
+      {
+        "id": "review_redlines",
+        "releasedAt": "2026-06-15T00:17:08.652Z",
         "disabled": false
       }
     ],
