@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-06-15T04:27:55.407Z",
+  "lastUpdated": "2026-06-15T04:30:55.441Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -825,10 +825,10 @@
     {
       "id": "demo",
       "version": null,
-      "lastUpdated": "2026-06-15T04:27:54.717Z",
+      "lastUpdated": "2026-06-15T04:30:54.589Z",
       "filename": "demo-v3.json",
-      "size": 909074,
-      "label": "Demo",
+      "size": 909082,
+      "label": "Training",
       "kind": "tool",
       "category": "Tools - ELI Core",
       "audience": [
