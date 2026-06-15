@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-06-15T00:42:43.603Z",
+  "lastUpdated": "2026-06-15T00:45:24.443Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -104,9 +104,9 @@
     {
       "id": "final_review",
       "version": null,
-      "lastUpdated": "2026-06-09T05:29:41.101Z",
+      "lastUpdated": "2026-06-15T00:45:23.746Z",
       "filename": "final_review-v3.json",
-      "size": 102868,
+      "size": 104362,
       "label": "Final Review",
       "kind": "tool",
       "category": "External Innovation",
