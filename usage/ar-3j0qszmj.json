@@ -1,7 +1,7 @@
 {
   "userName": "AR",
   "userKey": "ar",
-  "generatedAt": "2026-06-15T12:42:16.803Z",
+  "generatedAt": "2026-06-15T17:18:17.135Z",
   "days": [
     {
       "date": "2026-05-20",
@@ -421,28 +421,54 @@
     {
       "date": "2026-06-15",
       "toolsUsed": {
-        "draft": 1
+        "draft": 1,
+        "error": 1,
+        "legal_review": 2,
+        "review_redlines": 2,
+        "ask_dock": 1,
+        "final_review": 1
       },
-      "sessions": 1,
+      "sessions": 5,
       "firstActiveAt": 1781527331800,
-      "lastActiveAt": 1781527334948,
+      "lastActiveAt": 1781543895775,
       "tokens": {
         "gemini-flash-lite-latest": {
-          "promptTokens": 2154,
-          "candidatesTokens": 624,
-          "calls": 1
+          "promptTokens": 177085,
+          "candidatesTokens": 9233,
+          "calls": 56
         }
       },
       "tokensByTool": {
         "draft": {
           "gemini-flash-lite-latest": {
-            "promptTokens": 2154,
-            "candidatesTokens": 624,
+            "promptTokens": 4576,
+            "candidatesTokens": 820,
+            "calls": 3
+          }
+        },
+        "error": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 5098,
+            "candidatesTokens": 381,
+            "calls": 2
+          }
+        },
+        "review_redlines": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 133090,
+            "candidatesTokens": 7391,
+            "calls": 50
+          }
+        },
+        "ask_dock": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 34321,
+            "candidatesTokens": 641,
             "calls": 1
           }
         }
       },
-      "estCostUSD": 0.000211,
+      "estCostUSD": 0.00893,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -455,7 +481,7 @@
     "initials": "AR",
     "kernelVersion": "v3-2026-05-23j-uuid-on-demand",
     "installedAt": "2026-05-27T17:37:06.120Z",
-    "lastSeenAt": "2026-06-15T12:42:18.149Z",
+    "lastSeenAt": "2026-06-15T17:18:17.335Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -470,8 +496,11 @@
       "expand_threshold": 480,
       "debug_mode": false,
       "build_draft.multilineInsert": true,
+      "build_draft.normalize_host_styles": true,
+      "build_draft.isolate_template_styles": true,
       "build_draft.reviewNavigation": true,
       "build_draft.refreshFieldsAfterStep2": true,
+      "build_draft.trimTrailingBlanks": true,
       "build_draft.confirmOarsAutoLoad": true,
       "build_draft.shareStep2FillsToCdn": false,
       "build_draft.requireAllSteps": true,
@@ -496,10 +525,7 @@
       "mascot.facialHair": "none",
       "mascot.glasses": "round",
       "mascot.suitColor": "#1565c0",
-      "ask_eli_redline_regen_enabled": true,
-      "build_draft.normalize_host_styles": true,
-      "build_draft.isolate_template_styles": true,
-      "build_draft.trimTrailingBlanks": true
+      "ask_eli_redline_regen_enabled": true
     },
     "tools": [
       {
@@ -513,6 +539,11 @@
         "disabled": false
       },
       {
+        "id": "ask_dock",
+        "releasedAt": "2026-06-13T15:12:32.240Z",
+        "disabled": false
+      },
+      {
         "id": "ask_eli",
         "releasedAt": "2026-06-12T04:36:19.768Z",
         "disabled": false
@@ -523,8 +554,48 @@
         "disabled": false
       },
       {
+        "id": "build_draft",
+        "releasedAt": "2026-06-15T03:30:58.947Z",
+        "disabled": false
+      },
+      {
+        "id": "compare",
+        "releasedAt": "2026-06-15T05:52:09.280Z",
+        "disabled": false
+      },
+      {
+        "id": "dashboard_tour",
+        "releasedAt": "2026-06-15T11:58:34.533Z",
+        "disabled": false
+      },
+      {
+        "id": "dashboard_widgets",
+        "releasedAt": "2026-06-15T04:45:34.418Z",
+        "disabled": false
+      },
+      {
+        "id": "demo",
+        "releasedAt": "2026-06-15T05:52:09.153Z",
+        "disabled": false
+      },
+      {
+        "id": "docuscrub",
+        "releasedAt": "2026-06-12T19:36:38.572Z",
+        "disabled": false
+      },
+      {
         "id": "draft_audit",
         "releasedAt": "2026-05-30T16:30:37.394Z",
+        "disabled": false
+      },
+      {
+        "id": "eli-activity",
+        "releasedAt": "2026-06-13T03:57:25.462Z",
+        "disabled": false
+      },
+      {
+        "id": "eli-admin",
+        "releasedAt": "2026-06-12T15:15:28.515Z",
         "disabled": false
       },
       {
@@ -535,6 +606,21 @@
       {
         "id": "eli5",
         "releasedAt": "2026-05-19T03:53:44.200Z",
+        "disabled": false
+      },
+      {
+        "id": "eli_kit",
+        "releasedAt": "2026-06-15T04:41:59.331Z",
+        "disabled": false
+      },
+      {
+        "id": "eli_mascot_studio",
+        "releasedAt": "2026-06-15T12:03:23.546Z",
+        "disabled": false
+      },
+      {
+        "id": "eli_settings",
+        "releasedAt": "2026-06-15T12:03:23.624Z",
         "disabled": false
       },
       {
@@ -553,8 +639,33 @@
         "disabled": false
       },
       {
+        "id": "error_review",
+        "releasedAt": "2026-06-15T02:13:06.622Z",
+        "disabled": false
+      },
+      {
+        "id": "final_review",
+        "releasedAt": "2026-06-15T00:45:23.746Z",
+        "disabled": false
+      },
+      {
         "id": "focus_flow",
         "releasedAt": "2026-05-18T11:52:32.797Z",
+        "disabled": false
+      },
+      {
+        "id": "legal_review",
+        "releasedAt": "2026-06-13T04:15:03.046Z",
+        "disabled": false
+      },
+      {
+        "id": "legal_risks",
+        "releasedAt": "2026-06-13T03:39:09.434Z",
+        "disabled": false
+      },
+      {
+        "id": "oars_loader",
+        "releasedAt": "2026-06-13T04:03:37.163Z",
         "disabled": false
       },
       {
@@ -570,6 +681,11 @@
       {
         "id": "redline_email_pack",
         "releasedAt": "2026-05-17T13:54:46.229Z",
+        "disabled": false
+      },
+      {
+        "id": "review_redlines",
+        "releasedAt": "2026-06-15T04:13:25.227Z",
         "disabled": false
       },
       {
@@ -593,113 +709,18 @@
         "disabled": false
       },
       {
-        "id": "usage_risks",
-        "releasedAt": "2026-05-18T05:51:45.234Z",
-        "disabled": false
-      },
-      {
-        "id": "eli_kit",
-        "releasedAt": "2026-06-15T04:41:59.331Z",
-        "disabled": false
-      },
-      {
-        "id": "oars_loader",
-        "releasedAt": "2026-06-13T04:03:37.163Z",
-        "disabled": false
-      },
-      {
-        "id": "eli-admin",
-        "releasedAt": "2026-06-12T15:15:28.515Z",
-        "disabled": false
-      },
-      {
-        "id": "final_review",
-        "releasedAt": "2026-06-15T00:45:23.746Z",
-        "disabled": false
-      },
-      {
-        "id": "eli-activity",
-        "releasedAt": "2026-06-13T03:57:25.462Z",
-        "disabled": false
-      },
-      {
-        "id": "docuscrub",
-        "releasedAt": "2026-06-12T19:36:38.572Z",
-        "disabled": false
-      },
-      {
-        "id": "eli_settings",
-        "releasedAt": "2026-06-15T12:03:23.624Z",
-        "disabled": false
-      },
-      {
         "id": "trophy_gallery",
         "releasedAt": "2026-06-13T05:36:56.392Z",
         "disabled": false
       },
       {
-        "id": "compare",
-        "releasedAt": "2026-06-15T05:52:09.280Z",
-        "disabled": false
-      },
-      {
-        "id": "eli_mascot_studio",
-        "releasedAt": "2026-06-15T12:03:23.546Z",
+        "id": "usage_risks",
+        "releasedAt": "2026-05-18T05:51:45.234Z",
         "disabled": false
       },
       {
         "id": "version_history",
         "releasedAt": "2026-06-13T04:06:52.044Z",
-        "disabled": false
-      },
-      {
-        "id": "error_review",
-        "releasedAt": "2026-06-15T02:13:06.622Z",
-        "disabled": false
-      },
-      {
-        "id": "legal_review",
-        "releasedAt": "2026-06-13T04:15:03.046Z",
-        "disabled": false
-      },
-      {
-        "id": "review_redlines",
-        "releasedAt": "2026-06-15T04:13:25.227Z",
-        "disabled": false
-      },
-      {
-        "id": "dashboard_widgets",
-        "releasedAt": "2026-06-15T04:45:34.418Z",
-        "disabled": false
-      },
-      {
-        "id": "dashboard_tour",
-        "releasedAt": "2026-06-15T11:58:34.533Z",
-        "disabled": false
-      },
-      {
-        "id": "ask_dock",
-        "releasedAt": "2026-06-13T15:12:32.240Z",
-        "disabled": false
-      },
-      {
-        "id": "feedback_inbox",
-        "releasedAt": "2026-06-15T04:57:38.050Z",
-        "disabled": false
-      },
-      {
-        "id": "legal_risks",
-        "releasedAt": "2026-06-13T03:39:09.434Z",
-        "disabled": false
-      },
-      {
-        "id": "demo",
-        "releasedAt": "2026-06-15T05:52:09.153Z",
-        "disabled": false
-      },
-      {
-        "id": "build_draft",
-        "releasedAt": "2026-06-15T03:30:58.947Z",
         "disabled": false
       }
     ],
@@ -727,7 +748,8 @@
       "error_review",
       "final_review",
       "build_draft",
-      "auto_emailer"
+      "auto_emailer",
+      "focus_flow"
     ],
     "dashboardCustomized": true
   }
