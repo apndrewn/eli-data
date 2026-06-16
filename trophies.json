@@ -3,6 +3,7 @@
     "trophies": [
       {
         "id": "t1",
+        "n": 1,
         "icon": "🥚",
         "title": "Spark of Creation",
         "desc": "Click 'Build Draft' for the first time.",
@@ -12,6 +13,7 @@
       },
       {
         "id": "t2",
+        "n": 2,
         "icon": "🏗️",
         "title": "The Constructor",
         "desc": "Complete 5 contract drafts.",
@@ -21,6 +23,7 @@
       },
       {
         "id": "t5",
+        "n": 3,
         "icon": "🏛️",
         "title": "The Architect",
         "desc": "Complete 50 contract drafts.",
@@ -30,6 +33,7 @@
       },
       {
         "id": "t11",
+        "n": 4,
         "icon": "🛡️",
         "title": "First Pass",
         "desc": "Click 'Legal Risks Scan' for the first time.",
@@ -39,6 +43,7 @@
       },
       {
         "id": "t17",
+        "n": 5,
         "icon": "🚨",
         "title": "Crisis Averted",
         "desc": "Identify and mitigate your first 'High Severity' risk.",
@@ -48,6 +53,7 @@
       },
       {
         "id": "t20",
+        "n": 6,
         "icon": "🦸",
         "title": "Risk Manager",
         "desc": "Identify 500 legal risks across your documents.",
@@ -57,6 +63,7 @@
       },
       {
         "id": "t26",
+        "n": 7,
         "icon": "🔍",
         "title": "The Proofreader",
         "desc": "Click 'Error Reviews' for the first time.",
@@ -66,6 +73,7 @@
       },
       {
         "id": "t30",
+        "n": 8,
         "icon": "📝",
         "title": "The Grammarian",
         "desc": "Run 100 Error Reviews.",
@@ -75,6 +83,7 @@
       },
       {
         "id": "t41",
+        "n": 9,
         "icon": "💬",
         "title": "First Words",
         "desc": "Send your very first message to ELI.",
@@ -84,6 +93,7 @@
       },
       {
         "id": "t44",
+        "n": 10,
         "icon": "🕵️",
         "title": "The Interrogator",
         "desc": "Send 250 messages.",
@@ -93,6 +103,7 @@
       },
       {
         "id": "t56",
+        "n": 11,
         "icon": "📄",
         "title": "Genesis",
         "desc": "Fully review your 1st document.",
@@ -102,6 +113,7 @@
       },
       {
         "id": "t60",
+        "n": 12,
         "icon": "👑",
         "title": "The Centurion",
         "desc": "Review 100 Documents.",
@@ -111,6 +123,7 @@
       },
       {
         "id": "t63",
+        "n": 13,
         "icon": "💎",
         "title": "Grandmaster",
         "desc": "Review 1,000 Documents.",
@@ -120,6 +133,7 @@
       },
       {
         "id": "t71",
+        "n": 14,
         "icon": "⏳",
         "title": "Time Recovery I",
         "desc": "Save your first 1 hour of manual review time.",
@@ -129,6 +143,7 @@
       },
       {
         "id": "t74",
+        "n": 15,
         "icon": "🕰️",
         "title": "The Time Weaver",
         "desc": "Save 50 hours of manual review.",
@@ -138,6 +153,7 @@
       },
       {
         "id": "t77",
+        "n": 16,
         "icon": "📈",
         "title": "The Partner Track",
         "desc": "Save 500 hours of manual review.",
@@ -147,6 +163,7 @@
       },
       {
         "id": "t83",
+        "n": 17,
         "icon": "🔥",
         "title": "Hot Streak",
         "desc": "Hit a 5-Day Streak.",
@@ -156,6 +173,7 @@
       },
       {
         "id": "t86",
+        "n": 18,
         "icon": "🦾",
         "title": "The Habit",
         "desc": "Hit a 30-Day Streak.",
@@ -165,6 +183,7 @@
       },
       {
         "id": "t102",
+        "n": 19,
         "icon": "🐋",
         "title": "The Leviathan",
         "desc": "Surpass exactly 5,000 total lifetime documents.",
@@ -174,6 +193,7 @@
       },
       {
         "id": "t104",
+        "n": 20,
         "icon": "⌛",
         "title": "Master of Time",
         "desc": "Accumulate 2,000 exact hours of saved manual review.",
@@ -183,6 +203,7 @@
       },
       {
         "id": "t105",
+        "n": 21,
         "icon": "🎯",
         "title": "Bullseye",
         "desc": "Your scan returned exactly 20 Legal Risks.",
@@ -192,6 +213,7 @@
       },
       {
         "id": "t106",
+        "n": 22,
         "icon": "🪡",
         "title": "Needle in a Haystack",
         "desc": "Found exactly 1 error in an agreement over 3,000 words.",
@@ -201,6 +223,7 @@
       },
       {
         "id": "t107",
+        "n": 23,
         "icon": "🛡️",
         "title": "Flawless Victory",
         "desc": "Scanned a document over 3,000 words and found 0 Errors.",
@@ -210,6 +233,7 @@
       },
       {
         "id": "t108",
+        "n": 24,
         "icon": "🗣️",
         "title": "The Conversationalist",
         "desc": "Exchange 1,000 lifetime messages with Ask ELI.",
@@ -219,6 +243,7 @@
       },
       {
         "id": "t109",
+        "n": 25,
         "icon": "🧲",
         "title": "The Titanium Shield",
         "desc": "Identify 2,500 High-Severity Legal Risks across all documents.",
@@ -228,6 +253,7 @@
       },
       {
         "id": "t111",
+        "n": 26,
         "icon": "☀️",
         "title": "The Daily Grind",
         "desc": "Used ELI 3 days in a row.",
@@ -237,6 +263,7 @@
       },
       {
         "id": "t112",
+        "n": 27,
         "icon": "🧗",
         "title": "Weekly Warrior",
         "desc": "Used ELI at least once a week for 4 consecutive weeks.",
@@ -245,6 +272,7 @@
       },
       {
         "id": "t113",
+        "n": 28,
         "icon": "🗓️",
         "title": "Monthly Master",
         "desc": "Analyzed at least 15 distinct documents in a single month.",
@@ -253,6 +281,7 @@
       },
       {
         "id": "t114",
+        "n": 29,
         "icon": "🌅",
         "title": "The Early Bird",
         "desc": "Ran a Legal Risks scan before 8:00 AM local time.",
@@ -262,6 +291,7 @@
       },
       {
         "id": "t115",
+        "n": 30,
         "icon": "🦉",
         "title": "The Night Owl",
         "desc": "Used ELI's tools after 8:00 PM on a weekday.",
@@ -271,6 +301,7 @@
       },
       {
         "id": "t116",
+        "n": 31,
         "icon": "🛋️",
         "title": "The Weekend Closer",
         "desc": "Used ELI to review a document on a Saturday or Sunday.",
@@ -280,6 +311,7 @@
       },
       {
         "id": "t117",
+        "n": 32,
         "icon": "💯",
         "title": "Century Club",
         "desc": "Hit 100 total active days using ELI.",
@@ -289,6 +321,7 @@
       },
       {
         "id": "t118",
+        "n": 33,
         "icon": "🔎",
         "title": "The Track Changes Titan",
         "desc": "Analyze a total of 1,500 individual tracked changes using the Review Redline tool.",
@@ -298,6 +331,7 @@
       },
       {
         "id": "t119",
+        "n": 34,
         "icon": "✅",
         "title": "The Routine Checker",
         "desc": "Use Compare Draft or Review Redline at least once a week for 8 consecutive weeks.",
@@ -307,6 +341,7 @@
       },
       {
         "id": "t120",
+        "n": 35,
         "icon": "🎉",
         "title": "Loyalty Program",
         "desc": "Reached your 1-Year Anniversary from the date you unlocked your first trophy.",
@@ -316,6 +351,7 @@
       },
       {
         "id": "t121",
+        "n": 36,
         "icon": "🎯",
         "title": "Template Tactician",
         "desc": "Use Build Draft 10 times.",
@@ -325,6 +361,7 @@
       },
       {
         "id": "t123",
+        "n": 37,
         "icon": "🎼",
         "title": "Drafting Maestro",
         "desc": "Use Build Draft 100 times.",
@@ -334,6 +371,7 @@
       },
       {
         "id": "t124",
+        "n": 38,
         "icon": "🥾",
         "title": "The Exterminator",
         "desc": "Manually apply 500 error fixes.",
@@ -343,6 +381,7 @@
       },
       {
         "id": "t128",
+        "n": 39,
         "icon": "📏",
         "title": "The Format Fanatic",
         "desc": "Standardize font and spacing across 1,000,000 total words.",
@@ -352,6 +391,7 @@
       },
       {
         "id": "t130",
+        "n": 40,
         "icon": "✏️",
         "title": "The Corrector",
         "desc": "Apply 100 error fixes.",
@@ -361,6 +401,7 @@
       },
       {
         "id": "t131",
+        "n": 41,
         "icon": "🏙️",
         "title": "The Deal Architect",
         "desc": "Use the Smart Compare tool to analyze 500 separate document comparisons.",
@@ -370,6 +411,7 @@
       },
       {
         "id": "t132",
+        "n": 42,
         "icon": "📨",
         "title": "The Inbox Inquisitor",
         "desc": "Inject 250 AI-drafted responses directly from the Email Helper.",
@@ -379,6 +421,7 @@
       },
       {
         "id": "t133",
+        "n": 43,
         "icon": "⚡",
         "title": "Lightning Round",
         "desc": "Generate 4 entirely different Draft types within a 1-week window.",
@@ -388,6 +431,7 @@
       },
       {
         "id": "t134",
+        "n": 44,
         "icon": "🦘",
         "title": "The Leap Year Logician",
         "desc": "Run a Legal Risks Scan on exactly February 29th.",
@@ -397,6 +441,7 @@
       },
       {
         "id": "t135",
+        "n": 45,
         "icon": "📚",
         "title": "The Records Keeper",
         "desc": "Analyze 1,000 individual tracked changes using the Review Redline tool.",
@@ -406,6 +451,7 @@
       },
       {
         "id": "t136",
+        "n": 46,
         "icon": "⚡",
         "title": "The Bionic Sprinter",
         "desc": "Process 5,000 words consecutively using Focus Flow.",
@@ -415,6 +461,7 @@
       },
       {
         "id": "t137",
+        "n": 47,
         "icon": "🧑‍⚖️",
         "title": "The Master Consul",
         "desc": "Run the Review Redline tool for the first time.",
@@ -424,6 +471,7 @@
       },
       {
         "id": "t138",
+        "n": 48,
         "icon": "📅",
         "title": "The First Frame",
         "desc": "Use ELI for 7 distinct active days.",
@@ -433,6 +481,7 @@
       },
       {
         "id": "t139",
+        "n": 49,
         "icon": "🕵️",
         "title": "The Inquisitor",
         "desc": "Send at least 5 chat messages per week for 5 consecutive weeks.",
@@ -441,6 +490,7 @@
       },
       {
         "id": "t140",
+        "n": 50,
         "icon": "📜",
         "title": "The Iron Evaluator",
         "desc": "Review 10,000 legal documents using ELI.",
@@ -450,6 +500,7 @@
       },
       {
         "id": "t141",
+        "n": 51,
         "icon": "🧐",
         "title": "The Perfectionist",
         "desc": "Find 500 document errors across all your reviewed files.",
@@ -459,6 +510,7 @@
       },
       {
         "id": "t142",
+        "n": 52,
         "icon": "🧽",
         "title": "The Sweeper",
         "desc": "Fix 1,000 syntax and mechanical errors.",
@@ -468,6 +520,7 @@
       },
       {
         "id": "t143",
+        "n": 53,
         "icon": "🦅",
         "title": "The Eagle Eye",
         "desc": "Find 5,000 document errors across your career.",
@@ -477,6 +530,7 @@
       },
       {
         "id": "t144",
+        "n": 54,
         "icon": "🧙‍♂️",
         "title": "The Master Proofreader",
         "desc": "Fix 15,000 syntax and mechanical errors.",
@@ -486,6 +540,7 @@
       },
       {
         "id": "t145",
+        "n": 55,
         "icon": "📡",
         "title": "The Radar",
         "desc": "Identify 100 hidden legal risks across your documents.",
@@ -495,6 +550,7 @@
       },
       {
         "id": "t146",
+        "n": 56,
         "icon": "🛡️",
         "title": "The Guardian",
         "desc": "Mitigate 50 substantial legal risks.",
@@ -504,6 +560,7 @@
       },
       {
         "id": "t147",
+        "n": 57,
         "icon": "👁️",
         "title": "The Watchtower",
         "desc": "Identify 1,000 hidden legal risks.",
@@ -513,6 +570,7 @@
       },
       {
         "id": "t148",
+        "n": 58,
         "icon": "⚔️",
         "title": "The Shield",
         "desc": "Mitigate 500 substantial legal risks.",
@@ -522,6 +580,7 @@
       },
       {
         "id": "t149",
+        "n": 59,
         "icon": "🛰️",
         "title": "The Oracle of Liability",
         "desc": "Identify an incredible 10,000 hidden legal risks.",
@@ -531,6 +590,7 @@
       },
       {
         "id": "t150",
+        "n": 60,
         "icon": "🏰",
         "title": "The Ironclad Architect",
         "desc": "Mitigate 5,000 legal risks across major transactions.",
@@ -540,6 +600,7 @@
       },
       {
         "id": "t151",
+        "n": 61,
         "icon": "🔍",
         "title": "The Micro-Sleuth",
         "desc": "Find 25,000 tiny document errors.",
@@ -549,6 +610,7 @@
       },
       {
         "id": "t152",
+        "n": 62,
         "icon": "💎",
         "title": "The Flawless Record",
         "desc": "Fix 100,000 errors. You have effectively perfected the art of drafting.",
@@ -558,6 +620,7 @@
       },
       {
         "id": "t153",
+        "n": 63,
         "icon": "🦉",
         "title": "The Midnight Oil",
         "desc": "Mitigate a legal risk or fix an error between 11:00 PM and 4:00 AM local time.",
@@ -567,6 +630,7 @@
       },
       {
         "id": "t154",
+        "n": 64,
         "icon": "🏛️",
         "title": "The Drafting Machine",
         "desc": "Build 1,000 complete contract drafts.",
@@ -576,6 +640,7 @@
       },
       {
         "id": "t155",
+        "n": 65,
         "icon": "🔄",
         "title": "The Grand Architect",
         "desc": "Generate 500 complete contract drafts using the Draft Builder.",
@@ -585,6 +650,7 @@
       },
       {
         "id": "t156",
+        "n": 66,
         "icon": "🧊",
         "title": "The Icebreaker",
         "desc": "Ask ELI 5 questions in a single day.",
@@ -593,6 +659,7 @@
       },
       {
         "id": "t157",
+        "n": 67,
         "icon": "🗣️",
         "title": "The Conversationalist",
         "desc": "Ask ELI 25 questions in a single day.",
@@ -601,6 +668,7 @@
       },
       {
         "id": "t158",
+        "n": 68,
         "icon": "⚖️",
         "title": "The Compare Validator",
         "desc": "Use the Smart Compare tool to analyze 25 separate document comparisons.",
@@ -610,6 +678,7 @@
       },
       {
         "id": "t159",
+        "n": 69,
         "icon": "⚡",
         "title": "The Power User",
         "desc": "Perform 25 actions in ELI in a single day.",
@@ -619,6 +688,7 @@
       },
       {
         "id": "t160",
+        "n": 70,
         "icon": "💨",
         "title": "The Speed Reader",
         "desc": "Analyze 3 separate documents in a single day.",
@@ -628,6 +698,7 @@
       },
       {
         "id": "t161",
+        "n": 71,
         "icon": "🕵️",
         "title": "The Interrogator",
         "desc": "Use the Compare tool to analyze 1 document against an EI template.",
@@ -637,6 +708,7 @@
       },
       {
         "id": "t162",
+        "n": 72,
         "icon": "🔧",
         "title": "The Quick Fix",
         "desc": "Fix 10 document errors.",
@@ -646,6 +718,7 @@
       },
       {
         "id": "t163",
+        "n": 73,
         "icon": "⛓️",
         "title": "The Iron Year",
         "desc": "Maintain an unbroken weekly login and usage streak for 52 consecutive weeks.",
@@ -654,6 +727,7 @@
       },
       {
         "id": "t164",
+        "n": 74,
         "icon": "📖",
         "title": "The Playbook Professional",
         "desc": "Use the Playbook to run document analysis 100 times.",
@@ -663,6 +737,7 @@
       },
       {
         "id": "t165",
+        "n": 75,
         "icon": "💌",
         "title": "The RSVP",
         "desc": "Show up to your 1-Year ELI Anniversary drop event! Process any document during the 7-day window of your original start date.",
@@ -671,6 +746,7 @@
       },
       {
         "id": "t166",
+        "n": 76,
         "icon": "🐪",
         "title": "Hump Day Hustler",
         "desc": "Use ELI on 3 consecutive Wednesdays.",
@@ -680,6 +756,7 @@
       },
       {
         "id": "t167",
+        "n": 77,
         "icon": "🍻",
         "title": "TGIF Veteran",
         "desc": "Use ELI on 5 consecutive Fridays.",
@@ -689,6 +766,7 @@
       },
       {
         "id": "t168",
+        "n": 78,
         "icon": "🌄",
         "title": "First Light",
         "desc": "Use ELI on the 1st day of any month.",
@@ -698,6 +776,7 @@
       },
       {
         "id": "t169",
+        "n": 79,
         "icon": "🌙",
         "title": "The Closer",
         "desc": "Use ELI on the last day of any month.",
@@ -707,6 +786,7 @@
       },
       {
         "id": "t170",
+        "n": 80,
         "icon": "🪐",
         "title": "May the Force",
         "desc": "Use ELI on May 4th. May the Fourth be with you!",
@@ -716,6 +796,7 @@
       },
       {
         "id": "t171",
+        "n": 81,
         "icon": "🎄",
         "title": "Holiday Hustle",
         "desc": "Use ELI on a major US holiday (New Year's, July 4th, Thanksgiving week, or Christmas).",
@@ -725,6 +806,7 @@
       },
       {
         "id": "t172",
+        "n": 82,
         "icon": "🔥",
         "title": "Full Week Flame",
         "desc": "Use ELI every day for 7 consecutive days.",
@@ -734,6 +816,7 @@
       },
       {
         "id": "t173",
+        "n": 83,
         "icon": "📆",
         "title": "Monday Motivator",
         "desc": "Use ELI on 4 consecutive Mondays. Starting the week strong!",
@@ -743,6 +826,7 @@
       },
       {
         "id": "t174",
+        "n": 84,
         "icon": "🗓️",
         "title": "The Bookend",
         "desc": "Use ELI on both the first AND last day of the same month.",
@@ -752,6 +836,7 @@
       },
       {
         "id": "t175",
+        "n": 85,
         "icon": "📆",
         "title": "The Baseline Habit",
         "desc": "Run a 'Compare Draft' analysis at least once a week for 8 consecutive weeks.",
@@ -761,6 +846,7 @@
       },
       {
         "id": "t176",
+        "n": 86,
         "icon": "📋",
         "title": "The Full Portfolio",
         "desc": "Build a draft of all 4 core types: NDA, Service Agreement, MTA, and Amendment.",
@@ -769,6 +855,7 @@
       },
       {
         "id": "t177",
+        "n": 87,
         "icon": "🚀",
         "title": "The Rapid Drafter",
         "desc": "Build 3 drafts in a single day.",
@@ -778,6 +865,7 @@
       },
       {
         "id": "t178",
+        "n": 88,
         "icon": "🏭",
         "title": "The Assembly Line",
         "desc": "Build 25 drafts in a single calendar month.",
@@ -787,6 +875,7 @@
       },
       {
         "id": "t179",
+        "n": 89,
         "icon": "🧾",
         "title": "The Error Veteran",
         "desc": "Run Error Reviews 200 times. You know every comma in every clause.",
@@ -796,6 +885,7 @@
       },
       {
         "id": "t180",
+        "n": 90,
         "icon": "⏱️",
         "title": "The Time Weaver",
         "desc": "Save a cumulative total of 10,000 hours of manual labor.",
@@ -805,6 +895,7 @@
       },
       {
         "id": "t181",
+        "n": 91,
         "icon": "🔨",
         "title": "Draft Veteran",
         "desc": "Build 200 contract drafts. You're a drafting machine.",
@@ -814,6 +905,7 @@
       },
       {
         "id": "t182",
+        "n": 92,
         "icon": "✒️",
         "title": "Curator of Standards",
         "desc": "Run Final Review 50 times.",
@@ -823,6 +915,7 @@
       },
       {
         "id": "t183",
+        "n": 93,
         "icon": "🥉",
         "title": "The 30-Day Club",
         "desc": "Use ELI for 30 distinct active days. Dedication pays off.",
@@ -832,6 +925,7 @@
       },
       {
         "id": "t184",
+        "n": 94,
         "icon": "🤝",
         "title": "The Negotiator",
         "desc": "Use the Smart Compare tool to analyze 100 separate document comparisons.",
@@ -841,6 +935,7 @@
       },
       {
         "id": "t185",
+        "n": 95,
         "icon": "🎨",
         "title": "Draft Diversity",
         "desc": "Build a new contract draft on every day of the week (Mon–Sun).",
@@ -850,6 +945,7 @@
       },
       {
         "id": "t186",
+        "n": 96,
         "icon": "✉️",
         "title": "Email Pioneer",
         "desc": "Draft and send 10 emails using the Email Helper.",
@@ -859,6 +955,7 @@
       },
       {
         "id": "t187",
+        "n": 97,
         "icon": "🔭",
         "title": "Risk Sentinel",
         "desc": "Run Legal Risks scans 200 times. Nothing slips past you.",
@@ -868,6 +965,7 @@
       },
       {
         "id": "t188",
+        "n": 98,
         "icon": "🛡️",
         "title": "The Perimeter Guard",
         "desc": "Analyze a total of 100 individual tracked changes using the Review Redline tool.",
@@ -877,6 +975,7 @@
       },
       {
         "id": "t189",
+        "n": 99,
         "icon": "🥈",
         "title": "The 50-Day Mark",
         "desc": "Use ELI for 50 distinct active days. Halfway to the century!",
@@ -886,6 +985,7 @@
       },
       {
         "id": "t190",
+        "n": 100,
         "icon": "🏅",
         "title": "The Yearly Grind",
         "desc": "Use ELI for 365 distinct active days. A full year of legal excellence!",
@@ -895,6 +995,7 @@
       },
       {
         "id": "t101",
+        "n": 101,
         "icon": "🥯",
         "title": "The Jared",
         "desc": "Run 3 tools after 3 PM on three different Thursdays.",
@@ -904,6 +1005,7 @@
       },
       {
         "id": "t191",
+        "n": 102,
         "icon": "📿",
         "title": "The Amelia",
         "desc": "Add 7 pieces of team guidance in Review Redlines.",
@@ -914,5 +1016,5 @@
     ]
   },
   "_note": "Trophies extracted from inline ELI_TROPHIES const in taskpane_v2.js (Step 17 offload, 2026-05-01). Each trophy's `check` is the JS function body as a string; the loader compiles it via new Function('s','e', body) on import. Import via Settings -> Data Hub -> Import Master JSON OR per-section Import on the Trophies row. After import, evaluateTrophies and the trophy gallery read from IDB instead of the (now deleted) inline const.",
-  "releasedAt": "2026-06-16T05:30:55.369Z"
+  "releasedAt": "2026-06-16T05:39:04.326Z"
 }
