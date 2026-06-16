@@ -1,7 +1,7 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-06-16T11:51:47.831Z",
+  "generatedAt": "2026-06-16T11:51:54.074Z",
   "days": [
     {
       "date": "2026-06-12",
@@ -329,9 +329,9 @@
         "admin_fleet": 1,
         "admin_draft_audit": 1
       },
-      "sessions": 38,
+      "sessions": 39,
       "firstActiveAt": 1781582470752,
-      "lastActiveAt": 1781610702825,
+      "lastActiveAt": 1781610709056,
       "tokens": {
         "gemini-flash-lite-latest": {
           "promptTokens": 308789,
@@ -382,7 +382,7 @@
     "initials": "AN",
     "kernelVersion": "v3-2026-06-13-dashfit",
     "installedAt": "2026-05-22T16:36:38.096Z",
-    "lastSeenAt": "2026-06-16T11:51:48.011Z",
+    "lastSeenAt": "2026-06-16T11:51:54.204Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -431,6 +431,11 @@
       "ask_eli_redline_regen_enabled": true
     },
     "tools": [
+      {
+        "id": "admin_draft_audit",
+        "releasedAt": "2026-06-16T06:10:02.629Z",
+        "disabled": false
+      },
       {
         "id": "admin_email_rules",
         "releasedAt": "2026-06-02T05:52:18.667Z",
@@ -517,6 +522,11 @@
         "disabled": false
       },
       {
+        "id": "dashboard_widgets",
+        "releasedAt": "2026-06-16T06:10:02.447Z",
+        "disabled": false
+      },
+      {
         "id": "demo",
         "releasedAt": "2026-06-16T05:06:15.437Z",
         "disabled": false
@@ -524,6 +534,11 @@
       {
         "id": "docuscrub",
         "releasedAt": "2026-06-12T19:36:38.572Z",
+        "disabled": false
+      },
+      {
+        "id": "draft_audit",
+        "releasedAt": "2026-06-16T06:10:02.538Z",
         "disabled": false
       },
       {
@@ -709,21 +724,6 @@
       {
         "id": "workflow_creator",
         "releasedAt": "2026-06-09T12:28:19.764Z",
-        "disabled": false
-      },
-      {
-        "id": "dashboard_widgets",
-        "releasedAt": "2026-06-16T06:10:02.447Z",
-        "disabled": false
-      },
-      {
-        "id": "admin_draft_audit",
-        "releasedAt": "2026-06-16T06:10:02.629Z",
-        "disabled": false
-      },
-      {
-        "id": "draft_audit",
-        "releasedAt": "2026-06-16T06:10:02.538Z",
         "disabled": false
       }
     ],
