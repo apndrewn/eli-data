@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-06-16T06:10:29.933Z",
+  "lastUpdated": "2026-06-16T11:56:03.744Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -474,9 +474,9 @@
     {
       "id": "draft_audit",
       "version": null,
-      "lastUpdated": "2026-06-16T06:10:02.538Z",
+      "lastUpdated": "2026-06-16T11:56:02.976Z",
       "filename": "draft_audit-v3.json",
-      "size": 33755,
+      "size": 34014,
       "label": "My Draft History",
       "kind": "tool",
       "category": "Tools - ELI Core",
@@ -488,9 +488,9 @@
     {
       "id": "admin_draft_audit",
       "version": null,
-      "lastUpdated": "2026-06-16T06:10:02.629Z",
+      "lastUpdated": "2026-06-16T11:56:03.060Z",
       "filename": "admin_draft_audit-v3.json",
-      "size": 33948,
+      "size": 34207,
       "label": "Draft Audit (Fleet)",
       "kind": "tool",
       "category": "Admin",
