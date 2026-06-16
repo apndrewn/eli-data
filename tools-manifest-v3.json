@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-06-16T03:20:00.894Z",
+  "lastUpdated": "2026-06-16T03:33:55.084Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -258,9 +258,9 @@
     {
       "id": "build_draft",
       "version": null,
-      "lastUpdated": "2026-06-16T03:08:44.662Z",
+      "lastUpdated": "2026-06-16T03:33:48.909Z",
       "filename": "build_draft-v3.json",
-      "size": 738872,
+      "size": 739178,
       "label": "Build Draft",
       "kind": "tool",
       "category": "External Innovation",
@@ -839,9 +839,9 @@
     {
       "id": "dashboard_tour",
       "version": null,
-      "lastUpdated": "2026-06-16T03:20:00.253Z",
+      "lastUpdated": "2026-06-16T03:33:48.806Z",
       "filename": "dashboard_tour-v3.json",
-      "size": 111681,
+      "size": 113073,
       "label": "Dashboard Tour",
       "kind": "tool",
       "category": "Tools - ELI Core",
