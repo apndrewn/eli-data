@@ -1,7 +1,7 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-06-16T00:28:42.969Z",
+  "generatedAt": "2026-06-16T03:41:46.562Z",
   "days": [
     {
       "date": "2026-06-12",
@@ -244,32 +244,33 @@
     {
       "date": "2026-06-15",
       "toolsUsed": {
-        "error": 1,
-        "demo": 33,
-        "tour": 23,
-        "legal_review": 1,
+        "error": 3,
+        "demo": 60,
+        "tour": 63,
+        "legal_review": 2,
         "review_redlines": 1,
         "final_review": 1,
         "usage_risks": 1,
         "feedback_inbox": 2,
-        "draft": 1
+        "draft": 26,
+        "draft_templates": 4
       },
-      "sessions": 30,
+      "sessions": 72,
       "firstActiveAt": 1781496849771,
-      "lastActiveAt": 1781569717956,
+      "lastActiveAt": 1781581305046,
       "tokens": {
         "gemini-flash-lite-latest": {
-          "promptTokens": 99758,
-          "candidatesTokens": 5997,
-          "calls": 38
+          "promptTokens": 134155,
+          "candidatesTokens": 7083,
+          "calls": 45
         }
       },
       "tokensByTool": {
         "error": {
           "gemini-flash-lite-latest": {
-            "promptTokens": 5860,
-            "candidatesTokens": 484,
-            "calls": 1
+            "promptTokens": 35303,
+            "candidatesTokens": 747,
+            "calls": 4
           }
         },
         "review_redlines": {
@@ -295,13 +296,20 @@
         },
         "tour": {
           "gemini-flash-lite-latest": {
-            "promptTokens": 23889,
-            "candidatesTokens": 297,
-            "calls": 3
+            "promptTokens": 26412,
+            "candidatesTokens": 788,
+            "calls": 6
+          }
+        },
+        "demo": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 2431,
+            "candidatesTokens": 332,
+            "calls": 1
           }
         }
       },
-      "estCostUSD": 0.00519,
+      "estCostUSD": 0.006783,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -314,7 +322,7 @@
     "initials": "AN",
     "kernelVersion": "v3-2026-06-13-dashfit",
     "installedAt": "2026-05-22T16:36:38.096Z",
-    "lastSeenAt": "2026-06-16T00:28:43.067Z",
+    "lastSeenAt": "2026-06-16T03:41:46.749Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -430,7 +438,7 @@
       },
       {
         "id": "build_draft",
-        "releasedAt": "2026-06-15T03:30:58.947Z",
+        "releasedAt": "2026-06-16T03:37:29.271Z",
         "disabled": false
       },
       {
@@ -450,7 +458,7 @@
       },
       {
         "id": "dashboard_tour",
-        "releasedAt": "2026-06-15T11:58:34.533Z",
+        "releasedAt": "2026-06-16T03:37:29.176Z",
         "disabled": false
       },
       {
@@ -660,7 +668,7 @@
       }
     ],
     "appliedOverrides": [],
-    "trophies": 12,
+    "trophies": 14,
     "dashboardApps": [
       "auto_emailer",
       "build_draft",
