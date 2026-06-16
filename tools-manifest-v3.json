@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-06-16T04:49:16.536Z",
+  "lastUpdated": "2026-06-16T04:52:37.603Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -286,9 +286,9 @@
     {
       "id": "ask_eli",
       "version": null,
-      "lastUpdated": "2026-06-16T04:45:20.589Z",
+      "lastUpdated": "2026-06-16T04:52:07.765Z",
       "filename": "ask_eli-v3.json",
-      "size": 349181,
+      "size": 349211,
       "label": "Ask ELI",
       "kind": "tool",
       "category": "Tools - ELI Core",
@@ -839,9 +839,9 @@
     {
       "id": "dashboard_tour",
       "version": null,
-      "lastUpdated": "2026-06-16T04:24:53.911Z",
+      "lastUpdated": "2026-06-16T04:52:07.671Z",
       "filename": "dashboard_tour-v3.json",
-      "size": 115040,
+      "size": 115477,
       "label": "Dashboard Tour",
       "kind": "tool",
       "category": "Tools - ELI Core",
