@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-06-16T00:28:23.378Z",
+  "lastUpdated": "2026-06-16T00:33:11.747Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -839,9 +839,9 @@
     {
       "id": "dashboard_tour",
       "version": null,
-      "lastUpdated": "2026-06-15T11:58:34.533Z",
+      "lastUpdated": "2026-06-16T00:33:10.796Z",
       "filename": "dashboard_tour-v3.json",
-      "size": 99302,
+      "size": 100942,
       "label": "Dashboard Tour",
       "kind": "tool",
       "category": "Tools - ELI Core",
@@ -983,7 +983,7 @@
       "id": "__data_trophies",
       "lastUpdated": "2026-06-16T00:28:23.454Z",
       "filename": "trophies.json",
-      "size": 30198,
+      "size": 30174,
       "label": "Trophies Library",
       "kind": "data",
       "category": "Data",
