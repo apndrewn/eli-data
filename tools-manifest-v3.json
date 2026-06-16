@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-06-16T05:58:50.567Z",
+  "lastUpdated": "2026-06-16T06:10:29.933Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -474,9 +474,9 @@
     {
       "id": "draft_audit",
       "version": null,
-      "lastUpdated": "2026-05-30T16:30:37.394Z",
+      "lastUpdated": "2026-06-16T06:10:02.538Z",
       "filename": "draft_audit-v3.json",
-      "size": 31623,
+      "size": 33755,
       "label": "My Draft History",
       "kind": "tool",
       "category": "Tools - ELI Core",
@@ -488,9 +488,9 @@
     {
       "id": "admin_draft_audit",
       "version": null,
-      "lastUpdated": "2026-05-30T16:30:37.507Z",
+      "lastUpdated": "2026-06-16T06:10:02.629Z",
       "filename": "admin_draft_audit-v3.json",
-      "size": 31816,
+      "size": 33948,
       "label": "Draft Audit (Fleet)",
       "kind": "tool",
       "category": "Admin",
@@ -811,9 +811,9 @@
     {
       "id": "dashboard_widgets",
       "version": null,
-      "lastUpdated": "2026-06-16T05:58:49.831Z",
+      "lastUpdated": "2026-06-16T06:10:02.447Z",
       "filename": "dashboard_widgets-v3.json",
-      "size": 82311,
+      "size": 85757,
       "label": "Dashboard Widgets",
       "kind": "tool",
       "category": "System",
