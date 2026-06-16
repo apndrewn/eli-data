@@ -1,7 +1,7 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-06-16T05:33:18.786Z",
+  "generatedAt": "2026-06-16T12:38:41.555Z",
   "days": [
     {
       "date": "2026-05-19",
@@ -1215,11 +1215,12 @@
     {
       "date": "2026-06-16",
       "toolsUsed": {
-        "tour": 1
+        "tour": 2,
+        "demo": 1
       },
-      "sessions": 1,
+      "sessions": 3,
       "firstActiveAt": 1781587993761,
-      "lastActiveAt": 1781587997098,
+      "lastActiveAt": 1781613516128,
       "tokens": {},
       "tokensByTool": {},
       "estCostUSD": 0,
@@ -1235,7 +1236,7 @@
     "initials": "AN",
     "kernelVersion": "v3-2026-06-13-dashfit",
     "installedAt": "2026-05-25T04:22:25.663Z",
-    "lastSeenAt": "2026-06-16T05:33:19.018Z",
+    "lastSeenAt": "2026-06-16T12:38:42.100Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -1287,11 +1288,6 @@
     },
     "tools": [
       {
-        "id": "admin_draft_audit",
-        "releasedAt": "2026-05-30T16:30:37.507Z",
-        "disabled": false
-      },
-      {
         "id": "admin_email_rules",
         "releasedAt": "2026-06-02T05:52:18.667Z",
         "disabled": false
@@ -1338,12 +1334,12 @@
       },
       {
         "id": "ask_eli",
-        "releasedAt": "2026-06-12T04:36:19.768Z",
+        "releasedAt": "2026-06-16T04:52:07.765Z",
         "disabled": false
       },
       {
         "id": "auto_emailer",
-        "releasedAt": "2026-06-02T02:44:53.213Z",
+        "releasedAt": "2026-06-16T03:57:10.511Z",
         "disabled": false
       },
       {
@@ -1353,7 +1349,7 @@
       },
       {
         "id": "build_draft",
-        "releasedAt": "2026-06-15T03:30:58.947Z",
+        "releasedAt": "2026-06-16T03:37:29.271Z",
         "disabled": false
       },
       {
@@ -1373,27 +1369,17 @@
       },
       {
         "id": "dashboard_tour",
-        "releasedAt": "2026-06-15T11:58:34.533Z",
-        "disabled": false
-      },
-      {
-        "id": "dashboard_widgets",
-        "releasedAt": "2026-06-15T04:45:34.418Z",
+        "releasedAt": "2026-06-16T05:01:35.799Z",
         "disabled": false
       },
       {
         "id": "demo",
-        "releasedAt": "2026-06-15T05:52:09.153Z",
+        "releasedAt": "2026-06-16T05:06:15.437Z",
         "disabled": false
       },
       {
         "id": "docuscrub",
         "releasedAt": "2026-06-12T19:36:38.572Z",
-        "disabled": false
-      },
-      {
-        "id": "draft_audit",
-        "releasedAt": "2026-05-30T16:30:37.394Z",
         "disabled": false
       },
       {
@@ -1523,7 +1509,7 @@
       },
       {
         "id": "review_redlines",
-        "releasedAt": "2026-06-15T04:13:25.227Z",
+        "releasedAt": "2026-06-16T04:21:30.018Z",
         "disabled": false
       },
       {
@@ -1562,11 +1548,6 @@
         "disabled": false
       },
       {
-        "id": "trophy_gallery",
-        "releasedAt": "2026-06-13T05:36:56.392Z",
-        "disabled": false
-      },
-      {
         "id": "usage_risks",
         "releasedAt": "2026-05-18T05:51:45.234Z",
         "disabled": false
@@ -1579,6 +1560,26 @@
       {
         "id": "workflow_creator",
         "releasedAt": "2026-06-09T12:28:19.764Z",
+        "disabled": false
+      },
+      {
+        "id": "admin_draft_audit",
+        "releasedAt": "2026-06-16T11:56:03.060Z",
+        "disabled": false
+      },
+      {
+        "id": "draft_audit",
+        "releasedAt": "2026-06-16T11:56:02.976Z",
+        "disabled": false
+      },
+      {
+        "id": "trophy_gallery",
+        "releasedAt": "2026-06-16T05:38:57.108Z",
+        "disabled": false
+      },
+      {
+        "id": "dashboard_widgets",
+        "releasedAt": "2026-06-16T06:10:02.447Z",
         "disabled": false
       }
     ],
