@@ -1,7 +1,7 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-06-16T12:38:41.555Z",
+  "generatedAt": "2026-06-16T19:52:56.567Z",
   "days": [
     {
       "date": "2026-05-19",
@@ -1215,15 +1215,48 @@
     {
       "date": "2026-06-16",
       "toolsUsed": {
-        "tour": 2,
-        "demo": 1
+        "tour": 13,
+        "demo": 14,
+        "error": 5,
+        "legal_review": 1,
+        "compare": 1,
+        "draft": 5,
+        "admin_draft_audit": 1
       },
-      "sessions": 3,
+      "sessions": 22,
       "firstActiveAt": 1781587993761,
-      "lastActiveAt": 1781613516128,
-      "tokens": {},
-      "tokensByTool": {},
-      "estCostUSD": 0,
+      "lastActiveAt": 1781639571533,
+      "tokens": {
+        "gemini-flash-lite-latest": {
+          "promptTokens": 90234,
+          "candidatesTokens": 9082,
+          "calls": 13
+        }
+      },
+      "tokensByTool": {
+        "tour": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 11022,
+            "candidatesTokens": 1863,
+            "calls": 5
+          }
+        },
+        "error": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 57885,
+            "candidatesTokens": 4381,
+            "calls": 6
+          }
+        },
+        "compare": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 21327,
+            "candidatesTokens": 2838,
+            "calls": 2
+          }
+        }
+      },
+      "estCostUSD": 0.005426,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -1236,7 +1269,7 @@
     "initials": "AN",
     "kernelVersion": "v3-2026-06-13-dashfit",
     "installedAt": "2026-05-25T04:22:25.663Z",
-    "lastSeenAt": "2026-06-16T12:38:42.100Z",
+    "lastSeenAt": "2026-06-16T19:52:56.788Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -1267,7 +1300,7 @@
       "ai_image_model": "gemini-3.1-flash-image-preview",
       "ask_dock_enabled": true,
       "dashboard_widgets_enabled": true,
-      "light_mode": true,
+      "light_mode": false,
       "header_theme_index": 0,
       "minimize_feed": false,
       "auto_hide_sidebar": true,
@@ -1287,6 +1320,11 @@
       "ask_eli_redline_regen_enabled": true
     },
     "tools": [
+      {
+        "id": "admin_draft_audit",
+        "releasedAt": "2026-06-16T11:56:03.060Z",
+        "disabled": false
+      },
       {
         "id": "admin_email_rules",
         "releasedAt": "2026-06-02T05:52:18.667Z",
@@ -1373,6 +1411,11 @@
         "disabled": false
       },
       {
+        "id": "dashboard_widgets",
+        "releasedAt": "2026-06-16T06:10:02.447Z",
+        "disabled": false
+      },
+      {
         "id": "demo",
         "releasedAt": "2026-06-16T05:06:15.437Z",
         "disabled": false
@@ -1380,6 +1423,11 @@
       {
         "id": "docuscrub",
         "releasedAt": "2026-06-12T19:36:38.572Z",
+        "disabled": false
+      },
+      {
+        "id": "draft_audit",
+        "releasedAt": "2026-06-16T11:56:02.976Z",
         "disabled": false
       },
       {
@@ -1548,6 +1596,11 @@
         "disabled": false
       },
       {
+        "id": "trophy_gallery",
+        "releasedAt": "2026-06-16T05:38:57.108Z",
+        "disabled": false
+      },
+      {
         "id": "usage_risks",
         "releasedAt": "2026-05-18T05:51:45.234Z",
         "disabled": false
@@ -1560,26 +1613,6 @@
       {
         "id": "workflow_creator",
         "releasedAt": "2026-06-09T12:28:19.764Z",
-        "disabled": false
-      },
-      {
-        "id": "admin_draft_audit",
-        "releasedAt": "2026-06-16T11:56:03.060Z",
-        "disabled": false
-      },
-      {
-        "id": "draft_audit",
-        "releasedAt": "2026-06-16T11:56:02.976Z",
-        "disabled": false
-      },
-      {
-        "id": "trophy_gallery",
-        "releasedAt": "2026-06-16T05:38:57.108Z",
-        "disabled": false
-      },
-      {
-        "id": "dashboard_widgets",
-        "releasedAt": "2026-06-16T06:10:02.447Z",
         "disabled": false
       }
     ],
