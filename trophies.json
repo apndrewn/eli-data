@@ -1012,9 +1012,19 @@
         "metric": "teamGuidanceAdded",
         "target": 7,
         "check": "return (s.teamGuidanceAdded || 0) >= 7;"
+      },
+      {
+        "id": "t_graduate",
+        "n": 103,
+        "icon": "🎓",
+        "title": "ELI Graduate",
+        "desc": "Finish the ELI training. You've unlocked accessories — add the grad cap in Personalize ELI!",
+        "metric": "trainingCompleted",
+        "target": 1,
+        "check": "return (s.trainingCompleted || 0) >= 1;"
       }
     ]
   },
   "_note": "Trophies extracted from inline ELI_TROPHIES const in taskpane_v2.js (Step 17 offload, 2026-05-01). Each trophy's `check` is the JS function body as a string; the loader compiles it via new Function('s','e', body) on import. Import via Settings -> Data Hub -> Import Master JSON OR per-section Import on the Trophies row. After import, evaluateTrophies and the trophy gallery read from IDB instead of the (now deleted) inline const.",
-  "releasedAt": "2026-06-16T05:39:04.326Z"
+  "releasedAt": "2026-06-17T05:30:23.474Z"
 }

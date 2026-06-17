@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-06-17T05:05:49.041Z",
+  "lastUpdated": "2026-06-17T05:30:23.400Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -739,9 +739,9 @@
     {
       "id": "eli_mascot_studio",
       "version": null,
-      "lastUpdated": "2026-06-15T12:03:23.546Z",
+      "lastUpdated": "2026-06-17T05:30:15.050Z",
       "filename": "eli_mascot_studio-v3.json",
-      "size": 44578,
+      "size": 48310,
       "label": "Personalize ELI",
       "kind": "tool",
       "category": "External Innovation",
@@ -839,9 +839,9 @@
     {
       "id": "dashboard_tour",
       "version": null,
-      "lastUpdated": "2026-06-17T05:05:26.460Z",
+      "lastUpdated": "2026-06-17T05:30:15.158Z",
       "filename": "dashboard_tour-v3.json",
-      "size": 123650,
+      "size": 124388,
       "label": "Dashboard Tour",
       "kind": "tool",
       "category": "Tools - ELI Core",
@@ -981,9 +981,9 @@
     },
     {
       "id": "__data_trophies",
-      "lastUpdated": "2026-06-16T05:39:04.326Z",
+      "lastUpdated": "2026-06-17T05:30:23.474Z",
       "filename": "trophies.json",
-      "size": 31902,
+      "size": 32254,
       "label": "Trophies Library",
       "kind": "data",
       "category": "Data",
