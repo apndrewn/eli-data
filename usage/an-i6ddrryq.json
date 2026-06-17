@@ -1,7 +1,7 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-06-16T11:51:54.074Z",
+  "generatedAt": "2026-06-17T00:11:41.355Z",
   "days": [
     {
       "date": "2026-06-12",
@@ -327,11 +327,11 @@
         "draft": 2,
         "email_helper": 3,
         "admin_fleet": 1,
-        "admin_draft_audit": 1
+        "admin_draft_audit": 2
       },
-      "sessions": 39,
+      "sessions": 42,
       "firstActiveAt": 1781582470752,
-      "lastActiveAt": 1781610709056,
+      "lastActiveAt": 1781655096339,
       "tokens": {
         "gemini-flash-lite-latest": {
           "promptTokens": 308789,
@@ -382,7 +382,7 @@
     "initials": "AN",
     "kernelVersion": "v3-2026-06-13-dashfit",
     "installedAt": "2026-05-22T16:36:38.096Z",
-    "lastSeenAt": "2026-06-16T11:51:54.204Z",
+    "lastSeenAt": "2026-06-17T00:11:41.531Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
