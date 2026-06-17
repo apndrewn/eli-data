@@ -1,7 +1,7 @@
 {
   "userName": "AR",
   "userKey": "ar",
-  "generatedAt": "2026-06-16T19:26:24.345Z",
+  "generatedAt": "2026-06-17T15:20:52.276Z",
   "days": [
     {
       "date": "2026-05-20",
@@ -486,20 +486,24 @@
     {
       "date": "2026-06-16",
       "toolsUsed": {
-        "legal_review": 3,
+        "legal_review": 4,
         "review_redlines": 2,
         "ask_dock": 1,
         "focus_flow": 1,
-        "draft": 1
+        "draft": 2,
+        "email_helper": 2,
+        "error": 1,
+        "draft_audit": 1,
+        "risk": 2
       },
       "sessions": 2,
       "firstActiveAt": 1781615589101,
-      "lastActiveAt": 1781637982671,
+      "lastActiveAt": 1781641164296,
       "tokens": {
         "gemini-flash-lite-latest": {
-          "promptTokens": 135668,
-          "candidatesTokens": 8551,
-          "calls": 35
+          "promptTokens": 143931,
+          "candidatesTokens": 10072,
+          "calls": 41
         }
       },
       "tokensByTool": {
@@ -526,13 +530,52 @@
         },
         "draft": {
           "gemini-flash-lite-latest": {
-            "promptTokens": 2179,
-            "candidatesTokens": 783,
+            "promptTokens": 4562,
+            "candidatesTokens": 915,
+            "calls": 2
+          }
+        },
+        "email_helper": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 888,
+            "candidatesTokens": 203,
+            "calls": 3
+          }
+        },
+        "error": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 3027,
+            "candidatesTokens": 366,
+            "calls": 1
+          }
+        },
+        "risk": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 1965,
+            "candidatesTokens": 820,
             "calls": 1
           }
         }
       },
-      "estCostUSD": 0.007137,
+      "estCostUSD": 0.007772,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
+    },
+    {
+      "date": "2026-06-17",
+      "toolsUsed": {
+        "demo": 1,
+        "tour": 1
+      },
+      "sessions": 2,
+      "firstActiveAt": 1781709345236,
+      "lastActiveAt": 1781709647237,
+      "tokens": {},
+      "tokensByTool": {},
+      "estCostUSD": 0,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -545,7 +588,7 @@
     "initials": "AR",
     "kernelVersion": "v3-2026-06-13-dashfit",
     "installedAt": "2026-05-27T17:37:06.120Z",
-    "lastSeenAt": "2026-06-16T19:26:24.701Z",
+    "lastSeenAt": "2026-06-17T15:20:52.546Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -813,7 +856,9 @@
       "final_review",
       "build_draft",
       "auto_emailer",
-      "focus_flow"
+      "focus_flow",
+      "email_helper",
+      "draft_audit"
     ],
     "dashboardCustomized": true
   }
