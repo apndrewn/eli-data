@@ -1,7 +1,7 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-06-17T00:11:41.355Z",
+  "generatedAt": "2026-06-17T03:18:12.027Z",
   "days": [
     {
       "date": "2026-06-12",
@@ -319,24 +319,24 @@
     {
       "date": "2026-06-16",
       "toolsUsed": {
-        "tour": 18,
+        "tour": 45,
         "legal_review": 5,
         "review_redlines": 4,
-        "ask_eli": 7,
-        "demo": 14,
-        "draft": 2,
+        "ask_eli": 8,
+        "demo": 32,
+        "draft": 3,
         "email_helper": 3,
         "admin_fleet": 1,
-        "admin_draft_audit": 2
+        "admin_draft_audit": 3
       },
-      "sessions": 42,
+      "sessions": 75,
       "firstActiveAt": 1781582470752,
-      "lastActiveAt": 1781655096339,
+      "lastActiveAt": 1781666290157,
       "tokens": {
         "gemini-flash-lite-latest": {
-          "promptTokens": 308789,
-          "candidatesTokens": 14574,
-          "calls": 96
+          "promptTokens": 1122648,
+          "candidatesTokens": 49565,
+          "calls": 142
         }
       },
       "tokensByTool": {
@@ -349,27 +349,34 @@
         },
         "ask_eli": {
           "gemini-flash-lite-latest": {
-            "promptTokens": 169600,
-            "candidatesTokens": 5870,
-            "calls": 14
+            "promptTokens": 216058,
+            "candidatesTokens": 9675,
+            "calls": 17
           }
         },
         "tour": {
           "gemini-flash-lite-latest": {
-            "promptTokens": 6063,
-            "candidatesTokens": 602,
-            "calls": 1
+            "promptTokens": 89726,
+            "candidatesTokens": 10130,
+            "calls": 16
           }
         },
         "demo": {
           "gemini-flash-lite-latest": {
-            "promptTokens": 2419,
-            "candidatesTokens": 125,
-            "calls": 1
+            "promptTokens": 32850,
+            "candidatesTokens": 1174,
+            "calls": 3
+          }
+        },
+        "_unknown": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 653307,
+            "candidatesTokens": 20609,
+            "calls": 26
           }
         }
       },
-      "estCostUSD": 0.015266,
+      "estCostUSD": 0.054819,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -382,7 +389,7 @@
     "initials": "AN",
     "kernelVersion": "v3-2026-06-13-dashfit",
     "installedAt": "2026-05-22T16:36:38.096Z",
-    "lastSeenAt": "2026-06-17T00:11:41.531Z",
+    "lastSeenAt": "2026-06-17T03:18:12.206Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -433,7 +440,7 @@
     "tools": [
       {
         "id": "admin_draft_audit",
-        "releasedAt": "2026-06-16T06:10:02.629Z",
+        "releasedAt": "2026-06-16T11:56:03.060Z",
         "disabled": false
       },
       {
@@ -483,7 +490,7 @@
       },
       {
         "id": "ask_eli",
-        "releasedAt": "2026-06-16T04:52:07.765Z",
+        "releasedAt": "2026-06-17T00:59:25.984Z",
         "disabled": false
       },
       {
@@ -518,7 +525,7 @@
       },
       {
         "id": "dashboard_tour",
-        "releasedAt": "2026-06-16T05:01:35.799Z",
+        "releasedAt": "2026-06-17T03:17:39.872Z",
         "disabled": false
       },
       {
@@ -528,7 +535,7 @@
       },
       {
         "id": "demo",
-        "releasedAt": "2026-06-16T05:06:15.437Z",
+        "releasedAt": "2026-06-17T02:44:46.850Z",
         "disabled": false
       },
       {
@@ -538,7 +545,7 @@
       },
       {
         "id": "draft_audit",
-        "releasedAt": "2026-06-16T06:10:02.538Z",
+        "releasedAt": "2026-06-16T11:56:02.976Z",
         "disabled": false
       },
       {
@@ -728,7 +735,7 @@
       }
     ],
     "appliedOverrides": [],
-    "trophies": 15,
+    "trophies": 16,
     "dashboardApps": [
       "auto_emailer",
       "build_draft",
