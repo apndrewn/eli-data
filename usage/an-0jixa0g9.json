@@ -1,7 +1,7 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-06-17T12:24:32.372Z",
+  "generatedAt": "2026-06-17T16:49:55.096Z",
   "days": [
     {
       "date": "2026-05-19",
@@ -1272,13 +1272,32 @@
     },
     {
       "date": "2026-06-17",
-      "toolsUsed": {},
-      "sessions": 1,
+      "toolsUsed": {
+        "legal_review": 4,
+        "review_redlines": 4,
+        "demo": 4,
+        "tour": 4
+      },
+      "sessions": 8,
       "firstActiveAt": 1781699067328,
-      "lastActiveAt": 1781699067328,
-      "tokens": {},
-      "tokensByTool": {},
-      "estCostUSD": 0,
+      "lastActiveAt": 1781714993375,
+      "tokens": {
+        "gemini-flash-lite-latest": {
+          "promptTokens": 160496,
+          "candidatesTokens": 8427,
+          "calls": 87
+        }
+      },
+      "tokensByTool": {
+        "review_redlines": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 160496,
+            "candidatesTokens": 8427,
+            "calls": 87
+          }
+        }
+      },
+      "estCostUSD": 0.008105,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -1291,7 +1310,7 @@
     "initials": "AN",
     "kernelVersion": "v3-2026-06-13-dashfit",
     "installedAt": "2026-05-25T04:22:25.663Z",
-    "lastSeenAt": "2026-06-17T12:24:32.670Z",
+    "lastSeenAt": "2026-06-17T16:49:55.328Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -1337,6 +1356,7 @@
       "mascot.facialHair": "none",
       "mascot.glasses": "rectangle",
       "mascot.suitColor": "#263238",
+      "mascot.accessory": "none",
       "template_editor_enabled": true,
       "workflow_creator_enabled": true,
       "ask_eli_redline_regen_enabled": true
@@ -1384,7 +1404,7 @@
       },
       {
         "id": "agreement_glance",
-        "releasedAt": "2026-06-08T01:06:59.383Z",
+        "releasedAt": "2026-06-17T04:21:19.665Z",
         "disabled": false
       },
       {
@@ -1394,7 +1414,7 @@
       },
       {
         "id": "ask_eli",
-        "releasedAt": "2026-06-16T04:52:07.765Z",
+        "releasedAt": "2026-06-17T03:39:18.744Z",
         "disabled": false
       },
       {
@@ -1429,7 +1449,7 @@
       },
       {
         "id": "dashboard_tour",
-        "releasedAt": "2026-06-16T05:01:35.799Z",
+        "releasedAt": "2026-06-17T05:30:15.158Z",
         "disabled": false
       },
       {
@@ -1439,7 +1459,7 @@
       },
       {
         "id": "demo",
-        "releasedAt": "2026-06-16T05:06:15.437Z",
+        "releasedAt": "2026-06-17T02:44:46.850Z",
         "disabled": false
       },
       {
@@ -1484,7 +1504,7 @@
       },
       {
         "id": "eli_mascot_studio",
-        "releasedAt": "2026-06-15T12:03:23.546Z",
+        "releasedAt": "2026-06-17T05:30:15.050Z",
         "disabled": false
       },
       {
