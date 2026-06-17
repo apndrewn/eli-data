@@ -1,7 +1,7 @@
 {
   "userName": "AR",
   "userKey": "ar",
-  "generatedAt": "2026-06-17T15:20:52.276Z",
+  "generatedAt": "2026-06-17T19:21:45.480Z",
   "days": [
     {
       "date": "2026-05-20",
@@ -567,15 +567,56 @@
     {
       "date": "2026-06-17",
       "toolsUsed": {
-        "demo": 1,
-        "tour": 1
+        "demo": 7,
+        "tour": 9,
+        "error": 3,
+        "legal_review": 4,
+        "review_redlines": 2,
+        "draft": 1,
+        "final_review": 1,
+        "ask_dock": 1
       },
-      "sessions": 2,
+      "sessions": 7,
       "firstActiveAt": 1781709345236,
-      "lastActiveAt": 1781709647237,
-      "tokens": {},
-      "tokensByTool": {},
-      "estCostUSD": 0,
+      "lastActiveAt": 1781724100475,
+      "tokens": {
+        "gemini-flash-lite-latest": {
+          "promptTokens": 150510,
+          "candidatesTokens": 10390,
+          "calls": 53
+        }
+      },
+      "tokensByTool": {
+        "error": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 35055,
+            "candidatesTokens": 2436,
+            "calls": 4
+          }
+        },
+        "review_redlines": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 72904,
+            "candidatesTokens": 4527,
+            "calls": 40
+          }
+        },
+        "tour": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 4882,
+            "candidatesTokens": 1496,
+            "calls": 4
+          }
+        },
+        "legal_review": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 37669,
+            "candidatesTokens": 1931,
+            "calls": 5
+          }
+        }
+      },
+      "estCostUSD": 0.008098,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -588,7 +629,7 @@
     "initials": "AR",
     "kernelVersion": "v3-2026-06-13-dashfit",
     "installedAt": "2026-05-27T17:37:06.120Z",
-    "lastSeenAt": "2026-06-17T15:20:52.546Z",
+    "lastSeenAt": "2026-06-17T19:21:45.725Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -632,6 +673,7 @@
       "mascot.facialHair": "none",
       "mascot.glasses": "round",
       "mascot.suitColor": "#1565c0",
+      "mascot.accessory": "none",
       "ask_eli_redline_regen_enabled": true
     },
     "tools": [
@@ -642,7 +684,7 @@
       },
       {
         "id": "agreement_glance",
-        "releasedAt": "2026-06-08T01:06:59.383Z",
+        "releasedAt": "2026-06-17T04:21:19.665Z",
         "disabled": false
       },
       {
@@ -652,7 +694,7 @@
       },
       {
         "id": "ask_eli",
-        "releasedAt": "2026-06-16T04:52:07.765Z",
+        "releasedAt": "2026-06-17T03:39:18.744Z",
         "disabled": false
       },
       {
@@ -672,7 +714,7 @@
       },
       {
         "id": "dashboard_tour",
-        "releasedAt": "2026-06-16T05:01:35.799Z",
+        "releasedAt": "2026-06-17T05:30:15.158Z",
         "disabled": false
       },
       {
@@ -682,7 +724,7 @@
       },
       {
         "id": "demo",
-        "releasedAt": "2026-06-16T05:06:15.437Z",
+        "releasedAt": "2026-06-17T02:44:46.850Z",
         "disabled": false
       },
       {
@@ -722,7 +764,7 @@
       },
       {
         "id": "eli_mascot_studio",
-        "releasedAt": "2026-06-15T12:03:23.546Z",
+        "releasedAt": "2026-06-17T05:30:15.050Z",
         "disabled": false
       },
       {
