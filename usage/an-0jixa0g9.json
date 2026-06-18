@@ -1,7 +1,7 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-06-17T20:17:41.517Z",
+  "generatedAt": "2026-06-18T13:05:09.447Z",
   "days": [
     {
       "date": "2026-05-19",
@@ -1286,14 +1286,14 @@
         "admin_fleet": 1,
         "mascot_studio": 1
       },
-      "sessions": 24,
+      "sessions": 27,
       "firstActiveAt": 1781699067328,
-      "lastActiveAt": 1781727456498,
+      "lastActiveAt": 1781729314299,
       "tokens": {
         "gemini-flash-lite-latest": {
-          "promptTokens": 1090912,
-          "candidatesTokens": 37347,
-          "calls": 207
+          "promptTokens": 1111388,
+          "candidatesTokens": 38746,
+          "calls": 210
         }
       },
       "tokensByTool": {
@@ -1341,13 +1341,30 @@
         },
         "_unknown": {
           "gemini-flash-lite-latest": {
-            "promptTokens": 391313,
-            "candidatesTokens": 7287,
-            "calls": 11
+            "promptTokens": 411789,
+            "candidatesTokens": 8686,
+            "calls": 14
           }
         }
       },
-      "estCostUSD": 0.051106,
+      "estCostUSD": 0.052205,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
+    },
+    {
+      "date": "2026-06-18",
+      "toolsUsed": {
+        "draft": 1
+      },
+      "sessions": 1,
+      "firstActiveAt": 1781787904410,
+      "lastActiveAt": 1781787904730,
+      "tokens": {},
+      "tokensByTool": {},
+      "estCostUSD": 0,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -1360,7 +1377,7 @@
     "initials": "AN",
     "kernelVersion": "v3-2026-06-13-dashfit",
     "installedAt": "2026-05-25T04:22:25.663Z",
-    "lastSeenAt": "2026-06-17T20:17:41.770Z",
+    "lastSeenAt": "2026-06-18T13:05:09.831Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
