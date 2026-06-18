@@ -1,7 +1,7 @@
 {
   "userName": "RF",
   "userKey": "rf",
-  "generatedAt": "2026-06-17T15:13:20.502Z",
+  "generatedAt": "2026-06-18T14:57:05.561Z",
   "days": [
     {
       "date": "2026-06-16",
@@ -22,13 +22,87 @@
     },
     {
       "date": "2026-06-17",
-      "toolsUsed": {},
-      "sessions": 1,
+      "toolsUsed": {
+        "demo": 4,
+        "tour": 7,
+        "draft": 1,
+        "error": 1,
+        "legal_review": 1,
+        "review_redlines": 1,
+        "final_review": 1
+      },
+      "sessions": 4,
       "firstActiveAt": 1781709195487,
-      "lastActiveAt": 1781709195487,
-      "tokens": {},
-      "tokensByTool": {},
-      "estCostUSD": 0,
+      "lastActiveAt": 1781712694915,
+      "tokens": {
+        "gemini-flash-lite-latest": {
+          "promptTokens": 100176,
+          "candidatesTokens": 9783,
+          "calls": 43
+        }
+      },
+      "tokensByTool": {
+        "tour": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 18475,
+            "candidatesTokens": 4483,
+            "calls": 11
+          }
+        },
+        "error": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 16153,
+            "candidatesTokens": 277,
+            "calls": 2
+          }
+        },
+        "review_redlines": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 53928,
+            "candidatesTokens": 3974,
+            "calls": 29
+          }
+        },
+        "final_review": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 11620,
+            "candidatesTokens": 1049,
+            "calls": 1
+          }
+        }
+      },
+      "estCostUSD": 0.005964,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
+    },
+    {
+      "date": "2026-06-18",
+      "toolsUsed": {
+        "tour": 1
+      },
+      "sessions": 1,
+      "firstActiveAt": 1781794178913,
+      "lastActiveAt": 1781794623561,
+      "tokens": {
+        "gemini-flash-lite-latest": {
+          "promptTokens": 25792,
+          "candidatesTokens": 1827,
+          "calls": 6
+        }
+      },
+      "tokensByTool": {
+        "tour": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 25792,
+            "candidatesTokens": 1827,
+            "calls": 6
+          }
+        }
+      },
+      "estCostUSD": 0.001397,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -41,7 +115,7 @@
     "initials": "RF",
     "kernelVersion": "v3-2026-06-13-dashfit",
     "installedAt": "2026-06-16T15:46:13.505Z",
-    "lastSeenAt": "2026-06-17T15:13:23.882Z",
+    "lastSeenAt": "2026-06-18T14:57:05.925Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -85,6 +159,7 @@
       "mascot.facialHair": "none",
       "mascot.glasses": "round",
       "mascot.suitColor": "#1565c0",
+      "mascot.accessory": "none",
       "ask_eli_redline_regen_enabled": true
     },
     "tools": [
@@ -95,7 +170,7 @@
       },
       {
         "id": "agreement_glance",
-        "releasedAt": "2026-06-08T01:06:59.383Z",
+        "releasedAt": "2026-06-17T04:21:19.665Z",
         "disabled": false
       },
       {
@@ -105,7 +180,7 @@
       },
       {
         "id": "ask_eli",
-        "releasedAt": "2026-06-16T04:52:07.765Z",
+        "releasedAt": "2026-06-17T03:39:18.744Z",
         "disabled": false
       },
       {
@@ -125,7 +200,7 @@
       },
       {
         "id": "dashboard_tour",
-        "releasedAt": "2026-06-16T05:01:35.799Z",
+        "releasedAt": "2026-06-17T05:30:15.158Z",
         "disabled": false
       },
       {
@@ -135,7 +210,7 @@
       },
       {
         "id": "demo",
-        "releasedAt": "2026-06-16T05:06:15.437Z",
+        "releasedAt": "2026-06-17T02:44:46.850Z",
         "disabled": false
       },
       {
@@ -175,7 +250,7 @@
       },
       {
         "id": "eli_mascot_studio",
-        "releasedAt": "2026-06-15T12:03:23.546Z",
+        "releasedAt": "2026-06-17T05:30:15.050Z",
         "disabled": false
       },
       {
@@ -275,7 +350,7 @@
       }
     ],
     "appliedOverrides": [],
-    "trophies": 1,
+    "trophies": 7,
     "dashboardApps": [
       "auto_emailer",
       "build_draft",
