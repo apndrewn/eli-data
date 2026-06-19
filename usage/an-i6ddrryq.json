@@ -1,7 +1,7 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-06-18T13:00:48.482Z",
+  "generatedAt": "2026-06-19T02:47:41.413Z",
   "days": [
     {
       "date": "2026-06-12",
@@ -444,13 +444,46 @@
     },
     {
       "date": "2026-06-18",
-      "toolsUsed": {},
-      "sessions": 1,
+      "toolsUsed": {
+        "draft_templates": 14,
+        "draft": 12,
+        "admin_fleet": 1,
+        "usage_risks": 1,
+        "ask_eli": 3,
+        "draft_audit": 1,
+        "auto_emailer": 1,
+        "legal_review": 1,
+        "error": 1,
+        "feedback_inbox": 1,
+        "admin_team_guidance": 2
+      },
+      "sessions": 22,
       "firstActiveAt": 1781787643473,
-      "lastActiveAt": 1781787643473,
-      "tokens": {},
-      "tokensByTool": {},
-      "estCostUSD": 0,
+      "lastActiveAt": 1781837256396,
+      "tokens": {
+        "gemini-flash-lite-latest": {
+          "promptTokens": 18911,
+          "candidatesTokens": 2546,
+          "calls": 3
+        }
+      },
+      "tokensByTool": {
+        "draft": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 4253,
+            "candidatesTokens": 2010,
+            "calls": 2
+          }
+        },
+        "error": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 14658,
+            "candidatesTokens": 536,
+            "calls": 1
+          }
+        }
+      },
+      "estCostUSD": 0.001266,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -463,7 +496,7 @@
     "initials": "AN",
     "kernelVersion": "v3-2026-06-13-dashfit",
     "installedAt": "2026-05-22T16:36:38.096Z",
-    "lastSeenAt": "2026-06-18T13:00:48.651Z",
+    "lastSeenAt": "2026-06-19T02:47:41.937Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -486,7 +519,7 @@
       "build_draft.confirmOarsAutoLoad": true,
       "build_draft.shareStep2FillsToCdn": false,
       "build_draft.requireAllSteps": true,
-      "build_draft.guidedMode": true,
+      "build_draft.guidedMode": false,
       "build_draft.fileNamePattern.colgate": "[Ref] [Party] - [Type] (CP Draft [Date])",
       "build_draft.fileNamePattern.hills": "[Ref] [Party] - [Type] (HPN Draft [Date])",
       "ai_image_model": "gemini-3.1-flash-image-preview",
@@ -540,7 +573,7 @@
       },
       {
         "id": "admin_team_guidance",
-        "releasedAt": "2026-05-17T13:54:46.120Z",
+        "releasedAt": "2026-06-19T01:29:08.243Z",
         "disabled": false
       },
       {
@@ -580,7 +613,7 @@
       },
       {
         "id": "build_draft",
-        "releasedAt": "2026-06-16T03:37:29.271Z",
+        "releasedAt": "2026-06-18T13:40:56.510Z",
         "disabled": false
       },
       {
@@ -715,7 +748,7 @@
       },
       {
         "id": "oars_loader",
-        "releasedAt": "2026-06-13T04:03:37.163Z",
+        "releasedAt": "2026-06-18T13:34:33.391Z",
         "disabled": false
       },
       {
@@ -812,13 +845,14 @@
     "appliedOverrides": [],
     "trophies": 18,
     "dashboardApps": [
-      "auto_emailer",
-      "build_draft",
-      "demo",
+      "legal_review",
       "error_review",
       "final_review",
-      "legal_review"
+      "build_draft",
+      "auto_emailer",
+      "demo",
+      "draft_audit"
     ],
-    "dashboardCustomized": false
+    "dashboardCustomized": true
   }
 }
