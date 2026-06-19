@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-06-19T03:54:59.107Z",
+  "lastUpdated": "2026-06-19T04:00:50.423Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -474,9 +474,9 @@
     {
       "id": "guided_redlines",
       "version": null,
-      "lastUpdated": "2026-06-19T03:54:46.426Z",
+      "lastUpdated": "2026-06-19T04:00:44.038Z",
       "filename": "guided_redlines-v3.json",
-      "size": 40880,
+      "size": 41210,
       "label": "Guided Redlines",
       "kind": "tool",
       "category": "Admin",
