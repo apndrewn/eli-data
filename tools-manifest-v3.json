@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-06-19T03:44:05.868Z",
+  "lastUpdated": "2026-06-19T03:45:54.262Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -463,6 +463,21 @@
       "filename": "clause_diff_lab-v3.json",
       "size": 49732,
       "label": "Clause Diff Lab",
+      "kind": "tool",
+      "category": "Admin",
+      "audience": [],
+      "changelog": "",
+      "audienceEmails": [
+        "andrew_nemiroff@colpal.com"
+      ]
+    },
+    {
+      "id": "guided_redlines",
+      "version": null,
+      "lastUpdated": "2026-06-19T03:42:49.127Z",
+      "filename": "guided_redlines-v3.json",
+      "size": 37748,
+      "label": "Guided Redlines",
       "kind": "tool",
       "category": "Admin",
       "audience": [],
@@ -1157,6 +1172,7 @@
         "admin_telemetry_inspector",
         "placeholder_studio",
         "clause_diff_lab",
+        "guided_redlines",
         "admin_draft_audit",
         "admin_email_rules",
         "eli_agent",
