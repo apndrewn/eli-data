@@ -1,7 +1,7 @@
 {
   "userName": "AR",
   "userKey": "ar",
-  "generatedAt": "2026-06-18T12:49:55.304Z",
+  "generatedAt": "2026-06-20T09:25:41.864Z",
   "days": [
     {
       "date": "2026-05-20",
@@ -626,12 +626,70 @@
     {
       "date": "2026-06-18",
       "toolsUsed": {
-        "draft": 1,
-        "tour": 1
+        "draft": 7,
+        "tour": 1,
+        "demo": 2,
+        "draft_audit": 1,
+        "ask_dock": 2,
+        "draft_templates": 1,
+        "legal_review": 4,
+        "error": 1,
+        "review_redlines": 2,
+        "risk": 1
       },
-      "sessions": 1,
+      "sessions": 5,
       "firstActiveAt": 1781786990289,
-      "lastActiveAt": 1781786993750,
+      "lastActiveAt": 1781790506263,
+      "tokens": {
+        "gemini-flash-lite-latest": {
+          "promptTokens": 71900,
+          "candidatesTokens": 4515,
+          "calls": 23
+        }
+      },
+      "tokensByTool": {
+        "draft": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 4664,
+            "candidatesTokens": 1456,
+            "calls": 3
+          }
+        },
+        "error": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 8694,
+            "candidatesTokens": 211,
+            "calls": 2
+          }
+        },
+        "review_redlines": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 35457,
+            "candidatesTokens": 1900,
+            "calls": 16
+          }
+        },
+        "ask_dock": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 23085,
+            "candidatesTokens": 948,
+            "calls": 2
+          }
+        }
+      },
+      "estCostUSD": 0.003779,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
+    },
+    {
+      "date": "2026-06-20",
+      "toolsUsed": {},
+      "sessions": 1,
+      "firstActiveAt": 1781947536855,
+      "lastActiveAt": 1781947536855,
       "tokens": {},
       "tokensByTool": {},
       "estCostUSD": 0,
@@ -647,7 +705,7 @@
     "initials": "AR",
     "kernelVersion": "v3-2026-06-13-dashfit",
     "installedAt": "2026-05-27T17:37:06.120Z",
-    "lastSeenAt": "2026-06-18T12:49:55.594Z",
+    "lastSeenAt": "2026-06-20T09:25:42.137Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -722,7 +780,7 @@
       },
       {
         "id": "build_draft",
-        "releasedAt": "2026-06-16T03:37:29.271Z",
+        "releasedAt": "2026-06-18T13:19:03.527Z",
         "disabled": false
       },
       {
