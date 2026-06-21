@@ -1,7 +1,7 @@
 {
   "userName": "JL",
   "userKey": "jl",
-  "generatedAt": "2026-06-18T14:47:48.810Z",
+  "generatedAt": "2026-06-21T21:17:44.165Z",
   "days": [
     {
       "date": "2026-05-19",
@@ -521,28 +521,53 @@
     {
       "date": "2026-06-18",
       "toolsUsed": {
-        "draft": 1
+        "draft": 2,
+        "error": 2
       },
-      "sessions": 1,
+      "sessions": 2,
       "firstActiveAt": 1781794063779,
-      "lastActiveAt": 1781794067442,
+      "lastActiveAt": 1781796887078,
       "tokens": {
         "gemini-flash-lite-latest": {
-          "promptTokens": 2238,
-          "candidatesTokens": 874,
-          "calls": 1
+          "promptTokens": 21000,
+          "candidatesTokens": 2693,
+          "calls": 7
         }
       },
       "tokensByTool": {
         "draft": {
           "gemini-flash-lite-latest": {
-            "promptTokens": 2238,
-            "candidatesTokens": 874,
-            "calls": 1
+            "promptTokens": 9027,
+            "candidatesTokens": 1935,
+            "calls": 4
+          }
+        },
+        "error": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 11973,
+            "candidatesTokens": 758,
+            "calls": 3
           }
         }
       },
-      "estCostUSD": 0.000264,
+      "estCostUSD": 0.001379,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
+    },
+    {
+      "date": "2026-06-21",
+      "toolsUsed": {
+        "error": 1
+      },
+      "sessions": 1,
+      "firstActiveAt": 1782076659128,
+      "lastActiveAt": 1782076663616,
+      "tokens": {},
+      "tokensByTool": {},
+      "estCostUSD": 0,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -555,7 +580,7 @@
     "initials": "JL",
     "kernelVersion": "v3-2026-06-13-dashfit",
     "installedAt": "2026-05-26T14:38:04.421Z",
-    "lastSeenAt": "2026-06-18T14:47:49.007Z",
+    "lastSeenAt": "2026-06-21T21:17:44.448Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -637,7 +662,7 @@
       },
       {
         "id": "build_draft",
-        "releasedAt": "2026-06-16T03:37:29.271Z",
+        "releasedAt": "2026-06-18T13:40:56.510Z",
         "disabled": false
       },
       {
@@ -747,7 +772,7 @@
       },
       {
         "id": "oars_loader",
-        "releasedAt": "2026-06-13T04:03:37.163Z",
+        "releasedAt": "2026-06-18T13:34:33.391Z",
         "disabled": false
       },
       {
@@ -825,7 +850,7 @@
         "at": 1779807930783
       }
     ],
-    "trophies": 25,
+    "trophies": 26,
     "dashboardApps": [
       "legal_review",
       "error_review",
