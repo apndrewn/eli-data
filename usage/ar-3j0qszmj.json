@@ -1,7 +1,7 @@
 {
   "userName": "AR",
   "userKey": "ar",
-  "generatedAt": "2026-06-20T09:25:41.864Z",
+  "generatedAt": "2026-06-22T12:07:18.800Z",
   "days": [
     {
       "date": "2026-05-20",
@@ -687,9 +687,24 @@
     {
       "date": "2026-06-20",
       "toolsUsed": {},
-      "sessions": 1,
+      "sessions": 2,
       "firstActiveAt": 1781947536855,
-      "lastActiveAt": 1781947536855,
+      "lastActiveAt": 1781951332367,
+      "tokens": {},
+      "tokensByTool": {},
+      "estCostUSD": 0,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
+    },
+    {
+      "date": "2026-06-22",
+      "toolsUsed": {},
+      "sessions": 1,
+      "firstActiveAt": 1782130033797,
+      "lastActiveAt": 1782130033797,
       "tokens": {},
       "tokensByTool": {},
       "estCostUSD": 0,
@@ -705,7 +720,7 @@
     "initials": "AR",
     "kernelVersion": "v3-2026-06-13-dashfit",
     "installedAt": "2026-05-27T17:37:06.120Z",
-    "lastSeenAt": "2026-06-20T09:25:42.137Z",
+    "lastSeenAt": "2026-06-22T12:07:19.045Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -776,11 +791,6 @@
       {
         "id": "auto_emailer",
         "releasedAt": "2026-06-16T03:57:10.511Z",
-        "disabled": false
-      },
-      {
-        "id": "build_draft",
-        "releasedAt": "2026-06-18T13:19:03.527Z",
         "disabled": false
       },
       {
@@ -889,11 +899,6 @@
         "disabled": false
       },
       {
-        "id": "oars_loader",
-        "releasedAt": "2026-06-13T04:03:37.163Z",
-        "disabled": false
-      },
-      {
         "id": "playbook_manager",
         "releasedAt": "2026-05-18T11:56:13.482Z",
         "disabled": false
@@ -946,6 +951,16 @@
       {
         "id": "version_history",
         "releasedAt": "2026-06-13T04:06:52.044Z",
+        "disabled": false
+      },
+      {
+        "id": "oars_loader",
+        "releasedAt": "2026-06-18T13:34:33.391Z",
+        "disabled": false
+      },
+      {
+        "id": "build_draft",
+        "releasedAt": "2026-06-18T13:40:56.510Z",
         "disabled": false
       }
     ],
