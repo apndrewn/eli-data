@@ -1,7 +1,7 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-06-23T18:03:25.609Z",
+  "generatedAt": "2026-06-23T22:10:09.021Z",
   "days": [
     {
       "date": "2026-05-19",
@@ -1406,13 +1406,31 @@
     },
     {
       "date": "2026-06-23",
-      "toolsUsed": {},
-      "sessions": 1,
+      "toolsUsed": {
+        "draft_templates": 1,
+        "draft": 2,
+        "error": 1
+      },
+      "sessions": 4,
       "firstActiveAt": 1782237800586,
-      "lastActiveAt": 1782237800586,
-      "tokens": {},
-      "tokensByTool": {},
-      "estCostUSD": 0,
+      "lastActiveAt": 1782252608472,
+      "tokens": {
+        "gemini-flash-lite-latest": {
+          "promptTokens": 103,
+          "candidatesTokens": 55,
+          "calls": 1
+        }
+      },
+      "tokensByTool": {
+        "draft": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 103,
+            "candidatesTokens": 55,
+            "calls": 1
+          }
+        }
+      },
+      "estCostUSD": 0.000015,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -1425,7 +1443,7 @@
     "initials": "AN",
     "kernelVersion": "v3-2026-06-13-dashfit",
     "installedAt": "2026-05-25T04:22:25.663Z",
-    "lastSeenAt": "2026-06-23T18:03:25.873Z",
+    "lastSeenAt": "2026-06-23T22:10:09.299Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -1504,7 +1522,7 @@
       },
       {
         "id": "admin_team_guidance",
-        "releasedAt": "2026-05-17T13:54:46.120Z",
+        "releasedAt": "2026-06-19T01:29:08.243Z",
         "disabled": false
       },
       {
@@ -1660,6 +1678,11 @@
       {
         "id": "focus_flow",
         "releasedAt": "2026-05-18T11:52:32.797Z",
+        "disabled": false
+      },
+      {
+        "id": "guided_redlines",
+        "releasedAt": "2026-06-19T04:16:55.572Z",
         "disabled": false
       },
       {
