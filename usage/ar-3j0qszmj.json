@@ -1,7 +1,7 @@
 {
   "userName": "AR",
   "userKey": "ar",
-  "generatedAt": "2026-06-22T12:07:18.800Z",
+  "generatedAt": "2026-06-23T15:03:04.228Z",
   "days": [
     {
       "date": "2026-05-20",
@@ -701,13 +701,75 @@
     },
     {
       "date": "2026-06-22",
-      "toolsUsed": {},
-      "sessions": 1,
+      "toolsUsed": {
+        "draft": 3,
+        "error": 1
+      },
+      "sessions": 5,
       "firstActiveAt": 1782130033797,
-      "lastActiveAt": 1782130033797,
-      "tokens": {},
-      "tokensByTool": {},
-      "estCostUSD": 0,
+      "lastActiveAt": 1782136710123,
+      "tokens": {
+        "gemini-flash-lite-latest": {
+          "promptTokens": 23579,
+          "candidatesTokens": 3386,
+          "calls": 7
+        }
+      },
+      "tokensByTool": {
+        "draft": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 5234,
+            "candidatesTokens": 1630,
+            "calls": 2
+          }
+        },
+        "error": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 8582,
+            "candidatesTokens": 831,
+            "calls": 3
+          }
+        },
+        "_unknown": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 9763,
+            "candidatesTokens": 925,
+            "calls": 2
+          }
+        }
+      },
+      "estCostUSD": 0.00162,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
+    },
+    {
+      "date": "2026-06-23",
+      "toolsUsed": {
+        "draft": 1
+      },
+      "sessions": 1,
+      "firstActiveAt": 1782226979219,
+      "lastActiveAt": 1782226982849,
+      "tokens": {
+        "gemini-flash-lite-latest": {
+          "promptTokens": 2177,
+          "candidatesTokens": 840,
+          "calls": 1
+        }
+      },
+      "tokensByTool": {
+        "draft": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 2177,
+            "candidatesTokens": 840,
+            "calls": 1
+          }
+        }
+      },
+      "estCostUSD": 0.000255,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -720,7 +782,7 @@
     "initials": "AR",
     "kernelVersion": "v3-2026-06-13-dashfit",
     "installedAt": "2026-05-27T17:37:06.120Z",
-    "lastSeenAt": "2026-06-22T12:07:19.045Z",
+    "lastSeenAt": "2026-06-23T15:03:04.471Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -791,6 +853,11 @@
       {
         "id": "auto_emailer",
         "releasedAt": "2026-06-16T03:57:10.511Z",
+        "disabled": false
+      },
+      {
+        "id": "build_draft",
+        "releasedAt": "2026-06-18T13:40:56.510Z",
         "disabled": false
       },
       {
@@ -899,6 +966,11 @@
         "disabled": false
       },
       {
+        "id": "oars_loader",
+        "releasedAt": "2026-06-18T13:34:33.391Z",
+        "disabled": false
+      },
+      {
         "id": "playbook_manager",
         "releasedAt": "2026-05-18T11:56:13.482Z",
         "disabled": false
@@ -951,16 +1023,6 @@
       {
         "id": "version_history",
         "releasedAt": "2026-06-13T04:06:52.044Z",
-        "disabled": false
-      },
-      {
-        "id": "oars_loader",
-        "releasedAt": "2026-06-18T13:34:33.391Z",
-        "disabled": false
-      },
-      {
-        "id": "build_draft",
-        "releasedAt": "2026-06-18T13:40:56.510Z",
         "disabled": false
       }
     ],
