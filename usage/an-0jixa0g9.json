@@ -1,7 +1,7 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-06-18T13:05:09.447Z",
+  "generatedAt": "2026-06-23T18:03:25.609Z",
   "days": [
     {
       "date": "2026-05-19",
@@ -1357,11 +1357,59 @@
     {
       "date": "2026-06-18",
       "toolsUsed": {
-        "draft": 1
+        "draft": 1,
+        "admin_fleet": 1,
+        "draft_templates": 1,
+        "legal_review": 2,
+        "risk": 1,
+        "error": 1
       },
-      "sessions": 1,
+      "sessions": 2,
       "firstActiveAt": 1781787904410,
-      "lastActiveAt": 1781787904730,
+      "lastActiveAt": 1781791112065,
+      "tokens": {
+        "gemini-flash-lite-latest": {
+          "promptTokens": 25854,
+          "candidatesTokens": 2453,
+          "calls": 3
+        }
+      },
+      "tokensByTool": {
+        "draft": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 2192,
+            "candidatesTokens": 1006,
+            "calls": 1
+          }
+        },
+        "risk": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 11381,
+            "candidatesTokens": 1028,
+            "calls": 1
+          }
+        },
+        "error": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 12281,
+            "candidatesTokens": 419,
+            "calls": 1
+          }
+        }
+      },
+      "estCostUSD": 0.001525,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
+    },
+    {
+      "date": "2026-06-23",
+      "toolsUsed": {},
+      "sessions": 1,
+      "firstActiveAt": 1782237800586,
+      "lastActiveAt": 1782237800586,
       "tokens": {},
       "tokensByTool": {},
       "estCostUSD": 0,
@@ -1377,7 +1425,7 @@
     "initials": "AN",
     "kernelVersion": "v3-2026-06-13-dashfit",
     "installedAt": "2026-05-25T04:22:25.663Z",
-    "lastSeenAt": "2026-06-18T13:05:09.831Z",
+    "lastSeenAt": "2026-06-23T18:03:25.873Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -1496,7 +1544,7 @@
       },
       {
         "id": "build_draft",
-        "releasedAt": "2026-06-16T03:37:29.271Z",
+        "releasedAt": "2026-06-18T13:40:56.510Z",
         "disabled": false
       },
       {
@@ -1631,7 +1679,7 @@
       },
       {
         "id": "oars_loader",
-        "releasedAt": "2026-06-13T04:03:37.163Z",
+        "releasedAt": "2026-06-18T13:34:33.391Z",
         "disabled": false
       },
       {
