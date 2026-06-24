@@ -1,7 +1,7 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-06-23T22:10:09.021Z",
+  "generatedAt": "2026-06-24T21:27:27.299Z",
   "days": [
     {
       "date": "2026-05-19",
@@ -1409,16 +1409,16 @@
       "toolsUsed": {
         "draft_templates": 1,
         "draft": 2,
-        "error": 1
+        "error": 2
       },
       "sessions": 4,
       "firstActiveAt": 1782237800586,
-      "lastActiveAt": 1782252608472,
+      "lastActiveAt": 1782252643603,
       "tokens": {
         "gemini-flash-lite-latest": {
-          "promptTokens": 103,
-          "candidatesTokens": 55,
-          "calls": 1
+          "promptTokens": 37397,
+          "candidatesTokens": 331,
+          "calls": 3
         }
       },
       "tokensByTool": {
@@ -1428,9 +1428,33 @@
             "candidatesTokens": 55,
             "calls": 1
           }
+        },
+        "error": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 37294,
+            "candidatesTokens": 276,
+            "calls": 2
+          }
         }
       },
-      "estCostUSD": 0.000015,
+      "estCostUSD": 0.001562,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
+    },
+    {
+      "date": "2026-06-24",
+      "toolsUsed": {
+        "demo": 2
+      },
+      "sessions": 2,
+      "firstActiveAt": 1782311372222,
+      "lastActiveAt": 1782336442273,
+      "tokens": {},
+      "tokensByTool": {},
+      "estCostUSD": 0,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -1443,7 +1467,7 @@
     "initials": "AN",
     "kernelVersion": "v3-2026-06-13-dashfit",
     "installedAt": "2026-05-25T04:22:25.663Z",
-    "lastSeenAt": "2026-06-23T22:10:09.299Z",
+    "lastSeenAt": "2026-06-24T21:27:27.551Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -1547,7 +1571,7 @@
       },
       {
         "id": "ask_eli",
-        "releasedAt": "2026-06-17T03:39:18.744Z",
+        "releasedAt": "2026-06-24T00:46:42.377Z",
         "disabled": false
       },
       {
@@ -1562,7 +1586,7 @@
       },
       {
         "id": "build_draft",
-        "releasedAt": "2026-06-18T13:40:56.510Z",
+        "releasedAt": "2026-06-24T01:09:04.545Z",
         "disabled": false
       },
       {
@@ -1858,7 +1882,7 @@
         "at": 1781276064600
       }
     ],
-    "trophies": 46,
+    "trophies": 47,
     "dashboardApps": [
       "legal_review",
       "error_review",
