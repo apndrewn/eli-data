@@ -1,7 +1,7 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-06-19T02:47:41.413Z",
+  "generatedAt": "2026-06-24T00:46:45.297Z",
   "days": [
     {
       "date": "2026-06-12",
@@ -445,26 +445,31 @@
     {
       "date": "2026-06-18",
       "toolsUsed": {
-        "draft_templates": 14,
-        "draft": 12,
+        "draft_templates": 15,
+        "draft": 20,
         "admin_fleet": 1,
         "usage_risks": 1,
         "ask_eli": 3,
         "draft_audit": 1,
         "auto_emailer": 1,
-        "legal_review": 1,
-        "error": 1,
+        "legal_review": 3,
+        "error": 2,
         "feedback_inbox": 1,
-        "admin_team_guidance": 2
+        "admin_team_guidance": 2,
+        "demo": 10,
+        "tour": 5,
+        "review_redlines": 2,
+        "ask_dock": 2,
+        "guided_redlines": 2
       },
-      "sessions": 22,
+      "sessions": 31,
       "firstActiveAt": 1781787643473,
-      "lastActiveAt": 1781837256396,
+      "lastActiveAt": 1781841422528,
       "tokens": {
         "gemini-flash-lite-latest": {
-          "promptTokens": 18911,
-          "candidatesTokens": 2546,
-          "calls": 3
+          "promptTokens": 174881,
+          "candidatesTokens": 27824,
+          "calls": 113
         }
       },
       "tokensByTool": {
@@ -481,9 +486,84 @@
             "candidatesTokens": 536,
             "calls": 1
           }
+        },
+        "review_redlines": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 123138,
+            "candidatesTokens": 7568,
+            "calls": 64
+          }
+        },
+        "guided_redlines": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 32832,
+            "candidatesTokens": 17710,
+            "calls": 46
+          }
         }
       },
-      "estCostUSD": 0.001266,
+      "estCostUSD": 0.01256,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
+    },
+    {
+      "date": "2026-06-19",
+      "toolsUsed": {
+        "guided_redlines": 4,
+        "legal_review": 3,
+        "review_redlines": 2,
+        "draft": 1,
+        "demo": 1,
+        "draft_audit": 1,
+        "draft_templates": 1
+      },
+      "sessions": 2,
+      "firstActiveAt": 1781841845154,
+      "lastActiveAt": 1781920581854,
+      "tokens": {
+        "gemini-flash-lite-latest": {
+          "promptTokens": 126277,
+          "candidatesTokens": 39444,
+          "calls": 124
+        }
+      },
+      "tokensByTool": {
+        "guided_redlines": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 64651,
+            "candidatesTokens": 35489,
+            "calls": 91
+          }
+        },
+        "review_redlines": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 61626,
+            "candidatesTokens": 3955,
+            "calls": 33
+          }
+        }
+      },
+      "estCostUSD": 0.01294,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
+    },
+    {
+      "date": "2026-06-23",
+      "toolsUsed": {
+        "draft": 1
+      },
+      "sessions": 1,
+      "firstActiveAt": 1782262000284,
+      "lastActiveAt": 1782262000603,
+      "tokens": {},
+      "tokensByTool": {},
+      "estCostUSD": 0,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -496,7 +576,7 @@
     "initials": "AN",
     "kernelVersion": "v3-2026-06-13-dashfit",
     "installedAt": "2026-05-22T16:36:38.096Z",
-    "lastSeenAt": "2026-06-19T02:47:41.937Z",
+    "lastSeenAt": "2026-06-24T00:46:45.486Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -519,7 +599,7 @@
       "build_draft.confirmOarsAutoLoad": true,
       "build_draft.shareStep2FillsToCdn": false,
       "build_draft.requireAllSteps": true,
-      "build_draft.guidedMode": false,
+      "build_draft.guidedMode": true,
       "build_draft.fileNamePattern.colgate": "[Ref] [Party] - [Type] (CP Draft [Date])",
       "build_draft.fileNamePattern.hills": "[Ref] [Party] - [Type] (HPN Draft [Date])",
       "ai_image_model": "gemini-3.1-flash-image-preview",
@@ -732,6 +812,11 @@
         "disabled": false
       },
       {
+        "id": "guided_redlines",
+        "releasedAt": "2026-06-19T04:16:55.572Z",
+        "disabled": false
+      },
+      {
         "id": "infographics_lab",
         "releasedAt": "2026-05-25T04:58:44.527Z",
         "disabled": false
@@ -843,7 +928,7 @@
       }
     ],
     "appliedOverrides": [],
-    "trophies": 18,
+    "trophies": 19,
     "dashboardApps": [
       "legal_review",
       "error_review",
