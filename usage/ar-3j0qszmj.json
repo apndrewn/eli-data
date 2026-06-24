@@ -1,7 +1,7 @@
 {
   "userName": "AR",
   "userKey": "ar",
-  "generatedAt": "2026-06-24T12:24:58.685Z",
+  "generatedAt": "2026-06-24T18:47:49.483Z",
   "days": [
     {
       "date": "2026-05-20",
@@ -786,13 +786,54 @@
     },
     {
       "date": "2026-06-24",
-      "toolsUsed": {},
-      "sessions": 1,
+      "toolsUsed": {
+        "legal_review": 1,
+        "review_redlines": 1,
+        "ask_dock": 1,
+        "auto_emailer": 1,
+        "draft": 1
+      },
+      "sessions": 2,
       "firstActiveAt": 1782303893674,
-      "lastActiveAt": 1782303893674,
-      "tokens": {},
-      "tokensByTool": {},
-      "estCostUSD": 0,
+      "lastActiveAt": 1782326867639,
+      "tokens": {
+        "gemini-flash-lite-latest": {
+          "promptTokens": 177315,
+          "candidatesTokens": 15936,
+          "calls": 53
+        }
+      },
+      "tokensByTool": {
+        "review_redlines": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 71178,
+            "candidatesTokens": 6822,
+            "calls": 35
+          }
+        },
+        "ask_dock": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 99872,
+            "candidatesTokens": 8216,
+            "calls": 16
+          }
+        },
+        "auto_emailer": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 4098,
+            "candidatesTokens": 110,
+            "calls": 1
+          }
+        },
+        "draft": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 2167,
+            "candidatesTokens": 788,
+            "calls": 1
+          }
+        }
+      },
+      "estCostUSD": 0.01028,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -805,7 +846,7 @@
     "initials": "AR",
     "kernelVersion": "v3-2026-06-13-dashfit",
     "installedAt": "2026-05-27T17:37:06.120Z",
-    "lastSeenAt": "2026-06-24T12:24:58.878Z",
+    "lastSeenAt": "2026-06-24T18:47:49.752Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -869,8 +910,18 @@
         "disabled": false
       },
       {
+        "id": "ask_eli",
+        "releasedAt": "2026-06-24T00:46:42.377Z",
+        "disabled": false
+      },
+      {
         "id": "auto_emailer",
         "releasedAt": "2026-06-16T03:57:10.511Z",
+        "disabled": false
+      },
+      {
+        "id": "build_draft",
+        "releasedAt": "2026-06-24T01:09:04.545Z",
         "disabled": false
       },
       {
@@ -1036,16 +1087,6 @@
       {
         "id": "version_history",
         "releasedAt": "2026-06-13T04:06:52.044Z",
-        "disabled": false
-      },
-      {
-        "id": "ask_eli",
-        "releasedAt": "2026-06-24T00:46:42.377Z",
-        "disabled": false
-      },
-      {
-        "id": "build_draft",
-        "releasedAt": "2026-06-24T01:09:04.545Z",
         "disabled": false
       }
     ],
