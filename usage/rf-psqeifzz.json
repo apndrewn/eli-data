@@ -1,7 +1,7 @@
 {
   "userName": "RF",
   "userKey": "rf",
-  "generatedAt": "2026-06-25T14:48:25.578Z",
+  "generatedAt": "2026-06-25T17:54:58.972Z",
   "days": [
     {
       "date": "2026-06-16",
@@ -111,10 +111,13 @@
     },
     {
       "date": "2026-06-25",
-      "toolsUsed": {},
-      "sessions": 2,
+      "toolsUsed": {
+        "legal_review": 3,
+        "risk": 1
+      },
+      "sessions": 9,
       "firstActiveAt": 1782398894786,
-      "lastActiveAt": 1782398900571,
+      "lastActiveAt": 1782410093968,
       "tokens": {},
       "tokensByTool": {},
       "estCostUSD": 0,
@@ -130,7 +133,7 @@
     "initials": "RF",
     "kernelVersion": "v3-2026-06-13-dashfit",
     "installedAt": "2026-06-16T15:46:13.505Z",
-    "lastSeenAt": "2026-06-25T14:48:25.710Z",
+    "lastSeenAt": "2026-06-25T17:54:59.190Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -365,7 +368,7 @@
       }
     ],
     "appliedOverrides": [],
-    "trophies": 7,
+    "trophies": 8,
     "dashboardApps": [
       "auto_emailer",
       "build_draft",
