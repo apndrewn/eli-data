@@ -1,7 +1,7 @@
 {
   "userName": "RF",
   "userKey": "rf",
-  "generatedAt": "2026-06-25T14:48:19.827Z",
+  "generatedAt": "2026-06-25T14:48:25.578Z",
   "days": [
     {
       "date": "2026-06-16",
@@ -112,9 +112,9 @@
     {
       "date": "2026-06-25",
       "toolsUsed": {},
-      "sessions": 1,
+      "sessions": 2,
       "firstActiveAt": 1782398894786,
-      "lastActiveAt": 1782398894786,
+      "lastActiveAt": 1782398900571,
       "tokens": {},
       "tokensByTool": {},
       "estCostUSD": 0,
@@ -130,7 +130,7 @@
     "initials": "RF",
     "kernelVersion": "v3-2026-06-13-dashfit",
     "installedAt": "2026-06-16T15:46:13.505Z",
-    "lastSeenAt": "2026-06-25T14:48:20.046Z",
+    "lastSeenAt": "2026-06-25T14:48:25.710Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -194,8 +194,18 @@
         "disabled": false
       },
       {
+        "id": "ask_eli",
+        "releasedAt": "2026-06-24T00:46:42.377Z",
+        "disabled": false
+      },
+      {
         "id": "auto_emailer",
         "releasedAt": "2026-06-16T03:57:10.511Z",
+        "disabled": false
+      },
+      {
+        "id": "build_draft",
+        "releasedAt": "2026-06-24T01:09:04.545Z",
         "disabled": false
       },
       {
@@ -304,6 +314,11 @@
         "disabled": false
       },
       {
+        "id": "oars_loader",
+        "releasedAt": "2026-06-18T13:34:33.391Z",
+        "disabled": false
+      },
+      {
         "id": "playbook_manager",
         "releasedAt": "2026-05-18T11:56:13.482Z",
         "disabled": false
@@ -347,32 +362,17 @@
         "id": "version_history",
         "releasedAt": "2026-06-13T04:06:52.044Z",
         "disabled": false
-      },
-      {
-        "id": "oars_loader",
-        "releasedAt": "2026-06-18T13:34:33.391Z",
-        "disabled": false
-      },
-      {
-        "id": "ask_eli",
-        "releasedAt": "2026-06-24T00:46:42.377Z",
-        "disabled": false
-      },
-      {
-        "id": "build_draft",
-        "releasedAt": "2026-06-24T01:09:04.545Z",
-        "disabled": false
       }
     ],
     "appliedOverrides": [],
     "trophies": 7,
     "dashboardApps": [
       "auto_emailer",
+      "build_draft",
       "demo",
       "error_review",
       "final_review",
-      "legal_review",
-      "build_draft"
+      "legal_review"
     ],
     "dashboardCustomized": false
   }
