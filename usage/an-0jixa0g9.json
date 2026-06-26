@@ -1,7 +1,7 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-06-25T13:22:32.401Z",
+  "generatedAt": "2026-06-26T14:03:11.319Z",
   "days": [
     {
       "date": "2026-05-19",
@@ -1485,10 +1485,59 @@
     },
     {
       "date": "2026-06-25",
+      "toolsUsed": {
+        "ask_eli": 1,
+        "draft": 1,
+        "auto_emailer": 1,
+        "legal_review": 1,
+        "error": 1
+      },
+      "sessions": 5,
+      "firstActiveAt": 1782393747379,
+      "lastActiveAt": 1782410285265,
+      "tokens": {
+        "gemini-flash-lite-latest": {
+          "promptTokens": 10721,
+          "candidatesTokens": 1512,
+          "calls": 3
+        }
+      },
+      "tokensByTool": {
+        "auto_emailer": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 1566,
+            "candidatesTokens": 106,
+            "calls": 1
+          }
+        },
+        "_unknown": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 5827,
+            "candidatesTokens": 801,
+            "calls": 1
+          }
+        },
+        "error": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 3328,
+            "candidatesTokens": 605,
+            "calls": 1
+          }
+        }
+      },
+      "estCostUSD": 0.000731,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
+    },
+    {
+      "date": "2026-06-26",
       "toolsUsed": {},
       "sessions": 1,
-      "firstActiveAt": 1782393747379,
-      "lastActiveAt": 1782393747379,
+      "firstActiveAt": 1782482586292,
+      "lastActiveAt": 1782482586292,
       "tokens": {},
       "tokensByTool": {},
       "estCostUSD": 0,
@@ -1504,7 +1553,7 @@
     "initials": "AN",
     "kernelVersion": "v3-2026-06-13-dashfit",
     "installedAt": "2026-05-25T04:22:25.663Z",
-    "lastSeenAt": "2026-06-25T13:22:32.700Z",
+    "lastSeenAt": "2026-06-26T14:03:11.570Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -1919,7 +1968,7 @@
         "at": 1781276064600
       }
     ],
-    "trophies": 47,
+    "trophies": 48,
     "dashboardApps": [
       "legal_review",
       "error_review",
