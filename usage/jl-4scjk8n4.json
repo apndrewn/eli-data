@@ -1,7 +1,7 @@
 {
   "userName": "JL",
   "userKey": "jl",
-  "generatedAt": "2026-06-29T13:42:25.757Z",
+  "generatedAt": "2026-06-29T18:34:06.181Z",
   "days": [
     {
       "date": "2026-05-19",
@@ -701,15 +701,19 @@
     },
     {
       "date": "2026-06-29",
-      "toolsUsed": {},
-      "sessions": 1,
+      "toolsUsed": {
+        "legal_review": 4,
+        "review_redlines": 4,
+        "ask_dock": 1
+      },
+      "sessions": 3,
       "firstActiveAt": 1782740540726,
-      "lastActiveAt": 1782740543880,
+      "lastActiveAt": 1782758041112,
       "tokens": {
         "gemini-flash-lite-latest": {
-          "promptTokens": 2072,
-          "candidatesTokens": 976,
-          "calls": 1
+          "promptTokens": 116356,
+          "candidatesTokens": 4554,
+          "calls": 49
         }
       },
       "tokensByTool": {
@@ -719,9 +723,23 @@
             "candidatesTokens": 976,
             "calls": 1
           }
+        },
+        "review_redlines": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 78610,
+            "candidatesTokens": 3224,
+            "calls": 47
+          }
+        },
+        "ask_dock": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 35674,
+            "candidatesTokens": 354,
+            "calls": 1
+          }
         }
       },
-      "estCostUSD": 0.000278,
+      "estCostUSD": 0.005565,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -734,7 +752,7 @@
     "initials": "JL",
     "kernelVersion": "v3-2026-06-13-dashfit",
     "installedAt": "2026-05-26T14:38:04.421Z",
-    "lastSeenAt": "2026-06-29T13:42:26.090Z",
+    "lastSeenAt": "2026-06-29T18:34:06.488Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -875,6 +893,11 @@
         "disabled": false
       },
       {
+        "id": "eli_mascot_studio",
+        "releasedAt": "2026-06-28T19:33:33.041Z",
+        "disabled": false
+      },
+      {
         "id": "eli_settings",
         "releasedAt": "2026-06-15T12:03:23.624Z",
         "disabled": false
@@ -982,11 +1005,6 @@
       {
         "id": "version_history",
         "releasedAt": "2026-06-13T04:06:52.044Z",
-        "disabled": false
-      },
-      {
-        "id": "eli_mascot_studio",
-        "releasedAt": "2026-06-28T19:33:33.041Z",
         "disabled": false
       }
     ],
