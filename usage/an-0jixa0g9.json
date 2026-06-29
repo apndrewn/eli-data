@@ -1,7 +1,7 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-06-29T13:51:37.055Z",
+  "generatedAt": "2026-06-29T17:53:52.963Z",
   "days": [
     {
       "date": "2026-05-19",
@@ -1565,24 +1565,25 @@
       "date": "2026-06-29",
       "toolsUsed": {
         "legal_review": 1,
-        "review_redlines": 1
+        "review_redlines": 1,
+        "ask_eli": 3
       },
-      "sessions": 2,
+      "sessions": 7,
       "firstActiveAt": 1782738240407,
-      "lastActiveAt": 1782741092016,
+      "lastActiveAt": 1782755627931,
       "tokens": {
         "gemini-flash-lite-latest": {
-          "promptTokens": 25171,
-          "candidatesTokens": 1516,
-          "calls": 14
+          "promptTokens": 42653,
+          "candidatesTokens": 3799,
+          "calls": 17
         }
       },
       "tokensByTool": {
         "_unknown": {
           "gemini-flash-lite-latest": {
-            "promptTokens": 5849,
-            "candidatesTokens": 648,
-            "calls": 1
+            "promptTokens": 11676,
+            "candidatesTokens": 1498,
+            "calls": 2
           }
         },
         "review_redlines": {
@@ -1591,9 +1592,16 @@
             "candidatesTokens": 868,
             "calls": 13
           }
+        },
+        "ask_eli": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 11655,
+            "candidatesTokens": 1433,
+            "calls": 2
+          }
         }
       },
-      "estCostUSD": 0.00131,
+      "estCostUSD": 0.002466,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -1606,7 +1614,7 @@
     "initials": "AN",
     "kernelVersion": "v3-2026-06-13-dashfit",
     "installedAt": "2026-05-25T04:22:25.663Z",
-    "lastSeenAt": "2026-06-29T13:51:37.304Z",
+    "lastSeenAt": "2026-06-29T17:53:53.168Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -1800,7 +1808,7 @@
       },
       {
         "id": "eli_mascot_studio",
-        "releasedAt": "2026-06-17T05:30:15.050Z",
+        "releasedAt": "2026-06-28T19:33:33.041Z",
         "disabled": false
       },
       {
