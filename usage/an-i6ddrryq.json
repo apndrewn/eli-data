@@ -1,7 +1,7 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-06-28T19:22:51.919Z",
+  "generatedAt": "2026-06-30T02:41:11.035Z",
   "days": [
     {
       "date": "2026-06-12",
@@ -621,28 +621,80 @@
     {
       "date": "2026-06-28",
       "toolsUsed": {
-        "draft": 1
+        "draft": 3,
+        "draft_templates": 1,
+        "email_helper": 1,
+        "email_rules": 1,
+        "ask_eli": 3,
+        "demo": 2
       },
-      "sessions": 1,
+      "sessions": 3,
       "firstActiveAt": 1782674566902,
-      "lastActiveAt": 1782674571107,
+      "lastActiveAt": 1782701177561,
       "tokens": {
         "gemini-flash-lite-latest": {
-          "promptTokens": 2126,
-          "candidatesTokens": 1005,
-          "calls": 1
+          "promptTokens": 48353,
+          "candidatesTokens": 2793,
+          "calls": 5
         }
       },
       "tokensByTool": {
         "draft": {
           "gemini-flash-lite-latest": {
-            "promptTokens": 2126,
-            "candidatesTokens": 1005,
-            "calls": 1
+            "promptTokens": 4468,
+            "candidatesTokens": 1332,
+            "calls": 2
+          }
+        },
+        "ask_eli": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 43885,
+            "candidatesTokens": 1461,
+            "calls": 3
           }
         }
       },
-      "estCostUSD": 0.000286,
+      "estCostUSD": 0.002493,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
+    },
+    {
+      "date": "2026-06-29",
+      "toolsUsed": {
+        "legal_review": 3,
+        "review_redlines": 3,
+        "ask_eli": 2
+      },
+      "sessions": 2,
+      "firstActiveAt": 1782786320673,
+      "lastActiveAt": 1782787270570,
+      "tokens": {
+        "gemini-flash-lite-latest": {
+          "promptTokens": 90323,
+          "candidatesTokens": 1561,
+          "calls": 6
+        }
+      },
+      "tokensByTool": {
+        "review_redlines": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 5141,
+            "candidatesTokens": 181,
+            "calls": 3
+          }
+        },
+        "ask_eli": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 85182,
+            "candidatesTokens": 1380,
+            "calls": 3
+          }
+        }
+      },
+      "estCostUSD": 0.003925,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -655,7 +707,7 @@
     "initials": "AN",
     "kernelVersion": "v3-2026-06-13-dashfit",
     "installedAt": "2026-05-22T16:36:38.096Z",
-    "lastSeenAt": "2026-06-28T19:22:52.111Z",
+    "lastSeenAt": "2026-06-30T02:41:11.178Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -684,7 +736,7 @@
       "ai_image_model": "gemini-3.1-flash-image-preview",
       "ask_dock_enabled": true,
       "dashboard_widgets_enabled": true,
-      "light_mode": false,
+      "light_mode": true,
       "header_theme_index": 0,
       "minimize_feed": false,
       "auto_hide_sidebar": false,
@@ -757,7 +809,7 @@
       },
       {
         "id": "ask_eli",
-        "releasedAt": "2026-06-24T00:46:42.377Z",
+        "releasedAt": "2026-06-30T02:38:44.774Z",
         "disabled": false
       },
       {
@@ -772,7 +824,7 @@
       },
       {
         "id": "build_draft",
-        "releasedAt": "2026-06-18T13:40:56.510Z",
+        "releasedAt": "2026-06-24T01:09:04.545Z",
         "disabled": false
       },
       {
@@ -847,7 +899,7 @@
       },
       {
         "id": "eli_mascot_studio",
-        "releasedAt": "2026-06-17T05:30:15.050Z",
+        "releasedAt": "2026-06-28T19:33:33.041Z",
         "disabled": false
       },
       {
@@ -947,7 +999,7 @@
       },
       {
         "id": "review_redlines",
-        "releasedAt": "2026-06-16T04:21:30.018Z",
+        "releasedAt": "2026-06-30T02:34:44.529Z",
         "disabled": false
       },
       {
@@ -1007,7 +1059,7 @@
       }
     ],
     "appliedOverrides": [],
-    "trophies": 19,
+    "trophies": 20,
     "dashboardApps": [
       "legal_review",
       "error_review",
