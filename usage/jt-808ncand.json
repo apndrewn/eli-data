@@ -1,7 +1,7 @@
 {
   "userName": "JT",
   "userKey": "jt",
-  "generatedAt": "2026-06-29T14:44:54.886Z",
+  "generatedAt": "2026-06-30T12:16:10.101Z",
   "days": [
     {
       "date": "2026-05-27",
@@ -44,7 +44,24 @@
       },
       "sessions": 1,
       "firstActiveAt": 1782744289880,
-      "lastActiveAt": 1782744290677,
+      "lastActiveAt": 1782744666621,
+      "tokens": {},
+      "tokensByTool": {},
+      "estCostUSD": 0,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
+    },
+    {
+      "date": "2026-06-30",
+      "toolsUsed": {
+        "draft": 1
+      },
+      "sessions": 1,
+      "firstActiveAt": 1782821765081,
+      "lastActiveAt": 1782821765891,
       "tokens": {},
       "tokensByTool": {},
       "estCostUSD": 0,
@@ -60,7 +77,7 @@
     "initials": "JT",
     "kernelVersion": "v3-2026-05-23j-uuid-on-demand",
     "installedAt": "2026-05-27T14:35:31.181Z",
-    "lastSeenAt": "2026-06-29T14:44:55.080Z",
+    "lastSeenAt": "2026-06-30T12:16:10.358Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -312,7 +329,7 @@
       }
     ],
     "appliedOverrides": [],
-    "trophies": 6,
+    "trophies": 7,
     "dashboardApps": [
       "auto_emailer",
       "build_draft",
