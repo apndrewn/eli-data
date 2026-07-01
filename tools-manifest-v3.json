@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-06-30T04:51:27.840Z",
+  "lastUpdated": "2026-07-01T01:11:39.967Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -174,9 +174,9 @@
     {
       "id": "review_redlines",
       "version": null,
-      "lastUpdated": "2026-06-30T04:51:27.009Z",
+      "lastUpdated": "2026-06-30T06:10:52.900Z",
       "filename": "review_redlines-v3.json",
-      "size": 1083150,
+      "size": 1082803,
       "label": "Review Redlines",
       "kind": "tool",
       "category": "External Innovation",
@@ -622,9 +622,9 @@
     {
       "id": "eli_telemetry",
       "version": null,
-      "lastUpdated": "2026-06-12T13:32:16.908Z",
+      "lastUpdated": "2026-07-01T01:08:11.418Z",
       "filename": "eli_telemetry-v3.json",
-      "size": 75103,
+      "size": 83302,
       "label": "Usage Telemetry",
       "kind": "tool",
       "category": "System",
