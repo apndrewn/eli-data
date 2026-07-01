@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-07-01T01:18:43.569Z",
+  "lastUpdated": "2026-07-01T01:40:37.141Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -680,9 +680,9 @@
     {
       "id": "admin_user_restore",
       "version": null,
-      "lastUpdated": "2026-07-01T01:18:42.844Z",
+      "lastUpdated": "2026-07-01T01:40:36.356Z",
       "filename": "admin_user_restore-v3.json",
-      "size": 33038,
+      "size": 39862,
       "label": "Admin User Restore",
       "kind": "tool",
       "category": "Admin",
