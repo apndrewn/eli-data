@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-07-01T01:11:39.967Z",
+  "lastUpdated": "2026-07-01T01:13:10.840Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -669,6 +669,21 @@
       "filename": "admin_fleet-v3.json",
       "size": 299660,
       "label": "Admin Fleet",
+      "kind": "tool",
+      "category": "Admin",
+      "audience": [],
+      "changelog": "",
+      "audienceEmails": [
+        "andrew_nemiroff@colpal.com"
+      ]
+    },
+    {
+      "id": "admin_user_restore",
+      "version": null,
+      "lastUpdated": "2026-07-01T01:08:11.318Z",
+      "filename": "admin_user_restore-v3.json",
+      "size": 30529,
+      "label": "Admin User Restore",
       "kind": "tool",
       "category": "Admin",
       "audience": [],
