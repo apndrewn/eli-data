@@ -1,7 +1,7 @@
 {
   "userName": "JL",
   "userKey": "jl",
-  "generatedAt": "2026-07-01T14:41:25.762Z",
+  "generatedAt": "2026-07-02T12:59:59.296Z",
   "days": [
     {
       "date": "2026-05-19",
@@ -788,28 +788,58 @@
     {
       "date": "2026-07-01",
       "toolsUsed": {
-        "draft": 1
+        "draft": 5,
+        "error": 1
       },
-      "sessions": 1,
+      "sessions": 5,
       "firstActiveAt": 1782916880730,
-      "lastActiveAt": 1782916885242,
+      "lastActiveAt": 1782922265519,
       "tokens": {
         "gemini-flash-lite-latest": {
-          "promptTokens": 2408,
-          "candidatesTokens": 1394,
-          "calls": 1
+          "promptTokens": 23041,
+          "candidatesTokens": 3954,
+          "calls": 7
         }
       },
       "tokensByTool": {
         "draft": {
           "gemini-flash-lite-latest": {
-            "promptTokens": 2408,
-            "candidatesTokens": 1394,
+            "promptTokens": 6930,
+            "candidatesTokens": 2624,
+            "calls": 4
+          }
+        },
+        "error": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 2729,
+            "candidatesTokens": 307,
             "calls": 1
+          }
+        },
+        "_unknown": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 13382,
+            "candidatesTokens": 1023,
+            "calls": 2
           }
         }
       },
-      "estCostUSD": 0.000375,
+      "estCostUSD": 0.001712,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
+    },
+    {
+      "date": "2026-07-02",
+      "toolsUsed": {},
+      "sessions": 1,
+      "firstActiveAt": 1782997194258,
+      "lastActiveAt": 1782997194258,
+      "tokens": {},
+      "tokensByTool": {},
+      "estCostUSD": 0,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -822,7 +852,7 @@
     "initials": "JL",
     "kernelVersion": "v3-2026-06-13-dashfit",
     "installedAt": "2026-05-26T14:38:04.421Z",
-    "lastSeenAt": "2026-07-01T14:41:26.076Z",
+    "lastSeenAt": "2026-07-02T12:59:59.549Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -979,7 +1009,7 @@
       },
       {
         "id": "eli_telemetry",
-        "releasedAt": "2026-06-12T13:32:16.908Z",
+        "releasedAt": "2026-07-01T01:08:11.418Z",
         "disabled": false
       },
       {
@@ -1033,6 +1063,11 @@
         "disabled": false
       },
       {
+        "id": "review_redlines",
+        "releasedAt": "2026-06-30T06:10:52.900Z",
+        "disabled": false
+      },
+      {
         "id": "risk_rules_manager",
         "releasedAt": null,
         "disabled": false
@@ -1071,11 +1106,6 @@
         "id": "version_history",
         "releasedAt": "2026-06-13T04:06:52.044Z",
         "disabled": false
-      },
-      {
-        "id": "review_redlines",
-        "releasedAt": "2026-06-30T06:10:52.900Z",
-        "disabled": false
       }
     ],
     "appliedOverrides": [
@@ -1093,6 +1123,79 @@
       }
     ],
     "trophies": 30,
+    "trophyIds": [
+      "t26",
+      "t56",
+      "t11",
+      "t137",
+      "t111",
+      "t41",
+      "t71",
+      "t188",
+      "t1",
+      "t83",
+      "t161",
+      "t17",
+      "t138",
+      "t115",
+      "t177",
+      "t2",
+      "t114",
+      "t113",
+      "t160",
+      "t112",
+      "t145",
+      "t170",
+      "t156",
+      "t121",
+      "t_graduate",
+      "t116",
+      "t162",
+      "t169",
+      "t166",
+      "t168"
+    ],
+    "trophyDates": {
+      "t26": "Apr 6, 2026",
+      "t56": "Apr 6, 2026",
+      "t11": "Apr 6, 2026",
+      "t137": "Apr 6, 2026",
+      "t111": "Apr 8, 2026",
+      "t41": "Apr 8, 2026",
+      "t71": "Apr 8, 2026",
+      "t188": "Apr 8, 2026",
+      "t1": "Apr 9, 2026",
+      "t83": "Apr 10, 2026",
+      "t161": "Apr 13, 2026",
+      "t17": "Apr 13, 2026",
+      "t138": "Apr 14, 2026",
+      "t115": "Apr 21, 2026",
+      "t177": "Apr 22, 2026",
+      "t2": "Apr 22, 2026",
+      "t114": "Apr 24, 2026",
+      "t113": "Apr 24, 2026",
+      "t160": "Apr 24, 2026",
+      "t112": "Apr 27, 2026",
+      "t145": "Apr 27, 2026",
+      "t170": "May 4, 2026",
+      "t156": "2026-05-18T16:07:55.523Z",
+      "t121": "2026-05-26T14:43:50.243Z",
+      "t_graduate": "2026-06-17T16:09:10.709Z",
+      "t116": "2026-06-21T21:17:43.615Z",
+      "t162": "2026-06-26T20:01:59.397Z",
+      "t169": "2026-06-30T15:20:38.402Z",
+      "t166": "2026-07-01T14:41:21.609Z",
+      "t168": "2026-07-01T14:41:21.609Z"
+    },
+    "stats": {
+      "totalActiveDays": 22,
+      "docsReviewed": 19,
+      "draftsCreated": 7,
+      "errorsFixed": 7,
+      "risksFound": 118,
+      "hoursSaved": 9.216666666666667,
+      "currentStreak": 2
+    },
     "dashboardApps": [
       "legal_review",
       "error_review",
