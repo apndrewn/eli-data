@@ -1,0 +1,297 @@
+{
+  "userName": "AR",
+  "userKey": "ar",
+  "generatedAt": "2026-07-06T17:58:35.142Z",
+  "days": [
+    {
+      "date": "2026-06-30",
+      "toolsUsed": {
+        "draft": 1,
+        "error": 1
+      },
+      "sessions": 3,
+      "firstActiveAt": 1782844153219,
+      "lastActiveAt": 1782844526149,
+      "tokens": {},
+      "tokensByTool": {},
+      "estCostUSD": 0,
+      "drafts": {
+        "byType": {
+          "consumer study agreement": 1
+        },
+        "byTemplate": {
+          "bd_doc__consumer_study_agreement__masterxml___": 1
+        },
+        "total": 1
+      }
+    },
+    {
+      "date": "2026-07-06",
+      "toolsUsed": {
+        "draft": 1
+      },
+      "sessions": 1,
+      "firstActiveAt": 1783360710140,
+      "lastActiveAt": 1783360710374,
+      "tokens": {},
+      "tokensByTool": {},
+      "estCostUSD": 0,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
+    }
+  ],
+  "fleet": {
+    "userId": "AR-53sf0rbf",
+    "initials": "AR",
+    "kernelVersion": "v3-2026-06-13-dashfit",
+    "installedAt": "2026-06-30T18:29:18.400Z",
+    "lastSeenAt": "2026-07-06T17:58:36.322Z",
+    "settings": {
+      "ai_model": "gemini-flash-lite-latest",
+      "ai_temperature": 0.3,
+      "ai_timeout_ms": 120000,
+      "ai_thinking_budget": 0,
+      "ai_allow_streaming": false,
+      "ai_model_list": [
+        "gemini-flash-lite-latest",
+        "gemini-flash-latest"
+      ],
+      "expand_width": 800,
+      "expand_threshold": 480,
+      "debug_mode": false,
+      "build_draft.multilineInsert": true,
+      "build_draft.normalize_host_styles": true,
+      "build_draft.isolate_template_styles": true,
+      "build_draft.reviewNavigation": true,
+      "build_draft.refreshFieldsAfterStep2": true,
+      "build_draft.trimTrailingBlanks": true,
+      "build_draft.confirmOarsAutoLoad": true,
+      "build_draft.shareStep2FillsToCdn": false,
+      "build_draft.requireAllSteps": true,
+      "build_draft.guidedMode": true,
+      "build_draft.fileNamePattern.colgate": "[Ref] [Party] - [Type] (CP Draft [Date])",
+      "build_draft.fileNamePattern.hills": "[Ref] [Party] - [Type] (HPN Draft [Date])",
+      "ai_image_model": "gemini-3.1-flash-image-preview",
+      "ask_dock_enabled": true,
+      "dashboard_widgets_enabled": true,
+      "light_mode": false,
+      "header_theme_index": 0,
+      "minimize_feed": false,
+      "auto_hide_sidebar": false,
+      "auto_expand_window": false,
+      "auto_check_tools": true,
+      "show_expand_pill": true,
+      "language": "en",
+      "mascot.skinTone": "#ffdbb5",
+      "mascot.hairColor": "#5c3317",
+      "mascot.tieColor": "#c62828",
+      "mascot.hairStyle": "professional",
+      "mascot.facialHair": "none",
+      "mascot.glasses": "round",
+      "mascot.suitColor": "#1565c0",
+      "mascot.accessory": "none",
+      "ask_eli_redline_regen_enabled": true
+    },
+    "tools": [
+      {
+        "id": "admin_telemetry_inspector",
+        "releasedAt": "2026-05-28T03:58:43.231Z",
+        "disabled": false
+      },
+      {
+        "id": "agreement_glance",
+        "releasedAt": "2026-06-17T04:21:19.665Z",
+        "disabled": false
+      },
+      {
+        "id": "ask_dock",
+        "releasedAt": "2026-06-13T15:12:32.240Z",
+        "disabled": false
+      },
+      {
+        "id": "ask_eli",
+        "releasedAt": "2026-06-30T02:44:35.158Z",
+        "disabled": false
+      },
+      {
+        "id": "auto_emailer",
+        "releasedAt": "2026-06-16T03:57:10.511Z",
+        "disabled": false
+      },
+      {
+        "id": "build_draft",
+        "releasedAt": "2026-06-24T01:09:04.545Z",
+        "disabled": false
+      },
+      {
+        "id": "compare",
+        "releasedAt": "2026-06-15T05:52:09.280Z",
+        "disabled": false
+      },
+      {
+        "id": "dashboard_tour",
+        "releasedAt": "2026-06-17T05:30:15.158Z",
+        "disabled": false
+      },
+      {
+        "id": "dashboard_widgets",
+        "releasedAt": "2026-06-16T06:10:02.447Z",
+        "disabled": false
+      },
+      {
+        "id": "demo",
+        "releasedAt": "2026-06-17T02:44:46.850Z",
+        "disabled": false
+      },
+      {
+        "id": "docuscrub",
+        "releasedAt": "2026-06-12T19:36:38.572Z",
+        "disabled": false
+      },
+      {
+        "id": "draft_audit",
+        "releasedAt": "2026-06-16T11:56:02.976Z",
+        "disabled": false
+      },
+      {
+        "id": "eli-activity",
+        "releasedAt": "2026-06-13T03:57:25.462Z",
+        "disabled": false
+      },
+      {
+        "id": "eli-admin",
+        "releasedAt": "2026-06-12T15:15:28.515Z",
+        "disabled": false
+      },
+      {
+        "id": "eli-wrongness",
+        "releasedAt": "2026-05-17T13:54:46.170Z",
+        "disabled": false
+      },
+      {
+        "id": "eli5",
+        "releasedAt": "2026-05-19T03:53:44.200Z",
+        "disabled": false
+      },
+      {
+        "id": "eli_kit",
+        "releasedAt": "2026-06-15T04:41:59.331Z",
+        "disabled": false
+      },
+      {
+        "id": "eli_mascot_studio",
+        "releasedAt": "2026-06-28T19:33:33.041Z",
+        "disabled": false
+      },
+      {
+        "id": "eli_settings",
+        "releasedAt": "2026-06-15T12:03:23.624Z",
+        "disabled": false
+      },
+      {
+        "id": "eli_stats",
+        "releasedAt": "2026-05-28T05:13:51.148Z",
+        "disabled": false
+      },
+      {
+        "id": "eli_telemetry",
+        "releasedAt": "2026-06-12T13:32:16.908Z",
+        "disabled": false
+      },
+      {
+        "id": "email_helper",
+        "releasedAt": "2026-05-28T05:15:56.728Z",
+        "disabled": false
+      },
+      {
+        "id": "error_review",
+        "releasedAt": "2026-06-15T02:13:06.622Z",
+        "disabled": false
+      },
+      {
+        "id": "final_review",
+        "releasedAt": "2026-06-15T00:45:23.746Z",
+        "disabled": false
+      },
+      {
+        "id": "focus_flow",
+        "releasedAt": "2026-05-18T11:52:32.797Z",
+        "disabled": false
+      },
+      {
+        "id": "legal_review",
+        "releasedAt": "2026-06-13T04:15:03.046Z",
+        "disabled": false
+      },
+      {
+        "id": "legal_risks",
+        "releasedAt": "2026-06-13T03:39:09.434Z",
+        "disabled": false
+      },
+      {
+        "id": "oars_loader",
+        "releasedAt": "2026-06-18T13:34:33.391Z",
+        "disabled": false
+      },
+      {
+        "id": "playbook_manager",
+        "releasedAt": "2026-05-18T11:56:13.482Z",
+        "disabled": false
+      },
+      {
+        "id": "redline_authors",
+        "releasedAt": "2026-05-17T13:54:46.226Z",
+        "disabled": false
+      },
+      {
+        "id": "redline_email_pack",
+        "releasedAt": "2026-05-17T13:54:46.229Z",
+        "disabled": false
+      },
+      {
+        "id": "review_redlines",
+        "releasedAt": "2026-06-30T04:51:27.009Z",
+        "disabled": false
+      },
+      {
+        "id": "template_searcher",
+        "releasedAt": "2026-05-26T00:18:24.155Z",
+        "disabled": false
+      },
+      {
+        "id": "tool_manager",
+        "releasedAt": "2026-05-23T05:13:16.636Z",
+        "disabled": false
+      },
+      {
+        "id": "trophy_gallery",
+        "releasedAt": "2026-06-16T05:38:57.108Z",
+        "disabled": false
+      },
+      {
+        "id": "usage_risks",
+        "releasedAt": "2026-05-18T05:51:45.234Z",
+        "disabled": false
+      },
+      {
+        "id": "version_history",
+        "releasedAt": "2026-06-13T04:06:52.044Z",
+        "disabled": false
+      }
+    ],
+    "appliedOverrides": [],
+    "trophies": 3,
+    "dashboardApps": [
+      "auto_emailer",
+      "build_draft",
+      "demo",
+      "error_review",
+      "final_review",
+      "legal_review"
+    ],
+    "dashboardCustomized": false
+  }
+}
