@@ -1,7 +1,7 @@
 {
   "userName": "JT",
   "userKey": "jt",
-  "generatedAt": "2026-06-30T12:16:10.101Z",
+  "generatedAt": "2026-07-07T15:25:59.038Z",
   "days": [
     {
       "date": "2026-05-27",
@@ -57,11 +57,28 @@
     {
       "date": "2026-06-30",
       "toolsUsed": {
+        "draft": 3
+      },
+      "sessions": 3,
+      "firstActiveAt": 1782821765081,
+      "lastActiveAt": 1782828563340,
+      "tokens": {},
+      "tokensByTool": {},
+      "estCostUSD": 0,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
+    },
+    {
+      "date": "2026-07-07",
+      "toolsUsed": {
         "draft": 1
       },
       "sessions": 1,
-      "firstActiveAt": 1782821765081,
-      "lastActiveAt": 1782821765891,
+      "firstActiveAt": 1783437954024,
+      "lastActiveAt": 1783437954337,
       "tokens": {},
       "tokensByTool": {},
       "estCostUSD": 0,
@@ -77,7 +94,7 @@
     "initials": "JT",
     "kernelVersion": "v3-2026-05-23j-uuid-on-demand",
     "installedAt": "2026-05-27T14:35:31.181Z",
-    "lastSeenAt": "2026-06-30T12:16:10.358Z",
+    "lastSeenAt": "2026-07-07T15:25:59.382Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -144,7 +161,7 @@
       },
       {
         "id": "ask_eli",
-        "releasedAt": "2026-06-24T00:46:42.377Z",
+        "releasedAt": "2026-06-30T02:44:35.158Z",
         "disabled": false
       },
       {
@@ -214,7 +231,7 @@
       },
       {
         "id": "eli_mascot_studio",
-        "releasedAt": "2026-06-17T05:30:15.050Z",
+        "releasedAt": "2026-06-28T19:33:33.041Z",
         "disabled": false
       },
       {
@@ -284,7 +301,7 @@
       },
       {
         "id": "review_redlines",
-        "releasedAt": "2026-06-16T04:21:30.018Z",
+        "releasedAt": "2026-06-30T04:51:27.009Z",
         "disabled": false
       },
       {
