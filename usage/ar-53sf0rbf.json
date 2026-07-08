@@ -1,7 +1,7 @@
 {
   "userName": "AR",
   "userKey": "ar",
-  "generatedAt": "2026-07-08T15:05:53.381Z",
+  "generatedAt": "2026-07-08T18:24:55.595Z",
   "days": [
     {
       "date": "2026-06-30",
@@ -46,14 +46,28 @@
     {
       "date": "2026-07-08",
       "toolsUsed": {
-        "draft": 1
+        "draft": 6
       },
-      "sessions": 1,
+      "sessions": 6,
       "firstActiveAt": 1783523148367,
-      "lastActiveAt": 1783523148601,
-      "tokens": {},
-      "tokensByTool": {},
-      "estCostUSD": 0,
+      "lastActiveAt": 1783535093762,
+      "tokens": {
+        "gemini-flash-lite-latest": {
+          "promptTokens": 2230,
+          "candidatesTokens": 806,
+          "calls": 1
+        }
+      },
+      "tokensByTool": {
+        "draft": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 2230,
+            "candidatesTokens": 806,
+            "calls": 1
+          }
+        }
+      },
+      "estCostUSD": 0.00025,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -66,7 +80,7 @@
     "initials": "AR",
     "kernelVersion": "v3-2026-06-13-dashfit",
     "installedAt": "2026-06-30T18:29:18.400Z",
-    "lastSeenAt": "2026-07-08T15:05:53.651Z",
+    "lastSeenAt": "2026-07-08T18:24:56.877Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
