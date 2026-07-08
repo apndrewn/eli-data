@@ -1,7 +1,7 @@
 {
   "userName": "RF",
   "userKey": "rf",
-  "generatedAt": "2026-06-25T17:54:58.972Z",
+  "generatedAt": "2026-07-08T19:22:35.029Z",
   "days": [
     {
       "date": "2026-06-16",
@@ -115,9 +115,24 @@
         "legal_review": 3,
         "risk": 1
       },
-      "sessions": 9,
+      "sessions": 11,
       "firstActiveAt": 1782398894786,
-      "lastActiveAt": 1782410093968,
+      "lastActiveAt": 1782410196130,
+      "tokens": {},
+      "tokensByTool": {},
+      "estCostUSD": 0,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
+    },
+    {
+      "date": "2026-07-08",
+      "toolsUsed": {},
+      "sessions": 1,
+      "firstActiveAt": 1783538550021,
+      "lastActiveAt": 1783538550021,
       "tokens": {},
       "tokensByTool": {},
       "estCostUSD": 0,
@@ -133,7 +148,7 @@
     "initials": "RF",
     "kernelVersion": "v3-2026-06-13-dashfit",
     "installedAt": "2026-06-16T15:46:13.505Z",
-    "lastSeenAt": "2026-06-25T17:54:59.190Z",
+    "lastSeenAt": "2026-07-08T19:22:35.265Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -337,11 +352,6 @@
         "disabled": false
       },
       {
-        "id": "review_redlines",
-        "releasedAt": "2026-06-16T04:21:30.018Z",
-        "disabled": false
-      },
-      {
         "id": "template_searcher",
         "releasedAt": "2026-05-26T00:18:24.155Z",
         "disabled": false
@@ -365,10 +375,15 @@
         "id": "version_history",
         "releasedAt": "2026-06-13T04:06:52.044Z",
         "disabled": false
+      },
+      {
+        "id": "review_redlines",
+        "releasedAt": "2026-06-30T06:10:52.900Z",
+        "disabled": false
       }
     ],
     "appliedOverrides": [],
-    "trophies": 8,
+    "trophies": 9,
     "dashboardApps": [
       "auto_emailer",
       "build_draft",
