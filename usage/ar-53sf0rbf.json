@@ -1,7 +1,7 @@
 {
   "userName": "AR",
   "userKey": "ar",
-  "generatedAt": "2026-07-06T17:58:35.142Z",
+  "generatedAt": "2026-07-08T15:05:53.381Z",
   "days": [
     {
       "date": "2026-06-30",
@@ -28,11 +28,29 @@
     {
       "date": "2026-07-06",
       "toolsUsed": {
+        "draft": 8,
+        "error": 4
+      },
+      "sessions": 10,
+      "firstActiveAt": 1783360710140,
+      "lastActiveAt": 1783366652159,
+      "tokens": {},
+      "tokensByTool": {},
+      "estCostUSD": 0,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
+    },
+    {
+      "date": "2026-07-08",
+      "toolsUsed": {
         "draft": 1
       },
       "sessions": 1,
-      "firstActiveAt": 1783360710140,
-      "lastActiveAt": 1783360710374,
+      "firstActiveAt": 1783523148367,
+      "lastActiveAt": 1783523148601,
       "tokens": {},
       "tokensByTool": {},
       "estCostUSD": 0,
@@ -48,7 +66,7 @@
     "initials": "AR",
     "kernelVersion": "v3-2026-06-13-dashfit",
     "installedAt": "2026-06-30T18:29:18.400Z",
-    "lastSeenAt": "2026-07-06T17:58:36.322Z",
+    "lastSeenAt": "2026-07-08T15:05:53.651Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -198,7 +216,7 @@
       },
       {
         "id": "eli_telemetry",
-        "releasedAt": "2026-06-12T13:32:16.908Z",
+        "releasedAt": "2026-07-01T01:08:11.418Z",
         "disabled": false
       },
       {
@@ -253,7 +271,7 @@
       },
       {
         "id": "review_redlines",
-        "releasedAt": "2026-06-30T04:51:27.009Z",
+        "releasedAt": "2026-06-30T06:10:52.900Z",
         "disabled": false
       },
       {
@@ -283,7 +301,30 @@
       }
     ],
     "appliedOverrides": [],
-    "trophies": 3,
+    "trophies": 5,
+    "trophyIds": [
+      "t169",
+      "t1",
+      "t26",
+      "t2",
+      "t121"
+    ],
+    "trophyDates": {
+      "t169": "2026-06-30T18:29:29.151Z",
+      "t1": "2026-06-30T18:34:38.702Z",
+      "t26": "2026-06-30T18:35:26.150Z",
+      "t2": "2026-07-06T19:11:55.126Z",
+      "t121": "2026-07-08T15:05:48.933Z"
+    },
+    "stats": {
+      "totalActiveDays": 0,
+      "docsReviewed": 0,
+      "draftsCreated": 0,
+      "errorsFixed": 0,
+      "risksFound": 0,
+      "hoursSaved": 0,
+      "currentStreak": 0
+    },
     "dashboardApps": [
       "auto_emailer",
       "build_draft",
