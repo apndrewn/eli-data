@@ -1,7 +1,7 @@
 {
   "userName": "JL",
   "userKey": "jl",
-  "generatedAt": "2026-07-07T17:38:22.007Z",
+  "generatedAt": "2026-07-09T13:03:20.348Z",
   "days": [
     {
       "date": "2026-05-19",
@@ -914,28 +914,51 @@
     {
       "date": "2026-07-07",
       "toolsUsed": {
-        "draft": 1
+        "draft": 1,
+        "error": 1
       },
       "sessions": 1,
       "firstActiveAt": 1783445896971,
-      "lastActiveAt": 1783445900575,
+      "lastActiveAt": 1783446103472,
       "tokens": {
         "gemini-flash-lite-latest": {
-          "promptTokens": 2157,
-          "candidatesTokens": 959,
-          "calls": 1
+          "promptTokens": 10983,
+          "candidatesTokens": 1306,
+          "calls": 5
         }
       },
       "tokensByTool": {
         "draft": {
           "gemini-flash-lite-latest": {
-            "promptTokens": 2157,
-            "candidatesTokens": 959,
+            "promptTokens": 4683,
+            "candidatesTokens": 1217,
+            "calls": 4
+          }
+        },
+        "error": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 6300,
+            "candidatesTokens": 89,
             "calls": 1
           }
         }
       },
-      "estCostUSD": 0.000278,
+      "estCostUSD": 0.000701,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
+    },
+    {
+      "date": "2026-07-09",
+      "toolsUsed": {},
+      "sessions": 1,
+      "firstActiveAt": 1783602195266,
+      "lastActiveAt": 1783602195266,
+      "tokens": {},
+      "tokensByTool": {},
+      "estCostUSD": 0,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -948,7 +971,7 @@
     "initials": "JL",
     "kernelVersion": "v3-2026-06-13-dashfit",
     "installedAt": "2026-05-26T14:38:04.421Z",
-    "lastSeenAt": "2026-07-07T17:38:22.430Z",
+    "lastSeenAt": "2026-07-09T13:03:20.581Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
