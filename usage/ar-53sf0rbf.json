@@ -1,7 +1,7 @@
 {
   "userName": "AR",
   "userKey": "ar",
-  "generatedAt": "2026-07-08T18:24:55.595Z",
+  "generatedAt": "2026-07-09T14:26:40.132Z",
   "days": [
     {
       "date": "2026-06-30",
@@ -46,28 +46,51 @@
     {
       "date": "2026-07-08",
       "toolsUsed": {
-        "draft": 6
+        "draft": 6,
+        "eli5": 1
       },
-      "sessions": 6,
+      "sessions": 7,
       "firstActiveAt": 1783523148367,
-      "lastActiveAt": 1783535093762,
+      "lastActiveAt": 1783542079324,
       "tokens": {
         "gemini-flash-lite-latest": {
-          "promptTokens": 2230,
-          "candidatesTokens": 806,
-          "calls": 1
+          "promptTokens": 18676,
+          "candidatesTokens": 2386,
+          "calls": 5
         }
       },
       "tokensByTool": {
         "draft": {
           "gemini-flash-lite-latest": {
-            "promptTokens": 2230,
-            "candidatesTokens": 806,
-            "calls": 1
+            "promptTokens": 4619,
+            "candidatesTokens": 980,
+            "calls": 2
+          }
+        },
+        "eli5": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 14057,
+            "candidatesTokens": 1406,
+            "calls": 3
           }
         }
       },
-      "estCostUSD": 0.00025,
+      "estCostUSD": 0.001224,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
+    },
+    {
+      "date": "2026-07-09",
+      "toolsUsed": {},
+      "sessions": 1,
+      "firstActiveAt": 1783607195122,
+      "lastActiveAt": 1783607195122,
+      "tokens": {},
+      "tokensByTool": {},
+      "estCostUSD": 0,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -80,7 +103,7 @@
     "initials": "AR",
     "kernelVersion": "v3-2026-06-13-dashfit",
     "installedAt": "2026-06-30T18:29:18.400Z",
-    "lastSeenAt": "2026-07-08T18:24:56.877Z",
+    "lastSeenAt": "2026-07-09T14:26:40.569Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -166,11 +189,6 @@
       {
         "id": "dashboard_tour",
         "releasedAt": "2026-06-17T05:30:15.158Z",
-        "disabled": false
-      },
-      {
-        "id": "dashboard_widgets",
-        "releasedAt": "2026-06-16T06:10:02.447Z",
         "disabled": false
       },
       {
@@ -312,23 +330,30 @@
         "id": "version_history",
         "releasedAt": "2026-06-13T04:06:52.044Z",
         "disabled": false
+      },
+      {
+        "id": "dashboard_widgets",
+        "releasedAt": "2026-07-09T04:04:23.046Z",
+        "disabled": false
       }
     ],
     "appliedOverrides": [],
-    "trophies": 5,
+    "trophies": 6,
     "trophyIds": [
       "t169",
       "t1",
       "t26",
       "t2",
-      "t121"
+      "t121",
+      "t41"
     ],
     "trophyDates": {
       "t169": "2026-06-30T18:29:29.151Z",
       "t1": "2026-06-30T18:34:38.702Z",
       "t26": "2026-06-30T18:35:26.150Z",
       "t2": "2026-07-06T19:11:55.126Z",
-      "t121": "2026-07-08T15:05:48.933Z"
+      "t121": "2026-07-08T15:05:48.933Z",
+      "t41": "2026-07-08T20:19:01.192Z"
     },
     "stats": {
       "totalActiveDays": 0,
