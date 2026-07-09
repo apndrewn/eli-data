@@ -1,7 +1,7 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-07-01T00:09:08.166Z",
+  "generatedAt": "2026-07-09T04:05:36.244Z",
   "days": [
     {
       "date": "2026-06-12",
@@ -707,16 +707,18 @@
         "legal_review": 12,
         "review_redlines": 8,
         "ask_dock": 2,
-        "ask_eli": 1
+        "ask_eli": 1,
+        "admin_fleet": 2,
+        "auto_emailer": 1
       },
-      "sessions": 11,
+      "sessions": 16,
       "firstActiveAt": 1782792104529,
-      "lastActiveAt": 1782864543159,
+      "lastActiveAt": 1782869751553,
       "tokens": {
         "gemini-flash-lite-latest": {
-          "promptTokens": 441086,
-          "candidatesTokens": 46633,
-          "calls": 385
+          "promptTokens": 454569,
+          "candidatesTokens": 46758,
+          "calls": 386
         }
       },
       "tokensByTool": {
@@ -733,9 +735,31 @@
             "candidatesTokens": 424,
             "calls": 4
           }
+        },
+        "auto_emailer": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 13483,
+            "candidatesTokens": 125,
+            "calls": 1
+          }
         }
       },
-      "estCostUSD": 0.02697,
+      "estCostUSD": 0.027534,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
+    },
+    {
+      "date": "2026-07-09",
+      "toolsUsed": {},
+      "sessions": 1,
+      "firstActiveAt": 1783569931232,
+      "lastActiveAt": 1783569931232,
+      "tokens": {},
+      "tokensByTool": {},
+      "estCostUSD": 0,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -748,7 +772,7 @@
     "initials": "AN",
     "kernelVersion": "v3-2026-06-13-dashfit",
     "installedAt": "2026-05-22T16:36:38.096Z",
-    "lastSeenAt": "2026-07-01T00:09:08.284Z",
+    "lastSeenAt": "2026-07-09T04:05:36.458Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -836,6 +860,11 @@
       {
         "id": "admin_usage_viewer",
         "releasedAt": "2026-05-28T23:06:32.262Z",
+        "disabled": false
+      },
+      {
+        "id": "admin_user_restore",
+        "releasedAt": "2026-07-01T01:18:42.844Z",
         "disabled": false
       },
       {
@@ -955,7 +984,7 @@
       },
       {
         "id": "eli_telemetry",
-        "releasedAt": "2026-06-12T13:32:16.908Z",
+        "releasedAt": "2026-07-01T01:08:11.418Z",
         "disabled": false
       },
       {
@@ -1101,6 +1130,62 @@
     ],
     "appliedOverrides": [],
     "trophies": 21,
+    "trophyIds": [
+      "t1",
+      "t26",
+      "t56",
+      "t41",
+      "t116",
+      "t71",
+      "t153",
+      "t11",
+      "t121",
+      "t111",
+      "t137",
+      "t156",
+      "t115",
+      "t106",
+      "t83",
+      "t157",
+      "t_graduate",
+      "t172",
+      "t138",
+      "t2",
+      "t169"
+    ],
+    "trophyDates": {
+      "t1": "2026-06-13T05:07:23.096Z",
+      "t26": "2026-06-13T05:07:38.051Z",
+      "t56": "2026-06-13T05:07:38.064Z",
+      "t41": "2026-06-13T05:10:57.313Z",
+      "t116": "2026-06-13T05:45:37.032Z",
+      "t71": "2026-06-13T06:13:49.196Z",
+      "t153": "2026-06-13T06:13:56.629Z",
+      "t11": "2026-06-13T06:14:24.197Z",
+      "deal360": "2026-06-13T15:09:03.151Z",
+      "t121": "2026-06-13T15:35:57.767Z",
+      "t111": "2026-06-14T13:57:47.028Z",
+      "t137": "2026-06-14T21:25:48.062Z",
+      "t156": "2026-06-15T01:05:44.870Z",
+      "t115": "2026-06-16T01:02:29.132Z",
+      "t106": "2026-06-16T03:26:44.144Z",
+      "t83": "2026-06-16T04:01:11.826Z",
+      "t157": "2026-06-17T00:53:05.693Z",
+      "t_graduate": "2026-06-17T05:31:19.050Z",
+      "t172": "2026-06-18T13:00:44.668Z",
+      "t138": "2026-06-24T00:46:41.853Z",
+      "t2": "2026-06-28T19:23:46.827Z",
+      "t169": "2026-06-30T04:01:45.669Z"
+    },
+    "stats": {
+      "totalActiveDays": 0,
+      "docsReviewed": 0,
+      "draftsCreated": 0,
+      "errorsFixed": 0,
+      "risksFound": 0,
+      "hoursSaved": 0,
+      "currentStreak": 0
+    },
     "dashboardApps": [
       "legal_review",
       "error_review",
