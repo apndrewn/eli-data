@@ -1,7 +1,7 @@
 {
   "userName": "AR",
   "userKey": "ar",
-  "generatedAt": "2026-07-09T14:26:40.132Z",
+  "generatedAt": "2026-07-09T18:03:48.442Z",
   "days": [
     {
       "date": "2026-06-30",
@@ -84,13 +84,38 @@
     },
     {
       "date": "2026-07-09",
-      "toolsUsed": {},
-      "sessions": 1,
+      "toolsUsed": {
+        "legal_review": 1,
+        "review_redlines": 1,
+        "draft": 1
+      },
+      "sessions": 3,
       "firstActiveAt": 1783607195122,
-      "lastActiveAt": 1783607195122,
-      "tokens": {},
-      "tokensByTool": {},
-      "estCostUSD": 0,
+      "lastActiveAt": 1783620227045,
+      "tokens": {
+        "gemini-flash-lite-latest": {
+          "promptTokens": 123843,
+          "candidatesTokens": 15744,
+          "calls": 81
+        }
+      },
+      "tokensByTool": {
+        "review_redlines": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 121569,
+            "candidatesTokens": 14665,
+            "calls": 80
+          }
+        },
+        "draft": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 2274,
+            "candidatesTokens": 1079,
+            "calls": 1
+          }
+        }
+      },
+      "estCostUSD": 0.008103,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -103,7 +128,7 @@
     "initials": "AR",
     "kernelVersion": "v3-2026-06-13-dashfit",
     "installedAt": "2026-06-30T18:29:18.400Z",
-    "lastSeenAt": "2026-07-09T14:26:40.569Z",
+    "lastSeenAt": "2026-07-09T18:03:50.529Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -189,6 +214,11 @@
       {
         "id": "dashboard_tour",
         "releasedAt": "2026-06-17T05:30:15.158Z",
+        "disabled": false
+      },
+      {
+        "id": "dashboard_widgets",
+        "releasedAt": "2026-07-09T04:04:23.046Z",
         "disabled": false
       },
       {
@@ -330,39 +360,98 @@
         "id": "version_history",
         "releasedAt": "2026-06-13T04:06:52.044Z",
         "disabled": false
-      },
-      {
-        "id": "dashboard_widgets",
-        "releasedAt": "2026-07-09T04:04:23.046Z",
-        "disabled": false
       }
     ],
     "appliedOverrides": [],
-    "trophies": 6,
+    "trophies": 38,
     "trophyIds": [
-      "t169",
-      "t1",
       "t26",
+      "t56",
+      "t11",
+      "t137",
+      "t111",
+      "t41",
+      "t71",
+      "t188",
+      "t1",
+      "t83",
+      "t161",
+      "t17",
+      "t138",
+      "t115",
+      "t177",
       "t2",
+      "t114",
+      "t113",
+      "t160",
+      "t112",
+      "t145",
+      "t170",
+      "t156",
       "t121",
-      "t41"
+      "t_graduate",
+      "t116",
+      "t162",
+      "t169",
+      "t166",
+      "t168",
+      "t106",
+      "t105",
+      "t107",
+      "t153",
+      "t157",
+      "t173",
+      "t149",
+      "t158"
     ],
     "trophyDates": {
-      "t169": "2026-06-30T18:29:29.151Z",
-      "t1": "2026-06-30T18:34:38.702Z",
-      "t26": "2026-06-30T18:35:26.150Z",
-      "t2": "2026-07-06T19:11:55.126Z",
-      "t121": "2026-07-08T15:05:48.933Z",
-      "t41": "2026-07-08T20:19:01.192Z"
+      "t26": "Apr 6, 2026",
+      "t56": "Apr 6, 2026",
+      "t11": "Apr 6, 2026",
+      "t137": "Apr 6, 2026",
+      "t111": "Apr 8, 2026",
+      "t41": "Apr 8, 2026",
+      "t71": "Apr 8, 2026",
+      "t188": "Apr 8, 2026",
+      "t1": "Apr 9, 2026",
+      "t83": "Apr 10, 2026",
+      "t161": "Apr 13, 2026",
+      "t17": "Apr 13, 2026",
+      "t138": "Apr 14, 2026",
+      "t115": "Apr 21, 2026",
+      "t177": "Apr 22, 2026",
+      "t2": "Apr 22, 2026",
+      "t114": "Apr 24, 2026",
+      "t113": "Apr 24, 2026",
+      "t160": "Apr 24, 2026",
+      "t112": "Apr 27, 2026",
+      "t145": "Apr 27, 2026",
+      "t170": "May 4, 2026",
+      "t156": "2026-05-18T16:07:55.523Z",
+      "t121": "2026-05-26T14:43:50.243Z",
+      "t_graduate": "2026-06-17T16:09:10.709Z",
+      "t116": "2026-06-21T21:17:43.615Z",
+      "t162": "2026-06-26T20:01:59.397Z",
+      "t169": "2026-06-30T15:20:38.402Z",
+      "t166": "2026-07-01T14:41:21.609Z",
+      "t168": "2026-07-01T14:41:21.609Z",
+      "t106": "2026-07-06T13:36:49.610Z",
+      "t105": 1783570834622,
+      "t107": 1783570834622,
+      "t153": 1783570834622,
+      "t157": 1783570834622,
+      "t173": 1783570834622,
+      "t149": 1783570834622,
+      "t158": 1783570834622
     },
     "stats": {
-      "totalActiveDays": 0,
-      "docsReviewed": 0,
-      "draftsCreated": 0,
-      "errorsFixed": 0,
-      "risksFound": 0,
-      "hoursSaved": 0,
-      "currentStreak": 0
+      "totalActiveDays": 25,
+      "docsReviewed": 27,
+      "draftsCreated": 25,
+      "errorsFixed": 20,
+      "risksFound": 118,
+      "hoursSaved": 15,
+      "currentStreak": 2
     },
     "dashboardApps": [
       "auto_emailer",
