@@ -1,7 +1,7 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-07-09T04:05:36.244Z",
+  "generatedAt": "2026-07-09T12:15:52.333Z",
   "days": [
     {
       "date": "2026-06-12",
@@ -753,10 +753,12 @@
     },
     {
       "date": "2026-07-09",
-      "toolsUsed": {},
-      "sessions": 1,
+      "toolsUsed": {
+        "admin_fleet": 2
+      },
+      "sessions": 5,
       "firstActiveAt": 1783569931232,
-      "lastActiveAt": 1783569931232,
+      "lastActiveAt": 1783599351268,
       "tokens": {},
       "tokensByTool": {},
       "estCostUSD": 0,
@@ -772,7 +774,7 @@
     "initials": "AN",
     "kernelVersion": "v3-2026-06-13-dashfit",
     "installedAt": "2026-05-22T16:36:38.096Z",
-    "lastSeenAt": "2026-07-09T04:05:36.458Z",
+    "lastSeenAt": "2026-07-09T12:15:52.503Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -834,7 +836,7 @@
       },
       {
         "id": "admin_fleet",
-        "releasedAt": "2026-06-12T15:25:46.182Z",
+        "releasedAt": "2026-07-09T12:15:37.633Z",
         "disabled": false
       },
       {
@@ -864,7 +866,7 @@
       },
       {
         "id": "admin_user_restore",
-        "releasedAt": "2026-07-01T01:18:42.844Z",
+        "releasedAt": "2026-07-09T04:14:44.316Z",
         "disabled": false
       },
       {
@@ -919,7 +921,7 @@
       },
       {
         "id": "dashboard_widgets",
-        "releasedAt": "2026-06-16T06:10:02.447Z",
+        "releasedAt": "2026-07-09T04:04:23.046Z",
         "disabled": false
       },
       {
