@@ -1,7 +1,7 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-07-10T00:49:42.224Z",
+  "generatedAt": "2026-07-10T12:52:21.089Z",
   "days": [
     {
       "date": "2026-05-19",
@@ -1733,28 +1733,50 @@
       "date": "2026-07-09",
       "toolsUsed": {
         "admin_fleet": 5,
-        "ask_eli": 1
+        "ask_eli": 9
       },
-      "sessions": 3,
+      "sessions": 15,
       "firstActiveAt": 1783601182738,
-      "lastActiveAt": 1783644580596,
+      "lastActiveAt": 1783646744575,
       "tokens": {
         "gemini-flash-lite-latest": {
-          "promptTokens": 25531,
-          "candidatesTokens": 1809,
-          "calls": 5
+          "promptTokens": 97832,
+          "candidatesTokens": 8760,
+          "calls": 20
         }
       },
       "tokensByTool": {
         "_unknown": {
           "gemini-flash-lite-latest": {
-            "promptTokens": 25531,
-            "candidatesTokens": 1809,
-            "calls": 5
+            "promptTokens": 58905,
+            "candidatesTokens": 5894,
+            "calls": 12
+          }
+        },
+        "ask_eli": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 38927,
+            "candidatesTokens": 2866,
+            "calls": 8
           }
         }
       },
-      "estCostUSD": 0.001383,
+      "estCostUSD": 0.005665,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
+    },
+    {
+      "date": "2026-07-10",
+      "toolsUsed": {},
+      "sessions": 1,
+      "firstActiveAt": 1783687936044,
+      "lastActiveAt": 1783687936044,
+      "tokens": {},
+      "tokensByTool": {},
+      "estCostUSD": 0,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -1767,7 +1789,7 @@
     "initials": "AN",
     "kernelVersion": "v3-2026-06-13-dashfit",
     "installedAt": "2026-05-25T04:22:25.663Z",
-    "lastSeenAt": "2026-07-10T00:49:42.466Z",
+    "lastSeenAt": "2026-07-10T12:52:21.397Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -1876,7 +1898,7 @@
       },
       {
         "id": "ask_eli",
-        "releasedAt": "2026-07-10T00:46:45.397Z",
+        "releasedAt": "2026-07-10T02:49:48.913Z",
         "disabled": false
       },
       {
