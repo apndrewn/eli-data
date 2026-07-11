@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-07-11T03:19:42.963Z",
+  "lastUpdated": "2026-07-11T03:27:37.454Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -695,9 +695,9 @@
     {
       "id": "integrity_scanner",
       "version": null,
-      "lastUpdated": "2026-07-11T03:19:42.186Z",
+      "lastUpdated": "2026-07-11T03:27:36.164Z",
       "filename": "integrity_scanner-v3.json",
-      "size": 26131,
+      "size": 34337,
       "label": "Integrity Scan",
       "kind": "tool",
       "category": "Document",
