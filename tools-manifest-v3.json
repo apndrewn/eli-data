@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-07-11T03:27:37.454Z",
+  "lastUpdated": "2026-07-11T03:48:11.094Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -699,6 +699,21 @@
       "filename": "integrity_scanner-v3.json",
       "size": 34337,
       "label": "Integrity Scan",
+      "kind": "tool",
+      "category": "Document",
+      "audience": [],
+      "changelog": "",
+      "audienceEmails": [
+        "andrew_nemiroff@colpal.com"
+      ]
+    },
+    {
+      "id": "amendment_builder",
+      "version": null,
+      "lastUpdated": "2026-07-11T03:48:10.313Z",
+      "filename": "amendment_builder-v3.json",
+      "size": 40244,
+      "label": "Amendment Builder",
       "kind": "tool",
       "category": "Document",
       "audience": [],
