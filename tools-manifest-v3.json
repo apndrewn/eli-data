@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-07-10T14:12:43.905Z",
+  "lastUpdated": "2026-07-11T03:19:42.963Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -686,6 +686,21 @@
       "label": "Admin User Restore",
       "kind": "tool",
       "category": "Admin",
+      "audience": [],
+      "changelog": "",
+      "audienceEmails": [
+        "andrew_nemiroff@colpal.com"
+      ]
+    },
+    {
+      "id": "integrity_scanner",
+      "version": null,
+      "lastUpdated": "2026-07-11T03:19:42.186Z",
+      "filename": "integrity_scanner-v3.json",
+      "size": 26131,
+      "label": "Integrity Scan",
+      "kind": "tool",
+      "category": "Document",
       "audience": [],
       "changelog": "",
       "audienceEmails": [
