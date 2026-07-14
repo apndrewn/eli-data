@@ -1,7 +1,7 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-07-13T14:01:27.414Z",
+  "generatedAt": "2026-07-14T17:59:08.278Z",
   "days": [
     {
       "date": "2026-05-19",
@@ -1811,10 +1811,27 @@
     },
     {
       "date": "2026-07-13",
-      "toolsUsed": {},
+      "toolsUsed": {
+        "admin_fleet": 1
+      },
       "sessions": 1,
       "firstActiveAt": 1783951282386,
-      "lastActiveAt": 1783951282386,
+      "lastActiveAt": 1783951293604,
+      "tokens": {},
+      "tokensByTool": {},
+      "estCostUSD": 0,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
+    },
+    {
+      "date": "2026-07-14",
+      "toolsUsed": {},
+      "sessions": 1,
+      "firstActiveAt": 1784051943233,
+      "lastActiveAt": 1784051943233,
       "tokens": {},
       "tokensByTool": {},
       "estCostUSD": 0,
@@ -1830,7 +1847,7 @@
     "initials": "AN",
     "kernelVersion": "v3-2026-06-13-dashfit",
     "installedAt": "2026-05-25T04:22:25.663Z",
-    "lastSeenAt": "2026-07-13T14:01:30.038Z",
+    "lastSeenAt": "2026-07-14T17:59:08.649Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -1930,6 +1947,11 @@
       {
         "id": "agreement_glance",
         "releasedAt": "2026-06-17T04:21:19.665Z",
+        "disabled": false
+      },
+      {
+        "id": "amendment_builder",
+        "releasedAt": "2026-07-11T03:48:10.313Z",
         "disabled": false
       },
       {
@@ -2083,6 +2105,11 @@
         "disabled": false
       },
       {
+        "id": "integrity_scanner",
+        "releasedAt": "2026-07-11T03:27:36.164Z",
+        "disabled": false
+      },
+      {
         "id": "legal_review",
         "releasedAt": "2026-06-13T04:15:03.046Z",
         "disabled": false
@@ -2185,16 +2212,6 @@
       {
         "id": "workflow_creator",
         "releasedAt": "2026-06-09T12:28:19.764Z",
-        "disabled": false
-      },
-      {
-        "id": "integrity_scanner",
-        "releasedAt": "2026-07-11T03:27:36.164Z",
-        "disabled": false
-      },
-      {
-        "id": "amendment_builder",
-        "releasedAt": "2026-07-11T03:48:10.313Z",
         "disabled": false
       }
     ],
@@ -2365,13 +2382,13 @@
       "t130": "2026-07-10T15:41:31.008Z"
     },
     "stats": {
-      "totalActiveDays": 35,
+      "totalActiveDays": 36,
       "docsReviewed": 186,
       "draftsCreated": 57,
       "errorsFixed": 105,
       "risksFound": 123,
       "hoursSaved": 93,
-      "currentStreak": 1
+      "currentStreak": 2
     },
     "dashboardApps": [
       "legal_review",
