@@ -1,7 +1,7 @@
 {
   "userName": "AR",
   "userKey": "ar",
-  "generatedAt": "2026-07-15T14:31:06.441Z",
+  "generatedAt": "2026-07-15T19:42:25.743Z",
   "days": [
     {
       "date": "2026-06-30",
@@ -132,13 +132,38 @@
     },
     {
       "date": "2026-07-15",
-      "toolsUsed": {},
-      "sessions": 1,
+      "toolsUsed": {
+        "legal_review": 1,
+        "risk": 1,
+        "draft": 1
+      },
+      "sessions": 3,
       "firstActiveAt": 1784125861425,
-      "lastActiveAt": 1784125861425,
-      "tokens": {},
-      "tokensByTool": {},
-      "estCostUSD": 0,
+      "lastActiveAt": 1784144544342,
+      "tokens": {
+        "gemini-flash-lite-latest": {
+          "promptTokens": 151867,
+          "candidatesTokens": 5106,
+          "calls": 8
+        }
+      },
+      "tokensByTool": {
+        "risk": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 149681,
+            "candidatesTokens": 4493,
+            "calls": 7
+          }
+        },
+        "draft": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 2186,
+            "candidatesTokens": 613,
+            "calls": 1
+          }
+        }
+      },
+      "estCostUSD": 0.007096,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -151,7 +176,7 @@
     "initials": "AR",
     "kernelVersion": "v3-2026-06-13-dashfit",
     "installedAt": "2026-06-30T18:29:18.400Z",
-    "lastSeenAt": "2026-07-15T14:31:06.744Z",
+    "lastSeenAt": "2026-07-15T19:42:25.968Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -216,7 +241,7 @@
       },
       {
         "id": "ask_eli",
-        "releasedAt": "2026-06-30T02:44:35.158Z",
+        "releasedAt": "2026-07-10T14:12:43.124Z",
         "disabled": false
       },
       {
@@ -301,7 +326,7 @@
       },
       {
         "id": "eli_telemetry",
-        "releasedAt": "2026-07-01T01:08:11.418Z",
+        "releasedAt": "2026-07-10T13:24:30.650Z",
         "disabled": false
       },
       {
@@ -465,16 +490,17 @@
       "t157": 1783570834622,
       "t173": 1783570834622,
       "t149": 1783570834622,
-      "t158": 1783570834622
+      "t158": 1783570834622,
+      "deal360": "2026-07-15T14:31:52.539Z"
     },
     "stats": {
-      "totalActiveDays": 25,
-      "docsReviewed": 27,
-      "draftsCreated": 25,
-      "errorsFixed": 20,
-      "risksFound": 118,
-      "hoursSaved": 15,
-      "currentStreak": 2
+      "totalActiveDays": 5,
+      "docsReviewed": 3,
+      "draftsCreated": 9,
+      "errorsFixed": 4,
+      "risksFound": 5,
+      "hoursSaved": 1.5,
+      "currentStreak": 1
     },
     "dashboardApps": [
       "auto_emailer",
