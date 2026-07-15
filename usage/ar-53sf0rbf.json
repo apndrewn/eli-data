@@ -1,7 +1,7 @@
 {
   "userName": "AR",
   "userKey": "ar",
-  "generatedAt": "2026-07-09T18:03:48.442Z",
+  "generatedAt": "2026-07-15T14:31:06.441Z",
   "days": [
     {
       "date": "2026-06-30",
@@ -87,16 +87,17 @@
       "toolsUsed": {
         "legal_review": 1,
         "review_redlines": 1,
-        "draft": 1
+        "draft": 1,
+        "error": 1
       },
-      "sessions": 3,
+      "sessions": 4,
       "firstActiveAt": 1783607195122,
-      "lastActiveAt": 1783620227045,
+      "lastActiveAt": 1783627503372,
       "tokens": {
         "gemini-flash-lite-latest": {
-          "promptTokens": 123843,
-          "candidatesTokens": 15744,
-          "calls": 81
+          "promptTokens": 135134,
+          "candidatesTokens": 16445,
+          "calls": 84
         }
       },
       "tokensByTool": {
@@ -109,13 +110,35 @@
         },
         "draft": {
           "gemini-flash-lite-latest": {
-            "promptTokens": 2274,
-            "candidatesTokens": 1079,
-            "calls": 1
+            "promptTokens": 4712,
+            "candidatesTokens": 1296,
+            "calls": 2
+          }
+        },
+        "error": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 8853,
+            "candidatesTokens": 484,
+            "calls": 2
           }
         }
       },
-      "estCostUSD": 0.008103,
+      "estCostUSD": 0.008694,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
+    },
+    {
+      "date": "2026-07-15",
+      "toolsUsed": {},
+      "sessions": 1,
+      "firstActiveAt": 1784125861425,
+      "lastActiveAt": 1784125861425,
+      "tokens": {},
+      "tokensByTool": {},
+      "estCostUSD": 0,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -128,7 +151,7 @@
     "initials": "AR",
     "kernelVersion": "v3-2026-06-13-dashfit",
     "installedAt": "2026-06-30T18:29:18.400Z",
-    "lastSeenAt": "2026-07-09T18:03:50.529Z",
+    "lastSeenAt": "2026-07-15T14:31:06.744Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
