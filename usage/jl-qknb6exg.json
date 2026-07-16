@@ -1,0 +1,370 @@
+{
+  "userName": "JL",
+  "userKey": "jl",
+  "generatedAt": "2026-07-16T16:45:16.585Z",
+  "days": [
+    {
+      "date": "2026-07-10",
+      "toolsUsed": {
+        "draft": 3,
+        "error": 1
+      },
+      "sessions": 6,
+      "firstActiveAt": 1783690037152,
+      "lastActiveAt": 1783699931398,
+      "tokens": {
+        "gemini-flash-lite-latest": {
+          "promptTokens": 25333,
+          "candidatesTokens": 3789,
+          "calls": 8
+        }
+      },
+      "tokensByTool": {
+        "draft": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 6950,
+            "candidatesTokens": 2616,
+            "calls": 4
+          }
+        },
+        "_unknown": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 9732,
+            "candidatesTokens": 861,
+            "calls": 2
+          }
+        },
+        "error": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 8651,
+            "candidatesTokens": 312,
+            "calls": 2
+          }
+        }
+      },
+      "estCostUSD": 0.001771,
+      "drafts": {
+        "byType": {
+          "non-disclosure agreement": 1
+        },
+        "byTemplate": {
+          "bd_doc__non_disclosure_agreement__masterxml___": 1
+        },
+        "total": 1
+      }
+    },
+    {
+      "date": "2026-07-16",
+      "toolsUsed": {
+        "draft": 1
+      },
+      "sessions": 1,
+      "firstActiveAt": 1784220311571,
+      "lastActiveAt": 1784220315508,
+      "tokens": {
+        "gemini-flash-lite-latest": {
+          "promptTokens": 2147,
+          "candidatesTokens": 885,
+          "calls": 1
+        }
+      },
+      "tokensByTool": {
+        "draft": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 2147,
+            "candidatesTokens": 885,
+            "calls": 1
+          }
+        }
+      },
+      "estCostUSD": 0.000263,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
+    }
+  ],
+  "fleet": {
+    "userId": "JL-qknb6exg",
+    "initials": "JL",
+    "kernelVersion": "v3-2026-06-13-dashfit",
+    "installedAt": "2026-07-10T13:27:22.388Z",
+    "lastSeenAt": "2026-07-16T16:45:16.842Z",
+    "settings": {
+      "ai_model": "gemini-flash-lite-latest",
+      "ai_temperature": 0.3,
+      "ai_timeout_ms": 120000,
+      "ai_thinking_budget": 0,
+      "ai_allow_streaming": false,
+      "ai_model_list": [
+        "gemini-flash-lite-latest",
+        "gemini-flash-latest"
+      ],
+      "expand_width": 800,
+      "expand_threshold": 480,
+      "debug_mode": false,
+      "build_draft.multilineInsert": true,
+      "build_draft.normalize_host_styles": true,
+      "build_draft.isolate_template_styles": true,
+      "build_draft.reviewNavigation": true,
+      "build_draft.refreshFieldsAfterStep2": true,
+      "build_draft.trimTrailingBlanks": true,
+      "build_draft.confirmOarsAutoLoad": true,
+      "build_draft.shareStep2FillsToCdn": false,
+      "build_draft.requireAllSteps": true,
+      "build_draft.guidedMode": true,
+      "build_draft.fileNamePattern.colgate": "[Ref] [Party] - [Type] (CP Draft [Date])",
+      "build_draft.fileNamePattern.hills": "[Ref] [Party] - [Type] (HPN Draft [Date])",
+      "ai_image_model": "gemini-3.1-flash-image-preview",
+      "ask_dock_enabled": true,
+      "dashboard_widgets_enabled": true,
+      "light_mode": false,
+      "header_theme_index": 0,
+      "minimize_feed": false,
+      "auto_hide_sidebar": false,
+      "auto_expand_window": false,
+      "auto_check_tools": true,
+      "show_expand_pill": true,
+      "language": "en",
+      "mascot.skinTone": "#ffdbb5",
+      "mascot.hairColor": "#5c3317",
+      "mascot.tieColor": "#c62828",
+      "mascot.hairStyle": "professional",
+      "mascot.facialHair": "none",
+      "mascot.glasses": "round",
+      "mascot.suitColor": "#1565c0",
+      "mascot.accessory": "none",
+      "ask_eli_redline_regen_enabled": true
+    },
+    "tools": [
+      {
+        "id": "admin_telemetry_inspector",
+        "releasedAt": "2026-05-28T03:58:43.231Z",
+        "disabled": false
+      },
+      {
+        "id": "agreement_glance",
+        "releasedAt": "2026-06-17T04:21:19.665Z",
+        "disabled": false
+      },
+      {
+        "id": "ask_dock",
+        "releasedAt": "2026-06-13T15:12:32.240Z",
+        "disabled": false
+      },
+      {
+        "id": "ask_eli",
+        "releasedAt": "2026-07-10T14:12:43.124Z",
+        "disabled": false
+      },
+      {
+        "id": "auto_emailer",
+        "releasedAt": "2026-06-16T03:57:10.511Z",
+        "disabled": false
+      },
+      {
+        "id": "bd_template_tester",
+        "releasedAt": "2026-05-20T06:26:01.803Z",
+        "disabled": false
+      },
+      {
+        "id": "build_draft",
+        "releasedAt": "2026-06-24T01:09:04.545Z",
+        "disabled": false
+      },
+      {
+        "id": "compare",
+        "releasedAt": "2026-06-15T05:52:09.280Z",
+        "disabled": false
+      },
+      {
+        "id": "dashboard_tour",
+        "releasedAt": "2026-06-17T05:30:15.158Z",
+        "disabled": false
+      },
+      {
+        "id": "dashboard_widgets",
+        "releasedAt": "2026-07-09T04:04:23.046Z",
+        "disabled": false
+      },
+      {
+        "id": "demo",
+        "releasedAt": "2026-06-17T02:44:46.850Z",
+        "disabled": false
+      },
+      {
+        "id": "docuscrub",
+        "releasedAt": "2026-06-12T19:36:38.572Z",
+        "disabled": false
+      },
+      {
+        "id": "draft_audit",
+        "releasedAt": "2026-06-16T11:56:02.976Z",
+        "disabled": false
+      },
+      {
+        "id": "eli-activity",
+        "releasedAt": "2026-06-13T03:57:25.462Z",
+        "disabled": false
+      },
+      {
+        "id": "eli-admin",
+        "releasedAt": "2026-06-12T15:15:28.515Z",
+        "disabled": false
+      },
+      {
+        "id": "eli-wrongness",
+        "releasedAt": "2026-05-17T13:54:46.170Z",
+        "disabled": false
+      },
+      {
+        "id": "eli5",
+        "releasedAt": "2026-05-19T03:53:44.200Z",
+        "disabled": false
+      },
+      {
+        "id": "eli_kit",
+        "releasedAt": "2026-06-15T04:41:59.331Z",
+        "disabled": false
+      },
+      {
+        "id": "eli_mascot_studio",
+        "releasedAt": "2026-06-28T19:33:33.041Z",
+        "disabled": false
+      },
+      {
+        "id": "eli_settings",
+        "releasedAt": "2026-06-15T12:03:23.624Z",
+        "disabled": false
+      },
+      {
+        "id": "eli_stats",
+        "releasedAt": "2026-05-28T05:13:51.148Z",
+        "disabled": false
+      },
+      {
+        "id": "eli_telemetry",
+        "releasedAt": "2026-07-10T13:24:30.650Z",
+        "disabled": false
+      },
+      {
+        "id": "email_helper",
+        "releasedAt": "2026-05-28T05:15:56.728Z",
+        "disabled": false
+      },
+      {
+        "id": "error_review",
+        "releasedAt": "2026-06-15T02:13:06.622Z",
+        "disabled": false
+      },
+      {
+        "id": "final_review",
+        "releasedAt": "2026-06-15T00:45:23.746Z",
+        "disabled": false
+      },
+      {
+        "id": "focus_flow",
+        "releasedAt": "2026-05-18T11:52:32.797Z",
+        "disabled": false
+      },
+      {
+        "id": "legal_review",
+        "releasedAt": "2026-06-13T04:15:03.046Z",
+        "disabled": false
+      },
+      {
+        "id": "legal_risks",
+        "releasedAt": "2026-06-13T03:39:09.434Z",
+        "disabled": false
+      },
+      {
+        "id": "oars_loader",
+        "releasedAt": "2026-06-18T13:34:33.391Z",
+        "disabled": false
+      },
+      {
+        "id": "playbook_manager",
+        "releasedAt": "2026-05-18T11:56:13.482Z",
+        "disabled": false
+      },
+      {
+        "id": "redline_authors",
+        "releasedAt": "2026-05-17T13:54:46.226Z",
+        "disabled": false
+      },
+      {
+        "id": "redline_email_pack",
+        "releasedAt": "2026-05-17T13:54:46.229Z",
+        "disabled": false
+      },
+      {
+        "id": "review_redlines",
+        "releasedAt": "2026-06-30T06:10:52.900Z",
+        "disabled": false
+      },
+      {
+        "id": "template_manager",
+        "releasedAt": "2026-06-02T05:41:41.048Z",
+        "disabled": false
+      },
+      {
+        "id": "template_searcher",
+        "releasedAt": "2026-05-26T00:18:24.155Z",
+        "disabled": false
+      },
+      {
+        "id": "tool_manager",
+        "releasedAt": "2026-05-23T05:13:16.636Z",
+        "disabled": false
+      },
+      {
+        "id": "trophy_gallery",
+        "releasedAt": "2026-06-16T05:38:57.108Z",
+        "disabled": false
+      },
+      {
+        "id": "usage_risks",
+        "releasedAt": "2026-05-18T05:51:45.234Z",
+        "disabled": false
+      },
+      {
+        "id": "version_history",
+        "releasedAt": "2026-06-13T04:06:52.044Z",
+        "disabled": false
+      }
+    ],
+    "appliedOverrides": [],
+    "trophies": 4,
+    "trophyIds": [
+      "t1",
+      "t41",
+      "t26",
+      "t56"
+    ],
+    "trophyDates": {
+      "t1": "2026-07-10T13:28:11.712Z",
+      "t41": "2026-07-10T13:32:22.691Z",
+      "t26": "2026-07-10T16:11:49.486Z",
+      "t56": "2026-07-10T16:11:54.227Z"
+    },
+    "stats": {
+      "totalActiveDays": 2,
+      "docsReviewed": 1,
+      "draftsCreated": 1,
+      "errorsFixed": 1,
+      "risksFound": 0,
+      "hoursSaved": 0.5,
+      "currentStreak": 1
+    },
+    "dashboardApps": [
+      "auto_emailer",
+      "build_draft",
+      "demo",
+      "error_review",
+      "final_review",
+      "legal_review"
+    ],
+    "dashboardCustomized": false
+  }
+}
