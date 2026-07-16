@@ -1,7 +1,7 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-07-14T17:59:08.278Z",
+  "generatedAt": "2026-07-16T13:12:21.433Z",
   "days": [
     {
       "date": "2026-05-19",
@@ -1828,10 +1828,41 @@
     },
     {
       "date": "2026-07-14",
-      "toolsUsed": {},
+      "toolsUsed": {
+        "draft": 1
+      },
       "sessions": 1,
       "firstActiveAt": 1784051943233,
-      "lastActiveAt": 1784051943233,
+      "lastActiveAt": 1784055931039,
+      "tokens": {
+        "gemini-flash-lite-latest": {
+          "promptTokens": 17776,
+          "candidatesTokens": 1638,
+          "calls": 4
+        }
+      },
+      "tokensByTool": {
+        "_unknown": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 17776,
+            "candidatesTokens": 1638,
+            "calls": 4
+          }
+        }
+      },
+      "estCostUSD": 0.001039,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
+    },
+    {
+      "date": "2026-07-16",
+      "toolsUsed": {},
+      "sessions": 1,
+      "firstActiveAt": 1784207536403,
+      "lastActiveAt": 1784207536403,
       "tokens": {},
       "tokensByTool": {},
       "estCostUSD": 0,
@@ -1847,7 +1878,7 @@
     "initials": "AN",
     "kernelVersion": "v3-2026-06-13-dashfit",
     "installedAt": "2026-05-25T04:22:25.663Z",
-    "lastSeenAt": "2026-07-14T17:59:08.649Z",
+    "lastSeenAt": "2026-07-16T13:12:21.712Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -2382,13 +2413,13 @@
       "t130": "2026-07-10T15:41:31.008Z"
     },
     "stats": {
-      "totalActiveDays": 36,
+      "totalActiveDays": 37,
       "docsReviewed": 186,
       "draftsCreated": 57,
       "errorsFixed": 105,
       "risksFound": 123,
       "hoursSaved": 93,
-      "currentStreak": 2
+      "currentStreak": 1
     },
     "dashboardApps": [
       "legal_review",
