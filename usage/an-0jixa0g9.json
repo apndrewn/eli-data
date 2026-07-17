@@ -1,7 +1,7 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-07-16T18:10:37.842Z",
+  "generatedAt": "2026-07-17T13:45:16.166Z",
   "days": [
     {
       "date": "2026-05-19",
@@ -1860,18 +1860,18 @@
     {
       "date": "2026-07-16",
       "toolsUsed": {
-        "admin_fleet": 2,
+        "admin_fleet": 4,
         "draft": 1,
         "draft_templates": 1
       },
-      "sessions": 2,
+      "sessions": 4,
       "firstActiveAt": 1784207536403,
-      "lastActiveAt": 1784225432801,
+      "lastActiveAt": 1784233166076,
       "tokens": {
         "gemini-flash-lite-latest": {
-          "promptTokens": 3650,
-          "candidatesTokens": 500,
-          "calls": 1
+          "promptTokens": 5595,
+          "candidatesTokens": 976,
+          "calls": 2
         }
       },
       "tokensByTool": {
@@ -1881,9 +1881,31 @@
             "candidatesTokens": 500,
             "calls": 1
           }
+        },
+        "_unknown": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 1945,
+            "candidatesTokens": 476,
+            "calls": 1
+          }
         }
       },
-      "estCostUSD": 0.000246,
+      "estCostUSD": 0.000419,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
+    },
+    {
+      "date": "2026-07-17",
+      "toolsUsed": {},
+      "sessions": 1,
+      "firstActiveAt": 1784295911121,
+      "lastActiveAt": 1784295911121,
+      "tokens": {},
+      "tokensByTool": {},
+      "estCostUSD": 0,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -1896,7 +1918,7 @@
     "initials": "AN",
     "kernelVersion": "v3-2026-06-13-dashfit",
     "installedAt": "2026-05-25T04:22:25.663Z",
-    "lastSeenAt": "2026-07-16T18:10:38.062Z",
+    "lastSeenAt": "2026-07-17T13:45:16.437Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -2431,13 +2453,13 @@
       "t130": "2026-07-10T15:41:31.008Z"
     },
     "stats": {
-      "totalActiveDays": 37,
+      "totalActiveDays": 38,
       "docsReviewed": 186,
       "draftsCreated": 57,
       "errorsFixed": 105,
       "risksFound": 123,
       "hoursSaved": 93,
-      "currentStreak": 1
+      "currentStreak": 2
     },
     "dashboardApps": [
       "legal_review",
