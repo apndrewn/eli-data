@@ -1,7 +1,7 @@
 {
   "userName": "AR",
   "userKey": "ar",
-  "generatedAt": "2026-07-20T15:36:53.146Z",
+  "generatedAt": "2026-07-22T15:04:03.659Z",
   "days": [
     {
       "date": "2026-06-30",
@@ -181,28 +181,53 @@
     {
       "date": "2026-07-20",
       "toolsUsed": {
-        "draft": 1
+        "draft": 1,
+        "error": 1
       },
       "sessions": 1,
       "firstActiveAt": 1784561808131,
-      "lastActiveAt": 1784561812533,
+      "lastActiveAt": 1784562356402,
       "tokens": {
         "gemini-flash-lite-latest": {
-          "promptTokens": 2147,
-          "candidatesTokens": 748,
-          "calls": 1
+          "promptTokens": 12166,
+          "candidatesTokens": 1455,
+          "calls": 6
         }
       },
       "tokensByTool": {
         "draft": {
           "gemini-flash-lite-latest": {
-            "promptTokens": 2147,
-            "candidatesTokens": 748,
-            "calls": 1
+            "promptTokens": 7131,
+            "candidatesTokens": 1243,
+            "calls": 4
+          }
+        },
+        "error": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 5035,
+            "candidatesTokens": 212,
+            "calls": 2
           }
         }
       },
-      "estCostUSD": 0.000235,
+      "estCostUSD": 0.000778,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
+    },
+    {
+      "date": "2026-07-22",
+      "toolsUsed": {
+        "draft": 1
+      },
+      "sessions": 1,
+      "firstActiveAt": 1784732637160,
+      "lastActiveAt": 1784732639347,
+      "tokens": {},
+      "tokensByTool": {},
+      "estCostUSD": 0,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -215,7 +240,7 @@
     "initials": "AR",
     "kernelVersion": "v3-2026-06-13-dashfit",
     "installedAt": "2026-06-30T18:29:18.400Z",
-    "lastSeenAt": "2026-07-20T15:36:53.445Z",
+    "lastSeenAt": "2026-07-22T15:04:07.834Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -533,12 +558,12 @@
       "deal360": "2026-07-15T14:31:52.539Z"
     },
     "stats": {
-      "totalActiveDays": 6,
-      "docsReviewed": 6,
-      "draftsCreated": 12,
-      "errorsFixed": 12,
+      "totalActiveDays": 7,
+      "docsReviewed": 7,
+      "draftsCreated": 13,
+      "errorsFixed": 13,
       "risksFound": 5,
-      "hoursSaved": 3,
+      "hoursSaved": 3.5,
       "currentStreak": 1
     },
     "dashboardApps": [
