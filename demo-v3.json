@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-06-17T02:44:46.851Z",
+  "exportedAt": "2026-07-31T17:50:47.308Z",
   "sectionVersions": {
     "jsonTools": 1
   },
   "sections": {
     "jsonTools": [
       {
-        "releasedAt": "2026-06-17T02:44:46.850Z",
+        "releasedAt": "2026-07-31T17:50:47.307Z",
         "id": "demo",
         "label": "Training",
         "defaultEnabled": true,
@@ -33,8 +33,8 @@
           "hoverTip": "Guided training phases",
           "category": "Tools - ELI Core",
           "core": false,
-          "default": true,
-          "order": 3,
+          "default": false,
+          "order": 92,
           "statKey": "appOpenedDemo",
           "requiresApiKey": false,
           "requiresFooterDoc": false,
