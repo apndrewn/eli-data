@@ -1,7 +1,7 @@
 {
   "userName": "JL",
   "userKey": "jl",
-  "generatedAt": "2026-07-29T17:40:29.468Z",
+  "generatedAt": "2026-07-31T15:15:44.934Z",
   "days": [
     {
       "date": "2026-07-10",
@@ -220,10 +220,44 @@
     },
     {
       "date": "2026-07-29",
-      "toolsUsed": {},
+      "toolsUsed": {
+        "legal_review": 1,
+        "compare": 1
+      },
       "sessions": 1,
       "firstActiveAt": 1785346824457,
-      "lastActiveAt": 1785346824457,
+      "lastActiveAt": 1785346857010,
+      "tokens": {
+        "gemini-flash-lite-latest": {
+          "promptTokens": 28187,
+          "candidatesTokens": 4624,
+          "calls": 2
+        }
+      },
+      "tokensByTool": {
+        "compare": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 28187,
+            "candidatesTokens": 4624,
+            "calls": 2
+          }
+        }
+      },
+      "estCostUSD": 0.002052,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
+    },
+    {
+      "date": "2026-07-31",
+      "toolsUsed": {
+        "draft": 1
+      },
+      "sessions": 1,
+      "firstActiveAt": 1785510939921,
+      "lastActiveAt": 1785510940776,
       "tokens": {},
       "tokensByTool": {},
       "estCostUSD": 0,
@@ -239,7 +273,7 @@
     "initials": "JL",
     "kernelVersion": "v3-2026-06-13-dashfit",
     "installedAt": "2026-07-10T13:27:22.388Z",
-    "lastSeenAt": "2026-07-29T17:40:29.739Z",
+    "lastSeenAt": "2026-07-31T15:15:45.208Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -484,7 +518,7 @@
       }
     ],
     "appliedOverrides": [],
-    "trophies": 9,
+    "trophies": 12,
     "trophyIds": [
       "t1",
       "t41",
@@ -494,7 +528,10 @@
       "t137",
       "t121",
       "t107",
-      "t2"
+      "t2",
+      "t161",
+      "t138",
+      "t169"
     ],
     "trophyDates": {
       "t1": "2026-07-10T13:28:11.712Z",
@@ -505,15 +542,19 @@
       "t137": "2026-07-22T18:06:34.010Z",
       "t121": "2026-07-22T18:17:22.921Z",
       "t107": "2026-07-22T20:04:34.589Z",
-      "t2": "2026-07-27T18:21:15.439Z"
+      "t2": "2026-07-27T18:21:15.439Z",
+      "t161": "2026-07-29T17:40:53.446Z",
+      "deal360": "2026-07-29T17:40:57.020Z",
+      "t138": "2026-07-31T15:15:41.456Z",
+      "t169": "2026-07-31T15:15:41.457Z"
     },
     "stats": {
-      "totalActiveDays": 6,
-      "docsReviewed": 7,
+      "totalActiveDays": 7,
+      "docsReviewed": 9,
       "draftsCreated": 5,
       "errorsFixed": 9,
-      "risksFound": 0,
-      "hoursSaved": 3.5,
+      "risksFound": 12,
+      "hoursSaved": 4.5,
       "currentStreak": 1
     },
     "dashboardApps": [
