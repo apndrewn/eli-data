@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-07-31T17:44:00.231Z",
+  "lastUpdated": "2026-07-31T17:45:28.661Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -178,6 +178,20 @@
       "filename": "review_redlines-v3.json",
       "size": 1186383,
       "label": "Review Redlines",
+      "kind": "tool",
+      "category": "External Innovation",
+      "audience": [
+        "all"
+      ],
+      "changelog": ""
+    },
+    {
+      "id": "team_guidance",
+      "version": null,
+      "lastUpdated": "2026-07-31T17:43:59.352Z",
+      "filename": "team_guidance-v3.json",
+      "size": 46357,
+      "label": "Guidance",
       "kind": "tool",
       "category": "External Innovation",
       "audience": [
