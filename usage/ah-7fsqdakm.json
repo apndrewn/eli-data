@@ -1,7 +1,7 @@
 {
   "userName": "A(",
   "userKey": "ah",
-  "generatedAt": "2026-07-31T14:20:05.776Z",
+  "generatedAt": "2026-07-31T17:45:13.387Z",
   "days": [
     {
       "date": "2026-07-30",
@@ -39,29 +39,29 @@
       "date": "2026-07-31",
       "toolsUsed": {
         "ask_eli": 1,
-        "legal_review": 1,
-        "review_redlines": 1
+        "legal_review": 12,
+        "review_redlines": 8
       },
-      "sessions": 2,
+      "sessions": 10,
       "firstActiveAt": 1785506062735,
-      "lastActiveAt": 1785507600761,
+      "lastActiveAt": 1785519908363,
       "tokens": {
         "gemini-flash-lite-latest": {
-          "promptTokens": 67810,
-          "candidatesTokens": 5013,
-          "calls": 33
+          "promptTokens": 574778,
+          "candidatesTokens": 48879,
+          "calls": 358
         }
       },
       "tokensByTool": {
         "review_redlines": {
           "gemini-flash-lite-latest": {
-            "promptTokens": 67810,
-            "candidatesTokens": 5013,
-            "calls": 33
+            "promptTokens": 574778,
+            "candidatesTokens": 48879,
+            "calls": 358
           }
         }
       },
-      "estCostUSD": 0.003715,
+      "estCostUSD": 0.032767,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -74,7 +74,7 @@
     "initials": "A(",
     "kernelVersion": "v3-2026-06-13-dashfit",
     "installedAt": "2026-07-31T00:45:31.641Z",
-    "lastSeenAt": "2026-07-31T14:20:11.271Z",
+    "lastSeenAt": "2026-07-31T17:45:13.593Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -381,12 +381,17 @@
       },
       {
         "id": "review_redlines",
-        "releasedAt": "2026-07-31T03:48:32.377Z",
+        "releasedAt": "2026-07-31T16:27:35.250Z",
         "disabled": false
       },
       {
         "id": "survey_tester",
         "releasedAt": "2026-05-25T05:24:23.316Z",
+        "disabled": false
+      },
+      {
+        "id": "team_guidance",
+        "releasedAt": "2026-07-31T17:43:59.352Z",
         "disabled": false
       },
       {
@@ -458,11 +463,11 @@
     },
     "stats": {
       "totalActiveDays": 2,
-      "docsReviewed": 16,
+      "docsReviewed": 23,
       "draftsCreated": 0,
       "errorsFixed": 0,
       "risksFound": 0,
-      "hoursSaved": 8,
+      "hoursSaved": 11.5,
       "currentStreak": 2
     },
     "dashboardApps": [
