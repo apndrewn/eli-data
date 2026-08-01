@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-08-01T22:04:33.859Z",
+  "lastUpdated": "2026-08-01T22:08:22.147Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -188,9 +188,9 @@
     {
       "id": "team_guidance",
       "version": null,
-      "lastUpdated": "2026-08-01T19:14:20.940Z",
+      "lastUpdated": "2026-08-01T22:07:27.750Z",
       "filename": "team_guidance-v3.json",
-      "size": 113878,
+      "size": 115009,
       "label": "Guidance",
       "kind": "tool",
       "category": "Tools - ELI Core",
@@ -827,9 +827,9 @@
     {
       "id": "agreement_glance",
       "version": null,
-      "lastUpdated": "2026-06-17T04:21:19.665Z",
+      "lastUpdated": "2026-08-01T22:07:27.638Z",
       "filename": "agreement_glance-v3.json",
-      "size": 45362,
+      "size": 47480,
       "label": "Agreement at a Glance",
       "kind": "tool",
       "category": "Tools",
