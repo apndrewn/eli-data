@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-08-01T19:03:41.288Z",
+  "lastUpdated": "2026-08-01T19:16:31.953Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -174,9 +174,9 @@
     {
       "id": "review_redlines",
       "version": null,
-      "lastUpdated": "2026-08-01T18:51:41.345Z",
+      "lastUpdated": "2026-08-01T19:15:10.807Z",
       "filename": "review_redlines-v3.json",
-      "size": 1188740,
+      "size": 1190930,
       "label": "Review Redlines",
       "kind": "tool",
       "category": "External Innovation",
@@ -188,9 +188,9 @@
     {
       "id": "team_guidance",
       "version": null,
-      "lastUpdated": "2026-08-01T19:03:23.054Z",
+      "lastUpdated": "2026-08-01T19:14:20.940Z",
       "filename": "team_guidance-v3.json",
-      "size": 103428,
+      "size": 113878,
       "label": "Guidance",
       "kind": "tool",
       "category": "Tools - ELI Core",
