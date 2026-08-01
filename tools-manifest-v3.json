@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-08-01T18:51:42.190Z",
+  "lastUpdated": "2026-08-01T18:57:35.462Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -188,9 +188,9 @@
     {
       "id": "team_guidance",
       "version": null,
-      "lastUpdated": "2026-08-01T18:37:19.684Z",
+      "lastUpdated": "2026-08-01T18:56:51.167Z",
       "filename": "team_guidance-v3.json",
-      "size": 101936,
+      "size": 103239,
       "label": "Guidance",
       "kind": "tool",
       "category": "Tools - ELI Core",
