@@ -1,7 +1,7 @@
 {
   "userName": "A(",
   "userKey": "ah",
-  "generatedAt": "2026-08-01T17:53:01.298Z",
+  "generatedAt": "2026-08-01T22:01:09.151Z",
   "days": [
     {
       "date": "2026-07-30",
@@ -77,27 +77,38 @@
     },
     {
       "date": "2026-08-01",
-      "toolsUsed": {},
-      "sessions": 4,
+      "toolsUsed": {
+        "legal_review": 4,
+        "review_redlines": 3,
+        "ask_eli": 1
+      },
+      "sessions": 21,
       "firstActiveAt": 1785558189704,
-      "lastActiveAt": 1785606776293,
+      "lastActiveAt": 1785621665621,
       "tokens": {
         "gemini-flash-lite-latest": {
-          "promptTokens": 33257,
-          "candidatesTokens": 14432,
-          "calls": 11
+          "promptTokens": 219940,
+          "candidatesTokens": 53950,
+          "calls": 138
         }
       },
       "tokensByTool": {
         "_unknown": {
           "gemini-flash-lite-latest": {
-            "promptTokens": 33257,
-            "candidatesTokens": 14432,
-            "calls": 11
+            "promptTokens": 88104,
+            "candidatesTokens": 43234,
+            "calls": 48
+          }
+        },
+        "review_redlines": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 131836,
+            "candidatesTokens": 10716,
+            "calls": 90
           }
         }
       },
-      "estCostUSD": 0.004217,
+      "estCostUSD": 0.019588,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -110,7 +121,7 @@
     "initials": "A(",
     "kernelVersion": "v3-2026-06-13-dashfit",
     "installedAt": "2026-07-31T00:45:31.641Z",
-    "lastSeenAt": "2026-08-01T17:53:01.504Z",
+    "lastSeenAt": "2026-08-01T22:01:09.373Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -417,12 +428,17 @@
       },
       {
         "id": "review_redlines",
-        "releasedAt": "2026-07-31T18:27:09.993Z",
+        "releasedAt": "2026-08-01T19:15:10.807Z",
         "disabled": false
       },
       {
         "id": "survey_tester",
         "releasedAt": "2026-05-25T05:24:23.316Z",
+        "disabled": false
+      },
+      {
+        "id": "team_guidance",
+        "releasedAt": "2026-08-01T19:14:20.940Z",
         "disabled": false
       },
       {
@@ -474,11 +490,6 @@
         "id": "workflow_creator",
         "releasedAt": "2026-06-09T12:28:19.764Z",
         "disabled": false
-      },
-      {
-        "id": "team_guidance",
-        "releasedAt": "2026-08-01T04:33:11.663Z",
-        "disabled": false
       }
     ],
     "appliedOverrides": [],
@@ -505,11 +516,11 @@
     },
     "stats": {
       "totalActiveDays": 3,
-      "docsReviewed": 24,
+      "docsReviewed": 26,
       "draftsCreated": 0,
       "errorsFixed": 0,
       "risksFound": 0,
-      "hoursSaved": 12,
+      "hoursSaved": 13,
       "currentStreak": 3
     },
     "dashboardApps": [
