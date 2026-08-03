@@ -1,7 +1,7 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-07-30T13:44:58.327Z",
+  "generatedAt": "2026-08-03T12:35:58.308Z",
   "days": [
     {
       "date": "2026-07-29",
@@ -45,9 +45,38 @@
     {
       "date": "2026-07-30",
       "toolsUsed": {},
-      "sessions": 1,
+      "sessions": 2,
       "firstActiveAt": 1785419093320,
-      "lastActiveAt": 1785419093320,
+      "lastActiveAt": 1785423516309,
+      "tokens": {
+        "gemini-flash-lite-latest": {
+          "promptTokens": 186152,
+          "candidatesTokens": 4856,
+          "calls": 5
+        }
+      },
+      "tokensByTool": {
+        "_unknown": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 186152,
+            "candidatesTokens": 4856,
+            "calls": 5
+          }
+        }
+      },
+      "estCostUSD": 0.008417,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
+    },
+    {
+      "date": "2026-08-03",
+      "toolsUsed": {},
+      "sessions": 1,
+      "firstActiveAt": 1785760553294,
+      "lastActiveAt": 1785760553294,
       "tokens": {},
       "tokensByTool": {},
       "estCostUSD": 0,
@@ -63,7 +92,7 @@
     "initials": "AN",
     "kernelVersion": "v3-2026-06-13-dashfit",
     "installedAt": "2026-07-29T14:09:25.615Z",
-    "lastSeenAt": "2026-07-30T13:44:59.746Z",
+    "lastSeenAt": "2026-08-03T12:35:58.611Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -430,26 +459,28 @@
       }
     ],
     "appliedOverrides": [],
-    "trophies": 3,
+    "trophies": 4,
     "trophyIds": [
       "t41",
       "t11",
-      "t56"
+      "t56",
+      "t156"
     ],
     "trophyDates": {
       "t41": "2026-07-29T14:09:45.278Z",
       "t11": "2026-07-29T14:12:59.748Z",
       "t56": "2026-07-29T14:13:47.661Z",
-      "deal360": "2026-07-29T14:13:47.661Z"
+      "deal360": "2026-07-29T14:13:47.661Z",
+      "t156": "2026-07-30T14:58:31.798Z"
     },
     "stats": {
-      "totalActiveDays": 2,
+      "totalActiveDays": 3,
       "docsReviewed": 1,
       "draftsCreated": 0,
       "errorsFixed": 0,
       "risksFound": 14,
       "hoursSaved": 0.5,
-      "currentStreak": 2
+      "currentStreak": 1
     },
     "dashboardApps": [
       "auto_emailer",
