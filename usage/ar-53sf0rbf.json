@@ -1,7 +1,7 @@
 {
   "userName": "AR",
   "userKey": "ar",
-  "generatedAt": "2026-08-04T15:14:00.814Z",
+  "generatedAt": "2026-08-04T18:35:12.368Z",
   "days": [
     {
       "date": "2026-06-30",
@@ -397,10 +397,12 @@
     },
     {
       "date": "2026-08-04",
-      "toolsUsed": {},
-      "sessions": 1,
+      "toolsUsed": {
+        "draft": 1
+      },
+      "sessions": 2,
       "firstActiveAt": 1785856435304,
-      "lastActiveAt": 1785856435304,
+      "lastActiveAt": 1785868509365,
       "tokens": {},
       "tokensByTool": {},
       "estCostUSD": 0,
@@ -416,7 +418,7 @@
     "initials": "AR",
     "kernelVersion": "v3-2026-06-13-dashfit",
     "installedAt": "2026-06-30T18:29:18.400Z",
-    "lastSeenAt": "2026-08-04T15:14:03.168Z",
+    "lastSeenAt": "2026-08-04T18:35:14.063Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -471,7 +473,7 @@
       },
       {
         "id": "agreement_glance",
-        "releasedAt": "2026-06-17T04:21:19.665Z",
+        "releasedAt": "2026-08-01T22:10:46.930Z",
         "disabled": false
       },
       {
@@ -511,7 +513,7 @@
       },
       {
         "id": "demo",
-        "releasedAt": "2026-06-17T02:44:46.850Z",
+        "releasedAt": "2026-07-31T17:50:47.307Z",
         "disabled": false
       },
       {
@@ -621,7 +623,12 @@
       },
       {
         "id": "review_redlines",
-        "releasedAt": "2026-07-31T15:36:43.339Z",
+        "releasedAt": "2026-08-01T22:04:32.696Z",
+        "disabled": false
+      },
+      {
+        "id": "team_guidance",
+        "releasedAt": "2026-08-01T22:07:27.750Z",
         "disabled": false
       },
       {
@@ -747,10 +754,10 @@
     "dashboardApps": [
       "auto_emailer",
       "build_draft",
-      "demo",
       "error_review",
       "final_review",
-      "legal_review"
+      "legal_review",
+      "team_guidance"
     ],
     "dashboardCustomized": false
   }
