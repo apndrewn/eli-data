@@ -1,7 +1,7 @@
 {
   "userName": "JL",
   "userKey": "jl",
-  "generatedAt": "2026-07-31T15:15:44.934Z",
+  "generatedAt": "2026-08-05T14:24:59.550Z",
   "days": [
     {
       "date": "2026-07-10",
@@ -257,10 +257,55 @@
       },
       "sessions": 1,
       "firstActiveAt": 1785510939921,
-      "lastActiveAt": 1785510940776,
-      "tokens": {},
-      "tokensByTool": {},
-      "estCostUSD": 0,
+      "lastActiveAt": 1785511288192,
+      "tokens": {
+        "gemini-flash-lite-latest": {
+          "promptTokens": 4749,
+          "candidatesTokens": 1277,
+          "calls": 2
+        }
+      },
+      "tokensByTool": {
+        "draft": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 4749,
+            "candidatesTokens": 1277,
+            "calls": 2
+          }
+        }
+      },
+      "estCostUSD": 0.000445,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
+    },
+    {
+      "date": "2026-08-05",
+      "toolsUsed": {
+        "draft": 1
+      },
+      "sessions": 1,
+      "firstActiveAt": 1785939894541,
+      "lastActiveAt": 1785939897599,
+      "tokens": {
+        "gemini-flash-lite-latest": {
+          "promptTokens": 2223,
+          "candidatesTokens": 863,
+          "calls": 1
+        }
+      },
+      "tokensByTool": {
+        "draft": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 2223,
+            "candidatesTokens": 863,
+            "calls": 1
+          }
+        }
+      },
+      "estCostUSD": 0.000262,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -273,7 +318,7 @@
     "initials": "JL",
     "kernelVersion": "v3-2026-06-13-dashfit",
     "installedAt": "2026-07-10T13:27:22.388Z",
-    "lastSeenAt": "2026-07-31T15:15:45.208Z",
+    "lastSeenAt": "2026-08-05T14:24:59.787Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -518,7 +563,7 @@
       }
     ],
     "appliedOverrides": [],
-    "trophies": 12,
+    "trophies": 13,
     "trophyIds": [
       "t1",
       "t41",
@@ -531,7 +576,8 @@
       "t2",
       "t161",
       "t138",
-      "t169"
+      "t169",
+      "t166"
     ],
     "trophyDates": {
       "t1": "2026-07-10T13:28:11.712Z",
@@ -546,12 +592,13 @@
       "t161": "2026-07-29T17:40:53.446Z",
       "deal360": "2026-07-29T17:40:57.020Z",
       "t138": "2026-07-31T15:15:41.456Z",
-      "t169": "2026-07-31T15:15:41.457Z"
+      "t169": "2026-07-31T15:15:41.457Z",
+      "t166": "2026-08-05T14:24:55.231Z"
     },
     "stats": {
-      "totalActiveDays": 7,
+      "totalActiveDays": 8,
       "docsReviewed": 9,
-      "draftsCreated": 5,
+      "draftsCreated": 6,
       "errorsFixed": 9,
       "risksFound": 12,
       "hoursSaved": 4.5,
