@@ -1,7 +1,7 @@
 {
   "userName": "JL",
   "userKey": "jl",
-  "generatedAt": "2026-08-05T14:24:59.550Z",
+  "generatedAt": "2026-08-06T00:04:55.328Z",
   "days": [
     {
       "date": "2026-07-10",
@@ -284,28 +284,36 @@
     {
       "date": "2026-08-05",
       "toolsUsed": {
-        "draft": 1
+        "draft": 2,
+        "error": 1
       },
-      "sessions": 1,
+      "sessions": 2,
       "firstActiveAt": 1785939894541,
-      "lastActiveAt": 1785939897599,
+      "lastActiveAt": 1785974693686,
       "tokens": {
         "gemini-flash-lite-latest": {
-          "promptTokens": 2223,
-          "candidatesTokens": 863,
-          "calls": 1
+          "promptTokens": 9546,
+          "candidatesTokens": 2158,
+          "calls": 4
         }
       },
       "tokensByTool": {
         "draft": {
           "gemini-flash-lite-latest": {
-            "promptTokens": 2223,
-            "candidatesTokens": 863,
+            "promptTokens": 6848,
+            "candidatesTokens": 2100,
+            "calls": 3
+          }
+        },
+        "error": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 2698,
+            "candidatesTokens": 58,
             "calls": 1
           }
         }
       },
-      "estCostUSD": 0.000262,
+      "estCostUSD": 0.000813,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -318,7 +326,7 @@
     "initials": "JL",
     "kernelVersion": "v3-2026-06-13-dashfit",
     "installedAt": "2026-07-10T13:27:22.388Z",
-    "lastSeenAt": "2026-08-05T14:24:59.787Z",
+    "lastSeenAt": "2026-08-06T00:04:55.565Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -373,7 +381,7 @@
       },
       {
         "id": "agreement_glance",
-        "releasedAt": "2026-06-17T04:21:19.665Z",
+        "releasedAt": "2026-08-01T22:10:46.930Z",
         "disabled": false
       },
       {
@@ -418,7 +426,7 @@
       },
       {
         "id": "demo",
-        "releasedAt": "2026-06-17T02:44:46.850Z",
+        "releasedAt": "2026-07-31T17:50:47.307Z",
         "disabled": false
       },
       {
@@ -528,7 +536,12 @@
       },
       {
         "id": "review_redlines",
-        "releasedAt": "2026-06-30T06:10:52.900Z",
+        "releasedAt": "2026-08-01T22:04:32.696Z",
+        "disabled": false
+      },
+      {
+        "id": "team_guidance",
+        "releasedAt": "2026-08-01T22:07:27.750Z",
         "disabled": false
       },
       {
@@ -597,20 +610,20 @@
     },
     "stats": {
       "totalActiveDays": 8,
-      "docsReviewed": 9,
-      "draftsCreated": 6,
+      "docsReviewed": 10,
+      "draftsCreated": 7,
       "errorsFixed": 9,
       "risksFound": 12,
-      "hoursSaved": 4.5,
+      "hoursSaved": 5,
       "currentStreak": 1
     },
     "dashboardApps": [
       "auto_emailer",
       "build_draft",
-      "demo",
       "error_review",
       "final_review",
-      "legal_review"
+      "legal_review",
+      "team_guidance"
     ],
     "dashboardCustomized": false
   }
