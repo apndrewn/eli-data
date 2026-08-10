@@ -1,7 +1,7 @@
 {
   "userName": "JL",
   "userKey": "jl",
-  "generatedAt": "2026-08-06T14:24:09.847Z",
+  "generatedAt": "2026-08-10T14:45:00.775Z",
   "days": [
     {
       "date": "2026-07-10",
@@ -322,13 +322,46 @@
     },
     {
       "date": "2026-08-06",
-      "toolsUsed": {},
+      "toolsUsed": {
+        "draft_templates": 1
+      },
       "sessions": 1,
       "firstActiveAt": 1786026244836,
-      "lastActiveAt": 1786026244836,
+      "lastActiveAt": 1786026253757,
       "tokens": {},
       "tokensByTool": {},
       "estCostUSD": 0,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
+    },
+    {
+      "date": "2026-08-10",
+      "toolsUsed": {
+        "draft": 1
+      },
+      "sessions": 1,
+      "firstActiveAt": 1786373095765,
+      "lastActiveAt": 1786373099472,
+      "tokens": {
+        "gemini-flash-lite-latest": {
+          "promptTokens": 2137,
+          "candidatesTokens": 942,
+          "calls": 1
+        }
+      },
+      "tokensByTool": {
+        "draft": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 2137,
+            "candidatesTokens": 942,
+            "calls": 1
+          }
+        }
+      },
+      "estCostUSD": 0.000274,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -341,7 +374,7 @@
     "initials": "JL",
     "kernelVersion": "v3-2026-06-13-dashfit",
     "installedAt": "2026-07-10T13:27:22.388Z",
-    "lastSeenAt": "2026-08-06T14:24:10.052Z",
+    "lastSeenAt": "2026-08-10T14:45:01.034Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -550,6 +583,11 @@
         "disabled": false
       },
       {
+        "id": "review_redlines",
+        "releasedAt": "2026-08-06T05:21:24.232Z",
+        "disabled": false
+      },
+      {
         "id": "team_guidance",
         "releasedAt": "2026-08-01T22:07:27.750Z",
         "disabled": false
@@ -582,11 +620,6 @@
       {
         "id": "version_history",
         "releasedAt": "2026-06-13T04:06:52.044Z",
-        "disabled": false
-      },
-      {
-        "id": "review_redlines",
-        "releasedAt": "2026-08-06T05:21:24.232Z",
         "disabled": false
       }
     ],
@@ -628,13 +661,13 @@
       "t162": "2026-08-06T00:20:09.627Z"
     },
     "stats": {
-      "totalActiveDays": 9,
+      "totalActiveDays": 10,
       "docsReviewed": 11,
       "draftsCreated": 8,
       "errorsFixed": 10,
       "risksFound": 12,
       "hoursSaved": 5.5,
-      "currentStreak": 2
+      "currentStreak": 1
     },
     "dashboardApps": [
       "auto_emailer",
