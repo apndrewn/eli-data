@@ -1,7 +1,7 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-08-10T17:29:18.672Z",
+  "generatedAt": "2026-08-10T21:17:30.292Z",
   "days": [
     {
       "date": "2026-07-29",
@@ -232,10 +232,12 @@
     },
     {
       "date": "2026-08-10",
-      "toolsUsed": {},
-      "sessions": 1,
+      "toolsUsed": {
+        "final_review": 1
+      },
+      "sessions": 8,
       "firstActiveAt": 1786382953657,
-      "lastActiveAt": 1786382953657,
+      "lastActiveAt": 1786396645960,
       "tokens": {},
       "tokensByTool": {},
       "estCostUSD": 0,
@@ -251,7 +253,7 @@
     "initials": "AN",
     "kernelVersion": "v3-2026-06-13-dashfit",
     "installedAt": "2026-07-29T14:09:25.615Z",
-    "lastSeenAt": "2026-08-10T17:29:18.908Z",
+    "lastSeenAt": "2026-08-10T21:17:30.530Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
