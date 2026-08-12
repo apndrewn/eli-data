@@ -1,7 +1,7 @@
 {
   "userName": "A(",
   "userKey": "ah",
-  "generatedAt": "2026-08-11T03:52:01.043Z",
+  "generatedAt": "2026-08-12T02:07:34.525Z",
   "days": [
     {
       "date": "2026-07-30",
@@ -118,12 +118,44 @@
     {
       "date": "2026-08-10",
       "toolsUsed": {},
-      "sessions": 1,
+      "sessions": 5,
       "firstActiveAt": 1786420316031,
-      "lastActiveAt": 1786420316031,
+      "lastActiveAt": 1786420658568,
       "tokens": {},
       "tokensByTool": {},
       "estCostUSD": 0,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
+    },
+    {
+      "date": "2026-08-11",
+      "toolsUsed": {
+        "legal_review": 4,
+        "review_redlines": 3
+      },
+      "sessions": 3,
+      "firstActiveAt": 1786421713603,
+      "lastActiveAt": 1786500449514,
+      "tokens": {
+        "gemini-flash-lite-latest": {
+          "promptTokens": 112341,
+          "candidatesTokens": 7502,
+          "calls": 78
+        }
+      },
+      "tokensByTool": {
+        "review_redlines": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 112341,
+            "candidatesTokens": 7502,
+            "calls": 78
+          }
+        }
+      },
+      "estCostUSD": 0.005994,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -136,7 +168,7 @@
     "initials": "A(",
     "kernelVersion": "v3-2026-06-13-dashfit",
     "installedAt": "2026-07-31T00:45:31.641Z",
-    "lastSeenAt": "2026-08-11T03:52:01.269Z",
+    "lastSeenAt": "2026-08-12T02:07:37.905Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -443,7 +475,7 @@
       },
       {
         "id": "review_redlines",
-        "releasedAt": "2026-08-01T22:04:32.696Z",
+        "releasedAt": "2026-08-11T04:11:20.394Z",
         "disabled": false
       },
       {
@@ -453,7 +485,7 @@
       },
       {
         "id": "team_guidance",
-        "releasedAt": "2026-08-01T19:14:20.940Z",
+        "releasedAt": "2026-08-11T03:55:28.215Z",
         "disabled": false
       },
       {
@@ -530,13 +562,13 @@
       "t116": "2026-08-01T04:23:13.033Z"
     },
     "stats": {
-      "totalActiveDays": 4,
-      "docsReviewed": 27,
+      "totalActiveDays": 5,
+      "docsReviewed": 29,
       "draftsCreated": 0,
       "errorsFixed": 0,
       "risksFound": 0,
-      "hoursSaved": 13.5,
-      "currentStreak": 1
+      "hoursSaved": 14.5,
+      "currentStreak": 2
     },
     "dashboardApps": [
       "auto_emailer",
