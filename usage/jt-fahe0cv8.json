@@ -1,7 +1,7 @@
 {
   "userName": "JT",
   "userKey": "jt",
-  "generatedAt": "2026-08-10T17:46:28.736Z",
+  "generatedAt": "2026-08-12T13:55:52.874Z",
   "days": [
     {
       "date": "2026-08-06",
@@ -25,24 +25,55 @@
       },
       "sessions": 1,
       "firstActiveAt": 1786383983723,
-      "lastActiveAt": 1786383987190,
+      "lastActiveAt": 1786384102784,
       "tokens": {
         "gemini-flash-lite-latest": {
-          "promptTokens": 2140,
-          "candidatesTokens": 781,
+          "promptTokens": 4444,
+          "candidatesTokens": 960,
+          "calls": 2
+        }
+      },
+      "tokensByTool": {
+        "draft": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 4444,
+            "candidatesTokens": 960,
+            "calls": 2
+          }
+        }
+      },
+      "estCostUSD": 0.00037,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
+    },
+    {
+      "date": "2026-08-12",
+      "toolsUsed": {
+        "draft": 1
+      },
+      "sessions": 1,
+      "firstActiveAt": 1786542947870,
+      "lastActiveAt": 1786542951912,
+      "tokens": {
+        "gemini-flash-lite-latest": {
+          "promptTokens": 2268,
+          "candidatesTokens": 1098,
           "calls": 1
         }
       },
       "tokensByTool": {
         "draft": {
           "gemini-flash-lite-latest": {
-            "promptTokens": 2140,
-            "candidatesTokens": 781,
+            "promptTokens": 2268,
+            "candidatesTokens": 1098,
             "calls": 1
           }
         }
       },
-      "estCostUSD": 0.000242,
+      "estCostUSD": 0.00031,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -55,7 +86,7 @@
     "initials": "JT",
     "kernelVersion": "v3-2026-06-13-dashfit",
     "installedAt": "2026-08-06T18:58:29.523Z",
-    "lastSeenAt": "2026-08-10T17:46:28.900Z",
+    "lastSeenAt": "2026-08-12T13:55:54.135Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -259,16 +290,6 @@
         "disabled": false
       },
       {
-        "id": "review_redlines",
-        "releasedAt": "2026-08-06T05:21:24.232Z",
-        "disabled": false
-      },
-      {
-        "id": "team_guidance",
-        "releasedAt": "2026-08-01T22:07:27.750Z",
-        "disabled": false
-      },
-      {
         "id": "template_searcher",
         "releasedAt": "2026-05-26T00:18:24.155Z",
         "disabled": false
@@ -292,6 +313,16 @@
         "id": "version_history",
         "releasedAt": "2026-06-13T04:06:52.044Z",
         "disabled": false
+      },
+      {
+        "id": "team_guidance",
+        "releasedAt": "2026-08-11T03:55:28.215Z",
+        "disabled": false
+      },
+      {
+        "id": "review_redlines",
+        "releasedAt": "2026-08-11T04:11:20.394Z",
+        "disabled": false
       }
     ],
     "appliedOverrides": [],
@@ -303,9 +334,9 @@
       "t1": "2026-08-10T17:46:24.567Z"
     },
     "stats": {
-      "totalActiveDays": 2,
+      "totalActiveDays": 3,
       "docsReviewed": 0,
-      "draftsCreated": 0,
+      "draftsCreated": 1,
       "errorsFixed": 0,
       "risksFound": 0,
       "hoursSaved": 0,
