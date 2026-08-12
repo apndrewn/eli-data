@@ -1,7 +1,7 @@
 {
   "userName": "JL",
   "userKey": "jl",
-  "generatedAt": "2026-08-11T20:52:03.238Z",
+  "generatedAt": "2026-08-12T14:46:09.315Z",
   "days": [
     {
       "date": "2026-07-10",
@@ -378,10 +378,43 @@
     },
     {
       "date": "2026-08-11",
-      "toolsUsed": {},
+      "toolsUsed": {
+        "error": 1
+      },
       "sessions": 1,
       "firstActiveAt": 1786481518225,
-      "lastActiveAt": 1786481518225,
+      "lastActiveAt": 1786481548607,
+      "tokens": {
+        "gemini-flash-lite-latest": {
+          "promptTokens": 9384,
+          "candidatesTokens": 241,
+          "calls": 1
+        }
+      },
+      "tokensByTool": {
+        "error": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 9384,
+            "candidatesTokens": 241,
+            "calls": 1
+          }
+        }
+      },
+      "estCostUSD": 0.000424,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
+    },
+    {
+      "date": "2026-08-12",
+      "toolsUsed": {
+        "legal_review": 1
+      },
+      "sessions": 1,
+      "firstActiveAt": 1786545964309,
+      "lastActiveAt": 1786545967702,
       "tokens": {},
       "tokensByTool": {},
       "estCostUSD": 0,
@@ -397,7 +430,7 @@
     "initials": "JL",
     "kernelVersion": "v3-2026-06-13-dashfit",
     "installedAt": "2026-07-10T13:27:22.388Z",
-    "lastSeenAt": "2026-08-11T20:52:03.476Z",
+    "lastSeenAt": "2026-08-12T14:46:09.609Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -607,12 +640,12 @@
       },
       {
         "id": "review_redlines",
-        "releasedAt": "2026-08-06T05:21:24.232Z",
+        "releasedAt": "2026-08-11T04:11:20.394Z",
         "disabled": false
       },
       {
         "id": "team_guidance",
-        "releasedAt": "2026-08-01T22:07:27.750Z",
+        "releasedAt": "2026-08-11T03:55:28.215Z",
         "disabled": false
       },
       {
@@ -647,7 +680,7 @@
       }
     ],
     "appliedOverrides": [],
-    "trophies": 15,
+    "trophies": 16,
     "trophyIds": [
       "t1",
       "t41",
@@ -663,7 +696,8 @@
       "t169",
       "t166",
       "t115",
-      "t162"
+      "t162",
+      "t111"
     ],
     "trophyDates": {
       "t1": "2026-07-10T13:28:11.712Z",
@@ -681,16 +715,17 @@
       "t169": "2026-07-31T15:15:41.457Z",
       "t166": "2026-08-05T14:24:55.231Z",
       "t115": "2026-08-06T00:19:07.353Z",
-      "t162": "2026-08-06T00:20:09.627Z"
+      "t162": "2026-08-06T00:20:09.627Z",
+      "t111": "2026-08-12T14:46:05.136Z"
     },
     "stats": {
-      "totalActiveDays": 11,
-      "docsReviewed": 13,
+      "totalActiveDays": 12,
+      "docsReviewed": 14,
       "draftsCreated": 10,
-      "errorsFixed": 12,
+      "errorsFixed": 14,
       "risksFound": 12,
-      "hoursSaved": 6.5,
-      "currentStreak": 2
+      "hoursSaved": 7,
+      "currentStreak": 3
     },
     "dashboardApps": [
       "auto_emailer",
