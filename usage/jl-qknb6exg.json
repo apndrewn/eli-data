@@ -1,7 +1,7 @@
 {
   "userName": "JL",
   "userKey": "jl",
-  "generatedAt": "2026-08-12T14:46:09.315Z",
+  "generatedAt": "2026-08-13T18:34:00.988Z",
   "days": [
     {
       "date": "2026-07-10",
@@ -410,11 +410,57 @@
     {
       "date": "2026-08-12",
       "toolsUsed": {
-        "legal_review": 1
+        "legal_review": 1,
+        "review_redlines": 1,
+        "draft": 2,
+        "error": 1
       },
-      "sessions": 1,
+      "sessions": 3,
       "firstActiveAt": 1786545964309,
-      "lastActiveAt": 1786545967702,
+      "lastActiveAt": 1786565440411,
+      "tokens": {
+        "gemini-flash-lite-latest": {
+          "promptTokens": 113379,
+          "candidatesTokens": 9140,
+          "calls": 54
+        }
+      },
+      "tokensByTool": {
+        "review_redlines": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 54434,
+            "candidatesTokens": 2793,
+            "calls": 45
+          }
+        },
+        "draft": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 5449,
+            "candidatesTokens": 2017,
+            "calls": 3
+          }
+        },
+        "error": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 53496,
+            "candidatesTokens": 4330,
+            "calls": 6
+          }
+        }
+      },
+      "estCostUSD": 0.006363,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
+    },
+    {
+      "date": "2026-08-13",
+      "toolsUsed": {},
+      "sessions": 1,
+      "firstActiveAt": 1786646035971,
+      "lastActiveAt": 1786646035971,
       "tokens": {},
       "tokensByTool": {},
       "estCostUSD": 0,
@@ -430,7 +476,7 @@
     "initials": "JL",
     "kernelVersion": "v3-2026-06-13-dashfit",
     "installedAt": "2026-07-10T13:27:22.388Z",
-    "lastSeenAt": "2026-08-12T14:46:09.609Z",
+    "lastSeenAt": "2026-08-13T18:34:01.221Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -719,13 +765,13 @@
       "t111": "2026-08-12T14:46:05.136Z"
     },
     "stats": {
-      "totalActiveDays": 12,
-      "docsReviewed": 14,
-      "draftsCreated": 10,
-      "errorsFixed": 14,
+      "totalActiveDays": 13,
+      "docsReviewed": 16,
+      "draftsCreated": 11,
+      "errorsFixed": 15,
       "risksFound": 12,
-      "hoursSaved": 7,
-      "currentStreak": 3
+      "hoursSaved": 8,
+      "currentStreak": 4
     },
     "dashboardApps": [
       "auto_emailer",
