@@ -1,7 +1,7 @@
 {
   "userName": "JL",
   "userKey": "jl",
-  "generatedAt": "2026-08-13T18:34:00.988Z",
+  "generatedAt": "2026-08-14T14:56:30.906Z",
   "days": [
     {
       "date": "2026-07-10",
@@ -458,12 +458,57 @@
     {
       "date": "2026-08-13",
       "toolsUsed": {},
-      "sessions": 1,
+      "sessions": 2,
       "firstActiveAt": 1786646035971,
-      "lastActiveAt": 1786646035971,
-      "tokens": {},
-      "tokensByTool": {},
-      "estCostUSD": 0,
+      "lastActiveAt": 1786646406048,
+      "tokens": {
+        "gemini-flash-lite-latest": {
+          "promptTokens": 16110,
+          "candidatesTokens": 1303,
+          "calls": 2
+        }
+      },
+      "tokensByTool": {
+        "_unknown": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 16110,
+            "candidatesTokens": 1303,
+            "calls": 2
+          }
+        }
+      },
+      "estCostUSD": 0.000905,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
+    },
+    {
+      "date": "2026-08-14",
+      "toolsUsed": {
+        "draft": 1
+      },
+      "sessions": 1,
+      "firstActiveAt": 1786719385898,
+      "lastActiveAt": 1786719388996,
+      "tokens": {
+        "gemini-flash-lite-latest": {
+          "promptTokens": 2192,
+          "candidatesTokens": 804,
+          "calls": 1
+        }
+      },
+      "tokensByTool": {
+        "draft": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 2192,
+            "candidatesTokens": 804,
+            "calls": 1
+          }
+        }
+      },
+      "estCostUSD": 0.000248,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -476,7 +521,7 @@
     "initials": "JL",
     "kernelVersion": "v3-2026-06-13-dashfit",
     "installedAt": "2026-07-10T13:27:22.388Z",
-    "lastSeenAt": "2026-08-13T18:34:01.221Z",
+    "lastSeenAt": "2026-08-14T14:56:31.229Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -726,7 +771,7 @@
       }
     ],
     "appliedOverrides": [],
-    "trophies": 16,
+    "trophies": 17,
     "trophyIds": [
       "t1",
       "t41",
@@ -743,7 +788,8 @@
       "t166",
       "t115",
       "t162",
-      "t111"
+      "t111",
+      "t83"
     ],
     "trophyDates": {
       "t1": "2026-07-10T13:28:11.712Z",
@@ -762,16 +808,17 @@
       "t166": "2026-08-05T14:24:55.231Z",
       "t115": "2026-08-06T00:19:07.353Z",
       "t162": "2026-08-06T00:20:09.627Z",
-      "t111": "2026-08-12T14:46:05.136Z"
+      "t111": "2026-08-12T14:46:05.136Z",
+      "t83": "2026-08-14T14:56:26.460Z"
     },
     "stats": {
-      "totalActiveDays": 13,
+      "totalActiveDays": 14,
       "docsReviewed": 16,
       "draftsCreated": 11,
       "errorsFixed": 15,
       "risksFound": 12,
       "hoursSaved": 8,
-      "currentStreak": 4
+      "currentStreak": 5
     },
     "dashboardApps": [
       "auto_emailer",
