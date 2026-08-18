@@ -1,7 +1,7 @@
 {
   "userName": "JL",
   "userKey": "jl",
-  "generatedAt": "2026-08-14T14:56:30.906Z",
+  "generatedAt": "2026-08-18T19:45:32.084Z",
   "days": [
     {
       "date": "2026-07-10",
@@ -487,28 +487,51 @@
     {
       "date": "2026-08-14",
       "toolsUsed": {
-        "draft": 1
+        "draft": 1,
+        "error": 1
       },
       "sessions": 1,
       "firstActiveAt": 1786719385898,
-      "lastActiveAt": 1786719388996,
+      "lastActiveAt": 1786723157929,
       "tokens": {
         "gemini-flash-lite-latest": {
-          "promptTokens": 2192,
-          "candidatesTokens": 804,
-          "calls": 1
+          "promptTokens": 7344,
+          "candidatesTokens": 987,
+          "calls": 3
         }
       },
       "tokensByTool": {
         "draft": {
           "gemini-flash-lite-latest": {
-            "promptTokens": 2192,
-            "candidatesTokens": 804,
+            "promptTokens": 4565,
+            "candidatesTokens": 986,
+            "calls": 2
+          }
+        },
+        "error": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 2779,
+            "candidatesTokens": 1,
             "calls": 1
           }
         }
       },
-      "estCostUSD": 0.000248,
+      "estCostUSD": 0.000491,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
+    },
+    {
+      "date": "2026-08-18",
+      "toolsUsed": {},
+      "sessions": 1,
+      "firstActiveAt": 1787082327080,
+      "lastActiveAt": 1787082327080,
+      "tokens": {},
+      "tokensByTool": {},
+      "estCostUSD": 0,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -521,7 +544,7 @@
     "initials": "JL",
     "kernelVersion": "v3-2026-06-13-dashfit",
     "installedAt": "2026-07-10T13:27:22.388Z",
-    "lastSeenAt": "2026-08-14T14:56:31.229Z",
+    "lastSeenAt": "2026-08-18T19:45:32.311Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -812,13 +835,13 @@
       "t83": "2026-08-14T14:56:26.460Z"
     },
     "stats": {
-      "totalActiveDays": 14,
-      "docsReviewed": 16,
-      "draftsCreated": 11,
+      "totalActiveDays": 15,
+      "docsReviewed": 17,
+      "draftsCreated": 12,
       "errorsFixed": 15,
       "risksFound": 12,
-      "hoursSaved": 8,
-      "currentStreak": 5
+      "hoursSaved": 8.5,
+      "currentStreak": 1
     },
     "dashboardApps": [
       "auto_emailer",
