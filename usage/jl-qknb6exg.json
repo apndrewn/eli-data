@@ -1,7 +1,7 @@
 {
   "userName": "JL",
   "userKey": "jl",
-  "generatedAt": "2026-08-18T19:45:32.084Z",
+  "generatedAt": "2026-08-20T14:32:01.267Z",
   "days": [
     {
       "date": "2026-07-10",
@@ -528,10 +528,55 @@
       "toolsUsed": {},
       "sessions": 1,
       "firstActiveAt": 1787082327080,
-      "lastActiveAt": 1787082327080,
-      "tokens": {},
-      "tokensByTool": {},
-      "estCostUSD": 0,
+      "lastActiveAt": 1787082552268,
+      "tokens": {
+        "gemini-flash-lite-latest": {
+          "promptTokens": 18033,
+          "candidatesTokens": 505,
+          "calls": 2
+        }
+      },
+      "tokensByTool": {
+        "_unknown": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 18033,
+            "candidatesTokens": 505,
+            "calls": 2
+          }
+        }
+      },
+      "estCostUSD": 0.000822,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
+    },
+    {
+      "date": "2026-08-20",
+      "toolsUsed": {
+        "draft": 1
+      },
+      "sessions": 1,
+      "firstActiveAt": 1787236316259,
+      "lastActiveAt": 1787236320398,
+      "tokens": {
+        "gemini-flash-lite-latest": {
+          "promptTokens": 2483,
+          "candidatesTokens": 1207,
+          "calls": 1
+        }
+      },
+      "tokensByTool": {
+        "draft": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 2483,
+            "candidatesTokens": 1207,
+            "calls": 1
+          }
+        }
+      },
+      "estCostUSD": 0.000341,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -544,7 +589,7 @@
     "initials": "JL",
     "kernelVersion": "v3-2026-06-13-dashfit",
     "installedAt": "2026-07-10T13:27:22.388Z",
-    "lastSeenAt": "2026-08-18T19:45:32.311Z",
+    "lastSeenAt": "2026-08-20T14:32:01.490Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -835,7 +880,7 @@
       "t83": "2026-08-14T14:56:26.460Z"
     },
     "stats": {
-      "totalActiveDays": 15,
+      "totalActiveDays": 16,
       "docsReviewed": 17,
       "draftsCreated": 12,
       "errorsFixed": 15,
