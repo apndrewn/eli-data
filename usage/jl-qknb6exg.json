@@ -1,7 +1,7 @@
 {
   "userName": "JL",
   "userKey": "jl",
-  "generatedAt": "2026-08-20T14:32:01.267Z",
+  "generatedAt": "2026-08-20T20:06:33.256Z",
   "days": [
     {
       "date": "2026-07-10",
@@ -555,28 +555,36 @@
     {
       "date": "2026-08-20",
       "toolsUsed": {
-        "draft": 1
+        "draft": 1,
+        "error": 1
       },
-      "sessions": 1,
+      "sessions": 2,
       "firstActiveAt": 1787236316259,
-      "lastActiveAt": 1787236320398,
+      "lastActiveAt": 1787256388252,
       "tokens": {
         "gemini-flash-lite-latest": {
-          "promptTokens": 2483,
-          "candidatesTokens": 1207,
-          "calls": 1
+          "promptTokens": 18903,
+          "candidatesTokens": 1385,
+          "calls": 3
         }
       },
       "tokensByTool": {
         "draft": {
           "gemini-flash-lite-latest": {
-            "promptTokens": 2483,
-            "candidatesTokens": 1207,
+            "promptTokens": 5136,
+            "candidatesTokens": 1384,
+            "calls": 2
+          }
+        },
+        "error": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 13767,
+            "candidatesTokens": 1,
             "calls": 1
           }
         }
       },
-      "estCostUSD": 0.000341,
+      "estCostUSD": 0.001033,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -589,7 +597,7 @@
     "initials": "JL",
     "kernelVersion": "v3-2026-06-13-dashfit",
     "installedAt": "2026-07-10T13:27:22.388Z",
-    "lastSeenAt": "2026-08-20T14:32:01.490Z",
+    "lastSeenAt": "2026-08-20T20:06:33.672Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -881,11 +889,11 @@
     },
     "stats": {
       "totalActiveDays": 16,
-      "docsReviewed": 17,
-      "draftsCreated": 12,
+      "docsReviewed": 18,
+      "draftsCreated": 13,
       "errorsFixed": 15,
       "risksFound": 12,
-      "hoursSaved": 8.5,
+      "hoursSaved": 9,
       "currentStreak": 1
     },
     "dashboardApps": [
