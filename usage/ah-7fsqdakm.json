@@ -1,7 +1,7 @@
 {
   "userName": "A(",
   "userKey": "ah",
-  "generatedAt": "2026-08-12T02:07:34.525Z",
+  "generatedAt": "2026-08-22T00:50:56.371Z",
   "days": [
     {
       "date": "2026-07-30",
@@ -161,6 +161,23 @@
         "byTemplate": {},
         "total": 0
       }
+    },
+    {
+      "date": "2026-08-21",
+      "toolsUsed": {
+        "draft": 1
+      },
+      "sessions": 1,
+      "firstActiveAt": 1787359851342,
+      "lastActiveAt": 1787359853434,
+      "tokens": {},
+      "tokensByTool": {},
+      "estCostUSD": 0,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
     }
   ],
   "fleet": {
@@ -168,7 +185,7 @@
     "initials": "A(",
     "kernelVersion": "v3-2026-06-13-dashfit",
     "installedAt": "2026-07-31T00:45:31.641Z",
-    "lastSeenAt": "2026-08-12T02:07:37.905Z",
+    "lastSeenAt": "2026-08-22T00:50:56.768Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -540,7 +557,7 @@
       }
     ],
     "appliedOverrides": [],
-    "trophies": 8,
+    "trophies": 9,
     "trophyIds": [
       "t115",
       "t137",
@@ -549,7 +566,8 @@
       "t169",
       "t111",
       "t168",
-      "t116"
+      "t116",
+      "t1"
     ],
     "trophyDates": {
       "t115": "2026-07-31T00:45:35.255Z",
@@ -559,16 +577,17 @@
       "t169": "2026-07-31T14:03:46.164Z",
       "t111": "2026-08-01T04:23:10.782Z",
       "t168": "2026-08-01T04:23:10.782Z",
-      "t116": "2026-08-01T04:23:13.033Z"
+      "t116": "2026-08-01T04:23:13.033Z",
+      "t1": "2026-08-22T00:50:53.434Z"
     },
     "stats": {
-      "totalActiveDays": 5,
+      "totalActiveDays": 6,
       "docsReviewed": 29,
       "draftsCreated": 0,
       "errorsFixed": 0,
       "risksFound": 0,
       "hoursSaved": 14.5,
-      "currentStreak": 2
+      "currentStreak": 1
     },
     "dashboardApps": [
       "auto_emailer",
