@@ -1,7 +1,7 @@
 {
   "userName": "AR",
   "userKey": "ar",
-  "generatedAt": "2026-08-24T12:52:14.158Z",
+  "generatedAt": "2026-08-24T16:03:10.336Z",
   "days": [
     {
       "date": "2026-06-30",
@@ -977,28 +977,45 @@
     {
       "date": "2026-08-24",
       "toolsUsed": {
-        "draft": 1
+        "draft": 4,
+        "error": 2,
+        "template_searcher": 1,
+        "ask_eli": 1
       },
-      "sessions": 1,
+      "sessions": 5,
       "firstActiveAt": 1787575929148,
-      "lastActiveAt": 1787575932779,
+      "lastActiveAt": 1787587386620,
       "tokens": {
         "gemini-flash-lite-latest": {
-          "promptTokens": 2227,
-          "candidatesTokens": 947,
-          "calls": 1
+          "promptTokens": 57051,
+          "candidatesTokens": 4729,
+          "calls": 16
         }
       },
       "tokensByTool": {
         "draft": {
           "gemini-flash-lite-latest": {
-            "promptTokens": 2227,
-            "candidatesTokens": 947,
-            "calls": 1
+            "promptTokens": 14562,
+            "candidatesTokens": 3292,
+            "calls": 10
+          }
+        },
+        "error": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 18660,
+            "candidatesTokens": 844,
+            "calls": 4
+          }
+        },
+        "ask_eli": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 23829,
+            "candidatesTokens": 593,
+            "calls": 2
           }
         }
       },
-      "estCostUSD": 0.000278,
+      "estCostUSD": 0.003228,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -1011,7 +1028,7 @@
     "initials": "AR",
     "kernelVersion": "v3-2026-06-13-dashfit",
     "installedAt": "2026-06-30T18:29:18.400Z",
-    "lastSeenAt": "2026-08-24T12:52:14.415Z",
+    "lastSeenAt": "2026-08-24T16:03:12.137Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -1337,11 +1354,11 @@
     },
     "stats": {
       "totalActiveDays": 25,
-      "docsReviewed": 36,
-      "draftsCreated": 28,
-      "errorsFixed": 67,
+      "docsReviewed": 38,
+      "draftsCreated": 30,
+      "errorsFixed": 77,
       "risksFound": 19,
-      "hoursSaved": 18,
+      "hoursSaved": 19,
       "currentStreak": 1
     },
     "dashboardApps": [
