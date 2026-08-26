@@ -1,7 +1,7 @@
 {
   "userName": "JL",
   "userKey": "jl",
-  "generatedAt": "2026-08-24T19:23:41.054Z",
+  "generatedAt": "2026-08-26T15:29:13.370Z",
   "days": [
     {
       "date": "2026-07-10",
@@ -598,7 +598,36 @@
       "toolsUsed": {},
       "sessions": 1,
       "firstActiveAt": 1787599415812,
-      "lastActiveAt": 1787599415812,
+      "lastActiveAt": 1787599455961,
+      "tokens": {
+        "gemini-flash-lite-latest": {
+          "promptTokens": 72323,
+          "candidatesTokens": 55,
+          "calls": 1
+        }
+      },
+      "tokensByTool": {
+        "_unknown": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 72323,
+            "candidatesTokens": 55,
+            "calls": 1
+          }
+        }
+      },
+      "estCostUSD": 0.002904,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
+    },
+    {
+      "date": "2026-08-26",
+      "toolsUsed": {},
+      "sessions": 1,
+      "firstActiveAt": 1787758148348,
+      "lastActiveAt": 1787758148348,
       "tokens": {},
       "tokensByTool": {},
       "estCostUSD": 0,
@@ -614,7 +643,7 @@
     "initials": "JL",
     "kernelVersion": "v3-2026-06-13-dashfit",
     "installedAt": "2026-07-10T13:27:22.388Z",
-    "lastSeenAt": "2026-08-24T19:23:41.330Z",
+    "lastSeenAt": "2026-08-26T15:29:13.603Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -694,7 +723,7 @@
       },
       {
         "id": "build_draft",
-        "releasedAt": "2026-06-24T01:09:04.545Z",
+        "releasedAt": "2026-08-22T03:30:21.666Z",
         "disabled": false
       },
       {
@@ -905,7 +934,7 @@
       "t83": "2026-08-14T14:56:26.460Z"
     },
     "stats": {
-      "totalActiveDays": 17,
+      "totalActiveDays": 18,
       "docsReviewed": 19,
       "draftsCreated": 14,
       "errorsFixed": 16,
