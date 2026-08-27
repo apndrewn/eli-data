@@ -1,7 +1,7 @@
 {
   "userName": "JL",
   "userKey": "jl",
-  "generatedAt": "2026-08-26T15:29:13.370Z",
+  "generatedAt": "2026-08-27T20:51:06.243Z",
   "days": [
     {
       "date": "2026-07-10",
@@ -624,10 +624,44 @@
     },
     {
       "date": "2026-08-26",
-      "toolsUsed": {},
+      "toolsUsed": {
+        "legal_review": 1,
+        "review_redlines": 1
+      },
       "sessions": 1,
       "firstActiveAt": 1787758148348,
-      "lastActiveAt": 1787758148348,
+      "lastActiveAt": 1787758749768,
+      "tokens": {
+        "gemini-flash-lite-latest": {
+          "promptTokens": 39958,
+          "candidatesTokens": 2746,
+          "calls": 35
+        }
+      },
+      "tokensByTool": {
+        "review_redlines": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 39958,
+            "candidatesTokens": 2746,
+            "calls": 35
+          }
+        }
+      },
+      "estCostUSD": 0.002148,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
+    },
+    {
+      "date": "2026-08-27",
+      "toolsUsed": {
+        "legal_review": 1
+      },
+      "sessions": 1,
+      "firstActiveAt": 1787863861239,
+      "lastActiveAt": 1787863864533,
       "tokens": {},
       "tokensByTool": {},
       "estCostUSD": 0,
@@ -643,7 +677,7 @@
     "initials": "JL",
     "kernelVersion": "v3-2026-06-13-dashfit",
     "installedAt": "2026-07-10T13:27:22.388Z",
-    "lastSeenAt": "2026-08-26T15:29:13.603Z",
+    "lastSeenAt": "2026-08-27T20:51:06.450Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -934,13 +968,13 @@
       "t83": "2026-08-14T14:56:26.460Z"
     },
     "stats": {
-      "totalActiveDays": 18,
-      "docsReviewed": 19,
+      "totalActiveDays": 19,
+      "docsReviewed": 20,
       "draftsCreated": 14,
       "errorsFixed": 16,
       "risksFound": 12,
-      "hoursSaved": 9.5,
-      "currentStreak": 1
+      "hoursSaved": 10,
+      "currentStreak": 2
     },
     "dashboardApps": [
       "auto_emailer",
