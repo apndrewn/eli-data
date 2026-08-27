@@ -1,7 +1,7 @@
 {
   "userName": "JT",
   "userKey": "jt",
-  "generatedAt": "2026-08-24T13:20:03.056Z",
+  "generatedAt": "2026-08-27T14:19:47.403Z",
   "days": [
     {
       "date": "2026-08-06",
@@ -114,28 +114,59 @@
     {
       "date": "2026-08-24",
       "toolsUsed": {
+        "draft": 2
+      },
+      "sessions": 2,
+      "firstActiveAt": 1787577598038,
+      "lastActiveAt": 1787585397656,
+      "tokens": {
+        "gemini-flash-lite-latest": {
+          "promptTokens": 9123,
+          "candidatesTokens": 2292,
+          "calls": 4
+        }
+      },
+      "tokensByTool": {
+        "draft": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 9123,
+            "candidatesTokens": 2292,
+            "calls": 4
+          }
+        }
+      },
+      "estCostUSD": 0.000823,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
+    },
+    {
+      "date": "2026-08-27",
+      "toolsUsed": {
         "draft": 1
       },
       "sessions": 1,
-      "firstActiveAt": 1787577598038,
-      "lastActiveAt": 1787577601485,
+      "firstActiveAt": 1787840382393,
+      "lastActiveAt": 1787840386116,
       "tokens": {
         "gemini-flash-lite-latest": {
-          "promptTokens": 2182,
-          "candidatesTokens": 1049,
+          "promptTokens": 2242,
+          "candidatesTokens": 982,
           "calls": 1
         }
       },
       "tokensByTool": {
         "draft": {
           "gemini-flash-lite-latest": {
-            "promptTokens": 2182,
-            "candidatesTokens": 1049,
+            "promptTokens": 2242,
+            "candidatesTokens": 982,
             "calls": 1
           }
         }
       },
-      "estCostUSD": 0.000297,
+      "estCostUSD": 0.000286,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -148,7 +179,7 @@
     "initials": "JT",
     "kernelVersion": "v3-2026-06-13-dashfit",
     "installedAt": "2026-08-06T18:58:29.523Z",
-    "lastSeenAt": "2026-08-24T13:20:03.310Z",
+    "lastSeenAt": "2026-08-27T14:19:47.812Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -223,7 +254,7 @@
       },
       {
         "id": "build_draft",
-        "releasedAt": "2026-06-24T01:09:04.545Z",
+        "releasedAt": "2026-08-22T03:30:21.666Z",
         "disabled": false
       },
       {
@@ -388,17 +419,19 @@
       }
     ],
     "appliedOverrides": [],
-    "trophies": 1,
+    "trophies": 2,
     "trophyIds": [
-      "t1"
+      "t1",
+      "t2"
     ],
     "trophyDates": {
-      "t1": "2026-08-10T17:46:24.567Z"
+      "t1": "2026-08-10T17:46:24.567Z",
+      "t2": "2026-08-24T15:29:57.657Z"
     },
     "stats": {
-      "totalActiveDays": 5,
+      "totalActiveDays": 6,
       "docsReviewed": 0,
-      "draftsCreated": 3,
+      "draftsCreated": 5,
       "errorsFixed": 0,
       "risksFound": 0,
       "hoursSaved": 0,
