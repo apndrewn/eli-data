@@ -1,7 +1,7 @@
 {
   "userName": "AR",
   "userKey": "ar",
-  "generatedAt": "2026-08-27T18:59:44.394Z",
+  "generatedAt": "2026-08-31T19:32:57.168Z",
   "days": [
     {
       "date": "2026-06-30",
@@ -1121,28 +1121,52 @@
     {
       "date": "2026-08-27",
       "toolsUsed": {
-        "draft": 1
+        "draft": 1,
+        "error": 1,
+        "docuscrub": 1
       },
-      "sessions": 1,
+      "sessions": 2,
       "firstActiveAt": 1787857179377,
-      "lastActiveAt": 1787857183422,
+      "lastActiveAt": 1787859472273,
       "tokens": {
         "gemini-flash-lite-latest": {
-          "promptTokens": 2186,
-          "candidatesTokens": 861,
-          "calls": 1
+          "promptTokens": 9719,
+          "candidatesTokens": 1310,
+          "calls": 5
         }
       },
       "tokensByTool": {
         "draft": {
           "gemini-flash-lite-latest": {
-            "promptTokens": 2186,
-            "candidatesTokens": 861,
-            "calls": 1
+            "promptTokens": 4635,
+            "candidatesTokens": 1029,
+            "calls": 3
+          }
+        },
+        "error": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 5084,
+            "candidatesTokens": 281,
+            "calls": 2
           }
         }
       },
-      "estCostUSD": 0.00026,
+      "estCostUSD": 0.000651,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
+    },
+    {
+      "date": "2026-08-31",
+      "toolsUsed": {},
+      "sessions": 1,
+      "firstActiveAt": 1788204772130,
+      "lastActiveAt": 1788204772130,
+      "tokens": {},
+      "tokensByTool": {},
+      "estCostUSD": 0,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -1155,7 +1179,7 @@
     "initials": "AR",
     "kernelVersion": "v3-2026-06-13-dashfit",
     "installedAt": "2026-06-30T18:29:18.400Z",
-    "lastSeenAt": "2026-08-27T18:59:44.722Z",
+    "lastSeenAt": "2026-08-31T19:32:57.512Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -1480,13 +1504,13 @@
       "t186": "2026-07-31T16:06:54.791Z"
     },
     "stats": {
-      "totalActiveDays": 28,
-      "docsReviewed": 43,
-      "draftsCreated": 33,
-      "errorsFixed": 78,
+      "totalActiveDays": 29,
+      "docsReviewed": 44,
+      "draftsCreated": 34,
+      "errorsFixed": 81,
       "risksFound": 19,
-      "hoursSaved": 21.5,
-      "currentStreak": 4
+      "hoursSaved": 22,
+      "currentStreak": 1
     },
     "dashboardApps": [
       "legal_review",
