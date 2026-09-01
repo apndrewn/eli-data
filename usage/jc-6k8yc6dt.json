@@ -1,7 +1,7 @@
 {
   "userName": "JC",
   "userKey": "jc",
-  "generatedAt": "2026-07-15T13:50:10.160Z",
+  "generatedAt": "2026-09-01T15:36:53.130Z",
   "days": [
     {
       "date": "2026-07-15",
@@ -17,6 +17,23 @@
         "byTemplate": {},
         "total": 0
       }
+    },
+    {
+      "date": "2026-09-01",
+      "toolsUsed": {
+        "draft": 1
+      },
+      "sessions": 1,
+      "firstActiveAt": 1788277008128,
+      "lastActiveAt": 1788277008710,
+      "tokens": {},
+      "tokensByTool": {},
+      "estCostUSD": 0,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
     }
   ],
   "fleet": {
@@ -24,7 +41,7 @@
     "initials": "JC",
     "kernelVersion": "v3-2026-06-13-dashfit",
     "installedAt": "2026-07-15T13:50:04.321Z",
-    "lastSeenAt": "2026-07-15T13:50:10.283Z",
+    "lastSeenAt": "2026-09-01T15:36:53.386Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -259,11 +276,15 @@
       }
     ],
     "appliedOverrides": [],
-    "trophies": 0,
-    "trophyIds": [],
-    "trophyDates": {},
+    "trophies": 1,
+    "trophyIds": [
+      "t1"
+    ],
+    "trophyDates": {
+      "t1": "2026-09-01T15:36:48.868Z"
+    },
     "stats": {
-      "totalActiveDays": 1,
+      "totalActiveDays": 2,
       "docsReviewed": 0,
       "draftsCreated": 0,
       "errorsFixed": 0,
