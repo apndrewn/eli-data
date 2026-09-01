@@ -1,7 +1,7 @@
 {
   "userName": "AR",
   "userKey": "ar",
-  "generatedAt": "2026-08-31T19:32:57.168Z",
+  "generatedAt": "2026-09-01T14:39:57.781Z",
   "days": [
     {
       "date": "2026-06-30",
@@ -1160,10 +1160,44 @@
     },
     {
       "date": "2026-08-31",
-      "toolsUsed": {},
+      "toolsUsed": {
+        "legal_review": 1,
+        "review_redlines": 1
+      },
       "sessions": 1,
       "firstActiveAt": 1788204772130,
-      "lastActiveAt": 1788204772130,
+      "lastActiveAt": 1788208489803,
+      "tokens": {
+        "gemini-flash-lite-latest": {
+          "promptTokens": 137249,
+          "candidatesTokens": 10815,
+          "calls": 95
+        }
+      },
+      "tokensByTool": {
+        "review_redlines": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 137249,
+            "candidatesTokens": 10815,
+            "calls": 95
+          }
+        }
+      },
+      "estCostUSD": 0.007653,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
+    },
+    {
+      "date": "2026-09-01",
+      "toolsUsed": {
+        "draft": 1
+      },
+      "sessions": 1,
+      "firstActiveAt": 1788273592366,
+      "lastActiveAt": 1788273594615,
       "tokens": {},
       "tokensByTool": {},
       "estCostUSD": 0,
@@ -1179,7 +1213,7 @@
     "initials": "AR",
     "kernelVersion": "v3-2026-06-13-dashfit",
     "installedAt": "2026-06-30T18:29:18.400Z",
-    "lastSeenAt": "2026-08-31T19:32:57.512Z",
+    "lastSeenAt": "2026-09-01T14:39:58.049Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -1419,7 +1453,7 @@
       }
     ],
     "appliedOverrides": [],
-    "trophies": 39,
+    "trophies": 40,
     "trophyIds": [
       "t26",
       "t56",
@@ -1459,7 +1493,8 @@
       "t173",
       "t149",
       "t158",
-      "t186"
+      "t186",
+      "t183"
     ],
     "trophyDates": {
       "t26": "Apr 6, 2026",
@@ -1501,16 +1536,17 @@
       "t149": 1783570834622,
       "t158": 1783570834622,
       "deal360": "2026-08-13T19:57:51.949Z",
-      "t186": "2026-07-31T16:06:54.791Z"
+      "t186": "2026-07-31T16:06:54.791Z",
+      "t183": "2026-09-01T14:39:54.918Z"
     },
     "stats": {
-      "totalActiveDays": 29,
-      "docsReviewed": 44,
+      "totalActiveDays": 30,
+      "docsReviewed": 45,
       "draftsCreated": 34,
       "errorsFixed": 81,
       "risksFound": 19,
-      "hoursSaved": 22,
-      "currentStreak": 1
+      "hoursSaved": 22.5,
+      "currentStreak": 2
     },
     "dashboardApps": [
       "legal_review",
