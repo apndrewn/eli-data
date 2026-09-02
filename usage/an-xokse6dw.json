@@ -1,7 +1,7 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-09-01T17:58:45.936Z",
+  "generatedAt": "2026-09-02T13:43:29.135Z",
   "days": [
     {
       "date": "2026-07-29",
@@ -575,13 +575,60 @@
     },
     {
       "date": "2026-09-01",
-      "toolsUsed": {},
+      "toolsUsed": {
+        "admin_draft_audit": 1
+      },
       "sessions": 1,
       "firstActiveAt": 1788285520920,
-      "lastActiveAt": 1788285520920,
-      "tokens": {},
-      "tokensByTool": {},
-      "estCostUSD": 0,
+      "lastActiveAt": 1788294764847,
+      "tokens": {
+        "gemini-flash-lite-latest": {
+          "promptTokens": 11458,
+          "candidatesTokens": 571,
+          "calls": 1
+        }
+      },
+      "tokensByTool": {
+        "admin_draft_audit": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 11458,
+            "candidatesTokens": 571,
+            "calls": 1
+          }
+        }
+      },
+      "estCostUSD": 0.000573,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
+    },
+    {
+      "date": "2026-09-02",
+      "toolsUsed": {
+        "error": 1
+      },
+      "sessions": 1,
+      "firstActiveAt": 1788356604128,
+      "lastActiveAt": 1788356608271,
+      "tokens": {
+        "gemini-flash-lite-latest": {
+          "promptTokens": 7330,
+          "candidatesTokens": 1,
+          "calls": 1
+        }
+      },
+      "tokensByTool": {
+        "error": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 7330,
+            "candidatesTokens": 1,
+            "calls": 1
+          }
+        }
+      },
+      "estCostUSD": 0.000293,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -594,7 +641,7 @@
     "initials": "AN",
     "kernelVersion": "v3-2026-06-13-dashfit",
     "installedAt": "2026-07-29T14:09:25.615Z",
-    "lastSeenAt": "2026-09-01T17:58:46.158Z",
+    "lastSeenAt": "2026-09-02T13:43:30.811Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -1005,13 +1052,13 @@
       "t168": "2026-09-01T17:58:41.822Z"
     },
     "stats": {
-      "totalActiveDays": 16,
-      "docsReviewed": 15,
+      "totalActiveDays": 17,
+      "docsReviewed": 16,
       "draftsCreated": 4,
       "errorsFixed": 10,
       "risksFound": 14,
-      "hoursSaved": 7.5,
-      "currentStreak": 1
+      "hoursSaved": 8,
+      "currentStreak": 2
     },
     "dashboardApps": [
       "auto_emailer",
