@@ -1,7 +1,7 @@
 {
   "userName": "JT",
   "userKey": "jt",
-  "generatedAt": "2026-09-01T15:01:06.189Z",
+  "generatedAt": "2026-09-08T14:32:37.206Z",
   "days": [
     {
       "date": "2026-08-06",
@@ -211,24 +211,55 @@
       },
       "sessions": 1,
       "firstActiveAt": 1788274861172,
-      "lastActiveAt": 1788274864507,
+      "lastActiveAt": 1788275102262,
       "tokens": {
         "gemini-flash-lite-latest": {
-          "promptTokens": 2153,
-          "candidatesTokens": 622,
+          "promptTokens": 4489,
+          "candidatesTokens": 862,
+          "calls": 2
+        }
+      },
+      "tokensByTool": {
+        "draft": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 4489,
+            "candidatesTokens": 862,
+            "calls": 2
+          }
+        }
+      },
+      "estCostUSD": 0.000352,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
+    },
+    {
+      "date": "2026-09-08",
+      "toolsUsed": {
+        "draft": 1
+      },
+      "sessions": 1,
+      "firstActiveAt": 1788877952198,
+      "lastActiveAt": 1788877956132,
+      "tokens": {
+        "gemini-flash-lite-latest": {
+          "promptTokens": 2069,
+          "candidatesTokens": 1102,
           "calls": 1
         }
       },
       "tokensByTool": {
         "draft": {
           "gemini-flash-lite-latest": {
-            "promptTokens": 2153,
-            "candidatesTokens": 622,
+            "promptTokens": 2069,
+            "candidatesTokens": 1102,
             "calls": 1
           }
         }
       },
-      "estCostUSD": 0.000211,
+      "estCostUSD": 0.000303,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -241,7 +272,7 @@
     "initials": "JT",
     "kernelVersion": "v3-2026-06-13-dashfit",
     "installedAt": "2026-08-06T18:58:29.523Z",
-    "lastSeenAt": "2026-09-01T15:01:06.493Z",
+    "lastSeenAt": "2026-09-08T14:32:37.474Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -499,13 +530,13 @@
       "t168": "2026-09-01T15:01:01.772Z"
     },
     "stats": {
-      "totalActiveDays": 8,
+      "totalActiveDays": 9,
       "docsReviewed": 0,
-      "draftsCreated": 9,
+      "draftsCreated": 10,
       "errorsFixed": 0,
       "risksFound": 0,
       "hoursSaved": 0,
-      "currentStreak": 2
+      "currentStreak": 1
     },
     "dashboardApps": [
       "auto_emailer",
