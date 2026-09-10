@@ -1,7 +1,7 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-09-09T12:47:03.515Z",
+  "generatedAt": "2026-09-10T17:53:33.897Z",
   "days": [
     {
       "date": "2026-07-29",
@@ -670,10 +670,55 @@
       "toolsUsed": {},
       "sessions": 1,
       "firstActiveAt": 1788958018507,
-      "lastActiveAt": 1788958018507,
-      "tokens": {},
-      "tokensByTool": {},
-      "estCostUSD": 0,
+      "lastActiveAt": 1788958063990,
+      "tokens": {
+        "gemini-flash-lite-latest": {
+          "promptTokens": 11624,
+          "candidatesTokens": 3648,
+          "calls": 2
+        }
+      },
+      "tokensByTool": {
+        "_unknown": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 11624,
+            "candidatesTokens": 3648,
+            "calls": 2
+          }
+        }
+      },
+      "estCostUSD": 0.001195,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
+    },
+    {
+      "date": "2026-09-10",
+      "toolsUsed": {
+        "draft": 1
+      },
+      "sessions": 1,
+      "firstActiveAt": 1789062808889,
+      "lastActiveAt": 1789062812373,
+      "tokens": {
+        "gemini-flash-lite-latest": {
+          "promptTokens": 2277,
+          "candidatesTokens": 1131,
+          "calls": 1
+        }
+      },
+      "tokensByTool": {
+        "draft": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 2277,
+            "candidatesTokens": 1131,
+            "calls": 1
+          }
+        }
+      },
+      "estCostUSD": 0.000317,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -686,7 +731,7 @@
     "initials": "AN",
     "kernelVersion": "v3-2026-06-13-dashfit",
     "installedAt": "2026-07-29T14:09:25.615Z",
-    "lastSeenAt": "2026-09-09T12:47:03.744Z",
+    "lastSeenAt": "2026-09-10T17:53:34.168Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -1099,13 +1144,13 @@
       "t2": "2026-09-02T14:52:51.614Z"
     },
     "stats": {
-      "totalActiveDays": 19,
+      "totalActiveDays": 20,
       "docsReviewed": 20,
       "draftsCreated": 5,
       "errorsFixed": 10,
       "risksFound": 14,
       "hoursSaved": 10,
-      "currentStreak": 1
+      "currentStreak": 2
     },
     "dashboardApps": [
       "auto_emailer",
