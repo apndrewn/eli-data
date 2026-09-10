@@ -1,7 +1,7 @@
 {
   "userName": "A(",
   "userKey": "ah",
-  "generatedAt": "2026-08-22T00:50:56.371Z",
+  "generatedAt": "2026-09-10T23:32:41.506Z",
   "days": [
     {
       "date": "2026-07-30",
@@ -165,11 +165,44 @@
     {
       "date": "2026-08-21",
       "toolsUsed": {
-        "draft": 1
+        "draft": 8,
+        "admin_draft_audit": 1,
+        "legal_review": 1,
+        "draft_templates": 10,
+        "guided_redlines": 1
       },
-      "sessions": 1,
+      "sessions": 11,
       "firstActiveAt": 1787359851342,
-      "lastActiveAt": 1787359853434,
+      "lastActiveAt": 1787369249677,
+      "tokens": {
+        "gemini-flash-lite-latest": {
+          "promptTokens": 2397,
+          "candidatesTokens": 159,
+          "calls": 12
+        }
+      },
+      "tokensByTool": {
+        "draft": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 2397,
+            "candidatesTokens": 159,
+            "calls": 12
+          }
+        }
+      },
+      "estCostUSD": 0.000128,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
+    },
+    {
+      "date": "2026-09-10",
+      "toolsUsed": {},
+      "sessions": 1,
+      "firstActiveAt": 1789083156494,
+      "lastActiveAt": 1789083156494,
       "tokens": {},
       "tokensByTool": {},
       "estCostUSD": 0,
@@ -185,7 +218,7 @@
     "initials": "A(",
     "kernelVersion": "v3-2026-06-13-dashfit",
     "installedAt": "2026-07-31T00:45:31.641Z",
-    "lastSeenAt": "2026-08-22T00:50:56.768Z",
+    "lastSeenAt": "2026-09-10T23:32:41.708Z",
     "settings": {
       "ai_model": "gemini-flash-lite-latest",
       "ai_temperature": 0.3,
@@ -214,7 +247,7 @@
       "ai_image_model": "gemini-3.1-flash-image-preview",
       "ask_dock_enabled": true,
       "dashboard_widgets_enabled": true,
-      "light_mode": false,
+      "light_mode": true,
       "header_theme_index": 0,
       "minimize_feed": false,
       "auto_hide_sidebar": false,
@@ -308,11 +341,6 @@
       {
         "id": "bd_template_tester",
         "releasedAt": "2026-05-20T06:26:01.803Z",
-        "disabled": false
-      },
-      {
-        "id": "build_draft",
-        "releasedAt": "2026-06-24T01:09:04.545Z",
         "disabled": false
       },
       {
@@ -554,10 +582,15 @@
         "id": "workflow_creator",
         "releasedAt": "2026-06-09T12:28:19.764Z",
         "disabled": false
+      },
+      {
+        "id": "build_draft",
+        "releasedAt": "2026-08-22T03:30:21.666Z",
+        "disabled": false
       }
     ],
     "appliedOverrides": [],
-    "trophies": 9,
+    "trophies": 10,
     "trophyIds": [
       "t115",
       "t137",
@@ -567,7 +600,8 @@
       "t111",
       "t168",
       "t116",
-      "t1"
+      "t1",
+      "t138"
     ],
     "trophyDates": {
       "t115": "2026-07-31T00:45:35.255Z",
@@ -578,10 +612,11 @@
       "t111": "2026-08-01T04:23:10.782Z",
       "t168": "2026-08-01T04:23:10.782Z",
       "t116": "2026-08-01T04:23:13.033Z",
-      "t1": "2026-08-22T00:50:53.434Z"
+      "t1": "2026-08-22T00:50:53.434Z",
+      "t138": "2026-09-10T23:32:37.650Z"
     },
     "stats": {
-      "totalActiveDays": 6,
+      "totalActiveDays": 7,
       "docsReviewed": 29,
       "draftsCreated": 0,
       "errorsFixed": 0,
@@ -591,11 +626,11 @@
     },
     "dashboardApps": [
       "auto_emailer",
-      "build_draft",
       "error_review",
       "final_review",
       "legal_review",
-      "team_guidance"
+      "team_guidance",
+      "build_draft"
     ],
     "dashboardCustomized": false
   }
