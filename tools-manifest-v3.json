@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-09-11T18:10:18.111Z",
+  "lastUpdated": "2026-09-11T18:11:39.710Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -104,9 +104,9 @@
     {
       "id": "profile_restore",
       "version": null,
-      "lastUpdated": "2026-09-11T18:10:17.251Z",
+      "lastUpdated": "2026-09-11T18:11:38.874Z",
       "filename": "profile_restore-v3.json",
-      "size": 34261,
+      "size": 35342,
       "label": "Restore Profile",
       "kind": "tool",
       "category": "Admin",
