@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-09-11T13:59:51.488Z",
+  "lastUpdated": "2026-09-11T15:05:58.422Z",
   "overrides": [
     {
       "id": "fleet-notice-MD-7z4e5kud-1781724707405",
@@ -97,88 +97,6 @@
       "expiresAt": "2026-11-10T00:24:40.338Z"
     },
     {
-      "id": "release-notes-2026-09-11",
-      "audience": [
-        "all"
-      ],
-      "expiresAt": "2027-01-09T06:01:03.620Z",
-      "actions": [
-        {
-          "type": "set_config",
-          "key": "release_notes",
-          "value": {
-            "id": "2026-09-11",
-            "dateLabel": "11 September",
-            "greeting": "Welcome back",
-            "featured": {
-              "icon": "✨",
-              "name": "Polish",
-              "desc": "Select any passage and get three rewrites side by side — polished, plainer, formal. Edit them in place, regenerate just one, lock wording that must not change, then swap your pick into Word. Select several paragraphs and it steps through them in order.",
-              "where": "Select text, then look for Polish Text in the Ask ELI box.",
-              "cta": "Try Polish on a paragraph",
-              "channel": "polish"
-            },
-            "improved": [
-              {
-                "tool": "Error Review",
-                "text": "Cards are colour-coded by error type, the fix text is larger, and the original collapses when you don't need it."
-              },
-              {
-                "tool": "Error Review",
-                "text": "Applying a fix flashes the changed word yellow in the document and stamps the card FIXED."
-              },
-              {
-                "tool": "Error Review",
-                "text": "A deterministic typography pass now catches every straight quote and apostrophe, without asking the AI."
-              },
-              {
-                "tool": "Build Draft",
-                "text": "The review step lists anything still unfilled, and the prev/next walk now includes header and footer fills."
-              },
-              {
-                "tool": "Review Redlines",
-                "text": "ELI's read writes both columns — what changed and the likely purpose — and steps aside when you open Guidance."
-              },
-              {
-                "tool": "Legal Review",
-                "text": "Noticeably faster on long agreements, along with Review Redlines' guidance and audit."
-              }
-            ],
-            "fixed": [
-              {
-                "tool": "Error Review",
-                "text": "Scans that came back \"no errors found\" when there clearly were."
-              },
-              {
-                "tool": "Error Review",
-                "text": "A failed AI pass now says Scan incomplete instead of quietly reporting all clear."
-              },
-              {
-                "tool": "Error Review",
-                "text": "Fixes that changed nothing no longer report as applied and reappear next scan."
-              },
-              {
-                "tool": "Error Review",
-                "text": "False \"dangling cross-reference\" warnings on perfectly good section numbers."
-              },
-              {
-                "tool": "Error Review",
-                "text": "Curly-quote findings that could never be applied and returned on every scan."
-              },
-              {
-                "tool": "Build Draft",
-                "text": "Header and footer fills kept 11pt over the template's 9pt."
-              },
-              {
-                "tool": "Build Draft",
-                "text": "Enhance lowercased Colgate and other defined terms when asked to start lowercase."
-              }
-            ]
-          }
-        }
-      ]
-    },
-    {
       "id": "restore-trophies-JL-liay7v7q-1789135191487",
       "audienceUserIds": [
         "JL-liay7v7q"
@@ -227,6 +145,20 @@
           "title": "🏆 Your trophies are back",
           "html": "<p>Your ELI trophies have been restored to this account — all 31 of them are back in your Trophy Gallery.</p><p>The earlier restore landed on your old account, which is why they didn't show up. Sorry for the runaround.</p>",
           "dismissLabel": "Nice"
+        }
+      ]
+    },
+    {
+      "id": "release-notes-off-1789139158421",
+      "audience": [
+        "all"
+      ],
+      "expiresAt": "2027-03-10T15:05:58.421Z",
+      "actions": [
+        {
+          "type": "set_config",
+          "key": "release_notes",
+          "value": {}
         }
       ]
     }
