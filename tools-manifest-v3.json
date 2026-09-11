@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-09-11T17:12:47.087Z",
+  "lastUpdated": "2026-09-11T17:15:27.095Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -90,9 +90,9 @@
     {
       "id": "kernel_check",
       "version": null,
-      "lastUpdated": "2026-09-11T17:12:05.878Z",
+      "lastUpdated": "2026-09-11T17:14:12.538Z",
       "filename": "kernel_check-v3.json",
-      "size": 16719,
+      "size": 17303,
       "label": "Kernel Update",
       "kind": "tool",
       "category": "Tools - ELI Core",
@@ -230,9 +230,9 @@
     {
       "id": "review_redlines",
       "version": null,
-      "lastUpdated": "2026-09-11T16:28:00.525Z",
+      "lastUpdated": "2026-09-11T17:14:24.803Z",
       "filename": "review_redlines-v3.json",
-      "size": 1209491,
+      "size": 1216005,
       "label": "Review Redlines",
       "kind": "tool",
       "category": "External Innovation",
