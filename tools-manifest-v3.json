@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-09-11T17:05:17.752Z",
+  "lastUpdated": "2026-09-11T17:10:01.351Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -1257,7 +1257,8 @@
         "__data_loading_msgs",
         "__data_trophies",
         "polish",
-        "whats_new"
+        "whats_new",
+        "kernel_check"
       ]
     },
     {
