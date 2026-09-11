@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-09-11T02:07:51.206Z",
+  "lastUpdated": "2026-09-11T02:18:04.658Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -62,9 +62,9 @@
     {
       "id": "polish",
       "version": null,
-      "lastUpdated": "2026-09-11T02:07:46.511Z",
+      "lastUpdated": "2026-09-11T02:17:57.844Z",
       "filename": "polish-v3.json",
-      "size": 32897,
+      "size": 40260,
       "label": "Polish",
       "kind": "tool",
       "category": "Drafting",
