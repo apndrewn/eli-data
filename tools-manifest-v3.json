@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-09-11T01:28:55.143Z",
+  "lastUpdated": "2026-09-11T01:52:06.264Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -54,6 +54,20 @@
       "label": "ELI Activity Feed",
       "kind": "tool",
       "category": "System",
+      "audience": [
+        "all"
+      ],
+      "changelog": ""
+    },
+    {
+      "id": "polish",
+      "version": null,
+      "lastUpdated": "2026-09-11T01:52:00.505Z",
+      "filename": "polish-v3.json",
+      "size": 27879,
+      "label": "Polish",
+      "kind": "tool",
+      "category": "Drafting",
       "audience": [
         "all"
       ],
@@ -300,9 +314,9 @@
     {
       "id": "ask_eli",
       "version": null,
-      "lastUpdated": "2026-07-10T14:12:43.124Z",
+      "lastUpdated": "2026-09-11T01:52:00.598Z",
       "filename": "ask_eli-v3.json",
-      "size": 418511,
+      "size": 419843,
       "label": "Ask ELI",
       "kind": "tool",
       "category": "Tools - ELI Core",
