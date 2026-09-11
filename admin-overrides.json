@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-09-11T00:00:36.475Z",
+  "lastUpdated": "2026-09-11T00:24:40.338Z",
   "overrides": [
     {
       "id": "fleet-notice-MD-7z4e5kud-1781724707405",
@@ -72,6 +72,29 @@
         "JL-qknb6exg"
       ],
       "expiresAt": "2026-10-25T23:56:40.404Z"
+    },
+    {
+      "id": "fleet-model-flash-latest-1789086280338",
+      "actions": [
+        {
+          "type": "set_setting",
+          "key": "ai_model",
+          "value": "gemini-flash-latest",
+          "force": "reset"
+        },
+        {
+          "type": "notice",
+          "title": "Your ELI AI model has been updated",
+          "html": "<p>Your AI model has been switched from <b>gemini-flash-lite-latest</b> to <b>gemini-flash-latest</b> by your administrator.</p><p>The previous model had started returning incomplete results. The clearest symptom: <b>Error Review</b> reported <i>no errors found</i> on documents that clearly contained errors. Other AI tools were quietly returning weaker answers as well.</p><p>The new model corrects this. No action is needed on your part.</p>",
+          "dismissLabel": "Got it"
+        }
+      ],
+      "pushedAt": "2026-09-11T00:24:40.338Z",
+      "pushedBy": "andrew_nemiroff@colpal.com",
+      "audience": [
+        "all"
+      ],
+      "expiresAt": "2026-11-10T00:24:40.338Z"
     }
   ]
 }
