@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-09-11T17:48:34.923Z",
+  "lastUpdated": "2026-09-11T17:53:56.828Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -90,9 +90,9 @@
     {
       "id": "kernel_check",
       "version": null,
-      "lastUpdated": "2026-09-11T17:48:10.920Z",
+      "lastUpdated": "2026-09-11T17:53:37.016Z",
       "filename": "kernel_check-v3.json",
-      "size": 23806,
+      "size": 22901,
       "label": "ELI OS Update",
       "kind": "tool",
       "category": "Tools - ELI Core",
