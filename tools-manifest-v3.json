@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-09-11T06:19:57.864Z",
+  "lastUpdated": "2026-09-11T14:44:38.271Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -80,6 +80,20 @@
       "filename": "whats_new-v3.json",
       "size": 16784,
       "label": "What's New",
+      "kind": "tool",
+      "category": "Help",
+      "audience": [
+        "all"
+      ],
+      "changelog": ""
+    },
+    {
+      "id": "profile_restore",
+      "version": null,
+      "lastUpdated": "2026-09-11T14:44:29.459Z",
+      "filename": "profile_restore-v3.json",
+      "size": 15453,
+      "label": "Restore Profile",
       "kind": "tool",
       "category": "Help",
       "audience": [
@@ -664,9 +678,9 @@
     {
       "id": "eli_telemetry",
       "version": null,
-      "lastUpdated": "2026-07-10T13:24:30.650Z",
+      "lastUpdated": "2026-09-11T14:44:29.630Z",
       "filename": "eli_telemetry-v3.json",
-      "size": 84473,
+      "size": 88508,
       "label": "Usage Telemetry",
       "kind": "tool",
       "category": "System",
