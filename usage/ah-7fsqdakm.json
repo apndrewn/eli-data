@@ -1,7 +1,7 @@
 {
   "userName": "A(",
   "userKey": "ah",
-  "generatedAt": "2026-09-11T02:34:48.726Z",
+  "generatedAt": "2026-09-11T05:35:33.331Z",
   "days": [
     {
       "date": "2026-07-30",
@@ -204,11 +204,15 @@
         "error": 59,
         "draft_templates": 7,
         "draft": 10,
-        "ask_eli": 2
+        "ask_eli": 13,
+        "demo": 2,
+        "tour": 1,
+        "legal_review": 6,
+        "review_redlines": 5
       },
-      "sessions": 42,
+      "sessions": 70,
       "firstActiveAt": 1789083156494,
-      "lastActiveAt": 1789094083721,
+      "lastActiveAt": 1789098696440,
       "tokens": {
         "gemini-flash-lite-latest": {
           "promptTokens": 262735,
@@ -216,9 +220,9 @@
           "calls": 22
         },
         "gemini-flash-latest": {
-          "promptTokens": 378065,
-          "candidatesTokens": 124123,
-          "calls": 59
+          "promptTokens": 746490,
+          "candidatesTokens": 316075,
+          "calls": 334
         }
       },
       "tokensByTool": {
@@ -236,16 +240,16 @@
         },
         "_unknown": {
           "gemini-flash-latest": {
-            "promptTokens": 5002,
-            "candidatesTokens": 2949,
-            "calls": 16
+            "promptTokens": 19768,
+            "candidatesTokens": 16092,
+            "calls": 58
           }
         },
         "ask_eli": {
           "gemini-flash-latest": {
-            "promptTokens": 6479,
-            "candidatesTokens": 1518,
-            "calls": 1
+            "promptTokens": 10329,
+            "candidatesTokens": 4373,
+            "calls": 11
           }
         },
         "draft": {
@@ -254,13 +258,76 @@
             "candidatesTokens": 339,
             "calls": 1
           }
+        },
+        "tour": {
+          "gemini-flash-latest": {
+            "promptTokens": 130,
+            "candidatesTokens": 375,
+            "calls": 1
+          }
+        },
+        "review_redlines": {
+          "gemini-flash-latest": {
+            "promptTokens": 349679,
+            "candidatesTokens": 175579,
+            "calls": 222
+          }
         }
       },
-      "estCostUSD": 0.076252,
+      "estCostUSD": 0.161469,
       "drafts": {
         "byType": {},
         "byTemplate": {},
         "total": 0
+      }
+    },
+    {
+      "date": "2026-09-11",
+      "toolsUsed": {
+        "error": 20,
+        "draft_templates": 3,
+        "draft": 8
+      },
+      "sessions": 29,
+      "firstActiveAt": 1789099216460,
+      "lastActiveAt": 1789104928325,
+      "tokens": {
+        "gemini-flash-latest": {
+          "promptTokens": 169287,
+          "candidatesTokens": 11891,
+          "calls": 24
+        }
+      },
+      "tokensByTool": {
+        "_unknown": {
+          "gemini-flash-latest": {
+            "promptTokens": 354,
+            "candidatesTokens": 210,
+            "calls": 1
+          }
+        },
+        "error": {
+          "gemini-flash-latest": {
+            "promptTokens": 168116,
+            "candidatesTokens": 10497,
+            "calls": 20
+          }
+        },
+        "draft": {
+          "gemini-flash-latest": {
+            "promptTokens": 817,
+            "candidatesTokens": 1184,
+            "calls": 3
+          }
+        }
+      },
+      "estCostUSD": 0.016264,
+      "drafts": {
+        "byType": {
+          "unknown": 1
+        },
+        "byTemplate": {},
+        "total": 1
       }
     }
   ],
@@ -269,7 +336,7 @@
     "initials": "A(",
     "kernelVersion": "v3-2026-06-13-widgets-settings-only",
     "installedAt": "2026-07-31T00:45:31.641Z",
-    "lastSeenAt": "2026-09-11T02:34:48.942Z",
+    "lastSeenAt": "2026-09-11T05:35:33.546Z",
     "settings": {
       "ai_model": "gemini-flash-latest",
       "ai_temperature": 0.3,
@@ -381,7 +448,7 @@
       },
       {
         "id": "ask_eli",
-        "releasedAt": "2026-09-11T02:04:01.686Z",
+        "releasedAt": "2026-09-11T02:53:03.568Z",
         "disabled": false
       },
       {
@@ -396,7 +463,7 @@
       },
       {
         "id": "build_draft",
-        "releasedAt": "2026-08-22T03:30:21.666Z",
+        "releasedAt": "2026-09-11T05:28:12.716Z",
         "disabled": false
       },
       {
@@ -496,7 +563,7 @@
       },
       {
         "id": "error_review",
-        "releasedAt": "2026-09-11T01:28:48.598Z",
+        "releasedAt": "2026-09-11T05:16:00.577Z",
         "disabled": false
       },
       {
@@ -536,7 +603,7 @@
       },
       {
         "id": "legal_risks",
-        "releasedAt": "2026-06-13T03:39:09.434Z",
+        "releasedAt": "2026-09-11T03:35:55.044Z",
         "disabled": false
       },
       {
@@ -556,7 +623,7 @@
       },
       {
         "id": "polish",
-        "releasedAt": "2026-09-11T02:33:43.881Z",
+        "releasedAt": "2026-09-11T03:44:49.695Z",
         "disabled": false
       },
       {
@@ -581,7 +648,7 @@
       },
       {
         "id": "review_redlines",
-        "releasedAt": "2026-08-11T04:11:20.394Z",
+        "releasedAt": "2026-09-11T03:40:50.791Z",
         "disabled": false
       },
       {
@@ -640,6 +707,11 @@
         "disabled": false
       },
       {
+        "id": "whats_new",
+        "releasedAt": "2026-09-11T05:34:33.278Z",
+        "disabled": false
+      },
+      {
         "id": "workflow_creator",
         "releasedAt": "2026-06-09T12:28:19.764Z",
         "disabled": false
@@ -651,7 +723,7 @@
         "at": 1789086590708
       }
     ],
-    "trophies": 16,
+    "trophies": 20,
     "trophyIds": [
       "t115",
       "t137",
@@ -668,7 +740,11 @@
       "t106",
       "t162",
       "t121",
-      "t41"
+      "t41",
+      "t153",
+      "t130",
+      "t60",
+      "t74"
     ],
     "trophyDates": {
       "t115": "2026-07-31T00:45:35.255Z",
@@ -686,16 +762,20 @@
       "t106": "2026-09-11T00:06:57.779Z",
       "t162": "2026-09-11T00:49:00.469Z",
       "t121": "2026-09-11T00:51:10.608Z",
-      "t41": "2026-09-11T02:09:44.309Z"
+      "t41": "2026-09-11T02:09:44.309Z",
+      "t153": "2026-09-11T04:47:34.460Z",
+      "t130": "2026-09-11T05:03:47.308Z",
+      "t60": "2026-09-11T05:11:39.012Z",
+      "t74": "2026-09-11T05:11:39.012Z"
     },
     "stats": {
-      "totalActiveDays": 7,
-      "docsReviewed": 79,
-      "draftsCreated": 0,
-      "errorsFixed": 76,
+      "totalActiveDays": 8,
+      "docsReviewed": 104,
+      "draftsCreated": 1,
+      "errorsFixed": 145,
       "risksFound": 0,
-      "hoursSaved": 39.5,
-      "currentStreak": 1
+      "hoursSaved": 52,
+      "currentStreak": 2
     },
     "dashboardApps": [
       "auto_emailer",
