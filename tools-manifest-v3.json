@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-09-11T17:22:24.954Z",
+  "lastUpdated": "2026-09-11T17:24:40.630Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -90,9 +90,9 @@
     {
       "id": "kernel_check",
       "version": null,
-      "lastUpdated": "2026-09-11T17:14:12.538Z",
+      "lastUpdated": "2026-09-11T17:24:04.853Z",
       "filename": "kernel_check-v3.json",
-      "size": 17303,
+      "size": 18017,
       "label": "Kernel Update",
       "kind": "tool",
       "category": "Tools - ELI Core",
@@ -692,9 +692,9 @@
     {
       "id": "eli_telemetry",
       "version": null,
-      "lastUpdated": "2026-09-11T17:21:37.248Z",
+      "lastUpdated": "2026-09-11T17:24:04.965Z",
       "filename": "eli_telemetry-v3.json",
-      "size": 88945,
+      "size": 89221,
       "label": "Usage Telemetry",
       "kind": "tool",
       "category": "System",
@@ -735,9 +735,9 @@
     {
       "id": "admin_fleet",
       "version": null,
-      "lastUpdated": "2026-07-09T12:21:00.230Z",
+      "lastUpdated": "2026-09-11T17:24:04.750Z",
       "filename": "admin_fleet-v3.json",
-      "size": 318791,
+      "size": 326019,
       "label": "Admin Fleet",
       "kind": "tool",
       "category": "Admin",
