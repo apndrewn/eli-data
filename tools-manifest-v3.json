@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-09-11T17:10:01.351Z",
+  "lastUpdated": "2026-09-11T17:12:47.087Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -80,6 +80,20 @@
       "filename": "whats_new-v3.json",
       "size": 16796,
       "label": "What's New",
+      "kind": "tool",
+      "category": "Tools - ELI Core",
+      "audience": [
+        "all"
+      ],
+      "changelog": ""
+    },
+    {
+      "id": "kernel_check",
+      "version": null,
+      "lastUpdated": "2026-09-11T17:12:05.878Z",
+      "filename": "kernel_check-v3.json",
+      "size": 16719,
+      "label": "Kernel Update",
       "kind": "tool",
       "category": "Tools - ELI Core",
       "audience": [
@@ -286,9 +300,9 @@
     {
       "id": "eli_settings",
       "version": null,
-      "lastUpdated": "2026-09-11T17:05:15.086Z",
+      "lastUpdated": "2026-09-11T17:12:06.001Z",
       "filename": "eli_settings-v3.json",
-      "size": 133561,
+      "size": 134168,
       "label": "Settings",
       "kind": "tool",
       "category": "System",
