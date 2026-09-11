@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-09-11T14:58:03.406Z",
+  "lastUpdated": "2026-09-11T15:03:12.998Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -62,12 +62,12 @@
     {
       "id": "polish",
       "version": null,
-      "lastUpdated": "2026-09-11T06:19:56.936Z",
+      "lastUpdated": "2026-09-11T15:02:45.370Z",
       "filename": "polish-v3.json",
-      "size": 78826,
+      "size": 78834,
       "label": "Polish",
       "kind": "tool",
-      "category": "Drafting",
+      "category": "Tools - ELI Core",
       "audience": [
         "all"
       ],
@@ -76,12 +76,12 @@
     {
       "id": "whats_new",
       "version": null,
-      "lastUpdated": "2026-09-11T06:01:05.874Z",
+      "lastUpdated": "2026-09-11T15:02:45.524Z",
       "filename": "whats_new-v3.json",
-      "size": 16784,
+      "size": 16796,
       "label": "What's New",
       "kind": "tool",
-      "category": "Help",
+      "category": "Tools - ELI Core",
       "audience": [
         "all"
       ],
@@ -90,7 +90,7 @@
     {
       "id": "profile_restore",
       "version": null,
-      "lastUpdated": "2026-09-11T14:57:53.205Z",
+      "lastUpdated": "2026-09-11T15:02:45.878Z",
       "filename": "profile_restore-v3.json",
       "size": 20842,
       "label": "Restore Profile",
@@ -231,12 +231,12 @@
     {
       "id": "team_guidance",
       "version": null,
-      "lastUpdated": "2026-08-11T03:55:28.215Z",
+      "lastUpdated": "2026-09-11T15:02:45.767Z",
       "filename": "team_guidance-v3.json",
-      "size": 116376,
+      "size": 116379,
       "label": "Guidance",
       "kind": "tool",
-      "category": "Tools - ELI Core",
+      "category": "External Innovation",
       "audience": [
         "all"
       ],
@@ -737,7 +737,7 @@
     {
       "id": "admin_user_restore",
       "version": null,
-      "lastUpdated": "2026-07-09T04:14:44.316Z",
+      "lastUpdated": "2026-09-11T15:02:45.996Z",
       "filename": "admin_user_restore-v3.json",
       "size": 45269,
       "label": "Admin User Restore",
@@ -752,12 +752,12 @@
     {
       "id": "integrity_scanner",
       "version": null,
-      "lastUpdated": "2026-07-11T03:27:36.164Z",
+      "lastUpdated": "2026-09-11T15:02:45.102Z",
       "filename": "integrity_scanner-v3.json",
-      "size": 34337,
+      "size": 34334,
       "label": "Integrity Scan",
       "kind": "tool",
-      "category": "Document",
+      "category": "Admin",
       "audience": [],
       "changelog": "",
       "audienceEmails": [
@@ -767,12 +767,12 @@
     {
       "id": "amendment_builder",
       "version": null,
-      "lastUpdated": "2026-07-11T03:48:10.313Z",
+      "lastUpdated": "2026-09-11T15:02:45.240Z",
       "filename": "amendment_builder-v3.json",
-      "size": 40244,
+      "size": 40241,
       "label": "Amendment Builder",
       "kind": "tool",
-      "category": "Document",
+      "category": "Admin",
       "audience": [],
       "changelog": "",
       "audienceEmails": [
@@ -956,12 +956,12 @@
     {
       "id": "dashboard_tour",
       "version": null,
-      "lastUpdated": "2026-06-17T05:30:15.158Z",
+      "lastUpdated": "2026-09-11T15:03:10.114Z",
       "filename": "dashboard_tour-v3.json",
-      "size": 124388,
+      "size": 124433,
       "label": "Dashboard Tour",
       "kind": "tool",
-      "category": "Tools - ELI Core",
+      "category": "External Innovation",
       "audience": [
         "all"
       ],

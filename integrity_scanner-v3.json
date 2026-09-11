@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-07-11T03:27:36.165Z",
+  "exportedAt": "2026-09-11T15:02:45.105Z",
   "sectionVersions": {
     "jsonTools": 1
   },
   "sections": {
     "jsonTools": [
       {
-        "releasedAt": "2026-07-11T03:27:36.164Z",
+        "releasedAt": "2026-09-11T15:02:45.102Z",
         "id": "integrity_scanner",
         "label": "Integrity Scan",
         "defaultEnabled": true,
@@ -32,7 +32,7 @@
           "title": "INTEGRITY SCAN",
           "desc": "Deterministic pre-send checks: defined terms, cross-references, drafting artifacts, exhibits. No AI — runs offline.",
           "hoverTip": "Scan for mechanical drafting defects",
-          "category": "Document",
+          "category": "Admin",
           "core": false,
           "default": false,
           "order": 14,

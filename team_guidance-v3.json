@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-08-11T03:55:28.216Z",
+  "exportedAt": "2026-09-11T15:02:45.768Z",
   "sectionVersions": {
     "jsonTools": 1
   },
   "sections": {
     "jsonTools": [
       {
-        "releasedAt": "2026-08-11T03:55:28.215Z",
+        "releasedAt": "2026-09-11T15:02:45.767Z",
         "id": "team_guidance",
         "label": "Guidance",
         "defaultEnabled": true,
@@ -35,7 +35,7 @@
           "title": "GUIDANCE",
           "desc": "The team's negotiating rules — what we accept, what we push back on, and why. Feeds Review Redlines, Ask ELI and every other tool.",
           "hoverTip": "Team rules that steer every tool",
-          "category": "Tools - ELI Core",
+          "category": "External Innovation",
           "core": false,
           "default": true,
           "order": 3,

@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-09-11T06:19:56.937Z",
+  "exportedAt": "2026-09-11T15:02:45.375Z",
   "sectionVersions": {
     "jsonTools": 1
   },
   "sections": {
     "jsonTools": [
       {
-        "releasedAt": "2026-09-11T06:19:56.936Z",
+        "releasedAt": "2026-09-11T15:02:45.370Z",
         "id": "polish",
         "label": "Polish",
         "defaultEnabled": true,
@@ -34,7 +34,7 @@
           "icon": "✨",
           "title": "Polish",
           "desc": "Rewrite the selected text three ways — polished, plainer, formal — keeping the meaning identical.",
-          "category": "Drafting",
+          "category": "Tools - ELI Core",
           "core": false,
           "default": false,
           "hidden": true,

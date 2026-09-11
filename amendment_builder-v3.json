@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-07-11T03:48:10.315Z",
+  "exportedAt": "2026-09-11T15:02:45.242Z",
   "sectionVersions": {
     "jsonTools": 1
   },
   "sections": {
     "jsonTools": [
       {
-        "releasedAt": "2026-07-11T03:48:10.313Z",
+        "releasedAt": "2026-09-11T15:02:45.240Z",
         "id": "amendment_builder",
         "label": "Amendment Builder",
         "defaultEnabled": true,
@@ -33,7 +33,7 @@
           "title": "AMENDMENT BUILDER",
           "desc": "Guided renewals & amendments — AI reads the executed agreement; the instrument is assembled from templates you approve.",
           "hoverTip": "Build a renewal or amendment",
-          "category": "Document",
+          "category": "Admin",
           "core": false,
           "default": false,
           "order": 15,

@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-06-17T05:30:15.159Z",
+  "exportedAt": "2026-09-11T15:03:10.116Z",
   "sectionVersions": {
     "jsonTools": 1
   },
   "sections": {
     "jsonTools": [
       {
-        "releasedAt": "2026-06-17T05:30:15.158Z",
+        "releasedAt": "2026-09-11T15:03:10.114Z",
         "id": "dashboard_tour",
         "label": "Dashboard Tour",
         "defaultEnabled": true,
@@ -25,6 +25,7 @@
         },
         "catalog": {
           "id": "app_dashboard_tour",
+          "category": "External Innovation",
           "hidden": true,
           "default": false
         },

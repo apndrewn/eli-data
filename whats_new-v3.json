@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-09-11T06:01:05.876Z",
+  "exportedAt": "2026-09-11T15:02:45.525Z",
   "sectionVersions": {
     "jsonTools": 1
   },
   "sections": {
     "jsonTools": [
       {
-        "releasedAt": "2026-09-11T06:01:05.874Z",
+        "releasedAt": "2026-09-11T15:02:45.524Z",
         "id": "whats_new",
         "label": "What's New",
         "defaultEnabled": true,
@@ -34,7 +34,7 @@
           "icon": "🎁",
           "title": "What's New",
           "desc": "The latest ELI release — new tools, improvements and fixes.",
-          "category": "Help",
+          "category": "Tools - ELI Core",
           "core": false,
           "default": false,
           "hidden": true,
