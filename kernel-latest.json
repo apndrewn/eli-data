@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "version": "v3-2026-09-11-41b2733",
+  "builtAt": "2026-09-11T17:38:32.376Z",
+  "bytes": 416419,
+  "importUrl": "https://gist.githubusercontent.com/apndrewn/28adbedd9418861f85a22e45634641fa/raw/",
+  "notes": "Error Review can now undo a fix and re-locate it after applying. Polish keeps bold, italics and underline. New Thinking Depth control in Settings.",
+  "adminContacts": [
+    {
+      "name": "andrew_nemiroff",
+      "role": "Admin"
+    },
+    {
+      "name": "jared_lerner",
+      "role": "Assistant to the Admin"
+    }
+  ]
+}
