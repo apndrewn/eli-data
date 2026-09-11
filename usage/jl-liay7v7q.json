@@ -1,40 +1,48 @@
 {
   "userName": "JL",
   "userKey": "jl",
-  "generatedAt": "2026-09-11T13:57:52.144Z",
+  "generatedAt": "2026-09-11T18:50:42.263Z",
   "days": [
     {
       "date": "2026-09-11",
       "toolsUsed": {
-        "error": 3
+        "error": 4,
+        "draft": 1
       },
-      "sessions": 4,
+      "sessions": 11,
       "firstActiveAt": 1789134354739,
-      "lastActiveAt": 1789134719053,
+      "lastActiveAt": 1789152641494,
       "tokens": {
         "gemini-flash-latest": {
-          "promptTokens": 35871,
-          "candidatesTokens": 5050,
-          "calls": 4
+          "promptTokens": 53675,
+          "candidatesTokens": 11119,
+          "calls": 21
         }
       },
       "tokensByTool": {
         "_unknown": {
           "gemini-flash-latest": {
-            "promptTokens": 2179,
-            "candidatesTokens": 3083,
-            "calls": 1
+            "promptTokens": 6048,
+            "candidatesTokens": 5151,
+            "calls": 6
           }
         },
         "error": {
           "gemini-flash-latest": {
-            "promptTokens": 33692,
-            "candidatesTokens": 1967,
-            "calls": 3
+            "promptTokens": 42579,
+            "candidatesTokens": 3297,
+            "calls": 11
+          }
+        },
+        "draft": {
+          "gemini-flash-latest": {
+            "promptTokens": 5048,
+            "candidatesTokens": 2671,
+            "calls": 4
           }
         }
       },
-      "estCostUSD": 0.004205,
+      "estCostUSD": 0.007361,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -47,7 +55,7 @@
     "initials": "JL",
     "kernelVersion": "v3-2026-06-13-widgets-settings-only",
     "installedAt": "2026-09-11T13:45:59.985Z",
-    "lastSeenAt": "2026-09-11T13:57:52.365Z",
+    "lastSeenAt": "2026-09-11T18:50:42.518Z",
     "settings": {
       "ai_model": "gemini-flash-latest",
       "ai_temperature": 0.3,
@@ -106,11 +114,6 @@
         "disabled": false
       },
       {
-        "id": "ask_dock",
-        "releasedAt": "2026-06-13T15:12:32.240Z",
-        "disabled": false
-      },
-      {
         "id": "ask_eli",
         "releasedAt": "2026-09-11T02:53:03.568Z",
         "disabled": false
@@ -126,18 +129,8 @@
         "disabled": false
       },
       {
-        "id": "build_draft",
-        "releasedAt": "2026-09-11T06:08:17.454Z",
-        "disabled": false
-      },
-      {
         "id": "compare",
         "releasedAt": "2026-06-15T05:52:09.280Z",
-        "disabled": false
-      },
-      {
-        "id": "dashboard_tour",
-        "releasedAt": "2026-06-17T05:30:15.158Z",
         "disabled": false
       },
       {
@@ -166,11 +159,6 @@
         "disabled": false
       },
       {
-        "id": "eli-admin",
-        "releasedAt": "2026-09-11T06:01:05.976Z",
-        "disabled": false
-      },
-      {
         "id": "eli-wrongness",
         "releasedAt": "2026-05-17T13:54:46.170Z",
         "disabled": false
@@ -191,28 +179,13 @@
         "disabled": false
       },
       {
-        "id": "eli_settings",
-        "releasedAt": "2026-06-15T12:03:23.624Z",
-        "disabled": false
-      },
-      {
         "id": "eli_stats",
         "releasedAt": "2026-05-28T05:13:51.148Z",
         "disabled": false
       },
       {
-        "id": "eli_telemetry",
-        "releasedAt": "2026-07-10T13:24:30.650Z",
-        "disabled": false
-      },
-      {
         "id": "email_helper",
         "releasedAt": "2026-05-28T05:15:56.728Z",
-        "disabled": false
-      },
-      {
-        "id": "error_review",
-        "releasedAt": "2026-09-11T05:46:52.087Z",
         "disabled": false
       },
       {
@@ -246,11 +219,6 @@
         "disabled": false
       },
       {
-        "id": "polish",
-        "releasedAt": "2026-09-11T06:19:56.936Z",
-        "disabled": false
-      },
-      {
         "id": "redline_authors",
         "releasedAt": "2026-05-17T13:54:46.226Z",
         "disabled": false
@@ -258,16 +226,6 @@
       {
         "id": "redline_email_pack",
         "releasedAt": "2026-05-17T13:54:46.229Z",
-        "disabled": false
-      },
-      {
-        "id": "review_redlines",
-        "releasedAt": "2026-09-11T03:40:50.791Z",
-        "disabled": false
-      },
-      {
-        "id": "team_guidance",
-        "releasedAt": "2026-08-11T03:55:28.215Z",
         "disabled": false
       },
       {
@@ -302,7 +260,67 @@
       },
       {
         "id": "whats_new",
-        "releasedAt": "2026-09-11T06:01:05.874Z",
+        "releasedAt": "2026-09-11T15:02:45.524Z",
+        "disabled": false
+      },
+      {
+        "id": "kernel_check",
+        "releasedAt": "2026-09-11T17:53:37.016Z",
+        "disabled": false
+      },
+      {
+        "id": "profile_restore",
+        "releasedAt": "2026-09-11T18:12:17.164Z",
+        "disabled": false
+      },
+      {
+        "id": "eli-admin",
+        "releasedAt": "2026-09-11T15:10:16.816Z",
+        "disabled": false
+      },
+      {
+        "id": "polish",
+        "releasedAt": "2026-09-11T16:49:10.743Z",
+        "disabled": false
+      },
+      {
+        "id": "team_guidance",
+        "releasedAt": "2026-09-11T15:02:45.767Z",
+        "disabled": false
+      },
+      {
+        "id": "eli_settings",
+        "releasedAt": "2026-09-11T17:44:54.689Z",
+        "disabled": false
+      },
+      {
+        "id": "eli_telemetry",
+        "releasedAt": "2026-09-11T18:10:17.168Z",
+        "disabled": false
+      },
+      {
+        "id": "error_review",
+        "releasedAt": "2026-09-11T15:43:26.754Z",
+        "disabled": false
+      },
+      {
+        "id": "ask_dock",
+        "releasedAt": "2026-09-11T16:49:10.843Z",
+        "disabled": false
+      },
+      {
+        "id": "dashboard_tour",
+        "releasedAt": "2026-09-11T15:03:10.114Z",
+        "disabled": false
+      },
+      {
+        "id": "build_draft",
+        "releasedAt": "2026-09-11T15:51:12.635Z",
+        "disabled": false
+      },
+      {
+        "id": "review_redlines",
+        "releasedAt": "2026-09-11T17:14:24.803Z",
         "disabled": false
       }
     ],
@@ -314,6 +332,14 @@
       {
         "id": "release-notes-2026-09-11",
         "at": 1789134356915
+      },
+      {
+        "id": "release-notes-off-1789139158421",
+        "at": 1789140749413
+      },
+      {
+        "id": "restore-trophies-JL-liay7v7q-1789135191487",
+        "at": 1789135217909
       }
     ],
     "trophies": 31,
@@ -351,54 +377,54 @@
       "t106"
     ],
     "trophyDates": {
-      "t26": "2026-09-11T13:47:21.267Z",
-      "t56": "2026-09-11T13:48:36.961Z",
-      "t71": "2026-09-11T13:52:34.411Z",
-      "t162": "2026-09-11T13:57:09.769Z",
-      "t11": 1789138677673,
-      "t137": 1789138677673,
-      "t111": 1789138677673,
-      "t41": 1789138677673,
-      "t188": 1789138677673,
-      "t1": 1789138677673,
-      "t83": 1789138677673,
-      "t161": 1789138677673,
-      "t17": 1789138677673,
-      "t138": 1789138677673,
-      "t115": 1789138677673,
-      "t177": 1789138677673,
-      "t2": 1789138677673,
-      "t114": 1789138677673,
-      "t113": 1789138677673,
-      "t160": 1789138677673,
-      "t112": 1789138677673,
-      "t145": 1789138677673,
-      "t170": 1789138677673,
-      "t156": 1789138677673,
-      "t121": 1789138677673,
-      "t_graduate": 1789138677673,
-      "t116": 1789138677673,
-      "t169": 1789138677673,
-      "t166": 1789138677673,
-      "t168": 1789138677673,
-      "t106": 1789138677673
+      "t26": 1789135218025,
+      "t56": 1789135218025,
+      "t11": 1789135218025,
+      "t137": 1789135218025,
+      "t111": 1789135218025,
+      "t41": 1789135218025,
+      "t71": 1789135218025,
+      "t188": 1789135218025,
+      "t1": 1789135218025,
+      "t83": 1789135218025,
+      "t161": 1789135218025,
+      "t17": 1789135218025,
+      "t138": 1789135218025,
+      "t115": 1789135218025,
+      "t177": 1789135218025,
+      "t2": 1789135218025,
+      "t114": 1789135218025,
+      "t113": 1789135218025,
+      "t160": 1789135218025,
+      "t112": 1789135218025,
+      "t145": 1789135218025,
+      "t170": 1789135218025,
+      "t156": 1789135218025,
+      "t121": 1789135218025,
+      "t_graduate": 1789135218025,
+      "t116": 1789135218025,
+      "t162": 1789135218025,
+      "t169": 1789135218025,
+      "t166": 1789135218025,
+      "t168": 1789135218025,
+      "t106": 1789135218025
     },
     "stats": {
       "totalActiveDays": 1,
-      "docsReviewed": 2,
-      "draftsCreated": 0,
-      "errorsFixed": 10,
+      "docsReviewed": 3,
+      "draftsCreated": 1,
+      "errorsFixed": 15,
       "risksFound": 0,
-      "hoursSaved": 1,
+      "hoursSaved": 1.5,
       "currentStreak": 1
     },
     "dashboardApps": [
       "auto_emailer",
-      "build_draft",
-      "error_review",
       "final_review",
       "legal_review",
-      "team_guidance"
+      "team_guidance",
+      "error_review",
+      "build_draft"
     ],
     "dashboardCustomized": false
   }
