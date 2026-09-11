@@ -1,5 +1,5 @@
 {
-  "userName": "A(",
+  "userName": "AN",
   "userKey": "ah",
   "generatedAt": "2026-09-11T17:42:54.977Z",
   "days": [
@@ -74,7 +74,7 @@
   ],
   "fleet": {
     "userId": "AX-376z9afr",
-    "initials": "A(",
+    "initials": "AN",
     "kernelVersion": "v3-2026-09-11-41b2733",
     "kernelStamped": true,
     "installedAt": "2026-07-31T00:45:31.641Z",
