@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-09-11T05:34:34.223Z",
+  "lastUpdated": "2026-09-11T05:38:32.030Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -76,9 +76,9 @@
     {
       "id": "whats_new",
       "version": null,
-      "lastUpdated": "2026-09-11T05:34:33.278Z",
+      "lastUpdated": "2026-09-11T05:38:30.793Z",
       "filename": "whats_new-v3.json",
-      "size": 15781,
+      "size": 17250,
       "label": "What's New",
       "kind": "tool",
       "category": "Help",
