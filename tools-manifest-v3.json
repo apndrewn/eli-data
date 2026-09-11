@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-09-11T05:28:13.652Z",
+  "lastUpdated": "2026-09-11T05:33:04.610Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -68,6 +68,20 @@
       "label": "Polish",
       "kind": "tool",
       "category": "Drafting",
+      "audience": [
+        "all"
+      ],
+      "changelog": ""
+    },
+    {
+      "id": "whats_new",
+      "version": null,
+      "lastUpdated": "2026-09-11T05:33:01.170Z",
+      "filename": "whats_new-v3.json",
+      "size": 15104,
+      "label": "What's New",
+      "kind": "tool",
+      "category": "Help",
       "audience": [
         "all"
       ],
