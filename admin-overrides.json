@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-09-10T23:56:40.404Z",
+  "lastUpdated": "2026-09-11T00:00:36.475Z",
   "overrides": [
     {
       "id": "fleet-notice-MD-7z4e5kud-1781724707405",
@@ -58,9 +58,15 @@
             "t106"
           ],
           "mode": "replace"
+        },
+        {
+          "type": "notice",
+          "title": "🏆 Your trophies are back",
+          "html": "<p>Good news — your ELI trophies have been restored. All 31 are back in your Trophy Gallery.</p><p>Sorry for the mix-up!</p>",
+          "dismissLabel": "Nice"
         }
       ],
-      "pushedAt": "2026-09-10T23:56:40.404Z",
+      "pushedAt": "2026-09-11T00:00:36.474Z",
       "pushedBy": "andrew_nemiroff@colpal.com",
       "audienceUserIds": [
         "JL-qknb6exg"
