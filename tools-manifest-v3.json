@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-09-11T15:10:17.774Z",
+  "lastUpdated": "2026-09-11T15:12:13.584Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -1224,7 +1224,9 @@
         "__data_playbooks",
         "__data_risk_rules",
         "__data_templates",
-        "__data_requesters_enc"
+        "__data_requesters_enc",
+        "team_guidance",
+        "dashboard_tour"
       ]
     },
     {
@@ -1253,7 +1255,9 @@
         "__data_catalog",
         "__data_prompts",
         "__data_loading_msgs",
-        "__data_trophies"
+        "__data_trophies",
+        "polish",
+        "whats_new"
       ]
     },
     {
@@ -1289,7 +1293,14 @@
         "workflow_creator",
         "template_editor",
         "demo",
-        "feedback_inbox"
+        "feedback_inbox",
+        "profile_restore",
+        "integrity_scanner",
+        "amendment_builder",
+        "admin_user_restore",
+        "clause_library",
+        "chrome_tester",
+        "placeholder_editor"
       ]
     }
   ]
