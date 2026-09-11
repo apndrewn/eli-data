@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-09-11T15:03:12.998Z",
+  "lastUpdated": "2026-09-11T15:05:20.775Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -90,17 +90,16 @@
     {
       "id": "profile_restore",
       "version": null,
-      "lastUpdated": "2026-09-11T15:02:45.878Z",
+      "lastUpdated": "2026-09-11T15:05:19.687Z",
       "filename": "profile_restore-v3.json",
-      "size": 20842,
+      "size": 21756,
       "label": "Restore Profile",
       "kind": "tool",
       "category": "Admin",
-      "audience": [],
-      "changelog": "",
-      "audienceEmails": [
-        "andrew_nemiroff@colpal.com"
-      ]
+      "audience": [
+        "all"
+      ],
+      "changelog": ""
     },
     {
       "id": "eli-admin",
