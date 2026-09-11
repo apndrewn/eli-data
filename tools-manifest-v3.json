@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-09-11T17:24:40.630Z",
+  "lastUpdated": "2026-09-11T17:26:31.595Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -90,10 +90,10 @@
     {
       "id": "kernel_check",
       "version": null,
-      "lastUpdated": "2026-09-11T17:24:04.853Z",
+      "lastUpdated": "2026-09-11T17:26:19.085Z",
       "filename": "kernel_check-v3.json",
-      "size": 18017,
-      "label": "Kernel Update",
+      "size": 19776,
+      "label": "Core OS Update",
       "kind": "tool",
       "category": "Tools - ELI Core",
       "audience": [
@@ -735,9 +735,9 @@
     {
       "id": "admin_fleet",
       "version": null,
-      "lastUpdated": "2026-09-11T17:24:04.750Z",
+      "lastUpdated": "2026-09-11T17:25:36.009Z",
       "filename": "admin_fleet-v3.json",
-      "size": 326019,
+      "size": 326036,
       "label": "Admin Fleet",
       "kind": "tool",
       "category": "Admin",
