@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-09-11T16:46:48.986Z",
+  "lastUpdated": "2026-09-11T16:49:16.171Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -62,9 +62,9 @@
     {
       "id": "polish",
       "version": null,
-      "lastUpdated": "2026-09-11T16:46:48.188Z",
+      "lastUpdated": "2026-09-11T16:49:10.743Z",
       "filename": "polish-v3.json",
-      "size": 107124,
+      "size": 107496,
       "label": "Polish",
       "kind": "tool",
       "category": "Tools - ELI Core",
@@ -883,9 +883,9 @@
     {
       "id": "ask_dock",
       "version": null,
-      "lastUpdated": "2026-06-13T15:12:32.240Z",
+      "lastUpdated": "2026-09-11T16:49:10.843Z",
       "filename": "ask_dock-v3.json",
-      "size": 39377,
+      "size": 39749,
       "label": "Ask ELI Dock",
       "kind": "tool",
       "category": "System",
