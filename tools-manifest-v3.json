@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-09-11T17:56:32.981Z",
+  "lastUpdated": "2026-09-11T17:58:41.575Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -104,12 +104,12 @@
     {
       "id": "profile_restore",
       "version": null,
-      "lastUpdated": "2026-09-11T17:56:32.200Z",
+      "lastUpdated": "2026-09-11T17:58:40.745Z",
       "filename": "profile_restore-v3.json",
-      "size": 23435,
+      "size": 23446,
       "label": "Restore Profile",
       "kind": "tool",
-      "category": "Admin",
+      "category": "Tools - ELI Core",
       "audience": [
         "all"
       ],
@@ -1272,7 +1272,8 @@
         "__data_trophies",
         "polish",
         "whats_new",
-        "kernel_check"
+        "kernel_check",
+        "profile_restore"
       ]
     },
     {
@@ -1309,7 +1310,6 @@
         "template_editor",
         "demo",
         "feedback_inbox",
-        "profile_restore",
         "integrity_scanner",
         "amendment_builder",
         "admin_user_restore",

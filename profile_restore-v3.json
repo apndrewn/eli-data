@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-09-11T17:56:32.201Z",
+  "exportedAt": "2026-09-11T17:58:40.746Z",
   "sectionVersions": {
     "jsonTools": 1
   },
   "sections": {
     "jsonTools": [
       {
-        "releasedAt": "2026-09-11T17:56:32.200Z",
+        "releasedAt": "2026-09-11T17:58:40.745Z",
         "id": "profile_restore",
         "label": "Restore Profile",
         "defaultEnabled": true,
@@ -34,7 +34,7 @@
           "icon": "🏆",
           "title": "RESTORE PROFILE",
           "desc": "Bring back trophies and stats from a previous ELI install.",
-          "category": "Admin",
+          "category": "Tools - ELI Core",
           "core": false,
           "default": false,
           "hidden": false,
