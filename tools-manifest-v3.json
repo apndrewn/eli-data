@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-09-11T16:09:46.578Z",
+  "lastUpdated": "2026-09-11T16:12:29.406Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -62,9 +62,9 @@
     {
       "id": "polish",
       "version": null,
-      "lastUpdated": "2026-09-11T16:09:45.794Z",
+      "lastUpdated": "2026-09-11T16:12:28.498Z",
       "filename": "polish-v3.json",
-      "size": 91729,
+      "size": 95139,
       "label": "Polish",
       "kind": "tool",
       "category": "Tools - ELI Core",
