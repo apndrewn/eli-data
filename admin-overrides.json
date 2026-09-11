@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-09-11T06:01:03.620Z",
+  "lastUpdated": "2026-09-11T13:59:51.488Z",
   "overrides": [
     {
       "id": "fleet-notice-MD-7z4e5kud-1781724707405",
@@ -175,6 +175,58 @@
               }
             ]
           }
+        }
+      ]
+    },
+    {
+      "id": "restore-trophies-JL-liay7v7q-1789135191487",
+      "audienceUserIds": [
+        "JL-liay7v7q"
+      ],
+      "expiresAt": "2026-12-10T13:59:51.487Z",
+      "actions": [
+        {
+          "type": "restore_trophies",
+          "mode": "replace",
+          "trophies": [
+            "t26",
+            "t56",
+            "t11",
+            "t137",
+            "t111",
+            "t41",
+            "t71",
+            "t188",
+            "t1",
+            "t83",
+            "t161",
+            "t17",
+            "t138",
+            "t115",
+            "t177",
+            "t2",
+            "t114",
+            "t113",
+            "t160",
+            "t112",
+            "t145",
+            "t170",
+            "t156",
+            "t121",
+            "t_graduate",
+            "t116",
+            "t162",
+            "t169",
+            "t166",
+            "t168",
+            "t106"
+          ]
+        },
+        {
+          "type": "notice",
+          "title": "🏆 Your trophies are back",
+          "html": "<p>Your ELI trophies have been restored to this account — all 31 of them are back in your Trophy Gallery.</p><p>The earlier restore landed on your old account, which is why they didn't show up. Sorry for the runaround.</p>",
+          "dismissLabel": "Nice"
         }
       ]
     }
