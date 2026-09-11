@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-09-11T16:55:56.984Z",
+  "lastUpdated": "2026-09-11T16:57:45.488Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -286,9 +286,9 @@
     {
       "id": "eli_settings",
       "version": null,
-      "lastUpdated": "2026-09-11T16:55:56.143Z",
+      "lastUpdated": "2026-09-11T16:57:44.544Z",
       "filename": "eli_settings-v3.json",
-      "size": 126345,
+      "size": 128940,
       "label": "Settings",
       "kind": "tool",
       "category": "System",
