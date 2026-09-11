@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-09-11T17:59:44.280Z",
+  "lastUpdated": "2026-09-11T18:01:03.904Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -104,9 +104,9 @@
     {
       "id": "profile_restore",
       "version": null,
-      "lastUpdated": "2026-09-11T17:59:43.480Z",
+      "lastUpdated": "2026-09-11T18:01:02.989Z",
       "filename": "profile_restore-v3.json",
-      "size": 23435,
+      "size": 25448,
       "label": "Restore Profile",
       "kind": "tool",
       "category": "Admin",
@@ -692,9 +692,9 @@
     {
       "id": "eli_telemetry",
       "version": null,
-      "lastUpdated": "2026-09-11T17:24:04.965Z",
+      "lastUpdated": "2026-09-11T18:01:03.087Z",
       "filename": "eli_telemetry-v3.json",
-      "size": 89221,
+      "size": 89930,
       "label": "Usage Telemetry",
       "kind": "tool",
       "category": "System",
