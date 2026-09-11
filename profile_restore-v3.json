@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-09-11T14:44:29.460Z",
+  "exportedAt": "2026-09-11T14:45:50.266Z",
   "sectionVersions": {
     "jsonTools": 1
   },
   "sections": {
     "jsonTools": [
       {
-        "releasedAt": "2026-09-11T14:44:29.459Z",
+        "releasedAt": "2026-09-11T14:45:50.265Z",
         "id": "profile_restore",
         "label": "Restore Profile",
         "defaultEnabled": true,
@@ -37,7 +37,7 @@
           "category": "Help",
           "core": false,
           "default": false,
-          "hidden": true,
+          "hidden": false,
           "order": 96
         },
         "engine": {
