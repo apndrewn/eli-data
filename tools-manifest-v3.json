@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-09-11T05:58:08.147Z",
+  "lastUpdated": "2026-09-11T06:01:11.674Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -76,9 +76,9 @@
     {
       "id": "whats_new",
       "version": null,
-      "lastUpdated": "2026-09-11T05:41:30.446Z",
+      "lastUpdated": "2026-09-11T06:01:05.874Z",
       "filename": "whats_new-v3.json",
-      "size": 16959,
+      "size": 16784,
       "label": "What's New",
       "kind": "tool",
       "category": "Help",
@@ -90,9 +90,9 @@
     {
       "id": "eli-admin",
       "version": null,
-      "lastUpdated": "2026-09-10T23:54:41.115Z",
+      "lastUpdated": "2026-09-11T06:01:05.976Z",
       "filename": "eli-admin-v3.json",
-      "size": 47101,
+      "size": 47576,
       "label": "ELI Admin Overrides",
       "kind": "tool",
       "category": "System",
