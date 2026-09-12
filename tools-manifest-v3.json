@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-09-12T00:03:50.767Z",
+  "lastUpdated": "2026-09-12T00:07:27.376Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -90,9 +90,9 @@
     {
       "id": "kernel_check",
       "version": null,
-      "lastUpdated": "2026-09-11T20:04:42.443Z",
+      "lastUpdated": "2026-09-12T00:07:23.251Z",
       "filename": "kernel_check-v3.json",
-      "size": 24086,
+      "size": 24911,
       "label": "ELI OS Update",
       "kind": "tool",
       "category": "Tools - ELI Core",
@@ -300,9 +300,9 @@
     {
       "id": "eli_settings",
       "version": null,
-      "lastUpdated": "2026-09-11T17:44:54.689Z",
+      "lastUpdated": "2026-09-12T00:07:26.207Z",
       "filename": "eli_settings-v3.json",
-      "size": 140342,
+      "size": 140354,
       "label": "Settings",
       "kind": "tool",
       "category": "System",
@@ -692,9 +692,9 @@
     {
       "id": "eli_telemetry",
       "version": null,
-      "lastUpdated": "2026-09-11T18:10:17.168Z",
+      "lastUpdated": "2026-09-12T00:07:26.444Z",
       "filename": "eli_telemetry-v3.json",
-      "size": 90457,
+      "size": 90469,
       "label": "Usage Telemetry",
       "kind": "tool",
       "category": "System",
@@ -735,9 +735,9 @@
     {
       "id": "admin_fleet",
       "version": null,
-      "lastUpdated": "2026-09-11T20:14:53.003Z",
+      "lastUpdated": "2026-09-12T00:07:26.321Z",
       "filename": "admin_fleet-v3.json",
-      "size": 331789,
+      "size": 331801,
       "label": "Admin Fleet",
       "kind": "tool",
       "category": "Admin",
