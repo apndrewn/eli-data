@@ -7,11 +7,11 @@
   "notes": "Error Review can now undo a fix and re-locate it after applying. Polish keeps bold, italics and underline. New Thinking Depth control in Settings.",
   "adminContacts": [
     {
-      "name": "andrew_nemiroff",
+      "name": "Andrew Nemiroff",
       "role": "Admin"
     },
     {
-      "name": "jared_lerner",
+      "name": "Jared Lerner",
       "role": "Assistant to the Admin"
     }
   ]
