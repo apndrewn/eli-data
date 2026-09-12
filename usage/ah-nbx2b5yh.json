@@ -1,25 +1,28 @@
 {
   "userName": "A(",
   "userKey": "ah",
-  "generatedAt": "2026-09-11T22:22:54.865Z",
+  "generatedAt": "2026-09-12T02:42:38.699Z",
   "days": [
     {
       "date": "2026-09-11",
       "toolsUsed": {
-        "admin_fleet": 7,
+        "admin_fleet": 8,
         "error": 3,
         "template_searcher": 1,
         "draft": 1,
-        "legal_review": 1
+        "legal_review": 16,
+        "ask_dock": 2,
+        "demo": 4,
+        "tour": 2
       },
-      "sessions": 20,
+      "sessions": 51,
       "firstActiveAt": 1789150127653,
-      "lastActiveAt": 1789165369862,
+      "lastActiveAt": 1789180957843,
       "tokens": {
         "gemini-flash-latest": {
-          "promptTokens": 40202,
-          "candidatesTokens": 4684,
-          "calls": 4
+          "promptTokens": 45690,
+          "candidatesTokens": 7003,
+          "calls": 11
         }
       },
       "tokensByTool": {
@@ -29,9 +32,23 @@
             "candidatesTokens": 4684,
             "calls": 4
           }
+        },
+        "_unknown": {
+          "gemini-flash-latest": {
+            "promptTokens": 5358,
+            "candidatesTokens": 2215,
+            "calls": 6
+          }
+        },
+        "tour": {
+          "gemini-flash-latest": {
+            "promptTokens": 130,
+            "candidatesTokens": 104,
+            "calls": 1
+          }
         }
       },
-      "estCostUSD": 0.00442,
+      "estCostUSD": 0.005528,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -40,12 +57,12 @@
     }
   ],
   "fleet": {
-    "userId": "AX-nbx2b5yh",
+    "userId": "AH-nbx2b5yh",
     "initials": "A(",
-    "kernelVersion": "v3-2026-09-11-41b2733",
+    "kernelVersion": "v3-2026-09-12-31ebf99",
     "kernelStamped": true,
     "installedAt": "2026-07-31T00:45:31.641Z",
-    "lastSeenAt": "2026-09-11T22:22:55.031Z",
+    "lastSeenAt": "2026-09-12T02:42:38.827Z",
     "settings": {
       "ai_model": "gemini-flash-latest",
       "ai_temperature": 0.3,
@@ -110,7 +127,7 @@
       },
       {
         "id": "admin_fleet",
-        "releasedAt": "2026-09-11T20:14:53.003Z",
+        "releasedAt": "2026-09-12T00:07:26.321Z",
         "disabled": false
       },
       {
@@ -255,17 +272,17 @@
       },
       {
         "id": "eli_settings",
-        "releasedAt": "2026-09-11T17:44:54.689Z",
+        "releasedAt": "2026-09-12T00:07:26.207Z",
         "disabled": false
       },
       {
         "id": "eli_stats",
-        "releasedAt": "2026-05-28T05:13:51.148Z",
+        "releasedAt": "2026-09-12T00:12:08.975Z",
         "disabled": false
       },
       {
         "id": "eli_telemetry",
-        "releasedAt": "2026-09-11T18:10:17.168Z",
+        "releasedAt": "2026-09-12T00:07:26.444Z",
         "disabled": false
       },
       {
@@ -310,12 +327,12 @@
       },
       {
         "id": "kernel_check",
-        "releasedAt": "2026-09-11T20:04:42.443Z",
+        "releasedAt": "2026-09-12T00:07:23.251Z",
         "disabled": false
       },
       {
         "id": "legal_review",
-        "releasedAt": "2026-06-13T04:15:03.046Z",
+        "releasedAt": "2026-09-12T00:18:19.949Z",
         "disabled": false
       },
       {
@@ -340,7 +357,7 @@
       },
       {
         "id": "polish",
-        "releasedAt": "2026-09-11T22:19:22.138Z",
+        "releasedAt": "2026-09-11T22:24:33.687Z",
         "disabled": false
       },
       {
@@ -449,7 +466,7 @@
         "at": 1789150130368
       }
     ],
-    "trophies": 18,
+    "trophies": 19,
     "trophyIds": [
       "t41",
       "t11",
@@ -468,7 +485,8 @@
       "t101",
       "t168",
       "t2",
-      "t121"
+      "t121",
+      "t115"
     ],
     "trophyDates": {
       "t41": "2026-07-29T14:09:45.278Z",
@@ -488,7 +506,8 @@
       "t101": "2026-08-27T21:14:58.989Z",
       "t168": "2026-09-01T17:58:41.822Z",
       "t2": "2026-09-02T14:52:51.614Z",
-      "t121": "2026-09-10T17:54:06.615Z"
+      "t121": "2026-09-10T17:54:06.615Z",
+      "t115": "2026-09-12T00:02:12.774Z"
     },
     "stats": {
       "totalActiveDays": 1,
