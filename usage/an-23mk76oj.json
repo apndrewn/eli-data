@@ -1,7 +1,7 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-09-14T12:36:03.823Z",
+  "generatedAt": "2026-09-14T16:15:59.412Z",
   "days": [
     {
       "date": "2026-09-11",
@@ -44,10 +44,12 @@
     },
     {
       "date": "2026-09-14",
-      "toolsUsed": {},
-      "sessions": 2,
+      "toolsUsed": {
+        "draft_templates": 1
+      },
+      "sessions": 5,
       "firstActiveAt": 1789389358817,
-      "lastActiveAt": 1789389363027,
+      "lastActiveAt": 1789402554393,
       "tokens": {},
       "tokensByTool": {},
       "estCostUSD": 0,
@@ -64,7 +66,7 @@
     "kernelVersion": "v3-2026-09-11-41b2733",
     "kernelStamped": true,
     "installedAt": "2026-09-11T14:39:54.888Z",
-    "lastSeenAt": "2026-09-14T12:36:05.328Z",
+    "lastSeenAt": "2026-09-14T16:15:59.681Z",
     "settings": {
       "ai_model": "gemini-flash-latest",
       "ai_temperature": 0.3,
@@ -99,7 +101,7 @@
       "light_mode": false,
       "header_theme_index": 0,
       "minimize_feed": false,
-      "auto_hide_sidebar": false,
+      "auto_hide_sidebar": true,
       "auto_expand_window": false,
       "auto_check_tools": true,
       "show_expand_pill": true,
@@ -125,6 +127,11 @@
       {
         "id": "admin_email_rules",
         "releasedAt": "2026-06-02T05:52:18.667Z",
+        "disabled": false
+      },
+      {
+        "id": "admin_fleet",
+        "releasedAt": "2026-09-12T02:46:28.748Z",
         "disabled": false
       },
       {
@@ -268,8 +275,28 @@
         "disabled": false
       },
       {
+        "id": "eli_settings",
+        "releasedAt": "2026-09-12T00:07:26.207Z",
+        "disabled": false
+      },
+      {
+        "id": "eli_stats",
+        "releasedAt": "2026-09-12T00:12:08.975Z",
+        "disabled": false
+      },
+      {
+        "id": "eli_telemetry",
+        "releasedAt": "2026-09-12T00:07:26.444Z",
+        "disabled": false
+      },
+      {
         "id": "email_helper",
         "releasedAt": "2026-05-28T05:15:56.728Z",
+        "disabled": false
+      },
+      {
+        "id": "error_review",
+        "releasedAt": "2026-09-12T03:07:27.275Z",
         "disabled": false
       },
       {
@@ -303,6 +330,16 @@
         "disabled": false
       },
       {
+        "id": "kernel_check",
+        "releasedAt": "2026-09-12T02:56:49.828Z",
+        "disabled": false
+      },
+      {
+        "id": "legal_review",
+        "releasedAt": "2026-09-12T00:18:19.949Z",
+        "disabled": false
+      },
+      {
         "id": "legal_risks",
         "releasedAt": "2026-09-11T03:35:55.044Z",
         "disabled": false
@@ -320,6 +357,11 @@
       {
         "id": "playbook_manager",
         "releasedAt": "2026-05-18T11:56:13.482Z",
+        "disabled": false
+      },
+      {
+        "id": "polish",
+        "releasedAt": "2026-09-12T03:01:42.334Z",
         "disabled": false
       },
       {
@@ -416,46 +458,6 @@
         "id": "workflow_creator",
         "releasedAt": "2026-06-09T12:28:19.764Z",
         "disabled": false
-      },
-      {
-        "id": "eli_stats",
-        "releasedAt": "2026-09-12T00:12:08.975Z",
-        "disabled": false
-      },
-      {
-        "id": "legal_review",
-        "releasedAt": "2026-09-12T00:18:19.949Z",
-        "disabled": false
-      },
-      {
-        "id": "kernel_check",
-        "releasedAt": "2026-09-12T02:56:49.828Z",
-        "disabled": false
-      },
-      {
-        "id": "eli_settings",
-        "releasedAt": "2026-09-12T00:07:26.207Z",
-        "disabled": false
-      },
-      {
-        "id": "admin_fleet",
-        "releasedAt": "2026-09-12T02:46:28.748Z",
-        "disabled": false
-      },
-      {
-        "id": "eli_telemetry",
-        "releasedAt": "2026-09-12T00:07:26.444Z",
-        "disabled": false
-      },
-      {
-        "id": "error_review",
-        "releasedAt": "2026-09-12T03:07:27.275Z",
-        "disabled": false
-      },
-      {
-        "id": "polish",
-        "releasedAt": "2026-09-12T03:01:42.334Z",
-        "disabled": false
       }
     ],
     "appliedOverrides": [
@@ -514,7 +516,7 @@
       "t121": "2026-09-10T17:54:06.615Z"
     },
     "stats": {
-      "totalActiveDays": 1,
+      "totalActiveDays": 2,
       "docsReviewed": 1,
       "draftsCreated": 7,
       "errorsFixed": 15,
@@ -525,10 +527,10 @@
     "dashboardApps": [
       "auto_emailer",
       "build_draft",
+      "error_review",
       "final_review",
-      "team_guidance",
       "legal_review",
-      "error_review"
+      "team_guidance"
     ],
     "dashboardCustomized": false
   }
