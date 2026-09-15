@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-09-15T23:21:53.499Z",
+  "lastUpdated": "2026-09-15T23:27:59.819Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -385,9 +385,9 @@
     {
       "id": "ask_eli",
       "version": null,
-      "lastUpdated": "2026-09-15T23:21:49.467Z",
+      "lastUpdated": "2026-09-15T23:27:56.417Z",
       "filename": "ask_eli-v3.json",
-      "size": 437512,
+      "size": 454693,
       "label": "Ask ELI",
       "kind": "tool",
       "category": "Tools - ELI Core",
@@ -706,9 +706,9 @@
     {
       "id": "eli_agent",
       "version": null,
-      "lastUpdated": "2026-09-15T11:57:16.049Z",
+      "lastUpdated": "2026-09-15T23:27:56.517Z",
       "filename": "eli_agent-v3.json",
-      "size": 681556,
+      "size": 683290,
       "label": "ELI Agent",
       "kind": "tool",
       "category": "Tools - ELI Core",
