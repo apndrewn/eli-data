@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-09-12T03:09:15.252Z",
+  "lastUpdated": "2026-09-15T00:32:34.491Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -62,9 +62,9 @@
     {
       "id": "polish",
       "version": null,
-      "lastUpdated": "2026-09-12T03:01:42.334Z",
+      "lastUpdated": "2026-09-12T04:14:53.171Z",
       "filename": "polish-v3.json",
-      "size": 120138,
+      "size": 123804,
       "label": "Polish",
       "kind": "tool",
       "category": "Tools - ELI Core",
@@ -314,9 +314,9 @@
     {
       "id": "error_review",
       "version": null,
-      "lastUpdated": "2026-09-12T03:07:27.275Z",
+      "lastUpdated": "2026-09-12T04:06:54.834Z",
       "filename": "error_review-v3.json",
-      "size": 205752,
+      "size": 217192,
       "label": "Error Review",
       "kind": "tool",
       "category": "Tools - ELI Core",
@@ -328,9 +328,9 @@
     {
       "id": "build_draft",
       "version": null,
-      "lastUpdated": "2026-09-11T15:51:12.635Z",
+      "lastUpdated": "2026-09-12T03:13:07.021Z",
       "filename": "build_draft-v3.json",
-      "size": 811676,
+      "size": 816021,
       "label": "Build Draft",
       "kind": "tool",
       "category": "External Innovation",
