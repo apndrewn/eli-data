@@ -1,7 +1,7 @@
 {
   "userName": "JT",
   "userKey": "jt",
-  "generatedAt": "2026-09-10T17:56:48.756Z",
+  "generatedAt": "2026-09-15T17:43:59.578Z",
   "days": [
     {
       "date": "2026-08-06",
@@ -327,6 +327,37 @@
         "byTemplate": {},
         "total": 0
       }
+    },
+    {
+      "date": "2026-09-15",
+      "toolsUsed": {
+        "draft": 1
+      },
+      "sessions": 1,
+      "firstActiveAt": 1789494234562,
+      "lastActiveAt": 1789494238032,
+      "tokens": {
+        "gemini-flash-lite-latest": {
+          "promptTokens": 2166,
+          "candidatesTokens": 718,
+          "calls": 1
+        }
+      },
+      "tokensByTool": {
+        "draft": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 2166,
+            "candidatesTokens": 718,
+            "calls": 1
+          }
+        }
+      },
+      "estCostUSD": 0.00023,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
     }
   ],
   "fleet": {
@@ -334,9 +365,9 @@
     "initials": "JT",
     "kernelVersion": "v3-2026-06-13-dashfit",
     "installedAt": "2026-08-06T18:58:29.523Z",
-    "lastSeenAt": "2026-09-10T17:56:48.977Z",
+    "lastSeenAt": "2026-09-15T17:43:59.834Z",
     "settings": {
-      "ai_model": "gemini-flash-lite-latest",
+      "ai_model": "gemini-flash-latest",
       "ai_temperature": 0.3,
       "ai_timeout_ms": 120000,
       "ai_thinking_budget": 0,
@@ -573,7 +604,16 @@
         "disabled": false
       }
     ],
-    "appliedOverrides": [],
+    "appliedOverrides": [
+      {
+        "id": "fleet-model-flash-latest-1789086280338",
+        "at": 1789494238184
+      },
+      {
+        "id": "release-notes-off-1789139158421",
+        "at": 1789494238184
+      }
+    ],
     "trophies": 7,
     "trophyIds": [
       "t1",
@@ -594,13 +634,13 @@
       "t111": "2026-09-10T12:10:37.647Z"
     },
     "stats": {
-      "totalActiveDays": 11,
+      "totalActiveDays": 12,
       "docsReviewed": 0,
       "draftsCreated": 13,
       "errorsFixed": 0,
       "risksFound": 0,
       "hoursSaved": 0,
-      "currentStreak": 3
+      "currentStreak": 1
     },
     "dashboardApps": [
       "auto_emailer",
