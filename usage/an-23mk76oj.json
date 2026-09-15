@@ -1,7 +1,7 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-09-14T19:52:49.206Z",
+  "generatedAt": "2026-09-15T13:07:23.152Z",
   "days": [
     {
       "date": "2026-09-11",
@@ -46,29 +46,54 @@
       "date": "2026-09-14",
       "toolsUsed": {
         "draft_templates": 1,
-        "error": 2,
-        "docuscrub": 1
+        "error": 3,
+        "docuscrub": 1,
+        "draft": 5
       },
-      "sessions": 7,
+      "sessions": 11,
       "firstActiveAt": 1789389358817,
-      "lastActiveAt": 1789415567929,
+      "lastActiveAt": 1789418447610,
       "tokens": {
         "gemini-flash-latest": {
-          "promptTokens": 7830,
-          "candidatesTokens": 664,
-          "calls": 2
+          "promptTokens": 32266,
+          "candidatesTokens": 8287,
+          "calls": 10
         }
       },
       "tokensByTool": {
         "error": {
           "gemini-flash-latest": {
-            "promptTokens": 7830,
-            "candidatesTokens": 664,
-            "calls": 2
+            "promptTokens": 21772,
+            "candidatesTokens": 1611,
+            "calls": 3
+          }
+        },
+        "draft": {
+          "gemini-flash-latest": {
+            "promptTokens": 10494,
+            "candidatesTokens": 6676,
+            "calls": 7
           }
         }
       },
-      "estCostUSD": 0.000786,
+      "estCostUSD": 0.004906,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
+    },
+    {
+      "date": "2026-09-15",
+      "toolsUsed": {
+        "draft": 1
+      },
+      "sessions": 1,
+      "firstActiveAt": 1789477638137,
+      "lastActiveAt": 1789477639424,
+      "tokens": {},
+      "tokensByTool": {},
+      "estCostUSD": 0,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -82,7 +107,7 @@
     "kernelVersion": "v3-2026-09-11-41b2733",
     "kernelStamped": true,
     "installedAt": "2026-09-11T14:39:54.888Z",
-    "lastSeenAt": "2026-09-14T19:52:49.427Z",
+    "lastSeenAt": "2026-09-15T13:07:23.442Z",
     "settings": {
       "ai_model": "gemini-flash-latest",
       "ai_temperature": 0.3,
@@ -196,11 +221,6 @@
         "disabled": false
       },
       {
-        "id": "ask_eli",
-        "releasedAt": "2026-09-11T02:53:03.568Z",
-        "disabled": false
-      },
-      {
         "id": "auto_emailer",
         "releasedAt": "2026-06-16T03:57:10.511Z",
         "disabled": false
@@ -208,11 +228,6 @@
       {
         "id": "bd_template_tester",
         "releasedAt": "2026-05-20T06:26:01.803Z",
-        "disabled": false
-      },
-      {
-        "id": "build_draft",
-        "releasedAt": "2026-09-11T15:51:12.635Z",
         "disabled": false
       },
       {
@@ -276,11 +291,6 @@
         "disabled": false
       },
       {
-        "id": "eli_agent",
-        "releasedAt": "2026-05-18T04:00:24.615Z",
-        "disabled": false
-      },
-      {
         "id": "eli_kit",
         "releasedAt": "2026-06-15T04:41:59.331Z",
         "disabled": false
@@ -308,11 +318,6 @@
       {
         "id": "email_helper",
         "releasedAt": "2026-05-28T05:15:56.728Z",
-        "disabled": false
-      },
-      {
-        "id": "error_review",
-        "releasedAt": "2026-09-12T03:07:27.275Z",
         "disabled": false
       },
       {
@@ -373,11 +378,6 @@
       {
         "id": "playbook_manager",
         "releasedAt": "2026-05-18T11:56:13.482Z",
-        "disabled": false
-      },
-      {
-        "id": "polish",
-        "releasedAt": "2026-09-12T03:01:42.334Z",
         "disabled": false
       },
       {
@@ -474,6 +474,41 @@
         "id": "workflow_creator",
         "releasedAt": "2026-06-09T12:28:19.764Z",
         "disabled": false
+      },
+      {
+        "id": "placeholder_editor",
+        "releasedAt": "2026-09-15T02:39:23.595Z",
+        "disabled": false
+      },
+      {
+        "id": "defined_terms",
+        "releasedAt": "2026-09-15T02:39:23.395Z",
+        "disabled": false
+      },
+      {
+        "id": "error_review",
+        "releasedAt": "2026-09-12T04:06:54.834Z",
+        "disabled": false
+      },
+      {
+        "id": "polish",
+        "releasedAt": "2026-09-12T04:14:53.171Z",
+        "disabled": false
+      },
+      {
+        "id": "eli_agent",
+        "releasedAt": "2026-09-15T11:57:16.049Z",
+        "disabled": false
+      },
+      {
+        "id": "build_draft",
+        "releasedAt": "2026-09-12T03:13:07.021Z",
+        "disabled": false
+      },
+      {
+        "id": "ask_eli",
+        "releasedAt": "2026-09-15T03:42:04.301Z",
+        "disabled": false
       }
     ],
     "appliedOverrides": [
@@ -532,21 +567,21 @@
       "t121": "2026-09-10T17:54:06.615Z"
     },
     "stats": {
-      "totalActiveDays": 2,
-      "docsReviewed": 3,
-      "draftsCreated": 7,
-      "errorsFixed": 1,
+      "totalActiveDays": 3,
+      "docsReviewed": 4,
+      "draftsCreated": 1,
+      "errorsFixed": 20,
       "risksFound": 14,
-      "hoursSaved": 1.5,
-      "currentStreak": 1
+      "hoursSaved": 2,
+      "currentStreak": 2
     },
     "dashboardApps": [
       "auto_emailer",
-      "build_draft",
-      "error_review",
       "final_review",
       "legal_review",
-      "team_guidance"
+      "team_guidance",
+      "error_review",
+      "build_draft"
     ],
     "dashboardCustomized": false
   }
