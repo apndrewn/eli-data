@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-09-15T03:29:08.297Z",
+  "lastUpdated": "2026-09-15T03:30:42.641Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -706,9 +706,9 @@
     {
       "id": "eli_agent",
       "version": null,
-      "lastUpdated": "2026-09-15T03:29:07.367Z",
+      "lastUpdated": "2026-09-15T03:30:41.383Z",
       "filename": "eli_agent-v3.json",
-      "size": 434086,
+      "size": 434092,
       "label": "ELI Agent",
       "kind": "tool",
       "category": "Tools - ELI Core",
@@ -1283,6 +1283,7 @@
         "tool_manager",
         "eli_settings",
         "ask_eli",
+        "eli_agent",
         "eli_kit",
         "eli-activity",
         "eli_stats",
@@ -1323,7 +1324,6 @@
         "guided_redlines",
         "admin_draft_audit",
         "admin_email_rules",
-        "eli_agent",
         "tool_author_studio",
         "bd_template_tester",
         "redline_narrator",

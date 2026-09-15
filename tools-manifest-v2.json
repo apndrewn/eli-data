@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-09-15T03:29:08.296Z",
+  "lastUpdated": "2026-09-15T03:30:42.641Z",
   "tools": [
     {
       "id": "__data_catalog",
@@ -260,6 +260,7 @@
         "tool_manager",
         "eli_settings",
         "ask_eli",
+        "eli_agent",
         "eli_kit",
         "eli-activity",
         "eli_stats",
@@ -300,7 +301,6 @@
         "guided_redlines",
         "admin_draft_audit",
         "admin_email_rules",
-        "eli_agent",
         "tool_author_studio",
         "bd_template_tester",
         "redline_narrator",

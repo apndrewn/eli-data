@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-09-15T03:29:07.368Z",
+  "exportedAt": "2026-09-15T03:30:41.385Z",
   "sectionVersions": {
     "jsonTools": 1
   },
   "sections": {
     "jsonTools": [
       {
-        "releasedAt": "2026-09-15T03:29:07.367Z",
+        "releasedAt": "2026-09-15T03:30:41.383Z",
         "id": "eli_agent",
         "label": "ELI Agent",
         "defaultEnabled": true,
@@ -42,9 +42,9 @@
           "desc": "Revise a contract from a plain-English instruction. Proposes edits you review one at a time, then applies them as tracked changes. Surfaced via the mode dropdown in Ask ELI's input.",
           "hoverTip": "Revise this document from an instruction",
           "category": "Tools - ELI Core",
-          "core": true,
-          "default": true,
-          "order": 6,
+          "hidden": true,
+          "core": false,
+          "default": false,
           "statKey": "appOpenedEliAgent",
           "requiresApiKey": true,
           "requiresFooterDoc": false,
