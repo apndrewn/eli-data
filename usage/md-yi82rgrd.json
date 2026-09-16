@@ -1,7 +1,7 @@
 {
   "userName": "MD",
   "userKey": "md",
-  "generatedAt": "2026-09-09T12:55:31.061Z",
+  "generatedAt": "2026-09-16T13:42:12.392Z",
   "days": [
     {
       "date": "2026-08-24",
@@ -37,10 +37,61 @@
     },
     {
       "date": "2026-09-09",
-      "toolsUsed": {},
-      "sessions": 1,
+      "toolsUsed": {
+        "legal_review": 2,
+        "draft": 3,
+        "draft_templates": 1,
+        "auto_emailer": 1,
+        "error": 2
+      },
+      "sessions": 4,
       "firstActiveAt": 1788958526042,
-      "lastActiveAt": 1788958526042,
+      "lastActiveAt": 1788969924168,
+      "tokens": {
+        "gemini-flash-lite-latest": {
+          "promptTokens": 155343,
+          "candidatesTokens": 8335,
+          "calls": 19
+        }
+      },
+      "tokensByTool": {
+        "auto_emailer": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 124412,
+            "candidatesTokens": 3349,
+            "calls": 4
+          }
+        },
+        "draft": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 12888,
+            "candidatesTokens": 3495,
+            "calls": 11
+          }
+        },
+        "error": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 18043,
+            "candidatesTokens": 1491,
+            "calls": 4
+          }
+        }
+      },
+      "estCostUSD": 0.007881,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
+    },
+    {
+      "date": "2026-09-16",
+      "toolsUsed": {
+        "draft": 1
+      },
+      "sessions": 1,
+      "firstActiveAt": 1789566127382,
+      "lastActiveAt": 1789566127564,
       "tokens": {},
       "tokensByTool": {},
       "estCostUSD": 0,
@@ -56,9 +107,9 @@
     "initials": "MD",
     "kernelVersion": "v3-2026-06-13-dashfit",
     "installedAt": "2026-08-24T19:49:37.524Z",
-    "lastSeenAt": "2026-09-09T12:55:31.357Z",
+    "lastSeenAt": "2026-09-16T13:42:12.699Z",
     "settings": {
-      "ai_model": "gemini-flash-lite-latest",
+      "ai_model": "gemini-flash-latest",
       "ai_temperature": 0.3,
       "ai_timeout_ms": 120000,
       "ai_thinking_budget": 0,
@@ -85,8 +136,8 @@
       "ai_image_model": "gemini-3.1-flash-image-preview",
       "ask_dock_enabled": true,
       "dashboard_widgets_enabled": true,
-      "light_mode": false,
-      "header_theme_index": 0,
+      "light_mode": true,
+      "header_theme_index": 7,
       "minimize_feed": false,
       "auto_hide_sidebar": false,
       "auto_expand_window": false,
@@ -104,11 +155,6 @@
       "ask_eli_redline_regen_enabled": true
     },
     "tools": [
-      {
-        "id": "admin_telemetry_inspector",
-        "releasedAt": "2026-05-28T03:58:43.231Z",
-        "disabled": false
-      },
       {
         "id": "agreement_glance",
         "releasedAt": "2026-08-01T22:10:46.930Z",
@@ -165,11 +211,6 @@
         "disabled": false
       },
       {
-        "id": "eli-activity",
-        "releasedAt": "2026-06-13T03:57:25.462Z",
-        "disabled": false
-      },
-      {
         "id": "eli-admin",
         "releasedAt": "2026-06-12T15:15:28.515Z",
         "disabled": false
@@ -197,11 +238,6 @@
       {
         "id": "eli_settings",
         "releasedAt": "2026-06-15T12:03:23.624Z",
-        "disabled": false
-      },
-      {
-        "id": "eli_stats",
-        "releasedAt": "2026-05-28T05:13:51.148Z",
         "disabled": false
       },
       {
@@ -295,12 +331,31 @@
         "disabled": false
       }
     ],
-    "appliedOverrides": [],
-    "trophies": 0,
-    "trophyIds": [],
-    "trophyDates": {},
+    "appliedOverrides": [
+      {
+        "id": "fleet-model-flash-latest-1789086280338",
+        "at": 1789566131076
+      },
+      {
+        "id": "release-notes-off-1789139158421",
+        "at": 1789566131076
+      }
+    ],
+    "trophies": 4,
+    "trophyIds": [
+      "t1",
+      "t41",
+      "t26",
+      "t56"
+    ],
+    "trophyDates": {
+      "t1": "2026-09-09T12:57:44.606Z",
+      "t41": "2026-09-09T13:05:13.534Z",
+      "t26": "2026-09-09T15:00:52.527Z",
+      "t56": "2026-09-09T15:00:57.562Z"
+    },
     "stats": {
-      "totalActiveDays": 3,
+      "totalActiveDays": 0,
       "docsReviewed": 0,
       "draftsCreated": 0,
       "errorsFixed": 0,
