@@ -1,7 +1,7 @@
 {
   "userName": "JL",
   "userKey": "jl",
-  "generatedAt": "2026-09-17T12:55:52.616Z",
+  "generatedAt": "2026-09-17T17:28:21.451Z",
   "days": [
     {
       "date": "2026-09-11",
@@ -163,13 +163,30 @@
     },
     {
       "date": "2026-09-17",
-      "toolsUsed": {},
-      "sessions": 1,
+      "toolsUsed": {
+        "legal_review": 1,
+        "review_redlines": 1
+      },
+      "sessions": 2,
       "firstActiveAt": 1789649747608,
-      "lastActiveAt": 1789649747608,
-      "tokens": {},
-      "tokensByTool": {},
-      "estCostUSD": 0,
+      "lastActiveAt": 1789666096446,
+      "tokens": {
+        "gemini-flash-latest": {
+          "promptTokens": 86309,
+          "candidatesTokens": 7252,
+          "calls": 89
+        }
+      },
+      "tokensByTool": {
+        "review_redlines": {
+          "gemini-flash-latest": {
+            "promptTokens": 86309,
+            "candidatesTokens": 7252,
+            "calls": 89
+          }
+        }
+      },
+      "estCostUSD": 0.008649,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -183,7 +200,7 @@
     "kernelVersion": "v3-2026-09-11-41b2733",
     "kernelStamped": true,
     "installedAt": "2026-09-11T13:45:59.985Z",
-    "lastSeenAt": "2026-09-17T12:55:52.862Z",
+    "lastSeenAt": "2026-09-17T17:28:21.684Z",
     "settings": {
       "ai_model": "gemini-flash-latest",
       "ai_temperature": 0.3,
@@ -325,6 +342,11 @@
         "disabled": false
       },
       {
+        "id": "eli_agent",
+        "releasedAt": "2026-09-17T04:51:26.454Z",
+        "disabled": false
+      },
+      {
         "id": "eli_kit",
         "releasedAt": "2026-06-15T04:41:59.331Z",
         "disabled": false
@@ -458,11 +480,6 @@
         "id": "whats_new",
         "releasedAt": "2026-09-11T15:02:45.524Z",
         "disabled": false
-      },
-      {
-        "id": "eli_agent",
-        "releasedAt": "2026-09-17T04:51:26.454Z",
-        "disabled": false
       }
     ],
     "appliedOverrides": [
@@ -556,11 +573,11 @@
     },
     "stats": {
       "totalActiveDays": 4,
-      "docsReviewed": 12,
+      "docsReviewed": 13,
       "draftsCreated": 1,
       "errorsFixed": 39,
       "risksFound": 12,
-      "hoursSaved": 6,
+      "hoursSaved": 6.5,
       "currentStreak": 3
     },
     "dashboardApps": [
