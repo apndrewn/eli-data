@@ -1,7 +1,7 @@
 {
   "userName": "AR",
   "userKey": "ar",
-  "generatedAt": "2026-09-16T19:55:25.928Z",
+  "generatedAt": "2026-09-17T14:12:36.563Z",
   "days": [
     {
       "date": "2026-06-30",
@@ -1320,11 +1320,50 @@
     {
       "date": "2026-09-16",
       "toolsUsed": {
-        "draft_audit": 1
+        "draft_audit": 1,
+        "legal_review": 1,
+        "review_redlines": 1,
+        "auto_emailer": 1
       },
       "sessions": 1,
       "firstActiveAt": 1789588520900,
-      "lastActiveAt": 1789588522435,
+      "lastActiveAt": 1789589720317,
+      "tokens": {
+        "gemini-flash-latest": {
+          "promptTokens": 109816,
+          "candidatesTokens": 94755,
+          "calls": 59
+        }
+      },
+      "tokensByTool": {
+        "review_redlines": {
+          "gemini-flash-latest": {
+            "promptTokens": 96049,
+            "candidatesTokens": 93267,
+            "calls": 58
+          }
+        },
+        "auto_emailer": {
+          "gemini-flash-latest": {
+            "promptTokens": 13767,
+            "candidatesTokens": 1488,
+            "calls": 1
+          }
+        }
+      },
+      "estCostUSD": 0.036663,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
+    },
+    {
+      "date": "2026-09-17",
+      "toolsUsed": {},
+      "sessions": 1,
+      "firstActiveAt": 1789654351542,
+      "lastActiveAt": 1789654351542,
       "tokens": {},
       "tokensByTool": {},
       "estCostUSD": 0,
@@ -1341,7 +1380,7 @@
     "kernelVersion": "v3-2026-06-13-dashfit",
     "kernelStamped": false,
     "installedAt": "2026-06-30T18:29:18.400Z",
-    "lastSeenAt": "2026-09-16T19:55:26.279Z",
+    "lastSeenAt": "2026-09-17T14:12:36.826Z",
     "settings": {
       "ai_model": "gemini-flash-latest",
       "ai_temperature": 0.3,
@@ -1406,7 +1445,7 @@
       },
       {
         "id": "ask_eli",
-        "releasedAt": "2026-09-15T03:42:04.301Z",
+        "releasedAt": "2026-09-16T01:22:42.384Z",
         "disabled": false
       },
       {
@@ -1476,7 +1515,7 @@
       },
       {
         "id": "eli_agent",
-        "releasedAt": "2026-09-15T11:57:16.049Z",
+        "releasedAt": "2026-09-16T01:32:56.766Z",
         "disabled": false
       },
       {
@@ -1707,13 +1746,13 @@
       "t183": "2026-09-01T14:39:54.918Z"
     },
     "stats": {
-      "totalActiveDays": 34,
-      "docsReviewed": 53,
+      "totalActiveDays": 35,
+      "docsReviewed": 54,
       "draftsCreated": 37,
       "errorsFixed": 93,
       "risksFound": 19,
-      "hoursSaved": 26.5,
-      "currentStreak": 3
+      "hoursSaved": 27,
+      "currentStreak": 4
     },
     "dashboardApps": [
       "legal_review",
