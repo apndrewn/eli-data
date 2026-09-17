@@ -1,7 +1,7 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-09-17T12:56:53.577Z",
+  "generatedAt": "2026-09-17T18:43:17.099Z",
   "days": [
     {
       "date": "2026-09-11",
@@ -195,14 +195,47 @@
     {
       "date": "2026-09-17",
       "toolsUsed": {
-        "ask_eli": 1
+        "ask_eli": 2,
+        "draft_templates": 2,
+        "draft": 1,
+        "agent_apply_instruction": 2,
+        "admin_fleet": 1,
+        "legal_review": 2
       },
-      "sessions": 3,
+      "sessions": 7,
       "firstActiveAt": 1789649789619,
-      "lastActiveAt": 1789649811150,
-      "tokens": {},
-      "tokensByTool": {},
-      "estCostUSD": 0,
+      "lastActiveAt": 1789670593736,
+      "tokens": {
+        "gemini-flash-latest": {
+          "promptTokens": 431582,
+          "candidatesTokens": 188310,
+          "calls": 33
+        }
+      },
+      "tokensByTool": {
+        "draft": {
+          "gemini-flash-latest": {
+            "promptTokens": 17535,
+            "candidatesTokens": 3052,
+            "calls": 2
+          }
+        },
+        "agent_apply_instruction": {
+          "gemini-flash-latest": {
+            "promptTokens": 349456,
+            "candidatesTokens": 178725,
+            "calls": 28
+          }
+        },
+        "legal_review": {
+          "gemini-flash-latest": {
+            "promptTokens": 64591,
+            "candidatesTokens": 6533,
+            "calls": 3
+          }
+        }
+      },
+      "estCostUSD": 0.088862,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -216,7 +249,7 @@
     "kernelVersion": "v3-2026-09-11-41b2733",
     "kernelStamped": true,
     "installedAt": "2026-09-11T14:39:54.888Z",
-    "lastSeenAt": "2026-09-17T12:56:53.800Z",
+    "lastSeenAt": "2026-09-17T18:43:17.354Z",
     "settings": {
       "ai_model": "gemini-flash-latest",
       "ai_temperature": 0.3,
