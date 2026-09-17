@@ -1,7 +1,7 @@
 {
   "userName": "MD",
   "userKey": "md",
-  "generatedAt": "2026-09-16T18:11:36.666Z",
+  "generatedAt": "2026-09-17T12:52:31.863Z",
   "days": [
     {
       "date": "2026-08-24",
@@ -129,6 +129,21 @@
         "byTemplate": {},
         "total": 0
       }
+    },
+    {
+      "date": "2026-09-17",
+      "toolsUsed": {},
+      "sessions": 1,
+      "firstActiveAt": 1789649546856,
+      "lastActiveAt": 1789649546856,
+      "tokens": {},
+      "tokensByTool": {},
+      "estCostUSD": 0,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
     }
   ],
   "fleet": {
@@ -137,7 +152,7 @@
     "kernelVersion": "v3-2026-09-11-41b2733",
     "kernelStamped": true,
     "installedAt": "2026-08-24T19:49:37.524Z",
-    "lastSeenAt": "2026-09-16T18:11:36.968Z",
+    "lastSeenAt": "2026-09-17T12:52:32.091Z",
     "settings": {
       "ai_model": "gemini-flash-latest",
       "ai_temperature": 0.3,
@@ -261,11 +276,6 @@
       {
         "id": "eli5",
         "releasedAt": "2026-05-19T03:53:44.200Z",
-        "disabled": false
-      },
-      {
-        "id": "eli_agent",
-        "releasedAt": "2026-09-16T01:32:56.766Z",
         "disabled": false
       },
       {
@@ -397,6 +407,11 @@
         "id": "whats_new",
         "releasedAt": "2026-09-11T15:02:45.524Z",
         "disabled": false
+      },
+      {
+        "id": "eli_agent",
+        "releasedAt": "2026-09-17T04:51:26.454Z",
+        "disabled": false
       }
     ],
     "appliedOverrides": [
@@ -423,13 +438,13 @@
       "t56": "2026-09-09T15:00:57.562Z"
     },
     "stats": {
-      "totalActiveDays": 4,
+      "totalActiveDays": 5,
       "docsReviewed": 1,
       "draftsCreated": 1,
       "errorsFixed": 8,
       "risksFound": 0,
       "hoursSaved": 0.5,
-      "currentStreak": 1
+      "currentStreak": 2
     },
     "dashboardApps": [
       "auto_emailer",
