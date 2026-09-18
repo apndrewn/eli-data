@@ -43,7 +43,9 @@
           "clinical research",
           "investigator agreement",
           "cro agreement",
-          "protocol agreement"
+          "protocol agreement",
+          "clinical study agreement",
+          "clinical trial agreement"
         ]
       },
       {
@@ -67,7 +69,8 @@
           "consumer research",
           "market research",
           "consumer testing",
-          "focus group"
+          "focus group",
+          "consumer study agreement"
         ]
       },
       {
@@ -78,7 +81,9 @@
           "dpa",
           "data processing",
           "data privacy",
-          "data protection"
+          "data protection",
+          "data processing agreement",
+          "data privacy agreement"
         ]
       },
       {
@@ -88,7 +93,8 @@
         "aliases": [
           "grant",
           "funding",
-          "sponsored project"
+          "sponsored project",
+          "grant agreement"
         ]
       },
       {
@@ -99,7 +105,8 @@
           "joint development",
           "jda",
           "co-development",
-          "development agreement"
+          "development agreement",
+          "joint development agreement"
         ]
       },
       {
@@ -109,7 +116,8 @@
         "aliases": [
           "joint venture",
           "jv",
-          "partnership agreement"
+          "partnership agreement",
+          "joint venture agreement"
         ]
       },
       {
@@ -121,7 +129,9 @@
           "saas",
           "software license",
           "subscription agreement",
-          "eula"
+          "eula",
+          "license agreement",
+          "software license agreement"
         ]
       },
       {
@@ -132,7 +142,9 @@
           "msa",
           "master services",
           "master service agreement",
-          "framework agreement"
+          "framework agreement",
+          "master services agreement",
+          "master agreement"
         ]
       },
       {
@@ -143,7 +155,8 @@
           "mta",
           "material transfer",
           "materials transfer",
-          "materials transfer agreement"
+          "materials transfer agreement",
+          "material transfer agreement"
         ]
       },
       {
@@ -156,7 +169,10 @@
           "non disclosure",
           "confidentiality",
           "mutual nda",
-          "unilateral nda"
+          "unilateral nda",
+          "non-disclosure agreement",
+          "confidentiality agreement",
+          "mutual non-disclosure agreement"
         ]
       },
       {
@@ -181,7 +197,9 @@
         "aliases": [
           "research",
           "sponsored research",
-          "research collaboration"
+          "research collaboration",
+          "research agreement",
+          "sponsored research agreement"
         ]
       },
       {
@@ -261,5 +279,5 @@
       }
     ]
   },
-  "releasedAt": "2026-06-03T23:25:43.495Z"
+  "releasedAt": "2026-09-18T01:52:06.291Z"
 }
