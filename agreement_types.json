@@ -209,7 +209,8 @@
         "aliases": [
           "service agreement",
           "services agreement",
-          "services"
+          "agreement for services",
+          "provision of services"
         ]
       },
       {
@@ -279,5 +280,5 @@
       }
     ]
   },
-  "releasedAt": "2026-09-18T01:52:06.291Z"
+  "releasedAt": "2026-09-18T01:53:40.263Z"
 }
