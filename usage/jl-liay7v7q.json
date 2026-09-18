@@ -1,7 +1,7 @@
 {
   "userName": "JL",
   "userKey": "jl",
-  "generatedAt": "2026-09-18T13:58:19.091Z",
+  "generatedAt": "2026-09-18T17:52:59.656Z",
   "days": [
     {
       "date": "2026-09-11",
@@ -195,13 +195,55 @@
     },
     {
       "date": "2026-09-18",
-      "toolsUsed": {},
-      "sessions": 1,
+      "toolsUsed": {
+        "draft": 3,
+        "draft_templates": 2,
+        "error": 1,
+        "legal_review": 1,
+        "review_redlines": 1,
+        "ask_dock": 1
+      },
+      "sessions": 8,
       "firstActiveAt": 1789739894076,
-      "lastActiveAt": 1789739894076,
-      "tokens": {},
-      "tokensByTool": {},
-      "estCostUSD": 0,
+      "lastActiveAt": 1789753974649,
+      "tokens": {
+        "gemini-flash-latest": {
+          "promptTokens": 149497,
+          "candidatesTokens": 13035,
+          "calls": 33
+        }
+      },
+      "tokensByTool": {
+        "_unknown": {
+          "gemini-flash-latest": {
+            "promptTokens": 103602,
+            "candidatesTokens": 8050,
+            "calls": 6
+          }
+        },
+        "draft": {
+          "gemini-flash-latest": {
+            "promptTokens": 108,
+            "candidatesTokens": 38,
+            "calls": 1
+          }
+        },
+        "error": {
+          "gemini-flash-latest": {
+            "promptTokens": 13799,
+            "candidatesTokens": 716,
+            "calls": 1
+          }
+        },
+        "review_redlines": {
+          "gemini-flash-latest": {
+            "promptTokens": 31988,
+            "candidatesTokens": 4231,
+            "calls": 25
+          }
+        }
+      },
+      "estCostUSD": 0.015123,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -215,7 +257,7 @@
     "kernelVersion": "v3-2026-09-11-41b2733",
     "kernelStamped": true,
     "installedAt": "2026-09-11T13:45:59.985Z",
-    "lastSeenAt": "2026-09-18T13:58:19.447Z",
+    "lastSeenAt": "2026-09-18T17:53:00.253Z",
     "settings": {
       "ai_model": "gemini-flash-latest",
       "ai_temperature": 0.3,
@@ -283,7 +325,7 @@
       },
       {
         "id": "ask_eli",
-        "releasedAt": "2026-09-16T01:22:42.384Z",
+        "releasedAt": "2026-09-18T01:42:49.095Z",
         "disabled": false
       },
       {
@@ -358,7 +400,7 @@
       },
       {
         "id": "eli_agent",
-        "releasedAt": "2026-09-17T04:51:26.454Z",
+        "releasedAt": "2026-09-18T01:47:26.168Z",
         "disabled": false
       },
       {
@@ -588,11 +630,11 @@
     },
     "stats": {
       "totalActiveDays": 5,
-      "docsReviewed": 15,
-      "draftsCreated": 1,
-      "errorsFixed": 39,
+      "docsReviewed": 17,
+      "draftsCreated": 3,
+      "errorsFixed": 45,
       "risksFound": 12,
-      "hoursSaved": 7.5,
+      "hoursSaved": 8.5,
       "currentStreak": 4
     },
     "dashboardApps": [
