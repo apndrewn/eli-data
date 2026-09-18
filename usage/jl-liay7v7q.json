@@ -1,7 +1,7 @@
 {
   "userName": "JL",
   "userKey": "jl",
-  "generatedAt": "2026-09-18T00:36:34.143Z",
+  "generatedAt": "2026-09-18T13:58:19.091Z",
   "days": [
     {
       "date": "2026-09-11",
@@ -164,29 +164,44 @@
     {
       "date": "2026-09-17",
       "toolsUsed": {
-        "legal_review": 2,
-        "review_redlines": 2
+        "legal_review": 3,
+        "review_redlines": 3
       },
       "sessions": 3,
       "firstActiveAt": 1789649747608,
-      "lastActiveAt": 1789691789128,
+      "lastActiveAt": 1789692139949,
       "tokens": {
         "gemini-flash-latest": {
-          "promptTokens": 101259,
-          "candidatesTokens": 8694,
-          "calls": 106
+          "promptTokens": 109462,
+          "candidatesTokens": 9658,
+          "calls": 120
         }
       },
       "tokensByTool": {
         "review_redlines": {
           "gemini-flash-latest": {
-            "promptTokens": 101259,
-            "candidatesTokens": 8694,
-            "calls": 106
+            "promptTokens": 109462,
+            "candidatesTokens": 9658,
+            "calls": 120
           }
         }
       },
-      "estCostUSD": 0.010203,
+      "estCostUSD": 0.011107,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
+    },
+    {
+      "date": "2026-09-18",
+      "toolsUsed": {},
+      "sessions": 1,
+      "firstActiveAt": 1789739894076,
+      "lastActiveAt": 1789739894076,
+      "tokens": {},
+      "tokensByTool": {},
+      "estCostUSD": 0,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -200,7 +215,7 @@
     "kernelVersion": "v3-2026-09-11-41b2733",
     "kernelStamped": true,
     "installedAt": "2026-09-11T13:45:59.985Z",
-    "lastSeenAt": "2026-09-18T00:36:34.400Z",
+    "lastSeenAt": "2026-09-18T13:58:19.447Z",
     "settings": {
       "ai_model": "gemini-flash-latest",
       "ai_temperature": 0.3,
@@ -572,13 +587,13 @@
       "t106": 1789135218025
     },
     "stats": {
-      "totalActiveDays": 4,
-      "docsReviewed": 14,
+      "totalActiveDays": 5,
+      "docsReviewed": 15,
       "draftsCreated": 1,
       "errorsFixed": 39,
       "risksFound": 12,
-      "hoursSaved": 7,
-      "currentStreak": 3
+      "hoursSaved": 7.5,
+      "currentStreak": 4
     },
     "dashboardApps": [
       "auto_emailer",
