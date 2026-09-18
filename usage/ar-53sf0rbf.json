@@ -1,7 +1,7 @@
 {
   "userName": "AR",
   "userKey": "ar",
-  "generatedAt": "2026-09-17T14:12:36.563Z",
+  "generatedAt": "2026-09-18T16:19:51.597Z",
   "days": [
     {
       "date": "2026-06-30",
@@ -1360,10 +1360,51 @@
     },
     {
       "date": "2026-09-17",
-      "toolsUsed": {},
+      "toolsUsed": {
+        "legal_review": 1,
+        "review_redlines": 1
+      },
       "sessions": 1,
       "firstActiveAt": 1789654351542,
-      "lastActiveAt": 1789654351542,
+      "lastActiveAt": 1789655156550,
+      "tokens": {
+        "gemini-flash-latest": {
+          "promptTokens": 22702,
+          "candidatesTokens": 19921,
+          "calls": 16
+        }
+      },
+      "tokensByTool": {
+        "legal_review": {
+          "gemini-flash-latest": {
+            "promptTokens": 2274,
+            "candidatesTokens": 1845,
+            "calls": 1
+          }
+        },
+        "review_redlines": {
+          "gemini-flash-latest": {
+            "promptTokens": 20428,
+            "candidatesTokens": 18076,
+            "calls": 15
+          }
+        }
+      },
+      "estCostUSD": 0.007679,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
+    },
+    {
+      "date": "2026-09-18",
+      "toolsUsed": {
+        "draft": 1
+      },
+      "sessions": 1,
+      "firstActiveAt": 1789748385888,
+      "lastActiveAt": 1789748389355,
       "tokens": {},
       "tokensByTool": {},
       "estCostUSD": 0,
@@ -1380,7 +1421,7 @@
     "kernelVersion": "v3-2026-06-13-dashfit",
     "kernelStamped": false,
     "installedAt": "2026-06-30T18:29:18.400Z",
-    "lastSeenAt": "2026-09-17T14:12:36.826Z",
+    "lastSeenAt": "2026-09-18T16:19:51.827Z",
     "settings": {
       "ai_model": "gemini-flash-latest",
       "ai_temperature": 0.3,
@@ -1515,7 +1556,7 @@
       },
       {
         "id": "eli_agent",
-        "releasedAt": "2026-09-16T01:32:56.766Z",
+        "releasedAt": "2026-09-17T04:51:26.454Z",
         "disabled": false
       },
       {
@@ -1746,13 +1787,13 @@
       "t183": "2026-09-01T14:39:54.918Z"
     },
     "stats": {
-      "totalActiveDays": 35,
-      "docsReviewed": 54,
+      "totalActiveDays": 36,
+      "docsReviewed": 55,
       "draftsCreated": 37,
       "errorsFixed": 93,
       "risksFound": 19,
-      "hoursSaved": 27,
-      "currentStreak": 4
+      "hoursSaved": 27.5,
+      "currentStreak": 5
     },
     "dashboardApps": [
       "legal_review",
