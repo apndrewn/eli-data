@@ -1,7 +1,7 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-09-11T13:42:55.844Z",
+  "generatedAt": "2026-09-24T14:25:48.524Z",
   "days": [
     {
       "date": "2026-07-29",
@@ -760,6 +760,21 @@
         "byTemplate": {},
         "total": 0
       }
+    },
+    {
+      "date": "2026-09-24",
+      "toolsUsed": {},
+      "sessions": 1,
+      "firstActiveAt": 1790259943515,
+      "lastActiveAt": 1790259943515,
+      "tokens": {},
+      "tokensByTool": {},
+      "estCostUSD": 0,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
     }
   ],
   "fleet": {
@@ -767,7 +782,7 @@
     "initials": "AN",
     "kernelVersion": "v3-2026-06-13-dashfit",
     "installedAt": "2026-07-29T14:09:25.615Z",
-    "lastSeenAt": "2026-09-11T13:42:56.088Z",
+    "lastSeenAt": "2026-09-24T14:25:48.828Z",
     "settings": {
       "ai_model": "gemini-flash-latest",
       "ai_temperature": 0.3,
@@ -1142,6 +1157,14 @@
       {
         "id": "fleet-model-flash-latest-1789086280338",
         "at": 1789134175586
+      },
+      {
+        "id": "release-notes-2026-09-11",
+        "at": 1789134175586
+      },
+      {
+        "id": "release-notes-off-1789139158421",
+        "at": 1790259947597
       }
     ],
     "trophies": 18,
@@ -1187,13 +1210,13 @@
       "t121": "2026-09-10T17:54:06.615Z"
     },
     "stats": {
-      "totalActiveDays": 21,
+      "totalActiveDays": 22,
       "docsReviewed": 27,
       "draftsCreated": 7,
       "errorsFixed": 15,
       "risksFound": 14,
       "hoursSaved": 13.5,
-      "currentStreak": 3
+      "currentStreak": 1
     },
     "dashboardApps": [
       "auto_emailer",
