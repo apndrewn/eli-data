@@ -1,7 +1,7 @@
 {
   "userName": "JT",
   "userKey": "jt",
-  "generatedAt": "2026-09-15T17:43:59.578Z",
+  "generatedAt": "2026-09-24T15:15:54.382Z",
   "days": [
     {
       "date": "2026-08-06",
@@ -331,11 +331,11 @@
     {
       "date": "2026-09-15",
       "toolsUsed": {
-        "draft": 1
+        "draft": 5
       },
-      "sessions": 1,
+      "sessions": 5,
       "firstActiveAt": 1789494234562,
-      "lastActiveAt": 1789494238032,
+      "lastActiveAt": 1789494721255,
       "tokens": {
         "gemini-flash-lite-latest": {
           "promptTokens": 2166,
@@ -358,23 +358,44 @@
         "byTemplate": {},
         "total": 0
       }
+    },
+    {
+      "date": "2026-09-24",
+      "toolsUsed": {
+        "draft": 1
+      },
+      "sessions": 1,
+      "firstActiveAt": 1790262949369,
+      "lastActiveAt": 1790262950928,
+      "tokens": {},
+      "tokensByTool": {},
+      "estCostUSD": 0,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
     }
   ],
   "fleet": {
     "userId": "JT-fahe0cv8",
     "initials": "JT",
-    "kernelVersion": "v3-2026-06-13-dashfit",
+    "kernelVersion": "v3-2026-09-11-41b2733",
+    "kernelStamped": true,
     "installedAt": "2026-08-06T18:58:29.523Z",
-    "lastSeenAt": "2026-09-15T17:43:59.834Z",
+    "lastSeenAt": "2026-09-24T15:15:54.669Z",
     "settings": {
       "ai_model": "gemini-flash-latest",
       "ai_temperature": 0.3,
       "ai_timeout_ms": 120000,
-      "ai_thinking_budget": 0,
+      "ai_thinking_budget": null,
+      "ai_thinking_mode": "recommended",
+      "ai_thinking_custom": 512,
+      "ai_thinking_per_tool": {},
       "ai_allow_streaming": false,
       "ai_model_list": [
-        "gemini-flash-lite-latest",
-        "gemini-flash-latest"
+        "gemini-flash-latest",
+        "gemini-flash-lite-latest"
       ],
       "expand_width": 800,
       "expand_threshold": 480,
@@ -425,12 +446,12 @@
       },
       {
         "id": "ask_dock",
-        "releasedAt": "2026-06-13T15:12:32.240Z",
+        "releasedAt": "2026-09-11T16:49:10.843Z",
         "disabled": false
       },
       {
         "id": "ask_eli",
-        "releasedAt": "2026-07-10T14:12:43.124Z",
+        "releasedAt": "2026-09-15T03:42:04.301Z",
         "disabled": false
       },
       {
@@ -440,7 +461,7 @@
       },
       {
         "id": "build_draft",
-        "releasedAt": "2026-08-22T03:30:21.666Z",
+        "releasedAt": "2026-09-12T03:13:07.021Z",
         "disabled": false
       },
       {
@@ -450,12 +471,17 @@
       },
       {
         "id": "dashboard_tour",
-        "releasedAt": "2026-06-17T05:30:15.158Z",
+        "releasedAt": "2026-09-11T15:03:10.114Z",
         "disabled": false
       },
       {
         "id": "dashboard_widgets",
         "releasedAt": "2026-07-09T04:04:23.046Z",
+        "disabled": false
+      },
+      {
+        "id": "defined_terms",
+        "releasedAt": "2026-09-15T02:39:23.395Z",
         "disabled": false
       },
       {
@@ -480,7 +506,7 @@
       },
       {
         "id": "eli-admin",
-        "releasedAt": "2026-06-12T15:15:28.515Z",
+        "releasedAt": "2026-09-11T15:10:16.816Z",
         "disabled": false
       },
       {
@@ -491,6 +517,11 @@
       {
         "id": "eli5",
         "releasedAt": "2026-05-19T03:53:44.200Z",
+        "disabled": false
+      },
+      {
+        "id": "eli_agent",
+        "releasedAt": "2026-09-15T11:57:16.049Z",
         "disabled": false
       },
       {
@@ -505,17 +536,17 @@
       },
       {
         "id": "eli_settings",
-        "releasedAt": "2026-06-15T12:03:23.624Z",
+        "releasedAt": "2026-09-12T00:07:26.207Z",
         "disabled": false
       },
       {
         "id": "eli_stats",
-        "releasedAt": "2026-05-28T05:13:51.148Z",
+        "releasedAt": "2026-09-12T00:12:08.975Z",
         "disabled": false
       },
       {
         "id": "eli_telemetry",
-        "releasedAt": "2026-07-10T13:24:30.650Z",
+        "releasedAt": "2026-09-12T00:07:26.444Z",
         "disabled": false
       },
       {
@@ -525,7 +556,7 @@
       },
       {
         "id": "error_review",
-        "releasedAt": "2026-06-15T02:13:06.622Z",
+        "releasedAt": "2026-09-12T04:06:54.834Z",
         "disabled": false
       },
       {
@@ -539,13 +570,18 @@
         "disabled": false
       },
       {
+        "id": "kernel_check",
+        "releasedAt": "2026-09-12T02:56:49.828Z",
+        "disabled": false
+      },
+      {
         "id": "legal_review",
-        "releasedAt": "2026-06-13T04:15:03.046Z",
+        "releasedAt": "2026-09-12T00:18:19.949Z",
         "disabled": false
       },
       {
         "id": "legal_risks",
-        "releasedAt": "2026-06-13T03:39:09.434Z",
+        "releasedAt": "2026-09-11T03:35:55.044Z",
         "disabled": false
       },
       {
@@ -556,6 +592,16 @@
       {
         "id": "playbook_manager",
         "releasedAt": "2026-05-18T11:56:13.482Z",
+        "disabled": false
+      },
+      {
+        "id": "polish",
+        "releasedAt": "2026-09-12T04:14:53.171Z",
+        "disabled": false
+      },
+      {
+        "id": "profile_restore",
+        "releasedAt": "2026-09-11T20:07:20.741Z",
         "disabled": false
       },
       {
@@ -570,12 +616,12 @@
       },
       {
         "id": "review_redlines",
-        "releasedAt": "2026-08-11T04:11:20.394Z",
+        "releasedAt": "2026-09-11T17:14:24.803Z",
         "disabled": false
       },
       {
         "id": "team_guidance",
-        "releasedAt": "2026-08-11T03:55:28.215Z",
+        "releasedAt": "2026-09-11T15:02:45.767Z",
         "disabled": false
       },
       {
@@ -601,6 +647,11 @@
       {
         "id": "version_history",
         "releasedAt": "2026-06-13T04:06:52.044Z",
+        "disabled": false
+      },
+      {
+        "id": "whats_new",
+        "releasedAt": "2026-09-11T15:02:45.524Z",
         "disabled": false
       }
     ],
@@ -634,7 +685,7 @@
       "t111": "2026-09-10T12:10:37.647Z"
     },
     "stats": {
-      "totalActiveDays": 12,
+      "totalActiveDays": 13,
       "docsReviewed": 0,
       "draftsCreated": 13,
       "errorsFixed": 0,
