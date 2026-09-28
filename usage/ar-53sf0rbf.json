@@ -1,7 +1,7 @@
 {
   "userName": "AR",
   "userKey": "ar",
-  "generatedAt": "2026-09-25T16:19:03.469Z",
+  "generatedAt": "2026-09-28T17:22:45.774Z",
   "days": [
     {
       "date": "2026-06-30",
@@ -1510,11 +1510,48 @@
     {
       "date": "2026-09-25",
       "toolsUsed": {
-        "draft": 1
+        "draft": 1,
+        "error": 1
       },
       "sessions": 1,
       "firstActiveAt": 1790353138441,
-      "lastActiveAt": 1790353141466,
+      "lastActiveAt": 1790358759669,
+      "tokens": {
+        "gemini-flash-latest": {
+          "promptTokens": 13773,
+          "candidatesTokens": 4107,
+          "calls": 6
+        }
+      },
+      "tokensByTool": {
+        "draft": {
+          "gemini-flash-latest": {
+            "promptTokens": 4945,
+            "candidatesTokens": 3104,
+            "calls": 4
+          }
+        },
+        "error": {
+          "gemini-flash-latest": {
+            "promptTokens": 8828,
+            "candidatesTokens": 1003,
+            "calls": 2
+          }
+        }
+      },
+      "estCostUSD": 0.002265,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
+    },
+    {
+      "date": "2026-09-28",
+      "toolsUsed": {},
+      "sessions": 1,
+      "firstActiveAt": 1790616160744,
+      "lastActiveAt": 1790616160744,
       "tokens": {},
       "tokensByTool": {},
       "estCostUSD": 0,
@@ -1531,7 +1568,7 @@
     "kernelVersion": "v3-2026-09-11-41b2733",
     "kernelStamped": true,
     "installedAt": "2026-06-30T18:29:18.400Z",
-    "lastSeenAt": "2026-09-25T16:19:03.845Z",
+    "lastSeenAt": "2026-09-28T17:22:46.029Z",
     "settings": {
       "ai_model": "gemini-flash-latest",
       "ai_temperature": 0.3,
@@ -1904,13 +1941,13 @@
       "t130": "2026-09-24T19:57:28.449Z"
     },
     "stats": {
-      "totalActiveDays": 39,
-      "docsReviewed": 58,
-      "draftsCreated": 40,
-      "errorsFixed": 115,
+      "totalActiveDays": 40,
+      "docsReviewed": 59,
+      "draftsCreated": 41,
+      "errorsFixed": 123,
       "risksFound": 19,
-      "hoursSaved": 29,
-      "currentStreak": 3
+      "hoursSaved": 29.5,
+      "currentStreak": 1
     },
     "dashboardApps": [
       "legal_review",
