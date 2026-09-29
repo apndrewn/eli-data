@@ -1,7 +1,7 @@
 {
   "userName": "AR",
   "userKey": "ar",
-  "generatedAt": "2026-09-28T17:22:45.774Z",
+  "generatedAt": "2026-09-29T12:53:30.636Z",
   "days": [
     {
       "date": "2026-06-30",
@@ -1548,10 +1548,58 @@
     },
     {
       "date": "2026-09-28",
+      "toolsUsed": {
+        "legal_review": 5,
+        "review_redlines": 5,
+        "compare": 1,
+        "agent_draft_agreement": 1
+      },
+      "sessions": 4,
+      "firstActiveAt": 1790616160744,
+      "lastActiveAt": 1790625082380,
+      "tokens": {
+        "gemini-flash-latest": {
+          "promptTokens": 111953,
+          "candidatesTokens": 19325,
+          "calls": 22
+        }
+      },
+      "tokensByTool": {
+        "review_redlines": {
+          "gemini-flash-latest": {
+            "promptTokens": 65145,
+            "candidatesTokens": 11504,
+            "calls": 16
+          }
+        },
+        "compare": {
+          "gemini-flash-latest": {
+            "promptTokens": 46063,
+            "candidatesTokens": 7577,
+            "calls": 5
+          }
+        },
+        "agent_draft_agreement": {
+          "gemini-flash-latest": {
+            "promptTokens": 745,
+            "candidatesTokens": 244,
+            "calls": 1
+          }
+        }
+      },
+      "estCostUSD": 0.014194,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
+    },
+    {
+      "date": "2026-09-29",
       "toolsUsed": {},
       "sessions": 1,
-      "firstActiveAt": 1790616160744,
-      "lastActiveAt": 1790616160744,
+      "firstActiveAt": 1790686405607,
+      "lastActiveAt": 1790686405607,
       "tokens": {},
       "tokensByTool": {},
       "estCostUSD": 0,
@@ -1568,7 +1616,7 @@
     "kernelVersion": "v3-2026-09-11-41b2733",
     "kernelStamped": true,
     "installedAt": "2026-06-30T18:29:18.400Z",
-    "lastSeenAt": "2026-09-28T17:22:46.029Z",
+    "lastSeenAt": "2026-09-29T12:53:31.014Z",
     "settings": {
       "ai_model": "gemini-flash-latest",
       "ai_temperature": 0.3,
@@ -1941,13 +1989,13 @@
       "t130": "2026-09-24T19:57:28.449Z"
     },
     "stats": {
-      "totalActiveDays": 40,
-      "docsReviewed": 59,
+      "totalActiveDays": 41,
+      "docsReviewed": 64,
       "draftsCreated": 41,
       "errorsFixed": 123,
       "risksFound": 19,
-      "hoursSaved": 29.5,
-      "currentStreak": 1
+      "hoursSaved": 32,
+      "currentStreak": 2
     },
     "dashboardApps": [
       "legal_review",
