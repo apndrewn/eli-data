@@ -1,7 +1,7 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-09-28T21:13:22.231Z",
+  "generatedAt": "2026-09-29T13:37:16.561Z",
   "days": [
     {
       "date": "2026-07-29",
@@ -814,24 +814,39 @@
       "toolsUsed": {},
       "sessions": 4,
       "firstActiveAt": 1790604590432,
-      "lastActiveAt": 1790629997221,
+      "lastActiveAt": 1790630033571,
       "tokens": {
         "gemini-flash-latest": {
-          "promptTokens": 14902,
-          "candidatesTokens": 11911,
-          "calls": 5
+          "promptTokens": 30551,
+          "candidatesTokens": 16461,
+          "calls": 6
         }
       },
       "tokensByTool": {
         "_unknown": {
           "gemini-flash-latest": {
-            "promptTokens": 14902,
-            "candidatesTokens": 11911,
-            "calls": 5
+            "promptTokens": 30551,
+            "candidatesTokens": 16461,
+            "calls": 6
           }
         }
       },
-      "estCostUSD": 0.004691,
+      "estCostUSD": 0.00723,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
+    },
+    {
+      "date": "2026-09-29",
+      "toolsUsed": {},
+      "sessions": 2,
+      "firstActiveAt": 1790689031551,
+      "lastActiveAt": 1790689032482,
+      "tokens": {},
+      "tokensByTool": {},
+      "estCostUSD": 0,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -845,7 +860,7 @@
     "kernelVersion": "v3-2026-09-11-41b2733",
     "kernelStamped": true,
     "installedAt": "2026-07-29T14:09:25.615Z",
-    "lastSeenAt": "2026-09-28T21:13:22.460Z",
+    "lastSeenAt": "2026-09-29T13:37:17.281Z",
     "settings": {
       "ai_model": "gemini-flash-latest",
       "ai_temperature": 0.3,
@@ -1306,13 +1321,13 @@
       "t121": "2026-09-10T17:54:06.615Z"
     },
     "stats": {
-      "totalActiveDays": 24,
+      "totalActiveDays": 25,
       "docsReviewed": 27,
       "draftsCreated": 7,
       "errorsFixed": 15,
       "risksFound": 14,
       "hoursSaved": 13.5,
-      "currentStreak": 1
+      "currentStreak": 2
     },
     "dashboardApps": [
       "auto_emailer",
