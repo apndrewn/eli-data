@@ -1,7 +1,7 @@
 {
   "userName": "AR",
   "userKey": "ar",
-  "generatedAt": "2026-09-29T12:53:30.636Z",
+  "generatedAt": "2026-09-29T20:48:09.665Z",
   "days": [
     {
       "date": "2026-06-30",
@@ -1597,12 +1597,26 @@
     {
       "date": "2026-09-29",
       "toolsUsed": {},
-      "sessions": 1,
+      "sessions": 2,
       "firstActiveAt": 1790686405607,
-      "lastActiveAt": 1790686405607,
-      "tokens": {},
-      "tokensByTool": {},
-      "estCostUSD": 0,
+      "lastActiveAt": 1790714884657,
+      "tokens": {
+        "gemini-flash-latest": {
+          "promptTokens": 34226,
+          "candidatesTokens": 3500,
+          "calls": 3
+        }
+      },
+      "tokensByTool": {
+        "_unknown": {
+          "gemini-flash-latest": {
+            "promptTokens": 34226,
+            "candidatesTokens": 3500,
+            "calls": 3
+          }
+        }
+      },
+      "estCostUSD": 0.003617,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -1616,7 +1630,7 @@
     "kernelVersion": "v3-2026-09-11-41b2733",
     "kernelStamped": true,
     "installedAt": "2026-06-30T18:29:18.400Z",
-    "lastSeenAt": "2026-09-29T12:53:31.014Z",
+    "lastSeenAt": "2026-09-29T20:48:10.180Z",
     "settings": {
       "ai_model": "gemini-flash-latest",
       "ai_temperature": 0.3,
