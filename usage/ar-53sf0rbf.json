@@ -1,7 +1,7 @@
 {
   "userName": "AR",
   "userKey": "ar",
-  "generatedAt": "2026-09-30T14:07:49.932Z",
+  "generatedAt": "2026-09-30T18:41:10.346Z",
   "days": [
     {
       "date": "2026-06-30",
@@ -1642,13 +1642,45 @@
     },
     {
       "date": "2026-09-30",
-      "toolsUsed": {},
-      "sessions": 1,
+      "toolsUsed": {
+        "error": 1,
+        "usage_risks": 3,
+        "draft": 1
+      },
+      "sessions": 3,
       "firstActiveAt": 1790777264916,
-      "lastActiveAt": 1790777264916,
-      "tokens": {},
-      "tokensByTool": {},
-      "estCostUSD": 0,
+      "lastActiveAt": 1790793667930,
+      "tokens": {
+        "gemini-flash-latest": {
+          "promptTokens": 7370,
+          "candidatesTokens": 3310,
+          "calls": 4
+        }
+      },
+      "tokensByTool": {
+        "error": {
+          "gemini-flash-latest": {
+            "promptTokens": 584,
+            "candidatesTokens": 277,
+            "calls": 1
+          }
+        },
+        "usage_risks": {
+          "gemini-flash-latest": {
+            "promptTokens": 2063,
+            "candidatesTokens": 546,
+            "calls": 1
+          }
+        },
+        "_unknown": {
+          "gemini-flash-latest": {
+            "promptTokens": 4723,
+            "candidatesTokens": 2487,
+            "calls": 2
+          }
+        }
+      },
+      "estCostUSD": 0.001546,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -1662,7 +1694,7 @@
     "kernelVersion": "v3-2026-09-11-41b2733",
     "kernelStamped": true,
     "installedAt": "2026-06-30T18:29:18.400Z",
-    "lastSeenAt": "2026-09-30T14:07:50.392Z",
+    "lastSeenAt": "2026-09-30T18:41:10.705Z",
     "settings": {
       "ai_model": "gemini-flash-latest",
       "ai_temperature": 0.3,
@@ -1730,7 +1762,7 @@
       },
       {
         "id": "ask_eli",
-        "releasedAt": "2026-09-18T01:42:49.095Z",
+        "releasedAt": "2026-09-30T02:24:16.358Z",
         "disabled": false
       },
       {
@@ -1740,7 +1772,7 @@
       },
       {
         "id": "build_draft",
-        "releasedAt": "2026-09-12T03:13:07.021Z",
+        "releasedAt": "2026-09-30T02:51:45.927Z",
         "disabled": false
       },
       {
@@ -1800,7 +1832,7 @@
       },
       {
         "id": "eli_agent",
-        "releasedAt": "2026-09-18T01:47:26.168Z",
+        "releasedAt": "2026-09-30T02:16:22.385Z",
         "disabled": false
       },
       {
@@ -2038,11 +2070,11 @@
     },
     "stats": {
       "totalActiveDays": 42,
-      "docsReviewed": 64,
+      "docsReviewed": 66,
       "draftsCreated": 41,
       "errorsFixed": 123,
       "risksFound": 19,
-      "hoursSaved": 32,
+      "hoursSaved": 33,
       "currentStreak": 3
     },
     "dashboardApps": [
