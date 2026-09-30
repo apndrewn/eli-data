@@ -1,7 +1,7 @@
 {
   "userName": "JL",
   "userKey": "jl",
-  "generatedAt": "2026-09-10T17:42:53.874Z",
+  "generatedAt": "2026-09-30T17:42:10.676Z",
   "days": [
     {
       "date": "2026-07-10",
@@ -915,11 +915,49 @@
     {
       "date": "2026-09-10",
       "toolsUsed": {
-        "draft": 1
+        "draft": 5,
+        "error": 2,
+        "draft_templates": 1
       },
-      "sessions": 1,
+      "sessions": 5,
       "firstActiveAt": 1789062168698,
-      "lastActiveAt": 1789062169128,
+      "lastActiveAt": 1789067304079,
+      "tokens": {
+        "gemini-flash-lite-latest": {
+          "promptTokens": 30037,
+          "candidatesTokens": 1525,
+          "calls": 10
+        }
+      },
+      "tokensByTool": {
+        "draft": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 7631,
+            "candidatesTokens": 1489,
+            "calls": 6
+          }
+        },
+        "error": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 22406,
+            "candidatesTokens": 36,
+            "calls": 4
+          }
+        }
+      },
+      "estCostUSD": 0.001506,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
+    },
+    {
+      "date": "2026-09-30",
+      "toolsUsed": {},
+      "sessions": 1,
+      "firstActiveAt": 1790790125655,
+      "lastActiveAt": 1790790125655,
       "tokens": {},
       "tokensByTool": {},
       "estCostUSD": 0,
@@ -935,9 +973,9 @@
     "initials": "JL",
     "kernelVersion": "v3-2026-06-13-dashfit",
     "installedAt": "2026-07-10T13:27:22.388Z",
-    "lastSeenAt": "2026-09-10T17:42:55.343Z",
+    "lastSeenAt": "2026-09-30T17:42:11.199Z",
     "settings": {
-      "ai_model": "gemini-flash-lite-latest",
+      "ai_model": "gemini-flash-latest",
       "ai_temperature": 0.3,
       "ai_timeout_ms": 120000,
       "ai_thinking_budget": 0,
@@ -1184,8 +1222,17 @@
         "disabled": false
       }
     ],
-    "appliedOverrides": [],
-    "trophies": 21,
+    "appliedOverrides": [
+      {
+        "id": "fleet-model-flash-latest-1789086280338",
+        "at": 1790790129770
+      },
+      {
+        "id": "release-notes-off-1789139158421",
+        "at": 1790790129770
+      }
+    ],
+    "trophies": 22,
     "trophyIds": [
       "t1",
       "t41",
@@ -1207,7 +1254,8 @@
       "t168",
       "t101",
       "t156",
-      "t11"
+      "t11",
+      "t174"
     ],
     "trophyDates": {
       "t1": "2026-07-10T13:28:11.712Z",
@@ -1231,15 +1279,16 @@
       "t168": "2026-09-01T20:33:54.751Z",
       "t101": "2026-09-03T20:02:15.486Z",
       "t156": "2026-09-04T19:36:11.936Z",
-      "t11": "2026-09-08T17:49:12.650Z"
+      "t11": "2026-09-08T17:49:12.650Z",
+      "t174": "2026-09-30T17:42:06.835Z"
     },
     "stats": {
-      "totalActiveDays": 26,
-      "docsReviewed": 27,
-      "draftsCreated": 18,
+      "totalActiveDays": 27,
+      "docsReviewed": 29,
+      "draftsCreated": 21,
       "errorsFixed": 21,
       "risksFound": 12,
-      "hoursSaved": 13.5,
+      "hoursSaved": 14.5,
       "currentStreak": 1
     },
     "dashboardApps": [
