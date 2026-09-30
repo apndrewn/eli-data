@@ -1,7 +1,7 @@
 {
   "userName": "A(",
   "userKey": "ah",
-  "generatedAt": "2026-09-18T01:48:06.475Z",
+  "generatedAt": "2026-09-30T02:18:23.025Z",
   "days": [
     {
       "date": "2026-09-11",
@@ -307,16 +307,19 @@
       "toolsUsed": {
         "agent_draft_agreement": 3,
         "ask_eli": 1,
-        "agent_apply_instruction": 2
+        "agent_apply_instruction": 2,
+        "draft_templates": 1,
+        "legal_review": 4,
+        "draft": 1
       },
-      "sessions": 9,
+      "sessions": 13,
       "firstActiveAt": 1789618386548,
-      "lastActiveAt": 1789696081467,
+      "lastActiveAt": 1789696528315,
       "tokens": {
         "gemini-flash-latest": {
-          "promptTokens": 138223,
-          "candidatesTokens": 23804,
-          "calls": 80
+          "promptTokens": 150933,
+          "candidatesTokens": 25093,
+          "calls": 81
         }
       },
       "tokensByTool": {
@@ -329,9 +332,9 @@
         },
         "_unknown": {
           "gemini-flash-latest": {
-            "promptTokens": 2459,
-            "candidatesTokens": 579,
-            "calls": 2
+            "promptTokens": 15169,
+            "candidatesTokens": 1868,
+            "calls": 3
           }
         },
         "agent_apply_instruction": {
@@ -342,7 +345,22 @@
           }
         }
       },
-      "estCostUSD": 0.017508,
+      "estCostUSD": 0.018848,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
+    },
+    {
+      "date": "2026-09-29",
+      "toolsUsed": {},
+      "sessions": 1,
+      "firstActiveAt": 1790734698009,
+      "lastActiveAt": 1790734698009,
+      "tokens": {},
+      "tokensByTool": {},
+      "estCostUSD": 0,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -356,7 +374,7 @@
     "kernelVersion": "v3-2026-09-12-31ebf99",
     "kernelStamped": true,
     "installedAt": "2026-07-31T00:45:31.641Z",
-    "lastSeenAt": "2026-09-18T01:48:06.695Z",
+    "lastSeenAt": "2026-09-30T02:18:23.242Z",
     "settings": {
       "ai_model": "gemini-flash-latest",
       "ai_temperature": 0.3,
@@ -820,13 +838,13 @@
       "t116": "2026-09-12T04:00:03.548Z"
     },
     "stats": {
-      "totalActiveDays": 5,
+      "totalActiveDays": 6,
       "docsReviewed": 22,
       "draftsCreated": 4,
       "errorsFixed": 63,
       "risksFound": 14,
       "hoursSaved": 11,
-      "currentStreak": 4
+      "currentStreak": 1
     },
     "dashboardApps": [
       "legal_review",
