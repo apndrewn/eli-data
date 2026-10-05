@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-10-05T14:22:55.523Z",
+  "lastUpdated": "2026-10-05T14:47:01.337Z",
   "profiles": {
     "8c35a5b20364b3b3aab13a06b4da0954": {
       "key": "an-xokse6dw",
@@ -64,16 +64,17 @@
       "lastSeenAt": "2026-09-17T12:52:33.056Z"
     },
     "102e5fe7dcdca16eb86d35edad660eae": {
-      "key": "ar-53sf0rbf",
+      "key": "ar",
       "keys": [
+        "ar",
         "ar-53sf0rbf"
       ],
-      "userId": "AR-53sf0rbf",
+      "userId": null,
       "initials": "AR",
-      "trophyCount": 43,
+      "trophyCount": 0,
       "kernelVersion": "v3-2026-09-11-41b2733",
       "kernelStamped": true,
-      "lastSeenAt": "2026-10-02T16:08:12.564Z"
+      "lastSeenAt": "2026-10-05T14:47:01.337Z"
     },
     "56546dd973605252090a087d79bd1e5e": {
       "key": "jt-fahe0cv8",
