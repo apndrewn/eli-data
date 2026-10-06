@@ -1,7 +1,7 @@
 {
   "userName": "AR",
   "userKey": "ar",
-  "generatedAt": "2026-10-02T16:08:10.631Z",
+  "generatedAt": "2026-10-06T14:40:26.751Z",
   "days": [
     {
       "date": "2026-06-30",
@@ -1696,10 +1696,51 @@
     },
     {
       "date": "2026-10-02",
-      "toolsUsed": {},
+      "toolsUsed": {
+        "legal_review": 1,
+        "risk": 1,
+        "error": 1,
+        "final_review": 1
+      },
       "sessions": 1,
       "firstActiveAt": 1790957285614,
-      "lastActiveAt": 1790957285614,
+      "lastActiveAt": 1790957533208,
+      "tokens": {
+        "gemini-flash-latest": {
+          "promptTokens": 4969,
+          "candidatesTokens": 1321,
+          "calls": 2
+        }
+      },
+      "tokensByTool": {
+        "risk": {
+          "gemini-flash-latest": {
+            "promptTokens": 1909,
+            "candidatesTokens": 1161,
+            "calls": 1
+          }
+        },
+        "error": {
+          "gemini-flash-latest": {
+            "promptTokens": 3060,
+            "candidatesTokens": 160,
+            "calls": 1
+          }
+        }
+      },
+      "estCostUSD": 0.000769,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
+    },
+    {
+      "date": "2026-10-06",
+      "toolsUsed": {},
+      "sessions": 1,
+      "firstActiveAt": 1791297621731,
+      "lastActiveAt": 1791297621731,
       "tokens": {},
       "tokensByTool": {},
       "estCostUSD": 0,
@@ -1716,7 +1757,7 @@
     "kernelVersion": "v3-2026-09-11-41b2733",
     "kernelStamped": true,
     "installedAt": "2026-06-30T18:29:18.400Z",
-    "lastSeenAt": "2026-10-02T16:08:11.014Z",
+    "lastSeenAt": "2026-10-06T14:40:27.067Z",
     "settings": {
       "ai_model": "gemini-flash-latest",
       "ai_temperature": 0.3,
@@ -2083,7 +2124,7 @@
       "t173": 1783570834622,
       "t149": 1783570834622,
       "t158": 1783570834622,
-      "deal360": "2026-08-13T19:57:51.949Z",
+      "deal360": "2026-10-02T16:09:37.330Z",
       "t186": "2026-07-31T16:06:54.791Z",
       "t183": "2026-09-01T14:39:54.918Z",
       "t101": "2026-09-24T19:49:29.074Z",
@@ -2091,12 +2132,12 @@
       "t174": "2026-09-30T14:07:46.502Z"
     },
     "stats": {
-      "totalActiveDays": 43,
-      "docsReviewed": 69,
+      "totalActiveDays": 44,
+      "docsReviewed": 71,
       "draftsCreated": 44,
-      "errorsFixed": 138,
-      "risksFound": 19,
-      "hoursSaved": 34.5,
+      "errorsFixed": 142,
+      "risksFound": 23,
+      "hoursSaved": 35.5,
       "currentStreak": 1
     },
     "dashboardApps": [
