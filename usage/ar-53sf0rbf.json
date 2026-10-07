@@ -1,7 +1,7 @@
 {
   "userName": "AR",
   "userKey": "ar",
-  "generatedAt": "2026-10-06T19:53:23.509Z",
+  "generatedAt": "2026-10-07T17:45:43.284Z",
   "days": [
     {
       "date": "2026-06-30",
@@ -1739,24 +1739,25 @@
       "date": "2026-10-06",
       "toolsUsed": {
         "draft_audit": 1,
-        "legal_review": 1
+        "legal_review": 1,
+        "agent_apply_instruction": 1
       },
       "sessions": 2,
       "firstActiveAt": 1791297621731,
-      "lastActiveAt": 1791316398482,
+      "lastActiveAt": 1791317203575,
       "tokens": {
         "gemini-flash-latest": {
-          "promptTokens": 22089,
-          "candidatesTokens": 5294,
-          "calls": 2
+          "promptTokens": 168333,
+          "candidatesTokens": 85406,
+          "calls": 17
         }
       },
       "tokensByTool": {
         "_unknown": {
           "gemini-flash-latest": {
-            "promptTokens": 7892,
-            "candidatesTokens": 1652,
-            "calls": 1
+            "promptTokens": 22129,
+            "candidatesTokens": 4803,
+            "calls": 2
           }
         },
         "legal_review": {
@@ -1765,9 +1766,33 @@
             "candidatesTokens": 3642,
             "calls": 1
           }
+        },
+        "agent_apply_instruction": {
+          "gemini-flash-latest": {
+            "promptTokens": 132007,
+            "candidatesTokens": 76961,
+            "calls": 14
+          }
         }
       },
-      "estCostUSD": 0.003245,
+      "estCostUSD": 0.038247,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
+    },
+    {
+      "date": "2026-10-07",
+      "toolsUsed": {
+        "draft": 1
+      },
+      "sessions": 1,
+      "firstActiveAt": 1791395136627,
+      "lastActiveAt": 1791395140095,
+      "tokens": {},
+      "tokensByTool": {},
+      "estCostUSD": 0,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -1781,7 +1806,7 @@
     "kernelVersion": "v3-2026-09-11-41b2733",
     "kernelStamped": true,
     "installedAt": "2026-06-30T18:29:18.400Z",
-    "lastSeenAt": "2026-10-06T19:53:24.481Z",
+    "lastSeenAt": "2026-10-07T17:45:45.719Z",
     "settings": {
       "ai_model": "gemini-flash-latest",
       "ai_temperature": 0.3,
@@ -2156,13 +2181,13 @@
       "t174": "2026-09-30T14:07:46.502Z"
     },
     "stats": {
-      "totalActiveDays": 44,
+      "totalActiveDays": 45,
       "docsReviewed": 71,
       "draftsCreated": 44,
       "errorsFixed": 142,
       "risksFound": 23,
       "hoursSaved": 35.5,
-      "currentStreak": 1
+      "currentStreak": 2
     },
     "dashboardApps": [
       "legal_review",
