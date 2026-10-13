@@ -1,7 +1,7 @@
 {
   "userName": "RF",
   "userKey": "rf",
-  "generatedAt": "2026-08-24T14:12:28.646Z",
+  "generatedAt": "2026-10-13T17:55:00.149Z",
   "days": [
     {
       "date": "2026-06-16",
@@ -206,10 +206,49 @@
     },
     {
       "date": "2026-08-24",
-      "toolsUsed": {},
-      "sessions": 2,
+      "toolsUsed": {
+        "draft": 1,
+        "error": 1
+      },
+      "sessions": 5,
       "firstActiveAt": 1787580738878,
-      "lastActiveAt": 1787580743636,
+      "lastActiveAt": 1787581382959,
+      "tokens": {
+        "gemini-flash-lite-latest": {
+          "promptTokens": 7184,
+          "candidatesTokens": 1111,
+          "calls": 3
+        }
+      },
+      "tokensByTool": {
+        "draft": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 4498,
+            "candidatesTokens": 915,
+            "calls": 2
+          }
+        },
+        "error": {
+          "gemini-flash-lite-latest": {
+            "promptTokens": 2686,
+            "candidatesTokens": 196,
+            "calls": 1
+          }
+        }
+      },
+      "estCostUSD": 0.00051,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
+    },
+    {
+      "date": "2026-10-13",
+      "toolsUsed": {},
+      "sessions": 1,
+      "firstActiveAt": 1791914095143,
+      "lastActiveAt": 1791914095143,
       "tokens": {},
       "tokensByTool": {},
       "estCostUSD": 0,
@@ -225,9 +264,9 @@
     "initials": "RF",
     "kernelVersion": "v3-2026-06-13-dashfit",
     "installedAt": "2026-06-16T15:46:13.505Z",
-    "lastSeenAt": "2026-08-24T14:12:28.978Z",
+    "lastSeenAt": "2026-10-13T17:55:00.501Z",
     "settings": {
-      "ai_model": "gemini-flash-lite-latest",
+      "ai_model": "gemini-flash-latest",
       "ai_temperature": 0.3,
       "ai_timeout_ms": 120000,
       "ai_thinking_budget": 0,
@@ -296,6 +335,11 @@
       {
         "id": "auto_emailer",
         "releasedAt": "2026-06-16T03:57:10.511Z",
+        "disabled": false
+      },
+      {
+        "id": "build_draft",
+        "releasedAt": "2026-08-22T03:30:21.666Z",
         "disabled": false
       },
       {
@@ -457,15 +501,19 @@
         "id": "version_history",
         "releasedAt": "2026-06-13T04:06:52.044Z",
         "disabled": false
-      },
-      {
-        "id": "build_draft",
-        "releasedAt": "2026-08-22T03:30:21.666Z",
-        "disabled": false
       }
     ],
-    "appliedOverrides": [],
-    "trophies": 10,
+    "appliedOverrides": [
+      {
+        "id": "fleet-model-flash-latest-1789086280338",
+        "at": 1791914098493
+      },
+      {
+        "id": "release-notes-off-1789139158421",
+        "at": 1791914098493
+      }
+    ],
+    "trophies": 11,
     "trophyIds": [
       "t1",
       "t41",
@@ -476,7 +524,8 @@
       "t111",
       "t11",
       "t156",
-      "t138"
+      "t138",
+      "t162"
     ],
     "trophyDates": {
       "t1": "2026-06-16T15:49:35.114Z",
@@ -488,24 +537,25 @@
       "t111": "2026-06-18T14:57:01.032Z",
       "t11": "2026-06-25T17:43:04.042Z",
       "t156": "2026-06-25T17:56:44.084Z",
-      "t138": "2026-08-24T14:12:19.344Z"
+      "t138": "2026-08-24T14:12:19.344Z",
+      "t162": "2026-08-24T14:20:02.151Z"
     },
     "stats": {
-      "totalActiveDays": 6,
-      "docsReviewed": 3,
-      "draftsCreated": 2,
-      "errorsFixed": 9,
+      "totalActiveDays": 7,
+      "docsReviewed": 4,
+      "draftsCreated": 3,
+      "errorsFixed": 12,
       "risksFound": 0,
-      "hoursSaved": 1.5,
+      "hoursSaved": 2,
       "currentStreak": 1
     },
     "dashboardApps": [
       "auto_emailer",
+      "build_draft",
       "error_review",
       "final_review",
       "legal_review",
-      "team_guidance",
-      "build_draft"
+      "team_guidance"
     ],
     "dashboardCustomized": false
   }
