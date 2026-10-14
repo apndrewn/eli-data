@@ -1,7 +1,7 @@
 {
   "userName": "RF",
   "userKey": "rf",
-  "generatedAt": "2026-10-13T17:55:00.149Z",
+  "generatedAt": "2026-10-14T14:05:39.449Z",
   "days": [
     {
       "date": "2026-06-16",
@@ -245,10 +245,43 @@
     },
     {
       "date": "2026-10-13",
+      "toolsUsed": {
+        "legal_review": 1,
+        "review_redlines": 1,
+        "ask_eli": 1
+      },
+      "sessions": 2,
+      "firstActiveAt": 1791914095143,
+      "lastActiveAt": 1791919717945,
+      "tokens": {
+        "gemini-flash-latest": {
+          "promptTokens": 63484,
+          "candidatesTokens": 49060,
+          "calls": 29
+        }
+      },
+      "tokensByTool": {
+        "review_redlines": {
+          "gemini-flash-latest": {
+            "promptTokens": 63484,
+            "candidatesTokens": 49060,
+            "calls": 29
+          }
+        }
+      },
+      "estCostUSD": 0.019479,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
+    },
+    {
+      "date": "2026-10-14",
       "toolsUsed": {},
       "sessions": 1,
-      "firstActiveAt": 1791914095143,
-      "lastActiveAt": 1791914095143,
+      "firstActiveAt": 1791986734443,
+      "lastActiveAt": 1791986734443,
       "tokens": {},
       "tokensByTool": {},
       "estCostUSD": 0,
@@ -263,11 +296,12 @@
     "userId": "RF-psqeifzz",
     "initials": "RF",
     "kernelVersion": "v3-2026-06-13-dashfit",
+    "kernelStamped": false,
     "installedAt": "2026-06-16T15:46:13.505Z",
-    "lastSeenAt": "2026-10-13T17:55:00.501Z",
+    "lastSeenAt": "2026-10-14T14:05:39.855Z",
     "settings": {
       "ai_model": "gemini-flash-latest",
-      "ai_temperature": 0.3,
+      "ai_temperature": 1,
       "ai_timeout_ms": 120000,
       "ai_thinking_budget": 0,
       "ai_allow_streaming": false,
@@ -324,12 +358,12 @@
       },
       {
         "id": "ask_dock",
-        "releasedAt": "2026-06-13T15:12:32.240Z",
+        "releasedAt": "2026-09-11T16:49:10.843Z",
         "disabled": false
       },
       {
         "id": "ask_eli",
-        "releasedAt": "2026-07-10T14:12:43.124Z",
+        "releasedAt": "2026-09-30T02:24:16.358Z",
         "disabled": false
       },
       {
@@ -339,7 +373,7 @@
       },
       {
         "id": "build_draft",
-        "releasedAt": "2026-08-22T03:30:21.666Z",
+        "releasedAt": "2026-09-30T02:51:45.927Z",
         "disabled": false
       },
       {
@@ -349,12 +383,17 @@
       },
       {
         "id": "dashboard_tour",
-        "releasedAt": "2026-06-17T05:30:15.158Z",
+        "releasedAt": "2026-09-11T15:03:10.114Z",
         "disabled": false
       },
       {
         "id": "dashboard_widgets",
         "releasedAt": "2026-07-09T04:04:23.046Z",
+        "disabled": false
+      },
+      {
+        "id": "defined_terms",
+        "releasedAt": "2026-09-15T02:39:23.395Z",
         "disabled": false
       },
       {
@@ -379,7 +418,7 @@
       },
       {
         "id": "eli-admin",
-        "releasedAt": "2026-06-12T15:15:28.515Z",
+        "releasedAt": "2026-09-11T15:10:16.816Z",
         "disabled": false
       },
       {
@@ -390,6 +429,11 @@
       {
         "id": "eli5",
         "releasedAt": "2026-05-19T03:53:44.200Z",
+        "disabled": false
+      },
+      {
+        "id": "eli_agent",
+        "releasedAt": "2026-09-30T02:16:22.385Z",
         "disabled": false
       },
       {
@@ -404,17 +448,17 @@
       },
       {
         "id": "eli_settings",
-        "releasedAt": "2026-06-15T12:03:23.624Z",
+        "releasedAt": "2026-09-12T00:07:26.207Z",
         "disabled": false
       },
       {
         "id": "eli_stats",
-        "releasedAt": "2026-05-28T05:13:51.148Z",
+        "releasedAt": "2026-09-12T00:12:08.975Z",
         "disabled": false
       },
       {
         "id": "eli_telemetry",
-        "releasedAt": "2026-07-10T13:24:30.650Z",
+        "releasedAt": "2026-09-12T00:07:26.444Z",
         "disabled": false
       },
       {
@@ -424,7 +468,7 @@
       },
       {
         "id": "error_review",
-        "releasedAt": "2026-06-15T02:13:06.622Z",
+        "releasedAt": "2026-09-12T04:06:54.834Z",
         "disabled": false
       },
       {
@@ -438,13 +482,18 @@
         "disabled": false
       },
       {
+        "id": "kernel_check",
+        "releasedAt": "2026-09-12T02:56:49.828Z",
+        "disabled": false
+      },
+      {
         "id": "legal_review",
-        "releasedAt": "2026-06-13T04:15:03.046Z",
+        "releasedAt": "2026-09-12T00:18:19.949Z",
         "disabled": false
       },
       {
         "id": "legal_risks",
-        "releasedAt": "2026-06-13T03:39:09.434Z",
+        "releasedAt": "2026-09-11T03:35:55.044Z",
         "disabled": false
       },
       {
@@ -455,6 +504,16 @@
       {
         "id": "playbook_manager",
         "releasedAt": "2026-05-18T11:56:13.482Z",
+        "disabled": false
+      },
+      {
+        "id": "polish",
+        "releasedAt": "2026-09-12T04:14:53.171Z",
+        "disabled": false
+      },
+      {
+        "id": "profile_restore",
+        "releasedAt": "2026-09-11T20:07:20.741Z",
         "disabled": false
       },
       {
@@ -469,12 +528,12 @@
       },
       {
         "id": "review_redlines",
-        "releasedAt": "2026-08-11T04:11:20.394Z",
+        "releasedAt": "2026-09-11T17:14:24.803Z",
         "disabled": false
       },
       {
         "id": "team_guidance",
-        "releasedAt": "2026-08-11T03:55:28.215Z",
+        "releasedAt": "2026-09-11T15:02:45.767Z",
         "disabled": false
       },
       {
@@ -501,12 +560,21 @@
         "id": "version_history",
         "releasedAt": "2026-06-13T04:06:52.044Z",
         "disabled": false
+      },
+      {
+        "id": "whats_new",
+        "releasedAt": "2026-09-11T15:02:45.524Z",
+        "disabled": false
       }
     ],
     "appliedOverrides": [
       {
         "id": "fleet-model-flash-latest-1789086280338",
         "at": 1791914098493
+      },
+      {
+        "id": "fleet-temperature-1-gemini3-1791956006954",
+        "at": 1791986738058
       },
       {
         "id": "release-notes-off-1789139158421",
@@ -541,13 +609,13 @@
       "t162": "2026-08-24T14:20:02.151Z"
     },
     "stats": {
-      "totalActiveDays": 7,
-      "docsReviewed": 4,
+      "totalActiveDays": 8,
+      "docsReviewed": 5,
       "draftsCreated": 3,
       "errorsFixed": 12,
       "risksFound": 0,
-      "hoursSaved": 2,
-      "currentStreak": 1
+      "hoursSaved": 2.5,
+      "currentStreak": 2
     },
     "dashboardApps": [
       "auto_emailer",
