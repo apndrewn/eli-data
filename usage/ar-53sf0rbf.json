@@ -1,7 +1,7 @@
 {
   "userName": "AR",
   "userKey": "ar",
-  "generatedAt": "2026-10-14T13:24:06.027Z",
+  "generatedAt": "2026-10-14T17:56:28.941Z",
   "days": [
     {
       "date": "2026-06-30",
@@ -1979,13 +1979,38 @@
     },
     {
       "date": "2026-10-14",
-      "toolsUsed": {},
-      "sessions": 1,
+      "toolsUsed": {
+        "legal_review": 1,
+        "review_redlines": 1,
+        "auto_emailer": 1
+      },
+      "sessions": 2,
       "firstActiveAt": 1791984241011,
-      "lastActiveAt": 1791984241011,
-      "tokens": {},
-      "tokensByTool": {},
-      "estCostUSD": 0,
+      "lastActiveAt": 1792000583931,
+      "tokens": {
+        "gemini-flash-latest": {
+          "promptTokens": 174112,
+          "candidatesTokens": 23903,
+          "calls": 104
+        }
+      },
+      "tokensByTool": {
+        "_unknown": {
+          "gemini-flash-latest": {
+            "promptTokens": 2227,
+            "candidatesTokens": 3130,
+            "calls": 1
+          }
+        },
+        "review_redlines": {
+          "gemini-flash-latest": {
+            "promptTokens": 171885,
+            "candidatesTokens": 20773,
+            "calls": 103
+          }
+        }
+      },
+      "estCostUSD": 0.020229,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -1999,7 +2024,7 @@
     "kernelVersion": "v3-2026-09-11-41b2733",
     "kernelStamped": true,
     "installedAt": "2026-06-30T18:29:18.400Z",
-    "lastSeenAt": "2026-10-14T13:24:06.341Z",
+    "lastSeenAt": "2026-10-14T17:56:29.318Z",
     "settings": {
       "ai_model": "gemini-flash-latest",
       "ai_temperature": 1,
@@ -2067,7 +2092,7 @@
       },
       {
         "id": "ask_eli",
-        "releasedAt": "2026-09-30T02:24:16.358Z",
+        "releasedAt": "2026-10-14T05:40:24.243Z",
         "disabled": false
       },
       {
@@ -2077,7 +2102,7 @@
       },
       {
         "id": "build_draft",
-        "releasedAt": "2026-09-30T02:51:45.927Z",
+        "releasedAt": "2026-10-14T06:15:16.257Z",
         "disabled": false
       },
       {
@@ -2142,7 +2167,7 @@
       },
       {
         "id": "eli_kit",
-        "releasedAt": "2026-06-15T04:41:59.331Z",
+        "releasedAt": "2026-10-14T06:50:51.536Z",
         "disabled": false
       },
       {
@@ -2157,7 +2182,7 @@
       },
       {
         "id": "eli_stats",
-        "releasedAt": "2026-09-12T00:12:08.975Z",
+        "releasedAt": "2026-10-14T06:38:39.072Z",
         "disabled": false
       },
       {
@@ -2192,7 +2217,7 @@
       },
       {
         "id": "legal_review",
-        "releasedAt": "2026-09-12T00:18:19.949Z",
+        "releasedAt": "2026-10-14T06:50:51.307Z",
         "disabled": false
       },
       {
@@ -2202,7 +2227,7 @@
       },
       {
         "id": "oars_loader",
-        "releasedAt": "2026-06-18T13:34:33.391Z",
+        "releasedAt": "2026-10-14T06:56:11.824Z",
         "disabled": false
       },
       {
@@ -2217,7 +2242,7 @@
       },
       {
         "id": "profile_restore",
-        "releasedAt": "2026-09-11T20:07:20.741Z",
+        "releasedAt": "2026-10-14T05:48:48.982Z",
         "disabled": false
       },
       {
@@ -2379,11 +2404,11 @@
     },
     "stats": {
       "totalActiveDays": 49,
-      "docsReviewed": 77,
+      "docsReviewed": 78,
       "draftsCreated": 49,
       "errorsFixed": 181,
       "risksFound": 23,
-      "hoursSaved": 38.5,
+      "hoursSaved": 39,
       "currentStreak": 3
     },
     "dashboardApps": [
