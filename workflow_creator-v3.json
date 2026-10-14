@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-06-09T12:28:19.765Z",
+  "exportedAt": "2026-10-14T05:45:43.676Z",
   "sectionVersions": {
     "jsonTools": 1
   },
   "sections": {
     "jsonTools": [
       {
-        "releasedAt": "2026-06-09T12:28:19.764Z",
+        "releasedAt": "2026-10-14T05:45:43.675Z",
         "id": "workflow_creator",
         "label": "Workflow Creator",
         "defaultEnabled": true,
@@ -15,7 +15,7 @@
         "audienceEmails": [
           "andrew_nemiroff@colpal.com"
         ],
-        "tier": "preload",
+        "tier": "demand",
         "requires": {
           "host": 2,
           "ai": 1,

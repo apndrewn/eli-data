@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-06-10T01:50:17.097Z",
+  "exportedAt": "2026-10-14T05:45:43.953Z",
   "sectionVersions": {
     "jsonTools": 1
   },
   "sections": {
     "jsonTools": [
       {
-        "releasedAt": "2026-06-10T01:50:17.095Z",
+        "releasedAt": "2026-10-14T05:45:43.952Z",
         "id": "template_editor",
         "label": "Template Editor",
         "defaultEnabled": true,
@@ -15,7 +15,7 @@
         "audienceEmails": [
           "andrew_nemiroff@colpal.com"
         ],
-        "tier": "preload",
+        "tier": "demand",
         "requires": {
           "host": 2,
           "storage": 1,

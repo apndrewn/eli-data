@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-06-02T05:41:41.049Z",
+  "exportedAt": "2026-10-14T05:45:44.080Z",
   "sectionVersions": {
     "jsonTools": 1
   },
   "sections": {
     "jsonTools": [
       {
-        "releasedAt": "2026-06-02T05:41:41.048Z",
+        "releasedAt": "2026-10-14T05:45:44.079Z",
         "id": "template_manager",
         "label": "Template Manager",
         "defaultEnabled": true,
@@ -16,7 +16,7 @@
           "andrew_nemiroff@colpal.com",
           "jared_lerner@colpal.com"
         ],
-        "tier": "preload",
+        "tier": "demand",
         "requires": {
           "host": 2,
           "storage": 1,

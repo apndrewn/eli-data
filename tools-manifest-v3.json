@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-10-14T05:40:42.692Z",
+  "lastUpdated": "2026-10-14T05:47:21.696Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -133,9 +133,9 @@
     {
       "id": "profile_restore",
       "version": null,
-      "lastUpdated": "2026-09-11T20:07:20.741Z",
+      "lastUpdated": "2026-10-14T05:45:44.191Z",
       "filename": "profile_restore-v3.json",
-      "size": 33961,
+      "size": 33960,
       "label": "Restore Profile",
       "kind": "tool",
       "category": "Admin",
@@ -674,9 +674,9 @@
     {
       "id": "bd_template_tester",
       "version": null,
-      "lastUpdated": "2026-05-20T06:26:01.803Z",
+      "lastUpdated": "2026-10-14T05:45:43.450Z",
       "filename": "bd_template_tester-v3.json",
-      "size": 259737,
+      "size": 259736,
       "label": "BD Template Tester",
       "kind": "tool",
       "category": "Admin",
@@ -690,9 +690,9 @@
     {
       "id": "template_manager",
       "version": null,
-      "lastUpdated": "2026-06-02T05:41:41.048Z",
+      "lastUpdated": "2026-10-14T05:45:44.079Z",
       "filename": "template_manager-v3.json",
-      "size": 56249,
+      "size": 56248,
       "label": "Template Manager",
       "kind": "tool",
       "category": "Admin",
@@ -939,9 +939,9 @@
     {
       "id": "workflow_creator",
       "version": null,
-      "lastUpdated": "2026-06-09T12:28:19.764Z",
+      "lastUpdated": "2026-10-14T05:45:43.675Z",
       "filename": "workflow_creator-v3.json",
-      "size": 92017,
+      "size": 92016,
       "label": "Workflow Creator",
       "kind": "tool",
       "category": "Admin",
@@ -954,9 +954,9 @@
     {
       "id": "template_editor",
       "version": null,
-      "lastUpdated": "2026-06-10T01:50:17.095Z",
+      "lastUpdated": "2026-10-14T05:45:43.952Z",
       "filename": "template_editor-v3.json",
-      "size": 59175,
+      "size": 59174,
       "label": "Template Editor",
       "kind": "tool",
       "category": "Admin",
