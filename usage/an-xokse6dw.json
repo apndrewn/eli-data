@@ -1,7 +1,7 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-10-14T12:57:58.926Z",
+  "generatedAt": "2026-10-14T18:54:09.419Z",
   "days": [
     {
       "date": "2026-07-29",
@@ -1180,13 +1180,37 @@
     },
     {
       "date": "2026-10-14",
-      "toolsUsed": {},
-      "sessions": 1,
+      "toolsUsed": {
+        "error": 2,
+        "ask_eli": 1
+      },
+      "sessions": 13,
       "firstActiveAt": 1791982673907,
-      "lastActiveAt": 1791982673907,
-      "tokens": {},
-      "tokensByTool": {},
-      "estCostUSD": 0,
+      "lastActiveAt": 1792004044400,
+      "tokens": {
+        "gemini-flash-latest": {
+          "promptTokens": 114137,
+          "candidatesTokens": 15435,
+          "calls": 8
+        }
+      },
+      "tokensByTool": {
+        "_unknown": {
+          "gemini-flash-latest": {
+            "promptTokens": 96719,
+            "candidatesTokens": 11017,
+            "calls": 5
+          }
+        },
+        "error": {
+          "gemini-flash-latest": {
+            "promptTokens": 17418,
+            "candidatesTokens": 4418,
+            "calls": 3
+          }
+        }
+      },
+      "estCostUSD": 0.013191,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -1197,10 +1221,10 @@
   "fleet": {
     "userId": "AN-xokse6dw",
     "initials": "AN",
-    "kernelVersion": "v3-2026-09-11-41b2733",
+    "kernelVersion": "v3-2026-10-14-0609-9e24cfd",
     "kernelStamped": true,
     "installedAt": "2026-07-29T14:09:25.615Z",
-    "lastSeenAt": "2026-10-14T12:57:59.255Z",
+    "lastSeenAt": "2026-10-14T18:54:10.077Z",
     "settings": {
       "ai_model": "gemini-flash-latest",
       "ai_temperature": 1,
@@ -1235,7 +1259,7 @@
       "light_mode": false,
       "header_theme_index": 0,
       "minimize_feed": false,
-      "auto_hide_sidebar": false,
+      "auto_hide_sidebar": true,
       "auto_expand_window": false,
       "auto_check_tools": true,
       "show_expand_pill": true,
@@ -1248,8 +1272,6 @@
       "mascot.glasses": "round",
       "mascot.suitColor": "#1565c0",
       "mascot.accessory": "none",
-      "template_editor_enabled": true,
-      "workflow_creator_enabled": true,
       "ask_eli_redline_regen_enabled": true
     },
     "tools": [
@@ -1315,12 +1337,22 @@
       },
       {
         "id": "ask_eli",
-        "releasedAt": "2026-09-30T02:24:16.358Z",
+        "releasedAt": "2026-10-14T05:40:24.243Z",
         "disabled": false
       },
       {
         "id": "auto_emailer",
         "releasedAt": "2026-06-16T03:57:10.511Z",
+        "disabled": false
+      },
+      {
+        "id": "bd_template_tester",
+        "releasedAt": "2026-10-14T05:45:43.450Z",
+        "disabled": false
+      },
+      {
+        "id": "build_draft",
+        "releasedAt": "2026-10-14T06:15:16.257Z",
         "disabled": false
       },
       {
@@ -1394,6 +1426,11 @@
         "disabled": false
       },
       {
+        "id": "eli_kit",
+        "releasedAt": "2026-10-14T06:50:51.536Z",
+        "disabled": false
+      },
+      {
         "id": "eli_mascot_studio",
         "releasedAt": "2026-06-28T19:33:33.041Z",
         "disabled": false
@@ -1401,6 +1438,11 @@
       {
         "id": "eli_settings",
         "releasedAt": "2026-09-12T00:07:26.207Z",
+        "disabled": false
+      },
+      {
+        "id": "eli_stats",
+        "releasedAt": "2026-10-14T06:38:39.072Z",
         "disabled": false
       },
       {
@@ -1454,8 +1496,18 @@
         "disabled": false
       },
       {
+        "id": "legal_review",
+        "releasedAt": "2026-10-14T06:50:51.307Z",
+        "disabled": false
+      },
+      {
         "id": "legal_risks",
         "releasedAt": "2026-09-11T03:35:55.044Z",
+        "disabled": false
+      },
+      {
+        "id": "oars_loader",
+        "releasedAt": "2026-10-14T06:56:11.824Z",
         "disabled": false
       },
       {
@@ -1476,6 +1528,11 @@
       {
         "id": "polish",
         "releasedAt": "2026-09-12T04:14:53.171Z",
+        "disabled": false
+      },
+      {
+        "id": "profile_restore",
+        "releasedAt": "2026-10-14T05:48:48.982Z",
         "disabled": false
       },
       {
@@ -1514,8 +1571,18 @@
         "disabled": false
       },
       {
+        "id": "template_editor",
+        "releasedAt": "2026-10-14T05:45:43.952Z",
+        "disabled": false
+      },
+      {
         "id": "template_indexer",
         "releasedAt": "2026-05-24T18:27:57.643Z",
+        "disabled": false
+      },
+      {
+        "id": "template_manager",
+        "releasedAt": "2026-10-14T05:45:44.079Z",
         "disabled": false
       },
       {
@@ -1554,8 +1621,8 @@
         "disabled": false
       },
       {
-        "id": "oars_loader",
-        "releasedAt": "2026-10-14T06:56:11.824Z",
+        "id": "workflow_creator",
+        "releasedAt": "2026-10-14T05:45:43.675Z",
         "disabled": false
       }
     ],
@@ -1629,17 +1696,19 @@
     },
     "stats": {
       "totalActiveDays": 34,
-      "docsReviewed": 39,
+      "docsReviewed": 41,
       "draftsCreated": 15,
-      "errorsFixed": 65,
+      "errorsFixed": 66,
       "risksFound": 14,
-      "hoursSaved": 19.5,
+      "hoursSaved": 20.5,
       "currentStreak": 3
     },
     "dashboardApps": [
       "auto_emailer",
+      "build_draft",
       "error_review",
       "final_review",
+      "legal_review",
       "team_guidance"
     ],
     "dashboardCustomized": false
