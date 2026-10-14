@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-09-11T15:10:51.114Z",
+  "lastUpdated": "2026-10-14T05:33:26.954Z",
   "overrides": [
     {
       "id": "fleet-notice-MD-7z4e5kud-1781724707405",
@@ -189,6 +189,23 @@
           "dismissLabel": "Great"
         }
       ]
+    },
+    {
+      "id": "fleet-temperature-1-gemini3-1791956006954",
+      "actions": [
+        {
+          "type": "set_setting",
+          "key": "ai_temperature",
+          "value": 1,
+          "force": "reset"
+        }
+      ],
+      "pushedAt": "2026-10-14T05:33:26.954Z",
+      "pushedBy": "andrew_nemiroff@colpal.com",
+      "audience": [
+        "all"
+      ],
+      "expiresAt": "2026-12-13T05:33:26.954Z"
     }
   ]
 }
