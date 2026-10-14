@@ -1,7 +1,7 @@
 {
   "userName": "AR",
   "userKey": "ar",
-  "generatedAt": "2026-10-13T20:24:03.980Z",
+  "generatedAt": "2026-10-14T13:24:06.027Z",
   "days": [
     {
       "date": "2026-06-30",
@@ -1941,11 +1941,48 @@
     {
       "date": "2026-10-13",
       "toolsUsed": {
-        "draft": 1
+        "draft": 1,
+        "error": 1
       },
       "sessions": 1,
       "firstActiveAt": 1791923038900,
-      "lastActiveAt": 1791923042331,
+      "lastActiveAt": 1791923231063,
+      "tokens": {
+        "gemini-flash-latest": {
+          "promptTokens": 9997,
+          "candidatesTokens": 4098,
+          "calls": 4
+        }
+      },
+      "tokensByTool": {
+        "draft": {
+          "gemini-flash-latest": {
+            "promptTokens": 4723,
+            "candidatesTokens": 3141,
+            "calls": 2
+          }
+        },
+        "error": {
+          "gemini-flash-latest": {
+            "promptTokens": 5274,
+            "candidatesTokens": 957,
+            "calls": 2
+          }
+        }
+      },
+      "estCostUSD": 0.001979,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
+    },
+    {
+      "date": "2026-10-14",
+      "toolsUsed": {},
+      "sessions": 1,
+      "firstActiveAt": 1791984241011,
+      "lastActiveAt": 1791984241011,
       "tokens": {},
       "tokensByTool": {},
       "estCostUSD": 0,
@@ -1962,10 +1999,10 @@
     "kernelVersion": "v3-2026-09-11-41b2733",
     "kernelStamped": true,
     "installedAt": "2026-06-30T18:29:18.400Z",
-    "lastSeenAt": "2026-10-13T20:24:05.391Z",
+    "lastSeenAt": "2026-10-14T13:24:06.341Z",
     "settings": {
       "ai_model": "gemini-flash-latest",
-      "ai_temperature": 0.3,
+      "ai_temperature": 1,
       "ai_timeout_ms": 120000,
       "ai_thinking_budget": null,
       "ai_thinking_mode": "recommended",
@@ -2240,6 +2277,10 @@
         "at": 1789396014967
       },
       {
+        "id": "fleet-temperature-1-gemini3-1791956006954",
+        "at": 1791984245862
+      },
+      {
         "id": "release-notes-off-1789139158421",
         "at": 1789396014967
       }
@@ -2337,13 +2378,13 @@
       "t174": "2026-09-30T14:07:46.502Z"
     },
     "stats": {
-      "totalActiveDays": 48,
-      "docsReviewed": 76,
-      "draftsCreated": 48,
-      "errorsFixed": 176,
+      "totalActiveDays": 49,
+      "docsReviewed": 77,
+      "draftsCreated": 49,
+      "errorsFixed": 181,
       "risksFound": 23,
-      "hoursSaved": 38,
-      "currentStreak": 2
+      "hoursSaved": 38.5,
+      "currentStreak": 3
     },
     "dashboardApps": [
       "legal_review",
