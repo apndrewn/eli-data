@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-10-14T06:28:46.628Z",
+  "lastUpdated": "2026-10-14T06:39:00.520Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -413,9 +413,9 @@
     {
       "id": "eli_stats",
       "version": null,
-      "lastUpdated": "2026-10-14T05:58:53.990Z",
+      "lastUpdated": "2026-10-14T06:38:39.072Z",
       "filename": "eli_stats-v3.json",
-      "size": 67087,
+      "size": 64015,
       "label": "ELI Stats",
       "kind": "tool",
       "category": "System",
@@ -427,9 +427,9 @@
     {
       "id": "legal_review",
       "version": null,
-      "lastUpdated": "2026-09-12T00:18:19.949Z",
+      "lastUpdated": "2026-10-14T06:38:39.326Z",
       "filename": "legal_review-v3.json",
-      "size": 90427,
+      "size": 92601,
       "label": "Legal Review",
       "kind": "tool",
       "category": "External Innovation",
