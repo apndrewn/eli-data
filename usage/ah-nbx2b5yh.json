@@ -1,7 +1,7 @@
 {
   "userName": "A(",
   "userKey": "ah",
-  "generatedAt": "2026-10-14T07:00:03.803Z",
+  "generatedAt": "2026-10-15T02:17:31.973Z",
   "days": [
     {
       "date": "2026-09-11",
@@ -410,22 +410,22 @@
     {
       "date": "2026-10-14",
       "toolsUsed": {
-        "draft": 12,
+        "draft": 13,
         "error": 16,
         "ask_eli": 2,
         "draft_templates": 2,
         "agent_apply_instruction": 1,
         "final_review": 1,
-        "legal_review": 11
+        "legal_review": 13
       },
-      "sessions": 75,
+      "sessions": 80,
       "firstActiveAt": 1791950664059,
-      "lastActiveAt": 1791961198777,
+      "lastActiveAt": 1792030646957,
       "tokens": {
         "gemini-flash-latest": {
-          "promptTokens": 671735,
-          "candidatesTokens": 63585,
-          "calls": 49
+          "promptTokens": 699148,
+          "candidatesTokens": 64934,
+          "calls": 50
         },
         "gemini-3.8-flash": {
           "promptTokens": 4,
@@ -455,9 +455,9 @@
         },
         "_unknown": {
           "gemini-flash-latest": {
-            "promptTokens": 351318,
-            "candidatesTokens": 26743,
-            "calls": 21
+            "promptTokens": 378731,
+            "candidatesTokens": 28092,
+            "calls": 22
           }
         },
         "error": {
@@ -485,7 +485,7 @@
           }
         }
       },
-      "estCostUSD": 0.069457,
+      "estCostUSD": 0.071918,
       "drafts": {
         "byType": {
           "services agreement": 1
@@ -503,7 +503,7 @@
     "kernelVersion": "v3-2026-10-14-0609-9e24cfd",
     "kernelStamped": true,
     "installedAt": "2026-07-31T00:45:31.641Z",
-    "lastSeenAt": "2026-10-14T07:00:04.041Z",
+    "lastSeenAt": "2026-10-15T02:17:32.218Z",
     "settings": {
       "ai_model": "gemini-flash-latest",
       "ai_temperature": 1,
@@ -612,11 +612,6 @@
       {
         "id": "ask_dock",
         "releasedAt": "2026-09-11T16:49:10.843Z",
-        "disabled": false
-      },
-      {
-        "id": "ask_eli",
-        "releasedAt": "2026-10-14T05:40:24.243Z",
         "disabled": false
       },
       {
@@ -902,6 +897,11 @@
       {
         "id": "workflow_creator",
         "releasedAt": "2026-10-14T05:45:43.675Z",
+        "disabled": false
+      },
+      {
+        "id": "ask_eli",
+        "releasedAt": "2026-10-15T02:16:20.919Z",
         "disabled": false
       }
     ],
