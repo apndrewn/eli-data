@@ -1,7 +1,7 @@
 {
   "userName": "A(",
   "userKey": "ah",
-  "generatedAt": "2026-10-15T02:17:31.973Z",
+  "generatedAt": "2026-10-15T02:17:38.459Z",
   "days": [
     {
       "date": "2026-09-11",
@@ -418,9 +418,9 @@
         "final_review": 1,
         "legal_review": 13
       },
-      "sessions": 80,
+      "sessions": 81,
       "firstActiveAt": 1791950664059,
-      "lastActiveAt": 1792030646957,
+      "lastActiveAt": 1792030653443,
       "tokens": {
         "gemini-flash-latest": {
           "promptTokens": 699148,
@@ -503,7 +503,7 @@
     "kernelVersion": "v3-2026-10-14-0609-9e24cfd",
     "kernelStamped": true,
     "installedAt": "2026-07-31T00:45:31.641Z",
-    "lastSeenAt": "2026-10-15T02:17:32.218Z",
+    "lastSeenAt": "2026-10-15T02:17:38.618Z",
     "settings": {
       "ai_model": "gemini-flash-latest",
       "ai_temperature": 1,
@@ -612,6 +612,11 @@
       {
         "id": "ask_dock",
         "releasedAt": "2026-09-11T16:49:10.843Z",
+        "disabled": false
+      },
+      {
+        "id": "ask_eli",
+        "releasedAt": "2026-10-15T02:16:20.919Z",
         "disabled": false
       },
       {
@@ -897,11 +902,6 @@
       {
         "id": "workflow_creator",
         "releasedAt": "2026-10-14T05:45:43.675Z",
-        "disabled": false
-      },
-      {
-        "id": "ask_eli",
-        "releasedAt": "2026-10-15T02:16:20.919Z",
         "disabled": false
       }
     ],
