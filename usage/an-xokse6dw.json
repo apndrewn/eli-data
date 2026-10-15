@@ -1,7 +1,7 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-10-15T12:59:56.138Z",
+  "generatedAt": "2026-10-15T13:00:02.357Z",
   "days": [
     {
       "date": "2026-07-29",
@@ -1220,9 +1220,9 @@
     {
       "date": "2026-10-15",
       "toolsUsed": {},
-      "sessions": 1,
+      "sessions": 2,
       "firstActiveAt": 1792069191130,
-      "lastActiveAt": 1792069191130,
+      "lastActiveAt": 1792069197343,
       "tokens": {},
       "tokensByTool": {},
       "estCostUSD": 0,
@@ -1239,7 +1239,7 @@
     "kernelVersion": "v3-2026-10-14-0609-9e24cfd",
     "kernelStamped": true,
     "installedAt": "2026-07-29T14:09:25.615Z",
-    "lastSeenAt": "2026-10-15T12:59:56.493Z",
+    "lastSeenAt": "2026-10-15T13:00:03.645Z",
     "settings": {
       "ai_model": "gemini-flash-latest",
       "ai_temperature": 1,
@@ -1348,6 +1348,11 @@
       {
         "id": "ask_dock",
         "releasedAt": "2026-09-11T16:49:10.843Z",
+        "disabled": false
+      },
+      {
+        "id": "ask_eli",
+        "releasedAt": "2026-10-15T04:25:44.495Z",
         "disabled": false
       },
       {
@@ -1463,6 +1468,11 @@
       {
         "id": "email_helper",
         "releasedAt": "2026-05-28T05:15:56.728Z",
+        "disabled": false
+      },
+      {
+        "id": "error_review",
+        "releasedAt": "2026-10-15T04:15:27.664Z",
         "disabled": false
       },
       {
@@ -1629,16 +1639,6 @@
         "id": "workflow_creator",
         "releasedAt": "2026-10-14T05:45:43.675Z",
         "disabled": false
-      },
-      {
-        "id": "error_review",
-        "releasedAt": "2026-10-15T04:15:27.664Z",
-        "disabled": false
-      },
-      {
-        "id": "ask_eli",
-        "releasedAt": "2026-10-15T04:25:44.495Z",
-        "disabled": false
       }
     ],
     "appliedOverrides": [
@@ -1721,10 +1721,10 @@
     "dashboardApps": [
       "auto_emailer",
       "build_draft",
+      "error_review",
       "final_review",
       "legal_review",
-      "team_guidance",
-      "error_review"
+      "team_guidance"
     ],
     "dashboardCustomized": false
   }
