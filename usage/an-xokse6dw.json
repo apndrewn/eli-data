@@ -1,7 +1,7 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-10-15T13:00:02.357Z",
+  "generatedAt": "2026-10-15T19:56:18.214Z",
   "days": [
     {
       "date": "2026-07-29",
@@ -1219,13 +1219,53 @@
     },
     {
       "date": "2026-10-15",
-      "toolsUsed": {},
-      "sessions": 2,
+      "toolsUsed": {
+        "draft_templates": 1,
+        "draft": 2,
+        "error": 1,
+        "ask_eli": 1
+      },
+      "sessions": 5,
       "firstActiveAt": 1792069191130,
-      "lastActiveAt": 1792069197343,
-      "tokens": {},
-      "tokensByTool": {},
-      "estCostUSD": 0,
+      "lastActiveAt": 1792094173975,
+      "tokens": {
+        "gemini-flash-latest": {
+          "promptTokens": 76268,
+          "candidatesTokens": 13921,
+          "calls": 11
+        }
+      },
+      "tokensByTool": {
+        "_unknown": {
+          "gemini-flash-latest": {
+            "promptTokens": 55256,
+            "candidatesTokens": 8718,
+            "calls": 4
+          }
+        },
+        "draft": {
+          "gemini-flash-latest": {
+            "promptTokens": 4818,
+            "candidatesTokens": 2480,
+            "calls": 4
+          }
+        },
+        "error": {
+          "gemini-flash-latest": {
+            "promptTokens": 8791,
+            "candidatesTokens": 994,
+            "calls": 2
+          }
+        },
+        "ask_eli": {
+          "gemini-flash-latest": {
+            "promptTokens": 7403,
+            "candidatesTokens": 1729,
+            "calls": 1
+          }
+        }
+      },
+      "estCostUSD": 0.009896,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -1239,7 +1279,7 @@
     "kernelVersion": "v3-2026-10-14-0609-9e24cfd",
     "kernelStamped": true,
     "installedAt": "2026-07-29T14:09:25.615Z",
-    "lastSeenAt": "2026-10-15T13:00:03.645Z",
+    "lastSeenAt": "2026-10-15T19:56:18.464Z",
     "settings": {
       "ai_model": "gemini-flash-latest",
       "ai_temperature": 1,
@@ -1711,11 +1751,11 @@
     },
     "stats": {
       "totalActiveDays": 35,
-      "docsReviewed": 41,
-      "draftsCreated": 15,
-      "errorsFixed": 66,
+      "docsReviewed": 42,
+      "draftsCreated": 16,
+      "errorsFixed": 70,
       "risksFound": 14,
-      "hoursSaved": 20.5,
+      "hoursSaved": 21,
       "currentStreak": 4
     },
     "dashboardApps": [
