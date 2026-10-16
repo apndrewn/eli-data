@@ -1,7 +1,7 @@
 {
   "userName": "A(",
   "userKey": "ah",
-  "generatedAt": "2026-10-16T17:28:29.570Z",
+  "generatedAt": "2026-10-16T20:36:33.361Z",
   "days": [
     {
       "date": "2026-09-11",
@@ -558,31 +558,32 @@
     {
       "date": "2026-10-16",
       "toolsUsed": {
-        "ask_eli": 31,
-        "legal_review": 13,
+        "ask_eli": 44,
+        "legal_review": 16,
         "draft_templates": 6,
-        "draft": 15,
-        "final_review": 1,
+        "draft": 17,
+        "final_review": 3,
         "ask_dock": 1,
         "error": 5,
-        "review_redlines": 1
+        "review_redlines": 2,
+        "auto_emailer": 1
       },
-      "sessions": 70,
+      "sessions": 107,
       "firstActiveAt": 1792123623026,
-      "lastActiveAt": 1792171707339,
+      "lastActiveAt": 1792182990792,
       "tokens": {
         "gemini-flash-latest": {
-          "promptTokens": 655777,
-          "candidatesTokens": 33992,
-          "calls": 65
+          "promptTokens": 1079078,
+          "candidatesTokens": 46773,
+          "calls": 113
         }
       },
       "tokensByTool": {
         "ask_eli": {
           "gemini-flash-latest": {
-            "promptTokens": 453824,
-            "candidatesTokens": 22882,
-            "calls": 18
+            "promptTokens": 661444,
+            "candidatesTokens": 26939,
+            "calls": 23
           }
         },
         "error": {
@@ -594,20 +595,27 @@
         },
         "review_redlines": {
           "gemini-flash-latest": {
-            "promptTokens": 69614,
-            "candidatesTokens": 5276,
-            "calls": 40
+            "promptTokens": 136469,
+            "candidatesTokens": 10340,
+            "calls": 79
           }
         },
         "_unknown": {
           "gemini-flash-latest": {
-            "promptTokens": 59651,
-            "candidatesTokens": 2900,
+            "promptTokens": 148172,
+            "candidatesTokens": 3508,
+            "calls": 4
+          }
+        },
+        "final_review": {
+          "gemini-flash-latest": {
+            "promptTokens": 60305,
+            "candidatesTokens": 3052,
             "calls": 2
           }
         }
       },
-      "estCostUSD": 0.059381,
+      "estCostUSD": 0.094963,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -618,10 +626,10 @@
   "fleet": {
     "userId": "AH-nbx2b5yh",
     "initials": "A(",
-    "kernelVersion": "v3-2026-10-16-1727-562565c",
+    "kernelVersion": "v3-2026-10-16-2017-0ebff0d",
     "kernelStamped": true,
     "installedAt": "2026-07-31T00:45:31.641Z",
-    "lastSeenAt": "2026-10-16T17:28:29.800Z",
+    "lastSeenAt": "2026-10-16T20:36:33.624Z",
     "settings": {
       "ai_model": "gemini-flash-latest",
       "ai_temperature": 1,
@@ -756,7 +764,7 @@
       },
       {
         "id": "ask_eli",
-        "releasedAt": "2026-10-16T17:12:47.478Z",
+        "releasedAt": "2026-10-16T20:35:27.185Z",
         "disabled": false
       },
       {
@@ -886,7 +894,7 @@
       },
       {
         "id": "final_review",
-        "releasedAt": "2026-06-15T00:45:23.746Z",
+        "releasedAt": "2026-10-16T17:27:53.120Z",
         "disabled": false
       },
       {
@@ -916,7 +924,7 @@
       },
       {
         "id": "legal_review",
-        "releasedAt": "2026-10-16T01:25:45.349Z",
+        "releasedAt": "2026-10-16T17:28:45.959Z",
         "disabled": false
       },
       {
@@ -976,12 +984,12 @@
       },
       {
         "id": "review_redlines",
-        "releasedAt": "2026-09-11T17:14:24.803Z",
+        "releasedAt": "2026-10-16T17:27:53.014Z",
         "disabled": false
       },
       {
         "id": "speed_check",
-        "releasedAt": "2026-10-16T16:42:45.879Z",
+        "releasedAt": "2026-10-16T20:17:00.367Z",
         "disabled": false
       },
       {
@@ -1026,7 +1034,7 @@
       },
       {
         "id": "trophy_gallery",
-        "releasedAt": "2026-10-16T16:26:24.671Z",
+        "releasedAt": "2026-10-16T17:27:52.894Z",
         "disabled": false
       },
       {
@@ -1119,11 +1127,11 @@
     },
     "stats": {
       "totalActiveDays": 10,
-      "docsReviewed": 48,
+      "docsReviewed": 49,
       "draftsCreated": 5,
       "errorsFixed": 69,
       "risksFound": 14,
-      "hoursSaved": 24,
+      "hoursSaved": 24.5,
       "currentStreak": 4
     },
     "dashboardApps": [
