@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-10-16T20:54:07.674Z",
+  "lastUpdated": "2026-10-16T20:58:00.804Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -343,7 +343,7 @@
     {
       "id": "error_review",
       "version": null,
-      "lastUpdated": "2026-10-16T20:52:06.094Z",
+      "lastUpdated": "2026-10-16T20:57:33.609Z",
       "filename": "error_review-v3.json",
       "size": 226941,
       "label": "Error Review",
