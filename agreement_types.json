@@ -49,6 +49,16 @@
         ]
       },
       {
+        "id": "Collaboration Agreement",
+        "label": "Collaboration Agreement",
+        "abbrev": "Collaboration",
+        "aliases": [
+          "collaboration agreement",
+          "master collaboration agreement",
+          "development and collaboration agreement"
+        ]
+      },
+      {
         "id": "Consulting Agreement",
         "label": "Consulting Agreement",
         "abbrev": "",
@@ -70,7 +80,9 @@
           "market research",
           "consumer testing",
           "focus group",
-          "consumer study agreement"
+          "consumer study agreement",
+          "sensory study",
+          "consumer/sensory study"
         ]
       },
       {
@@ -280,5 +292,5 @@
       }
     ]
   },
-  "releasedAt": "2026-09-18T01:53:40.263Z"
+  "releasedAt": "2026-10-16T04:53:52.198Z"
 }
