@@ -1,7 +1,7 @@
 {
   "userName": "A(",
   "userKey": "ah",
-  "generatedAt": "2026-10-15T02:17:38.459Z",
+  "generatedAt": "2026-10-16T00:55:12.225Z",
   "days": [
     {
       "date": "2026-09-11",
@@ -411,21 +411,21 @@
       "date": "2026-10-14",
       "toolsUsed": {
         "draft": 13,
-        "error": 16,
+        "error": 17,
         "ask_eli": 2,
         "draft_templates": 2,
         "agent_apply_instruction": 1,
         "final_review": 1,
         "legal_review": 13
       },
-      "sessions": 81,
+      "sessions": 85,
       "firstActiveAt": 1791950664059,
-      "lastActiveAt": 1792030653443,
+      "lastActiveAt": 1792036664846,
       "tokens": {
         "gemini-flash-latest": {
-          "promptTokens": 699148,
-          "candidatesTokens": 64934,
-          "calls": 50
+          "promptTokens": 829928,
+          "candidatesTokens": 73015,
+          "calls": 56
         },
         "gemini-3.8-flash": {
           "promptTokens": 4,
@@ -455,16 +455,16 @@
         },
         "_unknown": {
           "gemini-flash-latest": {
-            "promptTokens": 378731,
-            "candidatesTokens": 28092,
-            "calls": 22
+            "promptTokens": 492209,
+            "candidatesTokens": 35178,
+            "calls": 27
           }
         },
         "error": {
           "gemini-flash-latest": {
-            "promptTokens": 184665,
-            "candidatesTokens": 28400,
-            "calls": 13
+            "promptTokens": 201967,
+            "candidatesTokens": 29395,
+            "calls": 14
           },
           "gemini-3.8-flash": {
             "promptTokens": 4,
@@ -485,7 +485,7 @@
           }
         }
       },
-      "estCostUSD": 0.071918,
+      "estCostUSD": 0.084151,
       "drafts": {
         "byType": {
           "services agreement": 1
@@ -495,6 +495,52 @@
         },
         "total": 1
       }
+    },
+    {
+      "date": "2026-10-15",
+      "toolsUsed": {
+        "error": 4,
+        "ask_eli": 5
+      },
+      "sessions": 4,
+      "firstActiveAt": 1792037545533,
+      "lastActiveAt": 1792112108995,
+      "tokens": {
+        "gemini-flash-latest": {
+          "promptTokens": 159854,
+          "candidatesTokens": 9455,
+          "calls": 8
+        }
+      },
+      "tokensByTool": {
+        "error": {
+          "gemini-flash-latest": {
+            "promptTokens": 91805,
+            "candidatesTokens": 6568,
+            "calls": 5
+          }
+        },
+        "ask_eli": {
+          "gemini-flash-latest": {
+            "promptTokens": 22599,
+            "candidatesTokens": 784,
+            "calls": 1
+          }
+        },
+        "_unknown": {
+          "gemini-flash-latest": {
+            "promptTokens": 45450,
+            "candidatesTokens": 2103,
+            "calls": 2
+          }
+        }
+      },
+      "estCostUSD": 0.014826,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
     }
   ],
   "fleet": {
@@ -503,7 +549,7 @@
     "kernelVersion": "v3-2026-10-14-0609-9e24cfd",
     "kernelStamped": true,
     "installedAt": "2026-07-31T00:45:31.641Z",
-    "lastSeenAt": "2026-10-15T02:17:38.618Z",
+    "lastSeenAt": "2026-10-16T00:55:12.432Z",
     "settings": {
       "ai_model": "gemini-flash-latest",
       "ai_temperature": 1,
@@ -616,7 +662,7 @@
       },
       {
         "id": "ask_eli",
-        "releasedAt": "2026-10-15T02:16:20.919Z",
+        "releasedAt": "2026-10-16T00:52:05.986Z",
         "disabled": false
       },
       {
@@ -736,7 +782,7 @@
       },
       {
         "id": "error_review",
-        "releasedAt": "2026-09-12T04:06:54.834Z",
+        "releasedAt": "2026-10-15T04:15:27.664Z",
         "disabled": false
       },
       {
@@ -919,7 +965,7 @@
         "at": 1789150130368
       }
     ],
-    "trophies": 23,
+    "trophies": 24,
     "trophyIds": [
       "t41",
       "t11",
@@ -943,7 +989,8 @@
       "t153",
       "t116",
       "t106",
-      "t141"
+      "t141",
+      "t157"
     ],
     "trophyDates": {
       "t41": "2026-07-29T14:09:45.278Z",
@@ -968,16 +1015,17 @@
       "t153": "2026-09-12T03:05:37.993Z",
       "t116": "2026-09-12T04:00:03.548Z",
       "t106": "2026-10-14T05:10:04.252Z",
-      "t141": "2026-10-14T05:32:57.761Z"
+      "t141": "2026-10-14T05:32:57.761Z",
+      "t157": "2026-10-15T03:13:07.655Z"
     },
     "stats": {
-      "totalActiveDays": 8,
-      "docsReviewed": 35,
+      "totalActiveDays": 9,
+      "docsReviewed": 40,
       "draftsCreated": 5,
-      "errorsFixed": 63,
+      "errorsFixed": 69,
       "risksFound": 14,
-      "hoursSaved": 17.5,
-      "currentStreak": 2
+      "hoursSaved": 20,
+      "currentStreak": 3
     },
     "dashboardApps": [
       "legal_review",
