@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-10-16T01:14:26.118Z",
+  "lastUpdated": "2026-10-16T01:26:08.926Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -427,9 +427,9 @@
     {
       "id": "legal_review",
       "version": null,
-      "lastUpdated": "2026-10-14T06:50:51.307Z",
+      "lastUpdated": "2026-10-16T01:25:45.349Z",
       "filename": "legal_review-v3.json",
-      "size": 98426,
+      "size": 100661,
       "label": "Legal Review",
       "kind": "tool",
       "category": "External Innovation",
