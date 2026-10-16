@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-10-16T15:38:06.743Z",
+  "lastUpdated": "2026-10-16T16:12:51.262Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -1028,9 +1028,9 @@
     {
       "id": "speed_check",
       "version": null,
-      "lastUpdated": "2026-10-16T15:34:16.914Z",
+      "lastUpdated": "2026-10-16T16:11:48.561Z",
       "filename": "speed_check-v3.json",
-      "size": 42480,
+      "size": 47626,
       "label": "Speed Check",
       "kind": "tool",
       "category": "Admin",
