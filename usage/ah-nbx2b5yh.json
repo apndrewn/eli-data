@@ -1,7 +1,7 @@
 {
   "userName": "A(",
   "userKey": "ah",
-  "generatedAt": "2026-10-16T04:42:27.041Z",
+  "generatedAt": "2026-10-16T14:22:00.035Z",
   "days": [
     {
       "date": "2026-09-11",
@@ -558,12 +558,15 @@
     {
       "date": "2026-10-16",
       "toolsUsed": {
-        "ask_eli": 5,
-        "legal_review": 4
+        "ask_eli": 13,
+        "legal_review": 10,
+        "draft_templates": 2,
+        "draft": 2,
+        "final_review": 1
       },
-      "sessions": 2,
+      "sessions": 10,
       "firstActiveAt": 1792123623026,
-      "lastActiveAt": 1792125743216,
+      "lastActiveAt": 1792160516480,
       "tokens": {
         "gemini-flash-latest": {
           "promptTokens": 51232,
@@ -591,10 +594,10 @@
   "fleet": {
     "userId": "AH-nbx2b5yh",
     "initials": "A(",
-    "kernelVersion": "v3-2026-10-16-0146-30f3e47",
+    "kernelVersion": "v3-2026-10-14-0609-9e24cfd",
     "kernelStamped": true,
     "installedAt": "2026-07-31T00:45:31.641Z",
-    "lastSeenAt": "2026-10-16T04:42:27.278Z",
+    "lastSeenAt": "2026-10-16T14:22:00.506Z",
     "settings": {
       "ai_model": "gemini-flash-latest",
       "ai_temperature": 1,
@@ -603,24 +606,6 @@
       "ai_thinking_mode": "recommended",
       "ai_thinking_custom": 512,
       "ai_thinking_per_tool": {},
-      "ai_thinking_format": "auto",
-      "ai_thinking_levels": [
-        {
-          "upTo": 0,
-          "level": "minimal"
-        },
-        {
-          "upTo": 1024,
-          "level": "low"
-        },
-        {
-          "upTo": 4096,
-          "level": "medium"
-        },
-        {
-          "level": "high"
-        }
-      ],
       "ai_allow_streaming": true,
       "ai_model_list": [
         "gemini-flash-lite-latest",
@@ -660,7 +645,12 @@
       "mascot.glasses": "round",
       "mascot.suitColor": "#1565c0",
       "mascot.accessory": "none",
-      "ask_eli_redline_regen_enabled": true
+      "ask_eli_redline_regen_enabled": true,
+      "ask_eli_answer_length": "normal",
+      "ask_eli_followups": true,
+      "ask_eli_citation_pins": true,
+      "ask_eli_use_guidance": false,
+      "ask_eli_show_steps": true
     },
     "tools": [
       {
@@ -725,7 +715,7 @@
       },
       {
         "id": "ask_eli",
-        "releasedAt": "2026-10-16T00:52:05.986Z",
+        "releasedAt": "2026-10-16T05:14:35.494Z",
         "disabled": false
       },
       {
@@ -810,7 +800,7 @@
       },
       {
         "id": "eli_agent",
-        "releasedAt": "2026-09-30T02:16:22.385Z",
+        "releasedAt": "2026-10-16T05:14:35.727Z",
         "disabled": false
       },
       {
