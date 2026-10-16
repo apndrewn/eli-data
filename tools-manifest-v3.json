@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-10-16T01:26:08.926Z",
+  "lastUpdated": "2026-10-16T03:44:16.578Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -357,9 +357,9 @@
     {
       "id": "build_draft",
       "version": null,
-      "lastUpdated": "2026-10-14T06:15:16.257Z",
+      "lastUpdated": "2026-10-16T03:44:07.260Z",
       "filename": "build_draft-v3.json",
-      "size": 823403,
+      "size": 823879,
       "label": "Build Draft",
       "kind": "tool",
       "category": "External Innovation",
