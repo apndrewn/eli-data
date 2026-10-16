@@ -1,7 +1,7 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-10-16T15:31:01.131Z",
+  "generatedAt": "2026-10-16T19:48:53.124Z",
   "days": [
     {
       "date": "2026-07-29",
@@ -1282,13 +1282,36 @@
     },
     {
       "date": "2026-10-16",
-      "toolsUsed": {},
-      "sessions": 2,
+      "toolsUsed": {
+        "ask_eli": 1
+      },
+      "sessions": 4,
       "firstActiveAt": 1792164650593,
-      "lastActiveAt": 1792164656118,
-      "tokens": {},
-      "tokensByTool": {},
-      "estCostUSD": 0,
+      "lastActiveAt": 1792180128118,
+      "tokens": {
+        "gemini-flash-latest": {
+          "promptTokens": 40464,
+          "candidatesTokens": 7606,
+          "calls": 3
+        }
+      },
+      "tokensByTool": {
+        "_unknown": {
+          "gemini-flash-latest": {
+            "promptTokens": 26097,
+            "candidatesTokens": 4221,
+            "calls": 2
+          }
+        },
+        "ask_eli": {
+          "gemini-flash-latest": {
+            "promptTokens": 14367,
+            "candidatesTokens": 3385,
+            "calls": 1
+          }
+        }
+      },
+      "estCostUSD": 0.005317,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -1302,7 +1325,7 @@
     "kernelVersion": "v3-2026-10-14-0609-9e24cfd",
     "kernelStamped": true,
     "installedAt": "2026-07-29T14:09:25.615Z",
-    "lastSeenAt": "2026-10-16T15:31:01.439Z",
+    "lastSeenAt": "2026-10-16T19:48:53.364Z",
     "settings": {
       "ai_model": "gemini-flash-latest",
       "ai_temperature": 1,
@@ -1354,7 +1377,7 @@
       "ask_eli_answer_length": "normal",
       "ask_eli_followups": true,
       "ask_eli_citation_pins": true,
-      "ask_eli_use_guidance": false
+      "ask_eli_use_guidance": true
     },
     "tools": [
       {
