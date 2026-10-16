@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-10-16T15:36:26.493Z",
+  "lastUpdated": "2026-10-16T15:38:06.743Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -1026,6 +1026,21 @@
       ]
     },
     {
+      "id": "speed_check",
+      "version": null,
+      "lastUpdated": "2026-10-16T15:34:16.914Z",
+      "filename": "speed_check-v3.json",
+      "size": 42480,
+      "label": "Speed Check",
+      "kind": "tool",
+      "category": "Admin",
+      "audience": [],
+      "changelog": "",
+      "audienceEmails": [
+        "andrew_nemiroff@colpal.com"
+      ]
+    },
+    {
       "id": "__data_catalog",
       "lastUpdated": "2026-05-13T02:23:37.229Z",
       "filename": "catalog.json",
@@ -1343,7 +1358,8 @@
         "admin_user_restore",
         "clause_library",
         "chrome_tester",
-        "placeholder_editor"
+        "placeholder_editor",
+        "speed_check"
       ]
     }
   ]
