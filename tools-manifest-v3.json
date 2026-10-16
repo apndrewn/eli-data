@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-10-16T17:30:53.945Z",
+  "lastUpdated": "2026-10-16T17:36:48.852Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -189,9 +189,9 @@
     {
       "id": "final_review",
       "version": null,
-      "lastUpdated": "2026-06-15T00:45:23.746Z",
+      "lastUpdated": "2026-10-16T17:27:53.120Z",
       "filename": "final_review-v3.json",
-      "size": 104362,
+      "size": 104361,
       "label": "Final Review",
       "kind": "tool",
       "category": "External Innovation",
@@ -427,9 +427,9 @@
     {
       "id": "legal_review",
       "version": null,
-      "lastUpdated": "2026-10-16T01:25:45.349Z",
+      "lastUpdated": "2026-10-16T17:28:45.959Z",
       "filename": "legal_review-v3.json",
-      "size": 100661,
+      "size": 100621,
       "label": "Legal Review",
       "kind": "tool",
       "category": "External Innovation",
