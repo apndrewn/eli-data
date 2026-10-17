@@ -1,7 +1,7 @@
 {
   "userName": "A(",
   "userKey": "ah",
-  "generatedAt": "2026-10-17T02:09:44.511Z",
+  "generatedAt": "2026-10-17T05:19:19.491Z",
   "days": [
     {
       "date": "2026-09-11",
@@ -558,7 +558,7 @@
     {
       "date": "2026-10-16",
       "toolsUsed": {
-        "ask_eli": 59,
+        "ask_eli": 66,
         "legal_review": 17,
         "draft_templates": 7,
         "draft": 18,
@@ -569,22 +569,22 @@
         "auto_emailer": 1,
         "draft_audit": 1
       },
-      "sessions": 137,
+      "sessions": 149,
       "firstActiveAt": 1792123623026,
-      "lastActiveAt": 1792202981189,
+      "lastActiveAt": 1792205704978,
       "tokens": {
         "gemini-flash-latest": {
-          "promptTokens": 1941883,
-          "candidatesTokens": 109400,
-          "calls": 138
+          "promptTokens": 3417530,
+          "candidatesTokens": 161917,
+          "calls": 168
         }
       },
       "tokensByTool": {
         "ask_eli": {
           "gemini-flash-latest": {
-            "promptTokens": 1111108,
-            "candidatesTokens": 60700,
-            "calls": 34
+            "promptTokens": 1386112,
+            "candidatesTokens": 72635,
+            "calls": 40
           }
         },
         "error": {
@@ -603,9 +603,9 @@
         },
         "_unknown": {
           "gemini-flash-latest": {
-            "promptTokens": 366941,
-            "candidatesTokens": 22627,
-            "calls": 8
+            "promptTokens": 1567584,
+            "candidatesTokens": 63209,
+            "calls": 32
           }
         },
         "final_review": {
@@ -623,7 +623,62 @@
           }
         }
       },
-      "estCostUSD": 0.178461,
+      "estCostUSD": 0.30489,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
+    },
+    {
+      "date": "2026-10-17",
+      "toolsUsed": {
+        "ask_eli": 9,
+        "agent_draft_agreement": 4,
+        "draft_templates": 1,
+        "agent_apply_instruction": 1
+      },
+      "sessions": 14,
+      "firstActiveAt": 1792210011047,
+      "lastActiveAt": 1792214354477,
+      "tokens": {
+        "gemini-flash-latest": {
+          "promptTokens": 2705841,
+          "candidatesTokens": 120544,
+          "calls": 76
+        }
+      },
+      "tokensByTool": {
+        "_unknown": {
+          "gemini-flash-latest": {
+            "promptTokens": 564199,
+            "candidatesTokens": 27284,
+            "calls": 19
+          }
+        },
+        "ask_eli": {
+          "gemini-flash-latest": {
+            "promptTokens": 1327690,
+            "candidatesTokens": 59736,
+            "calls": 28
+          }
+        },
+        "agent_draft_agreement": {
+          "gemini-flash-latest": {
+            "promptTokens": 688069,
+            "candidatesTokens": 29382,
+            "calls": 19
+          }
+        },
+        "agent_apply_instruction": {
+          "gemini-flash-latest": {
+            "promptTokens": 125883,
+            "candidatesTokens": 4142,
+            "calls": 10
+          }
+        }
+      },
+      "estCostUSD": 0.239101,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -637,7 +692,7 @@
     "kernelVersion": "v3-2026-10-16-2017-0ebff0d",
     "kernelStamped": true,
     "installedAt": "2026-07-31T00:45:31.641Z",
-    "lastSeenAt": "2026-10-17T02:09:44.765Z",
+    "lastSeenAt": "2026-10-17T05:19:19.719Z",
     "settings": {
       "ai_model": "gemini-flash-latest",
       "ai_temperature": 1,
@@ -708,8 +763,7 @@
       "ask_eli_followups": true,
       "ask_eli_citation_pins": true,
       "ask_eli_use_guidance": true,
-      "ask_eli_formatted_answers": false,
-      "ask_eli_show_steps": true
+      "ask_eli_formatted_answers": "expressive"
     },
     "tools": [
       {
@@ -770,11 +824,6 @@
       {
         "id": "ask_dock",
         "releasedAt": "2026-09-11T16:49:10.843Z",
-        "disabled": false
-      },
-      {
-        "id": "ask_eli",
-        "releasedAt": "2026-10-17T00:11:21.223Z",
         "disabled": false
       },
       {
@@ -1066,6 +1115,11 @@
         "id": "workflow_creator",
         "releasedAt": "2026-10-14T05:45:43.675Z",
         "disabled": false
+      },
+      {
+        "id": "ask_eli",
+        "releasedAt": "2026-10-17T05:11:16.437Z",
+        "disabled": false
       }
     ],
     "appliedOverrides": [
@@ -1138,13 +1192,13 @@
       "t130": "2026-10-16T20:59:01.637Z"
     },
     "stats": {
-      "totalActiveDays": 10,
+      "totalActiveDays": 11,
       "docsReviewed": 55,
       "draftsCreated": 5,
       "errorsFixed": 109,
       "risksFound": 14,
       "hoursSaved": 27.5,
-      "currentStreak": 4
+      "currentStreak": 5
     },
     "dashboardApps": [
       "legal_review",
