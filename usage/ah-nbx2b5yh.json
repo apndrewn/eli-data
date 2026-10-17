@@ -1,7 +1,7 @@
 {
   "userName": "A(",
   "userKey": "ah",
-  "generatedAt": "2026-10-17T14:55:52.870Z",
+  "generatedAt": "2026-10-17T17:56:23.673Z",
   "days": [
     {
       "date": "2026-09-11",
@@ -633,28 +633,29 @@
     {
       "date": "2026-10-17",
       "toolsUsed": {
-        "ask_eli": 14,
+        "ask_eli": 16,
         "agent_draft_agreement": 4,
         "draft_templates": 2,
-        "agent_apply_instruction": 11,
-        "draft": 2
+        "agent_apply_instruction": 12,
+        "draft": 2,
+        "agent_turn_draft": 27
       },
-      "sessions": 43,
+      "sessions": 61,
       "firstActiveAt": 1792210011047,
-      "lastActiveAt": 1792248947853,
+      "lastActiveAt": 1792259778650,
       "tokens": {
         "gemini-flash-latest": {
-          "promptTokens": 4237293,
-          "candidatesTokens": 218093,
-          "calls": 222
+          "promptTokens": 4685689,
+          "candidatesTokens": 249084,
+          "calls": 263
         }
       },
       "tokensByTool": {
         "_unknown": {
           "gemini-flash-latest": {
-            "promptTokens": 1219790,
-            "candidatesTokens": 53285,
-            "calls": 49
+            "promptTokens": 1289659,
+            "candidatesTokens": 56048,
+            "calls": 51
           }
         },
         "ask_eli": {
@@ -673,13 +674,20 @@
         },
         "agent_apply_instruction": {
           "gemini-flash-latest": {
-            "promptTokens": 968917,
-            "candidatesTokens": 72896,
-            "calls": 123
+            "promptTokens": 1044145,
+            "candidatesTokens": 74853,
+            "calls": 127
+          }
+        },
+        "agent_turn_draft": {
+          "gemini-flash-latest": {
+            "promptTokens": 303299,
+            "candidatesTokens": 26271,
+            "calls": 35
           }
         }
       },
-      "estCostUSD": 0.383225,
+      "estCostUSD": 0.426152,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -693,7 +701,7 @@
     "kernelVersion": "v3-2026-10-16-2017-0ebff0d",
     "kernelStamped": true,
     "installedAt": "2026-07-31T00:45:31.641Z",
-    "lastSeenAt": "2026-10-17T14:55:53.122Z",
+    "lastSeenAt": "2026-10-17T17:56:23.900Z",
     "settings": {
       "ai_model": "gemini-flash-latest",
       "ai_temperature": 1,
@@ -829,7 +837,7 @@
       },
       {
         "id": "ask_eli",
-        "releasedAt": "2026-10-17T07:20:16.866Z",
+        "releasedAt": "2026-10-17T17:07:12.641Z",
         "disabled": false
       },
       {
@@ -914,7 +922,7 @@
       },
       {
         "id": "eli_agent",
-        "releasedAt": "2026-10-17T14:54:26.846Z",
+        "releasedAt": "2026-10-17T17:55:11.825Z",
         "disabled": false
       },
       {
