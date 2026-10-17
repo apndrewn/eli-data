@@ -1,7 +1,7 @@
 {
   "userName": "A(",
   "userKey": "ah",
-  "generatedAt": "2026-10-17T05:19:25.999Z",
+  "generatedAt": "2026-10-17T14:55:52.870Z",
   "days": [
     {
       "date": "2026-09-11",
@@ -633,34 +633,35 @@
     {
       "date": "2026-10-17",
       "toolsUsed": {
-        "ask_eli": 10,
+        "ask_eli": 14,
         "agent_draft_agreement": 4,
-        "draft_templates": 1,
-        "agent_apply_instruction": 1
+        "draft_templates": 2,
+        "agent_apply_instruction": 11,
+        "draft": 2
       },
-      "sessions": 15,
+      "sessions": 43,
       "firstActiveAt": 1792210011047,
-      "lastActiveAt": 1792214365019,
+      "lastActiveAt": 1792248947853,
       "tokens": {
         "gemini-flash-latest": {
-          "promptTokens": 2705841,
-          "candidatesTokens": 120544,
-          "calls": 76
+          "promptTokens": 4237293,
+          "candidatesTokens": 218093,
+          "calls": 222
         }
       },
       "tokensByTool": {
         "_unknown": {
           "gemini-flash-latest": {
-            "promptTokens": 564199,
-            "candidatesTokens": 27284,
-            "calls": 19
+            "promptTokens": 1219790,
+            "candidatesTokens": 53285,
+            "calls": 49
           }
         },
         "ask_eli": {
           "gemini-flash-latest": {
-            "promptTokens": 1327690,
-            "candidatesTokens": 59736,
-            "calls": 28
+            "promptTokens": 1360517,
+            "candidatesTokens": 62530,
+            "calls": 31
           }
         },
         "agent_draft_agreement": {
@@ -672,13 +673,13 @@
         },
         "agent_apply_instruction": {
           "gemini-flash-latest": {
-            "promptTokens": 125883,
-            "candidatesTokens": 4142,
-            "calls": 10
+            "promptTokens": 968917,
+            "candidatesTokens": 72896,
+            "calls": 123
           }
         }
       },
-      "estCostUSD": 0.239101,
+      "estCostUSD": 0.383225,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -692,7 +693,7 @@
     "kernelVersion": "v3-2026-10-16-2017-0ebff0d",
     "kernelStamped": true,
     "installedAt": "2026-07-31T00:45:31.641Z",
-    "lastSeenAt": "2026-10-17T05:19:26.180Z",
+    "lastSeenAt": "2026-10-17T14:55:53.122Z",
     "settings": {
       "ai_model": "gemini-flash-latest",
       "ai_temperature": 1,
@@ -828,7 +829,7 @@
       },
       {
         "id": "ask_eli",
-        "releasedAt": "2026-10-17T05:11:16.437Z",
+        "releasedAt": "2026-10-17T07:20:16.866Z",
         "disabled": false
       },
       {
@@ -913,7 +914,7 @@
       },
       {
         "id": "eli_agent",
-        "releasedAt": "2026-10-16T14:41:09.705Z",
+        "releasedAt": "2026-10-17T14:54:26.846Z",
         "disabled": false
       },
       {
