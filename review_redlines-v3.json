@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-10-16T17:27:53.015Z",
+  "exportedAt": "2026-10-17T21:18:02.638Z",
   "sectionVersions": {
     "jsonTools": 1
   },
   "sections": {
     "jsonTools": [
       {
-        "releasedAt": "2026-10-16T17:27:53.014Z",
+        "releasedAt": "2026-10-17T21:18:02.637Z",
         "id": "review_redlines",
         "label": "Review Redlines",
         "defaultEnabled": true,
@@ -22,8 +22,7 @@
           "kernel": 2
         },
         "dependsOn": [
-          "redline_authors",
-          "playbook_manager"
+          "redline_authors"
         ],
         "advertises": {
           "tile": {

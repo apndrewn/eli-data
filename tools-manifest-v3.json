@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-10-17T07:23:27.783Z",
+  "lastUpdated": "2026-10-17T21:34:00.566Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -259,9 +259,9 @@
     {
       "id": "review_redlines",
       "version": null,
-      "lastUpdated": "2026-10-16T17:27:53.014Z",
+      "lastUpdated": "2026-10-17T21:18:02.637Z",
       "filename": "review_redlines-v3.json",
-      "size": 1216557,
+      "size": 1216527,
       "label": "Review Redlines",
       "kind": "tool",
       "category": "External Innovation",
@@ -273,9 +273,9 @@
     {
       "id": "team_guidance",
       "version": null,
-      "lastUpdated": "2026-09-11T15:02:45.767Z",
+      "lastUpdated": "2026-10-17T21:26:56.049Z",
       "filename": "team_guidance-v3.json",
-      "size": 116379,
+      "size": 119546,
       "label": "Guidance",
       "kind": "tool",
       "category": "External Innovation",
@@ -385,9 +385,9 @@
     {
       "id": "ask_eli",
       "version": null,
-      "lastUpdated": "2026-10-17T07:20:16.866Z",
+      "lastUpdated": "2026-10-17T21:28:41.178Z",
       "filename": "ask_eli-v3.json",
-      "size": 636062,
+      "size": 644291,
       "label": "Ask ELI",
       "kind": "tool",
       "category": "Tools - ELI Core",
@@ -706,9 +706,9 @@
     {
       "id": "eli_agent",
       "version": null,
-      "lastUpdated": "2026-10-17T07:20:16.986Z",
+      "lastUpdated": "2026-10-17T21:32:48.503Z",
       "filename": "eli_agent-v3.json",
-      "size": 823379,
+      "size": 1077756,
       "label": "ELI Agent",
       "kind": "tool",
       "category": "Tools - ELI Core",
