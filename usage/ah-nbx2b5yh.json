@@ -1,7 +1,7 @@
 {
   "userName": "A(",
   "userKey": "ah",
-  "generatedAt": "2026-10-17T05:19:19.491Z",
+  "generatedAt": "2026-10-17T05:19:25.999Z",
   "days": [
     {
       "date": "2026-09-11",
@@ -633,14 +633,14 @@
     {
       "date": "2026-10-17",
       "toolsUsed": {
-        "ask_eli": 9,
+        "ask_eli": 10,
         "agent_draft_agreement": 4,
         "draft_templates": 1,
         "agent_apply_instruction": 1
       },
-      "sessions": 14,
+      "sessions": 15,
       "firstActiveAt": 1792210011047,
-      "lastActiveAt": 1792214354477,
+      "lastActiveAt": 1792214365019,
       "tokens": {
         "gemini-flash-latest": {
           "promptTokens": 2705841,
@@ -692,7 +692,7 @@
     "kernelVersion": "v3-2026-10-16-2017-0ebff0d",
     "kernelStamped": true,
     "installedAt": "2026-07-31T00:45:31.641Z",
-    "lastSeenAt": "2026-10-17T05:19:19.719Z",
+    "lastSeenAt": "2026-10-17T05:19:26.180Z",
     "settings": {
       "ai_model": "gemini-flash-latest",
       "ai_temperature": 1,
@@ -824,6 +824,11 @@
       {
         "id": "ask_dock",
         "releasedAt": "2026-09-11T16:49:10.843Z",
+        "disabled": false
+      },
+      {
+        "id": "ask_eli",
+        "releasedAt": "2026-10-17T05:11:16.437Z",
         "disabled": false
       },
       {
@@ -1114,11 +1119,6 @@
       {
         "id": "workflow_creator",
         "releasedAt": "2026-10-14T05:45:43.675Z",
-        "disabled": false
-      },
-      {
-        "id": "ask_eli",
-        "releasedAt": "2026-10-17T05:11:16.437Z",
         "disabled": false
       }
     ],
