@@ -1,7 +1,7 @@
 {
   "userName": "A(",
   "userKey": "ah",
-  "generatedAt": "2026-10-18T14:46:02.037Z",
+  "generatedAt": "2026-10-18T17:46:29.415Z",
   "days": [
     {
       "date": "2026-09-11",
@@ -714,34 +714,37 @@
     {
       "date": "2026-10-18",
       "toolsUsed": {
-        "agent_turn_draft": 58,
+        "agent_turn_draft": 64,
         "demo": 4,
         "tour": 2,
-        "agent_apply_instruction": 11
+        "agent_apply_instruction": 11,
+        "draft_templates": 1,
+        "draft": 1,
+        "risk": 3
       },
-      "sessions": 83,
+      "sessions": 110,
       "firstActiveAt": 1792296394915,
-      "lastActiveAt": 1792334761084,
+      "lastActiveAt": 1792345584389,
       "tokens": {
         "gemini-flash-latest": {
-          "promptTokens": 2067631,
-          "candidatesTokens": 278068,
-          "calls": 359
+          "promptTokens": 2154062,
+          "candidatesTokens": 297873,
+          "calls": 372
         }
       },
       "tokensByTool": {
         "agent_turn_draft": {
           "gemini-flash-latest": {
-            "promptTokens": 1217505,
-            "candidatesTokens": 202152,
-            "calls": 221
+            "promptTokens": 1251599,
+            "candidatesTokens": 209046,
+            "calls": 230
           }
         },
         "_unknown": {
           "gemini-flash-latest": {
-            "promptTokens": 17365,
-            "candidatesTokens": 551,
-            "calls": 1
+            "promptTokens": 26557,
+            "candidatesTokens": 880,
+            "calls": 2
           }
         },
         "agent_apply_instruction": {
@@ -750,9 +753,16 @@
             "candidatesTokens": 75365,
             "calls": 137
           }
+        },
+        "risk": {
+          "gemini-flash-latest": {
+            "promptTokens": 43145,
+            "candidatesTokens": 12582,
+            "calls": 3
+          }
         }
       },
-      "estCostUSD": 0.238493,
+      "estCostUSD": 0.250917,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -766,7 +776,7 @@
     "kernelVersion": "v3-2026-10-18-1443-f49d9f3",
     "kernelStamped": true,
     "installedAt": "2026-07-31T00:45:31.641Z",
-    "lastSeenAt": "2026-10-18T14:46:02.232Z",
+    "lastSeenAt": "2026-10-18T17:46:29.632Z",
     "settings": {
       "ai_model": "gemini-flash-latest",
       "ai_temperature": 1,
@@ -810,7 +820,7 @@
       "build_draft.confirmOarsAutoLoad": true,
       "build_draft.shareStep2FillsToCdn": false,
       "build_draft.requireAllSteps": true,
-      "build_draft.guidedMode": false,
+      "build_draft.guidedMode": true,
       "build_draft.fileNamePattern.colgate": "[Ref] [Party] - [Type] (CP Draft [Date])",
       "build_draft.fileNamePattern.hills": "[Ref] [Party] - [Type] (HPN Draft [Date])",
       "ai_image_model": "gemini-3.1-flash-image-preview",
@@ -902,7 +912,7 @@
       },
       {
         "id": "ask_eli",
-        "releasedAt": "2026-10-18T02:40:42.969Z",
+        "releasedAt": "2026-10-18T15:08:05.194Z",
         "disabled": false
       },
       {
@@ -987,7 +997,7 @@
       },
       {
         "id": "eli_agent",
-        "releasedAt": "2026-10-18T07:27:08.588Z",
+        "releasedAt": "2026-10-18T17:10:57.494Z",
         "disabled": false
       },
       {
@@ -1067,7 +1077,7 @@
       },
       {
         "id": "legal_risks",
-        "releasedAt": "2026-09-11T03:35:55.044Z",
+        "releasedAt": "2026-10-18T16:43:53.321Z",
         "disabled": false
       },
       {
@@ -1265,15 +1275,16 @@
       "t141": "2026-10-14T05:32:57.761Z",
       "t157": "2026-10-15T03:13:07.655Z",
       "t130": "2026-10-16T20:59:01.637Z",
-      "t44": "2026-10-18T03:53:38.372Z"
+      "t44": "2026-10-18T03:53:38.372Z",
+      "deal360": "2026-10-18T16:47:40.157Z"
     },
     "stats": {
       "totalActiveDays": 11,
-      "docsReviewed": 55,
+      "docsReviewed": 58,
       "draftsCreated": 5,
       "errorsFixed": 109,
-      "risksFound": 14,
-      "hoursSaved": 27.5,
+      "risksFound": 35,
+      "hoursSaved": 29,
       "currentStreak": 6
     },
     "dashboardApps": [
