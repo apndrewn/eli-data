@@ -1,7 +1,7 @@
 {
   "userName": "A(",
   "userKey": "ah",
-  "generatedAt": "2026-10-18T17:46:29.415Z",
+  "generatedAt": "2026-10-18T20:52:06.040Z",
   "days": [
     {
       "date": "2026-09-11",
@@ -714,30 +714,30 @@
     {
       "date": "2026-10-18",
       "toolsUsed": {
-        "agent_turn_draft": 64,
+        "agent_turn_draft": 77,
         "demo": 4,
         "tour": 2,
-        "agent_apply_instruction": 11,
+        "agent_apply_instruction": 21,
         "draft_templates": 1,
         "draft": 1,
         "risk": 3
       },
-      "sessions": 110,
+      "sessions": 143,
       "firstActiveAt": 1792296394915,
-      "lastActiveAt": 1792345584389,
+      "lastActiveAt": 1792356721028,
       "tokens": {
         "gemini-flash-latest": {
-          "promptTokens": 2154062,
-          "candidatesTokens": 297873,
-          "calls": 372
+          "promptTokens": 2872300,
+          "candidatesTokens": 359029,
+          "calls": 454
         }
       },
       "tokensByTool": {
         "agent_turn_draft": {
           "gemini-flash-latest": {
-            "promptTokens": 1251599,
-            "candidatesTokens": 209046,
-            "calls": 230
+            "promptTokens": 1388110,
+            "candidatesTokens": 230514,
+            "calls": 252
           }
         },
         "_unknown": {
@@ -749,9 +749,9 @@
         },
         "agent_apply_instruction": {
           "gemini-flash-latest": {
-            "promptTokens": 832761,
-            "candidatesTokens": 75365,
-            "calls": 137
+            "promptTokens": 1414488,
+            "candidatesTokens": 115053,
+            "calls": 197
           }
         },
         "risk": {
@@ -762,7 +762,7 @@
           }
         }
       },
-      "estCostUSD": 0.250917,
+      "estCostUSD": 0.323131,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -776,7 +776,7 @@
     "kernelVersion": "v3-2026-10-18-1443-f49d9f3",
     "kernelStamped": true,
     "installedAt": "2026-07-31T00:45:31.641Z",
-    "lastSeenAt": "2026-10-18T17:46:29.632Z",
+    "lastSeenAt": "2026-10-18T20:52:06.205Z",
     "settings": {
       "ai_model": "gemini-flash-latest",
       "ai_temperature": 1,
@@ -997,7 +997,7 @@
       },
       {
         "id": "eli_agent",
-        "releasedAt": "2026-10-18T17:10:57.494Z",
+        "releasedAt": "2026-10-18T20:40:19.228Z",
         "disabled": false
       },
       {
