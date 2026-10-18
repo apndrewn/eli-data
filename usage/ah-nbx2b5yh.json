@@ -1,7 +1,7 @@
 {
   "userName": "A(",
   "userKey": "ah",
-  "generatedAt": "2026-10-18T08:30:58.757Z",
+  "generatedAt": "2026-10-18T14:46:02.037Z",
   "days": [
     {
       "date": "2026-09-11",
@@ -714,30 +714,45 @@
     {
       "date": "2026-10-18",
       "toolsUsed": {
-        "agent_turn_draft": 47,
+        "agent_turn_draft": 58,
         "demo": 4,
-        "tour": 2
+        "tour": 2,
+        "agent_apply_instruction": 11
       },
-      "sessions": 55,
+      "sessions": 83,
       "firstActiveAt": 1792296394915,
-      "lastActiveAt": 1792312253742,
+      "lastActiveAt": 1792334761084,
       "tokens": {
         "gemini-flash-latest": {
-          "promptTokens": 1025059,
-          "candidatesTokens": 166710,
-          "calls": 179
+          "promptTokens": 2067631,
+          "candidatesTokens": 278068,
+          "calls": 359
         }
       },
       "tokensByTool": {
         "agent_turn_draft": {
           "gemini-flash-latest": {
-            "promptTokens": 1025059,
-            "candidatesTokens": 166710,
-            "calls": 179
+            "promptTokens": 1217505,
+            "candidatesTokens": 202152,
+            "calls": 221
+          }
+        },
+        "_unknown": {
+          "gemini-flash-latest": {
+            "promptTokens": 17365,
+            "candidatesTokens": 551,
+            "calls": 1
+          }
+        },
+        "agent_apply_instruction": {
+          "gemini-flash-latest": {
+            "promptTokens": 832761,
+            "candidatesTokens": 75365,
+            "calls": 137
           }
         }
       },
-      "estCostUSD": 0.126892,
+      "estCostUSD": 0.238493,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -748,10 +763,10 @@
   "fleet": {
     "userId": "AH-nbx2b5yh",
     "initials": "A(",
-    "kernelVersion": "v3-2026-10-17-1955-dd71edf",
+    "kernelVersion": "v3-2026-10-18-1443-f49d9f3",
     "kernelStamped": true,
     "installedAt": "2026-07-31T00:45:31.641Z",
-    "lastSeenAt": "2026-10-18T08:30:58.949Z",
+    "lastSeenAt": "2026-10-18T14:46:02.232Z",
     "settings": {
       "ai_model": "gemini-flash-latest",
       "ai_temperature": 1,
