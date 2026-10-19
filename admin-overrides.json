@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-10-19T14:51:32.048Z",
+  "lastUpdated": "2026-10-19T17:20:45.113Z",
   "overrides": [
     {
       "id": "fleet-notice-MD-7z4e5kud-1781724707405",
@@ -282,6 +282,22 @@
           "requireAck": true,
           "dismissLabel": "OK",
           "html": "<p>Turn the Draft and Revise now think a little less, so they answer about a quarter faster (once ELI Agent's update is installed). Nothing else changed.</p>"
+        }
+      ]
+    },
+    {
+      "id": "fleet-ai-timeout-300s-2026-10-19",
+      "audience": [
+        "all"
+      ],
+      "pushedAt": "2026-10-19T17:20:45.113Z",
+      "pushedBy": "andrew_nemiroff@colpal.com",
+      "actions": [
+        {
+          "type": "set_setting",
+          "key": "ai_timeout_ms",
+          "value": 300000,
+          "force": false
         }
       ]
     }
