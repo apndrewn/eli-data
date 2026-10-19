@@ -1,0 +1,590 @@
+{
+  "userName": "A(",
+  "userKey": "ah",
+  "generatedAt": "2026-10-19T11:34:03.440Z",
+  "days": [
+    {
+      "date": "2026-10-19",
+      "toolsUsed": {
+        "agent_turn_draft": 28,
+        "agent_apply_instruction": 11,
+        "admin_fleet": 1
+      },
+      "sessions": 71,
+      "firstActiveAt": 1792383882603,
+      "lastActiveAt": 1792409638490,
+      "tokens": {
+        "gemini-flash-latest": {
+          "promptTokens": 172048,
+          "candidatesTokens": 25358,
+          "calls": 30
+        }
+      },
+      "tokensByTool": {
+        "agent_turn_draft": {
+          "gemini-flash-latest": {
+            "promptTokens": 120908,
+            "candidatesTokens": 18882,
+            "calls": 17
+          }
+        },
+        "agent_apply_instruction": {
+          "gemini-flash-latest": {
+            "promptTokens": 51140,
+            "candidatesTokens": 6476,
+            "calls": 13
+          }
+        }
+      },
+      "estCostUSD": 0.020511,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
+    }
+  ],
+  "fleet": {
+    "userId": "AH-d7j9ku7e",
+    "initials": "A(",
+    "kernelVersion": "v3-2026-10-19-0150-lab0a9d3c2",
+    "kernelStamped": false,
+    "installedAt": "2026-10-19T04:24:47.770Z",
+    "lastSeenAt": "2026-10-19T11:34:03.583Z",
+    "settings": {
+      "ai_model": "gemini-flash-latest",
+      "ai_temperature": 1,
+      "ai_timeout_ms": 120000,
+      "ai_thinking_budget": 0,
+      "ai_thinking_mode": "recommended",
+      "ai_thinking_custom": 512,
+      "ai_thinking_per_tool": {},
+      "ai_thinking_format": "auto",
+      "ai_thinking_levels": [
+        {
+          "upTo": 0,
+          "level": "minimal"
+        },
+        {
+          "upTo": 1024,
+          "level": "low"
+        },
+        {
+          "upTo": 4096,
+          "level": "medium"
+        },
+        {
+          "level": "high"
+        }
+      ],
+      "ai_allow_streaming": true,
+      "ai_model_list": [
+        "gemini-flash-lite-latest",
+        "gemini-flash-latest"
+      ],
+      "expand_width": 800,
+      "expand_threshold": 480,
+      "debug_mode": false,
+      "build_draft.multilineInsert": true,
+      "build_draft.normalize_host_styles": true,
+      "build_draft.isolate_template_styles": true,
+      "build_draft.reviewNavigation": true,
+      "build_draft.refreshFieldsAfterStep2": true,
+      "build_draft.trimTrailingBlanks": true,
+      "build_draft.confirmOarsAutoLoad": true,
+      "build_draft.shareStep2FillsToCdn": false,
+      "build_draft.requireAllSteps": true,
+      "build_draft.guidedMode": true,
+      "build_draft.fileNamePattern.colgate": "[Ref] [Party] - [Type] (CP Draft [Date])",
+      "build_draft.fileNamePattern.hills": "[Ref] [Party] - [Type] (HPN Draft [Date])",
+      "ai_image_model": "gemini-3.1-flash-image-preview",
+      "ask_dock_enabled": true,
+      "dashboard_widgets_enabled": true,
+      "light_mode": false,
+      "header_theme_index": 0,
+      "minimize_feed": false,
+      "auto_hide_sidebar": false,
+      "auto_expand_window": false,
+      "auto_check_tools": true,
+      "show_expand_pill": true,
+      "language": "en",
+      "mascot.skinTone": "#ffdbb5",
+      "mascot.hairColor": "#5c3317",
+      "mascot.tieColor": "#c62828",
+      "mascot.hairStyle": "professional",
+      "mascot.facialHair": "none",
+      "mascot.glasses": "round",
+      "mascot.suitColor": "#1565c0",
+      "mascot.accessory": "none",
+      "ask_eli_redline_regen_enabled": true,
+      "ask_eli_answer_length": "normal",
+      "ask_eli_followups": true,
+      "ask_eli_citation_pins": true,
+      "ask_eli_use_guidance": true,
+      "ask_eli_formatted_answers": "expressive"
+    },
+    "tools": [
+      {
+        "id": "admin_draft_audit",
+        "releasedAt": "2026-06-16T11:56:03.060Z",
+        "disabled": false
+      },
+      {
+        "id": "admin_email_rules",
+        "releasedAt": "2026-10-19T04:43:15.443Z",
+        "disabled": false
+      },
+      {
+        "id": "admin_fleet",
+        "releasedAt": "2026-10-19T04:43:16.233Z",
+        "disabled": false
+      },
+      {
+        "id": "admin_library_publisher",
+        "releasedAt": "2026-10-19T04:43:15.872Z",
+        "disabled": false
+      },
+      {
+        "id": "admin_storage_inspector",
+        "releasedAt": "2026-10-19T04:43:15.055Z",
+        "disabled": false
+      },
+      {
+        "id": "admin_team_guidance",
+        "releasedAt": "2026-10-19T04:43:15.755Z",
+        "disabled": false
+      },
+      {
+        "id": "admin_telemetry_inspector",
+        "releasedAt": "2026-10-19T04:43:16.034Z",
+        "disabled": false
+      },
+      {
+        "id": "admin_usage_viewer",
+        "releasedAt": "2026-10-19T04:43:15.749Z",
+        "disabled": false
+      },
+      {
+        "id": "admin_user_restore",
+        "releasedAt": "2026-10-19T04:43:15.589Z",
+        "disabled": false
+      },
+      {
+        "id": "agreement_glance",
+        "releasedAt": "2026-10-19T04:43:15.738Z",
+        "disabled": false
+      },
+      {
+        "id": "amendment_builder",
+        "releasedAt": "2026-10-19T04:43:15.589Z",
+        "disabled": false
+      },
+      {
+        "id": "ask_dock",
+        "releasedAt": "2026-10-19T04:43:15.105Z",
+        "disabled": false
+      },
+      {
+        "id": "ask_eli",
+        "releasedAt": "2026-10-19T04:44:29.876Z",
+        "disabled": false
+      },
+      {
+        "id": "auto_emailer",
+        "releasedAt": "2026-10-19T04:43:16.489Z",
+        "disabled": false
+      },
+      {
+        "id": "bd_template_tester",
+        "releasedAt": "2026-10-19T04:43:15.487Z",
+        "disabled": false
+      },
+      {
+        "id": "build_draft",
+        "releasedAt": "2026-10-19T04:43:15.705Z",
+        "disabled": false
+      },
+      {
+        "id": "business_continuity",
+        "releasedAt": "2026-10-19T04:43:15.589Z",
+        "disabled": false
+      },
+      {
+        "id": "chrome_tester",
+        "releasedAt": "2026-10-19T04:43:15.556Z",
+        "disabled": false
+      },
+      {
+        "id": "clause_diff_lab",
+        "releasedAt": "2026-10-19T04:43:15.787Z",
+        "disabled": false
+      },
+      {
+        "id": "clause_library",
+        "releasedAt": "2026-10-19T04:43:15.455Z",
+        "disabled": false
+      },
+      {
+        "id": "compare",
+        "releasedAt": "2026-10-19T04:43:17.356Z",
+        "disabled": false
+      },
+      {
+        "id": "dashboard_tour",
+        "releasedAt": "2026-10-19T04:43:15.689Z",
+        "disabled": false
+      },
+      {
+        "id": "dashboard_widgets",
+        "releasedAt": "2026-10-19T04:43:16.128Z",
+        "disabled": false
+      },
+      {
+        "id": "defined_terms",
+        "releasedAt": "2026-10-19T04:43:16.456Z",
+        "disabled": false
+      },
+      {
+        "id": "demo",
+        "releasedAt": "2026-10-19T04:43:16.506Z",
+        "disabled": false
+      },
+      {
+        "id": "docuscrub",
+        "releasedAt": "2026-10-19T04:43:16.356Z",
+        "disabled": false
+      },
+      {
+        "id": "draft_audit",
+        "releasedAt": "2026-10-19T04:43:16.322Z",
+        "disabled": false
+      },
+      {
+        "id": "eli-activity",
+        "releasedAt": "2026-06-13T03:57:25.462Z",
+        "disabled": false
+      },
+      {
+        "id": "eli-admin",
+        "releasedAt": "2026-09-11T15:10:16.816Z",
+        "disabled": false
+      },
+      {
+        "id": "eli-wrongness",
+        "releasedAt": "2026-05-17T13:54:46.170Z",
+        "disabled": false
+      },
+      {
+        "id": "eli5",
+        "releasedAt": "2026-10-19T04:43:16.239Z",
+        "disabled": false
+      },
+      {
+        "id": "eli_agent",
+        "releasedAt": "2026-10-19T06:57:39.715Z",
+        "disabled": false
+      },
+      {
+        "id": "eli_kit",
+        "releasedAt": "2026-10-19T04:43:16.239Z",
+        "disabled": false
+      },
+      {
+        "id": "eli_lab",
+        "releasedAt": "2026-10-19T06:13:07.686Z",
+        "disabled": false
+      },
+      {
+        "id": "eli_mascot_studio",
+        "releasedAt": "2026-10-19T04:43:15.999Z",
+        "disabled": false
+      },
+      {
+        "id": "eli_settings",
+        "releasedAt": "2026-10-19T04:43:15.866Z",
+        "disabled": false
+      },
+      {
+        "id": "eli_stats",
+        "releasedAt": "2026-10-19T04:43:16.572Z",
+        "disabled": false
+      },
+      {
+        "id": "eli_telemetry",
+        "releasedAt": "2026-10-19T04:43:15.572Z",
+        "disabled": false
+      },
+      {
+        "id": "email_helper",
+        "releasedAt": "2026-10-19T04:43:16.539Z",
+        "disabled": false
+      },
+      {
+        "id": "error_review",
+        "releasedAt": "2026-10-19T04:43:16.429Z",
+        "disabled": false
+      },
+      {
+        "id": "feedback_inbox",
+        "releasedAt": "2026-10-19T04:43:16.687Z",
+        "disabled": false
+      },
+      {
+        "id": "final_review",
+        "releasedAt": "2026-10-19T04:43:17.173Z",
+        "disabled": false
+      },
+      {
+        "id": "focus_flow",
+        "releasedAt": "2026-10-19T04:43:16.874Z",
+        "disabled": false
+      },
+      {
+        "id": "guided_redlines",
+        "releasedAt": "2026-10-19T04:43:17.156Z",
+        "disabled": false
+      },
+      {
+        "id": "infographics_lab",
+        "releasedAt": "2026-10-19T04:43:16.770Z",
+        "disabled": false
+      },
+      {
+        "id": "integrity_scanner",
+        "releasedAt": "2026-10-19T04:43:16.737Z",
+        "disabled": false
+      },
+      {
+        "id": "kernel_check",
+        "releasedAt": "2026-10-19T04:43:16.289Z",
+        "disabled": false
+      },
+      {
+        "id": "legal_review",
+        "releasedAt": "2026-10-19T04:43:16.572Z",
+        "disabled": false
+      },
+      {
+        "id": "legal_risks",
+        "releasedAt": "2026-10-18T16:43:53.321Z",
+        "disabled": false
+      },
+      {
+        "id": "oars_loader",
+        "releasedAt": "2026-10-19T04:43:16.772Z",
+        "disabled": false
+      },
+      {
+        "id": "placeholder_editor",
+        "releasedAt": "2026-10-19T04:43:16.827Z",
+        "disabled": false
+      },
+      {
+        "id": "placeholder_studio",
+        "releasedAt": "2026-10-19T04:43:16.972Z",
+        "disabled": false
+      },
+      {
+        "id": "playbook_manager",
+        "releasedAt": "2026-10-19T04:43:17.144Z",
+        "disabled": false
+      },
+      {
+        "id": "polish",
+        "releasedAt": "2026-10-19T04:43:16.737Z",
+        "disabled": false
+      },
+      {
+        "id": "profile_restore",
+        "releasedAt": "2026-10-19T04:43:16.930Z",
+        "disabled": false
+      },
+      {
+        "id": "redline_authors",
+        "releasedAt": "2026-10-19T04:43:16.908Z",
+        "disabled": false
+      },
+      {
+        "id": "redline_email_pack",
+        "releasedAt": "2026-05-17T13:54:46.229Z",
+        "disabled": false
+      },
+      {
+        "id": "redline_narrator",
+        "releasedAt": "2026-10-19T04:43:17.055Z",
+        "disabled": false
+      },
+      {
+        "id": "refresh_eli",
+        "releasedAt": "2026-10-19T04:43:16.931Z",
+        "disabled": false
+      },
+      {
+        "id": "review_redlines",
+        "releasedAt": "2026-10-19T04:43:17.373Z",
+        "disabled": false
+      },
+      {
+        "id": "speed_check",
+        "releasedAt": "2026-10-19T04:43:16.955Z",
+        "disabled": false
+      },
+      {
+        "id": "survey_tester",
+        "releasedAt": "2026-10-19T04:43:17.055Z",
+        "disabled": false
+      },
+      {
+        "id": "team_guidance",
+        "releasedAt": "2026-10-19T04:43:17.122Z",
+        "disabled": false
+      },
+      {
+        "id": "template_editor",
+        "releasedAt": "2026-10-19T04:43:17.373Z",
+        "disabled": false
+      },
+      {
+        "id": "template_indexer",
+        "releasedAt": "2026-10-19T04:43:17.226Z",
+        "disabled": false
+      },
+      {
+        "id": "template_manager",
+        "releasedAt": "2026-10-19T04:43:17.173Z",
+        "disabled": false
+      },
+      {
+        "id": "template_searcher",
+        "releasedAt": "2026-10-19T04:43:17.573Z",
+        "disabled": false
+      },
+      {
+        "id": "tool_author_studio",
+        "releasedAt": "2026-10-19T04:43:17.489Z",
+        "disabled": false
+      },
+      {
+        "id": "tool_manager",
+        "releasedAt": "2026-10-19T04:43:17.522Z",
+        "disabled": false
+      },
+      {
+        "id": "trophy_gallery",
+        "releasedAt": "2026-10-19T04:43:17.553Z",
+        "disabled": false
+      },
+      {
+        "id": "usage_risks",
+        "releasedAt": "2026-10-19T04:43:17.522Z",
+        "disabled": false
+      },
+      {
+        "id": "version_history",
+        "releasedAt": "2026-10-19T04:43:17.553Z",
+        "disabled": false
+      },
+      {
+        "id": "whats_new",
+        "releasedAt": "2026-10-19T04:43:17.538Z",
+        "disabled": false
+      },
+      {
+        "id": "workflow_creator",
+        "releasedAt": "2026-10-19T04:43:17.601Z",
+        "disabled": false
+      }
+    ],
+    "appliedOverrides": [
+      {
+        "id": "fleet-model-flash-latest-1789086280338",
+        "at": 1792383885493
+      },
+      {
+        "id": "fleet-temperature-1-gemini3-1791956006954",
+        "at": 1792383885493
+      },
+      {
+        "id": "release-notes-off-1789139158421",
+        "at": 1792383885493
+      }
+    ],
+    "trophies": 27,
+    "trophyIds": [
+      "t41",
+      "t11",
+      "t56",
+      "t156",
+      "t137",
+      "t71",
+      "t111",
+      "t138",
+      "t26",
+      "t166",
+      "t1",
+      "t107",
+      "t83",
+      "t162",
+      "t101",
+      "t168",
+      "t2",
+      "t121",
+      "t115",
+      "t153",
+      "t116",
+      "t106",
+      "t141",
+      "t157",
+      "t130",
+      "t44",
+      "t17"
+    ],
+    "trophyDates": {
+      "t41": "2026-07-29T14:09:45.278Z",
+      "t11": "2026-07-29T14:12:59.748Z",
+      "t56": "2026-07-29T14:13:47.661Z",
+      "t156": "2026-07-30T14:58:31.798Z",
+      "t137": "2026-08-03T13:23:02.110Z",
+      "t71": "2026-08-03T13:23:02.110Z",
+      "t111": "2026-08-05T14:16:39.609Z",
+      "t138": "2026-08-11T12:54:39.279Z",
+      "t26": "2026-08-11T21:57:58.525Z",
+      "t166": "2026-08-12T14:03:21.000Z",
+      "t1": "2026-08-13T19:27:44.483Z",
+      "t107": "2026-08-13T20:21:54.632Z",
+      "t83": "2026-08-14T17:07:59.672Z",
+      "t162": "2026-08-26T13:30:41.933Z",
+      "t101": "2026-08-27T21:14:58.989Z",
+      "t168": "2026-09-01T17:58:41.822Z",
+      "t2": "2026-09-02T14:52:51.614Z",
+      "t121": "2026-09-10T17:54:06.615Z",
+      "t115": "2026-09-12T00:02:12.774Z",
+      "t153": "2026-09-12T03:05:37.993Z",
+      "t116": "2026-09-12T04:00:03.548Z",
+      "t106": "2026-10-14T05:10:04.252Z",
+      "t141": "2026-10-14T05:32:57.761Z",
+      "t157": "2026-10-15T03:13:07.655Z",
+      "t130": "2026-10-16T20:59:01.637Z",
+      "t44": "2026-10-18T03:53:38.372Z",
+      "t17": "2026-10-18T22:46:02.878Z"
+    },
+    "stats": {
+      "totalActiveDays": 1,
+      "docsReviewed": 59,
+      "draftsCreated": 5,
+      "errorsFixed": 109,
+      "risksFound": 51,
+      "hoursSaved": 29.5,
+      "currentStreak": 1
+    },
+    "dashboardApps": [
+      "auto_emailer",
+      "build_draft",
+      "error_review",
+      "final_review",
+      "legal_review",
+      "team_guidance"
+    ],
+    "dashboardCustomized": false
+  }
+}
