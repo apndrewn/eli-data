@@ -1,7 +1,7 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-10-19T17:37:55.243Z",
+  "generatedAt": "2026-10-19T20:46:58.756Z",
   "days": [
     {
       "date": "2026-07-29",
@@ -1321,37 +1321,38 @@
     {
       "date": "2026-10-19",
       "toolsUsed": {
-        "agent_turn_draft": 6,
+        "agent_turn_draft": 11,
         "clause_diff_lab": 1,
-        "ask_eli": 1
+        "ask_eli": 16,
+        "draft": 3
       },
-      "sessions": 13,
+      "sessions": 24,
       "firstActiveAt": 1792414613428,
-      "lastActiveAt": 1792431470229,
+      "lastActiveAt": 1792442813749,
       "tokens": {
         "gemini-flash-latest": {
-          "promptTokens": 242664,
-          "candidatesTokens": 109384,
-          "calls": 27
+          "promptTokens": 357615,
+          "candidatesTokens": 133917,
+          "calls": 47
         }
       },
       "tokensByTool": {
         "agent_turn_draft": {
           "gemini-flash-latest": {
-            "promptTokens": 197229,
-            "candidatesTokens": 108099,
-            "calls": 25
+            "promptTokens": 311586,
+            "candidatesTokens": 132540,
+            "calls": 44
           }
         },
         "ask_eli": {
           "gemini-flash-latest": {
-            "promptTokens": 45435,
-            "candidatesTokens": 1285,
-            "calls": 2
+            "promptTokens": 46029,
+            "candidatesTokens": 1377,
+            "calls": 3
           }
         }
       },
-      "estCostUSD": 0.051015,
+      "estCostUSD": 0.066996,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -1365,7 +1366,7 @@
     "kernelVersion": "v3-2026-10-19-1155-86ac7da",
     "kernelStamped": true,
     "installedAt": "2026-07-29T14:09:25.615Z",
-    "lastSeenAt": "2026-10-19T17:37:55.556Z",
+    "lastSeenAt": "2026-10-19T20:46:59.009Z",
     "settings": {
       "ai_model": "gemini-flash-latest",
       "ai_temperature": 1,
@@ -1394,7 +1395,7 @@
           "level": "high"
         }
       ],
-      "ai_allow_streaming": false,
+      "ai_allow_streaming": true,
       "ai_model_list": [
         "gemini-flash-latest",
         "gemini-flash-lite-latest"
@@ -1425,6 +1426,7 @@
       "auto_check_tools": true,
       "show_expand_pill": true,
       "language": "en",
+      "tool.eli_agent.td_wait_v2": true,
       "mascot.skinTone": "#ffdbb5",
       "mascot.hairColor": "#5c3317",
       "mascot.tieColor": "#c62828",
@@ -1503,7 +1505,7 @@
       },
       {
         "id": "ask_eli",
-        "releasedAt": "2026-10-19T00:36:44.768Z",
+        "releasedAt": "2026-10-19T20:11:58.724Z",
         "disabled": false
       },
       {
@@ -1588,7 +1590,7 @@
       },
       {
         "id": "eli_agent",
-        "releasedAt": "2026-10-19T16:13:14.179Z",
+        "releasedAt": "2026-10-19T19:44:52.211Z",
         "disabled": false
       },
       {
@@ -1698,7 +1700,7 @@
       },
       {
         "id": "polish",
-        "releasedAt": "2026-09-12T04:14:53.171Z",
+        "releasedAt": "2026-10-19T19:44:52.211Z",
         "disabled": false
       },
       {
@@ -1822,6 +1824,14 @@
       {
         "id": "owner-ai-timeout-300s-notice-2026-10-19",
         "at": 1792420426526
+      },
+      {
+        "id": "owner-td-wait-v2-2026-10-19",
+        "at": 1792433782153
+      },
+      {
+        "id": "owner-td-wait-v2-notice-2026-10-19",
+        "at": 1792433782153
       },
       {
         "id": "owner-thinking-cap-eli-agent-1024-2026-10-19",
