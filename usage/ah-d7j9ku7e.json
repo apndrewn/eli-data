@@ -1,18 +1,19 @@
 {
   "userName": "A(",
   "userKey": "ah",
-  "generatedAt": "2026-10-19T17:48:19.510Z",
+  "generatedAt": "2026-10-19T20:54:15.077Z",
   "days": [
     {
       "date": "2026-10-19",
       "toolsUsed": {
-        "agent_turn_draft": 107,
-        "agent_apply_instruction": 69,
-        "admin_fleet": 1
+        "agent_turn_draft": 156,
+        "agent_apply_instruction": 78,
+        "admin_fleet": 1,
+        "ask_eli": 3
       },
-      "sessions": 252,
+      "sessions": 325,
       "firstActiveAt": 1792383882603,
-      "lastActiveAt": 1792432094499,
+      "lastActiveAt": 1792443250056,
       "tokens": {
         "gemini-flash-latest": {
           "promptTokens": 570171,
@@ -54,10 +55,10 @@
   "fleet": {
     "userId": "AH-d7j9ku7e",
     "initials": "A(",
-    "kernelVersion": "v3-2026-10-19-0756-lab9491d56",
+    "kernelVersion": "v3-2026-10-19-1629-lab54dcd8c",
     "kernelStamped": false,
     "installedAt": "2026-10-19T04:24:47.770Z",
-    "lastSeenAt": "2026-10-19T17:48:19.750Z",
+    "lastSeenAt": "2026-10-19T20:54:15.292Z",
     "settings": {
       "ai_model": "gemini-flash-latest",
       "ai_temperature": 1,
@@ -86,7 +87,7 @@
           "level": "high"
         }
       ],
-      "ai_allow_streaming": true,
+      "ai_allow_streaming": false,
       "ai_model_list": [
         "gemini-flash-lite-latest",
         "gemini-flash-latest"
@@ -117,6 +118,7 @@
       "auto_check_tools": true,
       "show_expand_pill": true,
       "language": "en",
+      "tool.eli_agent.td_wait_v2": false,
       "mascot.skinTone": "#ffdbb5",
       "mascot.hairColor": "#5c3317",
       "mascot.tieColor": "#c62828",
@@ -130,8 +132,7 @@
       "ask_eli_followups": true,
       "ask_eli_citation_pins": true,
       "ask_eli_use_guidance": true,
-      "ask_eli_formatted_answers": "expressive",
-      "tool.eli_agent.td_wait_v2": false
+      "ask_eli_formatted_answers": "expressive"
     },
     "tools": [
       {
@@ -196,7 +197,7 @@
       },
       {
         "id": "ask_eli",
-        "releasedAt": "2026-10-19T14:30:31.121Z",
+        "releasedAt": "2026-10-19T20:10:59.763Z",
         "disabled": false
       },
       {
@@ -396,7 +397,7 @@
       },
       {
         "id": "polish",
-        "releasedAt": "2026-10-19T04:43:16.737Z",
+        "releasedAt": "2026-10-19T18:44:03.123Z",
         "disabled": false
       },
       {
@@ -501,7 +502,7 @@
       },
       {
         "id": "eli_agent",
-        "releasedAt": "2026-10-19T17:45:10.437Z",
+        "releasedAt": "2026-10-19T20:52:06.771Z",
         "disabled": false
       }
     ],
@@ -525,6 +526,14 @@
       {
         "id": "owner-ai-timeout-300s-notice-2026-10-19",
         "at": 1792420569152
+      },
+      {
+        "id": "owner-td-wait-v2-2026-10-19",
+        "at": 1792433731748
+      },
+      {
+        "id": "owner-td-wait-v2-notice-2026-10-19",
+        "at": 1792433731748
       },
       {
         "id": "owner-thinking-cap-eli-agent-1024-2026-10-19",
