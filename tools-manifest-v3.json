@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-10-19T06:04:31.664Z",
+  "lastUpdated": "2026-10-19T14:03:01.618Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -1235,6 +1235,24 @@
       ],
       "changelog": "",
       "encrypted": true
+    },
+    {
+      "id": "__data_eli_lab_snapshot",
+      "filename": "eli_lab_snapshot.enc.json",
+      "label": "ELI Lab — Bugs & Requests (read-only)",
+      "kind": "data",
+      "category": "Data",
+      "audience": [],
+      "audienceEmails": [
+        "andrew_nemiroff@colpal.com"
+      ],
+      "sections": [
+        "config"
+      ],
+      "encrypted": true,
+      "changelog": "",
+      "lastUpdated": "2026-10-19T14:03:01.618Z",
+      "size": 153665
     }
   ],
   "bundles": [
