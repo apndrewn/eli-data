@@ -1,7 +1,7 @@
 {
   "userName": "AR",
   "userKey": "ar",
-  "generatedAt": "2026-10-16T17:29:33.955Z",
+  "generatedAt": "2026-10-19T14:41:25.487Z",
   "days": [
     {
       "date": "2026-06-30",
@@ -2074,11 +2074,57 @@
     {
       "date": "2026-10-16",
       "toolsUsed": {
+        "draft": 3,
+        "error": 1
+      },
+      "sessions": 2,
+      "firstActiveAt": 1792171768550,
+      "lastActiveAt": 1792172395966,
+      "tokens": {
+        "gemini-flash-latest": {
+          "promptTokens": 18345,
+          "candidatesTokens": 9345,
+          "calls": 9
+        }
+      },
+      "tokensByTool": {
+        "draft": {
+          "gemini-flash-latest": {
+            "promptTokens": 7127,
+            "candidatesTokens": 4258,
+            "calls": 4
+          }
+        },
+        "_unknown": {
+          "gemini-flash-latest": {
+            "promptTokens": 3239,
+            "candidatesTokens": 2275,
+            "calls": 2
+          }
+        },
+        "error": {
+          "gemini-flash-latest": {
+            "promptTokens": 7979,
+            "candidatesTokens": 2812,
+            "calls": 3
+          }
+        }
+      },
+      "estCostUSD": 0.004179,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
+    },
+    {
+      "date": "2026-10-19",
+      "toolsUsed": {
         "draft": 1
       },
       "sessions": 1,
-      "firstActiveAt": 1792171768550,
-      "lastActiveAt": 1792171769189,
+      "firstActiveAt": 1792420876444,
+      "lastActiveAt": 1792420876819,
       "tokens": {},
       "tokensByTool": {},
       "estCostUSD": 0,
@@ -2095,7 +2141,7 @@
     "kernelVersion": "v3-2026-09-11-41b2733",
     "kernelStamped": true,
     "installedAt": "2026-06-30T18:29:18.400Z",
-    "lastSeenAt": "2026-10-16T17:29:34.935Z",
+    "lastSeenAt": "2026-10-19T14:41:26.859Z",
     "settings": {
       "ai_model": "gemini-flash-latest",
       "ai_temperature": 1,
@@ -2143,7 +2189,11 @@
       "mascot.glasses": "round",
       "mascot.suitColor": "#1565c0",
       "mascot.accessory": "none",
-      "ask_eli_redline_regen_enabled": true
+      "ask_eli_redline_regen_enabled": true,
+      "ask_eli_answer_length": "normal",
+      "ask_eli_followups": true,
+      "ask_eli_citation_pins": true,
+      "ask_eli_use_guidance": false
     },
     "tools": [
       {
@@ -2163,7 +2213,7 @@
       },
       {
         "id": "ask_eli",
-        "releasedAt": "2026-10-15T04:25:44.495Z",
+        "releasedAt": "2026-10-16T17:27:52.797Z",
         "disabled": false
       },
       {
@@ -2173,7 +2223,7 @@
       },
       {
         "id": "build_draft",
-        "releasedAt": "2026-10-14T06:15:16.257Z",
+        "releasedAt": "2026-10-16T03:44:07.260Z",
         "disabled": false
       },
       {
@@ -2183,7 +2233,7 @@
       },
       {
         "id": "dashboard_tour",
-        "releasedAt": "2026-09-11T15:03:10.114Z",
+        "releasedAt": "2026-10-16T17:01:26.259Z",
         "disabled": false
       },
       {
@@ -2233,7 +2283,7 @@
       },
       {
         "id": "eli_agent",
-        "releasedAt": "2026-09-30T02:16:22.385Z",
+        "releasedAt": "2026-10-16T14:41:09.705Z",
         "disabled": false
       },
       {
@@ -2253,7 +2303,7 @@
       },
       {
         "id": "eli_stats",
-        "releasedAt": "2026-10-14T06:38:39.072Z",
+        "releasedAt": "2026-10-16T16:26:24.452Z",
         "disabled": false
       },
       {
@@ -2288,7 +2338,7 @@
       },
       {
         "id": "legal_review",
-        "releasedAt": "2026-10-14T06:50:51.307Z",
+        "releasedAt": "2026-10-16T01:25:45.349Z",
         "disabled": false
       },
       {
@@ -2328,7 +2378,7 @@
       },
       {
         "id": "review_redlines",
-        "releasedAt": "2026-09-11T17:14:24.803Z",
+        "releasedAt": "2026-10-16T17:27:53.014Z",
         "disabled": false
       },
       {
@@ -2348,7 +2398,7 @@
       },
       {
         "id": "trophy_gallery",
-        "releasedAt": "2026-06-16T05:38:57.108Z",
+        "releasedAt": "2026-10-16T17:27:52.894Z",
         "disabled": false
       },
       {
@@ -2478,13 +2528,13 @@
       "t5": "2026-10-15T17:55:54.183Z"
     },
     "stats": {
-      "totalActiveDays": 51,
-      "docsReviewed": 81,
-      "draftsCreated": 53,
-      "errorsFixed": 197,
+      "totalActiveDays": 52,
+      "docsReviewed": 82,
+      "draftsCreated": 54,
+      "errorsFixed": 205,
       "risksFound": 23,
-      "hoursSaved": 40.5,
-      "currentStreak": 5
+      "hoursSaved": 41,
+      "currentStreak": 1
     },
     "dashboardApps": [
       "legal_review",
