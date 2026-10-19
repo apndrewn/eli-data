@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-10-19T14:03:01.618Z",
+  "lastUpdated": "2026-10-19T14:03:32.666Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -718,6 +718,21 @@
       "changelog": ""
     },
     {
+      "id": "eli_lab",
+      "version": null,
+      "lastUpdated": "2026-10-19T14:02:36.277Z",
+      "filename": "eli_lab-v3.json",
+      "size": 77067,
+      "label": "ELI Lab (admin)",
+      "kind": "tool",
+      "category": "Admin",
+      "audience": [],
+      "changelog": "",
+      "audienceEmails": [
+        "andrew_nemiroff@colpal.com"
+      ]
+    },
+    {
       "id": "eli_telemetry",
       "version": null,
       "lastUpdated": "2026-09-12T00:07:26.444Z",
@@ -1238,21 +1253,21 @@
     },
     {
       "id": "__data_eli_lab_snapshot",
+      "lastUpdated": "2026-10-19T14:03:01.618Z",
       "filename": "eli_lab_snapshot.enc.json",
+      "size": 153665,
       "label": "ELI Lab — Bugs & Requests (read-only)",
       "kind": "data",
       "category": "Data",
       "audience": [],
-      "audienceEmails": [
-        "andrew_nemiroff@colpal.com"
-      ],
       "sections": [
         "config"
       ],
-      "encrypted": true,
       "changelog": "",
-      "lastUpdated": "2026-10-19T14:03:01.618Z",
-      "size": 153665
+      "encrypted": true,
+      "audienceEmails": [
+        "andrew_nemiroff@colpal.com"
+      ]
     }
   ],
   "bundles": [
