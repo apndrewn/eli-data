@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-10-16T01:50:00.000Z",
+  "lastUpdated": "2026-10-19T14:32:51.618Z",
   "overrides": [
     {
       "id": "fleet-notice-MD-7z4e5kud-1781724707405",
@@ -206,6 +206,44 @@
         "all"
       ],
       "expiresAt": "2027-06-30T00:00:00.000Z"
+    },
+    {
+      "id": "owner-ai-timeout-300s-2026-10-19",
+      "audience": [],
+      "audienceEmails": [
+        "andrew_nemiroff@colpal.com"
+      ],
+      "expiresAt": "2026-12-31T00:00:00.000Z",
+      "pushedAt": "2026-10-19T14:32:51.618Z",
+      "pushedBy": "andrew_nemiroff@colpal.com",
+      "actions": [
+        {
+          "type": "set_setting",
+          "key": "ai_timeout_ms",
+          "value": 300000,
+          "force": "reset"
+        }
+      ]
+    },
+    {
+      "id": "owner-ai-timeout-300s-notice-2026-10-19",
+      "audience": [],
+      "audienceEmails": [
+        "andrew_nemiroff@colpal.com"
+      ],
+      "expiresAt": "2026-12-31T00:00:00.000Z",
+      "pushedAt": "2026-10-19T14:32:51.618Z",
+      "pushedBy": "andrew_nemiroff@colpal.com",
+      "dependsOnAppliedId": "owner-ai-timeout-300s-2026-10-19",
+      "actions": [
+        {
+          "type": "notice",
+          "title": "ELI update",
+          "requireAck": true,
+          "dismissLabel": "OK",
+          "html": "<p>The AI time limit is now <b>5 minutes</b> (was 2), so Turn the Draft can finish on long contracts. Nothing else changed.</p>"
+        }
+      ]
     }
   ]
 }
