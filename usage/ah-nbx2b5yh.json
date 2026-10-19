@@ -1,7 +1,7 @@
 {
   "userName": "A(",
   "userKey": "ah",
-  "generatedAt": "2026-10-19T03:04:59.291Z",
+  "generatedAt": "2026-10-19T06:05:16.447Z",
   "days": [
     {
       "date": "2026-09-11",
@@ -714,31 +714,31 @@
     {
       "date": "2026-10-18",
       "toolsUsed": {
-        "agent_turn_draft": 112,
+        "agent_turn_draft": 116,
         "demo": 4,
         "tour": 2,
-        "agent_apply_instruction": 47,
+        "agent_apply_instruction": 57,
         "draft_templates": 1,
         "draft": 1,
         "risk": 4,
         "ask_eli": 1
       },
-      "sessions": 197,
+      "sessions": 210,
       "firstActiveAt": 1792296394915,
-      "lastActiveAt": 1792379094284,
+      "lastActiveAt": 1792381251848,
       "tokens": {
         "gemini-flash-latest": {
-          "promptTokens": 5078665,
-          "candidatesTokens": 561002,
-          "calls": 723
+          "promptTokens": 5898718,
+          "candidatesTokens": 623080,
+          "calls": 843
         }
       },
       "tokensByTool": {
         "agent_turn_draft": {
           "gemini-flash-latest": {
-            "promptTokens": 2009055,
-            "candidatesTokens": 331644,
-            "calls": 349
+            "promptTokens": 2068298,
+            "candidatesTokens": 339691,
+            "calls": 357
           }
         },
         "_unknown": {
@@ -750,9 +750,9 @@
         },
         "agent_apply_instruction": {
           "gemini-flash-latest": {
-            "promptTokens": 2972692,
-            "candidatesTokens": 209547,
-            "calls": 365
+            "promptTokens": 3733502,
+            "candidatesTokens": 263578,
+            "calls": 477
           }
         },
         "risk": {
@@ -763,7 +763,22 @@
           }
         }
       },
-      "estCostUSD": 0.5492,
+      "estCostUSD": 0.629328,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
+    },
+    {
+      "date": "2026-10-19",
+      "toolsUsed": {},
+      "sessions": 11,
+      "firstActiveAt": 1792382689775,
+      "lastActiveAt": 1792389911431,
+      "tokens": {},
+      "tokensByTool": {},
+      "estCostUSD": 0,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -774,10 +789,10 @@
   "fleet": {
     "userId": "AH-nbx2b5yh",
     "initials": "A(",
-    "kernelVersion": "v3-2026-10-18-1443-f49d9f3",
+    "kernelVersion": "v3-2026-10-19-0603-c544e14",
     "kernelStamped": true,
     "installedAt": "2026-07-31T00:45:31.641Z",
-    "lastSeenAt": "2026-10-19T03:04:59.459Z",
+    "lastSeenAt": "2026-10-19T06:05:16.627Z",
     "settings": {
       "ai_model": "gemini-flash-latest",
       "ai_temperature": 1,
@@ -998,7 +1013,7 @@
       },
       {
         "id": "eli_agent",
-        "releasedAt": "2026-10-19T01:43:54.855Z",
+        "releasedAt": "2026-10-19T06:04:03.224Z",
         "disabled": false
       },
       {
@@ -1221,7 +1236,7 @@
         "at": 1789150130368
       }
     ],
-    "trophies": 27,
+    "trophies": 28,
     "trophyIds": [
       "t41",
       "t11",
@@ -1249,7 +1264,8 @@
       "t157",
       "t130",
       "t44",
-      "t17"
+      "t17",
+      "t172"
     ],
     "trophyDates": {
       "t41": "2026-07-29T14:09:45.278Z",
@@ -1279,16 +1295,17 @@
       "t130": "2026-10-16T20:59:01.637Z",
       "t44": "2026-10-18T03:53:38.372Z",
       "deal360": "2026-10-18T22:43:26.772Z",
-      "t17": "2026-10-18T22:46:02.878Z"
+      "t17": "2026-10-18T22:46:02.878Z",
+      "t172": "2026-10-19T04:04:50.333Z"
     },
     "stats": {
-      "totalActiveDays": 11,
+      "totalActiveDays": 12,
       "docsReviewed": 59,
       "draftsCreated": 5,
       "errorsFixed": 109,
       "risksFound": 51,
       "hoursSaved": 29.5,
-      "currentStreak": 6
+      "currentStreak": 7
     },
     "dashboardApps": [
       "legal_review",
