@@ -1,7 +1,7 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-10-16T19:48:53.124Z",
+  "generatedAt": "2026-10-19T12:56:58.433Z",
   "days": [
     {
       "date": "2026-07-29",
@@ -1285,9 +1285,9 @@
       "toolsUsed": {
         "ask_eli": 1
       },
-      "sessions": 4,
+      "sessions": 8,
       "firstActiveAt": 1792164650593,
-      "lastActiveAt": 1792180128118,
+      "lastActiveAt": 1792185784621,
       "tokens": {
         "gemini-flash-latest": {
           "promptTokens": 40464,
@@ -1317,6 +1317,21 @@
         "byTemplate": {},
         "total": 0
       }
+    },
+    {
+      "date": "2026-10-19",
+      "toolsUsed": {},
+      "sessions": 1,
+      "firstActiveAt": 1792414613428,
+      "lastActiveAt": 1792414613428,
+      "tokens": {},
+      "tokensByTool": {},
+      "estCostUSD": 0,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
     }
   ],
   "fleet": {
@@ -1325,7 +1340,7 @@
     "kernelVersion": "v3-2026-10-14-0609-9e24cfd",
     "kernelStamped": true,
     "installedAt": "2026-07-29T14:09:25.615Z",
-    "lastSeenAt": "2026-10-16T19:48:53.364Z",
+    "lastSeenAt": "2026-10-19T12:56:58.657Z",
     "settings": {
       "ai_model": "gemini-flash-latest",
       "ai_temperature": 1,
@@ -1442,7 +1457,7 @@
       },
       {
         "id": "ask_eli",
-        "releasedAt": "2026-10-16T14:41:09.580Z",
+        "releasedAt": "2026-10-16T21:10:38.281Z",
         "disabled": false
       },
       {
@@ -1477,7 +1492,7 @@
       },
       {
         "id": "dashboard_tour",
-        "releasedAt": "2026-09-11T15:03:10.114Z",
+        "releasedAt": "2026-10-16T17:01:26.259Z",
         "disabled": false
       },
       {
@@ -1547,7 +1562,7 @@
       },
       {
         "id": "eli_stats",
-        "releasedAt": "2026-10-16T01:14:17.233Z",
+        "releasedAt": "2026-10-16T16:26:24.452Z",
         "disabled": false
       },
       {
@@ -1562,7 +1577,7 @@
       },
       {
         "id": "error_review",
-        "releasedAt": "2026-10-15T04:15:27.664Z",
+        "releasedAt": "2026-10-16T21:03:06.375Z",
         "disabled": false
       },
       {
@@ -1572,7 +1587,7 @@
       },
       {
         "id": "final_review",
-        "releasedAt": "2026-06-15T00:45:23.746Z",
+        "releasedAt": "2026-10-16T17:27:53.120Z",
         "disabled": false
       },
       {
@@ -1602,7 +1617,7 @@
       },
       {
         "id": "legal_review",
-        "releasedAt": "2026-10-16T01:25:45.349Z",
+        "releasedAt": "2026-10-16T17:28:45.959Z",
         "disabled": false
       },
       {
@@ -1662,7 +1677,12 @@
       },
       {
         "id": "review_redlines",
-        "releasedAt": "2026-09-11T17:14:24.803Z",
+        "releasedAt": "2026-10-16T17:27:53.014Z",
+        "disabled": false
+      },
+      {
+        "id": "speed_check",
+        "releasedAt": "2026-10-16T20:17:00.367Z",
         "disabled": false
       },
       {
@@ -1707,7 +1727,7 @@
       },
       {
         "id": "trophy_gallery",
-        "releasedAt": "2026-06-16T05:38:57.108Z",
+        "releasedAt": "2026-10-16T17:27:52.894Z",
         "disabled": false
       },
       {
@@ -1749,7 +1769,7 @@
         "at": 1790259947597
       }
     ],
-    "trophies": 22,
+    "trophies": 23,
     "trophyIds": [
       "t41",
       "t11",
@@ -1772,7 +1792,8 @@
       "t169",
       "t174",
       "t183",
-      "t186"
+      "t186",
+      "t173"
     ],
     "trophyDates": {
       "t41": "2026-07-29T14:09:45.278Z",
@@ -1797,16 +1818,17 @@
       "t169": "2026-09-30T13:51:19.604Z",
       "t174": "2026-09-30T13:51:19.604Z",
       "t183": "2026-10-06T14:56:55.611Z",
-      "t186": "2026-10-07T20:33:31.398Z"
+      "t186": "2026-10-07T20:33:31.398Z",
+      "t173": "2026-10-19T12:56:54.353Z"
     },
     "stats": {
-      "totalActiveDays": 35,
+      "totalActiveDays": 36,
       "docsReviewed": 43,
       "draftsCreated": 17,
       "errorsFixed": 72,
       "risksFound": 14,
       "hoursSaved": 21.5,
-      "currentStreak": 5
+      "currentStreak": 1
     },
     "dashboardApps": [
       "auto_emailer",
