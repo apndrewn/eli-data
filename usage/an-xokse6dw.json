@@ -1,7 +1,7 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-10-19T12:56:58.433Z",
+  "generatedAt": "2026-10-19T17:37:55.243Z",
   "days": [
     {
       "date": "2026-07-29",
@@ -1320,13 +1320,38 @@
     },
     {
       "date": "2026-10-19",
-      "toolsUsed": {},
-      "sessions": 1,
+      "toolsUsed": {
+        "agent_turn_draft": 6,
+        "clause_diff_lab": 1,
+        "ask_eli": 1
+      },
+      "sessions": 13,
       "firstActiveAt": 1792414613428,
-      "lastActiveAt": 1792414613428,
-      "tokens": {},
-      "tokensByTool": {},
-      "estCostUSD": 0,
+      "lastActiveAt": 1792431470229,
+      "tokens": {
+        "gemini-flash-latest": {
+          "promptTokens": 242664,
+          "candidatesTokens": 109384,
+          "calls": 27
+        }
+      },
+      "tokensByTool": {
+        "agent_turn_draft": {
+          "gemini-flash-latest": {
+            "promptTokens": 197229,
+            "candidatesTokens": 108099,
+            "calls": 25
+          }
+        },
+        "ask_eli": {
+          "gemini-flash-latest": {
+            "promptTokens": 45435,
+            "candidatesTokens": 1285,
+            "calls": 2
+          }
+        }
+      },
+      "estCostUSD": 0.051015,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -1337,18 +1362,38 @@
   "fleet": {
     "userId": "AN-xokse6dw",
     "initials": "AN",
-    "kernelVersion": "v3-2026-10-14-0609-9e24cfd",
+    "kernelVersion": "v3-2026-10-19-1155-86ac7da",
     "kernelStamped": true,
     "installedAt": "2026-07-29T14:09:25.615Z",
-    "lastSeenAt": "2026-10-19T12:56:58.657Z",
+    "lastSeenAt": "2026-10-19T17:37:55.556Z",
     "settings": {
       "ai_model": "gemini-flash-latest",
       "ai_temperature": 1,
-      "ai_timeout_ms": 120000,
+      "ai_timeout_ms": 300000,
       "ai_thinking_budget": null,
       "ai_thinking_mode": "recommended",
       "ai_thinking_custom": 512,
-      "ai_thinking_per_tool": {},
+      "ai_thinking_per_tool": {
+        "eli_agent": 1024
+      },
+      "ai_thinking_format": "auto",
+      "ai_thinking_levels": [
+        {
+          "upTo": 0,
+          "level": "minimal"
+        },
+        {
+          "upTo": 1024,
+          "level": "low"
+        },
+        {
+          "upTo": 4096,
+          "level": "medium"
+        },
+        {
+          "level": "high"
+        }
+      ],
       "ai_allow_streaming": false,
       "ai_model_list": [
         "gemini-flash-latest",
@@ -1392,7 +1437,8 @@
       "ask_eli_answer_length": "normal",
       "ask_eli_followups": true,
       "ask_eli_citation_pins": true,
-      "ask_eli_use_guidance": true
+      "ask_eli_use_guidance": true,
+      "ask_eli_formatted_answers": "expressive"
     },
     "tools": [
       {
@@ -1457,7 +1503,7 @@
       },
       {
         "id": "ask_eli",
-        "releasedAt": "2026-10-16T21:10:38.281Z",
+        "releasedAt": "2026-10-19T00:36:44.768Z",
         "disabled": false
       },
       {
@@ -1542,12 +1588,17 @@
       },
       {
         "id": "eli_agent",
-        "releasedAt": "2026-10-16T14:41:09.705Z",
+        "releasedAt": "2026-10-19T16:13:14.179Z",
         "disabled": false
       },
       {
         "id": "eli_kit",
         "releasedAt": "2026-10-14T06:50:51.536Z",
+        "disabled": false
+      },
+      {
+        "id": "eli_lab",
+        "releasedAt": "2026-10-19T14:02:36.277Z",
         "disabled": false
       },
       {
@@ -1622,7 +1673,7 @@
       },
       {
         "id": "legal_risks",
-        "releasedAt": "2026-09-11T03:35:55.044Z",
+        "releasedAt": "2026-10-18T16:43:53.321Z",
         "disabled": false
       },
       {
@@ -1677,12 +1728,12 @@
       },
       {
         "id": "review_redlines",
-        "releasedAt": "2026-10-16T17:27:53.014Z",
+        "releasedAt": "2026-10-17T21:18:02.637Z",
         "disabled": false
       },
       {
         "id": "speed_check",
-        "releasedAt": "2026-10-16T20:17:00.367Z",
+        "releasedAt": "2026-10-16T22:11:37.660Z",
         "disabled": false
       },
       {
@@ -1692,7 +1743,7 @@
       },
       {
         "id": "team_guidance",
-        "releasedAt": "2026-09-11T15:02:45.767Z",
+        "releasedAt": "2026-10-18T05:11:57.293Z",
         "disabled": false
       },
       {
@@ -1753,12 +1804,32 @@
     ],
     "appliedOverrides": [
       {
+        "id": "fleet-ai-timeout-300s-2026-10-19",
+        "at": 1792431279186
+      },
+      {
         "id": "fleet-model-flash-latest-1789086280338",
         "at": 1789134175586
       },
       {
         "id": "fleet-temperature-1-gemini3-1791956006954",
         "at": 1791982678141
+      },
+      {
+        "id": "owner-ai-timeout-300s-2026-10-19",
+        "at": 1792420426526
+      },
+      {
+        "id": "owner-ai-timeout-300s-notice-2026-10-19",
+        "at": 1792420426526
+      },
+      {
+        "id": "owner-thinking-cap-eli-agent-1024-2026-10-19",
+        "at": 1792421699149
+      },
+      {
+        "id": "owner-thinking-cap-eli-agent-notice-2026-10-19",
+        "at": 1792421699149
       },
       {
         "id": "release-notes-2026-09-11",
