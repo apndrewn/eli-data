@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-10-19T14:32:51.618Z",
+  "lastUpdated": "2026-10-19T14:51:32.048Z",
   "overrides": [
     {
       "id": "fleet-notice-MD-7z4e5kud-1781724707405",
@@ -242,6 +242,46 @@
           "requireAck": true,
           "dismissLabel": "OK",
           "html": "<p>The AI time limit is now <b>5 minutes</b> (was 2), so Turn the Draft can finish on long contracts. Nothing else changed.</p>"
+        }
+      ]
+    },
+    {
+      "id": "owner-thinking-cap-eli-agent-1024-2026-10-19",
+      "audience": [],
+      "audienceEmails": [
+        "andrew_nemiroff@colpal.com"
+      ],
+      "expiresAt": "2026-12-31T00:00:00.000Z",
+      "pushedAt": "2026-10-19T14:51:32.048Z",
+      "pushedBy": "andrew_nemiroff@colpal.com",
+      "actions": [
+        {
+          "type": "set_setting",
+          "key": "ai_thinking_per_tool",
+          "value": {
+            "eli_agent": 1024
+          },
+          "force": "reset"
+        }
+      ]
+    },
+    {
+      "id": "owner-thinking-cap-eli-agent-notice-2026-10-19",
+      "audience": [],
+      "audienceEmails": [
+        "andrew_nemiroff@colpal.com"
+      ],
+      "expiresAt": "2026-12-31T00:00:00.000Z",
+      "pushedAt": "2026-10-19T14:51:32.048Z",
+      "pushedBy": "andrew_nemiroff@colpal.com",
+      "dependsOnAppliedId": "owner-thinking-cap-eli-agent-1024-2026-10-19",
+      "actions": [
+        {
+          "type": "notice",
+          "title": "ELI update",
+          "requireAck": true,
+          "dismissLabel": "OK",
+          "html": "<p>Turn the Draft and Revise now think a little less, so they answer about a quarter faster (once ELI Agent's update is installed). Nothing else changed.</p>"
         }
       ]
     }
