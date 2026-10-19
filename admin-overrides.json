@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-10-19T17:20:45.113Z",
+  "lastUpdated": "2026-10-19T18:14:41.717Z",
   "overrides": [
     {
       "id": "fleet-notice-MD-7z4e5kud-1781724707405",
@@ -298,6 +298,50 @@
           "key": "ai_timeout_ms",
           "value": 300000,
           "force": false
+        }
+      ]
+    },
+    {
+      "id": "owner-td-wait-v2-2026-10-19",
+      "audience": [],
+      "audienceEmails": [
+        "andrew_nemiroff@colpal.com"
+      ],
+      "expiresAt": "2026-12-31T00:00:00.000Z",
+      "pushedAt": "2026-10-19T18:14:41.717Z",
+      "pushedBy": "andrew_nemiroff@colpal.com",
+      "actions": [
+        {
+          "type": "set_setting",
+          "key": "tool.eli_agent.td_wait_v2",
+          "value": true,
+          "force": "reset"
+        },
+        {
+          "type": "set_setting",
+          "key": "ai_allow_streaming",
+          "value": true,
+          "force": "reset"
+        }
+      ]
+    },
+    {
+      "id": "owner-td-wait-v2-notice-2026-10-19",
+      "audience": [],
+      "audienceEmails": [
+        "andrew_nemiroff@colpal.com"
+      ],
+      "expiresAt": "2026-12-31T00:00:00.000Z",
+      "pushedAt": "2026-10-19T18:14:41.717Z",
+      "pushedBy": "andrew_nemiroff@colpal.com",
+      "dependsOnAppliedId": "owner-td-wait-v2-2026-10-19",
+      "actions": [
+        {
+          "type": "notice",
+          "title": "ELI update",
+          "requireAck": true,
+          "dismissLabel": "OK",
+          "html": "<p>The new <b>Turn the Draft</b> wait screen is on for you: each decision appears the moment it is made, and the screen stays in view while they come in. Only you have it for now.</p>"
         }
       ]
     }
