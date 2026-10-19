@@ -1,39 +1,39 @@
 {
   "userName": "A(",
   "userKey": "ah",
-  "generatedAt": "2026-10-19T20:54:15.077Z",
+  "generatedAt": "2026-10-19T23:55:33.701Z",
   "days": [
     {
       "date": "2026-10-19",
       "toolsUsed": {
-        "agent_turn_draft": 156,
-        "agent_apply_instruction": 78,
+        "agent_turn_draft": 247,
+        "agent_apply_instruction": 103,
         "admin_fleet": 1,
         "ask_eli": 3
       },
-      "sessions": 325,
+      "sessions": 459,
       "firstActiveAt": 1792383882603,
-      "lastActiveAt": 1792443250056,
+      "lastActiveAt": 1792454128681,
       "tokens": {
         "gemini-flash-latest": {
-          "promptTokens": 570171,
-          "candidatesTokens": 68414,
-          "calls": 118
+          "promptTokens": 677584,
+          "candidatesTokens": 86545,
+          "calls": 135
         }
       },
       "tokensByTool": {
         "agent_turn_draft": {
           "gemini-flash-latest": {
-            "promptTokens": 271938,
-            "candidatesTokens": 46034,
-            "calls": 38
+            "promptTokens": 378736,
+            "candidatesTokens": 64046,
+            "calls": 54
           }
         },
         "agent_apply_instruction": {
           "gemini-flash-latest": {
-            "promptTokens": 290229,
-            "candidatesTokens": 22348,
-            "calls": 79
+            "promptTokens": 290844,
+            "candidatesTokens": 22467,
+            "calls": 80
           }
         },
         "_unknown": {
@@ -44,7 +44,7 @@
           }
         }
       },
-      "estCostUSD": 0.063287,
+      "estCostUSD": 0.076782,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -58,7 +58,7 @@
     "kernelVersion": "v3-2026-10-19-1629-lab54dcd8c",
     "kernelStamped": false,
     "installedAt": "2026-10-19T04:24:47.770Z",
-    "lastSeenAt": "2026-10-19T20:54:15.292Z",
+    "lastSeenAt": "2026-10-19T23:55:33.922Z",
     "settings": {
       "ai_model": "gemini-flash-latest",
       "ai_temperature": 1,
@@ -291,6 +291,11 @@
         "disabled": false
       },
       {
+        "id": "eli_agent",
+        "releasedAt": "2026-10-19T23:39:10.174Z",
+        "disabled": false
+      },
+      {
         "id": "eli_kit",
         "releasedAt": "2026-10-19T04:43:16.239Z",
         "disabled": false
@@ -407,7 +412,7 @@
       },
       {
         "id": "redline_authors",
-        "releasedAt": "2026-10-19T04:43:16.908Z",
+        "releasedAt": "2026-10-19T21:38:25.388Z",
         "disabled": false
       },
       {
@@ -498,11 +503,6 @@
       {
         "id": "workflow_creator",
         "releasedAt": "2026-10-19T04:43:17.601Z",
-        "disabled": false
-      },
-      {
-        "id": "eli_agent",
-        "releasedAt": "2026-10-19T20:52:06.771Z",
         "disabled": false
       }
     ],
