@@ -1,23 +1,23 @@
 {
   "userName": "A(",
   "userKey": "ah",
-  "generatedAt": "2026-10-19T11:34:03.440Z",
+  "generatedAt": "2026-10-19T14:36:10.967Z",
   "days": [
     {
       "date": "2026-10-19",
       "toolsUsed": {
-        "agent_turn_draft": 28,
-        "agent_apply_instruction": 11,
+        "agent_turn_draft": 48,
+        "agent_apply_instruction": 33,
         "admin_fleet": 1
       },
-      "sessions": 71,
+      "sessions": 122,
       "firstActiveAt": 1792383882603,
-      "lastActiveAt": 1792409638490,
+      "lastActiveAt": 1792420565960,
       "tokens": {
         "gemini-flash-latest": {
-          "promptTokens": 172048,
-          "candidatesTokens": 25358,
-          "calls": 30
+          "promptTokens": 361582,
+          "candidatesTokens": 38668,
+          "calls": 85
         }
       },
       "tokensByTool": {
@@ -30,13 +30,13 @@
         },
         "agent_apply_instruction": {
           "gemini-flash-latest": {
-            "promptTokens": 51140,
-            "candidatesTokens": 6476,
-            "calls": 13
+            "promptTokens": 240674,
+            "candidatesTokens": 19786,
+            "calls": 68
           }
         }
       },
-      "estCostUSD": 0.020511,
+      "estCostUSD": 0.038719,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -47,14 +47,14 @@
   "fleet": {
     "userId": "AH-d7j9ku7e",
     "initials": "A(",
-    "kernelVersion": "v3-2026-10-19-0150-lab0a9d3c2",
+    "kernelVersion": "v3-2026-10-19-0756-lab9491d56",
     "kernelStamped": false,
     "installedAt": "2026-10-19T04:24:47.770Z",
-    "lastSeenAt": "2026-10-19T11:34:03.583Z",
+    "lastSeenAt": "2026-10-19T14:36:11.158Z",
     "settings": {
       "ai_model": "gemini-flash-latest",
       "ai_temperature": 1,
-      "ai_timeout_ms": 120000,
+      "ai_timeout_ms": 300000,
       "ai_thinking_budget": 0,
       "ai_thinking_mode": "recommended",
       "ai_thinking_custom": 512,
@@ -186,7 +186,7 @@
       },
       {
         "id": "ask_eli",
-        "releasedAt": "2026-10-19T04:44:29.876Z",
+        "releasedAt": "2026-10-19T14:30:31.121Z",
         "disabled": false
       },
       {
@@ -281,7 +281,7 @@
       },
       {
         "id": "eli_agent",
-        "releasedAt": "2026-10-19T06:57:39.715Z",
+        "releasedAt": "2026-10-19T14:35:31.277Z",
         "disabled": false
       },
       {
@@ -291,7 +291,7 @@
       },
       {
         "id": "eli_lab",
-        "releasedAt": "2026-10-19T06:13:07.686Z",
+        "releasedAt": "2026-10-19T12:59:35.227Z",
         "disabled": false
       },
       {
@@ -503,6 +503,14 @@
       {
         "id": "fleet-temperature-1-gemini3-1791956006954",
         "at": 1792383885493
+      },
+      {
+        "id": "owner-ai-timeout-300s-2026-10-19",
+        "at": 1792420569152
+      },
+      {
+        "id": "owner-ai-timeout-300s-notice-2026-10-19",
+        "at": 1792420569152
       },
       {
         "id": "release-notes-off-1789139158421",
