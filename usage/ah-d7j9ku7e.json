@@ -1,7 +1,7 @@
 {
   "userName": "A(",
   "userKey": "ah",
-  "generatedAt": "2026-10-20T11:54:10.591Z",
+  "generatedAt": "2026-10-20T15:18:13.743Z",
   "days": [
     {
       "date": "2026-10-19",
@@ -54,12 +54,12 @@
     {
       "date": "2026-10-20",
       "toolsUsed": {
-        "agent_turn_draft": 16,
+        "agent_turn_draft": 25,
         "agent_apply_instruction": 8
       },
-      "sessions": 28,
+      "sessions": 82,
       "firstActiveAt": 1792482199912,
-      "lastActiveAt": 1792497245566,
+      "lastActiveAt": 1792509493503,
       "tokens": {
         "gemini-flash-latest": {
           "promptTokens": 69422,
@@ -90,7 +90,7 @@
     "kernelVersion": "v3-2026-10-19-1629-lab54dcd8c",
     "kernelStamped": false,
     "installedAt": "2026-10-19T04:24:47.770Z",
-    "lastSeenAt": "2026-10-20T11:54:10.811Z",
+    "lastSeenAt": "2026-10-20T15:18:13.977Z",
     "settings": {
       "ai_model": "gemini-flash-latest",
       "ai_temperature": 1,
@@ -151,9 +151,8 @@
       "show_expand_pill": true,
       "language": "en",
       "tool.eli_agent.td_wait_v2": false,
-      "tool.eli_agent.td_email_handoff": false,
-      "tool.eli_agent.precedent_prompt": false,
-      "tool.eli_agent.home_respond": false,
+      "tool.eli_agent.td_email_handoff": true,
+      "tool.eli_agent.precedent_prompt": true,
       "mascot.skinTone": "#ffdbb5",
       "mascot.hairColor": "#5c3317",
       "mascot.tieColor": "#c62828",
@@ -167,7 +166,8 @@
       "ask_eli_followups": true,
       "ask_eli_citation_pins": true,
       "ask_eli_use_guidance": true,
-      "ask_eli_formatted_answers": "expressive"
+      "ask_eli_formatted_answers": "expressive",
+      "tool.ask_eli.respond_all": true
     },
     "tools": [
       {
@@ -232,7 +232,7 @@
       },
       {
         "id": "ask_eli",
-        "releasedAt": "2026-10-20T06:37:49.473Z",
+        "releasedAt": "2026-10-20T14:12:41.399Z",
         "disabled": false
       },
       {
@@ -323,6 +323,11 @@
       {
         "id": "eli5",
         "releasedAt": "2026-10-19T04:43:16.239Z",
+        "disabled": false
+      },
+      {
+        "id": "eli_agent",
+        "releasedAt": "2026-10-20T14:52:05.287Z",
         "disabled": false
       },
       {
@@ -539,11 +544,6 @@
         "id": "workflow_creator",
         "releasedAt": "2026-10-19T04:43:17.601Z",
         "disabled": false
-      },
-      {
-        "id": "eli_agent",
-        "releasedAt": "2026-10-20T11:54:02.993Z",
-        "disabled": false
       }
     ],
     "appliedOverrides": [
@@ -578,6 +578,14 @@
       {
         "id": "owner-ai-timeout-300s-notice-2026-10-19",
         "at": 1792420569152
+      },
+      {
+        "id": "owner-a[REDACTED:openai_key]",
+        "at": 1792506690138
+      },
+      {
+        "id": "owner-held-switches-on-2026-10-20",
+        "at": 1792499985743
       },
       {
         "id": "owner-td-wait-v2-2026-10-19",
