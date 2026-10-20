@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "version": "v3-2026-09-11-41b2733",
-  "builtAt": "2026-09-11T17:38:32.376Z",
-  "bytes": 416419,
+  "version": "v3-2026-10-19-2030-4faf89a",
+  "builtAt": "2026-10-20T06:19:27.240Z",
+  "bytes": 451998,
   "importUrl": "https://gist.githubusercontent.com/apndrewn/28adbedd9418861f85a22e45634641fa/raw/",
-  "notes": "Error Review can now undo a fix and re-locate it after applying. Polish keeps bold, italics and underline. New Thinking Depth control in Settings.",
+  "notes": "Spaces kept beside (a)/(b) markers; edits never write outside the clause meant; tracked changes and comments are never erased; headings keep their own formatting; agreement types read from the title; a clearer message when the AI is slow.",
   "adminContacts": [
     {
       "name": "Andrew Nemiroff",
