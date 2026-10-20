@@ -1,7 +1,7 @@
 {
   "userName": "A(",
   "userKey": "ah",
-  "generatedAt": "2026-10-20T07:43:24.929Z",
+  "generatedAt": "2026-10-20T11:54:10.591Z",
   "days": [
     {
       "date": "2026-10-19",
@@ -53,13 +53,30 @@
     },
     {
       "date": "2026-10-20",
-      "toolsUsed": {},
-      "sessions": 1,
+      "toolsUsed": {
+        "agent_turn_draft": 16,
+        "agent_apply_instruction": 8
+      },
+      "sessions": 28,
       "firstActiveAt": 1792482199912,
-      "lastActiveAt": 1792482199912,
-      "tokens": {},
-      "tokensByTool": {},
-      "estCostUSD": 0,
+      "lastActiveAt": 1792497245566,
+      "tokens": {
+        "gemini-flash-latest": {
+          "promptTokens": 69422,
+          "candidatesTokens": 8114,
+          "calls": 5
+        }
+      },
+      "tokensByTool": {
+        "agent_turn_draft": {
+          "gemini-flash-latest": {
+            "promptTokens": 69422,
+            "candidatesTokens": 8114,
+            "calls": 5
+          }
+        }
+      },
+      "estCostUSD": 0.007641,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -73,7 +90,7 @@
     "kernelVersion": "v3-2026-10-19-1629-lab54dcd8c",
     "kernelStamped": false,
     "installedAt": "2026-10-19T04:24:47.770Z",
-    "lastSeenAt": "2026-10-20T07:43:25.166Z",
+    "lastSeenAt": "2026-10-20T11:54:10.811Z",
     "settings": {
       "ai_model": "gemini-flash-latest",
       "ai_temperature": 1,
@@ -135,6 +152,7 @@
       "language": "en",
       "tool.eli_agent.td_wait_v2": false,
       "tool.eli_agent.td_email_handoff": false,
+      "tool.eli_agent.precedent_prompt": false,
       "tool.eli_agent.home_respond": false,
       "mascot.skinTone": "#ffdbb5",
       "mascot.hairColor": "#5c3317",
@@ -308,11 +326,6 @@
         "disabled": false
       },
       {
-        "id": "eli_agent",
-        "releasedAt": "2026-10-20T07:42:32.360Z",
-        "disabled": false
-      },
-      {
         "id": "eli_kit",
         "releasedAt": "2026-10-19T04:43:16.239Z",
         "disabled": false
@@ -424,7 +437,7 @@
       },
       {
         "id": "precedents",
-        "releasedAt": "2026-10-20T04:13:04.567Z",
+        "releasedAt": "2026-10-20T07:56:30.623Z",
         "disabled": false
       },
       {
@@ -525,6 +538,11 @@
       {
         "id": "workflow_creator",
         "releasedAt": "2026-10-19T04:43:17.601Z",
+        "disabled": false
+      },
+      {
+        "id": "eli_agent",
+        "releasedAt": "2026-10-20T11:54:02.993Z",
         "disabled": false
       }
     ],
