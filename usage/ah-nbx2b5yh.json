@@ -1,7 +1,7 @@
 {
   "userName": "A(",
   "userKey": "ah",
-  "generatedAt": "2026-10-20T04:47:29.365Z",
+  "generatedAt": "2026-10-20T14:46:45.274Z",
   "days": [
     {
       "date": "2026-09-11",
@@ -821,36 +821,38 @@
     {
       "date": "2026-10-20",
       "toolsUsed": {
-        "agent_turn_draft": 1,
-        "ask_eli": 1
+        "agent_turn_draft": 13,
+        "ask_eli": 5,
+        "demo": 2,
+        "tour": 1
       },
-      "sessions": 5,
+      "sessions": 34,
       "firstActiveAt": 1792469381531,
-      "lastActiveAt": 1792471644290,
+      "lastActiveAt": 1792507600251,
       "tokens": {
         "gemini-flash-latest": {
-          "promptTokens": 26050,
-          "candidatesTokens": 3965,
-          "calls": 7
+          "promptTokens": 560470,
+          "candidatesTokens": 53088,
+          "calls": 69
         }
       },
       "tokensByTool": {
         "agent_turn_draft": {
           "gemini-flash-latest": {
-            "promptTokens": 25341,
-            "candidatesTokens": 3846,
-            "calls": 6
+            "promptTokens": 557410,
+            "candidatesTokens": 52752,
+            "calls": 65
           }
         },
         "ask_eli": {
           "gemini-flash-latest": {
-            "promptTokens": 709,
-            "candidatesTokens": 119,
-            "calls": 1
+            "promptTokens": 3060,
+            "candidatesTokens": 336,
+            "calls": 4
           }
         }
       },
-      "estCostUSD": 0.003143,
+      "estCostUSD": 0.057962,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -861,10 +863,10 @@
   "fleet": {
     "userId": "AH-nbx2b5yh",
     "initials": "A(",
-    "kernelVersion": "v3-2026-10-19-0603-c544e14",
+    "kernelVersion": "v3-2026-10-19-2030-4faf89a",
     "kernelStamped": true,
     "installedAt": "2026-07-31T00:45:31.641Z",
-    "lastSeenAt": "2026-10-20T04:47:29.593Z",
+    "lastSeenAt": "2026-10-20T14:46:45.466Z",
     "settings": {
       "ai_model": "gemini-flash-latest",
       "ai_temperature": 1,
@@ -1088,7 +1090,7 @@
       },
       {
         "id": "eli_agent",
-        "releasedAt": "2026-10-20T04:07:13.432Z",
+        "releasedAt": "2026-10-20T06:09:20.033Z",
         "disabled": false
       },
       {
@@ -1248,7 +1250,7 @@
       },
       {
         "id": "team_guidance",
-        "releasedAt": "2026-10-18T05:11:57.293Z",
+        "releasedAt": "2026-10-20T05:49:42.437Z",
         "disabled": false
       },
       {
