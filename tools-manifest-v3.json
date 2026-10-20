@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-10-20T12:20:54.999Z",
+  "lastUpdated": "2026-10-20T12:23:23.163Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -1058,9 +1058,9 @@
     {
       "id": "precedents",
       "version": null,
-      "lastUpdated": "2026-10-20T04:16:05.737Z",
+      "lastUpdated": "2026-10-20T08:03:11.275Z",
       "filename": "precedents-v3.json",
-      "size": 66998,
+      "size": 81739,
       "label": "Precedents",
       "kind": "tool",
       "category": "Admin",
