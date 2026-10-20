@@ -1,32 +1,32 @@
 {
   "userName": "A(",
   "userKey": "ah",
-  "generatedAt": "2026-10-19T23:55:33.701Z",
+  "generatedAt": "2026-10-20T03:01:29.223Z",
   "days": [
     {
       "date": "2026-10-19",
       "toolsUsed": {
-        "agent_turn_draft": 247,
-        "agent_apply_instruction": 103,
+        "agent_turn_draft": 317,
+        "agent_apply_instruction": 107,
         "admin_fleet": 1,
         "ask_eli": 3
       },
-      "sessions": 459,
+      "sessions": 547,
       "firstActiveAt": 1792383882603,
-      "lastActiveAt": 1792454128681,
+      "lastActiveAt": 1792465288469,
       "tokens": {
         "gemini-flash-latest": {
-          "promptTokens": 677584,
-          "candidatesTokens": 86545,
-          "calls": 135
+          "promptTokens": 733503,
+          "candidatesTokens": 92561,
+          "calls": 147
         }
       },
       "tokensByTool": {
         "agent_turn_draft": {
           "gemini-flash-latest": {
-            "promptTokens": 378736,
-            "candidatesTokens": 64046,
-            "calls": 54
+            "promptTokens": 434655,
+            "candidatesTokens": 70062,
+            "calls": 66
           }
         },
         "agent_apply_instruction": {
@@ -44,7 +44,7 @@
           }
         }
       },
-      "estCostUSD": 0.076782,
+      "estCostUSD": 0.082781,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -58,7 +58,7 @@
     "kernelVersion": "v3-2026-10-19-1629-lab54dcd8c",
     "kernelStamped": false,
     "installedAt": "2026-10-19T04:24:47.770Z",
-    "lastSeenAt": "2026-10-19T23:55:33.922Z",
+    "lastSeenAt": "2026-10-20T03:01:29.426Z",
     "settings": {
       "ai_model": "gemini-flash-latest",
       "ai_temperature": 1,
@@ -291,11 +291,6 @@
         "disabled": false
       },
       {
-        "id": "eli_agent",
-        "releasedAt": "2026-10-19T23:39:10.174Z",
-        "disabled": false
-      },
-      {
         "id": "eli_kit",
         "releasedAt": "2026-10-19T04:43:16.239Z",
         "disabled": false
@@ -412,7 +407,7 @@
       },
       {
         "id": "redline_authors",
-        "releasedAt": "2026-10-19T21:38:25.388Z",
+        "releasedAt": "2026-10-20T02:28:28.348Z",
         "disabled": false
       },
       {
@@ -437,7 +432,7 @@
       },
       {
         "id": "speed_check",
-        "releasedAt": "2026-10-19T04:43:16.955Z",
+        "releasedAt": "2026-10-20T00:09:10.567Z",
         "disabled": false
       },
       {
@@ -504,9 +499,18 @@
         "id": "workflow_creator",
         "releasedAt": "2026-10-19T04:43:17.601Z",
         "disabled": false
+      },
+      {
+        "id": "eli_agent",
+        "releasedAt": "2026-10-20T02:55:38.523Z",
+        "disabled": false
       }
     ],
     "appliedOverrides": [
+      {
+        "id": "fleet-ai-streaming-2026-10-20",
+        "at": 1792461508745
+      },
       {
         "id": "fleet-ai-timeout-300s-2026-10-19",
         "at": 1792431129113
@@ -516,8 +520,16 @@
         "at": 1792383885493
       },
       {
+        "id": "fleet-td-wait-v2-2026-10-20",
+        "at": 1792461508745
+      },
+      {
         "id": "fleet-temperature-1-gemini3-1791956006954",
         "at": 1792383885493
+      },
+      {
+        "id": "fleet-thinking-cap-eli-agent-1024-2026-10-20",
+        "at": 1792461508745
       },
       {
         "id": "owner-ai-timeout-300s-2026-10-19",
