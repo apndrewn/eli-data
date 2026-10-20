@@ -1,7 +1,7 @@
 {
   "userName": "AR",
   "userKey": "ar",
-  "generatedAt": "2026-10-19T14:41:25.487Z",
+  "generatedAt": "2026-10-20T19:18:24.968Z",
   "days": [
     {
       "date": "2026-06-30",
@@ -2120,11 +2120,59 @@
     {
       "date": "2026-10-19",
       "toolsUsed": {
-        "draft": 1
+        "draft": 2,
+        "mascot_studio": 1,
+        "ask_dock": 1,
+        "error": 1
       },
       "sessions": 1,
       "firstActiveAt": 1792420876444,
-      "lastActiveAt": 1792420876819,
+      "lastActiveAt": 1792422004742,
+      "tokens": {
+        "gemini-flash-latest": {
+          "promptTokens": 15350,
+          "candidatesTokens": 12125,
+          "calls": 5
+        }
+      },
+      "tokensByTool": {
+        "draft": {
+          "gemini-flash-latest": {
+            "promptTokens": 2310,
+            "candidatesTokens": 1265,
+            "calls": 1
+          }
+        },
+        "ask_dock": {
+          "gemini-flash-latest": {
+            "promptTokens": 7729,
+            "candidatesTokens": 9878,
+            "calls": 2
+          }
+        },
+        "error": {
+          "gemini-flash-latest": {
+            "promptTokens": 5311,
+            "candidatesTokens": 982,
+            "calls": 2
+          }
+        }
+      },
+      "estCostUSD": 0.004789,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
+    },
+    {
+      "date": "2026-10-20",
+      "toolsUsed": {
+        "draft": 1
+      },
+      "sessions": 1,
+      "firstActiveAt": 1792523899954,
+      "lastActiveAt": 1792523900507,
       "tokens": {},
       "tokensByTool": {},
       "estCostUSD": 0,
@@ -2141,16 +2189,18 @@
     "kernelVersion": "v3-2026-09-11-41b2733",
     "kernelStamped": true,
     "installedAt": "2026-06-30T18:29:18.400Z",
-    "lastSeenAt": "2026-10-19T14:41:26.859Z",
+    "lastSeenAt": "2026-10-20T19:18:25.435Z",
     "settings": {
       "ai_model": "gemini-flash-latest",
       "ai_temperature": 1,
-      "ai_timeout_ms": 120000,
+      "ai_timeout_ms": 300000,
       "ai_thinking_budget": null,
       "ai_thinking_mode": "recommended",
       "ai_thinking_custom": 512,
-      "ai_thinking_per_tool": {},
-      "ai_allow_streaming": false,
+      "ai_thinking_per_tool": {
+        "eli_agent": 1024
+      },
+      "ai_allow_streaming": true,
       "ai_model_list": [
         "gemini-flash-latest",
         "gemini-flash-lite-latest"
@@ -2181,10 +2231,10 @@
       "auto_check_tools": true,
       "show_expand_pill": true,
       "language": "en",
-      "mascot.skinTone": "#ffdbb5",
-      "mascot.hairColor": "#5c3317",
-      "mascot.tieColor": "#c62828",
-      "mascot.hairStyle": "professional",
+      "mascot.skinTone": "#a06d44",
+      "mascot.hairColor": "#2d3748",
+      "mascot.tieColor": "#c9a227",
+      "mascot.hairStyle": "bun",
       "mascot.facialHair": "none",
       "mascot.glasses": "round",
       "mascot.suitColor": "#1565c0",
@@ -2193,7 +2243,8 @@
       "ask_eli_answer_length": "normal",
       "ask_eli_followups": true,
       "ask_eli_citation_pins": true,
-      "ask_eli_use_guidance": false
+      "ask_eli_use_guidance": true,
+      "ask_eli_formatted_answers": "expressive"
     },
     "tools": [
       {
@@ -2213,7 +2264,7 @@
       },
       {
         "id": "ask_eli",
-        "releasedAt": "2026-10-16T17:27:52.797Z",
+        "releasedAt": "2026-10-19T00:36:44.768Z",
         "disabled": false
       },
       {
@@ -2283,7 +2334,7 @@
       },
       {
         "id": "eli_agent",
-        "releasedAt": "2026-10-16T14:41:09.705Z",
+        "releasedAt": "2026-10-19T06:04:03.224Z",
         "disabled": false
       },
       {
@@ -2318,12 +2369,12 @@
       },
       {
         "id": "error_review",
-        "releasedAt": "2026-10-15T04:15:27.664Z",
+        "releasedAt": "2026-10-16T21:03:06.375Z",
         "disabled": false
       },
       {
         "id": "final_review",
-        "releasedAt": "2026-06-15T00:45:23.746Z",
+        "releasedAt": "2026-10-16T17:27:53.120Z",
         "disabled": false
       },
       {
@@ -2338,12 +2389,12 @@
       },
       {
         "id": "legal_review",
-        "releasedAt": "2026-10-16T01:25:45.349Z",
+        "releasedAt": "2026-10-16T17:28:45.959Z",
         "disabled": false
       },
       {
         "id": "legal_risks",
-        "releasedAt": "2026-09-11T03:35:55.044Z",
+        "releasedAt": "2026-10-18T16:43:53.321Z",
         "disabled": false
       },
       {
@@ -2378,12 +2429,12 @@
       },
       {
         "id": "review_redlines",
-        "releasedAt": "2026-10-16T17:27:53.014Z",
+        "releasedAt": "2026-10-17T21:18:02.637Z",
         "disabled": false
       },
       {
         "id": "team_guidance",
-        "releasedAt": "2026-09-11T15:02:45.767Z",
+        "releasedAt": "2026-10-18T05:11:57.293Z",
         "disabled": false
       },
       {
@@ -2419,12 +2470,24 @@
     ],
     "appliedOverrides": [
       {
+        "id": "fleet-ai-streaming-2026-10-20",
+        "at": 1792523904496
+      },
+      {
+        "id": "fleet-ai-timeout-300s-2026-10-19",
+        "at": 1792523904496
+      },
+      {
         "id": "fleet-model-flash-latest-1789086280338",
         "at": 1789396014967
       },
       {
         "id": "fleet-temperature-1-gemini3-1791956006954",
         "at": 1791984245862
+      },
+      {
+        "id": "fleet-thinking-cap-eli-agent-1024-2026-10-20",
+        "at": 1792523904496
       },
       {
         "id": "release-notes-off-1789139158421",
@@ -2528,13 +2591,13 @@
       "t5": "2026-10-15T17:55:54.183Z"
     },
     "stats": {
-      "totalActiveDays": 52,
-      "docsReviewed": 82,
-      "draftsCreated": 54,
-      "errorsFixed": 205,
+      "totalActiveDays": 53,
+      "docsReviewed": 83,
+      "draftsCreated": 55,
+      "errorsFixed": 206,
       "risksFound": 23,
-      "hoursSaved": 41,
-      "currentStreak": 1
+      "hoursSaved": 41.5,
+      "currentStreak": 2
     },
     "dashboardApps": [
       "legal_review",
