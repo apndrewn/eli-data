@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-10-20T16:29:39.515Z",
+  "lastUpdated": "2026-10-20T16:32:36.720Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -1069,6 +1069,20 @@
       "audienceEmails": [
         "andrew_nemiroff@colpal.com"
       ]
+    },
+    {
+      "id": "doc_style",
+      "version": null,
+      "lastUpdated": "2026-10-20T16:26:02.084Z",
+      "filename": "doc_style-v3.json",
+      "size": 42284,
+      "label": "Document Style",
+      "kind": "tool",
+      "category": "System",
+      "audience": [
+        "all"
+      ],
+      "changelog": ""
     },
     {
       "id": "__data_catalog",
