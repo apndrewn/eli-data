@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-10-19T18:14:41.717Z",
+  "lastUpdated": "2026-10-20T01:46:06.704Z",
   "overrides": [
     {
       "id": "fleet-notice-MD-7z4e5kud-1781724707405",
@@ -342,6 +342,56 @@
           "requireAck": true,
           "dismissLabel": "OK",
           "html": "<p>The new <b>Turn the Draft</b> wait screen is on for you: each decision appears the moment it is made, and the screen stays in view while they come in. Only you have it for now.</p>"
+        }
+      ]
+    },
+    {
+      "id": "fleet-td-wait-v2-2026-10-20",
+      "audience": [
+        "all"
+      ],
+      "pushedAt": "2026-10-20T01:46:06.704Z",
+      "pushedBy": "andrew_nemiroff@colpal.com",
+      "actions": [
+        {
+          "type": "set_setting",
+          "key": "tool.eli_agent.td_wait_v2",
+          "value": true,
+          "force": false
+        }
+      ]
+    },
+    {
+      "id": "fleet-ai-streaming-2026-10-20",
+      "audience": [
+        "all"
+      ],
+      "pushedAt": "2026-10-20T01:46:06.704Z",
+      "pushedBy": "andrew_nemiroff@colpal.com",
+      "actions": [
+        {
+          "type": "set_setting",
+          "key": "ai_allow_streaming",
+          "value": true,
+          "force": false
+        }
+      ]
+    },
+    {
+      "id": "fleet-thinking-cap-eli-agent-1024-2026-10-20",
+      "audience": [
+        "all"
+      ],
+      "pushedAt": "2026-10-20T01:46:06.704Z",
+      "pushedBy": "andrew_nemiroff@colpal.com",
+      "actions": [
+        {
+          "type": "set_setting",
+          "key": "ai_thinking_per_tool",
+          "value": {
+            "eli_agent": 1024
+          },
+          "force": false
         }
       ]
     }
