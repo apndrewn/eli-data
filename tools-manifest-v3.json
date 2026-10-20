@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-10-19T23:09:28.780Z",
+  "lastUpdated": "2026-10-20T00:02:06.511Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -706,9 +706,9 @@
     {
       "id": "eli_agent",
       "version": null,
-      "lastUpdated": "2026-10-19T23:08:08.553Z",
+      "lastUpdated": "2026-10-20T00:00:51.152Z",
       "filename": "eli_agent-v3.json",
-      "size": 1322047,
+      "size": 1391977,
       "label": "ELI Agent",
       "kind": "tool",
       "category": "Tools - ELI Core",
