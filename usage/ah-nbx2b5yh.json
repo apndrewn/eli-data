@@ -1,7 +1,7 @@
 {
   "userName": "A(",
   "userKey": "ah",
-  "generatedAt": "2026-10-20T01:46:48.841Z",
+  "generatedAt": "2026-10-20T04:47:29.365Z",
   "days": [
     {
       "date": "2026-09-11",
@@ -773,25 +773,27 @@
     {
       "date": "2026-10-19",
       "toolsUsed": {
-        "agent_turn_draft": 4,
-        "ask_eli": 1
+        "agent_turn_draft": 7,
+        "ask_eli": 1,
+        "demo": 2,
+        "tour": 1
       },
-      "sessions": 17,
+      "sessions": 23,
       "firstActiveAt": 1792382689775,
-      "lastActiveAt": 1792460808456,
+      "lastActiveAt": 1792468456904,
       "tokens": {
         "gemini-flash-latest": {
-          "promptTokens": 97263,
-          "candidatesTokens": 14532,
-          "calls": 15
+          "promptTokens": 256784,
+          "candidatesTokens": 38307,
+          "calls": 47
         }
       },
       "tokensByTool": {
         "agent_turn_draft": {
           "gemini-flash-latest": {
-            "promptTokens": 95800,
-            "candidatesTokens": 14342,
-            "calls": 13
+            "promptTokens": 255321,
+            "candidatesTokens": 38117,
+            "calls": 45
           }
         },
         "_unknown": {
@@ -809,7 +811,46 @@
           }
         }
       },
-      "estCostUSD": 0.011654,
+      "estCostUSD": 0.030751,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
+    },
+    {
+      "date": "2026-10-20",
+      "toolsUsed": {
+        "agent_turn_draft": 1,
+        "ask_eli": 1
+      },
+      "sessions": 5,
+      "firstActiveAt": 1792469381531,
+      "lastActiveAt": 1792471644290,
+      "tokens": {
+        "gemini-flash-latest": {
+          "promptTokens": 26050,
+          "candidatesTokens": 3965,
+          "calls": 7
+        }
+      },
+      "tokensByTool": {
+        "agent_turn_draft": {
+          "gemini-flash-latest": {
+            "promptTokens": 25341,
+            "candidatesTokens": 3846,
+            "calls": 6
+          }
+        },
+        "ask_eli": {
+          "gemini-flash-latest": {
+            "promptTokens": 709,
+            "candidatesTokens": 119,
+            "calls": 1
+          }
+        }
+      },
+      "estCostUSD": 0.003143,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -823,7 +864,7 @@
     "kernelVersion": "v3-2026-10-19-0603-c544e14",
     "kernelStamped": true,
     "installedAt": "2026-07-31T00:45:31.641Z",
-    "lastSeenAt": "2026-10-20T01:46:49.108Z",
+    "lastSeenAt": "2026-10-20T04:47:29.593Z",
     "settings": {
       "ai_model": "gemini-flash-latest",
       "ai_temperature": 1,
@@ -962,7 +1003,7 @@
       },
       {
         "id": "ask_eli",
-        "releasedAt": "2026-10-19T20:11:58.724Z",
+        "releasedAt": "2026-10-20T04:07:13.656Z",
         "disabled": false
       },
       {
@@ -1047,7 +1088,7 @@
       },
       {
         "id": "eli_agent",
-        "releasedAt": "2026-10-20T01:22:55.713Z",
+        "releasedAt": "2026-10-20T04:07:13.432Z",
         "disabled": false
       },
       {
@@ -1161,13 +1202,18 @@
         "disabled": false
       },
       {
+        "id": "precedents",
+        "releasedAt": "2026-10-20T04:16:05.737Z",
+        "disabled": false
+      },
+      {
         "id": "profile_restore",
         "releasedAt": "2026-10-14T05:48:48.982Z",
         "disabled": false
       },
       {
         "id": "redline_authors",
-        "releasedAt": "2026-10-19T23:08:08.553Z",
+        "releasedAt": "2026-10-20T04:07:13.859Z",
         "disabled": false
       },
       {
@@ -1263,6 +1309,10 @@
     ],
     "appliedOverrides": [
       {
+        "id": "fleet-ai-streaming-2026-10-20",
+        "at": 1792467229589
+      },
+      {
         "id": "fleet-ai-timeout-300s-2026-10-19",
         "at": 1792449927530
       },
@@ -1271,8 +1321,16 @@
         "at": 1789150130368
       },
       {
+        "id": "fleet-td-wait-v2-2026-10-20",
+        "at": 1792467229589
+      },
+      {
         "id": "fleet-temperature-1-gemini3-1791956006954",
         "at": 1791956605744
+      },
+      {
+        "id": "fleet-thinking-cap-eli-agent-1024-2026-10-20",
+        "at": 1792467229589
       },
       {
         "id": "owner-ai-timeout-300s-2026-10-19",
@@ -1366,13 +1424,13 @@
       "t172": "2026-10-19T04:04:50.333Z"
     },
     "stats": {
-      "totalActiveDays": 12,
+      "totalActiveDays": 13,
       "docsReviewed": 59,
       "draftsCreated": 5,
       "errorsFixed": 109,
       "risksFound": 51,
       "hoursSaved": 29.5,
-      "currentStreak": 7
+      "currentStreak": 8
     },
     "dashboardApps": [
       "legal_review",
