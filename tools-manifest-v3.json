@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-10-20T18:22:20.868Z",
+  "lastUpdated": "2026-10-20T20:11:37.577Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -484,9 +484,9 @@
     {
       "id": "redline_authors",
       "version": null,
-      "lastUpdated": "2026-10-20T04:07:13.859Z",
+      "lastUpdated": "2026-10-20T20:10:22.113Z",
       "filename": "redline_authors-v3.json",
-      "size": 31248,
+      "size": 33523,
       "label": "Redline Authors",
       "kind": "tool",
       "category": "System",
@@ -706,9 +706,9 @@
     {
       "id": "eli_agent",
       "version": null,
-      "lastUpdated": "2026-10-20T16:36:56.639Z",
+      "lastUpdated": "2026-10-20T20:10:22.005Z",
       "filename": "eli_agent-v3.json",
-      "size": 1463828,
+      "size": 1472963,
       "label": "ELI Agent",
       "kind": "tool",
       "category": "Tools - ELI Core",
