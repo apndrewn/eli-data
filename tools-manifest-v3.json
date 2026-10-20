@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-10-20T03:34:35.665Z",
+  "lastUpdated": "2026-10-20T03:36:58.082Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -1047,6 +1047,21 @@
       "filename": "speed_check-v3.json",
       "size": 162098,
       "label": "Speed Check",
+      "kind": "tool",
+      "category": "Admin",
+      "audience": [],
+      "changelog": "",
+      "audienceEmails": [
+        "andrew_nemiroff@colpal.com"
+      ]
+    },
+    {
+      "id": "precedents",
+      "version": null,
+      "lastUpdated": "2026-10-20T03:32:13.712Z",
+      "filename": "precedents-v3.json",
+      "size": 61212,
+      "label": "Precedents",
       "kind": "tool",
       "category": "Admin",
       "audience": [],
