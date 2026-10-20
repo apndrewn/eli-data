@@ -1,7 +1,7 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-10-20T17:09:03.726Z",
+  "generatedAt": "2026-10-20T20:22:50.999Z",
   "days": [
     {
       "date": "2026-07-29",
@@ -1362,38 +1362,54 @@
     {
       "date": "2026-10-20",
       "toolsUsed": {
-        "agent_turn_draft": 8,
+        "agent_turn_draft": 16,
         "demo": 2,
         "tour": 1,
-        "ask_eli": 3
+        "ask_eli": 4,
+        "agent_apply_instruction": 4,
+        "draft_templates": 2
       },
-      "sessions": 12,
+      "sessions": 24,
       "firstActiveAt": 1792501042049,
-      "lastActiveAt": 1792516138713,
+      "lastActiveAt": 1792527765982,
       "tokens": {
         "gemini-flash-latest": {
-          "promptTokens": 351590,
-          "candidatesTokens": 38053,
-          "calls": 58
+          "promptTokens": 828714,
+          "candidatesTokens": 112942,
+          "calls": 146
         }
       },
       "tokensByTool": {
         "agent_turn_draft": {
           "gemini-flash-latest": {
-            "promptTokens": 348799,
-            "candidatesTokens": 37438,
-            "calls": 55
+            "promptTokens": 672187,
+            "candidatesTokens": 87810,
+            "calls": 101
           }
         },
         "ask_eli": {
           "gemini-flash-latest": {
-            "promptTokens": 2791,
-            "candidatesTokens": 615,
-            "calls": 3
+            "promptTokens": 6520,
+            "candidatesTokens": 1490,
+            "calls": 7
+          }
+        },
+        "_unknown": {
+          "gemini-flash-latest": {
+            "promptTokens": 24231,
+            "candidatesTokens": 6585,
+            "calls": 7
+          }
+        },
+        "agent_apply_instruction": {
+          "gemini-flash-latest": {
+            "promptTokens": 125776,
+            "candidatesTokens": 17057,
+            "calls": 31
           }
         }
       },
-      "estCostUSD": 0.037785,
+      "estCostUSD": 0.096036,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -1404,10 +1420,10 @@
   "fleet": {
     "userId": "AN-xokse6dw",
     "initials": "AN",
-    "kernelVersion": "v3-2026-10-19-1155-86ac7da",
+    "kernelVersion": "v3-2026-10-20-1800-4a1b94d",
     "kernelStamped": true,
     "installedAt": "2026-07-29T14:09:25.615Z",
-    "lastSeenAt": "2026-10-20T17:09:03.900Z",
+    "lastSeenAt": "2026-10-20T20:22:51.192Z",
     "settings": {
       "ai_model": "gemini-flash-latest",
       "ai_temperature": 1,
@@ -1604,7 +1620,7 @@
       },
       {
         "id": "doc_style",
-        "releasedAt": "2026-10-20T16:26:02.084Z",
+        "releasedAt": "2026-10-20T18:04:17.108Z",
         "disabled": false
       },
       {
@@ -1635,11 +1651,6 @@
       {
         "id": "eli5",
         "releasedAt": "2026-05-19T03:53:44.200Z",
-        "disabled": false
-      },
-      {
-        "id": "eli_agent",
-        "releasedAt": "2026-10-20T16:36:56.639Z",
         "disabled": false
       },
       {
@@ -1763,11 +1774,6 @@
         "disabled": false
       },
       {
-        "id": "redline_authors",
-        "releasedAt": "2026-10-20T04:07:13.859Z",
-        "disabled": false
-      },
-      {
         "id": "redline_email_pack",
         "releasedAt": "2026-05-17T13:54:46.229Z",
         "disabled": false
@@ -1855,6 +1861,16 @@
       {
         "id": "workflow_creator",
         "releasedAt": "2026-10-14T05:45:43.675Z",
+        "disabled": false
+      },
+      {
+        "id": "redline_authors",
+        "releasedAt": "2026-10-20T20:10:22.113Z",
+        "disabled": false
+      },
+      {
+        "id": "eli_agent",
+        "releasedAt": "2026-10-20T20:10:22.005Z",
         "disabled": false
       }
     ],
