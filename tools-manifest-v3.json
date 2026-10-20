@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-10-20T03:45:47.422Z",
+  "lastUpdated": "2026-10-20T04:10:04.188Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -385,9 +385,9 @@
     {
       "id": "ask_eli",
       "version": null,
-      "lastUpdated": "2026-10-20T03:01:14.259Z",
+      "lastUpdated": "2026-10-20T04:07:13.656Z",
       "filename": "ask_eli-v3.json",
-      "size": 604067,
+      "size": 605198,
       "label": "Ask ELI",
       "kind": "tool",
       "category": "Tools - ELI Core",
@@ -484,9 +484,9 @@
     {
       "id": "redline_authors",
       "version": null,
-      "lastUpdated": "2026-10-20T02:48:55.215Z",
+      "lastUpdated": "2026-10-20T04:07:13.859Z",
       "filename": "redline_authors-v3.json",
-      "size": 30460,
+      "size": 31248,
       "label": "Redline Authors",
       "kind": "tool",
       "category": "System",
@@ -706,9 +706,9 @@
     {
       "id": "eli_agent",
       "version": null,
-      "lastUpdated": "2026-10-20T03:01:14.120Z",
+      "lastUpdated": "2026-10-20T04:07:13.432Z",
       "filename": "eli_agent-v3.json",
-      "size": 1380889,
+      "size": 1384789,
       "label": "ELI Agent",
       "kind": "tool",
       "category": "Tools - ELI Core",
@@ -1058,9 +1058,9 @@
     {
       "id": "precedents",
       "version": null,
-      "lastUpdated": "2026-10-20T03:44:26.138Z",
+      "lastUpdated": "2026-10-20T04:07:14.057Z",
       "filename": "precedents-v3.json",
-      "size": 64825,
+      "size": 64801,
       "label": "Precedents",
       "kind": "tool",
       "category": "Admin",
