@@ -1,7 +1,7 @@
 {
   "userName": "A(",
   "userKey": "ah",
-  "generatedAt": "2026-10-19T22:45:29.362Z",
+  "generatedAt": "2026-10-20T01:46:48.841Z",
   "days": [
     {
       "date": "2026-09-11",
@@ -773,28 +773,43 @@
     {
       "date": "2026-10-19",
       "toolsUsed": {
-        "agent_turn_draft": 1
+        "agent_turn_draft": 4,
+        "ask_eli": 1
       },
-      "sessions": 14,
+      "sessions": 17,
       "firstActiveAt": 1792382689775,
-      "lastActiveAt": 1792449924344,
+      "lastActiveAt": 1792460808456,
       "tokens": {
         "gemini-flash-latest": {
-          "promptTokens": 94342,
-          "candidatesTokens": 14212,
-          "calls": 11
+          "promptTokens": 97263,
+          "candidatesTokens": 14532,
+          "calls": 15
         }
       },
       "tokensByTool": {
         "agent_turn_draft": {
           "gemini-flash-latest": {
-            "promptTokens": 94342,
-            "candidatesTokens": 14212,
-            "calls": 11
+            "promptTokens": 95800,
+            "candidatesTokens": 14342,
+            "calls": 13
+          }
+        },
+        "_unknown": {
+          "gemini-flash-latest": {
+            "promptTokens": 734,
+            "candidatesTokens": 125,
+            "calls": 1
+          }
+        },
+        "ask_eli": {
+          "gemini-flash-latest": {
+            "promptTokens": 729,
+            "candidatesTokens": 65,
+            "calls": 1
           }
         }
       },
-      "estCostUSD": 0.011339,
+      "estCostUSD": 0.011654,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -808,7 +823,7 @@
     "kernelVersion": "v3-2026-10-19-0603-c544e14",
     "kernelStamped": true,
     "installedAt": "2026-07-31T00:45:31.641Z",
-    "lastSeenAt": "2026-10-19T22:45:29.627Z",
+    "lastSeenAt": "2026-10-20T01:46:49.108Z",
     "settings": {
       "ai_model": "gemini-flash-latest",
       "ai_temperature": 1,
@@ -868,6 +883,7 @@
       "auto_check_tools": true,
       "show_expand_pill": true,
       "language": "en",
+      "tool.eli_agent.td_wait_v2": true,
       "mascot.skinTone": "#ffdbb5",
       "mascot.hairColor": "#5c3317",
       "mascot.tieColor": "#c62828",
@@ -946,7 +962,7 @@
       },
       {
         "id": "ask_eli",
-        "releasedAt": "2026-10-19T00:36:44.768Z",
+        "releasedAt": "2026-10-19T20:11:58.724Z",
         "disabled": false
       },
       {
@@ -1031,12 +1047,17 @@
       },
       {
         "id": "eli_agent",
-        "releasedAt": "2026-10-19T06:04:03.224Z",
+        "releasedAt": "2026-10-20T01:22:55.713Z",
         "disabled": false
       },
       {
         "id": "eli_kit",
         "releasedAt": "2026-10-14T06:50:51.536Z",
+        "disabled": false
+      },
+      {
+        "id": "eli_lab",
+        "releasedAt": "2026-10-19T14:02:36.277Z",
         "disabled": false
       },
       {
@@ -1136,7 +1157,7 @@
       },
       {
         "id": "polish",
-        "releasedAt": "2026-09-12T04:14:53.171Z",
+        "releasedAt": "2026-10-19T19:44:52.211Z",
         "disabled": false
       },
       {
@@ -1146,7 +1167,7 @@
       },
       {
         "id": "redline_authors",
-        "releasedAt": "2026-05-17T13:54:46.226Z",
+        "releasedAt": "2026-10-19T23:08:08.553Z",
         "disabled": false
       },
       {
@@ -1171,7 +1192,7 @@
       },
       {
         "id": "speed_check",
-        "releasedAt": "2026-10-16T22:11:37.660Z",
+        "releasedAt": "2026-10-20T00:26:38.808Z",
         "disabled": false
       },
       {
@@ -1260,6 +1281,14 @@
       {
         "id": "owner-ai-timeout-300s-notice-2026-10-19",
         "at": 1792449927530
+      },
+      {
+        "id": "owner-td-wait-v2-2026-10-19",
+        "at": 1792456293530
+      },
+      {
+        "id": "owner-td-wait-v2-notice-2026-10-19",
+        "at": 1792456293530
       },
       {
         "id": "owner-thinking-cap-eli-agent-1024-2026-10-19",
