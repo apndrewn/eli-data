@@ -1,7 +1,7 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-10-20T12:57:27.528Z",
+  "generatedAt": "2026-10-20T17:09:03.726Z",
   "days": [
     {
       "date": "2026-07-29",
@@ -1361,13 +1361,39 @@
     },
     {
       "date": "2026-10-20",
-      "toolsUsed": {},
-      "sessions": 2,
+      "toolsUsed": {
+        "agent_turn_draft": 8,
+        "demo": 2,
+        "tour": 1,
+        "ask_eli": 3
+      },
+      "sessions": 12,
       "firstActiveAt": 1792501042049,
-      "lastActiveAt": 1792501043126,
-      "tokens": {},
-      "tokensByTool": {},
-      "estCostUSD": 0,
+      "lastActiveAt": 1792516138713,
+      "tokens": {
+        "gemini-flash-latest": {
+          "promptTokens": 351590,
+          "candidatesTokens": 38053,
+          "calls": 58
+        }
+      },
+      "tokensByTool": {
+        "agent_turn_draft": {
+          "gemini-flash-latest": {
+            "promptTokens": 348799,
+            "candidatesTokens": 37438,
+            "calls": 55
+          }
+        },
+        "ask_eli": {
+          "gemini-flash-latest": {
+            "promptTokens": 2791,
+            "candidatesTokens": 615,
+            "calls": 3
+          }
+        }
+      },
+      "estCostUSD": 0.037785,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -1381,7 +1407,7 @@
     "kernelVersion": "v3-2026-10-19-1155-86ac7da",
     "kernelStamped": true,
     "installedAt": "2026-07-29T14:09:25.615Z",
-    "lastSeenAt": "2026-10-20T12:57:27.693Z",
+    "lastSeenAt": "2026-10-20T17:09:03.900Z",
     "settings": {
       "ai_model": "gemini-flash-latest",
       "ai_temperature": 1,
@@ -1442,6 +1468,8 @@
       "show_expand_pill": true,
       "language": "en",
       "tool.eli_agent.td_wait_v2": true,
+      "tool.eli_agent.td_email_handoff": true,
+      "tool.eli_agent.precedent_prompt": true,
       "mascot.skinTone": "#ffdbb5",
       "mascot.hairColor": "#5c3317",
       "mascot.tieColor": "#c62828",
@@ -1455,7 +1483,8 @@
       "ask_eli_followups": true,
       "ask_eli_citation_pins": true,
       "ask_eli_use_guidance": true,
-      "ask_eli_formatted_answers": "expressive"
+      "ask_eli_formatted_answers": "expressive",
+      "tool.ask_eli.respond_all": true
     },
     "tools": [
       {
@@ -1520,12 +1549,12 @@
       },
       {
         "id": "ask_eli",
-        "releasedAt": "2026-10-19T20:11:58.724Z",
+        "releasedAt": "2026-10-20T14:13:10.064Z",
         "disabled": false
       },
       {
         "id": "auto_emailer",
-        "releasedAt": "2026-06-16T03:57:10.511Z",
+        "releasedAt": "2026-10-20T12:28:11.503Z",
         "disabled": false
       },
       {
@@ -1574,6 +1603,11 @@
         "disabled": false
       },
       {
+        "id": "doc_style",
+        "releasedAt": "2026-10-20T16:26:02.084Z",
+        "disabled": false
+      },
+      {
         "id": "docuscrub",
         "releasedAt": "2026-06-12T19:36:38.572Z",
         "disabled": false
@@ -1605,7 +1639,7 @@
       },
       {
         "id": "eli_agent",
-        "releasedAt": "2026-10-19T19:44:52.211Z",
+        "releasedAt": "2026-10-20T16:36:56.639Z",
         "disabled": false
       },
       {
@@ -1615,7 +1649,7 @@
       },
       {
         "id": "eli_lab",
-        "releasedAt": "2026-10-19T14:02:36.277Z",
+        "releasedAt": "2026-10-20T08:06:09.622Z",
         "disabled": false
       },
       {
@@ -1719,13 +1753,18 @@
         "disabled": false
       },
       {
+        "id": "precedents",
+        "releasedAt": "2026-10-20T08:03:11.275Z",
+        "disabled": false
+      },
+      {
         "id": "profile_restore",
         "releasedAt": "2026-10-14T05:48:48.982Z",
         "disabled": false
       },
       {
         "id": "redline_authors",
-        "releasedAt": "2026-05-17T13:54:46.226Z",
+        "releasedAt": "2026-10-20T04:07:13.859Z",
         "disabled": false
       },
       {
@@ -1750,7 +1789,7 @@
       },
       {
         "id": "speed_check",
-        "releasedAt": "2026-10-16T22:11:37.660Z",
+        "releasedAt": "2026-10-20T16:36:56.759Z",
         "disabled": false
       },
       {
@@ -1760,7 +1799,7 @@
       },
       {
         "id": "team_guidance",
-        "releasedAt": "2026-10-18T05:11:57.293Z",
+        "releasedAt": "2026-10-20T05:49:42.437Z",
         "disabled": false
       },
       {
@@ -1851,6 +1890,14 @@
       {
         "id": "owner-ai-timeout-300s-notice-2026-10-19",
         "at": 1792420426526
+      },
+      {
+        "id": "owner-a[REDACTED:openai_key]",
+        "at": 1792506940844
+      },
+      {
+        "id": "owner-held-switches-on-2026-10-20",
+        "at": 1792501065027
       },
       {
         "id": "owner-td-wait-v2-2026-10-19",
