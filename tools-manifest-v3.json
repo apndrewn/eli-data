@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-10-20T22:33:49.220Z",
+  "lastUpdated": "2026-10-20T22:36:29.560Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -720,9 +720,9 @@
     {
       "id": "eli_lab",
       "version": null,
-      "lastUpdated": "2026-10-20T22:04:42.720Z",
+      "lastUpdated": "2026-10-20T22:35:22.607Z",
       "filename": "eli_lab-v3.json",
-      "size": 77486,
+      "size": 77484,
       "label": "ELI Lab (admin)",
       "kind": "tool",
       "category": "Admin",
