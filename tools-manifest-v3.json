@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-10-20T05:29:03.698Z",
+  "lastUpdated": "2026-10-20T05:51:26.432Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -273,9 +273,9 @@
     {
       "id": "team_guidance",
       "version": null,
-      "lastUpdated": "2026-10-18T05:11:57.293Z",
+      "lastUpdated": "2026-10-20T05:49:42.437Z",
       "filename": "team_guidance-v3.json",
-      "size": 123013,
+      "size": 120007,
       "label": "Guidance",
       "kind": "tool",
       "category": "External Innovation",
@@ -706,9 +706,9 @@
     {
       "id": "eli_agent",
       "version": null,
-      "lastUpdated": "2026-10-20T05:27:26.379Z",
+      "lastUpdated": "2026-10-20T05:49:42.321Z",
       "filename": "eli_agent-v3.json",
-      "size": 1399845,
+      "size": 1413956,
       "label": "ELI Agent",
       "kind": "tool",
       "category": "Tools - ELI Core",
