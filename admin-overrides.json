@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-10-20T01:46:06.704Z",
+  "lastUpdated": "2026-10-20T12:31:18.353Z",
   "overrides": [
     {
       "id": "fleet-notice-MD-7z4e5kud-1781724707405",
@@ -392,6 +392,36 @@
             "eli_agent": 1024
           },
           "force": false
+        }
+      ]
+    },
+    {
+      "id": "owner-held-switches-on-2026-10-20",
+      "audience": [],
+      "audienceEmails": [
+        "andrew_nemiroff@colpal.com"
+      ],
+      "expiresAt": "2026-12-31T00:00:00.000Z",
+      "pushedAt": "2026-10-20T12:31:18.353Z",
+      "pushedBy": "andrew_nemiroff@colpal.com",
+      "actions": [
+        {
+          "type": "set_setting",
+          "key": "tool.eli_agent.home_respond",
+          "value": true,
+          "force": "reset"
+        },
+        {
+          "type": "set_setting",
+          "key": "tool.eli_agent.td_email_handoff",
+          "value": true,
+          "force": "reset"
+        },
+        {
+          "type": "set_setting",
+          "key": "tool.eli_agent.precedent_prompt",
+          "value": true,
+          "force": "reset"
         }
       ]
     }
