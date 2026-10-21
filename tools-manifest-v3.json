@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-10-21T17:20:36.513Z",
+  "lastUpdated": "2026-10-21T18:04:31.140Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -706,9 +706,9 @@
     {
       "id": "eli_writer",
       "version": null,
-      "lastUpdated": "2026-10-21T17:19:29.191Z",
+      "lastUpdated": "2026-10-21T18:03:23.385Z",
       "filename": "eli_writer-v3.json",
-      "size": 78588,
+      "size": 82373,
       "label": "ELI Writer",
       "kind": "tool",
       "category": "System",
