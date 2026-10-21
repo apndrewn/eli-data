@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-10-21T12:16:34.389Z",
+  "lastUpdated": "2026-10-21T12:32:03.266Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -748,9 +748,9 @@
     {
       "id": "eli_agent_revise",
       "version": null,
-      "lastUpdated": "2026-10-21T12:15:28.163Z",
+      "lastUpdated": "2026-10-21T12:30:57.016Z",
       "filename": "eli_agent_revise-v3.json",
-      "size": 479575,
+      "size": 489968,
       "label": "ELI Agent: Revise Document",
       "kind": "tool",
       "category": "Tools - ELI Core",
