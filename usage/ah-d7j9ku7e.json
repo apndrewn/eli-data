@@ -1,7 +1,7 @@
 {
   "userName": "A(",
   "userKey": "ah",
-  "generatedAt": "2026-10-21T14:43:36.159Z",
+  "generatedAt": "2026-10-21T17:43:40.579Z",
   "days": [
     {
       "date": "2026-10-19",
@@ -86,12 +86,12 @@
     {
       "date": "2026-10-21",
       "toolsUsed": {
-        "agent_turn_draft": 24,
-        "agent_apply_instruction": 73
+        "agent_turn_draft": 32,
+        "agent_apply_instruction": 76
       },
-      "sessions": 161,
+      "sessions": 369,
       "firstActiveAt": 1792557200290,
-      "lastActiveAt": 1792593811140,
+      "lastActiveAt": 1792604615570,
       "tokens": {},
       "tokensByTool": {},
       "estCostUSD": 0,
@@ -108,7 +108,7 @@
     "kernelVersion": "v3-2026-10-20-1455-labfb53566",
     "kernelStamped": false,
     "installedAt": "2026-10-19T04:24:47.770Z",
-    "lastSeenAt": "2026-10-21T14:43:36.372Z",
+    "lastSeenAt": "2026-10-21T17:43:40.803Z",
     "settings": {
       "ai_model": "gemini-flash-latest",
       "ai_temperature": 1,
@@ -350,27 +350,27 @@
       },
       {
         "id": "eli_agent",
-        "releasedAt": "2026-10-21T14:35:32.116Z",
+        "releasedAt": "2026-10-21T17:36:44.040Z",
         "disabled": false
       },
       {
         "id": "eli_agent_draft",
-        "releasedAt": "2026-10-21T14:05:35.604Z",
+        "releasedAt": "2026-10-21T17:36:42.707Z",
         "disabled": false
       },
       {
         "id": "eli_agent_email",
-        "releasedAt": "2026-10-21T14:05:35.628Z",
+        "releasedAt": "2026-10-21T17:36:42.728Z",
         "disabled": false
       },
       {
         "id": "eli_agent_respond",
-        "releasedAt": "2026-10-21T14:35:32.253Z",
+        "releasedAt": "2026-10-21T17:36:42.706Z",
         "disabled": false
       },
       {
         "id": "eli_agent_revise",
-        "releasedAt": "2026-10-21T14:35:32.386Z",
+        "releasedAt": "2026-10-21T17:36:42.722Z",
         "disabled": false
       },
       {
@@ -405,7 +405,7 @@
       },
       {
         "id": "eli_writer",
-        "releasedAt": "2026-10-21T14:35:31.957Z",
+        "releasedAt": "2026-10-21T17:31:28.841Z",
         "disabled": false
       },
       {
