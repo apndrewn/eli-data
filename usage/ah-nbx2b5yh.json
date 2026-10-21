@@ -1,7 +1,7 @@
 {
   "userName": "A(",
   "userKey": "ah",
-  "generatedAt": "2026-10-20T14:46:45.274Z",
+  "generatedAt": "2026-10-21T03:05:52.425Z",
   "days": [
     {
       "date": "2026-09-11",
@@ -821,27 +821,27 @@
     {
       "date": "2026-10-20",
       "toolsUsed": {
-        "agent_turn_draft": 13,
+        "agent_turn_draft": 14,
         "ask_eli": 5,
         "demo": 2,
         "tour": 1
       },
-      "sessions": 34,
+      "sessions": 36,
       "firstActiveAt": 1792469381531,
-      "lastActiveAt": 1792507600251,
+      "lastActiveAt": 1792551947399,
       "tokens": {
         "gemini-flash-latest": {
-          "promptTokens": 560470,
-          "candidatesTokens": 53088,
-          "calls": 69
+          "promptTokens": 561720,
+          "candidatesTokens": 53202,
+          "calls": 71
         }
       },
       "tokensByTool": {
         "agent_turn_draft": {
           "gemini-flash-latest": {
-            "promptTokens": 557410,
-            "candidatesTokens": 52752,
-            "calls": 65
+            "promptTokens": 558660,
+            "candidatesTokens": 52866,
+            "calls": 67
           }
         },
         "ask_eli": {
@@ -852,7 +852,7 @@
           }
         }
       },
-      "estCostUSD": 0.057962,
+      "estCostUSD": 0.05809,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -866,7 +866,7 @@
     "kernelVersion": "v3-2026-10-19-2030-4faf89a",
     "kernelStamped": true,
     "installedAt": "2026-07-31T00:45:31.641Z",
-    "lastSeenAt": "2026-10-20T14:46:45.466Z",
+    "lastSeenAt": "2026-10-21T03:05:52.608Z",
     "settings": {
       "ai_model": "gemini-flash-latest",
       "ai_temperature": 1,
@@ -926,7 +926,6 @@
       "auto_check_tools": true,
       "show_expand_pill": true,
       "language": "en",
-      "tool.eli_agent.td_wait_v2": true,
       "mascot.skinTone": "#ffdbb5",
       "mascot.hairColor": "#5c3317",
       "mascot.tieColor": "#c62828",
@@ -940,7 +939,11 @@
       "ask_eli_followups": true,
       "ask_eli_citation_pins": true,
       "ask_eli_use_guidance": true,
-      "ask_eli_formatted_answers": "expressive"
+      "ask_eli_formatted_answers": "expressive",
+      "tool.ask_eli.respond_all": true,
+      "tool.eli_agent.td_wait_v2": true,
+      "tool.eli_agent.td_email_handoff": true,
+      "tool.eli_agent.precedent_prompt": true
     },
     "tools": [
       {
@@ -1005,12 +1008,12 @@
       },
       {
         "id": "ask_eli",
-        "releasedAt": "2026-10-20T04:07:13.656Z",
+        "releasedAt": "2026-10-20T22:41:00.725Z",
         "disabled": false
       },
       {
         "id": "auto_emailer",
-        "releasedAt": "2026-06-16T03:57:10.511Z",
+        "releasedAt": "2026-10-20T12:28:11.503Z",
         "disabled": false
       },
       {
@@ -1059,6 +1062,11 @@
         "disabled": false
       },
       {
+        "id": "doc_style",
+        "releasedAt": "2026-10-20T18:04:17.108Z",
+        "disabled": false
+      },
+      {
         "id": "docuscrub",
         "releasedAt": "2026-06-12T19:36:38.572Z",
         "disabled": false
@@ -1090,7 +1098,27 @@
       },
       {
         "id": "eli_agent",
-        "releasedAt": "2026-10-20T06:09:20.033Z",
+        "releasedAt": "2026-10-21T02:58:57.415Z",
+        "disabled": false
+      },
+      {
+        "id": "eli_agent_draft",
+        "releasedAt": "2026-10-21T01:57:01.775Z",
+        "disabled": false
+      },
+      {
+        "id": "eli_agent_email",
+        "releasedAt": "2026-10-21T02:58:57.415Z",
+        "disabled": false
+      },
+      {
+        "id": "eli_agent_respond",
+        "releasedAt": "2026-10-21T02:10:13.865Z",
+        "disabled": false
+      },
+      {
+        "id": "eli_agent_revise",
+        "releasedAt": "2026-10-21T02:58:57.415Z",
         "disabled": false
       },
       {
@@ -1100,7 +1128,7 @@
       },
       {
         "id": "eli_lab",
-        "releasedAt": "2026-10-19T14:02:36.277Z",
+        "releasedAt": "2026-10-20T22:35:22.607Z",
         "disabled": false
       },
       {
@@ -1205,7 +1233,7 @@
       },
       {
         "id": "precedents",
-        "releasedAt": "2026-10-20T04:16:05.737Z",
+        "releasedAt": "2026-10-20T08:03:11.275Z",
         "disabled": false
       },
       {
@@ -1215,7 +1243,7 @@
       },
       {
         "id": "redline_authors",
-        "releasedAt": "2026-10-20T04:07:13.859Z",
+        "releasedAt": "2026-10-20T20:10:22.113Z",
         "disabled": false
       },
       {
@@ -1240,7 +1268,7 @@
       },
       {
         "id": "speed_check",
-        "releasedAt": "2026-10-20T00:26:38.808Z",
+        "releasedAt": "2026-10-20T16:36:56.759Z",
         "disabled": false
       },
       {
@@ -1341,6 +1369,10 @@
       {
         "id": "owner-ai-timeout-300s-notice-2026-10-19",
         "at": 1792449927530
+      },
+      {
+        "id": "owner-held-switches-on-2026-10-20",
+        "at": 1792551950538
       },
       {
         "id": "owner-td-wait-v2-2026-10-19",
