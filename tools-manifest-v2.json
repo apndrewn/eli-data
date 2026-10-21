@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-10-21T00:00:40.062Z",
+  "lastUpdated": "2026-10-21T00:47:12.732Z",
   "tools": [
     {
       "id": "__data_catalog",
@@ -279,6 +279,7 @@
         "eli_settings",
         "ask_eli",
         "eli_agent",
+        "eli_agent_respond",
         "eli_kit",
         "eli-activity",
         "eli_stats",
