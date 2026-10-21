@@ -1,7 +1,7 @@
 {
   "userName": "A(",
   "userKey": "ah",
-  "generatedAt": "2026-10-21T11:43:03.454Z",
+  "generatedAt": "2026-10-21T14:43:36.159Z",
   "days": [
     {
       "date": "2026-10-19",
@@ -86,12 +86,12 @@
     {
       "date": "2026-10-21",
       "toolsUsed": {
-        "agent_turn_draft": 4,
-        "agent_apply_instruction": 19
+        "agent_turn_draft": 24,
+        "agent_apply_instruction": 73
       },
-      "sessions": 33,
+      "sessions": 161,
       "firstActiveAt": 1792557200290,
-      "lastActiveAt": 1792582978442,
+      "lastActiveAt": 1792593811140,
       "tokens": {},
       "tokensByTool": {},
       "estCostUSD": 0,
@@ -108,7 +108,7 @@
     "kernelVersion": "v3-2026-10-20-1455-labfb53566",
     "kernelStamped": false,
     "installedAt": "2026-10-19T04:24:47.770Z",
-    "lastSeenAt": "2026-10-21T11:43:03.668Z",
+    "lastSeenAt": "2026-10-21T14:43:36.372Z",
     "settings": {
       "ai_model": "gemini-flash-latest",
       "ai_temperature": 1,
@@ -168,9 +168,6 @@
       "auto_check_tools": true,
       "show_expand_pill": true,
       "language": "en",
-      "tool.eli_agent.td_wait_v2": false,
-      "tool.eli_agent.td_email_handoff": true,
-      "tool.eli_agent.precedent_prompt": true,
       "mascot.skinTone": "#ffdbb5",
       "mascot.hairColor": "#5c3317",
       "mascot.tieColor": "#c62828",
@@ -185,29 +182,12 @@
       "ask_eli_citation_pins": true,
       "ask_eli_use_guidance": true,
       "ask_eli_formatted_answers": "expressive",
-      "tool.ask_eli.respond_all": false
+      "tool.ask_eli.respond_all": false,
+      "tool.eli_agent.td_wait_v2": false,
+      "tool.eli_agent.td_email_handoff": true,
+      "tool.eli_agent.precedent_prompt": true
     },
     "tools": [
-      {
-        "id": "eli_agent_respond",
-        "releasedAt": "2026-10-21T11:41:45.094Z",
-        "disabled": false
-      },
-      {
-        "id": "eli_agent_draft",
-        "releasedAt": "2026-10-21T11:41:45.112Z",
-        "disabled": false
-      },
-      {
-        "id": "eli_agent_revise",
-        "releasedAt": "2026-10-21T11:41:45.122Z",
-        "disabled": false
-      },
-      {
-        "id": "eli_agent_email",
-        "releasedAt": "2026-10-21T11:41:45.122Z",
-        "disabled": false
-      },
       {
         "id": "admin_draft_audit",
         "releasedAt": "2026-06-16T11:56:03.060Z",
@@ -270,7 +250,7 @@
       },
       {
         "id": "ask_eli",
-        "releasedAt": "2026-10-20T22:41:00.725Z",
+        "releasedAt": "2026-10-21T14:17:50.035Z",
         "disabled": false
       },
       {
@@ -370,7 +350,27 @@
       },
       {
         "id": "eli_agent",
-        "releasedAt": "2026-10-21T11:41:45.169Z",
+        "releasedAt": "2026-10-21T14:35:32.116Z",
+        "disabled": false
+      },
+      {
+        "id": "eli_agent_draft",
+        "releasedAt": "2026-10-21T14:05:35.604Z",
+        "disabled": false
+      },
+      {
+        "id": "eli_agent_email",
+        "releasedAt": "2026-10-21T14:05:35.628Z",
+        "disabled": false
+      },
+      {
+        "id": "eli_agent_respond",
+        "releasedAt": "2026-10-21T14:35:32.253Z",
+        "disabled": false
+      },
+      {
+        "id": "eli_agent_revise",
+        "releasedAt": "2026-10-21T14:35:32.386Z",
         "disabled": false
       },
       {
@@ -401,6 +401,11 @@
       {
         "id": "eli_telemetry",
         "releasedAt": "2026-10-19T04:43:15.572Z",
+        "disabled": false
+      },
+      {
+        "id": "eli_writer",
+        "releasedAt": "2026-10-21T14:35:31.957Z",
         "disabled": false
       },
       {
@@ -445,7 +450,7 @@
       },
       {
         "id": "kernel_check",
-        "releasedAt": "2026-10-19T04:43:16.289Z",
+        "releasedAt": "2026-10-21T13:05:24.892Z",
         "disabled": false
       },
       {
@@ -485,7 +490,7 @@
       },
       {
         "id": "precedents",
-        "releasedAt": "2026-10-21T06:23:25.113Z",
+        "releasedAt": "2026-10-21T06:27:07.569Z",
         "disabled": false
       },
       {
