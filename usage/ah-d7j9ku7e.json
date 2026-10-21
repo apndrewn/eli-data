@@ -1,7 +1,7 @@
 {
   "userName": "A(",
   "userKey": "ah",
-  "generatedAt": "2026-10-21T20:43:43.738Z",
+  "generatedAt": "2026-10-21T23:44:10.734Z",
   "days": [
     {
       "date": "2026-10-19",
@@ -87,11 +87,11 @@
       "date": "2026-10-21",
       "toolsUsed": {
         "agent_turn_draft": 32,
-        "agent_apply_instruction": 76
+        "agent_apply_instruction": 79
       },
-      "sessions": 610,
+      "sessions": 777,
       "firstActiveAt": 1792557200290,
-      "lastActiveAt": 1792615418745,
+      "lastActiveAt": 1792626245726,
       "tokens": {},
       "tokensByTool": {},
       "estCostUSD": 0,
@@ -108,7 +108,7 @@
     "kernelVersion": "v3-2026-10-20-1455-labfb53566",
     "kernelStamped": false,
     "installedAt": "2026-10-19T04:24:47.770Z",
-    "lastSeenAt": "2026-10-21T20:43:43.969Z",
+    "lastSeenAt": "2026-10-21T23:44:10.949Z",
     "settings": {
       "ai_model": "gemini-flash-latest",
       "ai_temperature": 1,
@@ -250,7 +250,7 @@
       },
       {
         "id": "ask_eli",
-        "releasedAt": "2026-10-21T14:17:50.035Z",
+        "releasedAt": "2026-10-21T20:51:44.811Z",
         "disabled": false
       },
       {
@@ -350,27 +350,27 @@
       },
       {
         "id": "eli_agent",
-        "releasedAt": "2026-10-21T20:38:10.127Z",
+        "releasedAt": "2026-10-21T22:54:22.871Z",
         "disabled": false
       },
       {
         "id": "eli_agent_draft",
-        "releasedAt": "2026-10-21T20:38:10.035Z",
+        "releasedAt": "2026-10-21T22:53:49.150Z",
         "disabled": false
       },
       {
         "id": "eli_agent_email",
-        "releasedAt": "2026-10-21T20:38:10.067Z",
+        "releasedAt": "2026-10-21T22:53:49.167Z",
         "disabled": false
       },
       {
         "id": "eli_agent_respond",
-        "releasedAt": "2026-10-21T20:38:10.027Z",
+        "releasedAt": "2026-10-21T22:54:23.170Z",
         "disabled": false
       },
       {
         "id": "eli_agent_revise",
-        "releasedAt": "2026-10-21T20:38:10.078Z",
+        "releasedAt": "2026-10-21T22:54:23.021Z",
         "disabled": false
       },
       {
@@ -405,7 +405,7 @@
       },
       {
         "id": "eli_writer",
-        "releasedAt": "2026-10-21T20:35:40.969Z",
+        "releasedAt": "2026-10-21T22:54:22.678Z",
         "disabled": false
       },
       {
