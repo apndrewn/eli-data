@@ -1,7 +1,7 @@
 {
   "userName": "A(",
   "userKey": "ah",
-  "generatedAt": "2026-10-20T21:20:05.842Z",
+  "generatedAt": "2026-10-21T00:28:58.905Z",
   "days": [
     {
       "date": "2026-10-19",
@@ -54,12 +54,12 @@
     {
       "date": "2026-10-20",
       "toolsUsed": {
-        "agent_turn_draft": 93,
-        "agent_apply_instruction": 8
+        "agent_turn_draft": 120,
+        "agent_apply_instruction": 10
       },
-      "sessions": 268,
+      "sessions": 307,
       "firstActiveAt": 1792482199912,
-      "lastActiveAt": 1792531200832,
+      "lastActiveAt": 1792542533894,
       "tokens": {
         "gemini-flash-latest": {
           "promptTokens": 76550,
@@ -90,7 +90,7 @@
     "kernelVersion": "v3-2026-10-20-1455-labfb53566",
     "kernelStamped": false,
     "installedAt": "2026-10-19T04:24:47.770Z",
-    "lastSeenAt": "2026-10-20T21:20:06.075Z",
+    "lastSeenAt": "2026-10-21T00:28:59.123Z",
     "settings": {
       "ai_model": "gemini-flash-latest",
       "ai_temperature": 1,
@@ -231,16 +231,6 @@
         "disabled": false
       },
       {
-        "id": "ask_eli",
-        "releasedAt": "2026-10-20T20:34:56.132Z",
-        "disabled": false
-      },
-      {
-        "id": "auto_emailer",
-        "releasedAt": "2026-10-20T07:42:32.541Z",
-        "disabled": false
-      },
-      {
         "id": "bd_template_tester",
         "releasedAt": "2026-10-19T04:43:15.487Z",
         "disabled": false
@@ -296,11 +286,6 @@
         "disabled": false
       },
       {
-        "id": "doc_style",
-        "releasedAt": "2026-10-20T17:52:24.082Z",
-        "disabled": false
-      },
-      {
         "id": "docuscrub",
         "releasedAt": "2026-10-19T04:43:16.356Z",
         "disabled": false
@@ -331,18 +316,8 @@
         "disabled": false
       },
       {
-        "id": "eli_agent",
-        "releasedAt": "2026-10-20T21:11:47.136Z",
-        "disabled": false
-      },
-      {
         "id": "eli_kit",
         "releasedAt": "2026-10-19T04:43:16.239Z",
-        "disabled": false
-      },
-      {
-        "id": "eli_lab",
-        "releasedAt": "2026-10-20T07:00:22.255Z",
         "disabled": false
       },
       {
@@ -446,18 +421,13 @@
         "disabled": false
       },
       {
-        "id": "precedents",
-        "releasedAt": "2026-10-20T07:56:30.623Z",
-        "disabled": false
-      },
-      {
         "id": "profile_restore",
         "releasedAt": "2026-10-19T04:43:16.930Z",
         "disabled": false
       },
       {
         "id": "redline_authors",
-        "releasedAt": "2026-10-20T19:15:15.105Z",
+        "releasedAt": "2026-10-20T21:26:22.058Z",
         "disabled": false
       },
       {
@@ -548,6 +518,41 @@
       {
         "id": "workflow_creator",
         "releasedAt": "2026-10-19T04:43:17.601Z",
+        "disabled": false
+      },
+      {
+        "id": "auto_emailer",
+        "releasedAt": "2026-10-20T12:28:11.503Z",
+        "disabled": false
+      },
+      {
+        "id": "eli_agent",
+        "releasedAt": "2026-10-21T00:11:42.187Z",
+        "disabled": false
+      },
+      {
+        "id": "eli_lab",
+        "releasedAt": "2026-10-20T22:35:22.607Z",
+        "disabled": false
+      },
+      {
+        "id": "precedents",
+        "releasedAt": "2026-10-20T08:03:11.275Z",
+        "disabled": false
+      },
+      {
+        "id": "doc_style",
+        "releasedAt": "2026-10-20T18:04:17.108Z",
+        "disabled": false
+      },
+      {
+        "id": "eli_agent_respond",
+        "releasedAt": "2026-10-21T00:11:42.153Z",
+        "disabled": false
+      },
+      {
+        "id": "ask_eli",
+        "releasedAt": "2026-10-20T22:41:00.725Z",
         "disabled": false
       }
     ],
@@ -682,12 +687,12 @@
       "currentStreak": 2
     },
     "dashboardApps": [
-      "auto_emailer",
       "build_draft",
       "error_review",
       "final_review",
       "legal_review",
-      "team_guidance"
+      "team_guidance",
+      "auto_emailer"
     ],
     "dashboardCustomized": false
   }
