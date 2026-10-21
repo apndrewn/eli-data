@@ -1,7 +1,7 @@
 {
   "userName": "A(",
   "userKey": "ah",
-  "generatedAt": "2026-10-21T00:28:58.905Z",
+  "generatedAt": "2026-10-21T03:36:39.047Z",
   "days": [
     {
       "date": "2026-10-19",
@@ -54,12 +54,12 @@
     {
       "date": "2026-10-20",
       "toolsUsed": {
-        "agent_turn_draft": 120,
-        "agent_apply_instruction": 10
+        "agent_turn_draft": 135,
+        "agent_apply_instruction": 18
       },
-      "sessions": 307,
+      "sessions": 340,
       "firstActiveAt": 1792482199912,
-      "lastActiveAt": 1792542533894,
+      "lastActiveAt": 1792553798991,
       "tokens": {
         "gemini-flash-latest": {
           "promptTokens": 76550,
@@ -90,7 +90,7 @@
     "kernelVersion": "v3-2026-10-20-1455-labfb53566",
     "kernelStamped": false,
     "installedAt": "2026-10-19T04:24:47.770Z",
-    "lastSeenAt": "2026-10-21T00:28:59.123Z",
+    "lastSeenAt": "2026-10-21T03:36:39.272Z",
     "settings": {
       "ai_model": "gemini-flash-latest",
       "ai_temperature": 1,
@@ -150,9 +150,6 @@
       "auto_check_tools": true,
       "show_expand_pill": true,
       "language": "en",
-      "tool.eli_agent.td_wait_v2": false,
-      "tool.eli_agent.td_email_handoff": true,
-      "tool.eli_agent.precedent_prompt": true,
       "mascot.skinTone": "#ffdbb5",
       "mascot.hairColor": "#5c3317",
       "mascot.tieColor": "#c62828",
@@ -167,7 +164,10 @@
       "ask_eli_citation_pins": true,
       "ask_eli_use_guidance": true,
       "ask_eli_formatted_answers": "expressive",
-      "tool.ask_eli.respond_all": false
+      "tool.ask_eli.respond_all": false,
+      "tool.eli_agent.td_wait_v2": false,
+      "tool.eli_agent.td_email_handoff": true,
+      "tool.eli_agent.precedent_prompt": true
     },
     "tools": [
       {
@@ -231,6 +231,16 @@
         "disabled": false
       },
       {
+        "id": "ask_eli",
+        "releasedAt": "2026-10-20T22:41:00.725Z",
+        "disabled": false
+      },
+      {
+        "id": "auto_emailer",
+        "releasedAt": "2026-10-20T12:28:11.503Z",
+        "disabled": false
+      },
+      {
         "id": "bd_template_tester",
         "releasedAt": "2026-10-19T04:43:15.487Z",
         "disabled": false
@@ -286,6 +296,11 @@
         "disabled": false
       },
       {
+        "id": "doc_style",
+        "releasedAt": "2026-10-20T18:04:17.108Z",
+        "disabled": false
+      },
+      {
         "id": "docuscrub",
         "releasedAt": "2026-10-19T04:43:16.356Z",
         "disabled": false
@@ -316,8 +331,38 @@
         "disabled": false
       },
       {
+        "id": "eli_agent",
+        "releasedAt": "2026-10-21T03:36:24.513Z",
+        "disabled": false
+      },
+      {
+        "id": "eli_agent_draft",
+        "releasedAt": "2026-10-21T03:33:32.505Z",
+        "disabled": false
+      },
+      {
+        "id": "eli_agent_email",
+        "releasedAt": "2026-10-21T03:33:32.532Z",
+        "disabled": false
+      },
+      {
+        "id": "eli_agent_respond",
+        "releasedAt": "2026-10-21T03:36:24.614Z",
+        "disabled": false
+      },
+      {
+        "id": "eli_agent_revise",
+        "releasedAt": "2026-10-21T03:33:32.515Z",
+        "disabled": false
+      },
+      {
         "id": "eli_kit",
         "releasedAt": "2026-10-19T04:43:16.239Z",
+        "disabled": false
+      },
+      {
+        "id": "eli_lab",
+        "releasedAt": "2026-10-20T22:35:22.607Z",
         "disabled": false
       },
       {
@@ -421,6 +466,11 @@
         "disabled": false
       },
       {
+        "id": "precedents",
+        "releasedAt": "2026-10-20T08:03:11.275Z",
+        "disabled": false
+      },
+      {
         "id": "profile_restore",
         "releasedAt": "2026-10-19T04:43:16.930Z",
         "disabled": false
@@ -518,41 +568,6 @@
       {
         "id": "workflow_creator",
         "releasedAt": "2026-10-19T04:43:17.601Z",
-        "disabled": false
-      },
-      {
-        "id": "auto_emailer",
-        "releasedAt": "2026-10-20T12:28:11.503Z",
-        "disabled": false
-      },
-      {
-        "id": "eli_agent",
-        "releasedAt": "2026-10-21T00:11:42.187Z",
-        "disabled": false
-      },
-      {
-        "id": "eli_lab",
-        "releasedAt": "2026-10-20T22:35:22.607Z",
-        "disabled": false
-      },
-      {
-        "id": "precedents",
-        "releasedAt": "2026-10-20T08:03:11.275Z",
-        "disabled": false
-      },
-      {
-        "id": "doc_style",
-        "releasedAt": "2026-10-20T18:04:17.108Z",
-        "disabled": false
-      },
-      {
-        "id": "eli_agent_respond",
-        "releasedAt": "2026-10-21T00:11:42.153Z",
-        "disabled": false
-      },
-      {
-        "id": "ask_eli",
-        "releasedAt": "2026-10-20T22:41:00.725Z",
         "disabled": false
       }
     ],
@@ -687,12 +702,12 @@
       "currentStreak": 2
     },
     "dashboardApps": [
+      "auto_emailer",
       "build_draft",
       "error_review",
       "final_review",
       "legal_review",
-      "team_guidance",
-      "auto_emailer"
+      "team_guidance"
     ],
     "dashboardCustomized": false
   }
