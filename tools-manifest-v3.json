@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-10-21T03:47:34.374Z",
+  "lastUpdated": "2026-10-21T04:01:18.330Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -720,9 +720,9 @@
     {
       "id": "eli_agent_respond",
       "version": null,
-      "lastUpdated": "2026-10-21T03:46:25.915Z",
+      "lastUpdated": "2026-10-21T04:00:11.028Z",
       "filename": "eli_agent_respond-v3.json",
-      "size": 503025,
+      "size": 504749,
       "label": "ELI Agent: Respond",
       "kind": "tool",
       "category": "Tools - ELI Core",
