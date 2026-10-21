@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-10-21T01:27:17.244Z",
+  "lastUpdated": "2026-10-21T01:58:08.824Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -706,9 +706,9 @@
     {
       "id": "eli_agent",
       "version": null,
-      "lastUpdated": "2026-10-21T01:18:41.045Z",
+      "lastUpdated": "2026-10-21T01:57:01.775Z",
       "filename": "eli_agent-v3.json",
-      "size": 872664,
+      "size": 872982,
       "label": "ELI Agent",
       "kind": "tool",
       "category": "Tools - ELI Core",
@@ -720,9 +720,9 @@
     {
       "id": "eli_agent_respond",
       "version": null,
-      "lastUpdated": "2026-10-21T00:46:06.023Z",
+      "lastUpdated": "2026-10-21T01:57:01.775Z",
       "filename": "eli_agent_respond-v3.json",
-      "size": 491420,
+      "size": 491933,
       "label": "ELI Agent: Respond",
       "kind": "tool",
       "category": "Tools - ELI Core",
@@ -734,9 +734,9 @@
     {
       "id": "eli_agent_draft",
       "version": null,
-      "lastUpdated": "2026-10-21T01:26:10.649Z",
+      "lastUpdated": "2026-10-21T01:57:01.775Z",
       "filename": "eli_agent_draft-v3.json",
-      "size": 139197,
+      "size": 139710,
       "label": "ELI Agent: Draft Document",
       "kind": "tool",
       "category": "Tools - ELI Core",
@@ -1391,6 +1391,7 @@
         "eli_agent",
         "eli_agent_respond",
         "eli_agent_draft",
+        "eli_agent_email",
         "eli_kit",
         "eli-activity",
         "eli_stats",
