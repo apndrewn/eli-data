@@ -1,7 +1,7 @@
 {
   "userName": "A(",
   "userKey": "ah",
-  "generatedAt": "2026-10-21T17:43:40.579Z",
+  "generatedAt": "2026-10-21T20:43:43.738Z",
   "days": [
     {
       "date": "2026-10-19",
@@ -89,9 +89,9 @@
         "agent_turn_draft": 32,
         "agent_apply_instruction": 76
       },
-      "sessions": 369,
+      "sessions": 610,
       "firstActiveAt": 1792557200290,
-      "lastActiveAt": 1792604615570,
+      "lastActiveAt": 1792615418745,
       "tokens": {},
       "tokensByTool": {},
       "estCostUSD": 0,
@@ -108,7 +108,7 @@
     "kernelVersion": "v3-2026-10-20-1455-labfb53566",
     "kernelStamped": false,
     "installedAt": "2026-10-19T04:24:47.770Z",
-    "lastSeenAt": "2026-10-21T17:43:40.803Z",
+    "lastSeenAt": "2026-10-21T20:43:43.969Z",
     "settings": {
       "ai_model": "gemini-flash-latest",
       "ai_temperature": 1,
@@ -350,27 +350,27 @@
       },
       {
         "id": "eli_agent",
-        "releasedAt": "2026-10-21T17:36:44.040Z",
+        "releasedAt": "2026-10-21T20:38:10.127Z",
         "disabled": false
       },
       {
         "id": "eli_agent_draft",
-        "releasedAt": "2026-10-21T17:36:42.707Z",
+        "releasedAt": "2026-10-21T20:38:10.035Z",
         "disabled": false
       },
       {
         "id": "eli_agent_email",
-        "releasedAt": "2026-10-21T17:36:42.728Z",
+        "releasedAt": "2026-10-21T20:38:10.067Z",
         "disabled": false
       },
       {
         "id": "eli_agent_respond",
-        "releasedAt": "2026-10-21T17:36:42.706Z",
+        "releasedAt": "2026-10-21T20:38:10.027Z",
         "disabled": false
       },
       {
         "id": "eli_agent_revise",
-        "releasedAt": "2026-10-21T17:36:42.722Z",
+        "releasedAt": "2026-10-21T20:38:10.078Z",
         "disabled": false
       },
       {
@@ -405,7 +405,7 @@
       },
       {
         "id": "eli_writer",
-        "releasedAt": "2026-10-21T17:31:28.841Z",
+        "releasedAt": "2026-10-21T20:35:40.969Z",
         "disabled": false
       },
       {
