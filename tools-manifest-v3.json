@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-10-22T19:15:09.929Z",
+  "lastUpdated": "2026-10-22T19:20:29.035Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -734,7 +734,7 @@
     {
       "id": "eli_agent",
       "version": null,
-      "lastUpdated": "2026-10-22T19:13:55.621Z",
+      "lastUpdated": "2026-10-22T19:19:05.429Z",
       "filename": "eli_agent-v3.json",
       "size": 517110,
       "label": "ELI Agent",
@@ -790,9 +790,9 @@
     {
       "id": "eli_agent_email",
       "version": null,
-      "lastUpdated": "2026-10-22T19:13:56.077Z",
+      "lastUpdated": "2026-10-22T19:19:17.298Z",
       "filename": "eli_agent_email-v3.json",
-      "size": 36451,
+      "size": 36803,
       "label": "ELI Agent: Address Comments",
       "kind": "tool",
       "category": "Tools - ELI Core",
