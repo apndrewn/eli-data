@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-10-22T01:56:06.753Z",
+  "lastUpdated": "2026-10-22T02:14:11.197Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -385,7 +385,7 @@
     {
       "id": "ask_eli",
       "version": null,
-      "lastUpdated": "2026-10-22T01:54:58.787Z",
+      "lastUpdated": "2026-10-22T02:09:07.734Z",
       "filename": "ask_eli-v3.json",
       "size": 645973,
       "label": "Ask ELI",
@@ -704,11 +704,25 @@
       ]
     },
     {
+      "id": "eli_team",
+      "version": null,
+      "lastUpdated": "2026-10-22T02:13:03.039Z",
+      "filename": "eli_team-v3.json",
+      "size": 61656,
+      "label": "Agent Team",
+      "kind": "tool",
+      "category": "Admin",
+      "audience": [
+        "all"
+      ],
+      "changelog": ""
+    },
+    {
       "id": "eli_writer",
       "version": null,
-      "lastUpdated": "2026-10-22T01:54:58.632Z",
+      "lastUpdated": "2026-10-22T02:13:03.522Z",
       "filename": "eli_writer-v3.json",
-      "size": 131787,
+      "size": 131944,
       "label": "ELI Writer",
       "kind": "tool",
       "category": "System",
@@ -720,9 +734,9 @@
     {
       "id": "eli_agent",
       "version": null,
-      "lastUpdated": "2026-10-22T01:54:58.944Z",
+      "lastUpdated": "2026-10-22T02:13:03.189Z",
       "filename": "eli_agent-v3.json",
-      "size": 457668,
+      "size": 463195,
       "label": "ELI Agent",
       "kind": "tool",
       "category": "Tools - ELI Core",
@@ -734,7 +748,7 @@
     {
       "id": "eli_agent_respond",
       "version": null,
-      "lastUpdated": "2026-10-22T01:54:35.800Z",
+      "lastUpdated": "2026-10-22T02:09:07.470Z",
       "filename": "eli_agent_respond-v3.json",
       "size": 492322,
       "label": "ELI Agent: Respond",
@@ -762,9 +776,9 @@
     {
       "id": "eli_agent_revise",
       "version": null,
-      "lastUpdated": "2026-10-22T01:54:59.102Z",
+      "lastUpdated": "2026-10-22T02:13:03.355Z",
       "filename": "eli_agent_revise-v3.json",
-      "size": 505665,
+      "size": 512252,
       "label": "ELI Agent: Revise Document",
       "kind": "tool",
       "category": "Tools - ELI Core",
