@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-10-22T10:09:08.185Z",
+  "lastUpdated": "2026-10-22T10:11:58.154Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -1167,6 +1167,21 @@
         "all"
       ],
       "changelog": ""
+    },
+    {
+      "id": "format_check",
+      "version": null,
+      "lastUpdated": "2026-10-22T10:10:50.029Z",
+      "filename": "format_check-v3.json",
+      "size": 22450,
+      "label": "Format Check",
+      "kind": "tool",
+      "category": "External Innovation",
+      "audience": [],
+      "changelog": "",
+      "audienceEmails": [
+        "andrew_nemiroff@colpal.com"
+      ]
     },
     {
       "id": "__data_catalog",
