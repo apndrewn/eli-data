@@ -1,7 +1,7 @@
 {
   "userName": "MD",
   "userKey": "md",
-  "generatedAt": "2026-10-19T18:37:32.400Z",
+  "generatedAt": "2026-10-22T18:16:47.970Z",
   "days": [
     {
       "date": "2026-08-24",
@@ -152,7 +152,38 @@
       },
       "sessions": 1,
       "firstActiveAt": 1792435047396,
-      "lastActiveAt": 1792435048668,
+      "lastActiveAt": 1792435058414,
+      "tokens": {
+        "gemini-flash-latest": {
+          "promptTokens": 2523,
+          "candidatesTokens": 1369,
+          "calls": 1
+        }
+      },
+      "tokensByTool": {
+        "draft": {
+          "gemini-flash-latest": {
+            "promptTokens": 2523,
+            "candidatesTokens": 1369,
+            "calls": 1
+          }
+        }
+      },
+      "estCostUSD": 0.0006,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
+    },
+    {
+      "date": "2026-10-22",
+      "toolsUsed": {
+        "draft": 1
+      },
+      "sessions": 1,
+      "firstActiveAt": 1792693002962,
+      "lastActiveAt": 1792693004285,
       "tokens": {},
       "tokensByTool": {},
       "estCostUSD": 0,
@@ -169,7 +200,7 @@
     "kernelVersion": "v3-2026-09-11-41b2733",
     "kernelStamped": true,
     "installedAt": "2026-08-24T19:49:37.524Z",
-    "lastSeenAt": "2026-10-19T18:37:32.619Z",
+    "lastSeenAt": "2026-10-22T18:16:48.192Z",
     "settings": {
       "ai_model": "gemini-flash-latest",
       "ai_temperature": 1,
@@ -177,8 +208,10 @@
       "ai_thinking_budget": null,
       "ai_thinking_mode": "recommended",
       "ai_thinking_custom": 512,
-      "ai_thinking_per_tool": {},
-      "ai_allow_streaming": false,
+      "ai_thinking_per_tool": {
+        "eli_agent": 1024
+      },
+      "ai_allow_streaming": true,
       "ai_model_list": [
         "gemini-flash-latest",
         "gemini-flash-lite-latest"
@@ -433,6 +466,10 @@
     ],
     "appliedOverrides": [
       {
+        "id": "fleet-ai-streaming-2026-10-20",
+        "at": 1792693006576
+      },
+      {
         "id": "fleet-ai-timeout-300s-2026-10-19",
         "at": 1792435051038
       },
@@ -445,18 +482,23 @@
         "at": 1792435051038
       },
       {
+        "id": "fleet-thinking-cap-eli-agent-1024-2026-10-20",
+        "at": 1792693006576
+      },
+      {
         "id": "release-notes-off-1789139158421",
         "at": 1789566131076
       }
     ],
-    "trophies": 6,
+    "trophies": 7,
     "trophyIds": [
       "t1",
       "t41",
       "t26",
       "t56",
       "t137",
-      "t71"
+      "t71",
+      "t138"
     ],
     "trophyDates": {
       "t1": "2026-09-09T12:57:44.606Z",
@@ -464,10 +506,11 @@
       "t26": "2026-09-09T15:00:52.527Z",
       "t56": "2026-09-09T15:00:57.562Z",
       "t137": "2026-09-17T12:53:12.164Z",
-      "t71": "2026-09-17T12:53:12.164Z"
+      "t71": "2026-09-17T12:53:12.164Z",
+      "t138": "2026-10-22T18:16:43.689Z"
     },
     "stats": {
-      "totalActiveDays": 6,
+      "totalActiveDays": 7,
       "docsReviewed": 4,
       "draftsCreated": 1,
       "errorsFixed": 8,
