@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-10-22T02:28:50.304Z",
+  "lastUpdated": "2026-10-22T02:34:12.021Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -706,9 +706,9 @@
     {
       "id": "eli_team",
       "version": null,
-      "lastUpdated": "2026-10-22T02:27:42.566Z",
+      "lastUpdated": "2026-10-22T02:33:04.442Z",
       "filename": "eli_team-v3.json",
-      "size": 61988,
+      "size": 62544,
       "label": "Agent Team",
       "kind": "tool",
       "category": "System",
