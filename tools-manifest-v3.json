@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-10-22T02:14:11.197Z",
+  "lastUpdated": "2026-10-22T02:18:02.736Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -706,9 +706,9 @@
     {
       "id": "eli_team",
       "version": null,
-      "lastUpdated": "2026-10-22T02:13:03.039Z",
+      "lastUpdated": "2026-10-22T02:16:55.066Z",
       "filename": "eli_team-v3.json",
-      "size": 61656,
+      "size": 61987,
       "label": "Agent Team",
       "kind": "tool",
       "category": "Admin",
@@ -720,9 +720,9 @@
     {
       "id": "eli_writer",
       "version": null,
-      "lastUpdated": "2026-10-22T02:13:03.522Z",
+      "lastUpdated": "2026-10-22T02:16:55.218Z",
       "filename": "eli_writer-v3.json",
-      "size": 131944,
+      "size": 131940,
       "label": "ELI Writer",
       "kind": "tool",
       "category": "System",
