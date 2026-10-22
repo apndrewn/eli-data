@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-10-22T03:07:13.848Z",
+  "lastUpdated": "2026-10-22T03:23:12.552Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -385,9 +385,9 @@
     {
       "id": "ask_eli",
       "version": null,
-      "lastUpdated": "2026-10-22T02:44:13.639Z",
+      "lastUpdated": "2026-10-22T03:22:04.306Z",
       "filename": "ask_eli-v3.json",
-      "size": 645992,
+      "size": 646040,
       "label": "Ask ELI",
       "kind": "tool",
       "category": "Tools - ELI Core",
@@ -734,9 +734,9 @@
     {
       "id": "eli_agent",
       "version": null,
-      "lastUpdated": "2026-10-22T03:06:05.454Z",
+      "lastUpdated": "2026-10-22T03:22:03.966Z",
       "filename": "eli_agent-v3.json",
-      "size": 477692,
+      "size": 481833,
       "label": "ELI Agent",
       "kind": "tool",
       "category": "Tools - ELI Core",
@@ -776,9 +776,9 @@
     {
       "id": "eli_agent_revise",
       "version": null,
-      "lastUpdated": "2026-10-22T03:06:05.621Z",
+      "lastUpdated": "2026-10-22T03:22:04.127Z",
       "filename": "eli_agent_revise-v3.json",
-      "size": 514347,
+      "size": 517252,
       "label": "ELI Agent: Revise Document",
       "kind": "tool",
       "category": "Tools - ELI Core",
