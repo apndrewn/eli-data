@@ -1,7 +1,7 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-10-21T20:41:21.677Z",
+  "generatedAt": "2026-10-22T12:40:31.704Z",
   "days": [
     {
       "date": "2026-07-29",
@@ -1436,17 +1436,17 @@
       "date": "2026-10-21",
       "toolsUsed": {
         "ask_eli": 1,
-        "agent_apply_instruction": 12,
+        "agent_apply_instruction": 17,
         "draft": 1
       },
-      "sessions": 19,
+      "sessions": 21,
       "firstActiveAt": 1792586844710,
-      "lastActiveAt": 1792615276655,
+      "lastActiveAt": 1792616802719,
       "tokens": {
         "gemini-flash-latest": {
-          "promptTokens": 941068,
-          "candidatesTokens": 42219,
-          "calls": 108
+          "promptTokens": 1029613,
+          "candidatesTokens": 49684,
+          "calls": 135
         }
       },
       "tokensByTool": {
@@ -1466,13 +1466,28 @@
         },
         "agent_apply_instruction": {
           "gemini-flash-latest": {
-            "promptTokens": 919911,
-            "candidatesTokens": 34087,
-            "calls": 105
+            "promptTokens": 1008456,
+            "candidatesTokens": 41552,
+            "calls": 132
           }
         }
       },
-      "estCostUSD": 0.083246,
+      "estCostUSD": 0.092126,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
+    },
+    {
+      "date": "2026-10-22",
+      "toolsUsed": {},
+      "sessions": 1,
+      "firstActiveAt": 1792672826693,
+      "lastActiveAt": 1792672826693,
+      "tokens": {},
+      "tokensByTool": {},
+      "estCostUSD": 0,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -1486,7 +1501,7 @@
     "kernelVersion": "v3-2026-10-20-2013-e96510b",
     "kernelStamped": true,
     "installedAt": "2026-07-29T14:09:25.615Z",
-    "lastSeenAt": "2026-10-21T20:41:21.924Z",
+    "lastSeenAt": "2026-10-22T12:40:32.014Z",
     "settings": {
       "ai_model": "gemini-flash-latest",
       "ai_temperature": 1,
@@ -1627,11 +1642,6 @@
         "disabled": false
       },
       {
-        "id": "ask_eli",
-        "releasedAt": "2026-10-21T14:17:50.035Z",
-        "disabled": false
-      },
-      {
         "id": "auto_emailer",
         "releasedAt": "2026-10-20T12:28:11.503Z",
         "disabled": false
@@ -1682,11 +1692,6 @@
         "disabled": false
       },
       {
-        "id": "doc_style",
-        "releasedAt": "2026-10-20T18:04:17.108Z",
-        "disabled": false
-      },
-      {
         "id": "docuscrub",
         "releasedAt": "2026-06-12T19:36:38.572Z",
         "disabled": false
@@ -1717,11 +1722,6 @@
         "disabled": false
       },
       {
-        "id": "eli_agent",
-        "releasedAt": "2026-10-21T05:05:52.285Z",
-        "disabled": false
-      },
-      {
         "id": "eli_agent_draft",
         "releasedAt": "2026-10-21T01:57:01.775Z",
         "disabled": false
@@ -1729,16 +1729,6 @@
       {
         "id": "eli_agent_email",
         "releasedAt": "2026-10-21T02:58:57.415Z",
-        "disabled": false
-      },
-      {
-        "id": "eli_agent_respond",
-        "releasedAt": "2026-10-21T15:15:19.110Z",
-        "disabled": false
-      },
-      {
-        "id": "eli_agent_revise",
-        "releasedAt": "2026-10-21T16:44:31.317Z",
         "disabled": false
       },
       {
@@ -1769,11 +1759,6 @@
       {
         "id": "eli_telemetry",
         "releasedAt": "2026-09-12T00:07:26.444Z",
-        "disabled": false
-      },
-      {
-        "id": "eli_writer",
-        "releasedAt": "2026-10-21T20:29:30.984Z",
         "disabled": false
       },
       {
@@ -1960,6 +1945,46 @@
         "id": "workflow_creator",
         "releasedAt": "2026-10-14T05:45:43.675Z",
         "disabled": false
+      },
+      {
+        "id": "doc_style",
+        "releasedAt": "2026-10-22T10:07:57.181Z",
+        "disabled": false
+      },
+      {
+        "id": "eli_writer",
+        "releasedAt": "2026-10-22T10:07:57.823Z",
+        "disabled": false
+      },
+      {
+        "id": "eli_team",
+        "releasedAt": "2026-10-22T06:00:35.854Z",
+        "disabled": false
+      },
+      {
+        "id": "format_check",
+        "releasedAt": "2026-10-22T10:10:50.029Z",
+        "disabled": false
+      },
+      {
+        "id": "eli_agent",
+        "releasedAt": "2026-10-22T10:33:57.558Z",
+        "disabled": false
+      },
+      {
+        "id": "eli_agent_revise",
+        "releasedAt": "2026-10-22T10:33:57.714Z",
+        "disabled": false
+      },
+      {
+        "id": "eli_agent_respond",
+        "releasedAt": "2026-10-22T10:33:50.041Z",
+        "disabled": false
+      },
+      {
+        "id": "ask_eli",
+        "releasedAt": "2026-10-22T05:09:54.707Z",
+        "disabled": false
       }
     ],
     "appliedOverrides": [
@@ -2081,13 +2106,13 @@
       "t173": "2026-10-19T12:56:54.353Z"
     },
     "stats": {
-      "totalActiveDays": 38,
+      "totalActiveDays": 39,
       "docsReviewed": 46,
       "draftsCreated": 18,
       "errorsFixed": 80,
       "risksFound": 14,
       "hoursSaved": 23,
-      "currentStreak": 3
+      "currentStreak": 4
     },
     "dashboardApps": [
       "auto_emailer",
