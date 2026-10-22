@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-10-22T02:16:55.066Z",
+  "exportedAt": "2026-10-22T02:27:42.566Z",
   "sectionVersions": {
     "jsonTools": 1
   },
   "sections": {
     "jsonTools": [
       {
-        "releasedAt": "2026-10-22T02:16:55.066Z",
+        "releasedAt": "2026-10-22T02:27:42.566Z",
         "id": "eli_team",
         "label": "Agent Team",
         "defaultEnabled": true,
@@ -33,7 +33,7 @@
           "title": "AGENT TEAM REPLAY",
           "desc": "Replay the agent-team screen on a demo run, with no AI and no document.",
           "hoverTip": "Replay the agent team",
-          "category": "Admin",
+          "category": "System",
           "core": false,
           "default": false,
           "order": 97,
