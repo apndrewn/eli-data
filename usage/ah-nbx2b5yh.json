@@ -1,7 +1,7 @@
 {
   "userName": "A(",
   "userKey": "ah",
-  "generatedAt": "2026-10-21T22:15:23.354Z",
+  "generatedAt": "2026-10-22T01:16:22.056Z",
   "days": [
     {
       "date": "2026-09-11",
@@ -875,16 +875,17 @@
         "tour": 3,
         "agent_turn_draft": 11,
         "draft": 1,
-        "ask_eli": 1
+        "ask_eli": 1,
+        "agent_apply_instruction": 1
       },
-      "sessions": 27,
+      "sessions": 30,
       "firstActiveAt": 1792555694062,
-      "lastActiveAt": 1792620918310,
+      "lastActiveAt": 1792631777037,
       "tokens": {
         "gemini-flash-latest": {
-          "promptTokens": 566224,
-          "candidatesTokens": 65000,
-          "calls": 69
+          "promptTokens": 646437,
+          "candidatesTokens": 66427,
+          "calls": 83
         }
       },
       "tokensByTool": {
@@ -904,13 +905,20 @@
         },
         "_unknown": {
           "gemini-flash-latest": {
-            "promptTokens": 63654,
-            "candidatesTokens": 11145,
-            "calls": 2
+            "promptTokens": 129124,
+            "candidatesTokens": 11764,
+            "calls": 6
+          }
+        },
+        "agent_apply_instruction": {
+          "gemini-flash-latest": {
+            "promptTokens": 14743,
+            "candidatesTokens": 808,
+            "calls": 10
           }
         }
       },
-      "estCostUSD": 0.061967,
+      "estCostUSD": 0.068411,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -924,7 +932,7 @@
     "kernelVersion": "v3-2026-10-20-2013-e96510b",
     "kernelStamped": true,
     "installedAt": "2026-07-31T00:45:31.641Z",
-    "lastSeenAt": "2026-10-21T22:15:23.560Z",
+    "lastSeenAt": "2026-10-22T01:16:22.371Z",
     "settings": {
       "ai_model": "gemini-flash-latest",
       "ai_temperature": 1,
@@ -1065,11 +1073,6 @@
         "disabled": false
       },
       {
-        "id": "ask_eli",
-        "releasedAt": "2026-10-21T21:00:36.469Z",
-        "disabled": false
-      },
-      {
         "id": "auto_emailer",
         "releasedAt": "2026-10-20T12:28:11.503Z",
         "disabled": false
@@ -1170,16 +1173,6 @@
         "disabled": false
       },
       {
-        "id": "eli_agent_respond",
-        "releasedAt": "2026-10-21T15:15:19.110Z",
-        "disabled": false
-      },
-      {
-        "id": "eli_agent_revise",
-        "releasedAt": "2026-10-21T16:44:31.317Z",
-        "disabled": false
-      },
-      {
         "id": "eli_kit",
         "releasedAt": "2026-10-14T06:50:51.536Z",
         "disabled": false
@@ -1207,11 +1200,6 @@
       {
         "id": "eli_telemetry",
         "releasedAt": "2026-09-12T00:07:26.444Z",
-        "disabled": false
-      },
-      {
-        "id": "eli_writer",
-        "releasedAt": "2026-10-21T22:13:39.602Z",
         "disabled": false
       },
       {
@@ -1397,6 +1385,26 @@
       {
         "id": "workflow_creator",
         "releasedAt": "2026-10-14T05:45:43.675Z",
+        "disabled": false
+      },
+      {
+        "id": "eli_writer",
+        "releasedAt": "2026-10-22T01:11:12.138Z",
+        "disabled": false
+      },
+      {
+        "id": "eli_agent_revise",
+        "releasedAt": "2026-10-22T01:11:12.466Z",
+        "disabled": false
+      },
+      {
+        "id": "eli_agent_respond",
+        "releasedAt": "2026-10-22T01:11:12.623Z",
+        "disabled": false
+      },
+      {
+        "id": "ask_eli",
+        "releasedAt": "2026-10-22T01:11:12.311Z",
         "disabled": false
       }
     ],
