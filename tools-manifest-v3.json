@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-10-22T03:51:57.680Z",
+  "lastUpdated": "2026-10-22T04:21:55.842Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -385,9 +385,9 @@
     {
       "id": "ask_eli",
       "version": null,
-      "lastUpdated": "2026-10-22T03:22:04.306Z",
+      "lastUpdated": "2026-10-22T04:20:47.380Z",
       "filename": "ask_eli-v3.json",
-      "size": 646040,
+      "size": 647400,
       "label": "Ask ELI",
       "kind": "tool",
       "category": "Tools - ELI Core",
@@ -706,9 +706,9 @@
     {
       "id": "eli_team",
       "version": null,
-      "lastUpdated": "2026-10-22T02:44:12.916Z",
+      "lastUpdated": "2026-10-22T04:20:46.922Z",
       "filename": "eli_team-v3.json",
-      "size": 65782,
+      "size": 64147,
       "label": "Agent Team",
       "kind": "tool",
       "category": "System",
@@ -734,9 +734,9 @@
     {
       "id": "eli_agent",
       "version": null,
-      "lastUpdated": "2026-10-22T03:50:49.633Z",
+      "lastUpdated": "2026-10-22T04:20:47.070Z",
       "filename": "eli_agent-v3.json",
-      "size": 486892,
+      "size": 492838,
       "label": "ELI Agent",
       "kind": "tool",
       "category": "Tools - ELI Core",
@@ -748,7 +748,7 @@
     {
       "id": "eli_agent_respond",
       "version": null,
-      "lastUpdated": "2026-10-22T03:43:33.478Z",
+      "lastUpdated": "2026-10-22T04:10:22.452Z",
       "filename": "eli_agent_respond-v3.json",
       "size": 492536,
       "label": "ELI Agent: Respond",
@@ -776,9 +776,9 @@
     {
       "id": "eli_agent_revise",
       "version": null,
-      "lastUpdated": "2026-10-22T03:43:33.312Z",
+      "lastUpdated": "2026-10-22T04:20:47.230Z",
       "filename": "eli_agent_revise-v3.json",
-      "size": 518748,
+      "size": 520013,
       "label": "ELI Agent: Revise Document",
       "kind": "tool",
       "category": "Tools - ELI Core",
