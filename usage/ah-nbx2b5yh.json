@@ -1,7 +1,7 @@
 {
   "userName": "A(",
   "userKey": "ah",
-  "generatedAt": "2026-10-22T04:21:45.969Z",
+  "generatedAt": "2026-10-22T23:49:30.879Z",
   "days": [
     {
       "date": "2026-09-11",
@@ -928,14 +928,37 @@
     {
       "date": "2026-10-22",
       "toolsUsed": {
-        "agent_apply_instruction": 1
+        "agent_apply_instruction": 56,
+        "ask_eli": 1,
+        "template_searcher": 1
       },
-      "sessions": 1,
+      "sessions": 37,
       "firstActiveAt": 1792642900955,
-      "lastActiveAt": 1792642903812,
-      "tokens": {},
-      "tokensByTool": {},
-      "estCostUSD": 0,
+      "lastActiveAt": 1792712969294,
+      "tokens": {
+        "gemini-flash-latest": {
+          "promptTokens": 3275785,
+          "candidatesTokens": 201993,
+          "calls": 379
+        }
+      },
+      "tokensByTool": {
+        "agent_apply_instruction": {
+          "gemini-flash-latest": {
+            "promptTokens": 3274714,
+            "candidatesTokens": 201927,
+            "calls": 378
+          }
+        },
+        "ask_eli": {
+          "gemini-flash-latest": {
+            "promptTokens": 1071,
+            "candidatesTokens": 66,
+            "calls": 1
+          }
+        }
+      },
+      "estCostUSD": 0.306282,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -949,7 +972,7 @@
     "kernelVersion": "v3-2026-10-20-2013-e96510b",
     "kernelStamped": true,
     "installedAt": "2026-07-31T00:45:31.641Z",
-    "lastSeenAt": "2026-10-22T04:21:46.138Z",
+    "lastSeenAt": "2026-10-22T23:49:31.161Z",
     "settings": {
       "ai_model": "gemini-flash-latest",
       "ai_temperature": 1,
@@ -983,7 +1006,7 @@
         "gemini-flash-lite-latest",
         "gemini-flash-latest"
       ],
-      "expand_width": 800,
+      "expand_width": 600,
       "expand_threshold": 480,
       "debug_mode": false,
       "build_draft.multilineInsert": true,
@@ -1091,7 +1114,7 @@
       },
       {
         "id": "ask_eli",
-        "releasedAt": "2026-10-22T04:20:47.380Z",
+        "releasedAt": "2026-10-22T05:09:54.707Z",
         "disabled": false
       },
       {
@@ -1146,7 +1169,7 @@
       },
       {
         "id": "doc_style",
-        "releasedAt": "2026-10-20T18:04:17.108Z",
+        "releasedAt": "2026-10-22T23:38:26.876Z",
         "disabled": false
       },
       {
@@ -1181,27 +1204,27 @@
       },
       {
         "id": "eli_agent",
-        "releasedAt": "2026-10-22T04:20:47.070Z",
+        "releasedAt": "2026-10-22T23:38:16.632Z",
         "disabled": false
       },
       {
         "id": "eli_agent_draft",
-        "releasedAt": "2026-10-21T01:57:01.775Z",
+        "releasedAt": "2026-10-22T23:38:17.128Z",
         "disabled": false
       },
       {
         "id": "eli_agent_email",
-        "releasedAt": "2026-10-21T02:58:57.415Z",
+        "releasedAt": "2026-10-22T23:38:17.297Z",
         "disabled": false
       },
       {
         "id": "eli_agent_respond",
-        "releasedAt": "2026-10-22T03:43:33.478Z",
+        "releasedAt": "2026-10-22T23:38:16.942Z",
         "disabled": false
       },
       {
         "id": "eli_agent_revise",
-        "releasedAt": "2026-10-22T04:20:47.230Z",
+        "releasedAt": "2026-10-22T23:38:27.076Z",
         "disabled": false
       },
       {
@@ -1231,7 +1254,7 @@
       },
       {
         "id": "eli_team",
-        "releasedAt": "2026-10-22T04:20:46.922Z",
+        "releasedAt": "2026-10-22T19:13:56.754Z",
         "disabled": false
       },
       {
@@ -1241,7 +1264,7 @@
       },
       {
         "id": "eli_writer",
-        "releasedAt": "2026-10-22T03:35:22.809Z",
+        "releasedAt": "2026-10-22T23:38:27.250Z",
         "disabled": false
       },
       {
@@ -1267,6 +1290,11 @@
       {
         "id": "focus_flow",
         "releasedAt": "2026-05-18T11:52:32.797Z",
+        "disabled": false
+      },
+      {
+        "id": "format_check",
+        "releasedAt": "2026-10-22T10:10:50.029Z",
         "disabled": false
       },
       {
