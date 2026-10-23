@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-10-23T05:11:52.883Z",
+  "lastUpdated": "2026-10-23T05:25:25.650Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -734,7 +734,7 @@
     {
       "id": "eli_agent",
       "version": null,
-      "lastUpdated": "2026-10-23T05:10:33.639Z",
+      "lastUpdated": "2026-10-23T05:24:06.731Z",
       "filename": "eli_agent-v3.json",
       "size": 521271,
       "label": "ELI Agent",
@@ -748,7 +748,7 @@
     {
       "id": "eli_agent_respond",
       "version": null,
-      "lastUpdated": "2026-10-23T05:10:45.609Z",
+      "lastUpdated": "2026-10-23T05:24:06.864Z",
       "filename": "eli_agent_respond-v3.json",
       "size": 502911,
       "label": "ELI Agent: Respond",
@@ -762,7 +762,7 @@
     {
       "id": "eli_agent_draft",
       "version": null,
-      "lastUpdated": "2026-10-23T05:10:34.011Z",
+      "lastUpdated": "2026-10-23T05:24:07.093Z",
       "filename": "eli_agent_draft-v3.json",
       "size": 146252,
       "label": "ELI Agent: Draft Document",
@@ -776,9 +776,9 @@
     {
       "id": "eli_agent_revise",
       "version": null,
-      "lastUpdated": "2026-10-23T05:10:33.890Z",
+      "lastUpdated": "2026-10-23T05:24:17.949Z",
       "filename": "eli_agent_revise-v3.json",
-      "size": 583226,
+      "size": 584058,
       "label": "ELI Agent: Revise Document",
       "kind": "tool",
       "category": "Tools - ELI Core",
@@ -790,7 +790,7 @@
     {
       "id": "eli_agent_email",
       "version": null,
-      "lastUpdated": "2026-10-23T05:10:34.115Z",
+      "lastUpdated": "2026-10-23T05:24:07.203Z",
       "filename": "eli_agent_email-v3.json",
       "size": 36803,
       "label": "ELI Agent: Address Comments",
