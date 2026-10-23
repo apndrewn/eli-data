@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-10-23T06:39:01.555Z",
+  "lastUpdated": "2026-10-23T07:41:55.291Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -1171,9 +1171,9 @@
     {
       "id": "format_check",
       "version": null,
-      "lastUpdated": "2026-10-23T06:31:31.529Z",
+      "lastUpdated": "2026-10-23T07:40:47.084Z",
       "filename": "format_check-v3.json",
-      "size": 81831,
+      "size": 83572,
       "label": "Format Check",
       "kind": "tool",
       "category": "External Innovation",
