@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-10-23T13:52:23.532Z",
+  "lastUpdated": "2026-10-23T14:25:43.943Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -1157,9 +1157,9 @@
     {
       "id": "template_revise",
       "version": null,
-      "lastUpdated": "2026-10-23T13:37:21.530Z",
+      "lastUpdated": "2026-10-23T14:24:35.720Z",
       "filename": "template_revise-v3.json",
-      "size": 135124,
+      "size": 129826,
       "label": "Template Revise",
       "kind": "tool",
       "category": "Admin",
