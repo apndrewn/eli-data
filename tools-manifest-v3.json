@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-10-23T05:25:25.650Z",
+  "lastUpdated": "2026-10-23T05:35:41.003Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -385,9 +385,9 @@
     {
       "id": "ask_eli",
       "version": null,
-      "lastUpdated": "2026-10-23T02:45:54.663Z",
+      "lastUpdated": "2026-10-23T05:34:32.934Z",
       "filename": "ask_eli-v3.json",
-      "size": 633963,
+      "size": 633717,
       "label": "Ask ELI",
       "kind": "tool",
       "category": "Tools - ELI Core",
@@ -1171,9 +1171,9 @@
     {
       "id": "format_check",
       "version": null,
-      "lastUpdated": "2026-10-23T04:59:21.363Z",
+      "lastUpdated": "2026-10-23T05:34:32.801Z",
       "filename": "format_check-v3.json",
-      "size": 71480,
+      "size": 73620,
       "label": "Format Check",
       "kind": "tool",
       "category": "External Innovation",
