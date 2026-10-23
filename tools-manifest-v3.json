@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-10-23T08:59:52.791Z",
+  "lastUpdated": "2026-10-23T09:07:13.745Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -1157,9 +1157,9 @@
     {
       "id": "doc_style",
       "version": null,
-      "lastUpdated": "2026-10-23T05:54:32.279Z",
+      "lastUpdated": "2026-10-23T09:06:06.187Z",
       "filename": "doc_style-v3.json",
-      "size": 47964,
+      "size": 51114,
       "label": "Document Style",
       "kind": "tool",
       "category": "System",
