@@ -1,7 +1,7 @@
 {
   "userName": "A(",
   "userKey": "ah",
-  "generatedAt": "2026-10-23T09:20:56.407Z",
+  "generatedAt": "2026-10-23T12:35:29.168Z",
   "days": [
     {
       "date": "2026-10-19",
@@ -151,16 +151,17 @@
       "date": "2026-10-23",
       "toolsUsed": {
         "draft_templates": 2,
-        "agent_apply_instruction": 1
+        "agent_apply_instruction": 4,
+        "agent_turn_draft": 3
       },
-      "sessions": 164,
+      "sessions": 229,
       "firstActiveAt": 1792736429256,
-      "lastActiveAt": 1792747251391,
+      "lastActiveAt": 1792758924142,
       "tokens": {
         "gemini-flash-latest": {
-          "promptTokens": 141781,
-          "candidatesTokens": 19752,
-          "calls": 20
+          "promptTokens": 440119,
+          "candidatesTokens": 41106,
+          "calls": 38
         }
       },
       "tokensByTool": {
@@ -173,13 +174,13 @@
         },
         "agent_apply_instruction": {
           "gemini-flash-latest": {
-            "promptTokens": 107267,
-            "candidatesTokens": 17604,
-            "calls": 18
+            "promptTokens": 405605,
+            "candidatesTokens": 38958,
+            "calls": 36
           }
         }
       },
-      "estCostUSD": 0.016559,
+      "estCostUSD": 0.045341,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -193,7 +194,7 @@
     "kernelVersion": "v3-2026-10-20-2014-labfb53566",
     "kernelStamped": false,
     "installedAt": "2026-10-19T04:24:47.770Z",
-    "lastSeenAt": "2026-10-23T09:20:56.614Z",
+    "lastSeenAt": "2026-10-23T12:35:29.477Z",
     "settings": {
       "ai_model": "gemini-flash-latest",
       "ai_temperature": 1,
@@ -399,11 +400,6 @@
         "disabled": false
       },
       {
-        "id": "doc_style",
-        "releasedAt": "2026-10-23T09:01:11.672Z",
-        "disabled": false
-      },
-      {
         "id": "docuscrub",
         "releasedAt": "2026-10-19T04:43:16.356Z",
         "disabled": false
@@ -469,6 +465,11 @@
         "disabled": false
       },
       {
+        "id": "eli_writer",
+        "releasedAt": "2026-10-23T09:18:02.859Z",
+        "disabled": false
+      },
+      {
         "id": "email_helper",
         "releasedAt": "2026-10-19T04:43:16.539Z",
         "disabled": false
@@ -491,11 +492,6 @@
       {
         "id": "focus_flow",
         "releasedAt": "2026-10-19T04:43:16.874Z",
-        "disabled": false
-      },
-      {
-        "id": "format_check",
-        "releasedAt": "2026-10-23T07:43:22.576Z",
         "disabled": false
       },
       {
@@ -614,11 +610,6 @@
         "disabled": false
       },
       {
-        "id": "template_manager",
-        "releasedAt": "2026-10-23T08:10:24.204Z",
-        "disabled": false
-      },
-      {
         "id": "template_searcher",
         "releasedAt": "2026-10-19T04:43:17.573Z",
         "disabled": false
@@ -659,33 +650,48 @@
         "disabled": false
       },
       {
-        "id": "eli_writer",
-        "releasedAt": "2026-10-23T09:18:02.859Z",
+        "id": "template_manager",
+        "releasedAt": "2026-10-23T11:48:48.833Z",
         "disabled": false
       },
       {
         "id": "eli_agent",
-        "releasedAt": "2026-10-23T09:18:03.095Z",
+        "releasedAt": "2026-10-23T12:33:15.894Z",
+        "disabled": false
+      },
+      {
+        "id": "doc_style",
+        "releasedAt": "2026-10-23T12:02:59.303Z",
+        "disabled": false
+      },
+      {
+        "id": "template_revise",
+        "releasedAt": "2026-10-23T12:17:08.035Z",
         "disabled": false
       },
       {
         "id": "eli_agent_respond",
-        "releasedAt": "2026-10-23T09:18:03.044Z",
+        "releasedAt": "2026-10-23T12:33:15.830Z",
         "disabled": false
       },
       {
         "id": "eli_agent_draft",
-        "releasedAt": "2026-10-23T09:18:03.044Z",
+        "releasedAt": "2026-10-23T12:33:15.830Z",
         "disabled": false
       },
       {
         "id": "eli_agent_revise",
-        "releasedAt": "2026-10-23T09:18:03.059Z",
+        "releasedAt": "2026-10-23T12:33:15.836Z",
+        "disabled": false
+      },
+      {
+        "id": "format_check",
+        "releasedAt": "2026-10-23T12:02:59.308Z",
         "disabled": false
       },
       {
         "id": "eli_agent_email",
-        "releasedAt": "2026-10-23T09:18:03.059Z",
+        "releasedAt": "2026-10-23T12:33:15.836Z",
         "disabled": false
       }
     ],
