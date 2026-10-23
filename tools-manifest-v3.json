@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-10-23T16:18:55.451Z",
+  "lastUpdated": "2026-10-23T17:36:22.834Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -659,9 +659,9 @@
     {
       "id": "eli_writer",
       "version": null,
-      "lastUpdated": "2026-10-23T10:17:12.946Z",
+      "lastUpdated": "2026-10-23T17:35:14.813Z",
       "filename": "eli_writer-v3.json",
-      "size": 189712,
+      "size": 204462,
       "label": "ELI Writer",
       "kind": "tool",
       "category": "System",
@@ -715,9 +715,9 @@
     {
       "id": "eli_agent_revise",
       "version": null,
-      "lastUpdated": "2026-10-23T15:06:41.866Z",
+      "lastUpdated": "2026-10-23T17:35:15.076Z",
       "filename": "eli_agent_revise-v3.json",
-      "size": 604774,
+      "size": 605121,
       "label": "ELI Agent: Revise Document",
       "kind": "tool",
       "category": "Tools - ELI Core",
@@ -1111,9 +1111,9 @@
     {
       "id": "doc_style",
       "version": null,
-      "lastUpdated": "2026-10-23T12:20:54.528Z",
+      "lastUpdated": "2026-10-23T17:35:14.947Z",
       "filename": "doc_style-v3.json",
-      "size": 51305,
+      "size": 52181,
       "label": "Document Style",
       "kind": "tool",
       "category": "System",
