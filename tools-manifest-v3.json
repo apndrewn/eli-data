@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-10-23T08:23:06.717Z",
+  "lastUpdated": "2026-10-23T08:59:52.791Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -720,9 +720,9 @@
     {
       "id": "eli_writer",
       "version": null,
-      "lastUpdated": "2026-10-23T06:31:31.407Z",
+      "lastUpdated": "2026-10-23T08:58:45.236Z",
       "filename": "eli_writer-v3.json",
-      "size": 174546,
+      "size": 187868,
       "label": "ELI Writer",
       "kind": "tool",
       "category": "System",
@@ -734,7 +734,7 @@
     {
       "id": "eli_agent",
       "version": null,
-      "lastUpdated": "2026-10-23T06:37:42.246Z",
+      "lastUpdated": "2026-10-23T08:55:55.535Z",
       "filename": "eli_agent-v3.json",
       "size": 523824,
       "label": "ELI Agent",
@@ -748,9 +748,9 @@
     {
       "id": "eli_agent_respond",
       "version": null,
-      "lastUpdated": "2026-10-23T06:37:42.374Z",
+      "lastUpdated": "2026-10-23T08:58:45.360Z",
       "filename": "eli_agent_respond-v3.json",
-      "size": 501363,
+      "size": 503287,
       "label": "ELI Agent: Respond",
       "kind": "tool",
       "category": "Tools - ELI Core",
@@ -762,7 +762,7 @@
     {
       "id": "eli_agent_draft",
       "version": null,
-      "lastUpdated": "2026-10-23T06:37:42.634Z",
+      "lastUpdated": "2026-10-23T08:55:55.882Z",
       "filename": "eli_agent_draft-v3.json",
       "size": 146252,
       "label": "ELI Agent: Draft Document",
@@ -776,7 +776,7 @@
     {
       "id": "eli_agent_revise",
       "version": null,
-      "lastUpdated": "2026-10-23T06:37:53.897Z",
+      "lastUpdated": "2026-10-23T08:55:55.768Z",
       "filename": "eli_agent_revise-v3.json",
       "size": 584068,
       "label": "ELI Agent: Revise Document",
@@ -790,7 +790,7 @@
     {
       "id": "eli_agent_email",
       "version": null,
-      "lastUpdated": "2026-10-23T06:37:42.752Z",
+      "lastUpdated": "2026-10-23T08:55:55.983Z",
       "filename": "eli_agent_email-v3.json",
       "size": 36803,
       "label": "ELI Agent: Address Comments",
