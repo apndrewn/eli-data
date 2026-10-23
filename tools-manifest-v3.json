@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-10-23T15:45:42.516Z",
+  "lastUpdated": "2026-10-23T15:57:39.261Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -701,9 +701,9 @@
     {
       "id": "eli_agent_draft",
       "version": null,
-      "lastUpdated": "2026-10-23T11:33:20.892Z",
+      "lastUpdated": "2026-10-23T15:56:31.676Z",
       "filename": "eli_agent_draft-v3.json",
-      "size": 146252,
+      "size": 146343,
       "label": "ELI Agent: Draft Document",
       "kind": "tool",
       "category": "Tools - ELI Core",
