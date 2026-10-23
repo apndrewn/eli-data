@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-10-23T06:18:09.606Z",
+  "lastUpdated": "2026-10-23T06:32:39.860Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -720,9 +720,9 @@
     {
       "id": "eli_writer",
       "version": null,
-      "lastUpdated": "2026-10-23T06:17:01.864Z",
+      "lastUpdated": "2026-10-23T06:31:31.407Z",
       "filename": "eli_writer-v3.json",
-      "size": 172104,
+      "size": 174546,
       "label": "ELI Writer",
       "kind": "tool",
       "category": "System",
@@ -1171,9 +1171,9 @@
     {
       "id": "format_check",
       "version": null,
-      "lastUpdated": "2026-10-23T06:17:01.981Z",
+      "lastUpdated": "2026-10-23T06:31:31.529Z",
       "filename": "format_check-v3.json",
-      "size": 81613,
+      "size": 81831,
       "label": "Format Check",
       "kind": "tool",
       "category": "External Innovation",
