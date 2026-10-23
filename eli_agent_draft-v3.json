@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-10-23T08:55:55.882Z",
+  "exportedAt": "2026-10-23T10:17:00.581Z",
   "sectionVersions": {
     "jsonTools": 1
   },
   "sections": {
     "jsonTools": [
       {
-        "releasedAt": "2026-10-23T08:55:55.882Z",
+        "releasedAt": "2026-10-23T10:17:00.581Z",
         "id": "eli_agent_draft",
         "label": "ELI Agent: Draft Document",
         "defaultEnabled": true,
