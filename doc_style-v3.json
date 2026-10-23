@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-10-23T03:59:22.764Z",
+  "exportedAt": "2026-10-23T04:40:52.340Z",
   "sectionVersions": {
     "jsonTools": 1
   },
   "sections": {
     "jsonTools": [
       {
-        "releasedAt": "2026-10-23T03:59:22.764Z",
+        "releasedAt": "2026-10-23T04:40:52.339Z",
         "id": "doc_style",
         "label": "Document Style",
         "defaultEnabled": true,
