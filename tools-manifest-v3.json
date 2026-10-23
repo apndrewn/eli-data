@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-10-22T23:54:35.700Z",
+  "lastUpdated": "2026-10-23T00:06:41.355Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -1157,9 +1157,9 @@
     {
       "id": "doc_style",
       "version": null,
-      "lastUpdated": "2026-10-22T23:38:26.876Z",
+      "lastUpdated": "2026-10-23T00:05:33.104Z",
       "filename": "doc_style-v3.json",
-      "size": 44470,
+      "size": 45110,
       "label": "Document Style",
       "kind": "tool",
       "category": "System",
@@ -1171,9 +1171,9 @@
     {
       "id": "format_check",
       "version": null,
-      "lastUpdated": "2026-10-22T10:10:50.029Z",
+      "lastUpdated": "2026-10-23T00:05:33.263Z",
       "filename": "format_check-v3.json",
-      "size": 22450,
+      "size": 24283,
       "label": "Format Check",
       "kind": "tool",
       "category": "External Innovation",
