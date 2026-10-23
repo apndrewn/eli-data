@@ -1,7 +1,7 @@
 {
   "userName": "A(",
   "userKey": "ah",
-  "generatedAt": "2026-10-23T12:35:29.168Z",
+  "generatedAt": "2026-10-23T15:35:32.215Z",
   "days": [
     {
       "date": "2026-10-19",
@@ -151,17 +151,17 @@
       "date": "2026-10-23",
       "toolsUsed": {
         "draft_templates": 2,
-        "agent_apply_instruction": 4,
-        "agent_turn_draft": 3
+        "agent_apply_instruction": 49,
+        "agent_turn_draft": 24
       },
-      "sessions": 229,
+      "sessions": 315,
       "firstActiveAt": 1792736429256,
-      "lastActiveAt": 1792758924142,
+      "lastActiveAt": 1792769727208,
       "tokens": {
         "gemini-flash-latest": {
-          "promptTokens": 440119,
-          "candidatesTokens": 41106,
-          "calls": 38
+          "promptTokens": 577971,
+          "candidatesTokens": 63977,
+          "calls": 63
         }
       },
       "tokensByTool": {
@@ -174,13 +174,13 @@
         },
         "agent_apply_instruction": {
           "gemini-flash-latest": {
-            "promptTokens": 405605,
-            "candidatesTokens": 38958,
-            "calls": 36
+            "promptTokens": 543457,
+            "candidatesTokens": 61829,
+            "calls": 61
           }
         }
       },
-      "estCostUSD": 0.045341,
+      "estCostUSD": 0.062541,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -194,7 +194,7 @@
     "kernelVersion": "v3-2026-10-20-2014-labfb53566",
     "kernelStamped": false,
     "installedAt": "2026-10-19T04:24:47.770Z",
-    "lastSeenAt": "2026-10-23T12:35:29.477Z",
+    "lastSeenAt": "2026-10-23T15:35:32.374Z",
     "settings": {
       "ai_model": "gemini-flash-latest",
       "ai_temperature": 1,
@@ -345,11 +345,6 @@
         "disabled": false
       },
       {
-        "id": "bd_template_tester",
-        "releasedAt": "2026-10-19T04:43:15.487Z",
-        "disabled": false
-      },
-      {
         "id": "build_draft",
         "releasedAt": "2026-10-19T04:43:15.705Z",
         "disabled": false
@@ -362,11 +357,6 @@
       {
         "id": "chrome_tester",
         "releasedAt": "2026-10-19T04:43:15.556Z",
-        "disabled": false
-      },
-      {
-        "id": "clause_diff_lab",
-        "releasedAt": "2026-10-19T04:43:15.787Z",
         "disabled": false
       },
       {
@@ -400,6 +390,11 @@
         "disabled": false
       },
       {
+        "id": "doc_style",
+        "releasedAt": "2026-10-23T15:27:34.412Z",
+        "disabled": false
+      },
+      {
         "id": "docuscrub",
         "releasedAt": "2026-10-19T04:43:16.356Z",
         "disabled": false
@@ -427,6 +422,31 @@
       {
         "id": "eli5",
         "releasedAt": "2026-10-19T04:43:16.239Z",
+        "disabled": false
+      },
+      {
+        "id": "eli_agent",
+        "releasedAt": "2026-10-23T15:21:58.974Z",
+        "disabled": false
+      },
+      {
+        "id": "eli_agent_draft",
+        "releasedAt": "2026-10-23T15:21:58.908Z",
+        "disabled": false
+      },
+      {
+        "id": "eli_agent_email",
+        "releasedAt": "2026-10-23T15:21:58.921Z",
+        "disabled": false
+      },
+      {
+        "id": "eli_agent_respond",
+        "releasedAt": "2026-10-23T15:21:58.909Z",
+        "disabled": false
+      },
+      {
+        "id": "eli_agent_revise",
+        "releasedAt": "2026-10-23T15:21:58.932Z",
         "disabled": false
       },
       {
@@ -466,7 +486,7 @@
       },
       {
         "id": "eli_writer",
-        "releasedAt": "2026-10-23T09:18:02.859Z",
+        "releasedAt": "2026-10-23T15:32:01.421Z",
         "disabled": false
       },
       {
@@ -495,8 +515,8 @@
         "disabled": false
       },
       {
-        "id": "guided_redlines",
-        "releasedAt": "2026-10-19T04:43:17.156Z",
+        "id": "format_check",
+        "releasedAt": "2026-10-23T12:02:59.308Z",
         "disabled": false
       },
       {
@@ -570,11 +590,6 @@
         "disabled": false
       },
       {
-        "id": "redline_narrator",
-        "releasedAt": "2026-10-19T04:43:17.055Z",
-        "disabled": false
-      },
-      {
         "id": "refresh_eli",
         "releasedAt": "2026-10-19T04:43:16.931Z",
         "disabled": false
@@ -607,6 +622,16 @@
       {
         "id": "template_indexer",
         "releasedAt": "2026-10-19T04:43:17.226Z",
+        "disabled": false
+      },
+      {
+        "id": "template_manager",
+        "releasedAt": "2026-10-23T11:48:48.833Z",
+        "disabled": false
+      },
+      {
+        "id": "template_revise",
+        "releasedAt": "2026-10-23T14:22:52.028Z",
         "disabled": false
       },
       {
@@ -647,51 +672,6 @@
       {
         "id": "workflow_creator",
         "releasedAt": "2026-10-19T04:43:17.601Z",
-        "disabled": false
-      },
-      {
-        "id": "template_manager",
-        "releasedAt": "2026-10-23T11:48:48.833Z",
-        "disabled": false
-      },
-      {
-        "id": "eli_agent",
-        "releasedAt": "2026-10-23T12:33:15.894Z",
-        "disabled": false
-      },
-      {
-        "id": "doc_style",
-        "releasedAt": "2026-10-23T12:02:59.303Z",
-        "disabled": false
-      },
-      {
-        "id": "template_revise",
-        "releasedAt": "2026-10-23T12:17:08.035Z",
-        "disabled": false
-      },
-      {
-        "id": "eli_agent_respond",
-        "releasedAt": "2026-10-23T12:33:15.830Z",
-        "disabled": false
-      },
-      {
-        "id": "eli_agent_draft",
-        "releasedAt": "2026-10-23T12:33:15.830Z",
-        "disabled": false
-      },
-      {
-        "id": "eli_agent_revise",
-        "releasedAt": "2026-10-23T12:33:15.836Z",
-        "disabled": false
-      },
-      {
-        "id": "format_check",
-        "releasedAt": "2026-10-23T12:02:59.308Z",
-        "disabled": false
-      },
-      {
-        "id": "eli_agent_email",
-        "releasedAt": "2026-10-23T12:33:15.836Z",
         "disabled": false
       }
     ],
@@ -755,6 +735,10 @@
       {
         "id": "release-notes-off-1789139158421",
         "at": 1792383885493
+      },
+      {
+        "id": "retire-admin-tools-2026-10-23",
+        "at": 1792767483253
       }
     ],
     "trophies": 27,
