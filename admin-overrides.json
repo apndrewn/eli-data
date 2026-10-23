@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-10-20T22:55:41.250Z",
+  "lastUpdated": "2026-10-23T14:35:49.711Z",
   "overrides": [
     {
       "id": "fleet-notice-MD-7z4e5kud-1781724707405",
@@ -388,6 +388,32 @@
           "key": "tool.eli_agent.precedent_prompt",
           "value": true,
           "force": "reset"
+        }
+      ]
+    },
+    {
+      "id": "retire-admin-tools-2026-10-23",
+      "audience": [
+        "all"
+      ],
+      "expiresAt": "2027-04-30T00:00:00.000Z",
+      "note": "The owner retired four admin tools (10-23): their installed copies come off, silently; no notice. To bring one back: an audience_clear_user_override for it, then install.",
+      "actions": [
+        {
+          "type": "audience_revoke_user",
+          "toolId": "redline_narrator"
+        },
+        {
+          "type": "audience_revoke_user",
+          "toolId": "clause_diff_lab"
+        },
+        {
+          "type": "audience_revoke_user",
+          "toolId": "guided_redlines"
+        },
+        {
+          "type": "audience_revoke_user",
+          "toolId": "bd_template_tester"
         }
       ]
     }
