@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-10-23T14:25:43.943Z",
+  "lastUpdated": "2026-10-23T14:34:02.140Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -541,51 +541,6 @@
       ]
     },
     {
-      "id": "redline_narrator",
-      "version": null,
-      "lastUpdated": "2026-06-06T15:46:15.147Z",
-      "filename": "redline_narrator-v3.json",
-      "size": 91765,
-      "label": "Redline Narrator",
-      "kind": "tool",
-      "category": "Admin",
-      "audience": [],
-      "changelog": "",
-      "audienceEmails": [
-        "andrew_nemiroff@colpal.com"
-      ]
-    },
-    {
-      "id": "clause_diff_lab",
-      "version": null,
-      "lastUpdated": "2026-05-29T03:16:15.588Z",
-      "filename": "clause_diff_lab-v3.json",
-      "size": 49732,
-      "label": "Clause Diff Lab",
-      "kind": "tool",
-      "category": "Admin",
-      "audience": [],
-      "changelog": "",
-      "audienceEmails": [
-        "andrew_nemiroff@colpal.com"
-      ]
-    },
-    {
-      "id": "guided_redlines",
-      "version": null,
-      "lastUpdated": "2026-06-19T04:16:55.572Z",
-      "filename": "guided_redlines-v3.json",
-      "size": 44005,
-      "label": "Guided Redlines",
-      "kind": "tool",
-      "category": "Admin",
-      "audience": [],
-      "changelog": "",
-      "audienceEmails": [
-        "andrew_nemiroff@colpal.com"
-      ]
-    },
-    {
       "id": "draft_audit",
       "version": null,
       "lastUpdated": "2026-06-16T11:56:02.976Z",
@@ -669,22 +624,6 @@
       "changelog": "",
       "audienceEmails": [
         "andrew_nemiroff@colpal.com"
-      ]
-    },
-    {
-      "id": "bd_template_tester",
-      "version": null,
-      "lastUpdated": "2026-10-14T05:45:43.450Z",
-      "filename": "bd_template_tester-v3.json",
-      "size": 259736,
-      "label": "BD Template Tester",
-      "kind": "tool",
-      "category": "Admin",
-      "audience": [],
-      "changelog": "",
-      "audienceEmails": [
-        "andrew_nemiroff@colpal.com",
-        "jared_lerner@colpal.com"
       ]
     },
     {
@@ -1515,13 +1454,9 @@
         "admin_usage_viewer",
         "admin_telemetry_inspector",
         "placeholder_studio",
-        "clause_diff_lab",
-        "guided_redlines",
         "admin_draft_audit",
         "admin_email_rules",
         "tool_author_studio",
-        "bd_template_tester",
-        "redline_narrator",
         "template_manager",
         "admin_fleet",
         "business_continuity",
