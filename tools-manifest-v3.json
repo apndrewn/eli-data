@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-10-23T11:34:36.472Z",
+  "lastUpdated": "2026-10-23T12:22:02.062Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -690,9 +690,9 @@
     {
       "id": "template_manager",
       "version": null,
-      "lastUpdated": "2026-10-14T05:45:44.079Z",
+      "lastUpdated": "2026-10-23T12:20:54.297Z",
       "filename": "template_manager-v3.json",
-      "size": 56248,
+      "size": 72912,
       "label": "Template Manager",
       "kind": "tool",
       "category": "Admin",
@@ -1155,11 +1155,26 @@
       ]
     },
     {
+      "id": "template_revise",
+      "version": null,
+      "lastUpdated": "2026-10-23T12:20:54.094Z",
+      "filename": "template_revise-v3.json",
+      "size": 114650,
+      "label": "Template Revise",
+      "kind": "tool",
+      "category": "Admin",
+      "audience": [],
+      "changelog": "",
+      "audienceEmails": [
+        "andrew_nemiroff@colpal.com"
+      ]
+    },
+    {
       "id": "doc_style",
       "version": null,
-      "lastUpdated": "2026-10-23T09:06:06.187Z",
+      "lastUpdated": "2026-10-23T12:20:54.528Z",
       "filename": "doc_style-v3.json",
-      "size": 51114,
+      "size": 51305,
       "label": "Document Style",
       "kind": "tool",
       "category": "System",
@@ -1171,9 +1186,9 @@
     {
       "id": "format_check",
       "version": null,
-      "lastUpdated": "2026-10-23T07:40:47.084Z",
+      "lastUpdated": "2026-10-23T12:20:54.420Z",
       "filename": "format_check-v3.json",
-      "size": 83572,
+      "size": 83819,
       "label": "Format Check",
       "kind": "tool",
       "category": "External Innovation",
