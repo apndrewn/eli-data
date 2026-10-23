@@ -1,7 +1,7 @@
 {
   "userName": "A(",
   "userKey": "ah",
-  "generatedAt": "2026-10-23T06:16:41.611Z",
+  "generatedAt": "2026-10-23T12:33:51.035Z",
   "days": [
     {
       "date": "2026-09-11",
@@ -977,32 +977,33 @@
     {
       "date": "2026-10-23",
       "toolsUsed": {
-        "draft_templates": 3,
+        "draft_templates": 4,
         "error": 2,
         "agent_turn_draft": 6,
         "ask_eli": 6,
         "docuscrub": 1,
         "final_review": 2,
-        "agent_apply_instruction": 7,
+        "agent_apply_instruction": 9,
         "legal_review": 1,
-        "risk": 1
+        "risk": 1,
+        "draft": 1
       },
-      "sessions": 25,
+      "sessions": 28,
       "firstActiveAt": 1792728006721,
-      "lastActiveAt": 1792736200869,
+      "lastActiveAt": 1792758825997,
       "tokens": {
         "gemini-flash-latest": {
-          "promptTokens": 1008720,
-          "candidatesTokens": 107265,
-          "calls": 148
+          "promptTokens": 1510404,
+          "candidatesTokens": 142571,
+          "calls": 188
         }
       },
       "tokensByTool": {
         "agent_apply_instruction": {
           "gemini-flash-latest": {
-            "promptTokens": 447120,
-            "candidatesTokens": 61837,
-            "calls": 87
+            "promptTokens": 948804,
+            "candidatesTokens": 97143,
+            "calls": 127
           }
         },
         "error": {
@@ -1034,7 +1035,7 @@
           }
         }
       },
-      "estCostUSD": 0.107833,
+      "estCostUSD": 0.156052,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -1048,7 +1049,7 @@
     "kernelVersion": "v3-2026-10-20-2013-e96510b",
     "kernelStamped": true,
     "installedAt": "2026-07-31T00:45:31.641Z",
-    "lastSeenAt": "2026-10-23T06:16:41.803Z",
+    "lastSeenAt": "2026-10-23T12:33:51.290Z",
     "settings": {
       "ai_model": "gemini-flash-latest",
       "ai_temperature": 1,
@@ -1245,7 +1246,7 @@
       },
       {
         "id": "doc_style",
-        "releasedAt": "2026-10-23T05:54:32.279Z",
+        "releasedAt": "2026-10-23T12:20:54.528Z",
         "disabled": false
       },
       {
@@ -1280,27 +1281,27 @@
       },
       {
         "id": "eli_agent",
-        "releasedAt": "2026-10-23T06:02:54.258Z",
+        "releasedAt": "2026-10-23T11:33:20.577Z",
         "disabled": false
       },
       {
         "id": "eli_agent_draft",
-        "releasedAt": "2026-10-23T06:02:39.407Z",
+        "releasedAt": "2026-10-23T11:33:20.892Z",
         "disabled": false
       },
       {
         "id": "eli_agent_email",
-        "releasedAt": "2026-10-23T06:02:39.524Z",
+        "releasedAt": "2026-10-23T11:33:21.016Z",
         "disabled": false
       },
       {
         "id": "eli_agent_respond",
-        "releasedAt": "2026-10-23T06:02:54.376Z",
+        "releasedAt": "2026-10-23T11:33:20.677Z",
         "disabled": false
       },
       {
         "id": "eli_agent_revise",
-        "releasedAt": "2026-10-23T06:02:54.508Z",
+        "releasedAt": "2026-10-23T11:33:28.915Z",
         "disabled": false
       },
       {
@@ -1340,7 +1341,7 @@
       },
       {
         "id": "eli_writer",
-        "releasedAt": "2026-10-23T06:02:54.776Z",
+        "releasedAt": "2026-10-23T10:17:12.946Z",
         "disabled": false
       },
       {
@@ -1370,7 +1371,7 @@
       },
       {
         "id": "format_check",
-        "releasedAt": "2026-10-23T05:54:32.447Z",
+        "releasedAt": "2026-10-23T12:20:54.420Z",
         "disabled": false
       },
       {
@@ -1430,7 +1431,7 @@
       },
       {
         "id": "precedents",
-        "releasedAt": "2026-10-21T06:27:07.569Z",
+        "releasedAt": "2026-10-23T08:21:58.426Z",
         "disabled": false
       },
       {
@@ -1490,7 +1491,12 @@
       },
       {
         "id": "template_manager",
-        "releasedAt": "2026-10-14T05:45:44.079Z",
+        "releasedAt": "2026-10-23T12:20:54.297Z",
+        "disabled": false
+      },
+      {
+        "id": "template_revise",
+        "releasedAt": "2026-10-23T12:20:54.094Z",
         "disabled": false
       },
       {
