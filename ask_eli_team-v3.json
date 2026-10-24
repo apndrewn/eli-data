@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-10-24T00:07:38.226Z",
+  "exportedAt": "2026-10-24T00:23:29.186Z",
   "sectionVersions": {
     "jsonTools": 1
   },
   "sections": {
     "jsonTools": [
       {
-        "releasedAt": "2026-10-24T00:07:38.226Z",
+        "releasedAt": "2026-10-24T00:23:29.186Z",
         "id": "ask_eli_team",
         "label": "Ask ELI Team",
         "defaultEnabled": true,
@@ -22,9 +22,6 @@
           "storage": 1,
           "kernel": 2
         },
-        "dependsOn": [
-          "ask_eli"
-        ],
         "advertises": {
           "ask_eli_team": {
             "mount": "init"
