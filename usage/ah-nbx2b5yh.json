@@ -1,7 +1,7 @@
 {
   "userName": "A(",
   "userKey": "ah",
-  "generatedAt": "2026-10-23T17:16:19.979Z",
+  "generatedAt": "2026-10-24T00:09:31.870Z",
   "days": [
     {
       "date": "2026-09-11",
@@ -979,11 +979,11 @@
       "toolsUsed": {
         "draft_templates": 4,
         "error": 2,
-        "agent_turn_draft": 6,
-        "ask_eli": 7,
+        "agent_turn_draft": 7,
+        "ask_eli": 10,
         "docuscrub": 1,
         "final_review": 2,
-        "agent_apply_instruction": 10,
+        "agent_apply_instruction": 12,
         "legal_review": 1,
         "risk": 1,
         "draft": 1,
@@ -991,22 +991,22 @@
         "draft_audit": 1,
         "integrity": 2
       },
-      "sessions": 34,
+      "sessions": 44,
       "firstActiveAt": 1792728006721,
-      "lastActiveAt": 1792775774954,
+      "lastActiveAt": 1792800569729,
       "tokens": {
         "gemini-flash-latest": {
-          "promptTokens": 1769330,
-          "candidatesTokens": 159517,
-          "calls": 215
+          "promptTokens": 2066732,
+          "candidatesTokens": 187278,
+          "calls": 251
         }
       },
       "tokensByTool": {
         "agent_apply_instruction": {
           "gemini-flash-latest": {
-            "promptTokens": 1156960,
-            "candidatesTokens": 111756,
-            "calls": 147
+            "promptTokens": 1362377,
+            "candidatesTokens": 131153,
+            "calls": 169
           }
         },
         "error": {
@@ -1018,16 +1018,16 @@
         },
         "agent_turn_draft": {
           "gemini-flash-latest": {
-            "promptTokens": 502649,
-            "candidatesTokens": 33663,
-            "calls": 53
+            "promptTokens": 536318,
+            "candidatesTokens": 39632,
+            "calls": 59
           }
         },
         "ask_eli": {
           "gemini-flash-latest": {
-            "promptTokens": 27480,
-            "candidatesTokens": 1982,
-            "calls": 9
+            "promptTokens": 29514,
+            "candidatesTokens": 2085,
+            "calls": 11
           }
         },
         "risk": {
@@ -1039,13 +1039,13 @@
         },
         "_unknown": {
           "gemini-flash-latest": {
-            "promptTokens": 28074,
-            "candidatesTokens": 789,
-            "calls": 3
+            "promptTokens": 84356,
+            "candidatesTokens": 3081,
+            "calls": 9
           }
         }
       },
-      "estCostUSD": 0.180555,
+      "estCostUSD": 0.211188,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -1059,7 +1059,7 @@
     "kernelVersion": "v3-2026-10-20-2013-e96510b",
     "kernelStamped": true,
     "installedAt": "2026-07-31T00:45:31.641Z",
-    "lastSeenAt": "2026-10-23T17:16:20.183Z",
+    "lastSeenAt": "2026-10-24T00:09:32.055Z",
     "settings": {
       "ai_model": "gemini-flash-latest",
       "ai_temperature": 1,
@@ -1201,7 +1201,12 @@
       },
       {
         "id": "ask_eli",
-        "releasedAt": "2026-10-23T06:02:54.125Z",
+        "releasedAt": "2026-10-24T00:07:37.798Z",
+        "disabled": false
+      },
+      {
+        "id": "ask_eli_team",
+        "releasedAt": "2026-10-24T00:07:38.226Z",
         "disabled": false
       },
       {
@@ -1246,7 +1251,7 @@
       },
       {
         "id": "doc_style",
-        "releasedAt": "2026-10-23T12:20:54.528Z",
+        "releasedAt": "2026-10-23T17:35:14.947Z",
         "disabled": false
       },
       {
@@ -1296,12 +1301,12 @@
       },
       {
         "id": "eli_agent_respond",
-        "releasedAt": "2026-10-23T11:33:20.677Z",
+        "releasedAt": "2026-10-23T21:06:13.878Z",
         "disabled": false
       },
       {
         "id": "eli_agent_revise",
-        "releasedAt": "2026-10-23T15:06:41.866Z",
+        "releasedAt": "2026-10-23T21:06:13.696Z",
         "disabled": false
       },
       {
@@ -1331,7 +1336,7 @@
       },
       {
         "id": "eli_team",
-        "releasedAt": "2026-10-23T06:02:54.642Z",
+        "releasedAt": "2026-10-23T21:28:52.320Z",
         "disabled": false
       },
       {
@@ -1341,7 +1346,7 @@
       },
       {
         "id": "eli_writer",
-        "releasedAt": "2026-10-23T10:17:12.946Z",
+        "releasedAt": "2026-10-23T17:35:14.813Z",
         "disabled": false
       },
       {
