@@ -1,7 +1,7 @@
 {
   "userName": "A(",
   "userKey": "ah",
-  "generatedAt": "2026-10-24T05:13:58.116Z",
+  "generatedAt": "2026-10-24T14:49:49.214Z",
   "days": [
     {
       "date": "2026-10-19",
@@ -189,10 +189,12 @@
     },
     {
       "date": "2026-10-24",
-      "toolsUsed": {},
-      "sessions": 1,
+      "toolsUsed": {
+        "agent_turn_draft": 3
+      },
+      "sessions": 5,
       "firstActiveAt": 1792818833095,
-      "lastActiveAt": 1792818833095,
+      "lastActiveAt": 1792853384192,
       "tokens": {},
       "tokensByTool": {},
       "estCostUSD": 0,
@@ -209,7 +211,7 @@
     "kernelVersion": "v3-2026-10-20-2014-labfb53566",
     "kernelStamped": false,
     "installedAt": "2026-10-19T04:24:47.770Z",
-    "lastSeenAt": "2026-10-24T05:13:58.379Z",
+    "lastSeenAt": "2026-10-24T14:49:49.419Z",
     "settings": {
       "ai_model": "gemini-flash-latest",
       "ai_temperature": 1,
@@ -446,7 +448,27 @@
       },
       {
         "id": "eli_agent",
-        "releasedAt": "2026-10-24T03:26:22.772Z",
+        "releasedAt": "2026-10-24T06:00:53.638Z",
+        "disabled": false
+      },
+      {
+        "id": "eli_agent_draft",
+        "releasedAt": "2026-10-24T06:00:53.576Z",
+        "disabled": false
+      },
+      {
+        "id": "eli_agent_email",
+        "releasedAt": "2026-10-24T06:00:53.586Z",
+        "disabled": false
+      },
+      {
+        "id": "eli_agent_respond",
+        "releasedAt": "2026-10-24T06:00:53.566Z",
+        "disabled": false
+      },
+      {
+        "id": "eli_agent_revise",
+        "releasedAt": "2026-10-24T06:00:53.590Z",
         "disabled": false
       },
       {
@@ -611,7 +633,7 @@
       },
       {
         "id": "team_guidance",
-        "releasedAt": "2026-10-20T05:49:42.437Z",
+        "releasedAt": "2026-10-24T05:51:48.887Z",
         "disabled": false
       },
       {
@@ -672,26 +694,6 @@
       {
         "id": "workflow_creator",
         "releasedAt": "2026-10-19T04:43:17.601Z",
-        "disabled": false
-      },
-      {
-        "id": "eli_agent_respond",
-        "releasedAt": "2026-10-24T05:11:56.764Z",
-        "disabled": false
-      },
-      {
-        "id": "eli_agent_draft",
-        "releasedAt": "2026-10-24T05:11:56.764Z",
-        "disabled": false
-      },
-      {
-        "id": "eli_agent_email",
-        "releasedAt": "2026-10-24T05:11:56.782Z",
-        "disabled": false
-      },
-      {
-        "id": "eli_agent_revise",
-        "releasedAt": "2026-10-24T05:11:56.785Z",
         "disabled": false
       }
     ],
