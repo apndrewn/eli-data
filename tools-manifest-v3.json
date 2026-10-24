@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-10-24T05:33:56.178Z",
+  "lastUpdated": "2026-10-24T05:55:18.839Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -273,9 +273,9 @@
     {
       "id": "team_guidance",
       "version": null,
-      "lastUpdated": "2026-10-20T05:49:42.437Z",
+      "lastUpdated": "2026-10-24T05:54:10.452Z",
       "filename": "team_guidance-v3.json",
-      "size": 120007,
+      "size": 123894,
       "label": "Guidance",
       "kind": "tool",
       "category": "External Innovation",
