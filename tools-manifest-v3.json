@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-10-24T00:43:18.769Z",
+  "lastUpdated": "2026-10-24T03:58:36.134Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -673,9 +673,9 @@
     {
       "id": "eli_writer",
       "version": null,
-      "lastUpdated": "2026-10-23T17:35:14.813Z",
+      "lastUpdated": "2026-10-24T03:57:28.368Z",
       "filename": "eli_writer-v3.json",
-      "size": 204462,
+      "size": 211635,
       "label": "ELI Writer",
       "kind": "tool",
       "category": "System",
@@ -687,9 +687,9 @@
     {
       "id": "eli_agent",
       "version": null,
-      "lastUpdated": "2026-10-23T16:09:39.875Z",
+      "lastUpdated": "2026-10-24T03:57:27.751Z",
       "filename": "eli_agent-v3.json",
-      "size": 534868,
+      "size": 553005,
       "label": "ELI Agent",
       "kind": "tool",
       "category": "Tools - ELI Core",
@@ -701,9 +701,9 @@
     {
       "id": "eli_agent_respond",
       "version": null,
-      "lastUpdated": "2026-10-23T21:06:13.878Z",
+      "lastUpdated": "2026-10-24T03:57:27.872Z",
       "filename": "eli_agent_respond-v3.json",
-      "size": 505460,
+      "size": 519384,
       "label": "ELI Agent: Respond",
       "kind": "tool",
       "category": "Tools - ELI Core",
@@ -715,9 +715,9 @@
     {
       "id": "eli_agent_draft",
       "version": null,
-      "lastUpdated": "2026-10-23T16:17:47.528Z",
+      "lastUpdated": "2026-10-24T03:57:28.124Z",
       "filename": "eli_agent_draft-v3.json",
-      "size": 150441,
+      "size": 151107,
       "label": "ELI Agent: Draft Document",
       "kind": "tool",
       "category": "Tools - ELI Core",
@@ -729,9 +729,9 @@
     {
       "id": "eli_agent_revise",
       "version": null,
-      "lastUpdated": "2026-10-23T21:06:13.696Z",
+      "lastUpdated": "2026-10-24T03:57:28.234Z",
       "filename": "eli_agent_revise-v3.json",
-      "size": 605124,
+      "size": 603048,
       "label": "ELI Agent: Revise Document",
       "kind": "tool",
       "category": "Tools - ELI Core",
@@ -743,9 +743,9 @@
     {
       "id": "eli_agent_email",
       "version": null,
-      "lastUpdated": "2026-10-23T16:17:47.657Z",
+      "lastUpdated": "2026-10-24T03:57:27.998Z",
       "filename": "eli_agent_email-v3.json",
-      "size": 38169,
+      "size": 39029,
       "label": "ELI Agent: Address Comments",
       "kind": "tool",
       "category": "Tools - ELI Core",
