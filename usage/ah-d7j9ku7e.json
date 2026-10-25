@@ -1,7 +1,7 @@
 {
   "userName": "A(",
   "userKey": "ah",
-  "generatedAt": "2026-10-25T13:54:10.183Z",
+  "generatedAt": "2026-10-25T19:58:43.028Z",
   "days": [
     {
       "date": "2026-10-19",
@@ -225,9 +225,9 @@
         "agent_turn_draft": 57,
         "agent_apply_instruction": 63
       },
-      "sessions": 381,
+      "sessions": 394,
       "firstActiveAt": 1792901573192,
-      "lastActiveAt": 1792936445158,
+      "lastActiveAt": 1792958318022,
       "tokens": {},
       "tokensByTool": {},
       "estCostUSD": 0,
@@ -244,7 +244,7 @@
     "kernelVersion": "v3-2026-10-20-2014-labfb53566",
     "kernelStamped": false,
     "installedAt": "2026-10-19T04:24:47.770Z",
-    "lastSeenAt": "2026-10-25T13:54:10.424Z",
+    "lastSeenAt": "2026-10-25T19:58:43.304Z",
     "settings": {
       "ai_model": "gemini-flash-latest",
       "ai_temperature": 1,
@@ -385,8 +385,8 @@
         "disabled": false
       },
       {
-        "id": "ask_eli",
-        "releasedAt": "2026-10-25T05:54:35.090Z",
+        "id": "ask_eli_team",
+        "releasedAt": "2026-10-25T13:30:29.090Z",
         "disabled": false
       },
       {
@@ -475,6 +475,11 @@
         "disabled": false
       },
       {
+        "id": "eli_agent",
+        "releasedAt": "2026-10-25T18:22:08.019Z",
+        "disabled": false
+      },
+      {
         "id": "eli_kit",
         "releasedAt": "2026-10-19T04:43:16.239Z",
         "disabled": false
@@ -510,6 +515,11 @@
         "disabled": false
       },
       {
+        "id": "eli_writer",
+        "releasedAt": "2026-10-25T19:58:13.129Z",
+        "disabled": false
+      },
+      {
         "id": "email_helper",
         "releasedAt": "2026-10-19T04:43:16.539Z",
         "disabled": false
@@ -532,6 +542,11 @@
       {
         "id": "focus_flow",
         "releasedAt": "2026-10-19T04:43:16.874Z",
+        "disabled": false
+      },
+      {
+        "id": "format_check",
+        "releasedAt": "2026-10-25T14:06:23.692Z",
         "disabled": false
       },
       {
@@ -690,43 +705,28 @@
         "disabled": false
       },
       {
-        "id": "ask_eli_team",
-        "releasedAt": "2026-10-25T13:30:29.090Z",
-        "disabled": false
-      },
-      {
-        "id": "eli_writer",
-        "releasedAt": "2026-10-25T13:49:12.896Z",
-        "disabled": false
-      },
-      {
-        "id": "eli_agent",
-        "releasedAt": "2026-10-25T13:40:34.964Z",
+        "id": "ask_eli",
+        "releasedAt": "2026-10-25T18:10:40.531Z",
         "disabled": false
       },
       {
         "id": "eli_agent_respond",
-        "releasedAt": "2026-10-25T13:40:34.885Z",
+        "releasedAt": "2026-10-25T18:22:07.965Z",
         "disabled": false
       },
       {
         "id": "eli_agent_draft",
-        "releasedAt": "2026-10-25T13:40:34.885Z",
+        "releasedAt": "2026-10-25T18:22:07.963Z",
         "disabled": false
       },
       {
         "id": "eli_agent_revise",
-        "releasedAt": "2026-10-25T13:40:34.901Z",
-        "disabled": false
-      },
-      {
-        "id": "format_check",
-        "releasedAt": "2026-10-25T13:31:03.140Z",
+        "releasedAt": "2026-10-25T18:22:07.937Z",
         "disabled": false
       },
       {
         "id": "eli_agent_email",
-        "releasedAt": "2026-10-25T13:40:34.901Z",
+        "releasedAt": "2026-10-25T18:22:07.963Z",
         "disabled": false
       }
     ],
