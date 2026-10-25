@@ -1,19 +1,18 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-10-23T12:20:54.420Z",
+  "exportedAt": "2026-10-25T13:31:03.140Z",
   "sectionVersions": {
     "jsonTools": 1
   },
   "sections": {
     "jsonTools": [
       {
-        "releasedAt": "2026-10-23T12:20:54.420Z",
+        "releasedAt": "2026-10-25T13:31:03.140Z",
         "id": "format_check",
         "label": "Format Check",
         "defaultEnabled": true,
-        "audience": [],
-        "audienceEmails": [
-          "andrew_nemiroff@colpal.com"
+        "audience": [
+          "all"
         ],
         "tier": "demand",
         "requires": {

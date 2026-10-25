@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-10-25T07:19:25.784Z",
+  "lastUpdated": "2026-10-25T13:32:11.063Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -399,9 +399,9 @@
     {
       "id": "ask_eli_team",
       "version": null,
-      "lastUpdated": "2026-10-24T00:42:10.195Z",
+      "lastUpdated": "2026-10-25T13:31:03.266Z",
       "filename": "ask_eli_team-v3.json",
-      "size": 118280,
+      "size": 118688,
       "label": "Ask ELI Team",
       "kind": "tool",
       "category": "System",
@@ -1139,17 +1139,16 @@
     {
       "id": "format_check",
       "version": null,
-      "lastUpdated": "2026-10-23T12:20:54.420Z",
+      "lastUpdated": "2026-10-25T13:31:03.140Z",
       "filename": "format_check-v3.json",
-      "size": 83819,
+      "size": 83766,
       "label": "Format Check",
       "kind": "tool",
       "category": "External Innovation",
-      "audience": [],
-      "changelog": "",
-      "audienceEmails": [
-        "andrew_nemiroff@colpal.com"
-      ]
+      "audience": [
+        "all"
+      ],
+      "changelog": ""
     },
     {
       "id": "__data_catalog",
