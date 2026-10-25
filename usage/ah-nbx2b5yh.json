@@ -1,7 +1,7 @@
 {
   "userName": "A(",
   "userKey": "ah",
-  "generatedAt": "2026-10-25T03:44:10.475Z",
+  "generatedAt": "2026-10-25T14:29:00.716Z",
   "days": [
     {
       "date": "2026-09-11",
@@ -1055,26 +1055,26 @@
     {
       "date": "2026-10-24",
       "toolsUsed": {
-        "agent_apply_instruction": 7,
+        "agent_apply_instruction": 12,
         "ask_eli": 3,
-        "agent_turn_draft": 7
+        "agent_turn_draft": 8
       },
-      "sessions": 21,
+      "sessions": 23,
       "firstActiveAt": 1792814736986,
-      "lastActiveAt": 1792899845447,
+      "lastActiveAt": 1792900798469,
       "tokens": {
         "gemini-flash-latest": {
-          "promptTokens": 1120502,
-          "candidatesTokens": 57664,
-          "calls": 131
+          "promptTokens": 1674303,
+          "candidatesTokens": 83082,
+          "calls": 191
         }
       },
       "tokensByTool": {
         "agent_apply_instruction": {
           "gemini-flash-latest": {
-            "promptTokens": 715562,
-            "candidatesTokens": 20586,
-            "calls": 78
+            "promptTokens": 1109202,
+            "candidatesTokens": 35528,
+            "calls": 125
           }
         },
         "ask_eli": {
@@ -1086,13 +1086,58 @@
         },
         "agent_turn_draft": {
           "gemini-flash-latest": {
-            "promptTokens": 402929,
-            "candidatesTokens": 36924,
-            "calls": 51
+            "promptTokens": 511772,
+            "candidatesTokens": 46432,
+            "calls": 61
+          }
+        },
+        "_unknown": {
+          "gemini-flash-latest": {
+            "promptTokens": 51318,
+            "candidatesTokens": 968,
+            "calls": 3
           }
         }
       },
-      "estCostUSD": 0.101337,
+      "estCostUSD": 0.150497,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
+    },
+    {
+      "date": "2026-10-25",
+      "toolsUsed": {
+        "agent_apply_instruction": 3
+      },
+      "sessions": 3,
+      "firstActiveAt": 1792900801553,
+      "lastActiveAt": 1792938535693,
+      "tokens": {
+        "gemini-flash-latest": {
+          "promptTokens": 359416,
+          "candidatesTokens": 27818,
+          "calls": 60
+        }
+      },
+      "tokensByTool": {
+        "agent_apply_instruction": {
+          "gemini-flash-latest": {
+            "promptTokens": 315566,
+            "candidatesTokens": 27017,
+            "calls": 54
+          }
+        },
+        "_unknown": {
+          "gemini-flash-latest": {
+            "promptTokens": 43850,
+            "candidatesTokens": 801,
+            "calls": 6
+          }
+        }
+      },
+      "estCostUSD": 0.035302,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -1106,7 +1151,7 @@
     "kernelVersion": "v3-2026-10-20-2013-e96510b",
     "kernelStamped": true,
     "installedAt": "2026-07-31T00:45:31.641Z",
-    "lastSeenAt": "2026-10-25T03:44:10.685Z",
+    "lastSeenAt": "2026-10-25T14:29:00.935Z",
     "settings": {
       "ai_model": "gemini-flash-latest",
       "ai_temperature": 1,
@@ -1707,13 +1752,13 @@
       "t172": "2026-10-19T04:04:50.333Z"
     },
     "stats": {
-      "totalActiveDays": 16,
+      "totalActiveDays": 17,
       "docsReviewed": 62,
       "draftsCreated": 5,
       "errorsFixed": 122,
       "risksFound": 61,
       "hoursSaved": 31,
-      "currentStreak": 12
+      "currentStreak": 13
     },
     "dashboardApps": [
       "legal_review",
