@@ -1,7 +1,7 @@
 {
   "userName": "MD",
   "userKey": "md",
-  "generatedAt": "2026-10-23T13:26:19.418Z",
+  "generatedAt": "2026-10-26T13:23:17.525Z",
   "days": [
     {
       "date": "2026-08-24",
@@ -226,10 +226,50 @@
     },
     {
       "date": "2026-10-23",
+      "toolsUsed": {
+        "error": 1,
+        "legal_review": 1,
+        "final_review": 1
+      },
+      "sessions": 3,
+      "firstActiveAt": 1792761974415,
+      "lastActiveAt": 1792762656009,
+      "tokens": {
+        "gemini-flash-latest": {
+          "promptTokens": 47500,
+          "candidatesTokens": 8784,
+          "calls": 4
+        }
+      },
+      "tokensByTool": {
+        "error": {
+          "gemini-flash-latest": {
+            "promptTokens": 13878,
+            "candidatesTokens": 740,
+            "calls": 1
+          }
+        },
+        "final_review": {
+          "gemini-flash-latest": {
+            "promptTokens": 33622,
+            "candidatesTokens": 8044,
+            "calls": 3
+          }
+        }
+      },
+      "estCostUSD": 0.006198,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
+    },
+    {
+      "date": "2026-10-26",
       "toolsUsed": {},
       "sessions": 1,
-      "firstActiveAt": 1792761974415,
-      "lastActiveAt": 1792761974415,
+      "firstActiveAt": 1793020992513,
+      "lastActiveAt": 1793020992513,
       "tokens": {},
       "tokensByTool": {},
       "estCostUSD": 0,
@@ -246,7 +286,7 @@
     "kernelVersion": "v3-2026-10-20-2013-e96510b",
     "kernelStamped": true,
     "installedAt": "2026-08-24T19:49:37.524Z",
-    "lastSeenAt": "2026-10-23T13:26:19.701Z",
+    "lastSeenAt": "2026-10-26T13:23:17.734Z",
     "settings": {
       "ai_model": "gemini-flash-latest",
       "ai_temperature": 1,
@@ -596,6 +636,10 @@
       {
         "id": "release-notes-off-1789139158421",
         "at": 1789566131076
+      },
+      {
+        "id": "retire-admin-tools-2026-10-23",
+        "at": 1793020995757
       }
     ],
     "trophies": 10,
@@ -625,13 +669,13 @@
       "t107": "2026-10-22T18:54:07.161Z"
     },
     "stats": {
-      "totalActiveDays": 8,
-      "docsReviewed": 9,
+      "totalActiveDays": 9,
+      "docsReviewed": 10,
       "draftsCreated": 4,
-      "errorsFixed": 32,
+      "errorsFixed": 34,
       "risksFound": 0,
-      "hoursSaved": 4.5,
-      "currentStreak": 2
+      "hoursSaved": 5,
+      "currentStreak": 1
     },
     "dashboardApps": [
       "auto_emailer",
