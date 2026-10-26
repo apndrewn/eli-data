@@ -1,7 +1,7 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-10-22T20:02:59.622Z",
+  "generatedAt": "2026-10-26T12:36:25.044Z",
   "days": [
     {
       "date": "2026-07-29",
@@ -1482,26 +1482,26 @@
     {
       "date": "2026-10-22",
       "toolsUsed": {
-        "agent_turn_draft": 3,
+        "agent_turn_draft": 4,
         "agent_apply_instruction": 15,
         "ask_eli": 1
       },
       "sessions": 30,
       "firstActiveAt": 1792672826693,
-      "lastActiveAt": 1792699374612,
+      "lastActiveAt": 1792700803867,
       "tokens": {
         "gemini-flash-latest": {
-          "promptTokens": 2593181,
-          "candidatesTokens": 96152,
-          "calls": 211
+          "promptTokens": 2702124,
+          "candidatesTokens": 105803,
+          "calls": 221
         }
       },
       "tokensByTool": {
         "agent_turn_draft": {
           "gemini-flash-latest": {
-            "promptTokens": 25467,
-            "candidatesTokens": 2379,
-            "calls": 9
+            "promptTokens": 134410,
+            "candidatesTokens": 12030,
+            "calls": 19
           }
         },
         "agent_apply_instruction": {
@@ -1526,7 +1526,22 @@
           }
         }
       },
-      "estCostUSD": 0.223334,
+      "estCostUSD": 0.2344,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
+    },
+    {
+      "date": "2026-10-26",
+      "toolsUsed": {},
+      "sessions": 1,
+      "firstActiveAt": 1793018180005,
+      "lastActiveAt": 1793018180005,
+      "tokens": {},
+      "tokensByTool": {},
+      "estCostUSD": 0,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -1540,7 +1555,7 @@
     "kernelVersion": "v3-2026-10-20-2013-e96510b",
     "kernelStamped": true,
     "installedAt": "2026-07-29T14:09:25.615Z",
-    "lastSeenAt": "2026-10-22T20:02:59.880Z",
+    "lastSeenAt": "2026-10-26T12:36:25.318Z",
     "settings": {
       "ai_model": "gemini-flash-latest",
       "ai_temperature": 1,
@@ -1691,11 +1706,6 @@
         "disabled": false
       },
       {
-        "id": "bd_template_tester",
-        "releasedAt": "2026-10-14T05:45:43.450Z",
-        "disabled": false
-      },
-      {
         "id": "build_draft",
         "releasedAt": "2026-10-16T03:44:07.260Z",
         "disabled": false
@@ -1703,11 +1713,6 @@
       {
         "id": "business_continuity",
         "releasedAt": "2026-05-25T06:17:20.288Z",
-        "disabled": false
-      },
-      {
-        "id": "clause_diff_lab",
-        "releasedAt": "2026-05-29T03:16:15.588Z",
         "disabled": false
       },
       {
@@ -1733,11 +1738,6 @@
       {
         "id": "demo",
         "releasedAt": "2026-07-31T17:50:47.307Z",
-        "disabled": false
-      },
-      {
-        "id": "doc_style",
-        "releasedAt": "2026-10-22T10:07:57.181Z",
         "disabled": false
       },
       {
@@ -1768,21 +1768,6 @@
       {
         "id": "eli5",
         "releasedAt": "2026-05-19T03:53:44.200Z",
-        "disabled": false
-      },
-      {
-        "id": "eli_agent",
-        "releasedAt": "2026-10-22T19:19:05.429Z",
-        "disabled": false
-      },
-      {
-        "id": "eli_agent_draft",
-        "releasedAt": "2026-10-22T19:13:55.851Z",
-        "disabled": false
-      },
-      {
-        "id": "eli_agent_email",
-        "releasedAt": "2026-10-22T19:19:17.298Z",
         "disabled": false
       },
       {
@@ -1821,18 +1806,8 @@
         "disabled": false
       },
       {
-        "id": "eli_team",
-        "releasedAt": "2026-10-22T19:13:56.754Z",
-        "disabled": false
-      },
-      {
         "id": "eli_telemetry",
         "releasedAt": "2026-09-12T00:07:26.444Z",
-        "disabled": false
-      },
-      {
-        "id": "eli_writer",
-        "releasedAt": "2026-10-22T19:13:56.943Z",
         "disabled": false
       },
       {
@@ -1858,16 +1833,6 @@
       {
         "id": "focus_flow",
         "releasedAt": "2026-05-18T11:52:32.797Z",
-        "disabled": false
-      },
-      {
-        "id": "format_check",
-        "releasedAt": "2026-10-22T10:10:50.029Z",
-        "disabled": false
-      },
-      {
-        "id": "guided_redlines",
-        "releasedAt": "2026-06-19T04:16:55.572Z",
         "disabled": false
       },
       {
@@ -1921,11 +1886,6 @@
         "disabled": false
       },
       {
-        "id": "precedents",
-        "releasedAt": "2026-10-21T06:27:07.569Z",
-        "disabled": false
-      },
-      {
         "id": "profile_restore",
         "releasedAt": "2026-10-14T05:48:48.982Z",
         "disabled": false
@@ -1938,11 +1898,6 @@
       {
         "id": "redline_email_pack",
         "releasedAt": "2026-05-17T13:54:46.229Z",
-        "disabled": false
-      },
-      {
-        "id": "redline_narrator",
-        "releasedAt": "2026-06-06T15:46:15.147Z",
         "disabled": false
       },
       {
@@ -1966,11 +1921,6 @@
         "disabled": false
       },
       {
-        "id": "team_guidance",
-        "releasedAt": "2026-10-20T05:49:42.437Z",
-        "disabled": false
-      },
-      {
         "id": "template_editor",
         "releasedAt": "2026-10-14T05:45:43.952Z",
         "disabled": false
@@ -1978,11 +1928,6 @@
       {
         "id": "template_indexer",
         "releasedAt": "2026-05-24T18:27:57.643Z",
-        "disabled": false
-      },
-      {
-        "id": "template_manager",
-        "releasedAt": "2026-10-14T05:45:44.079Z",
         "disabled": false
       },
       {
@@ -2023,6 +1968,31 @@
       {
         "id": "workflow_creator",
         "releasedAt": "2026-10-14T05:45:43.675Z",
+        "disabled": false
+      },
+      {
+        "id": "template_manager",
+        "releasedAt": "2026-10-23T12:20:54.297Z",
+        "disabled": false
+      },
+      {
+        "id": "doc_style",
+        "releasedAt": "2026-10-23T17:35:14.947Z",
+        "disabled": false
+      },
+      {
+        "id": "team_guidance",
+        "releasedAt": "2026-10-25T07:18:17.218Z",
+        "disabled": false
+      },
+      {
+        "id": "eli_team",
+        "releasedAt": "2026-10-23T21:28:52.320Z",
+        "disabled": false
+      },
+      {
+        "id": "ask_eli_team",
+        "releasedAt": "2026-10-25T13:31:03.266Z",
         "disabled": false
       }
     ],
@@ -2090,6 +2060,10 @@
       {
         "id": "release-notes-off-1789139158421",
         "at": 1790259947597
+      },
+      {
+        "id": "retire-admin-tools-2026-10-23",
+        "at": 1793018183246
       }
     ],
     "trophies": 23,
@@ -2145,13 +2119,13 @@
       "t173": "2026-10-19T12:56:54.353Z"
     },
     "stats": {
-      "totalActiveDays": 39,
+      "totalActiveDays": 40,
       "docsReviewed": 46,
       "draftsCreated": 18,
       "errorsFixed": 80,
       "risksFound": 14,
       "hoursSaved": 23,
-      "currentStreak": 4
+      "currentStreak": 1
     },
     "dashboardApps": [
       "auto_emailer",
