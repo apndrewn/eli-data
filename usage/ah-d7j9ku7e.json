@@ -1,7 +1,7 @@
 {
   "userName": "A(",
   "userKey": "ah",
-  "generatedAt": "2026-10-26T03:35:06.361Z",
+  "generatedAt": "2026-10-27T14:46:10.054Z",
   "days": [
     {
       "date": "2026-10-19",
@@ -223,11 +223,43 @@
       "date": "2026-10-25",
       "toolsUsed": {
         "agent_turn_draft": 76,
-        "agent_apply_instruction": 110
+        "agent_apply_instruction": 118
       },
-      "sessions": 612,
+      "sessions": 648,
       "firstActiveAt": 1792901573192,
-      "lastActiveAt": 1792985701340,
+      "lastActiveAt": 1792987183000,
+      "tokens": {},
+      "tokensByTool": {},
+      "estCostUSD": 0,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
+    },
+    {
+      "date": "2026-10-26",
+      "toolsUsed": {
+        "agent_apply_instruction": 13
+      },
+      "sessions": 15,
+      "firstActiveAt": 1792987239591,
+      "lastActiveAt": 1792987695269,
+      "tokens": {},
+      "tokensByTool": {},
+      "estCostUSD": 0,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
+    },
+    {
+      "date": "2026-10-27",
+      "toolsUsed": {},
+      "sessions": 1,
+      "firstActiveAt": 1793112365043,
+      "lastActiveAt": 1793112365043,
       "tokens": {},
       "tokensByTool": {},
       "estCostUSD": 0,
@@ -244,7 +276,7 @@
     "kernelVersion": "v3-2026-10-20-2014-labfb53566",
     "kernelStamped": false,
     "installedAt": "2026-10-19T04:24:47.770Z",
-    "lastSeenAt": "2026-10-26T03:35:06.600Z",
+    "lastSeenAt": "2026-10-27T14:46:10.297Z",
     "settings": {
       "ai_model": "gemini-flash-latest",
       "ai_temperature": 1,
@@ -858,13 +890,13 @@
       "t172": "2026-10-25T04:12:53.675Z"
     },
     "stats": {
-      "totalActiveDays": 5,
+      "totalActiveDays": 6,
       "docsReviewed": 59,
       "draftsCreated": 5,
       "errorsFixed": 109,
       "risksFound": 51,
       "hoursSaved": 29.5,
-      "currentStreak": 7
+      "currentStreak": 9
     },
     "dashboardApps": [
       "auto_emailer",
