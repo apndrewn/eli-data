@@ -1,7 +1,7 @@
 {
   "userName": "A(",
   "userKey": "ah",
-  "generatedAt": "2026-10-25T23:38:46.680Z",
+  "generatedAt": "2026-10-28T22:50:58.215Z",
   "days": [
     {
       "date": "2026-09-11",
@@ -1110,17 +1110,17 @@
       "date": "2026-10-25",
       "toolsUsed": {
         "agent_apply_instruction": 11,
-        "agent_turn_draft": 11,
+        "agent_turn_draft": 15,
         "ask_eli": 1
       },
-      "sessions": 21,
+      "sessions": 24,
       "firstActiveAt": 1792900801553,
-      "lastActiveAt": 1792971521671,
+      "lastActiveAt": 1792973116223,
       "tokens": {
         "gemini-flash-latest": {
-          "promptTokens": 1416893,
-          "candidatesTokens": 148709,
-          "calls": 251
+          "promptTokens": 1564972,
+          "candidatesTokens": 163431,
+          "calls": 280
         }
       },
       "tokensByTool": {
@@ -1140,9 +1140,9 @@
         },
         "agent_turn_draft": {
           "gemini-flash-latest": {
-            "promptTokens": 512653,
-            "candidatesTokens": 51800,
-            "calls": 66
+            "promptTokens": 660732,
+            "candidatesTokens": 66522,
+            "calls": 95
           }
         },
         "ask_eli": {
@@ -1153,7 +1153,22 @@
           }
         }
       },
-      "estCostUSD": 0.15088,
+      "estCostUSD": 0.166402,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
+    },
+    {
+      "date": "2026-10-28",
+      "toolsUsed": {},
+      "sessions": 1,
+      "firstActiveAt": 1793227853203,
+      "lastActiveAt": 1793227853203,
+      "tokens": {},
+      "tokensByTool": {},
+      "estCostUSD": 0,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -1167,7 +1182,7 @@
     "kernelVersion": "v3-2026-10-20-2013-e96510b",
     "kernelStamped": true,
     "installedAt": "2026-07-31T00:45:31.641Z",
-    "lastSeenAt": "2026-10-25T23:38:46.952Z",
+    "lastSeenAt": "2026-10-28T22:50:58.415Z",
     "settings": {
       "ai_model": "gemini-flash-latest",
       "ai_temperature": 1,
@@ -1408,16 +1423,6 @@
         "disabled": false
       },
       {
-        "id": "eli_agent_respond",
-        "releasedAt": "2026-10-25T18:23:25.282Z",
-        "disabled": false
-      },
-      {
-        "id": "eli_agent_revise",
-        "releasedAt": "2026-10-25T22:52:05.920Z",
-        "disabled": false
-      },
-      {
         "id": "eli_kit",
         "releasedAt": "2026-10-14T06:50:51.536Z",
         "disabled": false
@@ -1641,6 +1646,16 @@
         "id": "workflow_creator",
         "releasedAt": "2026-10-14T05:45:43.675Z",
         "disabled": false
+      },
+      {
+        "id": "eli_agent_revise",
+        "releasedAt": "2026-10-26T04:09:30.393Z",
+        "disabled": false
+      },
+      {
+        "id": "eli_agent_respond",
+        "releasedAt": "2026-10-27T15:36:47.786Z",
+        "disabled": false
       }
     ],
     "appliedOverrides": [
@@ -1768,13 +1783,13 @@
       "t172": "2026-10-19T04:04:50.333Z"
     },
     "stats": {
-      "totalActiveDays": 17,
+      "totalActiveDays": 18,
       "docsReviewed": 62,
       "draftsCreated": 5,
       "errorsFixed": 122,
       "risksFound": 61,
       "hoursSaved": 31,
-      "currentStreak": 13
+      "currentStreak": 1
     },
     "dashboardApps": [
       "legal_review",
