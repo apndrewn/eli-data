@@ -1,7 +1,7 @@
 {
   "userName": "A(",
   "userKey": "ah",
-  "generatedAt": "2026-10-29T06:05:27.995Z",
+  "generatedAt": "2026-10-29T12:00:15.252Z",
   "days": [
     {
       "date": "2026-09-11",
@@ -1181,14 +1181,36 @@
     {
       "date": "2026-10-29",
       "toolsUsed": {
-        "draft": 1
+        "draft": 3,
+        "error": 1
       },
-      "sessions": 1,
+      "sessions": 3,
       "firstActiveAt": 1793253922948,
-      "lastActiveAt": 1793253923453,
-      "tokens": {},
-      "tokensByTool": {},
-      "estCostUSD": 0,
+      "lastActiveAt": 1793275210783,
+      "tokens": {
+        "gemini-flash-latest": {
+          "promptTokens": 18038,
+          "candidatesTokens": 1458,
+          "calls": 4
+        }
+      },
+      "tokensByTool": {
+        "draft": {
+          "gemini-flash-latest": {
+            "promptTokens": 2510,
+            "candidatesTokens": 314,
+            "calls": 1
+          }
+        },
+        "error": {
+          "gemini-flash-latest": {
+            "promptTokens": 15528,
+            "candidatesTokens": 1144,
+            "calls": 3
+          }
+        }
+      },
+      "estCostUSD": 0.00179,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -1202,7 +1224,7 @@
     "kernelVersion": "v3-2026-10-20-2013-e96510b",
     "kernelStamped": true,
     "installedAt": "2026-07-31T00:45:31.641Z",
-    "lastSeenAt": "2026-10-29T06:05:28.254Z",
+    "lastSeenAt": "2026-10-29T12:00:15.530Z",
     "settings": {
       "ai_model": "gemini-flash-latest",
       "ai_temperature": 1,
@@ -1804,11 +1826,11 @@
     },
     "stats": {
       "totalActiveDays": 19,
-      "docsReviewed": 62,
-      "draftsCreated": 5,
-      "errorsFixed": 122,
+      "docsReviewed": 63,
+      "draftsCreated": 6,
+      "errorsFixed": 124,
       "risksFound": 61,
-      "hoursSaved": 31,
+      "hoursSaved": 31.5,
       "currentStreak": 2
     },
     "dashboardApps": [
