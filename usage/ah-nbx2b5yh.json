@@ -1,7 +1,7 @@
 {
   "userName": "A(",
   "userKey": "ah",
-  "generatedAt": "2026-11-01T19:16:36.867Z",
+  "generatedAt": "2026-11-02T02:19:55.211Z",
   "days": [
     {
       "date": "2026-09-11",
@@ -1231,9 +1231,9 @@
       "toolsUsed": {
         "email_helper": 1
       },
-      "sessions": 1,
+      "sessions": 3,
       "firstActiveAt": 1793560591838,
-      "lastActiveAt": 1793560596038,
+      "lastActiveAt": 1793585990192,
       "tokens": {},
       "tokensByTool": {},
       "estCostUSD": 0,
@@ -1250,7 +1250,7 @@
     "kernelVersion": "v3-2026-10-20-2013-e96510b",
     "kernelStamped": true,
     "installedAt": "2026-07-31T00:45:31.641Z",
-    "lastSeenAt": "2026-11-01T19:16:37.084Z",
+    "lastSeenAt": "2026-11-02T02:19:55.402Z",
     "settings": {
       "ai_model": "gemini-flash-latest",
       "ai_temperature": 1,
@@ -1323,6 +1323,7 @@
       "ask_eli_followups": true,
       "ask_eli_citation_pins": true,
       "ask_eli_use_guidance": true,
+      "ask_eli_demo_replay": false,
       "ask_eli_formatted_answers": "expressive",
       "tool.ask_eli.respond_all": true,
       "tool.eli_agent.td_wait_v2": true,
@@ -1392,7 +1393,7 @@
       },
       {
         "id": "ask_eli",
-        "releasedAt": "2026-10-25T18:16:40.639Z",
+        "releasedAt": "2026-11-01T19:56:22.629Z",
         "disabled": false
       },
       {
