@@ -1,7 +1,7 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-11-01T17:40:56.065Z",
+  "generatedAt": "2026-11-04T18:21:19.375Z",
   "days": [
     {
       "date": "2026-07-29",
@@ -1636,10 +1636,58 @@
     },
     {
       "date": "2026-11-01",
-      "toolsUsed": {},
-      "sessions": 1,
+      "toolsUsed": {
+        "demo": 3,
+        "tour": 2,
+        "ask_eli": 1,
+        "infographics_lab": 1
+      },
+      "sessions": 5,
       "firstActiveAt": 1793554851054,
-      "lastActiveAt": 1793554851054,
+      "lastActiveAt": 1793564216247,
+      "tokens": {
+        "gemini-flash-latest": {
+          "promptTokens": 258462,
+          "candidatesTokens": 23953,
+          "calls": 21
+        }
+      },
+      "tokensByTool": {
+        "_unknown": {
+          "gemini-flash-latest": {
+            "promptTokens": 118716,
+            "candidatesTokens": 13170,
+            "calls": 9
+          }
+        },
+        "demo": {
+          "gemini-flash-latest": {
+            "promptTokens": 91200,
+            "candidatesTokens": 7567,
+            "calls": 6
+          }
+        },
+        "ask_eli": {
+          "gemini-flash-latest": {
+            "promptTokens": 48546,
+            "candidatesTokens": 3216,
+            "calls": 6
+          }
+        }
+      },
+      "estCostUSD": 0.026571,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
+    },
+    {
+      "date": "2026-11-04",
+      "toolsUsed": {},
+      "sessions": 2,
+      "firstActiveAt": 1793816469984,
+      "lastActiveAt": 1793816474360,
       "tokens": {},
       "tokensByTool": {},
       "estCostUSD": 0,
@@ -1656,7 +1704,7 @@
     "kernelVersion": "v3-2026-10-20-2013-e96510b",
     "kernelStamped": true,
     "installedAt": "2026-07-29T14:09:25.615Z",
-    "lastSeenAt": "2026-11-01T17:40:56.259Z",
+    "lastSeenAt": "2026-11-04T18:21:19.664Z",
     "settings": {
       "ai_model": "gemini-flash-latest",
       "ai_temperature": 1,
@@ -1729,6 +1777,7 @@
       "ask_eli_followups": true,
       "ask_eli_citation_pins": true,
       "ask_eli_use_guidance": true,
+      "ask_eli_demo_replay": true,
       "ask_eli_formatted_answers": "expressive",
       "tool.ask_eli.respond_all": true,
       "tool.eli_agent.td_wait_v2": true,
@@ -1798,7 +1847,7 @@
       },
       {
         "id": "ask_eli",
-        "releasedAt": "2026-10-25T18:16:40.639Z",
+        "releasedAt": "2026-11-01T19:56:22.629Z",
         "disabled": false
       },
       {
@@ -2202,7 +2251,7 @@
         "at": 1793018183246
       }
     ],
-    "trophies": 23,
+    "trophies": 24,
     "trophyIds": [
       "t41",
       "t11",
@@ -2226,7 +2275,8 @@
       "t174",
       "t183",
       "t186",
-      "t173"
+      "t173",
+      "t116"
     ],
     "trophyDates": {
       "t41": "2026-07-29T14:09:45.278Z",
@@ -2252,7 +2302,8 @@
       "t174": "2026-09-30T13:51:19.604Z",
       "t183": "2026-10-06T14:56:55.611Z",
       "t186": "2026-10-07T20:33:31.398Z",
-      "t173": "2026-10-19T12:56:54.353Z"
+      "t173": "2026-10-19T12:56:54.353Z",
+      "t116": "2026-11-01T19:28:50.220Z"
     },
     "stats": {
       "totalActiveDays": 44,
