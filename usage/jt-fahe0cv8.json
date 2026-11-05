@@ -1,7 +1,7 @@
 {
   "userName": "JT",
   "userKey": "jt",
-  "generatedAt": "2026-10-05T14:22:53.762Z",
+  "generatedAt": "2026-11-05T12:09:24.520Z",
   "days": [
     {
       "date": "2026-08-06",
@@ -406,6 +406,23 @@
         "byTemplate": {},
         "total": 0
       }
+    },
+    {
+      "date": "2026-11-05",
+      "toolsUsed": {
+        "draft": 1
+      },
+      "sessions": 1,
+      "firstActiveAt": 1793880559512,
+      "lastActiveAt": 1793880560888,
+      "tokens": {},
+      "tokensByTool": {},
+      "estCostUSD": 0,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
     }
   ],
   "fleet": {
@@ -414,16 +431,18 @@
     "kernelVersion": "v3-2026-09-11-41b2733",
     "kernelStamped": true,
     "installedAt": "2026-08-06T18:58:29.523Z",
-    "lastSeenAt": "2026-10-05T14:22:53.995Z",
+    "lastSeenAt": "2026-11-05T12:09:24.906Z",
     "settings": {
       "ai_model": "gemini-flash-latest",
-      "ai_temperature": 0.3,
-      "ai_timeout_ms": 120000,
+      "ai_temperature": 1,
+      "ai_timeout_ms": 300000,
       "ai_thinking_budget": null,
       "ai_thinking_mode": "recommended",
       "ai_thinking_custom": 512,
-      "ai_thinking_per_tool": {},
-      "ai_allow_streaming": false,
+      "ai_thinking_per_tool": {
+        "eli_agent": 1024
+      },
+      "ai_allow_streaming": true,
       "ai_model_list": [
         "gemini-flash-latest",
         "gemini-flash-lite-latest"
@@ -688,15 +707,35 @@
     ],
     "appliedOverrides": [
       {
+        "id": "fleet-ai-streaming-2026-10-20",
+        "at": 1793880563243
+      },
+      {
+        "id": "fleet-ai-timeout-300s-2026-10-19",
+        "at": 1793880563243
+      },
+      {
         "id": "fleet-model-flash-latest-1789086280338",
         "at": 1789494238184
       },
       {
+        "id": "fleet-temperature-1-gemini3-1791956006954",
+        "at": 1793880563243
+      },
+      {
+        "id": "fleet-thinking-cap-eli-agent-1024-2026-10-20",
+        "at": 1793880563243
+      },
+      {
         "id": "release-notes-off-1789139158421",
         "at": 1789494238184
+      },
+      {
+        "id": "retire-admin-tools-2026-10-23",
+        "at": 1793880563243
       }
     ],
-    "trophies": 7,
+    "trophies": 9,
     "trophyIds": [
       "t1",
       "t2",
@@ -704,7 +743,9 @@
       "t169",
       "t121",
       "t168",
-      "t111"
+      "t111",
+      "t26",
+      "t56"
     ],
     "trophyDates": {
       "t1": "2026-08-10T17:46:24.567Z",
@@ -713,15 +754,17 @@
       "t169": "2026-08-31T19:00:51.145Z",
       "t121": "2026-08-31T20:17:38.351Z",
       "t168": "2026-09-01T15:01:01.772Z",
-      "t111": "2026-09-10T12:10:37.647Z"
+      "t111": "2026-09-10T12:10:37.647Z",
+      "t26": "2026-10-05T14:48:38.630Z",
+      "t56": "2026-10-05T14:48:54.332Z"
     },
     "stats": {
-      "totalActiveDays": 14,
-      "docsReviewed": 0,
-      "draftsCreated": 13,
+      "totalActiveDays": 15,
+      "docsReviewed": 1,
+      "draftsCreated": 15,
       "errorsFixed": 0,
       "risksFound": 0,
-      "hoursSaved": 0,
+      "hoursSaved": 0.5,
       "currentStreak": 1
     },
     "dashboardApps": [
