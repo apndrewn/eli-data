@@ -1,7 +1,7 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-11-11T00:39:28.434Z",
+  "generatedAt": "2026-11-11T17:15:59.873Z",
   "days": [
     {
       "date": "2026-07-29",
@@ -1829,16 +1829,17 @@
       "toolsUsed": {
         "draft": 18,
         "auto_emailer": 2,
-        "error": 2
+        "error": 2,
+        "draft_templates": 1
       },
-      "sessions": 27,
+      "sessions": 29,
       "firstActiveAt": 1794345915463,
-      "lastActiveAt": 1794357566231,
+      "lastActiveAt": 1794361153437,
       "tokens": {
         "gemini-flash-latest": {
-          "promptTokens": 62523,
-          "candidatesTokens": 19006,
-          "calls": 25
+          "promptTokens": 87301,
+          "candidatesTokens": 25790,
+          "calls": 28
         }
       },
       "tokensByTool": {
@@ -1869,9 +1870,34 @@
             "candidatesTokens": 1014,
             "calls": 2
           }
+        },
+        "draft_templates": {
+          "gemini-flash-latest": {
+            "promptTokens": 24778,
+            "candidatesTokens": 6784,
+            "calls": 3
+          }
         }
       },
-      "estCostUSD": 0.010391,
+      "estCostUSD": 0.014285,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
+    },
+    {
+      "date": "2026-11-11",
+      "toolsUsed": {
+        "admin_draft_audit": 1,
+        "draft_templates": 1
+      },
+      "sessions": 4,
+      "firstActiveAt": 1794413465672,
+      "lastActiveAt": 1794417359807,
+      "tokens": {},
+      "tokensByTool": {},
+      "estCostUSD": 0,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -1885,7 +1911,7 @@
     "kernelVersion": "v3-2026-10-20-2013-e96510b",
     "kernelStamped": true,
     "installedAt": "2026-07-29T14:09:25.615Z",
-    "lastSeenAt": "2026-11-11T00:39:28.812Z",
+    "lastSeenAt": "2026-11-11T17:16:00.095Z",
     "settings": {
       "ai_model": "gemini-flash-latest",
       "ai_temperature": 1,
@@ -2487,13 +2513,13 @@
       "t116": "2026-11-01T19:28:50.220Z"
     },
     "stats": {
-      "totalActiveDays": 48,
+      "totalActiveDays": 49,
       "docsReviewed": 49,
       "draftsCreated": 23,
       "errorsFixed": 87,
       "risksFound": 14,
       "hoursSaved": 24.5,
-      "currentStreak": 2
+      "currentStreak": 3
     },
     "dashboardApps": [
       "auto_emailer",
