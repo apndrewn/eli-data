@@ -1,7 +1,7 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-11-11T17:15:59.873Z",
+  "generatedAt": "2026-11-12T20:52:51.220Z",
   "days": [
     {
       "date": "2026-07-29",
@@ -1890,11 +1890,41 @@
       "date": "2026-11-11",
       "toolsUsed": {
         "admin_draft_audit": 1,
-        "draft_templates": 1
+        "draft_templates": 1,
+        "error": 6
       },
-      "sessions": 4,
+      "sessions": 12,
       "firstActiveAt": 1794413465672,
-      "lastActiveAt": 1794417359807,
+      "lastActiveAt": 1794423200924,
+      "tokens": {
+        "gemini-flash-latest": {
+          "promptTokens": 111232,
+          "candidatesTokens": 10627,
+          "calls": 9
+        }
+      },
+      "tokensByTool": {
+        "error": {
+          "gemini-flash-latest": {
+            "promptTokens": 111232,
+            "candidatesTokens": 10627,
+            "calls": 9
+          }
+        }
+      },
+      "estCostUSD": 0.011531,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
+    },
+    {
+      "date": "2026-11-12",
+      "toolsUsed": {},
+      "sessions": 1,
+      "firstActiveAt": 1794516766189,
+      "lastActiveAt": 1794516766189,
       "tokens": {},
       "tokensByTool": {},
       "estCostUSD": 0,
@@ -1911,7 +1941,7 @@
     "kernelVersion": "v3-2026-10-20-2013-e96510b",
     "kernelStamped": true,
     "installedAt": "2026-07-29T14:09:25.615Z",
-    "lastSeenAt": "2026-11-11T17:16:00.095Z",
+    "lastSeenAt": "2026-11-12T20:52:51.473Z",
     "settings": {
       "ai_model": "gemini-flash-latest",
       "ai_temperature": 1,
@@ -2458,7 +2488,7 @@
         "at": 1793018183246
       }
     ],
-    "trophies": 24,
+    "trophies": 26,
     "trophyIds": [
       "t41",
       "t11",
@@ -2483,7 +2513,9 @@
       "t183",
       "t186",
       "t173",
-      "t116"
+      "t116",
+      "t130",
+      "t189"
     ],
     "trophyDates": {
       "t41": "2026-07-29T14:09:45.278Z",
@@ -2510,16 +2542,18 @@
       "t183": "2026-10-06T14:56:55.611Z",
       "t186": "2026-10-07T20:33:31.398Z",
       "t173": "2026-10-19T12:56:54.353Z",
-      "t116": "2026-11-01T19:28:50.220Z"
+      "t116": "2026-11-01T19:28:50.220Z",
+      "t130": "2026-11-11T17:30:22.388Z",
+      "t189": "2026-11-12T20:52:46.787Z"
     },
     "stats": {
-      "totalActiveDays": 49,
-      "docsReviewed": 49,
+      "totalActiveDays": 50,
+      "docsReviewed": 54,
       "draftsCreated": 23,
-      "errorsFixed": 87,
+      "errorsFixed": 140,
       "risksFound": 14,
-      "hoursSaved": 24.5,
-      "currentStreak": 3
+      "hoursSaved": 27,
+      "currentStreak": 4
     },
     "dashboardApps": [
       "auto_emailer",
