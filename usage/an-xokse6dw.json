@@ -1,7 +1,7 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-11-12T20:52:51.220Z",
+  "generatedAt": "2026-11-13T20:11:35.941Z",
   "days": [
     {
       "date": "2026-07-29",
@@ -1921,10 +1921,64 @@
     },
     {
       "date": "2026-11-12",
-      "toolsUsed": {},
-      "sessions": 1,
+      "toolsUsed": {
+        "auto_emailer": 2,
+        "draft": 2,
+        "error": 1
+      },
+      "sessions": 15,
       "firstActiveAt": 1794516766189,
-      "lastActiveAt": 1794516766189,
+      "lastActiveAt": 1794521989051,
+      "tokens": {
+        "gemini-flash-latest": {
+          "promptTokens": 77151,
+          "candidatesTokens": 15855,
+          "calls": 12
+        }
+      },
+      "tokensByTool": {
+        "_unknown": {
+          "gemini-flash-latest": {
+            "promptTokens": 55096,
+            "candidatesTokens": 10954,
+            "calls": 8
+          }
+        },
+        "draft": {
+          "gemini-flash-latest": {
+            "promptTokens": 2317,
+            "candidatesTokens": 2877,
+            "calls": 1
+          }
+        },
+        "error": {
+          "gemini-flash-latest": {
+            "promptTokens": 8768,
+            "candidatesTokens": 918,
+            "calls": 2
+          }
+        },
+        "auto_emailer": {
+          "gemini-flash-latest": {
+            "promptTokens": 10970,
+            "candidatesTokens": 1106,
+            "calls": 1
+          }
+        }
+      },
+      "estCostUSD": 0.010543,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
+    },
+    {
+      "date": "2026-11-13",
+      "toolsUsed": {},
+      "sessions": 4,
+      "firstActiveAt": 1794600690978,
+      "lastActiveAt": 1794600693863,
       "tokens": {},
       "tokensByTool": {},
       "estCostUSD": 0,
@@ -1941,7 +1995,7 @@
     "kernelVersion": "v3-2026-10-20-2013-e96510b",
     "kernelStamped": true,
     "installedAt": "2026-07-29T14:09:25.615Z",
-    "lastSeenAt": "2026-11-12T20:52:51.473Z",
+    "lastSeenAt": "2026-11-13T20:11:36.150Z",
     "settings": {
       "ai_model": "gemini-flash-latest",
       "ai_temperature": 1,
@@ -2548,12 +2602,12 @@
     },
     "stats": {
       "totalActiveDays": 50,
-      "docsReviewed": 54,
-      "draftsCreated": 23,
-      "errorsFixed": 140,
+      "docsReviewed": 55,
+      "draftsCreated": 24,
+      "errorsFixed": 141,
       "risksFound": 14,
-      "hoursSaved": 27,
-      "currentStreak": 4
+      "hoursSaved": 27.5,
+      "currentStreak": 5
     },
     "dashboardApps": [
       "auto_emailer",
