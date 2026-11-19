@@ -1,7 +1,7 @@
 {
   "userName": "MD",
   "userKey": "md",
-  "generatedAt": "2026-11-18T20:40:33.187Z",
+  "generatedAt": "2026-11-19T20:27:20.551Z",
   "days": [
     {
       "date": "2026-08-24",
@@ -381,16 +381,19 @@
       "date": "2026-11-18",
       "toolsUsed": {
         "error": 1,
-        "final_review": 1
+        "final_review": 1,
+        "legal_review": 1,
+        "review_redlines": 1,
+        "agent_turn_draft": 1
       },
       "sessions": 2,
       "firstActiveAt": 1795012509962,
-      "lastActiveAt": 1795034428176,
+      "lastActiveAt": 1795034479204,
       "tokens": {
         "gemini-flash-latest": {
-          "promptTokens": 15755,
-          "candidatesTokens": 207,
-          "calls": 1
+          "promptTokens": 32967,
+          "candidatesTokens": 1177,
+          "calls": 10
         }
       },
       "tokensByTool": {
@@ -400,9 +403,38 @@
             "candidatesTokens": 207,
             "calls": 1
           }
+        },
+        "review_redlines": {
+          "gemini-flash-latest": {
+            "promptTokens": 9999,
+            "candidatesTokens": 437,
+            "calls": 6
+          }
+        },
+        "agent_turn_draft": {
+          "gemini-flash-latest": {
+            "promptTokens": 7213,
+            "candidatesTokens": 533,
+            "calls": 3
+          }
         }
       },
-      "estCostUSD": 0.001244,
+      "estCostUSD": 0.002826,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
+    },
+    {
+      "date": "2026-11-19",
+      "toolsUsed": {},
+      "sessions": 1,
+      "firstActiveAt": 1795120035538,
+      "lastActiveAt": 1795120035538,
+      "tokens": {},
+      "tokensByTool": {},
+      "estCostUSD": 0,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -416,7 +448,7 @@
     "kernelVersion": "v3-2026-10-20-2013-e96510b",
     "kernelStamped": true,
     "installedAt": "2026-08-24T19:49:37.524Z",
-    "lastSeenAt": "2026-11-18T20:40:34.071Z",
+    "lastSeenAt": "2026-11-19T20:27:20.793Z",
     "settings": {
       "ai_model": "gemini-flash-latest",
       "ai_temperature": 1,
@@ -783,7 +815,7 @@
         "at": 1793020995757
       }
     ],
-    "trophies": 10,
+    "trophies": 11,
     "trophyIds": [
       "t1",
       "t41",
@@ -794,7 +826,8 @@
       "t138",
       "t11",
       "t162",
-      "t107"
+      "t107",
+      "t111"
     ],
     "trophyDates": {
       "t1": "2026-09-09T12:57:44.606Z",
@@ -807,16 +840,17 @@
       "t11": "2026-10-22T18:21:40.410Z",
       "deal360": "2026-10-22T18:22:00.780Z",
       "t162": "2026-10-22T18:30:44.408Z",
-      "t107": "2026-10-22T18:54:07.161Z"
+      "t107": "2026-10-22T18:54:07.161Z",
+      "t111": "2026-11-19T20:27:15.864Z"
     },
     "stats": {
-      "totalActiveDays": 12,
-      "docsReviewed": 20,
+      "totalActiveDays": 13,
+      "docsReviewed": 21,
       "draftsCreated": 4,
       "errorsFixed": 38,
       "risksFound": 0,
-      "hoursSaved": 10,
-      "currentStreak": 2
+      "hoursSaved": 10.5,
+      "currentStreak": 3
     },
     "dashboardApps": [
       "auto_emailer",
