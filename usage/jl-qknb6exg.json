@@ -1,7 +1,7 @@
 {
   "userName": "JL",
   "userKey": "jl",
-  "generatedAt": "2026-11-18T19:14:36.305Z",
+  "generatedAt": "2026-11-19T19:03:11.522Z",
   "days": [
     {
       "date": "2026-07-10",
@@ -1022,15 +1022,17 @@
     },
     {
       "date": "2026-11-18",
-      "toolsUsed": {},
-      "sessions": 2,
+      "toolsUsed": {
+        "error": 2
+      },
+      "sessions": 3,
       "firstActiveAt": 1795011953388,
-      "lastActiveAt": 1795029271302,
+      "lastActiveAt": 1795030356000,
       "tokens": {
         "gemini-flash-latest": {
-          "promptTokens": 41456,
-          "candidatesTokens": 3206,
-          "calls": 2
+          "promptTokens": 47340,
+          "candidatesTokens": 4366,
+          "calls": 4
         }
       },
       "tokensByTool": {
@@ -1040,9 +1042,31 @@
             "candidatesTokens": 3206,
             "calls": 2
           }
+        },
+        "error": {
+          "gemini-flash-latest": {
+            "promptTokens": 5884,
+            "candidatesTokens": 1160,
+            "calls": 2
+          }
         }
       },
-      "estCostUSD": 0.004071,
+      "estCostUSD": 0.00486,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
+    },
+    {
+      "date": "2026-11-19",
+      "toolsUsed": {},
+      "sessions": 1,
+      "firstActiveAt": 1795114986511,
+      "lastActiveAt": 1795114986511,
+      "tokens": {},
+      "tokensByTool": {},
+      "estCostUSD": 0,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -1056,7 +1080,7 @@
     "kernelVersion": "v3-2026-10-20-2013-e96510b",
     "kernelStamped": true,
     "installedAt": "2026-07-10T13:27:22.388Z",
-    "lastSeenAt": "2026-11-18T19:14:36.667Z",
+    "lastSeenAt": "2026-11-19T19:03:11.806Z",
     "settings": {
       "ai_model": "gemini-flash-latest",
       "ai_temperature": 1,
@@ -1134,7 +1158,8 @@
       "tool.ask_eli.respond_all": true,
       "tool.eli_agent.td_wait_v2": true,
       "tool.eli_agent.td_email_handoff": true,
-      "tool.eli_agent.precedent_prompt": false
+      "tool.eli_agent.precedent_prompt": false,
+      "ai_off": false
     },
     "tools": [
       {
@@ -1165,11 +1190,6 @@
       {
         "id": "auto_emailer",
         "releasedAt": "2026-10-20T12:28:11.503Z",
-        "disabled": false
-      },
-      {
-        "id": "build_draft",
-        "releasedAt": "2026-10-16T03:44:07.260Z",
         "disabled": false
       },
       {
@@ -1265,11 +1285,6 @@
       {
         "id": "eli_mascot_studio",
         "releasedAt": "2026-06-28T19:33:33.041Z",
-        "disabled": false
-      },
-      {
-        "id": "eli_settings",
-        "releasedAt": "2026-09-12T00:07:26.207Z",
         "disabled": false
       },
       {
@@ -1406,6 +1421,16 @@
         "id": "whats_new",
         "releasedAt": "2026-09-11T15:02:45.524Z",
         "disabled": false
+      },
+      {
+        "id": "eli_settings",
+        "releasedAt": "2026-11-19T04:33:53.960Z",
+        "disabled": false
+      },
+      {
+        "id": "build_draft",
+        "releasedAt": "2026-11-19T04:43:04.833Z",
+        "disabled": false
       }
     ],
     "appliedOverrides": [
@@ -1442,7 +1467,7 @@
         "at": 1794942671538
       }
     ],
-    "trophies": 33,
+    "trophies": 34,
     "trophyIds": [
       "t26",
       "t56",
@@ -1476,7 +1501,8 @@
       "t168",
       "t106",
       "t174",
-      "t101"
+      "t101",
+      "t183"
     ],
     "trophyDates": {
       "t26": 1790790137906,
@@ -1511,24 +1537,25 @@
       "t168": 1790790137906,
       "t106": 1790790137906,
       "t174": "2026-09-30T17:42:59.454Z",
-      "t101": "2026-09-30T17:42:59.455Z"
+      "t101": "2026-09-30T17:42:59.455Z",
+      "t183": "2026-11-19T19:03:07.344Z"
     },
     "stats": {
-      "totalActiveDays": 29,
-      "docsReviewed": 30,
+      "totalActiveDays": 30,
+      "docsReviewed": 32,
       "draftsCreated": 21,
-      "errorsFixed": 21,
+      "errorsFixed": 25,
       "risksFound": 12,
-      "hoursSaved": 15,
-      "currentStreak": 2
+      "hoursSaved": 16,
+      "currentStreak": 3
     },
     "dashboardApps": [
       "auto_emailer",
-      "build_draft",
       "error_review",
       "final_review",
       "legal_review",
-      "team_guidance"
+      "team_guidance",
+      "build_draft"
     ],
     "dashboardCustomized": false
   }
