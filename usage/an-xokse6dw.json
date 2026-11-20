@@ -1,7 +1,7 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-11-18T14:07:10.930Z",
+  "generatedAt": "2026-11-20T04:52:59.345Z",
   "days": [
     {
       "date": "2026-07-29",
@@ -2089,11 +2089,27 @@
     {
       "date": "2026-11-18",
       "toolsUsed": {
-        "draft_templates": 1
+        "draft_templates": 1,
+        "draft": 2
       },
-      "sessions": 1,
+      "sessions": 3,
       "firstActiveAt": 1795010825916,
-      "lastActiveAt": 1795010830280,
+      "lastActiveAt": 1795012096641,
+      "tokens": {},
+      "tokensByTool": {},
+      "estCostUSD": 0,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
+    },
+    {
+      "date": "2026-11-19",
+      "toolsUsed": {},
+      "sessions": 2,
+      "firstActiveAt": 1795150369268,
+      "lastActiveAt": 1795150374338,
       "tokens": {},
       "tokensByTool": {},
       "estCostUSD": 0,
@@ -2110,7 +2126,7 @@
     "kernelVersion": "v3-2026-10-20-2013-e96510b",
     "kernelStamped": true,
     "installedAt": "2026-07-29T14:09:25.615Z",
-    "lastSeenAt": "2026-11-18T14:07:11.416Z",
+    "lastSeenAt": "2026-11-20T04:52:59.557Z",
     "settings": {
       "ai_model": "gemini-flash-latest",
       "ai_temperature": 1,
@@ -2160,6 +2176,7 @@
       "build_draft.fileNamePattern.colgate": "[Ref] [Party] - [Type] (CP Draft [Date])",
       "build_draft.fileNamePattern.hills": "[Ref] [Party] - [Type] (HPN Draft [Date])",
       "ai_image_model": "gemini-3.1-flash-image-preview",
+      "ai_off": false,
       "ask_dock_enabled": true,
       "dashboard_widgets_enabled": true,
       "light_mode": false,
@@ -2268,7 +2285,7 @@
       },
       {
         "id": "build_draft",
-        "releasedAt": "2026-10-16T03:44:07.260Z",
+        "releasedAt": "2026-11-19T04:43:04.833Z",
         "disabled": false
       },
       {
@@ -2378,7 +2395,7 @@
       },
       {
         "id": "eli_settings",
-        "releasedAt": "2026-09-12T00:07:26.207Z",
+        "releasedAt": "2026-11-19T04:33:53.960Z",
         "disabled": false
       },
       {
@@ -2722,7 +2739,7 @@
       "errorsFixed": 142,
       "risksFound": 14,
       "hoursSaved": 28,
-      "currentStreak": 3
+      "currentStreak": 4
     },
     "dashboardApps": [
       "auto_emailer",
