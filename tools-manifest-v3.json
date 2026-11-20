@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kernelMajor": 3,
-  "lastUpdated": "2026-11-19T04:46:33.921Z",
+  "lastUpdated": "2026-11-20T05:42:57.431Z",
   "tools": [
     {
       "id": "tool_manager",
@@ -399,9 +399,9 @@
     {
       "id": "ask_eli_team",
       "version": null,
-      "lastUpdated": "2026-10-25T13:31:03.266Z",
+      "lastUpdated": "2026-11-20T05:40:36.156Z",
       "filename": "ask_eli_team-v3.json",
-      "size": 118688,
+      "size": 118999,
       "label": "Ask ELI Team",
       "kind": "tool",
       "category": "System",
@@ -1151,6 +1151,20 @@
       "changelog": ""
     },
     {
+      "id": "email_formatter",
+      "version": null,
+      "lastUpdated": "2026-11-20T05:39:14.050Z",
+      "filename": "email_formatter-v3.json",
+      "size": 3730,
+      "label": "Email Formatter",
+      "kind": "tool",
+      "category": "Tools - ELI Core",
+      "audience": [
+        "all"
+      ],
+      "changelog": ""
+    },
+    {
       "id": "__data_catalog",
       "lastUpdated": "2026-05-13T02:23:37.229Z",
       "filename": "catalog.json",
@@ -1385,6 +1399,7 @@
         "final_review",
         "playbook_manager",
         "email_helper",
+        "email_formatter",
         "focus_flow",
         "eli5",
         "review_redlines",
