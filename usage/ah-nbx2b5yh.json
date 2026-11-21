@@ -1,7 +1,7 @@
 {
   "userName": "A(",
   "userKey": "ah",
-  "generatedAt": "2026-11-19T03:27:53.267Z",
+  "generatedAt": "2026-11-21T22:14:05.554Z",
   "days": [
     {
       "date": "2026-09-11",
@@ -1309,11 +1309,27 @@
     {
       "date": "2026-11-18",
       "toolsUsed": {
-        "draft": 1
+        "draft": 8,
+        "draft_templates": 2
       },
-      "sessions": 1,
+      "sessions": 6,
       "firstActiveAt": 1795058868250,
-      "lastActiveAt": 1795058868882,
+      "lastActiveAt": 1795063221765,
+      "tokens": {},
+      "tokensByTool": {},
+      "estCostUSD": 0,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
+    },
+    {
+      "date": "2026-11-21",
+      "toolsUsed": {},
+      "sessions": 1,
+      "firstActiveAt": 1795299240533,
+      "lastActiveAt": 1795299240533,
       "tokens": {},
       "tokensByTool": {},
       "estCostUSD": 0,
@@ -1330,7 +1346,7 @@
     "kernelVersion": "v3-2026-10-20-2013-e96510b",
     "kernelStamped": true,
     "installedAt": "2026-07-31T00:45:31.641Z",
-    "lastSeenAt": "2026-11-19T03:27:53.481Z",
+    "lastSeenAt": "2026-11-21T22:14:05.742Z",
     "settings": {
       "ai_model": "gemini-flash-latest",
       "ai_temperature": 1,
@@ -1380,6 +1396,7 @@
       "build_draft.fileNamePattern.colgate": "[Ref] [Party] - [Type] (CP Draft [Date])",
       "build_draft.fileNamePattern.hills": "[Ref] [Party] - [Type] (HPN Draft [Date])",
       "ai_image_model": "gemini-3.1-flash-image-preview",
+      "ai_off": false,
       "ask_dock_enabled": true,
       "dashboard_widgets_enabled": true,
       "light_mode": false,
@@ -1477,18 +1494,8 @@
         "disabled": false
       },
       {
-        "id": "ask_eli_team",
-        "releasedAt": "2026-10-25T13:31:03.266Z",
-        "disabled": false
-      },
-      {
         "id": "auto_emailer",
         "releasedAt": "2026-10-20T12:28:11.503Z",
-        "disabled": false
-      },
-      {
-        "id": "build_draft",
-        "releasedAt": "2026-10-16T03:44:07.260Z",
         "disabled": false
       },
       {
@@ -1598,7 +1605,7 @@
       },
       {
         "id": "eli_settings",
-        "releasedAt": "2026-09-12T00:07:26.207Z",
+        "releasedAt": "2026-11-19T04:33:53.960Z",
         "disabled": false
       },
       {
@@ -1805,6 +1812,21 @@
         "id": "workflow_creator",
         "releasedAt": "2026-10-14T05:45:43.675Z",
         "disabled": false
+      },
+      {
+        "id": "email_formatter",
+        "releasedAt": "2026-11-20T05:39:14.050Z",
+        "disabled": false
+      },
+      {
+        "id": "ask_eli_team",
+        "releasedAt": "2026-11-20T05:40:36.156Z",
+        "disabled": false
+      },
+      {
+        "id": "build_draft",
+        "releasedAt": "2026-11-19T04:43:04.833Z",
+        "disabled": false
       }
     ],
     "appliedOverrides": [
@@ -1932,13 +1954,13 @@
       "t172": "2026-10-19T04:04:50.333Z"
     },
     "stats": {
-      "totalActiveDays": 23,
+      "totalActiveDays": 24,
       "docsReviewed": 63,
-      "draftsCreated": 8,
+      "draftsCreated": 9,
       "errorsFixed": 124,
       "risksFound": 61,
       "hoursSaved": 31.5,
-      "currentStreak": 2
+      "currentStreak": 1
     },
     "dashboardApps": [
       "legal_review",
