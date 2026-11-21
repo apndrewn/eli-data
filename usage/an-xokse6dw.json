@@ -1,7 +1,7 @@
 {
   "userName": "AN",
   "userKey": "an",
-  "generatedAt": "2026-11-21T01:33:35.938Z",
+  "generatedAt": "2026-11-21T20:40:41.030Z",
   "days": [
     {
       "date": "2026-07-29",
@@ -2147,20 +2147,21 @@
       "toolsUsed": {
         "email_formatter": 1,
         "auto_emailer": 2,
-        "docuscrub": 5,
+        "docuscrub": 7,
         "draft_audit": 1,
         "draft_templates": 1,
-        "demo": 1,
-        "tour": 2
+        "demo": 2,
+        "tour": 2,
+        "error": 1
       },
-      "sessions": 9,
+      "sessions": 10,
       "firstActiveAt": 1795150803551,
-      "lastActiveAt": 1795224813656,
+      "lastActiveAt": 1795225960743,
       "tokens": {
         "gemini-flash-latest": {
-          "promptTokens": 32596,
-          "candidatesTokens": 3554,
-          "calls": 5
+          "promptTokens": 50363,
+          "candidatesTokens": 9728,
+          "calls": 9
         }
       },
       "tokensByTool": {
@@ -2177,9 +2178,33 @@
             "candidatesTokens": 2290,
             "calls": 2
           }
+        },
+        "error": {
+          "gemini-flash-latest": {
+            "promptTokens": 17767,
+            "candidatesTokens": 6174,
+            "calls": 4
+          }
         }
       },
-      "estCostUSD": 0.003511,
+      "estCostUSD": 0.006696,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
+    },
+    {
+      "date": "2026-11-21",
+      "toolsUsed": {
+        "draft": 1
+      },
+      "sessions": 3,
+      "firstActiveAt": 1795293628964,
+      "lastActiveAt": 1795293640175,
+      "tokens": {},
+      "tokensByTool": {},
+      "estCostUSD": 0,
       "drafts": {
         "byType": {},
         "byTemplate": {},
@@ -2193,7 +2218,7 @@
     "kernelVersion": "v3-2026-10-20-2013-e96510b",
     "kernelStamped": true,
     "installedAt": "2026-07-29T14:09:25.615Z",
-    "lastSeenAt": "2026-11-21T01:33:36.153Z",
+    "lastSeenAt": "2026-11-21T20:40:41.219Z",
     "settings": {
       "ai_model": "gemini-flash-latest",
       "ai_temperature": 1,
@@ -2746,7 +2771,7 @@
         "at": 1793018183246
       }
     ],
-    "trophies": 26,
+    "trophies": 27,
     "trophyIds": [
       "t41",
       "t11",
@@ -2773,7 +2798,8 @@
       "t173",
       "t116",
       "t130",
-      "t189"
+      "t189",
+      "t115"
     ],
     "trophyDates": {
       "t41": "2026-07-29T14:09:45.278Z",
@@ -2802,16 +2828,17 @@
       "t173": "2026-10-19T12:56:54.353Z",
       "t116": "2026-11-01T19:28:50.220Z",
       "t130": "2026-11-11T17:30:22.388Z",
-      "t189": "2026-11-12T20:52:46.787Z"
+      "t189": "2026-11-12T20:52:46.787Z",
+      "t115": "2026-11-21T01:33:40.720Z"
     },
     "stats": {
       "totalActiveDays": 55,
-      "docsReviewed": 56,
+      "docsReviewed": 57,
       "draftsCreated": 25,
       "errorsFixed": 142,
       "risksFound": 14,
-      "hoursSaved": 28,
-      "currentStreak": 5
+      "hoursSaved": 28.5,
+      "currentStreak": 6
     },
     "dashboardApps": [
       "auto_emailer",
