@@ -1,7 +1,7 @@
 {
   "userName": "AR",
   "userKey": "ar",
-  "generatedAt": "2026-11-19T14:33:41.024Z",
+  "generatedAt": "2026-11-23T15:59:21.703Z",
   "days": [
     {
       "date": "2026-06-30",
@@ -2880,11 +2880,50 @@
     {
       "date": "2026-11-19",
       "toolsUsed": {
-        "draft": 1
+        "draft": 1,
+        "error": 1
       },
       "sessions": 1,
       "firstActiveAt": 1795098815800,
-      "lastActiveAt": 1795098818826,
+      "lastActiveAt": 1795099004678,
+      "tokens": {
+        "gemini-flash-latest": {
+          "promptTokens": 11614,
+          "candidatesTokens": 3003,
+          "calls": 5
+        }
+      },
+      "tokensByTool": {
+        "draft": {
+          "gemini-flash-latest": {
+            "promptTokens": 2745,
+            "candidatesTokens": 1949,
+            "calls": 3
+          }
+        },
+        "error": {
+          "gemini-flash-latest": {
+            "promptTokens": 8869,
+            "candidatesTokens": 1054,
+            "calls": 2
+          }
+        }
+      },
+      "estCostUSD": 0.001772,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
+    },
+    {
+      "date": "2026-11-23",
+      "toolsUsed": {
+        "draft": 1
+      },
+      "sessions": 1,
+      "firstActiveAt": 1795449556265,
+      "lastActiveAt": 1795449558438,
       "tokens": {},
       "tokensByTool": {},
       "estCostUSD": 0,
@@ -2901,7 +2940,7 @@
     "kernelVersion": "v3-2026-10-20-2013-e96510b",
     "kernelStamped": true,
     "installedAt": "2026-06-30T18:29:18.400Z",
-    "lastSeenAt": "2026-11-19T14:33:41.535Z",
+    "lastSeenAt": "2026-11-23T15:59:23.054Z",
     "settings": {
       "ai_model": "gemini-flash-latest",
       "ai_temperature": 1,
@@ -3381,13 +3420,13 @@
       "t74": "2026-11-17T16:17:01.716Z"
     },
     "stats": {
-      "totalActiveDays": 68,
-      "docsReviewed": 105,
-      "draftsCreated": 75,
-      "errorsFixed": 341,
+      "totalActiveDays": 69,
+      "docsReviewed": 106,
+      "draftsCreated": 76,
+      "errorsFixed": 344,
       "risksFound": 23,
-      "hoursSaved": 52.5,
-      "currentStreak": 4
+      "hoursSaved": 53,
+      "currentStreak": 1
     },
     "dashboardApps": [
       "legal_review",
