@@ -1,7 +1,7 @@
 {
   "userName": "RF",
   "userKey": "rf",
-  "generatedAt": "2026-11-12T17:32:53.794Z",
+  "generatedAt": "2026-11-24T18:35:06.602Z",
   "days": [
     {
       "date": "2026-06-16",
@@ -474,10 +474,49 @@
     },
     {
       "date": "2026-11-12",
+      "toolsUsed": {
+        "draft": 2,
+        "error": 1
+      },
+      "sessions": 3,
+      "firstActiveAt": 1794504768790,
+      "lastActiveAt": 1794505861991,
+      "tokens": {
+        "gemini-flash-latest": {
+          "promptTokens": 7920,
+          "candidatesTokens": 2120,
+          "calls": 4
+        }
+      },
+      "tokensByTool": {
+        "draft": {
+          "gemini-flash-latest": {
+            "promptTokens": 2579,
+            "candidatesTokens": 871,
+            "calls": 2
+          }
+        },
+        "error": {
+          "gemini-flash-latest": {
+            "promptTokens": 5341,
+            "candidatesTokens": 1249,
+            "calls": 2
+          }
+        }
+      },
+      "estCostUSD": 0.00123,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
+    },
+    {
+      "date": "2026-11-24",
       "toolsUsed": {},
       "sessions": 1,
-      "firstActiveAt": 1794504768790,
-      "lastActiveAt": 1794504768790,
+      "firstActiveAt": 1795545301599,
+      "lastActiveAt": 1795545301599,
       "tokens": {},
       "tokensByTool": {},
       "estCostUSD": 0,
@@ -494,7 +533,7 @@
     "kernelVersion": "v3-2026-10-20-2013-e96510b",
     "kernelStamped": true,
     "installedAt": "2026-06-16T15:46:13.505Z",
-    "lastSeenAt": "2026-11-12T17:32:54.009Z",
+    "lastSeenAt": "2026-11-24T18:35:06.880Z",
     "settings": {
       "ai_model": "gemini-flash-latest",
       "ai_temperature": 1,
@@ -572,7 +611,8 @@
       "tool.ask_eli.respond_all": true,
       "tool.eli_agent.td_wait_v2": true,
       "tool.eli_agent.td_email_handoff": true,
-      "tool.eli_agent.precedent_prompt": false
+      "tool.eli_agent.precedent_prompt": false,
+      "ai_off": false
     },
     "tools": [
       {
@@ -596,18 +636,8 @@
         "disabled": false
       },
       {
-        "id": "ask_eli_team",
-        "releasedAt": "2026-10-25T13:31:03.266Z",
-        "disabled": false
-      },
-      {
         "id": "auto_emailer",
         "releasedAt": "2026-10-20T12:28:11.503Z",
-        "disabled": false
-      },
-      {
-        "id": "build_draft",
-        "releasedAt": "2026-10-16T03:44:07.260Z",
         "disabled": false
       },
       {
@@ -703,11 +733,6 @@
       {
         "id": "eli_mascot_studio",
         "releasedAt": "2026-06-28T19:33:33.041Z",
-        "disabled": false
-      },
-      {
-        "id": "eli_settings",
-        "releasedAt": "2026-09-12T00:07:26.207Z",
         "disabled": false
       },
       {
@@ -839,6 +864,26 @@
         "id": "whats_new",
         "releasedAt": "2026-09-11T15:02:45.524Z",
         "disabled": false
+      },
+      {
+        "id": "email_formatter",
+        "releasedAt": "2026-11-20T05:39:14.050Z",
+        "disabled": false
+      },
+      {
+        "id": "ask_eli_team",
+        "releasedAt": "2026-11-20T05:40:36.156Z",
+        "disabled": false
+      },
+      {
+        "id": "eli_settings",
+        "releasedAt": "2026-11-19T04:33:53.960Z",
+        "disabled": false
+      },
+      {
+        "id": "build_draft",
+        "releasedAt": "2026-11-19T04:43:04.833Z",
+        "disabled": false
       }
     ],
     "appliedOverrides": [
@@ -899,21 +944,21 @@
       "t162": "2026-08-24T14:20:02.151Z"
     },
     "stats": {
-      "totalActiveDays": 14,
-      "docsReviewed": 11,
-      "draftsCreated": 3,
-      "errorsFixed": 12,
+      "totalActiveDays": 15,
+      "docsReviewed": 12,
+      "draftsCreated": 4,
+      "errorsFixed": 18,
       "risksFound": 0,
-      "hoursSaved": 5.5,
+      "hoursSaved": 6,
       "currentStreak": 1
     },
     "dashboardApps": [
       "auto_emailer",
-      "build_draft",
       "error_review",
       "final_review",
       "legal_review",
-      "team_guidance"
+      "team_guidance",
+      "build_draft"
     ],
     "dashboardCustomized": false
   }
