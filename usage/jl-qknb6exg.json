@@ -1,7 +1,7 @@
 {
   "userName": "JL",
   "userKey": "jl",
-  "generatedAt": "2026-11-24T21:15:43.281Z",
+  "generatedAt": "2026-11-24T21:15:50.100Z",
   "days": [
     {
       "date": "2026-07-10",
@@ -1078,9 +1078,9 @@
     {
       "date": "2026-11-24",
       "toolsUsed": {},
-      "sessions": 1,
+      "sessions": 2,
       "firstActiveAt": 1795554938276,
-      "lastActiveAt": 1795554938276,
+      "lastActiveAt": 1795554945085,
       "tokens": {},
       "tokensByTool": {},
       "estCostUSD": 0,
@@ -1097,7 +1097,7 @@
     "kernelVersion": "v3-2026-10-20-2013-e96510b",
     "kernelStamped": true,
     "installedAt": "2026-07-10T13:27:22.388Z",
-    "lastSeenAt": "2026-11-24T21:15:43.542Z",
+    "lastSeenAt": "2026-11-24T21:15:50.355Z",
     "settings": {
       "ai_model": "gemini-flash-latest",
       "ai_temperature": 1,
@@ -1197,6 +1197,11 @@
       {
         "id": "ask_eli",
         "releasedAt": "2026-11-01T19:56:22.629Z",
+        "disabled": false
+      },
+      {
+        "id": "ask_eli_team",
+        "releasedAt": "2026-11-20T05:40:36.156Z",
         "disabled": false
       },
       {
@@ -1330,6 +1335,11 @@
         "disabled": false
       },
       {
+        "id": "email_formatter",
+        "releasedAt": "2026-11-20T05:39:14.050Z",
+        "disabled": false
+      },
+      {
         "id": "email_helper",
         "releasedAt": "2026-05-28T05:15:56.728Z",
         "disabled": false
@@ -1442,16 +1452,6 @@
       {
         "id": "whats_new",
         "releasedAt": "2026-09-11T15:02:45.524Z",
-        "disabled": false
-      },
-      {
-        "id": "email_formatter",
-        "releasedAt": "2026-11-20T05:39:14.050Z",
-        "disabled": false
-      },
-      {
-        "id": "ask_eli_team",
-        "releasedAt": "2026-11-20T05:40:36.156Z",
         "disabled": false
       }
     ],
