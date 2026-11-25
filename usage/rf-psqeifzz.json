@@ -1,7 +1,7 @@
 {
   "userName": "RF",
   "userKey": "rf",
-  "generatedAt": "2026-11-24T18:35:06.602Z",
+  "generatedAt": "2026-11-25T14:30:05.572Z",
   "days": [
     {
       "date": "2026-06-16",
@@ -513,10 +513,52 @@
     },
     {
       "date": "2026-11-24",
-      "toolsUsed": {},
+      "toolsUsed": {
+        "legal_review": 2,
+        "risk": 1,
+        "ask_dock": 1
+      },
       "sessions": 1,
       "firstActiveAt": 1795545301599,
-      "lastActiveAt": 1795545301599,
+      "lastActiveAt": 1795545607358,
+      "tokens": {
+        "gemini-flash-latest": {
+          "promptTokens": 3767,
+          "candidatesTokens": 1405,
+          "calls": 2
+        }
+      },
+      "tokensByTool": {
+        "risk": {
+          "gemini-flash-latest": {
+            "promptTokens": 2716,
+            "candidatesTokens": 1258,
+            "calls": 1
+          }
+        },
+        "ask_dock": {
+          "gemini-flash-latest": {
+            "promptTokens": 1051,
+            "candidatesTokens": 147,
+            "calls": 1
+          }
+        }
+      },
+      "estCostUSD": 0.000704,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
+    },
+    {
+      "date": "2026-11-25",
+      "toolsUsed": {
+        "legal_review": 1
+      },
+      "sessions": 1,
+      "firstActiveAt": 1795617000564,
+      "lastActiveAt": 1795617004181,
       "tokens": {},
       "tokensByTool": {},
       "estCostUSD": 0,
@@ -533,7 +575,7 @@
     "kernelVersion": "v3-2026-10-20-2013-e96510b",
     "kernelStamped": true,
     "installedAt": "2026-06-16T15:46:13.505Z",
-    "lastSeenAt": "2026-11-24T18:35:06.880Z",
+    "lastSeenAt": "2026-11-25T14:30:05.963Z",
     "settings": {
       "ai_model": "gemini-flash-latest",
       "ai_temperature": 1,
@@ -583,6 +625,7 @@
       "build_draft.fileNamePattern.colgate": "[Ref] [Party] - [Type] (CP Draft [Date])",
       "build_draft.fileNamePattern.hills": "[Ref] [Party] - [Type] (HPN Draft [Date])",
       "ai_image_model": "gemini-3.1-flash-image-preview",
+      "ai_off": false,
       "ask_dock_enabled": true,
       "dashboard_widgets_enabled": true,
       "light_mode": false,
@@ -611,8 +654,7 @@
       "tool.ask_eli.respond_all": true,
       "tool.eli_agent.td_wait_v2": true,
       "tool.eli_agent.td_email_handoff": true,
-      "tool.eli_agent.precedent_prompt": false,
-      "ai_off": false
+      "tool.eli_agent.precedent_prompt": false
     },
     "tools": [
       {
@@ -636,8 +678,18 @@
         "disabled": false
       },
       {
+        "id": "ask_eli_team",
+        "releasedAt": "2026-11-20T05:40:36.156Z",
+        "disabled": false
+      },
+      {
         "id": "auto_emailer",
         "releasedAt": "2026-10-20T12:28:11.503Z",
+        "disabled": false
+      },
+      {
+        "id": "build_draft",
+        "releasedAt": "2026-11-19T04:43:04.833Z",
         "disabled": false
       },
       {
@@ -736,6 +788,11 @@
         "disabled": false
       },
       {
+        "id": "eli_settings",
+        "releasedAt": "2026-11-19T04:33:53.960Z",
+        "disabled": false
+      },
+      {
         "id": "eli_stats",
         "releasedAt": "2026-10-16T16:26:24.452Z",
         "disabled": false
@@ -753,6 +810,11 @@
       {
         "id": "eli_writer",
         "releasedAt": "2026-10-25T15:28:32.192Z",
+        "disabled": false
+      },
+      {
+        "id": "email_formatter",
+        "releasedAt": "2026-11-20T05:39:14.050Z",
         "disabled": false
       },
       {
@@ -864,26 +926,6 @@
         "id": "whats_new",
         "releasedAt": "2026-09-11T15:02:45.524Z",
         "disabled": false
-      },
-      {
-        "id": "email_formatter",
-        "releasedAt": "2026-11-20T05:39:14.050Z",
-        "disabled": false
-      },
-      {
-        "id": "ask_eli_team",
-        "releasedAt": "2026-11-20T05:40:36.156Z",
-        "disabled": false
-      },
-      {
-        "id": "eli_settings",
-        "releasedAt": "2026-11-19T04:33:53.960Z",
-        "disabled": false
-      },
-      {
-        "id": "build_draft",
-        "releasedAt": "2026-11-19T04:43:04.833Z",
-        "disabled": false
       }
     ],
     "appliedOverrides": [
@@ -941,24 +983,25 @@
       "t11": "2026-06-25T17:43:04.042Z",
       "t156": "2026-06-25T17:56:44.084Z",
       "t138": "2026-08-24T14:12:19.344Z",
-      "t162": "2026-08-24T14:20:02.151Z"
+      "t162": "2026-08-24T14:20:02.151Z",
+      "deal360": "2026-11-24T18:35:59.791Z"
     },
     "stats": {
-      "totalActiveDays": 15,
-      "docsReviewed": 12,
+      "totalActiveDays": 16,
+      "docsReviewed": 13,
       "draftsCreated": 4,
       "errorsFixed": 18,
-      "risksFound": 0,
-      "hoursSaved": 6,
-      "currentStreak": 1
+      "risksFound": 4,
+      "hoursSaved": 6.5,
+      "currentStreak": 2
     },
     "dashboardApps": [
       "auto_emailer",
+      "build_draft",
       "error_review",
       "final_review",
       "legal_review",
-      "team_guidance",
-      "build_draft"
+      "team_guidance"
     ],
     "dashboardCustomized": false
   }
