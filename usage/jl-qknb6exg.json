@@ -1,7 +1,7 @@
 {
   "userName": "JL",
   "userKey": "jl",
-  "generatedAt": "2026-11-24T21:15:50.100Z",
+  "generatedAt": "2026-11-25T21:05:59.003Z",
   "days": [
     {
       "date": "2026-07-10",
@@ -1077,10 +1077,30 @@
     },
     {
       "date": "2026-11-24",
-      "toolsUsed": {},
-      "sessions": 2,
+      "toolsUsed": {
+        "docuscrub": 1,
+        "focus_flow": 2
+      },
+      "sessions": 3,
       "firstActiveAt": 1795554938276,
-      "lastActiveAt": 1795554945085,
+      "lastActiveAt": 1795555018575,
+      "tokens": {},
+      "tokensByTool": {},
+      "estCostUSD": 0,
+      "drafts": {
+        "byType": {},
+        "byTemplate": {},
+        "total": 0
+      }
+    },
+    {
+      "date": "2026-11-25",
+      "toolsUsed": {
+        "draft": 1
+      },
+      "sessions": 1,
+      "firstActiveAt": 1795640753993,
+      "lastActiveAt": 1795640754329,
       "tokens": {},
       "tokensByTool": {},
       "estCostUSD": 0,
@@ -1097,7 +1117,7 @@
     "kernelVersion": "v3-2026-10-20-2013-e96510b",
     "kernelStamped": true,
     "installedAt": "2026-07-10T13:27:22.388Z",
-    "lastSeenAt": "2026-11-24T21:15:50.355Z",
+    "lastSeenAt": "2026-11-25T21:05:59.314Z",
     "settings": {
       "ai_model": "gemini-flash-latest",
       "ai_temperature": 1,
@@ -1489,7 +1509,7 @@
         "at": 1794942671538
       }
     ],
-    "trophies": 34,
+    "trophies": 35,
     "trophyIds": [
       "t26",
       "t56",
@@ -1524,7 +1544,8 @@
       "t106",
       "t174",
       "t101",
-      "t183"
+      "t183",
+      "t136"
     ],
     "trophyDates": {
       "t26": 1790790137906,
@@ -1560,16 +1581,18 @@
       "t106": 1790790137906,
       "t174": "2026-09-30T17:42:59.454Z",
       "t101": "2026-09-30T17:42:59.455Z",
-      "t183": "2026-11-19T19:03:07.344Z"
+      "t183": "2026-11-19T19:03:07.344Z",
+      "t136": "2026-11-24T21:17:08.232Z",
+      "focus_flow": "2026-11-24T21:17:08.240Z"
     },
     "stats": {
-      "totalActiveDays": 31,
+      "totalActiveDays": 32,
       "docsReviewed": 32,
       "draftsCreated": 21,
       "errorsFixed": 25,
       "risksFound": 12,
       "hoursSaved": 16,
-      "currentStreak": 1
+      "currentStreak": 2
     },
     "dashboardApps": [
       "auto_emailer",
